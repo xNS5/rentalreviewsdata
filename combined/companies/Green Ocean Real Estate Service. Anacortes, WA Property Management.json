@@ -1,0 +1,63 @@
+{
+  "name": "Green Ocean Real Estate Service. Anacortes, WA Property Management",
+  "address": "715 Seafarers Way #100, Anacortes, WA 98221",
+  "company_type": "Property management company",
+  "review_count": 7,
+  "avg_review": 5.0,
+  "reviews": [
+    {
+      "author": "Sheila Hosner",
+      "rating": 5.0,
+      "review": "I have been very happy  with Alan Workman and the bookkeeping team at John L. Scott.  I feel I have been in good hands.",
+      "ownerResponse": [
+        {
+          "text": "Hi Sheila, Thank you so much for sharing your experience working with Allen and the team!"
+        }
+      ]
+    },
+    {
+      "author": "Jackson Chen",
+      "rating": 5.0,
+      "review": "Very satisfied with the customer service. They were very professional and timely. 10/10 highly recommended.",
+      "ownerResponse": [
+        {
+          "text": "Thank you very much for the review Jackson!"
+        }
+      ]
+    },
+    {
+      "author": "Bert Clay",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you!"
+        }
+      ]
+    },
+    {
+      "author": "Supremeteam gg",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you!"
+        }
+      ]
+    },
+    {
+      "author": "aaliyah cervantes",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joena Graham",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 2,
+  "adjusted_review_average": 5.0
+}

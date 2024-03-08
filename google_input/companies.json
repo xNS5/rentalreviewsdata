@@ -1,0 +1,800 @@
+[
+  {
+    "name": "Real Property Management Teyata",
+    "address": "119 N Commercial St Suite 910, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 57,
+    "avg_review": 4.8
+  },
+  {
+    "name": "DCI Property Management",
+    "address": "405 32nd St #302, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 14,
+    "avg_review": 4.9
+  },
+  {
+    "name": "OMNI Property Management",
+    "address": "909 Squalicum Way STE 107, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 59,
+    "avg_review": 4.5
+  },
+  {
+    "name": "PURE Property Management (previously Son-Rise)",
+    "address": "3800 Byron Ave STE 112, Bellingham, WA 98229",
+    "company_type": "Property management company",
+    "review_count": 99,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Utopia Property Management-Bellingham",
+    "address": "2900 Meridian St Suite #A, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 56,
+    "avg_review": 4.3
+  },
+  {
+    "name": "Local Property Management",
+    "address": "810 Harris Ave, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 10,
+    "avg_review": 4.7
+  },
+  {
+    "name": "Hammer Properties NW, Inc.",
+    "address": "1111 N Forest St, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 68,
+    "avg_review": 2.6
+  },
+  {
+    "name": "Daylight Properties",
+    "address": "1155 N State St #620, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 13,
+    "avg_review": 3.9
+  },
+  {
+    "name": "Evergreen Properties NW",
+    "address": "1211 Mill Ave #102, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 18,
+    "avg_review": 3.8
+  },
+  {
+    "name": "Chuckanut Property Management",
+    "address": "2100 Iron St, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 142,
+    "avg_review": 2.2
+  },
+  {
+    "name": "Pacific Continental Realty LLC",
+    "address": "114 W Magnolia St Suite 201, Bellingham, WA 98225",
+    "company_type": "Commercial real estate agency",
+    "review_count": 30,
+    "avg_review": 4.4
+  },
+  {
+    "name": "Access Real Estate Services LLC",
+    "address": "809 W Orchard Dr #8, Bellingham, WA 98225",
+    "company_type": "Real estate rental agency",
+    "review_count": 94,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Westview Real Estate",
+    "address": "112 E Maple St STE 101, Bellingham, WA 98225",
+    "company_type": "Real estate agency",
+    "review_count": 53,
+    "avg_review": 3.2
+  },
+  {
+    "name": "Roma Management",
+    "address": "557 W Bakerview Rd #108, Bellingham, WA 98226",
+    "company_type": "Property management company",
+    "review_count": 59,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Adams Property Management",
+    "address": "1344 King St #201, Bellingham, WA 98229",
+    "company_type": "Property management company",
+    "review_count": 6,
+    "avg_review": 3.5
+  },
+  {
+    "name": "Follis Realty LLC",
+    "address": "1313 E Maple St Ste 108, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 2,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Bob Lycan Property Management",
+    "address": "719 N Garden St, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 2,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Landmark Real Estate Management",
+    "address": "455 Stuart Rd, Bellingham, WA 98226",
+    "company_type": "Property management company",
+    "review_count": 504,
+    "avg_review": 3.2
+  },
+  {
+    "name": "Windermere Property Management By Ebright Wight",
+    "address": "541 W Bakerview Rd, Bellingham, WA 98226",
+    "company_type": "Property management company",
+    "review_count": 158,
+    "avg_review": 2.6
+  },
+  {
+    "name": "Sycamore Corporation",
+    "address": "1200 Harris Ave # 413, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 3,
+    "avg_review": 2.7
+  },
+  {
+    "name": "Optimus Property Solutions, Property Sales & Management",
+    "address": "5711 Vista Dr #101, Ferndale, WA 98248",
+    "company_type": "Property management company",
+    "review_count": 30,
+    "avg_review": 4.0
+  },
+  {
+    "name": "Lakeway Rentals",
+    "address": "3547 Lakeway Dr, Bellingham, WA 98229",
+    "company_type": "Property management company",
+    "review_count": 113,
+    "avg_review": 1.5
+  },
+  {
+    "name": "Blossom Management Corporation",
+    "address": "112 Ohio St STE 102, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "RPM Property Management Division",
+    "address": "424 W Bakerview Rd #109, Bellingham, WA 98226",
+    "company_type": "Property management company",
+    "review_count": 14,
+    "avg_review": 2.8
+  },
+  {
+    "name": "Ness Property Management LLC",
+    "address": "1800 Alabama St, Bellingham, WA 98229",
+    "company_type": "Property management company",
+    "review_count": 1,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Integra Condominium Association Management, Inc.",
+    "address": "2183 Alpine Way, Bellingham, WA 98226",
+    "company_type": "Property management company",
+    "review_count": 32,
+    "avg_review": 2.5
+  },
+  {
+    "name": "River Oak Properties",
+    "address": "1310 Cornwall Ave, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Brooks Property Management",
+    "address": "1301 Iowa St, Bellingham, WA 98229",
+    "company_type": "Storage facility",
+    "review_count": 6,
+    "avg_review": 2.3
+  },
+  {
+    "name": "Next Brick Property Management Bellingham",
+    "address": "315 Lakeway Dr, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Hollander Hospitality",
+    "address": "119 N Commercial St STE 165, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 4,
+    "avg_review": 3.5
+  },
+  {
+    "name": "Leading Edge Property Management",
+    "address": "823 N 4th St, Mount Vernon, WA 98273",
+    "company_type": "Property management company",
+    "review_count": 102,
+    "avg_review": 4.0
+  },
+  {
+    "name": "RJR Real Estate Inc",
+    "address": "2500 Elm St STE 15, Bellingham, WA 98225",
+    "company_type": "Real estate agency",
+    "review_count": 15,
+    "avg_review": 4.3
+  },
+  {
+    "name": "Sudden Valley Maintenance",
+    "address": "2650 Lake Louise Rd, Bellingham, WA 98225",
+    "company_type": "Property management company",
+    "review_count": 2,
+    "avg_review": 2.0
+  },
+  {
+    "name": "Dwell Real Estate Asset Management",
+    "address": "104 Front St, Lynden, WA 98264",
+    "company_type": "Property management company",
+    "review_count": 9,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Porchlight Property Management LLC",
+    "address": "519 Front St suite a, Lynden, WA 98264",
+    "company_type": "Property management company",
+    "review_count": 29,
+    "avg_review": 3.5
+  },
+  {
+    "name": "Windermere Property Management",
+    "address": "32785 State Rte 20 Suite #2, Oak Harbor, WA 98277",
+    "company_type": "Property management company",
+    "review_count": 161,
+    "avg_review": 4.5
+  },
+  {
+    "name": "Green Ocean Real Estate Service. Anacortes, WA Property Management",
+    "address": "715 Seafarers Way #100, Anacortes, WA 98221",
+    "company_type": "Property management company",
+    "review_count": 7,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Sun-Mark Properties",
+    "address": "1200 Lakeway Dr # 1, Bellingham, WA 98229",
+    "company_type": "Real estate agency",
+    "review_count": 3,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Windermere Property Management / North Sound",
+    "address": "3018 Commercial Ave, Anacortes, WA 98221",
+    "company_type": "Property management company",
+    "review_count": 12,
+    "avg_review": 4.1
+  },
+  {
+    "name": "Piazza Realty Property Management Inc",
+    "address": "120 E George Hopper Rd, Burlington, WA 98233",
+    "company_type": "Property management company",
+    "review_count": 51,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Bellwether Real Estate",
+    "address": "11 Bellwether Way Suite 201, Bellingham, WA 98225",
+    "company_type": "Real estate agency",
+    "review_count": 27,
+    "avg_review": 4.6
+  },
+  {
+    "name": "Lighthouse Property Management",
+    "address": "63 Lake Samish Rd, Bellingham, WA 98229",
+    "company_type": "Property management company",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Bellingham Partners",
+    "address": "1318 12th St, Bellingham, WA 98225",
+    "company_type": "Real estate agency",
+    "review_count": 23,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Real Property Management North Puget Sound",
+    "address": "1325 State Ave, Marysville, WA 98270",
+    "company_type": "Property management company",
+    "review_count": 217,
+    "avg_review": 4.4
+  },
+  {
+    "name": "Anacortes Property Management",
+    "address": "3005 Commercial Ave, Anacortes, WA 98221",
+    "company_type": "Property management company",
+    "review_count": 33,
+    "avg_review": 2.3
+  },
+  {
+    "name": "Whidbey Residential Rentals Inc",
+    "address": "285 NE Midway Blvd Suite 2, Oak Harbor, WA 98277",
+    "company_type": "Property management company",
+    "review_count": 7,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Bellingham Real Estate - Michael Eisenberg",
+    "address": "2219 Rimland Dr Suite 301, Bellingham, WA 98226",
+    "company_type": "Real estate consultant",
+    "review_count": 8,
+    "avg_review": 5.0
+  },
+  {
+    "name": "360 Property Management",
+    "address": "471 SE Pioneer Way, Oak Harbor, WA 98277",
+    "company_type": "Property management company",
+    "review_count": 78,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Saratoga Commercial Real Estate",
+    "address": "228 E Champion St STE 102, Bellingham, WA 98225",
+    "company_type": "Commercial real estate agency",
+    "review_count": 5,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Property Management PNW",
+    "address": "16404 Smokey Point Blvd Ste 203, Arlington, WA 98223",
+    "company_type": "Property management company",
+    "review_count": 15,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Blue Lake Property Management",
+    "address": "317 S 2nd St #145, Mount Vernon, WA 98273",
+    "company_type": "Property management company",
+    "review_count": 4,
+    "avg_review": 4.3
+  },
+  {
+    "name": "Delta Property Management",
+    "address": "4229 76th St NE, Marysville, WA 98270",
+    "company_type": "Property management company",
+    "review_count": 55,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Oak Harbor Real Estate & Property Management",
+    "address": "890 SE Pioneer Way STE 101, Oak Harbor, WA 98277",
+    "company_type": "Real estate agency",
+    "review_count": 20,
+    "avg_review": 3.0
+  },
+  {
+    "name": "NW Property Management Group",
+    "address": "3710 168th St NE Suite B206, Arlington, WA 98223",
+    "company_type": "Property management company",
+    "review_count": 94,
+    "avg_review": 2.9
+  },
+  {
+    "name": "Ronda Karn Bellingham Homes for Sale Favorite Realtor for Whatcom & Skagit County",
+    "address": "913 Lakeway Dr, Bellingham, WA 98229",
+    "company_type": "Real estate agency",
+    "review_count": 10,
+    "avg_review": 4.6
+  },
+  {
+    "name": "Cascade Property Services",
+    "address": "1261 NW Crosby Ave Unit A, Oak Harbor, WA 98277",
+    "company_type": "Property management company",
+    "review_count": 22,
+    "avg_review": 2.3
+  },
+  {
+    "name": "Alliance Properties",
+    "address": "800 Blackstone Ct, Bellingham, WA 98226",
+    "company_type": "Real estate agency",
+    "review_count": 7,
+    "avg_review": 4.9
+  },
+  {
+    "name": "CENTURY 21 North Homes Realty - Burlington Office",
+    "address": "730 S Burlington Blvd, Burlington, WA 98233",
+    "company_type": "Real estate agency",
+    "review_count": 25,
+    "avg_review": 4.1
+  },
+  {
+    "name": "LCK Properties LLC",
+    "address": "4202 Guide Meridian Rd Suite 103, Bellingham, WA 98226",
+    "company_type": "Real estate consultant",
+    "review_count": 32,
+    "avg_review": 2.6
+  },
+  {
+    "name": "Island Property Management",
+    "address": "41 NE Midway Blvd #101, Oak Harbor, WA 98277",
+    "company_type": "Property management company",
+    "review_count": 9,
+    "avg_review": 2.8
+  },
+  {
+    "name": "Ness Management, LLC",
+    "address": "16244 McLean Rd Suite A, Mount Vernon, WA 98273",
+    "company_type": "Property management company",
+    "review_count": 23,
+    "avg_review": 1.6
+  },
+  {
+    "name": "ONE Real Estate Inc.",
+    "address": "3817 Elwood Ave ste 110, Bellingham, WA 98229",
+    "company_type": "Real estate agency",
+    "review_count": 4,
+    "avg_review": 3.8
+  },
+  {
+    "name": "PURE Property Management of Washington",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 114,
+    "avg_review": 3.1
+  },
+  {
+    "name": "Real Property Management Teyata",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 57,
+    "avg_review": 4.6
+  },
+  {
+    "name": "Utopia Property Management | Bellingham, WA",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 94,
+    "avg_review": 4.3
+  },
+  {
+    "name": "OMNI Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 61,
+    "avg_review": 4.3
+  },
+  {
+    "name": "Adams Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 6,
+    "avg_review": 3.5
+  },
+  {
+    "name": "Local Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 12,
+    "avg_review": 4.8
+  },
+  {
+    "name": "Hammer Properties NW, Inc.",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 71,
+    "avg_review": 2.7
+  },
+  {
+    "name": "DCI Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 13,
+    "avg_review": 4.9
+  },
+  {
+    "name": "Landmark Real Estate Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 575,
+    "avg_review": 3.2
+  },
+  {
+    "name": "Windermere Property Management Bellingham",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 172,
+    "avg_review": 2.8
+  },
+  {
+    "name": "PTLA Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 47,
+    "avg_review": 1.7
+  },
+  {
+    "name": "Chuckanut Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 6,
+    "avg_review": 2.2
+  },
+  {
+    "name": "Lakeway Rentals",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 116,
+    "avg_review": 1.4
+  },
+  {
+    "name": "Bellingham Partners",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 22,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Daylight Properties",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 16,
+    "avg_review": 3.9
+  },
+  {
+    "name": "Westview Real Estate",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 57,
+    "avg_review": 3.1
+  },
+  {
+    "name": "Evergreen Properties NW",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 17,
+    "avg_review": 4.0
+  },
+  {
+    "name": "Synergy Property Management",
+    "address": null,
+    "company_type": "Real estate rental agency",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Brooks Property Management",
+    "address": "",
+    "company_type": "Storage facility",
+    "review_count": 7,
+    "avg_review": 2.1
+  },
+  {
+    "name": "Access Real Estate Services LLC",
+    "address": "",
+    "company_type": "Real estate rental agency",
+    "review_count": 97,
+    "avg_review": 3.5
+  },
+  {
+    "name": "Roma Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 68,
+    "avg_review": 3.7
+  },
+  {
+    "name": "ACP Property Management",
+    "address": null,
+    "company_type": "Property management company",
+    "review_count": 49,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Pacific Continental Realty LLC",
+    "address": "",
+    "company_type": "Commercial real estate agency",
+    "review_count": 32,
+    "avg_review": 4.2
+  },
+  {
+    "name": "Sycamore Corporation",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 5,
+    "avg_review": 2.8
+  },
+  {
+    "name": "Brandon Nelson, Bellingham real estate agent",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 56,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Integra Condominium Association Management, Inc.",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 34,
+    "avg_review": 2.7
+  },
+  {
+    "name": "Blossom Management Corporation",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Fast Property Management",
+    "address": null,
+    "company_type": "Property management company",
+    "review_count": 11,
+    "avg_review": 5.0
+  },
+  {
+    "name": "River Oak Properties",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "RPM Property Management Division",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 15,
+    "avg_review": 2.7
+  },
+  {
+    "name": "Northwest Property Collective LLC",
+    "address": null,
+    "company_type": "Short term apartment rental agency",
+    "review_count": 7,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Julie Carpenter Real Estate Inc.",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 11,
+    "avg_review": 5.0
+  },
+  {
+    "name": "MJB Real Estate Group",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 23,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Thrive Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "LCK Properties LLC",
+    "address": "",
+    "company_type": "Real estate consultant",
+    "review_count": 33,
+    "avg_review": 2.6
+  },
+  {
+    "name": "RE/MAX Whatcom County",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 23,
+    "avg_review": 4.8
+  },
+  {
+    "name": "Cohen Group NW - Muljat Group",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 106,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Lighthouse Property Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Julian & Company, Real Estate Team with the Muljat Group",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 107,
+    "avg_review": 5.0
+  },
+  {
+    "name": "The Satushek Team - Keller Williams Real Estate",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 95,
+    "avg_review": 5.0
+  },
+  {
+    "name": "John L. Scott Real Estate | Bellingham",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 107,
+    "avg_review": 4.9
+  },
+  {
+    "name": "Briddick Webb | Bellingham Real Estate Agent | RE/MAX Whatcom County, Inc.",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 60,
+    "avg_review": 4.9
+  },
+  {
+    "name": "Keith Cook & David Harmon - BuyerMax.com (RE/MAX Whatcom County) Real Estate Brokers",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 12,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Bellwether Real Estate",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 28,
+    "avg_review": 4.6
+  },
+  {
+    "name": "Fairhaven Realty",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 9,
+    "avg_review": 4.3
+  },
+  {
+    "name": "NW LIVING Group | eXp Realty",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 29,
+    "avg_review": 5.0
+  },
+  {
+    "name": "DeLisa Boatman - RE/MAX",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 24,
+    "avg_review": 5.0
+  },
+  {
+    "name": "RJR Real Estate Inc",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 17,
+    "avg_review": 4.1
+  },
+  {
+    "name": "Optimus Property Solutions, Property Sales & Management",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 33,
+    "avg_review": 3.7
+  },
+  {
+    "name": "Weichert Realtors Vanson Associates",
+    "address": "",
+    "company_type": "Real estate agency",
+    "review_count": 6,
+    "avg_review": 4.3
+  },
+  {
+    "name": "Coldwell Banker Bain of Bellingham",
+    "address": "",
+    "company_type": "Real estate agent",
+    "review_count": 19,
+    "avg_review": 4.8
+  },
+  {
+    "name": "Porchlight Property Management LLC",
+    "address": "",
+    "company_type": "Property management company",
+    "review_count": 33,
+    "avg_review": 3.8
+  }
+]

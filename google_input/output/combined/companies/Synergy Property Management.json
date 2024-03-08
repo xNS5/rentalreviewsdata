@@ -1,0 +1,35 @@
+{
+  "name": "Synergy Property Management",
+  "address": null,
+  "company_type": "Real estate rental agency",
+  "review_count": 0,
+  "avg_review": "None",
+  "reviews": [
+    {
+      "author": "Sean",
+      "rating": 1.0,
+      "review": "No one even owns this place the mgmt is a counterfeit co che k the tax register",
+      "ownerResponse": []
+    },
+    {
+      "author": "Gail Park",
+      "rating": 1.0,
+      "review": "When did they own it",
+      "ownerResponse": []
+    },
+    {
+      "author": "Patricia Ruiz",
+      "rating": 1.0,
+      "review": "Rude and racist if your not a Spanish speaking Hispanic need not apply.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Rebecka Curley",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 3,
+  "adjusted_review_average": 1.0
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Bakerview Terrace Apartments",
+  "address": "258 E Bakerview Rd, Bellingham, WA 98226",
+  "company_type": "Apartment building",
+  "review_count": 9,
+  "avg_review": 4.2,
+  "reviews": [
+    {
+      "author": "Jeff Bingman",
+      "rating": 4.0,
+      "review": "A diamond in the ruff.\nTwo Bedroom, one Bath. No frills, but for the price it's hard to beat.\nOn site washer and dryer, no animal restrictions as long as you know how to control them. The Manager works hard to get to your issues as soon as possible.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Angela Mejia",
+      "rating": 5.0,
+      "review": "Nice place so far,  we receive a nice and clean apartment and Eric community  Manager is very helpful.",
+      "ownerResponse": []
+    },
+    {
+      "author": "patrick tiffany",
+      "rating": 5.0,
+      "review": "This place is incredible! No one is prejudice, and everyone is so eager to be neighborly!",
+      "ownerResponse": []
+    },
+    {
+      "author": "john marcos",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ryan Loewen",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Zac Hubert",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mike Skoor",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Arika",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Dakota Wilson",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 3,
+  "adjusted_review_average": 4.7
+}

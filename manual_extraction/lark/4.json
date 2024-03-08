@@ -1,0 +1,3740 @@
+[
+	{
+		"data": {
+			"business": {
+				"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+				"alias": "lark-bellingham-bellingham-2",
+				"name": "Lark Bellingham",
+				"primaryPhoto": {
+					"encid": "-ZKvT5FawFZjBw49n8nW3g",
+					"photoUrl": {
+						"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+						"url133x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/ss.jpg",
+						"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+						"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/90s.jpg",
+						"__typename": "BusinessPhotoUrl"
+					},
+					"__typename": "BusinessPhoto"
+				},
+				"reviewDraftForLoggedInUser": null,
+				"__typename": "Business",
+				"rating": 1.8,
+				"reviewCount": 57,
+				"reviewCountsByRating": [
+					44,
+					0,
+					2,
+					5,
+					6
+				],
+				"reviewCountsByLanguage": [
+					{
+						"language": "en",
+						"count": 57,
+						"__typename": "BusinessReviewLanguageCount"
+					}
+				],
+				"reviews": {
+					"totalCount": 57,
+					"edges": [
+						{
+							"node": {
+								"encid": "gX6f_VyBDR2Wux12PL_RNg",
+								"text": {
+									"full": "Management is unethical, profit driven, and manipulative. The sales team is intrusive from the moment tenants arrive, with a full court press on gaining a second year contract that starts immediately after arrival. The management team is syrupy sweet but unresponsive and disorganized. Read the 14 page lease carefully to see all the tactics they use to undermine tenant rights and evade accountability. Although the facilities are nice, the quality and integrity of the management team makes this a low quality experience for many residents. I would strongly urge prospective tenants to look elsewhere. BTW your lease may start on the first of the month, but they will not let you move in until two weeks later...one of many strategies designed to line their pockets at your expense.",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 1,
+								"feedback": {
+									"coolCount": 1,
+									"funnyCount": 0,
+									"usefulCount": 2,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "b0d7fd779035524f32fcae55005e0daf8c58f32805c57c9bedfa627b1b4a2b55",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "R-BxbKt69Z8g0Wc5NlwZNQ",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": null,
+									"displayName": "Lisa W.",
+									"displayLocation": "Vashon, WA",
+									"reviewCount": 2,
+									"friendCount": 0,
+									"businessPhotoCount": 0,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2020-09-12T10:08:00Z",
+									"__typename": "DateTime",
+									"localDateTime": "2020-09-12T03:08:00-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 1,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 1,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": {
+									"encid": "UB2UvyG8IOiB3uEFMXI_Gw",
+									"text": "Hello Lisa, thank you for providing this feedback. We offer residents to keep their same space at our lowest rate in the beginning of our leasing term for the next housing term as a priority to our current residents that renew with us. Every year, we release our lowest rates in October. As for having resident pay on the first, total rent of the housing agreement is a single fixed price for the entire term. We then divide this total contract price into equal installments and make them payable on the first day of each month for convenience , as our residents typically prefer to budget for equal installments on a set payment calendar. Please reach out to us at live@larkbellingham.com, we would love to help assist with any further concerns.",
+									"owner": {
+										"encid": "u1u_T9u71tDDLHm50_d_xQ",
+										"displayName": "Scion Group",
+										"role": "OWNER",
+										"profilePhoto": {
+											"encid": "GPowooSv9cI3jhOoxPIuUQ",
+											"photoUrl": {
+												"url": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/30s.jpg",
+												"url300x": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/90s.jpg",
+												"__typename": "BizUserPhotoUrl"
+											},
+											"__typename": "BizUserProfilePhoto"
+										},
+										"__typename": "BizUser"
+									},
+									"createdAt": {
+										"utcDateTime": "2020-10-27T21:53:51Z",
+										"__typename": "DateTime",
+										"localDateTime": "2020-10-27T14:53:51-07:00"
+									},
+									"__typename": "BizUserReviewReply"
+								},
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "eDES7EOn7HtcXn5NqvLRew",
+								"text": {
+									"full": "Brand new apartments, although they do have their ups and downs it's not terrible. \n\nI do love the locations and the rooms themselves are quite nice. Buying a parking spot is a MUST though. The shuttle is very convenient as well. \n\nThere are problem here a there like the lack of security presence, especially when it comes to noise complaints at night. And the Internet connection can be a pain, it often cuts out. \n\nOverall the biggest thing to be said is they are new apartments, so I don't expect perfection but they are very nice and if things continue to go well I will renew my lease for sure!!",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 3,
+								"feedback": {
+									"coolCount": 0,
+									"funnyCount": 0,
+									"usefulCount": 4,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "39dedb15e4ab37d1fde713cc029be8a1c841d0a25d073e86110040fd73d16d7b",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "b7Z-GKmL3BX4M8a6k4yzcQ",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": {
+										"encid": "R7p5LkLilBmqSkchOOez9A",
+										"photoUrl": {
+											"mediaItemSrcUrl": "https://s3-media0.fl.yelpcdn.com/photo/R7p5LkLilBmqSkchOOez9A/30s.jpg",
+											"mediaItemSrcSetUrl200x": "https://s3-media0.fl.yelpcdn.com/photo/R7p5LkLilBmqSkchOOez9A/60s.jpg",
+											"mediaItemSrcSetUrl300x": "https://s3-media0.fl.yelpcdn.com/photo/R7p5LkLilBmqSkchOOez9A/90s.jpg",
+											"__typename": "UserPhotoUrl",
+											"userSrc": "https://s3-media0.fl.yelpcdn.com/photo/R7p5LkLilBmqSkchOOez9A/60s.jpg",
+											"userSrcSet200x": "https://s3-media0.fl.yelpcdn.com/photo/R7p5LkLilBmqSkchOOez9A/120s.jpg",
+											"userSrcSet300x": "https://s3-media0.fl.yelpcdn.com/photo/R7p5LkLilBmqSkchOOez9A/180s.jpg"
+										},
+										"__typename": "UserProfilePhoto"
+									},
+									"displayName": "Emma B.",
+									"displayLocation": "Bellingham, WA",
+									"reviewCount": 6,
+									"friendCount": 0,
+									"businessPhotoCount": 3,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2016-11-01T20:39:41Z",
+									"__typename": "DateTime",
+									"localDateTime": "2016-11-01T13:39:41-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 2,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": null,
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "zRIlNkx8LEDD1R58FUXMhA",
+								"text": {
+									"full": "NXNW is one of the worst places you could live as a student or as an adult in the Bellingham area. I know when touring it seems great and adult like, but it's not all it seems. \n\n1. The shuttle seems like a great idea until you actually get there and realize it doesn't actually have the capacity to hold the amount of students that it needs to. Unless you plan on standing outside for 30 minutes waiting for the shuttle to finally pick you up, I would recommend walking.\n\n2. Parking is extra which is complete bullshit. For the amount they are charging parking should be free and come with an assigned  parking spot by your apartment. This place is just a ripoff and not worth what you're spending. \n\n3. Management sucks. They are the least helpful people in the world. People will be screaming and playing music until 3 in the morning and they won't do anything. People leave their DOG POOP everywhere and they won't do anything. The computers in the lab don't work and they don't do anything. The people working here are honestly useless.\n\n4. Don't move here just because the outside stuff/gym look fun. You won't really get to use it during the winter because it's so cold/rainy, and based on most of the people who live here, you're probably going to go home for the summer. And the gym is always packed. Just use the western/whatcom gym.\n\n5. The price for the apartment is not worth the cheap apartments/furniture you are getting. Just move to a better cheaper place and buy furniture. Trust me.\n\nThis place comes off as great during the tour (I felt the same way) but it's honestly the worst.",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 1,
+								"feedback": {
+									"coolCount": 1,
+									"funnyCount": 0,
+									"usefulCount": 9,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "7956c10214c770b589614fdd6c390605ca4f13d26257f80ed5c399cbbfa27a86",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "rXZfWLOEcTSK0riPjAJ0Mw",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": null,
+									"displayName": "Emily E.",
+									"displayLocation": "Issaquah, WA",
+									"reviewCount": 1,
+									"friendCount": 97,
+									"businessPhotoCount": 0,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2018-07-06T01:51:37Z",
+									"__typename": "DateTime",
+									"localDateTime": "2018-07-05T18:51:37-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 3,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 1,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": {
+									"encid": "tSdyq3DZM-p6gRURL_fXMw",
+									"text": "We are sorry to hear your experience with NXNW has not been a positive one. As for transportation to campus, at peak times the shuttle can get full. WTA has a bus stop at the front of the NXNW driveway, which goes directly to campus as well and is free with your full time Student ID. We offer free and paid reserved parking at NXNW. Per city regulations the property was not built with a 1 to 1 ratio of parking per resident. We always encourage residents to come down to the office if they have questions or concerns, and would be more than happy to discuss your issues further.  Please feel free to e-mail us at office@nxnw-bellingham.com or call us at 360-778-1500.",
+									"owner": {
+										"encid": "u1u_T9u71tDDLHm50_d_xQ",
+										"displayName": "Scion Group",
+										"role": "OWNER",
+										"profilePhoto": {
+											"encid": "GPowooSv9cI3jhOoxPIuUQ",
+											"photoUrl": {
+												"url": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/30s.jpg",
+												"url300x": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/90s.jpg",
+												"__typename": "BizUserPhotoUrl"
+											},
+											"__typename": "BizUserProfilePhoto"
+										},
+										"__typename": "BizUser"
+									},
+									"createdAt": {
+										"utcDateTime": "2018-07-10T19:31:56Z",
+										"__typename": "DateTime",
+										"localDateTime": "2018-07-10T12:31:56-07:00"
+									},
+									"__typename": "BizUserReviewReply"
+								},
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "SG2gT5nL7Nbt9-ZfsPYCfQ",
+								"text": {
+									"full": "I have lived at Lark Bellingham for about a month now. I have encountered a number of problems that has made living here a miserable experience. \n\nFirst and foremost, the parking. This complex has to have the most atrocious parking setup. There are two types of parking--residential and reserved. If you are lucky enough to be able to get on the list for reserved parking then parking won't be a problem. But is you do not get granted reserved parking you will be stuck with residential parking. There are not enough parking spaces and during the afternoon the parking lot becomes a free-for-all with people seemingly ready to crash into another car just to get a spot. If you work late or have classes later in the day you will NOT be able to park within the community. Many people park outside the fence or at the Fred Meyers located next to the Lark. If you drive a car are not sure you will be able to get a reserved parking space like many of the residents here, I suggest turning around and driving to another complex. \n\nThe staff are not helpful. They are ill equipped to solve any problem that is presented with them and quite a number a very rude if you are insistent on having a problem solved. \n\nScion Group itself is not helpful as well. I reached out to them with my complaints while taking the post move-in survey. They said they would be in contact but weeks have passed an I have yet to hear from them. There are clear problems from upper level management and this incompetency can be seen within the planning of the Lark community. \n\nOn a less serious note, I hope everyone looking into living here is ready to invest in physical therapy as the furniture is extremely uncomfortable. \n\nI will suggest to anyone reading this review to not live here. Find somewhere else with more competent staff and a more competent parent company preferably. It truest has been a regret living here and I'm looking forward to the remaining 11 months of torture ahead.",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 1,
+								"feedback": {
+									"coolCount": 0,
+									"funnyCount": 0,
+									"usefulCount": 0,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "63afdf3ff3e8a0182023f5d2486e57fcd3ae4d6424862f92579d82e1bbf06ed1",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "3U9zhdwr5czAceuCSxyAyA",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": null,
+									"displayName": "Megan C.",
+									"displayLocation": "Snohomish, WA",
+									"reviewCount": 2,
+									"friendCount": 43,
+									"businessPhotoCount": 0,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2019-10-11T04:47:26Z",
+									"__typename": "DateTime",
+									"localDateTime": "2019-10-10T21:47:26-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 0,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": null,
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "Gf_8XkjHQ99G4tnV3pMdZg",
+								"text": {
+									"full": "Wish I could give 0 stars honestly. This is an extremely predatory apartment complex. They prey on first time students who are desperate for a place, and then they try and suck every last dime out of you. When I first moved in there were FLEAS in my room (which had supposedly been cleaned before I moved in). It took almost 3 weeks to get rid of the fleas, during which time I got eaten alive and didn't get any reimbursement on my rent or anything. They did not tell me the people already in the unit had pets, and then when I asked to switch rooms they told me I WOULD HAVE TO PAY TO SWITCH! Even though it was their mistake! And don't even get me started on the parking- there is never enough spaces if you go anywhere past 5 PM you won't get a space. I even paid for \"premium parking\" and I wouldn't get a space if I worked late that night. They were completely unhelpful during covid, all they did was extend the late period for rent payments by 10 days. The roommates they picked for me were extremely obnoxious and loud, even though on my roommate form I said I would prefer quiet and studious people. DO NOT MOVE IN HERE!! It may seem like a good deal for the price but it's not. Avoid at all costs!!",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 1,
+								"feedback": {
+									"coolCount": 0,
+									"funnyCount": 0,
+									"usefulCount": 1,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "28fc62cafd9294333f6415164b9e7f9aba29f6903823fb57b5ab7c7307661f72",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "DTYkzK6TW8YGf3SCbVZ97A",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": {
+										"encid": "KDpbZEpfMhmvuv3MDd4BUw",
+										"photoUrl": {
+											"mediaItemSrcUrl": "https://s3-media0.fl.yelpcdn.com/photo/KDpbZEpfMhmvuv3MDd4BUw/30s.jpg",
+											"mediaItemSrcSetUrl200x": "https://s3-media0.fl.yelpcdn.com/photo/KDpbZEpfMhmvuv3MDd4BUw/60s.jpg",
+											"mediaItemSrcSetUrl300x": "https://s3-media0.fl.yelpcdn.com/photo/KDpbZEpfMhmvuv3MDd4BUw/90s.jpg",
+											"__typename": "UserPhotoUrl",
+											"userSrc": "https://s3-media0.fl.yelpcdn.com/photo/KDpbZEpfMhmvuv3MDd4BUw/60s.jpg",
+											"userSrcSet200x": "https://s3-media0.fl.yelpcdn.com/photo/KDpbZEpfMhmvuv3MDd4BUw/120s.jpg",
+											"userSrcSet300x": "https://s3-media0.fl.yelpcdn.com/photo/KDpbZEpfMhmvuv3MDd4BUw/180s.jpg"
+										},
+										"__typename": "UserProfilePhoto"
+									},
+									"displayName": "Kari B.",
+									"displayLocation": "Santa Cruz, CA",
+									"reviewCount": 12,
+									"friendCount": 99,
+									"businessPhotoCount": 0,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2020-08-28T22:03:12Z",
+									"__typename": "DateTime",
+									"localDateTime": "2020-08-28T15:03:12-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 1,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": {
+									"encid": "H2uSQob_UFqrGNSXmgeMTQ",
+									"text": "Hi Kari, We work with an exterminator to prevent any infestations and apologize that your experience was unpleasant. For flea infestations, our vendor requires there to be 2 sessions that take about 2 weeks to complete in order to fully exterminate the fleas and their eggs. We consider all application preferences when finding placements for our residents, but not all preferences are guaranteed to be met, including preferences on pets. We offer a limited number of transfers for residents with a fee that covers the required admin work. We understand that finding a parking space is difficult in the evening and late at night, but it is always first come, first served. We do enforce towing during office hours and through our after-hours line. We appreciate your honest feedback so we can work to continually make improvements toward our property. Please feel free to reach out if there is anything else we can help you with.",
+									"owner": {
+										"encid": "u1u_T9u71tDDLHm50_d_xQ",
+										"displayName": "Scion Group",
+										"role": "OWNER",
+										"profilePhoto": {
+											"encid": "GPowooSv9cI3jhOoxPIuUQ",
+											"photoUrl": {
+												"url": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/30s.jpg",
+												"url300x": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/90s.jpg",
+												"__typename": "BizUserPhotoUrl"
+											},
+											"__typename": "BizUserProfilePhoto"
+										},
+										"__typename": "BizUser"
+									},
+									"createdAt": {
+										"utcDateTime": "2020-10-27T22:01:29Z",
+										"__typename": "DateTime",
+										"localDateTime": "2020-10-27T15:01:29-07:00"
+									},
+									"__typename": "BizUserReviewReply"
+								},
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "9optmAgvB37p3pXcmKAGjg",
+								"text": {
+									"full": "I lived in one of the NXNW apartment for six months. I loved living there. Everything is brand new, the rooms are very spacious, the kitchen is great. The clubhouse is amazing, you can get as much gourmet coffee as your body can handle, FOR FREE! They do activities  very frequently, they even had a Thanksgiving dinner for the residents! The staff is very good too. I had to break my lease because I got a position in Seattle, and they helped me a lot with the process of breaking the lease. I highly recommend living in NXNW.",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 5,
+								"feedback": {
+									"coolCount": 0,
+									"funnyCount": 0,
+									"usefulCount": 2,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "4ebb974988eeeb64fae5c4054d4353b931efb377018c177523904210cfd6c662",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "bXfZ2UXgMsYi7jsFGp2KNA",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": {
+										"encid": "6kCN4Aj7ZGYIdjyFDVshDw",
+										"photoUrl": {
+											"mediaItemSrcUrl": "https://s3-media0.fl.yelpcdn.com/photo/6kCN4Aj7ZGYIdjyFDVshDw/30s.jpg",
+											"mediaItemSrcSetUrl200x": "https://s3-media0.fl.yelpcdn.com/photo/6kCN4Aj7ZGYIdjyFDVshDw/60s.jpg",
+											"mediaItemSrcSetUrl300x": "https://s3-media0.fl.yelpcdn.com/photo/6kCN4Aj7ZGYIdjyFDVshDw/90s.jpg",
+											"__typename": "UserPhotoUrl",
+											"userSrc": "https://s3-media0.fl.yelpcdn.com/photo/6kCN4Aj7ZGYIdjyFDVshDw/60s.jpg",
+											"userSrcSet200x": "https://s3-media0.fl.yelpcdn.com/photo/6kCN4Aj7ZGYIdjyFDVshDw/120s.jpg",
+											"userSrcSet300x": "https://s3-media0.fl.yelpcdn.com/photo/6kCN4Aj7ZGYIdjyFDVshDw/180s.jpg"
+										},
+										"__typename": "UserProfilePhoto"
+									},
+									"displayName": "Paola C.",
+									"displayLocation": "Bellingham, WA",
+									"reviewCount": 3,
+									"friendCount": 31,
+									"businessPhotoCount": 0,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2018-04-15T17:51:04Z",
+									"__typename": "DateTime",
+									"localDateTime": "2018-04-15T10:51:04-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 0,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": {
+									"encid": "GKYooVagtQTNc-PVX2gNww",
+									"text": "Paola, thank you so much for the review. We too love the amenities we have to offer, and loved having you as a resident.  We are happy you were able to go through the delegation process with ease, and would love to have you as a resident again if you are ever in the Bellingham area.",
+									"owner": {
+										"encid": "u1u_T9u71tDDLHm50_d_xQ",
+										"displayName": "Scion Group",
+										"role": "OWNER",
+										"profilePhoto": {
+											"encid": "GPowooSv9cI3jhOoxPIuUQ",
+											"photoUrl": {
+												"url": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/30s.jpg",
+												"url300x": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/90s.jpg",
+												"__typename": "BizUserPhotoUrl"
+											},
+											"__typename": "BizUserProfilePhoto"
+										},
+										"__typename": "BizUser"
+									},
+									"createdAt": {
+										"utcDateTime": "2018-04-18T18:57:32Z",
+										"__typename": "DateTime",
+										"localDateTime": "2018-04-18T11:57:32-07:00"
+									},
+									"__typename": "BizUserReviewReply"
+								},
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "QXrIQOt8KZziThUz4XOyZg",
+								"text": {
+									"full": "DON'T SIGN A LEASE HERE!!!\n\n(You guys really suck, can't wait for your business model to collapse on itself!!)\n \nIf you're thinking of living here don't! The monthly electric bill is through the roof (My average is $100 for 2 people) and you hear all your neighbors having sex because the walls are so poorly insulated. Yeah, cool, its fancier than the dorms, but most-certiantly not worth it for the collective $1530+ they charge for a 2-room apartment ---- THERE AREN'T ENOUGH PARKING SPOTS FOR EVERYONE AND ABOUT 1/2 OF THE SPOTS THEY HAVE COST $30/MONTH EXTRA!!! ---- They also like to have \"Quarterly Inspections\" that, for me, resulted in $400+ damage charges, 2 months after the inspection, to replace a couch that isn't even worth $400!!",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 1,
+								"feedback": {
+									"coolCount": 0,
+									"funnyCount": 0,
+									"usefulCount": 16,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "07b448a9728415a8ef678362fe0fb895a6f9d31f0df1a40fb9404d3e4c4ac7a8",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "jveUGtYDyCBdazfK_ZUZgA",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": null,
+									"displayName": "Scott R.",
+									"displayLocation": "Sumner, WA",
+									"reviewCount": 2,
+									"friendCount": 0,
+									"businessPhotoCount": 8,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2017-05-19T23:41:33Z",
+									"__typename": "DateTime",
+									"localDateTime": "2017-05-19T16:41:33-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 10,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": null,
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "bu96_K29pA-8ZfTRT9pDNQ",
+								"text": {
+									"full": "Rooms are furnished and are perfect for off campus housing! NXNW has community events that helps connect residents and makes everyone feel welcome! The workers are very helpful and strive to make all the residents satisfied. This is my second year and I have loved staying here! If you're looking for a great place to live then this is a great selection!",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 5,
+								"feedback": {
+									"coolCount": 1,
+									"funnyCount": 0,
+									"usefulCount": 1,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "70879abc7098fce01ea067a886746a2d7eac5c87f0e908c2e5fd612351b4cff1",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "u9ht2Mi6U8VoSBgMW_B3lg",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": {
+										"encid": "p7QeRz6MDyr04Mu88kOIaw",
+										"photoUrl": {
+											"mediaItemSrcUrl": "https://s3-media0.fl.yelpcdn.com/photo/p7QeRz6MDyr04Mu88kOIaw/30s.jpg",
+											"mediaItemSrcSetUrl200x": "https://s3-media0.fl.yelpcdn.com/photo/p7QeRz6MDyr04Mu88kOIaw/60s.jpg",
+											"mediaItemSrcSetUrl300x": "https://s3-media0.fl.yelpcdn.com/photo/p7QeRz6MDyr04Mu88kOIaw/90s.jpg",
+											"__typename": "UserPhotoUrl",
+											"userSrc": "https://s3-media0.fl.yelpcdn.com/photo/p7QeRz6MDyr04Mu88kOIaw/60s.jpg",
+											"userSrcSet200x": "https://s3-media0.fl.yelpcdn.com/photo/p7QeRz6MDyr04Mu88kOIaw/120s.jpg",
+											"userSrcSet300x": "https://s3-media0.fl.yelpcdn.com/photo/p7QeRz6MDyr04Mu88kOIaw/180s.jpg"
+										},
+										"__typename": "UserProfilePhoto"
+									},
+									"displayName": "Hailey B.",
+									"displayLocation": "Puget, Bellingham, WA",
+									"reviewCount": 1,
+									"friendCount": 105,
+									"businessPhotoCount": 0,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2018-03-17T00:54:53Z",
+									"__typename": "DateTime",
+									"localDateTime": "2018-03-16T17:54:53-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 0,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": {
+									"encid": "qF0wvVYW_cS__428nmLSmQ",
+									"text": "Hailey, thank you so much for your review.  We love hearing from residents about their experience while living at NXNW.  If we can be of any further assistance, please do not hesitate reaching out to us!",
+									"owner": {
+										"encid": "u1u_T9u71tDDLHm50_d_xQ",
+										"displayName": "Scion Group",
+										"role": "OWNER",
+										"profilePhoto": {
+											"encid": "GPowooSv9cI3jhOoxPIuUQ",
+											"photoUrl": {
+												"url": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/30s.jpg",
+												"url300x": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/90s.jpg",
+												"__typename": "BizUserPhotoUrl"
+											},
+											"__typename": "BizUserProfilePhoto"
+										},
+										"__typename": "BizUser"
+									},
+									"createdAt": {
+										"utcDateTime": "2018-03-20T02:18:12Z",
+										"__typename": "DateTime",
+										"localDateTime": "2018-03-19T19:18:12-07:00"
+									},
+									"__typename": "BizUserReviewReply"
+								},
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "kxfZhYCH3102N6rLEhTipg",
+								"text": {
+									"full": "Do not move here. It was probably the worst experience of my life. They say they provide a bus but half of the time it's shut down. When you leave if there's a tiny bend in your blinds they will charge you a huge amount for anything they don't think is perfect-even if when you moved in it everything was already scratched. Our sink even fell through our counter that's how cheap everything is made. They will sign you up for insurance you don't want without asking which my insurance agency said is illegal. This all happened to me first hand.",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 1,
+								"feedback": {
+									"coolCount": 0,
+									"funnyCount": 0,
+									"usefulCount": 0,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "0dfe8aa3d9300863fe5d9b100cc18977c61af2a84c3e6612f921a4ba131f6124",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "FxgwlX7Nx4Pg4b8WAcQOhw",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": null,
+									"displayName": "Samantha B.",
+									"displayLocation": "Sedro-Woolley, WA",
+									"reviewCount": 1,
+									"friendCount": 0,
+									"businessPhotoCount": 0,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2020-09-09T21:11:23Z",
+									"__typename": "DateTime",
+									"localDateTime": "2020-09-09T14:11:23-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 0,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": {
+									"encid": "FJmLKZ7RYjX8LPuyao1tUg",
+									"text": "Hi Samantha, thank you for providing your feedback. We apologize that you have experienced our shuttle being out of service due to maintenance repairs. We do have the city WTA shuttle that comes by our property everyday. Renter's insurance is required while residing at Lark; however, residents are able to provide their own renter's insurance instead of going through our preferred insurance. We apologize that you had an unpleasant experience during your time here. Please let us know if we can help you with anything.",
+									"owner": {
+										"encid": "u1u_T9u71tDDLHm50_d_xQ",
+										"displayName": "Scion Group",
+										"role": "OWNER",
+										"profilePhoto": {
+											"encid": "GPowooSv9cI3jhOoxPIuUQ",
+											"photoUrl": {
+												"url": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/30s.jpg",
+												"url300x": "https://s3-media0.fl.yelpcdn.com/buphoto/GPowooSv9cI3jhOoxPIuUQ/90s.jpg",
+												"__typename": "BizUserPhotoUrl"
+											},
+											"__typename": "BizUserProfilePhoto"
+										},
+										"__typename": "BizUser"
+									},
+									"createdAt": {
+										"utcDateTime": "2020-10-27T21:49:54Z",
+										"__typename": "DateTime",
+										"localDateTime": "2020-10-27T14:49:54-07:00"
+									},
+									"__typename": "BizUserReviewReply"
+								},
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						},
+						{
+							"node": {
+								"encid": "sjXYwbx_PO76__1PJebOOg",
+								"text": {
+									"full": "To give you an example of how much Lark actually cares for their tenants, let me layout how I was recently treated. I have lived here the entire year with my car and recently found out my car was towed. How I found out is where the issue lies; my phone number is on call, my license plate and car description is connected with my car (as well as a sticker showing that I am a resident here), but I had to CALL the towing company myself after however many days it's been impounded and find out that I'm being charged $500 to retrieve my car that I have parked in my own apartment complex. Not ONCE was I notified by any of management that my car was being towed nor do I know WHY my car was towed. I have been unable to reach any of management for the urgency of this issue to find recourse for this or to even find out why I wasn't even simply contacted. Lark Bellingham takes a shoot first, ask questions later kind of aggressive approach with all issues that don't concern them, yet when you as a tenant have an issue, I guarantee most of the time you won't actually get more than a \"We're sorry!\" This has occurred in multiple situations. My roommates car was broken into earlier this year while parked on the complex and had an expensive subwoofer in (his car was lock, the window was literally smashed.) Something like this would normally be easily solved by having security on site, right? Well, Lark claims they do, but they have gone through at least 6 security officers in the span of this year and none of them have offered any actual protection to a complex as big as this. When he contacted management, all they did was point to the lease and say they're not responsible. Lark will take to their lease agreement and offer no recourse or assistance in any time of need; my neighbors were broken into and it took them weeks to send out an email which just stated \"Just keep your doors locked!\" I would not recommend Lark to anyone.",
+									"language": "en",
+									"__typename": "ReviewText"
+								},
+								"rating": 1,
+								"feedback": {
+									"coolCount": 0,
+									"funnyCount": 0,
+									"usefulCount": 7,
+									"loggedInUserVotedCool": false,
+									"loggedInUserVotedFunny": false,
+									"loggedInUserVotedUseful": false,
+									"msiteSubmitFeedbackCsrfToken": "8ab1bc7673f25f3ed4eafefca07f4460f2624aadb299bc9807b974c7a78b0d40",
+									"__typename": "ReviewFeedback"
+								},
+								"author": {
+									"encid": "uuDxjiidiIb6dTsV9edUTA",
+									"isFollowedByLoggedInUser": false,
+									"profilePhoto": {
+										"encid": "kn0H0nv71z0O6qsbOAJSeg",
+										"photoUrl": {
+											"mediaItemSrcUrl": "https://s3-media0.fl.yelpcdn.com/photo/kn0H0nv71z0O6qsbOAJSeg/30s.jpg",
+											"mediaItemSrcSetUrl200x": "https://s3-media0.fl.yelpcdn.com/photo/kn0H0nv71z0O6qsbOAJSeg/60s.jpg",
+											"mediaItemSrcSetUrl300x": "https://s3-media0.fl.yelpcdn.com/photo/kn0H0nv71z0O6qsbOAJSeg/90s.jpg",
+											"__typename": "UserPhotoUrl",
+											"userSrc": "https://s3-media0.fl.yelpcdn.com/photo/kn0H0nv71z0O6qsbOAJSeg/60s.jpg",
+											"userSrcSet200x": "https://s3-media0.fl.yelpcdn.com/photo/kn0H0nv71z0O6qsbOAJSeg/120s.jpg",
+											"userSrcSet300x": "https://s3-media0.fl.yelpcdn.com/photo/kn0H0nv71z0O6qsbOAJSeg/180s.jpg"
+										},
+										"__typename": "UserProfilePhoto"
+									},
+									"displayName": "Danny A.",
+									"displayLocation": "Benton City, WA",
+									"reviewCount": 8,
+									"friendCount": 256,
+									"businessPhotoCount": 4,
+									"currentTruncatedEliteYear": null,
+									"__typename": "User"
+								},
+								"business": {
+									"encid": "IRB05kV_ZA_Ak9lSEqUGVA",
+									"alias": "lark-bellingham-bellingham-2",
+									"name": "Lark Bellingham",
+									"primaryPhoto": {
+										"encid": "-ZKvT5FawFZjBw49n8nW3g",
+										"photoUrl": {
+											"url": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/60s.jpg",
+											"url200x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/120s.jpg",
+											"url300x": "https://s3-media0.fl.yelpcdn.com/bphoto/-ZKvT5FawFZjBw49n8nW3g/180s.jpg",
+											"__typename": "BusinessPhotoUrl"
+										},
+										"__typename": "BusinessPhoto"
+									},
+									"__typename": "Business"
+								},
+								"createdAt": {
+									"utcDateTime": "2019-06-08T23:25:25Z",
+									"__typename": "DateTime",
+									"localDateTime": "2019-06-08T16:25:25-07:00"
+								},
+								"businessPhotos": [],
+								"businessVideos": [],
+								"tags": {
+									"checkInCount": 0,
+									"isFirstReviewer": false,
+									"paymentInfo": {
+										"hasPaidThroughYelp": false,
+										"hasPurchasedDeal": false,
+										"__typename": "BusinessReviewPaymentInfo"
+									},
+									"reservationInfo": {
+										"hasPlacedReservation": false,
+										"reservationProvider": null,
+										"__typename": "BusinessReviewReservationInfo"
+									},
+									"reviewOfTheDay": null,
+									"__typename": "ReviewTags"
+								},
+								"availableReactionsContainer": {
+									"availableReactions": [
+										{
+											"count": 4,
+											"reactionType": "HELPFUL",
+											"displayText": "Helpful",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_filled_v2"
+													},
+													"backgroundColor": "coreUiLimeLight",
+													"borderColor": "coreUiLimeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiLimeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_helpful_bulb_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "THANKS",
+											"displayText": "Thanks",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_filled_v2"
+													},
+													"backgroundColor": "coreUiOrangeLight",
+													"borderColor": "coreUiOrangeDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiOrangeDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_thanks_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "LOVE_THIS",
+											"displayText": "Love this",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_filled_v2"
+													},
+													"backgroundColor": "coreUiRedLight",
+													"borderColor": "coreUiRedDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiRedDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_love_this_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										},
+										{
+											"count": 0,
+											"reactionType": "OH_NO",
+											"displayText": "Oh no",
+											"displayTextSingleCount": null,
+											"assetFormat": {
+												"assetContentType": "IMAGE",
+												"cornerRadius": "CIRCULAR",
+												"collapsedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_16x16_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreGrayscaleWhite",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"__typename": "ContentReactionAssetFormat",
+												"textLayout": "UNDERNEATH_BUTTON",
+												"selectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_filled_v2"
+													},
+													"backgroundColor": "coreUiBlueLight",
+													"borderColor": "coreUiBlueDarkWithAlpha10",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha50",
+													"textColor": "coreGrayscaleBlackRegular",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"unselectedFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayLight",
+													"rippleColor": "coreUiBlueDarkWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												},
+												"disabledFormat": {
+													"assetLocator": {
+														"__typename": "ContentReactionBundledAssetLocator",
+														"assetName": "svg_illustrations_24x24_oh_no_gray_v2"
+													},
+													"backgroundColor": "coreGrayscaleWhite",
+													"borderColor": "coreGrayscaleGrayRegular",
+													"rippleColor": "coreGrayscaleGrayLightWithAlpha10",
+													"textColor": "coreGrayscaleBlackLight",
+													"__typename": "ContentReactionStateAssetFormat"
+												}
+											},
+											"__typename": "AvailableContentReaction",
+											"invertTextOrder": false,
+											"showCount": true,
+											"showZeroCount": true,
+											"showAsTooltip": false,
+											"toggleState": "UNSELECTED"
+										}
+									],
+									"__typename": "AvailableContentReactionsContainer",
+									"containerFormat": {
+										"alignment": "LEADING",
+										"axis": "HORIZONTAL",
+										"__typename": "ContentReactionsContainerFormat"
+									},
+									"isMutuallyExclusive": false
+								},
+								"__typename": "Review",
+								"bizUserPublicReply": null,
+								"previousReviews": []
+							},
+							"__typename": "ReviewEdge"
+						}
+					],
+					"pageInfo": {
+						"endCursor": "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjozOX0",
+						"hasNextPage": true,
+						"__typename": "PageInfo"
+					},
+					"__typename": "ReviewConnection"
+				},
+				"unconfirmedReviewForLoggedInUser": null
+			},
+			"loggedInUser": {
+				"encid": "6Kabl_rBhJhylt-X-MT0Rg",
+				"reviews": {
+					"edges": [],
+					"__typename": "ReviewConnection"
+				},
+				"displayName": "Michael K.",
+				"displayLocation": "Bellingham, WA",
+				"reviewCount": 8,
+				"friendCount": 81,
+				"businessPhotoCount": 0,
+				"currentTruncatedEliteYear": null,
+				"profilePhoto": null,
+				"__typename": "User"
+			},
+			"loggedInBizUser": null,
+			"businessesOwnedByCurrentConsumerUser": [],
+			"reviewRemovalReasons": [
+				{
+					"name": "reason_legal_action",
+					"description": "I was threatened with legal action or sued.",
+					"explanation": "Lawsuits over Yelp reviews are rare and <a href=\"https://www.yelp-support.com/article/Do-Yelpers-ever-get-sued-for-posting-negative-reviews?l=en_US\" target=\"_blank\">usually unsuccessful</a>.",
+					"__typename": "ReviewRemovalReason"
+				},
+				{
+					"name": "reason_compensation",
+					"description": "I was offered a refund or other compensation to remove this review.",
+					"explanation": "<a href=\"https://www.yelp-support.com/article/What-should-I-do-if-a-business-tries-to-pay-me-in-exchange-for-removing-my-negative-review?l=en_US\" target=\"_blank\">We discourage this</a>, consider a <a href=\"https://www.yelp-support.com/article/How-do-I-post-an-update-to-one-of-my-reviews?l=en_US\" target=\"_blank\">review update</a> instead.",
+					"__typename": "ReviewRemovalReason"
+				},
+				{
+					"name": "reason_contract",
+					"description": "I signed a contract with the business that requires me to remove this review.",
+					"explanation": "Such contracts are <a href=\"https://www.yelpblog.com/2016/12/protecting-free-speech-right-yelp-bill-becomes-federal-law\" target=\"_blank\">generally unenforceable</a>.",
+					"__typename": "ReviewRemovalReason"
+				},
+				{
+					"name": "reason_changed_view",
+					"description": "I changed my opinion of this business after a new interaction.",
+					"explanation": "Did you know that you can <a href=\"https://www.yelp-support.com/article/How-do-I-post-an-update-to-one-of-my-reviews?l=en_US\" target=\"_blank\">update your review</a> instead?",
+					"__typename": "ReviewRemovalReason"
+				},
+				{
+					"name": "reason_other",
+					"description": "Other",
+					"explanation": "",
+					"__typename": "ReviewRemovalReason"
+				}
+			],
+			"photoFlagReasons": [
+				{
+					"code": "W",
+					"description": "This photo is in the wrong category",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "A",
+					"description": "It’s not a picture of the business",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "T",
+					"description": "It doesn’t depict a typical experience at this business",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "I",
+					"description": "It contains nudity, explicit content, or violent imagery",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "5",
+					"description": "It violates Yelp's privacy standards",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "X",
+					"description": "It is spam or scam",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "D",
+					"description": "I uploaded this photo and wish to delete it",
+					"__typename": "FlagReason"
+				}
+			],
+			"videoFlagReasons": [
+				{
+					"code": "W",
+					"description": "This video is in the wrong category",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "A",
+					"description": "It’s not a video of the business",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "T",
+					"description": "It doesn’t depict a typical experience at this business",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "I",
+					"description": "It contains nudity, explicit content, or violent imagery",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "5",
+					"description": "It violates Yelp's privacy standards",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "X",
+					"description": "It is spam or scam",
+					"__typename": "FlagReason"
+				},
+				{
+					"code": "D",
+					"description": "I uploaded this video and wish to delete it",
+					"__typename": "FlagReason"
+				}
+			],
+			"bizPhotosCsrfToken": "97867625b9d6e8fbcfeeb66a78695255085b7c8569933f8d6ad5b9fd05e7c323",
+			"complimentCsrfToken": "d90215de2faea8db38f1f725941644330ef06c6fcdb2d462bb7932607e57aa98",
+			"flagContentCsrfToken": "44bc63b11ec4b44aba622c725a8bcea31a3b593e55a0c80269ad0ff2402135b0",
+			"removeReviewCsrfToken": "689fbdccda0627cd8cc25015398bca5a1ba18e57e6abb47a69b286834d3026b2",
+			"reviewFeedbackCsrfToken": "da3b6ce2cb6a96ec2dbb3b78f4e928f72ae656468de487f5091177380e0395b2",
+			"sendMessageCsrfToken": "6977524057e7af87b5df6c338921ae48e6369522f6d90378128c144c816ed551",
+			"userFollowCsrfToken": "7d271d8e3ad2a774b0b33008137b3f0e3dd86378f76d2b54c97c76a24341a2c4",
+			"searchForFriendsCsrfToken": "3e08c9c6cce128ce0414711b171b8751823d2b8f744aa4349a9d6e87a23214bf",
+			"sendToFriendCsrfToken": "53dcabcdfdf93cfa0fa4cf28360abb10a7c587b855803fe7dd55d117f5a95225",
+			"reviewDraftDeleteCsrfToken": "1584b16b526af13f5fc82dc6486d77c7445bef6c7a3a6e115c98a8be43c4ad91",
+			"__typename": "Query"
+		}
+	}
+]

@@ -1,0 +1,403 @@
+{
+  "name": "Sky Vue Apartments",
+  "address": "600-620 Lincoln St, Bellingham, WA 98229",
+  "company_type": "Apartment complex",
+  "review_count": 40,
+  "avg_review": 3.4,
+  "reviews": [
+    {
+      "author": "Highkey mami",
+      "rating": 5.0,
+      "review": "There was a shift in management here and since then the communication has increased, the professionalism and the response in maintenance has remained in good standing. They approve people who really need it and the the units itself are pretty decent.",
+      "ownerResponse": []
+    },
+    {
+      "author": "J A",
+      "rating": 1.0,
+      "review": "They did not honor their $250 rent concession for September that was offered to tenants who renewed their lease. Then had the nerve to charge late fees on that $250 because they were negligent in crediting it on time. Impossible to get it ",
+      "ownerResponse": [
+        {
+          "text": "Hi there this is Kailey with the Customer Service team. Thank you for the feedback. I am sorry to hear about your frustrations with the concession. Our team is working through files to ensure accuracy. I welcome the opportunity to speak  More"
+        }
+      ]
+    },
+    {
+      "author": "Evi Fitz",
+      "rating": 1.0,
+      "review": "Sky Vue has basically terrible customer service in the Leasing Office, for a week and a half we were without hot water and working electricity and they ignored the entire buildings communications to them for a week until saying they would ",
+      "ownerResponse": [
+        {
+          "text": "Hi Evi, this is Kailey with the Customer Service team. Thank you for the feedback. I am sorry to see you reduce your 2 star review to 1. The reason the repair took so long was because PSE (Puget Sound Energy) was the one who had to make the  More"
+        }
+      ]
+    },
+    {
+      "author": "jade nason",
+      "rating": 1.0,
+      "review": "I wouldnt recommend to anyone. The people working at the office never respond to emails or calls.They dont care to help and every time I have asked for help I was directed to the manager who always gave an excuse to her never answering or ",
+      "ownerResponse": [
+        {
+          "text": "Thank you for sharing your candid experience with us. We value your feedback and have provided your comments to our team. We will use these comments as area of focus and improvement for the community. Please contact our Customer Care Team directly at customerservice@plpinc.net if there is anything we can assist you with at this point."
+        }
+      ]
+    },
+    {
+      "author": "ashlyncollinkevin",
+      "rating": 1.0,
+      "review": "The management here is horrible.   My daughter rents an apartment here and they almost never give notice before entering her apartment.  Her first roommate was brought in to view the apartment without notice and while my daughter was ",
+      "ownerResponse": [
+        {
+          "text": "Hello, We pride ourselves in creating a sense of community through respect and transparency. I understand that our Customer Service team has been in touch with you and our regional manager is working with the team to identify what has  More"
+        }
+      ]
+    },
+    {
+      "author": "Joseph Killdiedeath",
+      "rating": 1.0,
+      "review": "Theres something to be said about any place immediately going up by 50% over market price  with new owners. And a fresh coat of paint isnt fooling anyone. PLP are profiteers and they are disrespectful of existing tenants who still have ",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your candid review, Joseph. Honest observations from residents help us make decisions for the future of our community, and we appreciate the time you took to share. Our intention is to create a pleasing environment for all of  More"
+        }
+      ]
+    },
+    {
+      "author": "Bri Dague",
+      "rating": 1.0,
+      "review": "Here goes nothing: My roomates and I did a lease takeover with Landmark at the beginning of the year. That process was hell but at least we were able to get a decent place in Bellingham at an affordable price when split between the 3 of us. ",
+      "ownerResponse": [
+        {
+          "text": "Hi Bri, this is Wendee from Customer Service.  I am really sorry had a bad experience.  Unfortunately when there is ownership/management we are not able to please everyone.  We are investing long term in the property to make it better and  More"
+        }
+      ]
+    },
+    {
+      "author": "Lauren Cushner",
+      "rating": 1.0,
+      "review": "EDIT: I posted this review a few months ago and I wanted to update with things that have happened since then. My lease ended on August 9th, but we had to deal with several more problems from property management. Despite the fact that our ",
+      "ownerResponse": [
+        {
+          "text": "Hi Lauren, this is Wendee from Customer Service.  I am sorry to hear about your frustrations.  I have looked into your concerns and would love the opportunity to chat with you in greater details if you like.  Your check was mailed last week to the forwarding address you left with the site.  I hope to hear from you.  Wendee"
+        }
+      ]
+    },
+    {
+      "author": "Mahkayla Barnet",
+      "rating": 1.0,
+      "review": "I'd give 0 stars if possible. It's a college town so there's not going to be much, if any, great property managements. However stay away from this one, seriously, it's the worst one I've ever dealt with. If I would've known Landmark was ",
+      "ownerResponse": [
+        {
+          "text": "Hi Mahkayla, we see this appears to be a similar re-post to your Google review on July 10th. At that time we responded with the following: \"Hi Mahkayla, Thank you for taking the time to reach out and leave a review. We are sorry to hear you  More"
+        }
+      ]
+    },
+    {
+      "author": "Grace Robinson",
+      "rating": 1.0,
+      "review": "bear with me, this will be long,\n\nWhen this building was owned by Landmark it was fine, low prices (I paid $550 ",
+      "ownerResponse": [
+        {
+          "text": "Thank you for taking the time to write a review. We are sorry for any inconvenience caused by the updates we are doing to the community. Although we understand the increase can seem high, we would also like to thank you for recognizing that  More"
+        }
+      ]
+    },
+    {
+      "author": "Brady Hanson",
+      "rating": 5.0,
+      "review": "The 1-star Reviews are from a bunch of entitled college freshmen.\nThe two most popular moans and groans:\n- The rent is average for Bellingham ",
+      "ownerResponse": [
+        {
+          "text": "Hi Brady, this is Wendee from Customer Service.  Thank you for your review and kind words.  Our team does take the good and bad reviews to heart so when there is a good one we get excited to hear it.  I will be sure to pass this along to the team.  Take care, Wendee"
+        }
+      ]
+    },
+    {
+      "author": "Zachary Smith",
+      "rating": 5.0,
+      "review": "Well I originally gave this place a nasty review, however that was under the last management company. I can say that the new management company has turned this place around! The maintenance workers have been on top of everything and they single handedly changed my view of this place! Great place to live for the price point!",
+      "ownerResponse": [
+        {
+          "text": "Hi Zachary, we regret to hear that you're initial experience has been negative, but would appreciate the chance to turn your experience around. Our team has been in contact to help address these issues, and we hope you will really enjoy  More"
+        }
+      ]
+    },
+    {
+      "author": "Jeremy Poppert",
+      "rating": 1.0,
+      "review": "Their management is terrible since being acquired from landmark. They are terrible about communicating and have vastly over priced these apartments for what they are. Also, some of the amenities they claim, are just marketing scams. For ",
+      "ownerResponse": [
+        {
+          "text": "Hi Jeremy, this is Wendee from Customer Service.  Thank you for letting us know about your concerns and giving us the opportunity to improve.  I wanted to let you know that your check was mailed out on 8/16 to the forwarding address that was provided to the office.  You can reach me directly at wmiller@plpinc.net."
+        }
+      ]
+    },
+    {
+      "author": "Geoffrey McPherson",
+      "rating": 1.0,
+      "review": "This use to be a decent place to live, but after it was bought by Pacific Living, it has become a total scam. Prices were significantly jacked up. If you choose to live here, you will likely be paying close to 750$ a month per person (no ",
+      "ownerResponse": [
+        {
+          "text": "Hi Geoffrey, Thank you for taking the time to provide feedback. We're sorry you were displeased by the change in management. We manage other communities in the area and have found that the rent per room option provides the benefit of not  More"
+        }
+      ]
+    },
+    {
+      "author": "Benjmain Button",
+      "rating": 1.0,
+      "review": "There are so many things wrong with my apartment first of all my room smells like cigarettes, our mailbox is missing the door so we cant receive mail, we have cockroaches all over the apartment, the dryer doesnt work, the doors are ",
+      "ownerResponse": [
+        {
+          "text": "Hi there, this is Kailey from Customer Service. I am sorry to hear you did not have a pleasant experience with your apartment. We do offer complimentary pest control, and our team would be happy to address your concerns. I apologize that we  More"
+        }
+      ]
+    },
+    {
+      "author": "Susel",
+      "rating": 1.0,
+      "review": "I saw they had a 1 Br on their website but no rent amount listed. I submitted an application right away (Friday evening). Its Wednesday and I have not heard back. Ive called and it goes straight to voicemail. Ridiculous that even when you ",
+      "ownerResponse": [
+        {
+          "text": "Hi Susel, this is Kailey from Customer Service. I apologize that you did not hear from our team immediately following your application. We are closed on weekends, and I see that the application came through on Sunday. I understand that at  More"
+        }
+      ]
+    },
+    {
+      "author": "Marilyn Valdez",
+      "rating": 5.0,
+      "review": "As a parent I was impressed with the onsite management team doing their best to meet all of our requirements. Haley and Abby were always accessible and offered great tips and resources for a first time student living away from home.  Really appreciated the helpful onsite. MV",
+      "ownerResponse": [
+        {
+          "text": "Hi Marilyn, it is wonderful to hear how much you enjoy the time our team spent with you and your child. We strive to offer great service at Sky Vue Apartments. Thanks for tossing out a little online love for the team, it will make their day! Take care!"
+        }
+      ]
+    },
+    {
+      "author": "Julie Rounds",
+      "rating": 5.0,
+      "review": "I love my apartment! The staff really cares about the property and the residents. They keep hallways and parking lot clean.",
+      "ownerResponse": [
+        {
+          "text": "Thanks so much for the feedback! We're so glad you enjoy the team and community :)"
+        }
+      ]
+    },
+    {
+      "author": "Xavier Van Diest",
+      "rating": 4.0,
+      "review": "Very generous, understanding, and kind! Difficult to get a hold of, but once done, extremely easy to talk to!",
+      "ownerResponse": [
+        {
+          "text": "Hi Xavier, thanks for the honest & kind feedback! We were swamped getting everything prepared for move in weekend with hundreds of new move ins. Our team is ALWAYS here for you though! Thanks again!"
+        }
+      ]
+    },
+    {
+      "author": "Mayu Molina",
+      "rating": 5.0,
+      "review": "Working with Cholee was a pleasure! Great apartment complex!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Pootaro",
+      "rating": 5.0,
+      "review": "Great place to stay and amazing staff much better than any of the dorms",
+      "ownerResponse": [
+        {
+          "text": "Hi there, this is Kailey from Customer Service. Thank you for taking the time to post your review for Sky Vue Apartments. I am so happy to hear that you are loving your apartment and our team. I agree that it's a great choice for student housing! Have a great day, Kailey"
+        }
+      ]
+    },
+    {
+      "author": "Morgan Ebert",
+      "rating": 5.0,
+      "review": "Super polite staff that are more than willing to help you with whatever you need!",
+      "ownerResponse": [
+        {
+          "text": "Hi Morgan, Thank you so much for taking the time to share your feedback. We are happy to hear your experience has been so pleasant. We will work hard to ensure that you continue to have a great experience and always provide you with the  More"
+        }
+      ]
+    },
+    {
+      "author": "D",
+      "rating": 1.0,
+      "review": "This place kinda blows super close to Interstate constant construction and out dated apartments",
+      "ownerResponse": [
+        {
+          "text": "Hi there, this is Kailey with the Customer Service team. Thank you for taking the time to post your review for Sky Vue Apartments. I am so happy to hear that you are loving your clean apartment and our helpful team. I will be sure to pass your review along, it will make their day! Take care, Kailey"
+        }
+      ]
+    },
+    {
+      "author": "bv lv",
+      "rating": 5.0,
+      "review": "Friendly staff, great amenities, super clean!",
+      "ownerResponse": [
+        {
+          "text": "Hi there, Thank you for taking the time to share your feedback. We are happy to hear your experience has been so great with our team and that you are enjoying the amenities! Thank you again for choosing Sky Vue Apartments!"
+        }
+      ]
+    },
+    {
+      "author": "Debbie Roe",
+      "rating": 5.0,
+      "review": "Very friendly staff, thank you!!",
+      "ownerResponse": [
+        {
+          "text": "Hi Debbie, thanks so much for the great feedback!! We appreciate it :)"
+        }
+      ]
+    },
+    {
+      "author": "Binyamin Soup",
+      "rating": 1.0,
+      "review": "Where's my mailbox",
+      "ownerResponse": [
+        {
+          "text": "Hi Binyamin, will you please email us at skyvue@plpinc.net, so we can assist you? Thank you."
+        }
+      ]
+    },
+    {
+      "author": "Sydney Yenokida",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you for the feedback Sydney! Please let us know if there is anything further we can be of assistance with."
+        }
+      ]
+    },
+    {
+      "author": "Julian Partman",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you Julian!! We appreciate your 5 stars :)"
+        }
+      ]
+    },
+    {
+      "author": "Caleb Huffman",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for your feedback for Sky Vue Apartments! We hope you had a great move in!"
+        }
+      ]
+    },
+    {
+      "author": "Anthony Walborn",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for showing your support for Sky Vue Apartments! We appreciate it :)"
+        }
+      ]
+    },
+    {
+      "author": "Katherine Eckhardt",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for the shout out!"
+        }
+      ]
+    },
+    {
+      "author": "Morgan Burgener",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you Morgan!!"
+        }
+      ]
+    },
+    {
+      "author": "Natalie Harris",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for showing your support for Sky Vue Apartments! We hope your week is off to a great start!"
+        }
+      ]
+    },
+    {
+      "author": "Neil Davis",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for showing your support for Sky Vue Apartments! We appreciate it :)"
+        }
+      ]
+    },
+    {
+      "author": "allison jones",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Hi Allison, happy move in!! Thanks for the feedback :)"
+        }
+      ]
+    },
+    {
+      "author": "Katelyn Breault",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Hi Katelyn, thanks for the review! Please let us know what else we can do for you - we hope to turn your feedback into 5 star asap! :)"
+        }
+      ]
+    },
+    {
+      "author": "Evan Johnson",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for the feedback, Evan. It is much appreciated!"
+        }
+      ]
+    },
+    {
+      "author": "Justin Rios",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for the feedback Justin!"
+        }
+      ]
+    },
+    {
+      "author": "max",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for showing your support for Sky Vue Apartments! We appreciate it :)"
+        }
+      ]
+    },
+    {
+      "author": "Conor Mittauer",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for showing your support for Sky Vue Apartments! We appreciate it :)"
+        }
+      ]
+    }
+  ],
+  "adjusted_review_count": 26,
+  "adjusted_review_average": 2.7
+}

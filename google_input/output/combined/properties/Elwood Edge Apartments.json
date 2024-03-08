@@ -1,0 +1,97 @@
+{
+  "name": "Elwood Edge Apartments",
+  "address": "3815 Elwood Ave, Bellingham, WA 98229",
+  "company_type": "Apartment building",
+  "review_count": 13,
+  "avg_review": 1.5,
+  "reviews": [
+    {
+      "author": "Kendra Smith",
+      "rating": 1.0,
+      "review": "This building is clearly built poorly, lots of things have broken down. For example:\n-The elevator has broken multiple times and trapped people inside, also its ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Alia Grey",
+      "rating": 1.0,
+      "review": "I loved living there, at first. I had my own space and it was my first apartment. However, the property wasnt great. Construction was really loud and constant, they cut all the greenery on the property. People who parked on the property ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Connor Mickel",
+      "rating": 1.0,
+      "review": "Stolen packages in the mail room, waking up daily to construction, garbage in utter chaos. All of this was alright until they increased the entire building's rent by over 500$, more than a third of what most of us were paying after we got ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Faith Graf",
+      "rating": 2.0,
+      "review": "Although the apartment is modern and new, its downfalls often make me question the overall living experience. After being a resident for two years, I can say that the units themselves are nice, but everything else weighs negatively on the ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Trinity Kaeding",
+      "rating": 3.0,
+      "review": "It is a nice place but very overpriced. We also were told there wouldn't be construction while living here and instead have been woken up pretty much every morning since moving here by sunrise by heavy machinery. I was unable to do many ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Xin F",
+      "rating": 1.0,
+      "review": "Poorly built. It looks nice in pictures but many things are built poorly. Many of the doors didn't latch and it'd not worth $2200. You get woken up by construction very early and everyday minus sunday, no guest parking or any free parking, ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jayda Libadisos",
+      "rating": 1.0,
+      "review": "To put it simply, this place is the perfect example of \"don't judge a book by its cover.\"\nAdmittedly, there are pros, such as: the newness of the building (updated ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Nathaniel White",
+      "rating": 1.0,
+      "review": "Dog piss all over building!!! Do not move here! Rent over priced and building is filthy in the hallways!",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your review, as it helps us improve our community. A member of our team has reached out to you to discuss your feedback, and we are taking measures to address your concerns. "
+        }
+      ]
+    },
+    {
+      "author": "Daniel Decker",
+      "rating": 1.0,
+      "review": "This place is a joke honestly,no guest parking, constant construction, fire alarms were going off frequently for awhile, the elevator has gone down often, the units were built poorly, management is useless. At 1500 dollars or more for a studio it's not worth it",
+      "ownerResponse": []
+    },
+    {
+      "author": "Maya Williams",
+      "rating": 1.0,
+      "review": "Nice building but they're trying to raise rent by $500 for next year, what a joke. Not to mention I've had nothing but problems with the management company. Don't live here its not worth it",
+      "ownerResponse": []
+    },
+    {
+      "author": "Megan Ditty",
+      "rating": 1.0,
+      "review": "No parking and terrible construction disturbances since we moved in 2 years ago!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Samantha Farrand",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kevin McGhee",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thanks for your review! Let us know if there is anything we can do for you in the future!"
+        }
+      ]
+    }
+  ],
+  "adjusted_review_count": 11,
+  "adjusted_review_average": 1.3
+}

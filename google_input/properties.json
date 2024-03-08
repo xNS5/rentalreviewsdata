@@ -1,0 +1,821 @@
+[
+  {
+    "name": "Regency Park Apartments",
+    "address": "2050 Fraser St, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 156,
+    "avg_review": 3.5
+  },
+  {
+    "name": "Maple Park Apartments",
+    "address": "1743 E Maple St, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 67,
+    "avg_review": 3.8
+  },
+  {
+    "name": "Elwood Edge Apartments",
+    "address": "3815 Elwood Ave, Bellingham, WA 98229",
+    "company_type": "Apartment building",
+    "review_count": 13,
+    "avg_review": 1.5
+  },
+  {
+    "name": "Stoneway Apartments",
+    "address": "245 32nd St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 1,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Samish Flats",
+    "address": "3613 Consolidation Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Sky Vue Apartments",
+    "address": "600-620 Lincoln St, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 40,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Monterra Apartments",
+    "address": "487 31st St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 18,
+    "avg_review": 2.1
+  },
+  {
+    "name": "Samish Ridge Apartments",
+    "address": "3966 Byron Ave, Bellingham, WA 98229",
+    "company_type": "Apartment building",
+    "review_count": 10,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Samish Station",
+    "address": "109 N Samish Way, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 8,
+    "avg_review": 2.6
+  },
+  {
+    "name": "Ridge Apartments",
+    "address": "516 32nd St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 8,
+    "avg_review": 4.0
+  },
+  {
+    "name": "Briarwood Terrace Apartments",
+    "address": "4101 Consolidation Ave, Bellingham, WA 98229",
+    "company_type": "Apartment building",
+    "review_count": 9,
+    "avg_review": 3.9
+  },
+  {
+    "name": "500 Square Apartments",
+    "address": "500 32nd St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 15,
+    "avg_review": 3.3
+  },
+  {
+    "name": "32nd St Apartments",
+    "address": "705 32nd St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 2,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Inglewood Apartments",
+    "address": "3025 Ferry Ave, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 20,
+    "avg_review": 3.6
+  },
+  {
+    "name": "Taylor Heights",
+    "address": "2115 Taylor Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 11,
+    "avg_review": 4.1
+  },
+  {
+    "name": "Viking Gardens Apartments",
+    "address": "2300 Bill McDonald Pkwy, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 21,
+    "avg_review": 2.9
+  },
+  {
+    "name": "Newport Apartments Bellingham",
+    "address": "602 32nd St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 2,
+    "avg_review": 2.0
+  },
+  {
+    "name": "Birnam Wood Apartments",
+    "address": "2901 Bill McDonald Pkwy, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 34,
+    "avg_review": 3.9
+  },
+  {
+    "name": "Pomeroy Court Apartments",
+    "address": "3100 Ferry Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 5,
+    "avg_review": 3.2
+  },
+  {
+    "name": "Fairhaven Plaza Apartments",
+    "address": "3129 Old Fairhaven Pkwy, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 2,
+    "avg_review": 2.0
+  },
+  {
+    "name": "Fairhaven Park Apartments",
+    "address": "1900 20th St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 9,
+    "avg_review": 3.7
+  },
+  {
+    "name": "Hideaway Apartments",
+    "address": "1213 Whatcom St #96, Bellingham, WA 98229",
+    "company_type": "Apartment building",
+    "review_count": 7,
+    "avg_review": 2.4
+  },
+  {
+    "name": "Kerf Apartments",
+    "address": "208 N Samish Way, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Samish Commons",
+    "address": "321 N Samish Way, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 12,
+    "avg_review": 4.1
+  },
+  {
+    "name": "Lark Bellingham",
+    "address": "800 Viking Cir, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 208,
+    "avg_review": 2.9
+  },
+  {
+    "name": "The U Apartments",
+    "address": "2401 Taylor Ave, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 26,
+    "avg_review": 2.8
+  },
+  {
+    "name": "Villa Bonita Apartments",
+    "address": "3131 Ferry Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 2,
+    "avg_review": 3.5
+  },
+  {
+    "name": "Cascade Ridge Apartments",
+    "address": "303 Elwood Ct, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "The Edge Apartments",
+    "address": "960 Lincoln St, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 8,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Viking View Apartments",
+    "address": "920 22nd St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Bell Mall Villa 2 Apartments",
+    "address": "517 32nd St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Harvard Suites",
+    "address": "705-709 32nd St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 2,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Park Place Apartments",
+    "address": "3928 Northwest Ave, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 8,
+    "avg_review": 2.8
+  },
+  {
+    "name": "New England Apartments",
+    "address": "2524 Douglas Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 6,
+    "avg_review": 3.8
+  },
+  {
+    "name": "Voltaire Court Apartments",
+    "address": "3010 Ferry Ave, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "South Hill Apartments",
+    "address": "255 N Forest St APT 116, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 17,
+    "avg_review": 3.1
+  },
+  {
+    "name": "Sehome Court Apartments",
+    "address": "820 32nd St, Bellingham, WA 98225",
+    "company_type": "Housing complex",
+    "review_count": 11,
+    "avg_review": 4.4
+  },
+  {
+    "name": "Arbour North",
+    "address": "3619 Byron Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Mt Baker Apartments",
+    "address": "308 W Champion St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 6,
+    "avg_review": 4.0
+  },
+  {
+    "name": "Walton Place",
+    "address": "1511 N State St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 5,
+    "avg_review": 3.2
+  },
+  {
+    "name": "Padden Creek Apartments",
+    "address": "1900 18th St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 12,
+    "avg_review": 4.1
+  },
+  {
+    "name": "Old Mill Village",
+    "address": "2100 Electric Ave, Bellingham, WA 98229",
+    "company_type": "Apartment rental agency",
+    "review_count": 15,
+    "avg_review": 4.6
+  },
+  {
+    "name": "Elevate Bellingham",
+    "address": "900 N Forest St, Bellingham, WA 98225",
+    "company_type": "Student housing center",
+    "review_count": 160,
+    "avg_review": 3.8
+  },
+  {
+    "name": "South Haven Apts",
+    "address": "2225 Knox Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Kulshan Apartments",
+    "address": "1011 High St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Laurel Village",
+    "address": "206 E Laurel St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 2,
+    "avg_review": 4.0
+  },
+  {
+    "name": "Country Squire Apartments",
+    "address": "2600 Alderwood Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 4,
+    "avg_review": 2.5
+  },
+  {
+    "name": "Stanford Apartments",
+    "address": "2001 Larrabee Ave #7, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 2,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Stateside",
+    "address": "929 N State St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 48,
+    "avg_review": 3.9
+  },
+  {
+    "name": "Alamo Apartments",
+    "address": "421 E Maple St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 2,
+    "avg_review": 2.0
+  },
+  {
+    "name": "Foothills Apartments",
+    "address": "1320 Lakeway Dr, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 25,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Rhododendron Court Apartments",
+    "address": "1016-1020 24th St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Edgemont Apartments",
+    "address": "3420 W McLeod Rd, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 21,
+    "avg_review": 3.0
+  },
+  {
+    "name": "The Sandpiper",
+    "address": "1010 Railroad Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Cascade Meadows",
+    "address": "455 Westerly Rd, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 25,
+    "avg_review": 2.9
+  },
+  {
+    "name": "Harborview Apartments",
+    "address": "1505 G St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Barkley Apartments",
+    "address": "3126 Racine St, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 43,
+    "avg_review": 2.8
+  },
+  {
+    "name": "Heather Commons",
+    "address": "4163 Deemer Rd, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 6,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Washington Square Apartments",
+    "address": "2501 E St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 3,
+    "avg_review": 5.0
+  },
+  {
+    "name": "City Gate Apartments",
+    "address": "607 E Holly St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Tullwood Apartments",
+    "address": "4370 / 4380 Tull Rd, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 66,
+    "avg_review": 4.0
+  },
+  {
+    "name": "WWU Living - University Heights",
+    "address": "2110 Bill McDonald Pkwy Ste. 1, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 42,
+    "avg_review": 2.9
+  },
+  {
+    "name": "The Tremezzo North Apartment Complex",
+    "address": "545 E Kellogg Rd, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 16,
+    "avg_review": 3.8
+  },
+  {
+    "name": "Forest Hill Apartments",
+    "address": "701 N Forest St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 2,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Sunset Pond Apartments",
+    "address": "1205 Woodstock Way, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 38,
+    "avg_review": 2.4
+  },
+  {
+    "name": "Canterbury Court Apartments",
+    "address": "3790 Canterbury Ln, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 51,
+    "avg_review": 3.4
+  },
+  {
+    "name": "Park Terrace Apartments",
+    "address": "1400 Moore St, Bellingham, WA 98229",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 2.0
+  },
+  {
+    "name": "Varsity village",
+    "address": "2475 Donovan Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 12,
+    "avg_review": 3.1
+  },
+  {
+    "name": "Park View Village Apartments",
+    "address": "425 Stuart Rd, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 13,
+    "avg_review": 4.8
+  },
+  {
+    "name": "The Meadows by Vintage",
+    "address": "355 Meadowbrook Ct, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 97,
+    "avg_review": 3.6
+  },
+  {
+    "name": "Bellingham Apartments",
+    "address": "3428 W McLeod Rd, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Cedar Grove Apartments",
+    "address": "1304 Telegraph Rd #1300, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 8,
+    "avg_review": 4.5
+  },
+  {
+    "name": "Thymes2 Apartments",
+    "address": "1025 Billy Frank Jr. St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "The Turnstone",
+    "address": "1020 Railroad Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 3,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Eleanor Apartments",
+    "address": "1510 N Forest St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 3,
+    "avg_review": 4.0
+  },
+  {
+    "name": "Vintage at Bellingham",
+    "address": "4625 Cordata Pkwy, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 38,
+    "avg_review": 4.6
+  },
+  {
+    "name": "New York Apartments",
+    "address": "930 22nd St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "20 Bellwether Apartments",
+    "address": "20 Bellwether Way, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 3,
+    "avg_review": 3.3
+  },
+  {
+    "name": "Woodrose Apartments",
+    "address": "3353 Racine St, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 77,
+    "avg_review": 4.1
+  },
+  {
+    "name": "Bridge Creek Apartments",
+    "address": "272 E Bakerview Rd, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 2,
+    "avg_review": 2.5
+  },
+  {
+    "name": "Maplewood Apartments LP",
+    "address": "2849 W Maplewood Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 11,
+    "avg_review": 4.0
+  },
+  {
+    "name": "Brampton Court Apartments",
+    "address": "1470 Birchwood Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 20,
+    "avg_review": 2.8
+  },
+  {
+    "name": "The Gallery Apartments",
+    "address": "1305 Larrabee Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Evergreen Ridge Apartments",
+    "address": "3451 Woburn St, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 40,
+    "avg_review": 3.1
+  },
+  {
+    "name": "The Avalon Apartments",
+    "address": "201 N Commercial St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Prince Avenue Apartments",
+    "address": "221 Prince Ave, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Village Apartments",
+    "address": "3310 Alderwood Ave j1, Bellingham, WA 98225",
+    "company_type": "Apartment rental agency",
+    "review_count": 28,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Village at Baker Creek",
+    "address": "3811-3974 Primrose Ln, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 37,
+    "avg_review": 2.3
+  },
+  {
+    "name": "Maritime Heritage Apartments",
+    "address": "1815 C St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Chuckanut Square Aptt",
+    "address": "1400 12th St #203, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Fairhaven Harbor",
+    "address": "1310 9th St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 13,
+    "avg_review": 4.5
+  },
+  {
+    "name": "Crescent Apartments",
+    "address": "420 West Stuart Road, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 10,
+    "avg_review": 2.0
+  },
+  {
+    "name": "Maplewood West Apartments",
+    "address": "2836 W Maplewood Ave, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 7,
+    "avg_review": 3.9
+  },
+  {
+    "name": "The Twin Pines Apartments",
+    "address": "611, 621 & 631, 621 Paloma Ln, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 11,
+    "avg_review": 4.1
+  },
+  {
+    "name": "Weatherby Apartments",
+    "address": "2314 Weatherby Way, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 7,
+    "avg_review": 2.7
+  },
+  {
+    "name": "Affinity at Bellingham",
+    "address": "3930 Affinity Ln, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 43,
+    "avg_review": 4.5
+  },
+  {
+    "name": "Cornerstone apartments",
+    "address": "2230 Cornerstone Ln, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Forest Street Apartments",
+    "address": "707 N Forest St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Millwood Park Apartments",
+    "address": "3907 Flynn St, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 3,
+    "avg_review": 3.7
+  },
+  {
+    "name": "Forest Park Apartments",
+    "address": "2605 W Maplewood Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 9,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Windsor Place",
+    "address": "2011 Knox Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Walton Place Two",
+    "address": "1505 N State St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 1,
+    "avg_review": 3.0
+  },
+  {
+    "name": "Hilda Lane Apartments",
+    "address": "2700 W Maplewood Ave, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 11,
+    "avg_review": 2.6
+  },
+  {
+    "name": "Meadow Woods II Affordable Housing Apartments",
+    "address": "931 Mahogany Ave, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Andrea Ridge",
+    "address": "939 20th St, Bellingham, WA 98225",
+    "company_type": "Apartment complex",
+    "review_count": 3,
+    "avg_review": 3.7
+  },
+  {
+    "name": "Morse Landing",
+    "address": "112 E Maple St, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Mahogany Manor",
+    "address": "1300 Mahogany Ave, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 7,
+    "avg_review": 2.1
+  },
+  {
+    "name": "Crestwood Manor",
+    "address": "2728 W Maplewood Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 5,
+    "avg_review": 2.4
+  },
+  {
+    "name": "Kingsway Apartments",
+    "address": "4265 Creston Wy, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 5,
+    "avg_review": 4.8
+  },
+  {
+    "name": "Trailview Apartments",
+    "address": "2412 Rimland Dr, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 1.0
+  },
+  {
+    "name": "Cascades West Apartments",
+    "address": "3422 Northwest Ave, Bellingham, WA 98225",
+    "company_type": "Apartment building",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "Bakerview Terrace Apartments",
+    "address": "258 E Bakerview Rd, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 9,
+    "avg_review": 4.2
+  },
+  {
+    "name": "Sky View Apartments",
+    "address": "1800 Texas St, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 5,
+    "avg_review": 3.6
+  },
+  {
+    "name": "Deer Run Terrace Apartments",
+    "address": "3210 Orleans St, Bellingham, WA 98226",
+    "company_type": "Apartment building",
+    "review_count": 1,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Bellingham Green",
+    "address": "4124 Prince Ct, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 2,
+    "avg_review": 5.0
+  },
+  {
+    "name": "Sunset Studio Apartments #2",
+    "address": "3159 Studio Ln UNIT 26, Bellingham, WA 98226",
+    "company_type": "Apartment complex",
+    "review_count": 0,
+    "avg_review": "None"
+  },
+  {
+    "name": "1800 Alabama Street Place Apartments",
+    "address": "1800 Alabama St, Bellingham, WA 98229",
+    "company_type": "Apartment complex",
+    "review_count": 0,
+    "avg_review": "None"
+  }
+]

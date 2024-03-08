@@ -1,0 +1,65 @@
+{
+  "name": "Fairhaven Realty",
+  "address": "",
+  "company_type": "Real estate agency",
+  "review_count": 9,
+  "avg_review": 4.3,
+  "reviews": [
+    {
+      "author": "Courtney Sinclair",
+      "rating": 5.0,
+      "review": "Bruce Longstreth sold us our 1st home over 9 yrs ago, and over the course of those years he has been there for us every time we wanted to look at properties. He dropped whatever he was doing and met us, no matter how far. That loyalty is ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Samantha Robinson",
+      "rating": 5.0,
+      "review": "Working with David Moody is always a pleasure! He found us some true gems: fixer uppers with lots of potential at an affordable cost and 5-acres in East Bellingham where we built our home. David keeps his eyes and ears open and proactively ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Carol Richards",
+      "rating": 5.0,
+      "review": "In response to the one-star reviews:\nYears ago, I came to  know the team at Fairhaven Realty through my work in residential mortgage lending. Both Glo (Gloria Calderhead) and David Moody have ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Zach Dane",
+      "rating": 1.0,
+      "review": "Pretty simple - DON'T GO WITH GLO - the head realtor at Fairhaven is a Dinosaur and doesn't know her stuff. I wouldn't take any advice from her or that business. Stear clear",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ryan Peterson",
+      "rating": 5.0,
+      "review": "Fairhaven Realty found me the best home I have ever had,\nThank you Glo and your wonderful team !",
+      "ownerResponse": []
+    },
+    {
+      "author": "Rosa Jimnez",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Izen",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jane Agard",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "JP Sulham",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 5,
+  "adjusted_review_average": 4.2
+}

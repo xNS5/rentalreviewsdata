@@ -1,0 +1,77 @@
+{
+  "name": "Sehome Court Apartments",
+  "address": "820 32nd St, Bellingham, WA 98225",
+  "company_type": "Housing complex",
+  "review_count": 11,
+  "avg_review": 4.4,
+  "reviews": [
+    {
+      "author": "H_Scribbler",
+      "rating": 5.0,
+      "review": "Lived here for about two years.\n\nThe initial impression was bad - the landlord seemed to not know how to sound ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kelly Machnik",
+      "rating": 5.0,
+      "review": "Sehome Court has been a really great place to live for the past four years. The owner and maintenance person are very helpful and responsive. The property is well kept. Maintenance issues are handled immediately. The price is very ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jahnel Burgess",
+      "rating": 5.0,
+      "review": "Lived in the apartments for 2.5 years and loved it. Very clean and there is an on site maintenance person who will fix any emergency issues and also keep up on all ongoing projects to improve living conditions. Neighbors were kind and respectful, appreciated how the owner screened tenants well. Would highly recommend",
+      "ownerResponse": []
+    },
+    {
+      "author": "Cat Lasswell",
+      "rating": 5.0,
+      "review": "Wonderful apartments! Large and affordable with wonderful staff and maintenance crew. I love that it was pet friendly and even includes basic comcast in the rent! One of the best places i've rented from in Bellingham, hands down.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Full Moon",
+      "rating": 1.0,
+      "review": "I would like to say that the customer service I received while trying to fill out the application was one of the worst experiences I have ever encountered. There were too many red flags with the management. When I was trying to drop off the ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Solomon Wilson",
+      "rating": 5.0,
+      "review": "I like it",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kevin Jensen",
+      "rating": 5.0,
+      "review": "Great apartment",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brittany V",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Basil",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Robin Sing",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shelby Haupt",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 7,
+  "adjusted_review_average": 4.4
+}

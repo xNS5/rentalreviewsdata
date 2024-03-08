@@ -1,0 +1,105 @@
+{
+  "name": "RPM Property Management Division",
+  "address": "",
+  "company_type": "Property management company",
+  "review_count": 15,
+  "avg_review": 2.7,
+  "reviews": [
+    {
+      "author": "RPM Management",
+      "rating": 5.0,
+      "review": "RPM has been making significant changes in our office over the past few years to better service our tenants.  We pride ourselves on quick and clear customer service.  We also have a 24/7 tenant emergency line service to deal with unexpected ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ho Choe",
+      "rating": 1.0,
+      "review": "Awful management.  Just look at high numbers of 1 and 2 star reviews.  The concern I had was so poorly managed I wonder if the property owner know or care about the renters' dissatisfaction?  Or perhaps the same ownership.  If you manage ",
+      "ownerResponse": [
+        {
+          "text": "(Reviewer is not a tenant with RPM) We take our tenants concerns very seriously and respond (typically in writing) as clearly and quickly as possible.   We have several available payment options and are looking in to adding ACH to our platform in the future."
+        }
+      ]
+    },
+    {
+      "author": "Maleah Meinhold",
+      "rating": 1.0,
+      "review": "I lived here for the 2019-2020 school year and in that time our apartment flooded twice. My roommate and I had to hound them to take action, and never gave us a confirmation that there was no mold damage. The apartments themselves are look ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Josie Rowe",
+      "rating": 5.0,
+      "review": "Best place Ive rented in Bellingham. Clean and spacious apartments, maintence is prompt and the staff in the office are very helpful. I recently broke my foot and they were quick to accommodate me with parking to make my life 10000% ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Katie Knaub",
+      "rating": 2.0,
+      "review": "Been living in the New England Apartments for about 5 months, and I know we will not be returning next year. The apartments aren't bad, for factoring in price and proximity to campus (as I am a student). But there have been multiple ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brady Schmitt",
+      "rating": 1.0,
+      "review": "In my experience, RPM consistently missed any expectations or standards a realty company should be held to. The company knows they can charge asinine fees to unknowing college students and not suffer any consequences, outside of their ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Katie Buechler",
+      "rating": 2.0,
+      "review": "Management is AWFUL. The apartments are not nice quality, which wouldn't be terrible if they weren't so expensive. The repair man, Gustavo, is the best part of this place, and everything else sucks. If you have literally any other choice, choose it over renting from this company.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Tess Schornack",
+      "rating": 1.0,
+      "review": "Horrible hours and rude",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ira Ch Lassen",
+      "rating": 4.0,
+      "review": "They've been good people so far.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jenna Kennedy",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Emmett Linklater",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joe S.",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brad S",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Cindy Ortiz",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Juliana Pope",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 9,
+  "adjusted_review_average": 2.4
+}

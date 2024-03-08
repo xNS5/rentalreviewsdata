@@ -1,0 +1,41 @@
+{
+  "name": "Hollander Hospitality",
+  "address": "119 N Commercial St STE 165, Bellingham, WA 98225",
+  "company_type": "Property management company",
+  "review_count": 4,
+  "avg_review": 3.5,
+  "reviews": [
+    {
+      "author": "Dima Cheshev",
+      "rating": 1.0,
+      "review": "Saw some good employee's got let over trial  realize that this is at will company. HR will defend the company side even tho they don't have all the facts or if the Supervisor is lying. You will have no recourse but to pursue them through ",
+      "ownerResponse": []
+    },
+    {
+      "author": "James Stone",
+      "rating": 3.0,
+      "review": "Friendly staff not the cleanest rooms",
+      "ownerResponse": []
+    },
+    {
+      "author": "Factor 4",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "RJan O",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Chris N",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 2,
+  "adjusted_review_average": 2.0
+}

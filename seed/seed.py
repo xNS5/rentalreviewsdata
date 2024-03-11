@@ -8,11 +8,33 @@ config = {
 }
 
 def listFiles(path):
-    return os.listdir(path)
+    ret = []
+    for file in os.listdir(path):
+        file_path = os.path.join(path, file)
+        if os.path.isfile(file_path):
+            ret.append(file_path)
+    return ret
 
 
-client = pymongo.MongoClient("mongodb://%s:%s@%s" % (config["MONGODB_USER"], config["MONGODB_PASSWORD"], config["MONGODB_URL"]))
 
-db = client["rentalreviews"]
-yelp_property_collection = db[""]
+yelp_path = "../yelp_input/output/"
+google_path = "../google_input/output/combined/"
+combined_path = "../combined/"
+summary_path = "../summaries/"
 
+# client = pymongo.MongoClient("mongodb://%s:%s@%s" % (config["MONGODB_USER"], config["MONGODB_PASSWORD"], config["MONGODB_URL"]))
+
+# db = client["rentalreviews"]
+categories = ["yelp_", "google_", "combined_", "summary_"]
+paths = [yelp_path, google_path, combined_path, summary_path]
+
+
+
+def populate(suffix):
+    for path in paths:
+        files = listFiles(path + suffix)
+        for file in files:
+            print(file)
+
+
+populate("companies")

@@ -43,8 +43,8 @@ def createArticles(path, out):
                     {"role": "user", "content": prompt}
                 ]
               )
-              with open(f'{out}/{file_content["name"]}.md', 'w') as output_file:
-                  output_file.write(result.choices[0].message.content)
+              with open(f'{out}/{file_content["name"]}.json', 'w') as output_file:
+                  json.dump({"name": file_content["name"], "summary": result.choices[0].message.content})
                   output_file.close()
           input_file.close()
 

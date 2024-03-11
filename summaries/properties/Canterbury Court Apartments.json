@@ -1,4 +1,318 @@
 {
   "name": "Canterbury Court Apartments",
+  "address": "3790 Canterbury Ln, Bellingham, WA 98225",
+  "company_type": "Apartment building",
+  "review_count": 51,
+  "avg_review": 3.4,
+  "reviews": [
+    {
+      "author": "lawrence Mathes",
+      "rating": 1.0,
+      "review": "Don't live here. Price is too high, the pool/spa area is basically a lie, and management is very dishonest. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Cheyanne Wilmore",
+      "rating": 2.0,
+      "review": "Im a current tenant here and there are pros and cons. The apartments are nice and the maintenance is good and are usually really quick to fix things, but the rent is really high and keeps going up, and they charge for amenities they can ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Madeline Gordon",
+      "rating": 2.0,
+      "review": "Lived in this complex for two years with my SO. We loved it at first, 1295 for a one bedroom one bath on the top floor. The maintenance was usually pretty prompt and we enjoyed the spaciousness of our unit. Over time we noticed a lot of ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ever Green",
+      "rating": 2.0,
+      "review": "As many have said, if you live below someone, noise from above from heavy walking and creaking boards will drive you nuts!  Take top floor and hike the three stories or stay away.  I'm giving up my $750 damage deposit for leaving before 12 ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Katherine Allaire",
+      "rating": 2.0,
+      "review": "Lived here for 2 years. It's a pretty area with cute ducks that follow you, but the ducks can't make up for the owners. It became too expensive for me to keep living there with the rent increases and it's not good enough quality for the ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joseph Janks",
+      "rating": 1.0,
+      "review": "Youll be told verbally that its a month to month lease. If you leave before 12months though, theres a fee. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Catherine Gabriel",
+      "rating": 5.0,
+      "review": "The Canterbury Court apartments are set back from the road enough that you might pass and never know there were apartments here. The grounds are lovely and well kept, with ornamental trees and shrubs. It is surprising how quiet and peaceful ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Paul Thornton",
+      "rating": 4.0,
+      "review": "Reasonable people will like this place just fine. The complaints I've seen on here so far are ridiculous. State law says you can't smoke on the balconies, and I support that law 1000%. Postmarks on mail returning your deposit money often ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ivan Zhuk",
+      "rating": 1.0,
+      "review": "Horrible apartment management. Waay too expensive for the price. Club house needs to be fixed & yet they charge you extra to use it. Very poor noise quality absorption. Every neighbor can be heard that surrounds you. They say their willing to work with you but do not give you any benefit of the doubt even during a crisis situation!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Carson Gregory",
+      "rating": 2.0,
+      "review": "I do not recommend living here. You will be harassed constantly. If you are a smoker, you can't use the balcony you PAY FOR! Nosey neighbors! RUDE management! We have  been moved out for 5 days and our phones wont stop ringing. (apartment in perfect condition, so no reason to contact us continuously) Do not rent from these people.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Christopher De Rosa",
+      "rating": 2.0,
+      "review": "My wife and I lived in this apartment complex for 6+ years. We brought home 2 babies to this home. When we first moved in, the original owners and management were fantastic. We never had a single issue. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Christie Mickelson",
+      "rating": 1.0,
+      "review": "Too expensive for how cheaply built it is. You can literally hear your neighbors sneeze and I could hear  my upstairs neighbor every single time he took a step, I could hear his blender in the morning. Also, they entered my apartment seven times in five months, always for some stupid reason. Anything is better than this.",
+      "ownerResponse": []
+    },
+    {
+      "author": "BlancaSmalls",
+      "rating": 1.0,
+      "review": "Beware of this place!!!!!\nRented a unit with a carpet with bleach stains and horrible carpet. I was there less than 2 years and nonetheless they charged me for new carpet because of ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Laura Willkie (Tabs)",
+      "rating": 5.0,
+      "review": "Emily  The manager is really nice she got us in-and-out lesson a few hours of signing for house nice grounds nice apartment for a nice price",
+      "ownerResponse": []
+    },
+    {
+      "author": "Steve Smith",
+      "rating": 1.0,
+      "review": "Now owned by profit driven only Corp. Zero customer service.  Does have nice swamp with birds",
+      "ownerResponse": []
+    },
+    {
+      "author": "michelle mallahan",
+      "rating": 1.0,
+      "review": "The managers are mean and the place is dirty... I would never rent from here...",
+      "ownerResponse": []
+    },
+    {
+      "author": "Edward Halasz",
+      "rating": 4.0,
+      "review": "Great location.  Nice pool and hot tub!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ryan Frydenberg",
+      "rating": 5.0,
+      "review": "Emily the manager is very nice to deal with and its a nice place to live",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kristina Kovacic",
+      "rating": 5.0,
+      "review": "Love it here. It's clean, quiet, and friendly.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jason C",
+      "rating": 3.0,
+      "review": "Cant see the addresses listed on the buildings",
+      "ownerResponse": []
+    },
+    {
+      "author": "Alicia Brown",
+      "rating": 4.0,
+      "review": "Nice place for old folks.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shawn Rush",
+      "rating": 5.0,
+      "review": "I love living here!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Justin H.",
+      "rating": 3.0,
+      "review": "Not bad place to live.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Andrew Johnson",
+      "rating": 5.0,
+      "review": "Nice place for families",
+      "ownerResponse": []
+    },
+    {
+      "author": "Rocky Butler",
+      "rating": 5.0,
+      "review": "There's ducks!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jeremiah Keenan",
+      "rating": 5.0,
+      "review": "Beautiful",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brian George",
+      "rating": 5.0,
+      "review": "It's all about the apartments",
+      "ownerResponse": []
+    },
+    {
+      "author": "Vitaly Oros",
+      "rating": 5.0,
+      "review": "Nice place",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brad Willey",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Holly Houston",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kelly Murphy",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kate Talotta (Kate Beans)",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Desiree Mork",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "JAESA PAPILLON",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Bank Bandzz",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Grayson Hovorka",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ean",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "carolyn quick",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Gerent G",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Dan Ouilette",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Danny Ingram",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Luis Carbajal",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Dostrimos",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Pankti Shah",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Tiffany Barker",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Darcy Lindenmuth",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mary Giles",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Healthy Eating With Mirna",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "An Da",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mike Robey",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Trevor Lange",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 28,
+  "adjusted_review_average": 3.1,
   "summary": "# Canterbury Court Apartments: A Balanced Review\n\nThis article aims to provide a comprehensive view of Canterbury Court Apartments, drawing from user reviews to showcase varied experiences of residents. It is created by ChatGPT to serve as a tool for individuals seeking insight into this property management company or rental property.\n\n## Good\n\nCanterbury Court Apartments appear to attract residents with its picturesque setting and a sense of tranquility that isn't easily found in urban life. The grounds are consistently described as \"lovely and well-kept,\" featuring ornamental trees, shrubs, and even cute ducks that add to the charm of the community. The peacefulness of the area is a highlight for many, offering a serene refuge from the noise of city life.\n\nSeveral positive reviews also commend the management, particularly noting the manager, Emily, for her responsiveness and courteous demeanor. Maintenance performance has been praised for its efficiency in addressing issues, enhancing the overall satisfaction of some residents. Moreover, there are comments appreciating the reasonable pricing and amenities like a nice pool, hot tub, and the general cleanliness and friendliness found within the community.\n\n## Great\n\nResidents who have had a positive experience at Canterbury Court Apartments often highlight the apartment's location and the sense of community. They describe it as a great place for families and the elderly, suggesting a welcoming environment conducive to various life stages. Families have brought home new members here, emphasizing the apartment's capability to serve as a true home.\n\nIt's also mentioned that the apartments provide good value, evident in reviews where residents feel they receive ample quality for the price they are paying. Testimonies of long-term residents who have lived here for six years or more indicate that there are indeed tenants who find sustained happiness and satisfaction in their living situation, including the ability to enjoy simple pleasures like the company of ducks on the property.\n\n## Bad\n\nHowever, the narrative is not all favorable, with some users reporting significant drawbacks. Complaints commonly center around the high rent, with multiple users feeling the cost is not justified by the quality or services provided. It seems the rent increases have been a source of displeasure, leading some residents to conclude that the apartments are too expensive for the value they offer.\n\nUser reviews have also pointed to the structure and design of the building, particularly criticizing the poor noise insulation. Tenants have shared their frustrations about being able to hear every step of their upstairs neighbors, suggesting the construction lacks adequate soundproofing. This recurring theme of noise disruption reflects a design flaw that has significantly impacted the living experience for some occupants.\n\n## Ugly\n\nAddressing the more troubling aspects, certain residents felt misled by the terms of the lease, alleging verbal mismatches with written agreements and equating this to landlord dishonesty. This sentiment of distrust extends to issues with security deposits, where some users have claimed unjust charges upon departure. Such experiences paint the management in a negative light, at least in the eyes of these reviewers.\n\nOthers have accused the management of harassment and rudeness, with one instance detailing constant phone calls after having moved out. Incidents of unwelcome apartment entries and complaints of a \"dirty\" environment add to the harsher criticisms. Moreover, the lack of response to these reviews from the owner suggests a possible lack of engagement in addressing these concerns or offering public resolutions.\n\nIn conclusion, the user reviews for Canterbury Court Apartments showcase a mixed bag of sentiments. While some find it a peaceful and value-packed place to call home, others have had experiences that tainted their view of the management and living conditions. It is always recommended that potential tenants inspect the property in person and speak directly with the management to ensure that their expectations align with reality."
 }

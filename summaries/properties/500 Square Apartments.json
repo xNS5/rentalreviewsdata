@@ -1,4 +1,162 @@
 {
   "name": "500 Square Apartments",
+  "address": "500 32nd St, Bellingham, WA 98225",
+  "company_type": "Apartment building",
+  "review_count": 15,
+  "avg_review": 3.3,
+  "reviews": [
+    {
+      "author": "Kendra Morgen",
+      "rating": 4.0,
+      "review": "500 square is a nice place to live and is in a great location. I have a slight problem with that when me and my roommates moved in, there was a lot of damages to the apartment that wasnt taken care of prior to our move in. One of the ",
+      "ownerResponse": [
+        {
+          "text": "Hi Kendra,\nGlad you are enjoying the apartment overall. We apologize for any maintenance that was not completed before move in. Any reported concerns should have been  More"
+        }
+      ]
+    },
+    {
+      "author": "Bella Peregrino",
+      "rating": 3.0,
+      "review": "The parking lot is very crowded and not very safe. The apartment is on a steep hill and the property management decided to block off the safest and most convenient exit/entrance for the parking lot. To the best of my knowledge it was only ",
+      "ownerResponse": [
+        {
+          "text": "Thank you for the feedback, Bella. Im sorry to hear that you have had difficulty with the parking lot here. Our goal is to always provide as much parking as possible for our residents in our reserved parking lot and make sure that only  More"
+        }
+      ]
+    },
+    {
+      "author": "Sonja Hinshaw",
+      "rating": 2.0,
+      "review": "I really wanted to like this place but unfortunately its just not what it claims to be. The building itself is pretty nice, you can tell it was made to look good but not actually be of good quality but I can get over that. My main issue I ",
+      "ownerResponse": [
+        {
+          "text": "Hi Sonja,\nThanks for taking the time to give some feed back. I am sorry to hear you are not satisfied with the property. Regarding management, we have an onsite manager  More"
+        }
+      ]
+    },
+    {
+      "author": "Wala Saadeh",
+      "rating": 5.0,
+      "review": "New and spacious apartments with excellent finishes. The entry to building is secured which is very safe and relaxing. Balcony view is amazing and I personally love it so much. The property manager is very responsive to questions and concerns. Highly recommended!",
+      "ownerResponse": [
+        {
+          "text": "Thanks for the review!"
+        }
+      ]
+    },
+    {
+      "author": "Jane Bekker",
+      "rating": 1.0,
+      "review": "Disappointed in the management and overall experience living here. There have been many issues with this place from the beginning. To name a few, the move in date was pushed back two days and we were given less than a days notice, the ",
+      "ownerResponse": [
+        {
+          "text": "Hi Jane, \nI'm sorry to hear about your disappointment with some issues since you moved in. There were some tight construction deadlines, so we apologize if anything was  More"
+        }
+      ]
+    },
+    {
+      "author": "Lauren Wright",
+      "rating": 1.0,
+      "review": "Nice apartments but poor management as far as wait times, parking, and construction goes. This place was supposed to be finished in May 2022 and is still not finished. Its a sunny afternoon and I have my window shut because of all the ",
+      "ownerResponse": [
+        {
+          "text": "We're sorry to hear this about your experience here. We strive to make our residents happy, and we apologize for the disruptions and noise caused by construction at the property. Our management team has addressed these noise issues with the  More"
+        }
+      ]
+    },
+    {
+      "author": "Kimberly Fine",
+      "rating": 5.0,
+      "review": "Beautiful apartments with modern finishes. The property manager is very responsive to questions and concerns. Having secure entry to the building makes it feel super safe and the package parcels are a great bonus!",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your feedback!"
+        }
+      ]
+    },
+    {
+      "author": "Richard Dickson",
+      "rating": 1.0,
+      "review": "When I moved in I was warned by other residents that this building is not safe, I didn't believe them but i should have. I have lived here for just over 3 weeks and I have already heard of 2 of my neighbors being robbed because the doors do not use real locks, instead opting for keypads that malfunction half the time you use them.",
+      "ownerResponse": [
+        {
+          "text": "We are sorry to hear that there have been crime issues here. We are always working towards creating a safer place to live for our tenants. Thank you for your patience as we worked through any issues that came up in our opening days with the  More"
+        }
+      ]
+    },
+    {
+      "author": "Muhammad Awais Bin Altaf",
+      "rating": 5.0,
+      "review": "Great place and nice location. Living here with my family and absolutely enjoying it. Highly recommended. Maintenance just an email away from you. Management is Highly responsive and accommodating.",
+      "ownerResponse": [
+        {
+          "text": "Glad you enjoy the apartment! Thanks for the feedback."
+        }
+      ]
+    },
+    {
+      "author": "Alex",
+      "rating": 1.0,
+      "review": "0 stars. I would like this apartment but the horrible management is unacceptable, feel free to park in any spot though, as they do not fine you unless you live here.",
+      "ownerResponse": [
+        {
+          "text": "We apologize for the tight parking situation. We understand it is frustrating when your parking space is parked in by another person. We are working to create a working parking situation for all tenants. Please let us know if you have further parking issues so we can have the vehicle removed."
+        }
+      ]
+    },
+    {
+      "author": "Stillo",
+      "rating": 5.0,
+      "review": "i like it ",
+      "ownerResponse": [
+        {
+          "text": "Hello Stillo!  Thank you for your review!  We're glad you like it here!"
+        }
+      ]
+    },
+    {
+      "author": "Marcus",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Hello Marcus, thanks for taking the time to review us.  It sounds like we could have done something to better accommodate you.  Please reach out to us to tell us how we can improve our service.  Thank you!"
+        }
+      ]
+    },
+    {
+      "author": "Andrew Smith-Moreland",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Hello Andrew!  Thank you for the review!"
+        }
+      ]
+    },
+    {
+      "author": "Isabelle Sheadel",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Hello Isabelle!  Thank you for your review! "
+        }
+      ]
+    },
+    {
+      "author": "Jo Mosgrove",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you, Jo, for your review! "
+        }
+      ]
+    }
+  ],
+  "adjusted_review_count": 11,
+  "adjusted_review_average": 3.0,
   "summary": "# Balanced Review of 500 Square Apartments\n\nIn this article, we\u2019ll take a deep dive into the various aspects of living at 500 Square Apartments, drawing upon user reviews to paint a detailed picture of the experiences tenants have had. This article's intent is to provide a balanced view, helping readers make an informed decision about the property. Please note that the contents of this article are generated by ChatGPT and are intended to be a holistic tool for potential residents in their search for a suitable property management company or rental option.\n\n## Good\n\n500 Square Apartments have received several commendations for their modern finishes and secure building entry. Tenants appreciate the sense of safety provided by secured entrances, and the addition of package parcels has been highlighted as a positive bonus. The apartments themselves are described as new, spacious and featuring excellent finishes, creating a comfortable and aesthetically pleasing living space.\n\nThe property management has been praised for their responsiveness, with several reviews noting their quick reactions to questions and issues. For families and individuals looking for a responsive management team, 500 Square Apartments seems to be accommodating. Users have specifically mentioned maintenance being just an email away, demonstrating a commitment to tenant service and convenience.\n\n## Great\n\nThe location of 500 Square Apartments is repeatedly mentioned and recommended by tenants, suggesting it suits the needs of residents searching for ideally situated accommodations. The balcony views have been described as amazing, providing a relaxing ambiance and contributing to the overall enjoyment of the living experience at this apartment complex.\n\nIn matters of tenant concerns and questions, the management is reported to be highly responsive, accommodating, and ready to ease the concerns of their residents. Reviews indicate that the management team fosters an open line of communication, addressing issues as they arise and upholding a level of service that aligns with resident expectations.\n\n## Bad\n\nHowever, not all aspects of 500 Square Apartments have met resident satisfaction. Some reviews highlight issues such as move-in dates being unexpectedly pushed back and apartments not being adequately prepped for new tenants. This has caused frustration and inconvenience, overshadowing the initial excitement of moving to a supposedly well-managed property.\n\nMoreover, residents have encountered problems with the parking lot, describing it as crowded and unsafe. Additionally, management decisions to close certain access points have contributed to these negative sentiments. The inconvenience caused by this lack of parking logistics has been a thorn in the side for some of the residents, leading to dissatisfaction.\n\n## Ugly\n\nOn the more concerning side, there have been reports of safety issues, with incidents of robbery being associated with malfunctioning keypad locks. This raises significant questions regarding the security measures employed by the property management and the effectiveness of their response to tenant safety concerns.\n\nCriticism has also arisen due to ongoing construction and its associated disturbances, such as noise, which have eclipsed the positive aspects of living at 500 Square Apartments for some residents. The failure to meet promised deadlines for construction completion has contributed to an unsatisfactory living experience for these individuals.\n\nIn conclusion, while 500 Square Apartments exhibit a number of appealing qualities, like responsive management and modern amenities, they also face challenges with maintenance, safety, and logistics. Future tenants should weigh these good and bad facets carefully when considering 500 Square Apartments as their new home. This article's aim is to transparently convey the varied experiences of past and current residents, providing insights based solely on user reviews."
 }

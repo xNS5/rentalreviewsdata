@@ -1,4 +1,64 @@
 {
   "name": "Sycamore Corporation",
+  "address": "1200 Harris Ave Ste 413 Bellingham, WA 98225",
+  "company_type": "Property management company",
+  "review_count": 6,
+  "avg_review": 3.2,
+  "reviews": [
+    {
+      "author": "Skylar Smith",
+      "rating": 5.0,
+      "review": "Sycamore Square building is awesome! The history is sooo much fun to learn about. I invite you all to go to \"the creepy corner\" and see if you feel anything/anyone with you...",
+      "ownerResponse": []
+    },
+    {
+      "author": "Si H",
+      "rating": 1.0,
+      "review": "Extremely unprofessional. Doesn't answer calls during business hours and didn't respond to voicemails. When we did get in contact with the company, we were met with very unfriendly responses, almost giving us the feeling that we were an ",
+      "ownerResponse": [
+        {
+          "text": "Hi Simon,\nI'm so sorry that was your experience with us. Recently we did undergo a change in staff and property management. If you're ever looking into another apartment don't be afraid to call and set up an appointment. We'd love another chance to change your mind!"
+        }
+      ]
+    },
+    {
+      "author": "Steve Skippy Austin",
+      "rating": 2.0,
+      "review": "Need to get their act together. Lawns are un kept and land shaping sucks. Parking lots need striping. Rent is prohibitive.",
+      "ownerResponse": [
+        {
+          "text": "Hi Steve,\nI'm so sorry about your experience. Recently we did undergo a change in management and staff. We appreciate your continued patronage! If there is ever another issue feel free to contact us personally, and we will do our best to rectify the situation!"
+        }
+      ]
+    },
+    {
+      "author": "Jesse",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Dear Jesse Graf,\n\nWe assume that based on this one star review of our management firm that you are  More"
+        }
+      ]
+    },
+    {
+      "author": "Viet Le",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your review! We are pleased to serve our tenants and owners!"
+        }
+      ]
+    },
+    {
+      "author": "Monica R.",
+      "rating": 5.0,
+      "review": "Sycamore Square\n\nThe famous beautiful brick building on the corner of 12th and Harris in Fairhaven was built in 1890 and still charms tourists and visitors alike. Make sure to reserve a whole afternoon to spend at this unique indoor shopping community. \n\nStroll through Sycamore Square and find a wide variety of shops, restaurants, spa services, with 12th Street Shoes, Mambo and The Black Cat being among the most famous. What a  unique building to dine, browse and shop in Bellingham. Many professional offices round out this beautiful space. Big plus with plenty of parking (which is tough to find sometimes in Fairhaven) Sycamore Square owns the  parking lot on the corner of 13th and Harris.",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 4,
+  "adjusted_review_average": 3.2,
   "summary": "# A Balanced Look at Sycamore Corporation Property Management\n\n## Good\n\nSycamore Corporation, located in the heart of Bellingham, seems to be leaving some tenants and visitors with positive experiences. Some of the user reviews praised the historic charm of the Sycamore Square building, highlighting its allure and the entertainment it offers through a variety of shops and restaurants. The delight of spending an afternoon in such a unique indoor shopping community is a recurring theme, with tenants inviting newcomers to explore \"the creepy corner\" for a bit of adventure and history.\n\nThe company has garnered acclaim for the beauty and rich history of the buildings they manage, particularly Sycamore Square. Reviewers are impressed by the brick building that dates back to 1890, citing it as a beloved landmark in the area. The presence of professional offices, alongside shopping and dining experiences, rounds out the offerings of the site. The ease of parking, often mentioned as a challenge in the Fairhaven area, is seen as a significant advantage of Sycamore Corporation properties.\n\n## Great\n\nDespite a few hurdles, Sycamore Corporation's responsiveness to critical reviews is noteworthy. When faced with disheartening feedback from tenants, they engaged directly with the reviewers, showing a desire to rectify issues and improve their services. Such engagement is often indicative of a company willing to learn from feedback and better cater to the needs of their clients.\n\nMoreover, Sycamore Corporation's acknowledgement of a recent change in staff and property management mentioned in the responses seeks to assure current and prospective tenants of their commitment to progress. They invite aggrieved clients to revisit their experiences, indicating an openness to second chances. This level of customer care and responsiveness to user reviews suggests they value tenant satisfaction and are actively working to enhance their service quality.\n\n## Bad\n\nOn the flip side, several user reviews have raised red flags concerning the level of professionalism at Sycamore Corporation. Instances of unreturned calls and voicemails during business hours have been a source of frustration for some tenants. When contact was eventually made, interactions were described as unfriendly, leaving tenants feeling unwelcome, which is far from ideal for any property management company.\n\nInsights into the upkeep of managed properties also point towards room for improvement. User reviews have described the lawns as unkempt and the landscaping as subpar. Critical remarks regarding the state of parking lots needing new striping and the high rent underline areas where the company does not meet some tenants' expectations. This paints a picture of possible neglect in maintenance and property care, which could deter prospective renters.\n\n## Ugly\n\nDigging deeper into the user reviews, the \"ugly\" aspects of Sycamore Corporation's management practices become apparent, though they may not be entirely reflective of the overall company performance. Charging prohibitive rent while apparently neglecting the aesthetics and functionality of the properties is a concern brought up by tenants, suggesting a disparity between what tenants pay and the value they receive.\n\nMoreover, the absence of review content from a couple of users, represented only by low ratings, leaves us to infer profound dissatisfaction. While the reasons for these ratings are not articulated in words, the symbolic gesture of a one-star rating is powerful. It serves notice that some experiences with Sycamore Corporation fall well below expectations, hinting at grave grievances that could not find their expression in written complaints.\n\nThis article's intent is to serve as a concise summary of user reviews and is not an endorsement or indictment of Sycamore Corporation. By providing a balanced overview\u2014from commendations of historical charm to critiques on professionalism and maintenance\u2014potential clients can better gauge the company based on past tenants' experiences. Note that these reviews have been generated by ChatGPT and are intended to be a tool to help individuals find a property management company or rental property."
 }

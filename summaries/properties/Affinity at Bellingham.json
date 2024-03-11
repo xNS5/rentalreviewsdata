@@ -1,4 +1,418 @@
 {
   "name": "Affinity at Bellingham",
+  "address": "3930 Affinity Ln, Bellingham, WA 98226",
+  "company_type": "Apartment complex",
+  "review_count": 43,
+  "avg_review": 4.5,
+  "reviews": [
+    {
+      "author": "Barbara Hansen",
+      "rating": 1.0,
+      "review": "I had moved in right when I turned 55 into a 2 bedroom apartment.  Due to personal issues, I moved out, but returned since my first experience was fantastic.  Since coming back, there is a list a mile long NOT to stay here.  Number one; ",
+      "ownerResponse": [
+        {
+          "text": "Barbara, we certainly don't like seeing a current resident so unhappy. That's not what Affinity is about! Some of these items, we have been able to address with you via email and offered to discuss further in person or over the phone at  More"
+        }
+      ]
+    },
+    {
+      "author": "Cecilia",
+      "rating": 5.0,
+      "review": "Being here is home to me - the place is always clean, cheerful with happy people not only living here but the ones who are our refuge of help or questions anytime, Laurie, Amber, Kristin.  Always smile and ask us how we are doing.  The ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Laura Dutton",
+      "rating": 5.0,
+      "review": "We  recently moved to Affinity from Austin, Texas. The administrative staff,; Kristin , Amber and Laurie were all absolutely wonderful to deal with. There were a lot of logistics involved and they were very professional and accommodating. ",
+      "ownerResponse": [
+        {
+          "text": "What an amazing review!  Thank you so much, Laura.  We are happy you and Lee have become members of our community!"
+        }
+      ]
+    },
+    {
+      "author": "Debbie Sage",
+      "rating": 5.0,
+      "review": "We love living here at Affinity in Bellingham! The staff are simply lovely and if we need anything at all they're quick to help.  The community of residents are friendly and there are many ways to be involved and stay connected if you want ",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for the wonderful review Debbie!  We are so happy to have you as a resident!"
+        }
+      ]
+    },
+    {
+      "author": "Barbara Hansen",
+      "rating": 4.0,
+      "review": "Maintenance department is exceptional. Even though there are only 2 maintenance persons, they are excellent.  Housekeeping is also short shorthanded.  Front desk person is there when scheduled to work.",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for taking the time to leave us a review Barbara!  We appreciate you and your feedback!"
+        }
+      ]
+    },
+    {
+      "author": "Rod Elin",
+      "rating": 5.0,
+      "review": "We've been here going on four years this May and have found the perfect independent living facility.  It's quiet, secure, with loads of amenities and activities.  The maintenance is top drawer and quick to respond as is the management and ",
+      "ownerResponse": [
+        {
+          "text": "Hi Rod, \nThank you for taking the time to provide a great review for Affinity in Bellingham!  We're lucky to have you as a resident here!  Have the best day.\nLaurie"
+        }
+      ]
+    },
+    {
+      "author": "Kelly Powell",
+      "rating": 5.0,
+      "review": "I have lived at Affinity for almost 2yrs years now & I have enjoyed every second of it! The Mgr. Laurie does her job extremely well to ensure that we feel safe, secure, happy, heard, and genuinely cared for! What other apartment complex ",
+      "ownerResponse": [
+        {
+          "text": "Good morning Kelly!\nThank you so much for your great review!  I have shared this review with the team.\nHave a great day."
+        }
+      ]
+    },
+    {
+      "author": "china m",
+      "rating": 5.0,
+      "review": "This is a wonderful place to live and we have enjoyed being a part of the Affinity community. There are so many opportunities to take advantage of within close proximity, as well as the social events available here. We've met so many lovely ",
+      "ownerResponse": [
+        {
+          "text": "Thank you for so much for your wonderful review!  We appreciate it so much."
+        }
+      ]
+    },
+    {
+      "author": "Susan Harmon",
+      "rating": 4.0,
+      "review": "These are what I consider upscale apartments for 55+ ages. They offer a lot of amenities in the apartment building, including an elevator. There are usually monthly activities taking place. They maintain the interior and exterior of the ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jim Bergner",
+      "rating": 5.0,
+      "review": "I have lived here for three years now and enjoy the community here.  The residents here are mostly very friendly and easygoing.  We have many social functions much like a large extended family.",
+      "ownerResponse": [
+        {
+          "text": "Hi Jim,\nThank you for your kind words.  We enjoy having you as part of the Affinity Family!"
+        }
+      ]
+    },
+    {
+      "author": "Kristl B. Binder",
+      "rating": 5.0,
+      "review": "Perfect  such a good and wonderful place. Theres everything there  a 24/7 salt water indoor swimming pool, friendly personal. The grounds so wonderfully kept. Organised activities such as gymnastics (Silver Sneakers) twice a week, ",
+      "ownerResponse": [
+        {
+          "text": "Hi Kristl,\nThank you so much for your kind words and positive review.  We really appreciate it."
+        }
+      ]
+    },
+    {
+      "author": "William Gerrie",
+      "rating": 5.0,
+      "review": "My wife and I have found living at Affinity convenient, comfortable and pleasant. The current management staff is responsive, efficient, dependable and friendly. Since the new manager came on board, facility upkeep and appearance are better ",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your kind and insightful review! At Affinity at Bellingham, we strive to provide excellent customer service and take pride in our amenities. We are so glad to hear you have enjoyed everything Affinity has to offer and we hope to have you as a resident for a long time."
+        }
+      ]
+    },
+    {
+      "author": "Heather Perks",
+      "rating": 5.0,
+      "review": "I have been a resident at Affinity Bellingham for approximately 2 months and have found it to be a welcoming community with many opportunities for activities within the building. Additionally there are many organized in the greater Bellingham community as well as much farther afield.",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for your positive review Heather!  We're so happy that you chose Affinity as your new home!"
+        }
+      ]
+    },
+    {
+      "author": "Nancy Haapala",
+      "rating": 5.0,
+      "review": "I want to let people know that at the age of 85 and living here for FIVE years - it so comfortable living at Affinity@Bellingham.  The Staff is so special, the people living here are so friendly that it feels like home!    What more could you ask for!",
+      "ownerResponse": [
+        {
+          "text": "Hi Nancy,\nThank you so much for your review.  We love having you as a resident here at Affinity and we think you're pretty great as well."
+        }
+      ]
+    },
+    {
+      "author": "Sandra Laney",
+      "rating": 5.0,
+      "review": "I have lived here in since January 2019, and am very satisfied. The staff attends to every concern and need - whether minor, major, or even imagined - with a smile and almost always immediate resolution!",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for the kind review! We appreciate you as a resident and hope to continue to provide our best customer service."
+        }
+      ]
+    },
+    {
+      "author": "John Sage",
+      "rating": 5.0,
+      "review": "We love it here.  Amazing amenities. Pet friendly. Great central location with quick and easy access to town and services.  Super friendly staff that really care about you.",
+      "ownerResponse": [
+        {
+          "text": "Thanks for a great review John, we're so happy you chose Affinity as your place to live!"
+        }
+      ]
+    },
+    {
+      "author": "p Brooks",
+      "rating": 5.0,
+      "review": "Lived here for 6 years.  Great place and great people.  Hated\nto move, but we did, to another affinity location out of state.",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for taking the time to leave us a review Pete!  It means a lot!  We hope you are settled in at your new Affinity home!"
+        }
+      ]
+    },
+    {
+      "author": "Darlene Moore",
+      "rating": 2.0,
+      "review": "When i was looking for a place to live..One of my first concerns was parking.. I was told it was not a ptoblem. I chose an apartment rt by elevator...now that i paid moved in i am told i have to apply my handicap parking thru the state means nothing...common sincee does not prevail.. I do not understand how it is even legal...",
+      "ownerResponse": [
+        {
+          "text": "Good Afternoon Darlene,  I am sorry to hear that our parking has not met your expectations. We offer free parking to all of our residents and have handicapped spots available. Residents are also offered carports and garages for an  More"
+        }
+      ]
+    },
+    {
+      "author": "Bruce Roberts",
+      "rating": 1.0,
+      "review": "They run loud cleaning equipment in the parking lot of the Home Depot across the street from this housing complex!  This occurs in the middle of the night.  So you can expect to get no sleep a couple of times a month.  What a great disappointment this has been.",
+      "ownerResponse": [
+        {
+          "text": "Good Afternoon Bruce, I am sorry you are having noise issues with our surrounding businesses. Here at The Affinity at Bellingham, we strive to minimize any unreasonable noise that we can control. Living in an urban area can unfortunately  More"
+        }
+      ]
+    },
+    {
+      "author": "Michael Blair",
+      "rating": 5.0,
+      "review": "Norman did a wonderful repair in a timely manner and cleaned up after completion.  Thank you",
+      "ownerResponse": [
+        {
+          "text": "Hi Michael, \nThanks for taking the time to submit a review!  We appreciate you.  Happy New Year!\nLaurie"
+        }
+      ]
+    },
+    {
+      "author": "Kathi Bjorn",
+      "rating": 4.0,
+      "review": "Pay once for everything: electricity. Water. Garbage, cable. Internet, etc. It's your living. Not management. So many amenities. Good management people.",
+      "ownerResponse": [
+        {
+          "text": "Good Afternoon Kathi, thank you for your kind review! The Affinity at Bellingham is happy to provide utilities to their residents. If you have any questions or concerns the leasing staff is happy to help!"
+        }
+      ]
+    },
+    {
+      "author": "Elizabeth Haro",
+      "rating": 5.0,
+      "review": "Move in has been smooth and welcoming",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your review Elizabeth.  We are so happy to have you and Neptune join our community!  Please let us know if there's anything you need.\nLaurie"
+        }
+      ]
+    },
+    {
+      "author": "Harvey Keitel",
+      "rating": 4.0,
+      "review": "Some rat made my life a living hell for the entire summer and got away with it ",
+      "ownerResponse": [
+        {
+          "text": "Good Afternoon Harvey, I understand that this incident happened a while ago, but I wanted to reach out. The leasing staff at The Affinity at Bellingham would be happy to help you with any issues you may be having. Please feel free to stop by the office if you need further assistance."
+        }
+      ]
+    },
+    {
+      "author": "Susan Harmon",
+      "rating": 4.0,
+      "review": "Nice place...well managed.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Maria",
+      "rating": 5.0,
+      "review": "Great customer service.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Connie Audette",
+      "rating": 5.0,
+      "review": "I have friends that live it",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your positive review! Have you considered becoming neighbors with your friends? :)"
+        }
+      ]
+    },
+    {
+      "author": "Gayle L.",
+      "rating": 5.0,
+      "review": "A wonderful place !!",
+      "ownerResponse": []
+    },
+    {
+      "author": "joe moa",
+      "rating": 4.0,
+      "review": "Thare good",
+      "ownerResponse": [
+        {
+          "text": "Thank you very much!"
+        }
+      ]
+    },
+    {
+      "author": "Victor Sweet",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you!"
+        }
+      ]
+    },
+    {
+      "author": "Gordon Hilsman",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Hi, thanks for the great rating!"
+        }
+      ]
+    },
+    {
+      "author": "Mycah Wells",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "We appreciate your positive review about your recent experience with us! If you have any further questions, please give us a call. We're always happy to help!"
+        }
+      ]
+    },
+    {
+      "author": "Izen",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Izen, we're disappointed to hear of the negative experience you had at our location.  Would you be willing to provide us some feedback as to what happened to make your experience with us negative?  More"
+        }
+      ]
+    },
+    {
+      "author": "Milangela Diaz",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you for taking the time to leave us this fantastic review! We strive to provide an excellent experience at Affinity at Bellingham. Thanks again!"
+        }
+      ]
+    },
+    {
+      "author": "Me, You & a Minnie Dog Too",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you again for taking the time to let us know how we did. We hope you have a great day!"
+        }
+      ]
+    },
+    {
+      "author": "John Reed",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "We really appreciate you taking the time to leave us a great review.  We're are so lucky to have you as a resident John!  Thanks for all you do."
+        }
+      ]
+    },
+    {
+      "author": "Darryl Olson",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you for taking the time to review Affinity at Bellingham.  We appreciate you and are glad you decided to join our wonderful community Darryl and Carol!"
+        }
+      ]
+    },
+    {
+      "author": "Nicole Thomas",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for taking the time to leave us a review!  We appreciate it so much!"
+        }
+      ]
+    },
+    {
+      "author": "Shirley Morlan",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for the positive review, Shirley!  We are so happy you decided to make Affinity at Bellingham your new home!"
+        }
+      ]
+    },
+    {
+      "author": "Nancy Southern",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you again for taking the time to let us know how we did. We hope you have a great day! We're glad to hear we delivered such a great experience. If there's anything further we can do for you, we are happy to help!"
+        }
+      ]
+    },
+    {
+      "author": "Dimpna Vergara",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Good Afternoon Dimpna, thank you for your kind review!"
+        }
+      ]
+    },
+    {
+      "author": "Calvin Kim",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you for taking the time to leave us a review.  It's really appreciated!"
+        }
+      ]
+    },
+    {
+      "author": "Samanda Dillard",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your positive review!"
+        }
+      ]
+    },
+    {
+      "author": "Ana Jackson",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 28,
+  "adjusted_review_average": 4.4,
   "summary": "# Affinity at Bellingham: A Balanced Look at Resident Reviews\n\n### Good\nAffinity at Bellingham receives numerous positive user reviews highlighting the welcoming and comfortable living experience provided by the apartment complex. Residents appreciate the clean and cheerful environment, which is mentioned as being consistently maintained by diligent staff. The administrative team, specifically recognized for their excellent customer service, is described as professional, accommodating, and responsive to residents' needs and concerns.\n\nAdditionally, there are frequent nods to the sense of community among the residents, fostered through social functions and activities. The various amenities offered by Affinity at Bellingham, including a saltwater pool and organized events, are well-regarded and contribute to residents feeling engaged and content. People who choose to live here often commend the feeling of being part of a friendly and connected community, indicating that Affinity at Bellingham is not just a residence but a home to many.\n\n### Great\nDiving deeper into the positive user reviews for Affinity at Bellingham, it's clear that the property management goes above and beyond to ensure resident satisfaction. For instance, the maintenance department receives accolades for being exceptional, despite being a small team, indicating that they effectively handle repairs and upkeep. The staff, including those at the front desk, appear to be reliable and accessible, contributing to a sense of security and well-being within the complex.\n\nUser reviews also celebrate the attention to detail in the organization of activities and amenities available, such as fitness classes, which supports active and social lifestyles. The responsiveness of the management staff is consistently mentioned, alongside improvements in facility upkeep and the provision of a secure and quiet living environment. These factors exemplify the dedication of Affinity at Bellingham's team to creating a pleasant living experience.\n\n### Bad\nOf course, no property management company is without its faults, and Affinity at Bellingham is no exception according to some user reviews. One resident highlights initial dissatisfaction with various aspects of living at the property, although it appears that the management team addressed some concerns through direct communication. Nonetheless, the sentiment emphasizes the importance of prompt and efficient issue resolution.\n\nThere are also specific criticisms related to certain operational aspects of the complex, such as parking management and communication about it, which negatively impacted at least one resident\u2019s experience. This speaks to a need for clear policies and perhaps more considerate enforcement that aligns with the residents' expectations and needs, especially for those with accessibility concerns.\n\n### Ugly\nA particularly discomforting point raised in user reviews involves noise disturbance from neighboring businesses, which unfortunately affects the living experience for some residents at Affinity at Bellingham. Despite efforts by the complex to minimize noise within their control, the urban setting can contribute to unexpected disturbances which are outside the management's purview, leading to frustrations for affected individuals.\n\nAnother point of contention comes from the apparent disparity between the experiences of living at Affinity at Bellingham and the perceived legal oversight of parking. When legal compliance conflicts with residents' expectations, it can lead to a stressful living situation, perhaps necessitating further dialogue and clearer communication between the residents and management.\n\n### Conclusion\nIt's imperative to note that this article, generated by ChatGPT, is intended to be a tool to help you find a property management company or rental property. The insights consolidated here are derived from user reviews and aim to provide a well-balanced look at the experiences had by residents of Affinity at Bellingham. With a keen focus on understanding both the high praises and the critical feedback, prospective residents can make an informed decision on whether this apartment complex may suit their needs and expectations."
 }

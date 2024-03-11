@@ -33,8 +33,10 @@ paths = [yelp_path, google_path, combined_path, summary_path]
 def populate(suffix):
     for path in paths:
         files = listFiles(path + suffix)
+        dump = []
         for file in files:
-            print(file)
+            with open(file, "r") as inputFile:
+
 
 
 populate("companies")

@@ -1,4 +1,240 @@
 {
   "name": "Sunset Pond Apartments",
+  "address": "1205 Woodstock Way, Bellingham, WA 98226",
+  "company_type": "Apartment building",
+  "review_count": 38,
+  "avg_review": 2.4,
+  "reviews": [
+    {
+      "author": "Lu Banyan",
+      "rating": 5.0,
+      "review": "I rented this gorgeous 3 bedroom 2 bathroom SPACIOUS unit here sight unseen. Admittedly I was extremely nervous to see it having had bad experiences in the past. I've been here 1 week and my jaw keeps hitting the floor with how amazing this ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mikel Bryant",
+      "rating": 5.0,
+      "review": "Came to view the property and met with Kasha. She was so friendly and knowledgeable! I dont often leave public reviews but it was such a pleasant experience that I wanted to give a shout-out for her taking the time and answering all of my questions.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Nick Green",
+      "rating": 2.0,
+      "review": "Not a safe place to live, only has residents due to there not being many options elsewhere. Loud neighbors who threw toys and trash onto our patio. Didn't seem to be any consequences because of how often it happened. Loud all the time, had ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Lisa Loleas",
+      "rating": 5.0,
+      "review": "I am a current tenant here and have nothing but good thing to say about the manager Kasha and maintenance team! They are all very good at what they do. The manager is very professional and make sure she keeps the property is in good ",
+      "ownerResponse": []
+    },
+    {
+      "author": "S D",
+      "rating": 1.0,
+      "review": "Worst place to live. Break ins and junkies running around in the buildings. Not a safe place to call it a home. On top of this, the management is very hostile and they lie to keep the deposit and charge more.",
+      "ownerResponse": []
+    },
+    {
+      "author": "M C",
+      "rating": 1.0,
+      "review": "This was the worst place I have ever lived and I do not have one positive thing to say about it.  Management was hostile and I have evidence of them lying and charging me wrong multiple times. They did not care about me being harassed by my ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Antoinette Munn",
+      "rating": 5.0,
+      "review": "I moved into sunset pond apartments at the end of March 2023. The application process was smooth and predictable thanks to Kasha, the office manager. Kasha is professional and kind. She made the acceptance criteria clear and was certain to ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Lisa",
+      "rating": 5.0,
+      "review": "I lived at this complex for many years, and had nothing but great experiences with the office manager Kasha she is very nice and does good at her job she always has a smile on her face . Apartments are nice and maintenance always comes and ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mona Santos",
+      "rating": 5.0,
+      "review": "Sunset Pond Apartments is a nice place to live. The 3 bedroom 2 bathrooms are very comfortable with plenty of space. It's a quiet complex that is beautifully landscapes. The pool and clubhouse is kept in excellent condition and a great ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Rebecca Herman",
+      "rating": 4.0,
+      "review": "The apartment: Very large 2 bedroom with huge walk in closet, open concept living room/kitchen, nice locking storage off the patio, nice vinyl double pane windows and sliders lets in plenty of daylight, stack washer dryer too!. For the rent ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Crystal Lavallee",
+      "rating": 5.0,
+      "review": "We absolutely enjoyed living at sunset pond.\n\nKeisha was always so pleasant to talk to and any time we had a service request, ",
+      "ownerResponse": []
+    },
+    {
+      "author": "nicole Derscheid",
+      "rating": 1.0,
+      "review": "Dont be fooled by their cheap rent they will just raise the price without warning and keep your deposit. Awful ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ezra McConnell",
+      "rating": 3.0,
+      "review": "Sunset Pond has a nice walking area. They do not allow pets and have an interesting group of staff members. The one thing that is quite annoying is the amount of times they need to come into your apartment. We are constantly getting notices ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Cathie Oberg",
+      "rating": 5.0,
+      "review": "I have lived at Sunset Pond Apartments for ten years.  I have been very happy with the personnel and physical appearance of the facility.  The management has always been very supportive.  I hope to be here another ten years.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Drew Buchhaas",
+      "rating": 1.0,
+      "review": "Literal thieves. I will never rent from these apartments or recommend them after hearing they steal deposits for no valid reason!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Yvette Salazar",
+      "rating": 1.0,
+      "review": "Good Ole Sunset Pond.. ONLY good thing about these apartments is how affordable this trashy place is. If you can avoid leasing/renting here, do yourself the favor of paying the extra hundred somewhere far away from here in a safer/cleaner ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Davi Weasley",
+      "rating": 2.0,
+      "review": "I've lived in this place for five years, and there's not much to recommend.\nThe maintenance staff is amazing but the admin staff is extremely mediocre. Just today we arranged a schedule around an alleged water shut off that we got last ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Sama",
+      "rating": 5.0,
+      "review": "Sunset pond apartments is a great place to live its located near everything you need in town the complex is well taken care of and  the manager kaysha with the red hair is really nice and helpful :)",
+      "ownerResponse": []
+    },
+    {
+      "author": "Richie Virtanen",
+      "rating": 1.0,
+      "review": "Shady business practices from this place youd be better off living under a bridge than here",
+      "ownerResponse": []
+    },
+    {
+      "author": "Erin Heft",
+      "rating": 1.0,
+      "review": "Absolutely incompetent management, unprofessional, they will rip you off! Run!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Travis Bessey",
+      "rating": 1.0,
+      "review": "Another awfully run complex stealing, and not fixing issues",
+      "ownerResponse": []
+    },
+    {
+      "author": "F S",
+      "rating": 1.0,
+      "review": "All the 5 star reviews here are fake. This place is an absolute nightmare.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Sarah J",
+      "rating": 1.0,
+      "review": "Thiefs.",
+      "ownerResponse": []
+    },
+    {
+      "author": "charles koenig",
+      "rating": 1.0,
+      "review": "Horrible place dont live there.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jacob Tartaglioni",
+      "rating": 1.0,
+      "review": "thiefs",
+      "ownerResponse": []
+    },
+    {
+      "author": "Phoenix",
+      "rating": 5.0,
+      "review": "Great management, beautifully maintained grounds, quality apartments at affordable comparable rates.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shelby Dinnison",
+      "rating": 1.0,
+      "review": "thieves",
+      "ownerResponse": []
+    },
+    {
+      "author": "Daija Heyward",
+      "rating": 1.0,
+      "review": "Thief",
+      "ownerResponse": []
+    },
+    {
+      "author": "Bryce Davidson",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Saba Hassan",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Luis Carbajal",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Nicholas Green",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kiana Straka",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "David Craig",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Selena star",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "colton braswell",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jennifer Hiegler Pickett",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Inderjit Singh",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 28,
+  "adjusted_review_average": 2.7,
   "summary": "# Sunset Pond Apartments: A Mixed Review Experience\n\nWhen searching for a place to call home, it's important to consider the experiences of others. In this article, we will dive into user reviews of Sunset Pond Apartments in Bellingham, WA, acknowledging the positive and addressing the negative sentiments. This article is generated by ChatGPT, serving as a guide to help you learn more about this property management company and rental property.\n\n## Good\n\nResidents have praised the spaciousness and quality of the apartments at Sunset Pond. Some users expressed that the units, particularly the 3 bedroom 2 bathroom ones, are comfortable and give a sense of luxury. Another sign of good management is the mention of an efficient application process, signaling that the company values tenants' time and sets clear expectations from the beginning.\n\nThe staff at Sunset Pond Apartments, especially the manager Kasha, has been noted for their friendliness and professionalism. This is often reflected in how they handle maintenance requests and keep the property well-maintained. The landscaping and amenities like the pool and clubhouse are frequently cited as well-kept, contributing to an enjoyable living environment.\n\n## Great\n\nMany reviews have delineated the exceptional service provided by the property management, especially in the way they support current tenants. The office manager is highlighted for their approachable attitude and competency in managing the complex. The maintenance team has been applauded for their promptness and effectiveness, resulting in a reliable living experience for the residents.\n\nNot only is the service commendable, but the community features like the walking areas and the clubhouse also receive positive feedback. These amenities enhance the quality of life for the residents, making Sunset Pond Apartments not just a place to stay, but a place to live well. The dedication to maintaining a welcoming and well-appointed environment is a recurring theme in user experiences.\n\n## Bad\n\nHowever, some residents have expressed serious concerns regarding safety and the behavior of their neighbors. Complaints about noisy environments, littering, and a sense of insecurity make for substantial drawbacks. This indicates a potential need for better enforcement of community rules and enhanced security measures to ensure all residents can enjoy a peaceful living space.\n\nThe management's handling of financial matters has also come into question. Several reviews suggest that the company may not be transparent with rental increases and security deposit returns. These accusations imply that the financial practices of Sunset Pond Apartments may need to be reviewed and improved to regain trust among the tenants.\n\n## Ugly\n\nThe ugliest aspects of the reviews relate to allegations of theft, specifically in relation to security deposits, and calls out for unprofessional conduct by the management. Such reviews reflect a significant dissatisfaction among some former tenants, revealing an area that requires immediate attention from the property management to address these grievances and improve their reputation.\n\nAnother point of contention lies in the supposed hostility of the property management team, with several users recounting negative interactions. Whether it be maintenance issues left unaddressed or unresponsive communication, it's evident that the property management must rectify these issues to prevent further tarnishing their public perception.\n\nIn summary, these reviews shed light on the varied experiences at Sunset Pond Apartments, ranging from commendable service and amenities to concerns about safety and management practices. Prospective tenants are encouraged to consider these insights and use this article's intent as a tool to further explore and form a balanced view of the property."
 }

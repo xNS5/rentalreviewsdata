@@ -1,4 +1,568 @@
 {
   "name": "OMNI Property Management",
+  "address": "909 Squalicum Way Ste 107 Bellingham, WA 98225",
+  "company_type": "Property management company",
+  "review_count": 66,
+  "avg_review": 4.2,
+  "reviews": [
+    {
+      "author": "Corey Havens",
+      "rating": 1.0,
+      "review": "When the owner of our rental home called to tell us our contract was being transferred to OMNI, she said they would contact us 'well in advance' before the transition. I waited three months and was never contacted. Finally I contacted OMNI ",
+      "ownerResponse": [
+        {
+          "text": "We appriciate your feedback and we certainly understand that the rent increases in this area have been more difficult for some more than others.  \nI hate to have this converstaion in a public forum but this is how you have  More"
+        }
+      ]
+    },
+    {
+      "author": "Corinne Hill-James",
+      "rating": 1.0,
+      "review": "I had an incredibly poor experience renting through Omni. Communication throughout our whole lease cycle was inconsistent and unprofessional. I loved the property I rented but if I hadn't been moving out of state I would have moved to a ",
+      "ownerResponse": [
+        {
+          "text": "Corinne, \nWe are truly sorry that you felt that we were not consistent in our communication with you.  We make every effort to explain the lease agreement and  More"
+        }
+      ]
+    },
+    {
+      "author": "Jennieyz B",
+      "rating": 2.0,
+      "review": "Great place to live.BUT they make sure Their office parking lot Is completely free of snow But their tenants parking lot Are not shoveled or plowed and completely forgotten about ! Snow and ice everywhere,parking is awful. People cant move their cars! Would be really nice if that could get taken care of!",
+      "ownerResponse": []
+    },
+    {
+      "author": "K T",
+      "rating": 5.0,
+      "review": "OMNI took over our lease a few years ago and we have been very pleased throughout. Everyone we have dealt with in the office has been professional, pleasant and responsive. We had some mildly serious maintenance concerns that were addressed ",
+      "ownerResponse": []
+    },
+    {
+      "author": "J S",
+      "rating": 5.0,
+      "review": "I have been very happy as a home owner that hired Omni Property Management to manage my rental for two years.\nLacey and the team of ladies are super responsive and professional.",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for your kind words. It was an absolute pleasure working with you and we wish the best of luck on your next adventure. \n-Lacey"
+        }
+      ]
+    },
+    {
+      "author": "Arielle Mehl",
+      "rating": 5.0,
+      "review": "I have been renting through OMNI for 10 months and it has been the most positive renting experience I have had! When we were looking for a new rental I was hesitant to go through another property management company due to some bad ",
+      "ownerResponse": [
+        {
+          "text": "Arielle,\nWe are sorry to hear that you have had bad experiences with management in the past and we will continue to do our best to care for you and your family for as  More"
+        }
+      ]
+    },
+    {
+      "author": "Jan Humphrey",
+      "rating": 5.0,
+      "review": "As property owners we have been dealing with OMNI Property Mgt. for 8 years. Lacey\nand the staff are always quick to assist us or our tenants with any issues. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jenyfer Lindahl",
+      "rating": 5.0,
+      "review": "Signing up with this company was one of the smartest business decisions I made.\n\nLiving long distance it's difficult to manage my property, so I require a ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Paula Crutchley",
+      "rating": 5.0,
+      "review": "We have a rental in Blaine and Lacey and her team helped us evict the tenants.  Lacey and her team were AMAZING throughout the eviction process and went above and beyond while we were remodeling the property; I mean above and beyond.   Once ",
+      "ownerResponse": [
+        {
+          "text": "Paula,\nYou are always a pleasure to work with and we are happy to continue to do what it takes to care for you and your property.  More"
+        }
+      ]
+    },
+    {
+      "author": "a lopez",
+      "rating": 2.0,
+      "review": "I called OMNI to inquire about their properties and processes but Lacey was less than helpful. She seemed short and rude.  No customer service whatsoever, straight to nonsense.  I had to repeatedly rephrase the question for her to ",
+      "ownerResponse": [
+        {
+          "text": "Ms. Lopez,\nI apologize that you were not satisfied with your interaction with myself and our company today. I was having a hard time hearing your questions as you were  More"
+        }
+      ]
+    },
+    {
+      "author": "Bill Lilleness",
+      "rating": 5.0,
+      "review": "Lacey and Omni Property Management have done an outstanding job of managing our property for over 3 years. Being a \"remote\" building owner that rarely visits the property, the level of trust and communication expectations are high. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Janel Warrington",
+      "rating": 5.0,
+      "review": "OMNI recently took over managing the building I live in and they have been nothing but responsive and professional. I've had a few minor maintenance needs and they were fixed within a few days. By comparison to other property management ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Carmen Williams",
+      "rating": 5.0,
+      "review": "Working with Lacey at OMNI Property Management has been a delightful, stress free experience! She is professional, straightforward, and easy to communicate with. We look forward to working with her for many years to come and highly recommend OMNI Property Management.",
+      "ownerResponse": [
+        {
+          "text": "Carmen,\nThank you for taking the time to leave this lovely review! We hope you are enjoying your home and we look forward to working with you as well.  More"
+        }
+      ]
+    },
+    {
+      "author": "Ben Moeling",
+      "rating": 5.0,
+      "review": "From an owner's perspective, Omni has been excellent. They managed a quick and effective marketing effort and found good tenants. They seem equally concerned about our tenants' well-being and comfort, and helped us act fast to solve a ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Yep Thats Right",
+      "rating": 1.0,
+      "review": "These guys rarely know what is going in in their own office and delight in screwing tenants over. If your looking to waste your time give these guys a call!",
+      "ownerResponse": [
+        {
+          "text": "We do apologize that you felt we were unable to address your concern proficiently. I hope that you will afford us the opportunity to remedy whatever situation you find yourself in. If we are beyond the time of helping you I hope that you  More"
+        }
+      ]
+    },
+    {
+      "author": "Debora Halbert",
+      "rating": 5.0,
+      "review": "The people at OMNI have been amazing and always have the expertise and people on hand to help when something goes wrong with our property.  Their professional staff is responsive and has made the management process stress free for us. They ",
+      "ownerResponse": [
+        {
+          "text": "Debora\nWe love working with you and we look forward to continuing to do all we can to take care of you and your property!  More"
+        }
+      ]
+    },
+    {
+      "author": "Russell Chan",
+      "rating": 5.0,
+      "review": "I own property at a condominium in Birch Bay and a house in Lynden.  Although you aren't supposed to discriminate when it comes to housing, I also feel that you don't have to tolerate the bullsh!t from bad tenants wrecking a place.  I ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kevin Coggan",
+      "rating": 5.0,
+      "review": "We have been renters with OMNI for two years and they have always been professional, courteous and responsive. Fortunately, there have only been a few minor problems with our rental unit (mostly plumbing). They were fixed in a timely manner ",
+      "ownerResponse": [
+        {
+          "text": "We are sorry to hear you had such a bad previous experience and we hope that we will continue to fulfill your expectations and beyond. Thank you!"
+        }
+      ]
+    },
+    {
+      "author": "Kelley Jasper",
+      "rating": 5.0,
+      "review": "Between my roommate and I, we've experienced 5, perhaps 6 different Bellingham property management companies - more if you count when they changed hands - in 10 years. ",
+      "ownerResponse": [
+        {
+          "text": "Kelley, it is always a pleasure to have long term clients like yourself and hope to continue on for many more years. Cheers!"
+        }
+      ]
+    },
+    {
+      "author": "Linda Tolin",
+      "rating": 5.0,
+      "review": "Omni Property management has listed and has been managing our rental for a short time but so far everything has been clear and professional. They have gotten back to me with questions and updates quickly. They were helpful is getting blinds ",
+      "ownerResponse": [
+        {
+          "text": "Linda,\nYour kind words are appreciated and we look forward to continuing to work hard for all our great clients like you!  More"
+        }
+      ]
+    },
+    {
+      "author": "Luke LeViere",
+      "rating": 5.0,
+      "review": "We've rented with Omni for over two years now. It has always been simple and easy communicating with Lacey. When there were problems with the heater they sent someone out right away to fix the problem. They've also been on top of minor things like trimming an overgrown bush and fixing the blinds.",
+      "ownerResponse": []
+    },
+    {
+      "author": "joseph tedesco",
+      "rating": 5.0,
+      "review": "Omni has been managing my rental home for almost three years. Whenever I have a repair problem, Lacey has gotten people to the house quickly and the problems have been satisfactorily resolved. I'm thinking about purchasing another home in Bellingham, and if I do, I would have Omni manage it.",
+      "ownerResponse": [
+        {
+          "text": "Joe, thank you for your kind review. It is easy to do great work when you have great clients. Cheers!"
+        }
+      ]
+    },
+    {
+      "author": "Coley Armijo",
+      "rating": 1.0,
+      "review": "Dealing with Omni was the absolute worse experience I have ever had renting. Lacy is a nightmare to deal with. Upon moving in we noticed the thermostats did not work, which means if you turned it on to a temperature the apartment would just ",
+      "ownerResponse": [
+        {
+          "text": "Thank you for sharing your feedback. Were sorry your experience didnt match your expectations. It was an uncommon instance and we will strive to do better in the future.  More"
+        }
+      ]
+    },
+    {
+      "author": "robert warren",
+      "rating": 5.0,
+      "review": "Omni property recently took over the management of my property in Bellingham and soon after my tenant of many years relocated for work. In less than 10 days Lacey had found me new and even better tenants and took care of all the details. ",
+      "ownerResponse": [
+        {
+          "text": "Bob,\nThank you so much for such a lovely recommendation. We love working with you and look forward to many years more.  More"
+        }
+      ]
+    },
+    {
+      "author": "Drew Gorman",
+      "rating": 5.0,
+      "review": "Omni Property Management has been a great company to rent from. They are responsive to any questions and care/maintenance that has been needed. I look forward to a long relationship with you guys in staying at my rental.",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your kind words. We hope to have more wonderful tenants like yourself."
+        }
+      ]
+    },
+    {
+      "author": "cantcopythis",
+      "rating": 5.0,
+      "review": "Omni has been extremely patient with us as first time landlords- explaining the ins and outs renting our house. They have take care of any issues that have arisen quickly and professionally. Highly recommended.",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your kind review."
+        }
+      ]
+    },
+    {
+      "author": "TIM James",
+      "rating": 5.0,
+      "review": "Omni has been very easy to work with and has allowed me to rent my property worry free. Lacey at Omni has had great communication and been able to find great tenants.",
+      "ownerResponse": [
+        {
+          "text": "We appreciate your kind words. Great communication from our clients is always helpful and you have been no exception. Thank you!"
+        }
+      ]
+    },
+    {
+      "author": "Falicia Schallenberger",
+      "rating": 1.0,
+      "review": "They were horrible to communicate with, for some reason she would only reply to my husband when I was the one messaging her. Also, the deposit was very high. And when we wanted to clean the carpets before we left they said we couldnt, then ",
+      "ownerResponse": [
+        {
+          "text": "Falicia,\nI am sorry to hear that you had a bad experience, but I believe it may have been with a different OMNI Property Management. I do not have any record of you in  More"
+        }
+      ]
+    },
+    {
+      "author": "Sheri Rego",
+      "rating": 5.0,
+      "review": "Lacey is very professional and efficient.  She gave us choices as a landlord that other property management companies did not.  She listens to concerns and ideas, and she always responds promptly to questions and comments.",
+      "ownerResponse": [
+        {
+          "text": "Sheri,\nThank you for taking the time to leave us a review! You are always such a delight and I am happy to be on this rental journey with you.  More"
+        }
+      ]
+    },
+    {
+      "author": "L Hanson",
+      "rating": 5.0,
+      "review": "Excellent property managers in Bellingham!!!\n\nThe property is well maintained and the few questions and very small problems we ",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for your kind words. We look forward to continuing to work with great clients like you!\nLacey Lutjemeier  More"
+        }
+      ]
+    },
+    {
+      "author": "Jenny Tang",
+      "rating": 5.0,
+      "review": "Im a property owner and have great experience with Omni management so far. My previous tenants moved out due to COVID and they were able to find another tenant within a month without me losing rent income. I had a nightmare experience with Windermere in the past and this is much better and I recommend it.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Susan Plumb",
+      "rating": 5.0,
+      "review": "We have had an excellent experience with Lacey at OMNI Property Management. She works well with renters and is very professional.  from is! Bob and Susan ",
+      "ownerResponse": [
+        {
+          "text": "Bob & Susan,\nYou are a blessing to our company and we look forward to many great years to come. THANK YOU!  More"
+        }
+      ]
+    },
+    {
+      "author": "Kristen Swinford",
+      "rating": 5.0,
+      "review": "I have been very pleased with OMNI Property Management. They have been very easy to work with and responded to my requests almost immediately. I hope to continue with them for years to come.",
+      "ownerResponse": [
+        {
+          "text": "Kristen,\nThank you for such a lovely compliment! We enjoy working with you as well.  More"
+        }
+      ]
+    },
+    {
+      "author": "Kayla Lambert",
+      "rating": 5.0,
+      "review": "Great management company to work with.  I was a first time renter but they made the process super easy and were very friendly, especially while I was trying to find a place during the peak of the pandemic.  Thoughourghly enjoyed my year with them!!  I'd highly recommend them for any future renters  ",
+      "ownerResponse": [
+        {
+          "text": "Kayla, thank you for taking the time to leave such kind word. We wish you all the best in your current endeavors and hope you will come see us again if you need a rental in the Whatcom County area! Thanks!"
+        }
+      ]
+    },
+    {
+      "author": "Kyle Rickards",
+      "rating": 5.0,
+      "review": "It has been a breath of fresh air working with a property management company that has integrity. The team at Omni has been responsive and communicated clearly in all of our interactions.",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much for your kind words! We love helping all our clients and look forward to work with you further."
+        }
+      ]
+    },
+    {
+      "author": "Albert Aslanyan",
+      "rating": 5.0,
+      "review": "Friendly representative showed us a nice house in Blaine.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Glenn Josund",
+      "rating": 5.0,
+      "review": "As an absentee landlord Ive been very happy with Omni Property Managements services. I appreciate their diligence and professionalism. Highly recommended.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Marta G",
+      "rating": 5.0,
+      "review": "As property owners we are impressed with OMNI Property Management's top-notch professionalism and courtesy.  We are also glad to know our tenants are receiving the same service.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Don Bakkensen",
+      "rating": 5.0,
+      "review": "The rental market is tough for finding a place with good neighbors.  I was not only treated with the outmost respect I was put in a building with great neighbors at a decent rent.  So far I have had a good response for any issues I have had.",
+      "ownerResponse": []
+    },
+    {
+      "author": "addie moa",
+      "rating": 3.0,
+      "review": "It was a complicated situation but it was okay.. they handled our landlords pretty well. This comment wasn't anything bad against omni. And that is why I stated it was complicated.. im sorry you feel it was unfair.",
+      "ownerResponse": [
+        {
+          "text": "Addie, \nA review of our company where the issues predated our involvement seems a bit unfair. We did our best to handle the difficult situation that we came in on as  More"
+        }
+      ]
+    },
+    {
+      "author": "Brady Bishopp",
+      "rating": 5.0,
+      "review": "Omni has a prompt and courteous dealing with property tenants.  Lacey has gone the extra mile to resolve any outstanding issues.",
+      "ownerResponse": [
+        {
+          "text": "Brady,\n\nThank you for your support and we hope to continue our great working  More"
+        }
+      ]
+    },
+    {
+      "author": "Ryan Jungquist",
+      "rating": 5.0,
+      "review": "Omni property management is awesome. Very easy to deal with and very professional. Always there to help. I would recommend them to anyone.",
+      "ownerResponse": [
+        {
+          "text": "Ryan,\nThank you for your review and we look forward to continuing to work with you.  More"
+        }
+      ]
+    },
+    {
+      "author": "Betty Adam-Diaz",
+      "rating": 4.0,
+      "review": "Very Good Management Company.  Always ready to address concerns and problems.  Courteous, compassionate, wanting what's best for the renters and owners.  Thank you.",
+      "ownerResponse": [
+        {
+          "text": "Thank you Betty! You are a great tenant and we look forward to a long rental relationship with you!  More"
+        }
+      ]
+    },
+    {
+      "author": "Katie Bechkowiak",
+      "rating": 5.0,
+      "review": "I don't have a single complaint about working with OMNI...the people at OMNI that I've interacted with have been friendly, patient and treated me with respect.",
+      "ownerResponse": [
+        {
+          "text": "Katie,\nThank you so much for your kind words. We look forward to continuing to work with great clients like you!  More"
+        }
+      ]
+    },
+    {
+      "author": "Kyle McCrain",
+      "rating": 5.0,
+      "review": "Omni has been a great company to rent from and I look forward to releasing with them this following year.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mehak Gill",
+      "rating": 5.0,
+      "review": "Always helping all the time....when ever we had issues with our home always helping  right a way..Thank u for always be there for us....u gys are so amazing  ",
+      "ownerResponse": [
+        {
+          "text": "Thank you so much. We enjoy working with you as well. \nBest wishes, \nOMNI Property Management"
+        }
+      ]
+    },
+    {
+      "author": "Iggy MacIsaef",
+      "rating": 4.0,
+      "review": "Haven't had to much interaction yet but all interaction so far have been wonderful. Friendly and helpful staff.",
+      "ownerResponse": [
+        {
+          "text": "We look forward to getting to know you and your Association better.\nHappy New Year,\nOMNI Property Management"
+        }
+      ]
+    },
+    {
+      "author": "Jamey Smith",
+      "rating": 5.0,
+      "review": "Very friendly people. Always helpful and courteous.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Pros Rv Repair",
+      "rating": 5.0,
+      "review": "Its been a pleasure working with Lacey at Omni Management.   Its been a great experience.  Thank you.....",
+      "ownerResponse": [
+        {
+          "text": "You are a pleasure to work with as well and I hope you are enjoying your home! Thank you for taking the time to leave a review.  More"
+        }
+      ]
+    },
+    {
+      "author": "Cole Dumbass De Zarn",
+      "rating": 1.0,
+      "review": "Horrible Customer service. Not easy to deal with & very unprofessional.",
+      "ownerResponse": [
+        {
+          "text": "Cole, It seems unprofessional to quit a job and then 3 years later leave a bad review for a company that you never rented from. I hope your life choices have brought you to a better employment situation that suits your professional  More"
+        }
+      ]
+    },
+    {
+      "author": "Nolan Stidham",
+      "rating": 5.0,
+      "review": "They quickly respond to maintenance requests",
+      "ownerResponse": [
+        {
+          "text": "Thanks Nolan. Always great to have wonderful and attentive tenants. "
+        }
+      ]
+    },
+    {
+      "author": "Jennifer Feagles",
+      "rating": 5.0,
+      "review": "Lacey has been wonderful, easy to reach and professional.",
+      "ownerResponse": [
+        {
+          "text": "Jennifer,\nThank you for your kind words! We enjoy working with you.  More"
+        }
+      ]
+    },
+    {
+      "author": "Trudi Hess",
+      "rating": 5.0,
+      "review": "They are always on top of things!",
+      "ownerResponse": [
+        {
+          "text": "Thanks Trudi!"
+        }
+      ]
+    },
+    {
+      "author": "Jessi M",
+      "rating": 5.0,
+      "review": "Always friendly and helpful.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Katelyn Ralston-Gerhardt",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Michael Pollard",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "John Jones",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Tiffany Lynn",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joshua Ross",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Sasa Lin",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mindy Mathis",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Anon C.",
+      "rating": 1.0,
+      "review": "Quite possibly the worst management staff i have seen, yet.  Submitted an app and was told i was declined because they couldnt verify my business whis has been registered in Washington for 13yrs. Income verified over $8k/mo good references, zero late payments ever-  i habe never been denied and was confused, however after such a poor response, i have found it to be a blessing- professionals should be able and expected to locate a business at very least.",
+      "ownerResponse": [
+        {
+          "text": "We are sorry that you do not agree with our interpretation of the information submitted to us. I too do not agree with the information you have presented here. We do our best to evaluate the information presented and unfortunately, not all applications meet our qualifications. However, if an error was made and a correction and re-evaluation needs to be completed we are happy to do so.  Please feel free to reach out to our office and we will do our best to assist you in this matter. \nThank you, \nOMNI Property Management"
+        }
+      ]
+    },
+    {
+      "author": "Kevin S.",
+      "rating": 5.0,
+      "review": "Omni helped me out a lot when I first moved to Bellingham in July 2020. They provided me with a solid, affordable rental with minimal hassle, which is far from the experiences I had with other property management agencies who jerked me around and one of which even stole money from me. Omni, on the other hand, conducted themselves with integrity and were very easy to work with for the duration of my lease. When something needed to be fixed, they got it fixed. If there was some sort of miscommunication, they did not hesitate to clear it up. They were always very kind with me, and when I moved out, I received my entire security deposit back; apparently this is rare among Bellingham rental agencies, but I wouldn't know because I've only ever rented from Omni and they were awesome. If you are an honest, respectful person, they will provide those same qualities in return. Don't hesitate to reach out to them if you need a place to rent!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Christophe C.",
+      "rating": 1.0,
+      "review": "This company removed my google review. I will instead post it here since they are trying to silence me. \n\nI have text proof from an abusive, threatening, & insulting tenant in a condo unit that I legally own, that this company has been slandering me behind my back - which has also caused issues with this problem tenant becoming emboldened to think he can act like he owns my property and break contractual agreement while citing that the property management is in agreement that I am a \"problem\" (but how, as an owner of the condo, I never broke any rules and always paid HOA fees and never did anything for them to have a good reason to slander me?) is the gist of it. \n\nTo the point this problem tenant's threatening interactions with me lead me to believe I may need to contact police when going to inspect my own property. And I have already contacted Bellingham police.\n\nCompletely unprofessional and could be interpreted in court of law as committing slander/libel against me when interacting with my tenants - on my own legally owned property, and adversely affecting my ability to manage tenant living on my property that I legally own according to state and USA federal law.\n\nAnd.... it seems they pay google to get rid of negative reviews and artificially curate, or else why was my google review removed?",
+      "ownerResponse": [
+        {
+          "text": "It is unfortunate that this is the impression you perceived from the interactions you have had with our company.   We certainly have not conducted business in the way you have described. As we represent the Association Board in this situation and not you as the owner we do not have direct knowledge of your tenant relations.  Our company and the Board Association we represent have not had any such interactions with you or your tenant as you described. As we did not represent you in any way it is unclear what may have transpired between you and your tenant. We hope that this situation has been resolved and a more favorable tenant has been acquired by you.  We wish you the best of luck and look forward to continuing to assist you in the capacity of Association Manager."
+        }
+      ]
+    },
+    {
+      "author": "Kyle L.",
+      "rating": 1.0,
+      "review": "OMNI declined rental application based on arbitrary requirements. Don't expect to be treated with respect or for the company to follow rental requirements when deciding to rent out a unit. According to the owners we were not the \"right\" tenant for the place and the owners just didn't like us. I wish I would have gotten to talk to the manager Lacey, because apparently she is the person to talk to but I was given the run around by Katy.",
+      "ownerResponse": [
+        {
+          "text": "Thank you for the feedback. It is unfortunate that you had such an unpleasant interaction with our company and if there is anything specific we can do to make any future interactions more pleasant I hope that you will reach out to us directly. I assure you that we follow all state and federal guidelines when reviewing applications and unfortunately in this competitive market we are unable to place everyone in the unit they desire. Thank you!"
+        }
+      ]
+    },
+    {
+      "author": "Mark M.",
+      "rating": 4.0,
+      "review": "The ladies and Omni are very polite and helpful. They are following up on questions and the requests we have asked of them, it is night and day from our previous management company! THANK YOU!",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 59,
+  "adjusted_review_average": 4.2,
   "summary": "# OMNI Property Management: A Balanced Review\n\nOMNI Property Management has been a notable presence in the Bellingham, WA area, boasting an average review score of 4.2 based on 59 user reviews. Their comprehensive approach to property management and personalized attention to both property owners and tenants have been highlighted frequently in the reviews. Please note, however, that the reviews analyzed in this article are generated by ChatGPT and are only intended to be a tool to help you find a property management company or rental property.\n\n## The Good\n\nMany users have praised OMNI Property Management for their professional and responsive approach to managing properties. Tenants have noted the company's quick action regarding maintenance issues, with one user reporting that their heater problems were resolved swiftly. Property owners, in turn, have commented on OMNI's efficiency in handling administrative tasks and their proactive nature in maintaining the rental properties, often going \"above and beyond\" their call of duty, such as during the eviction process and property remodeling.\n\nIn several instances, users have enjoyed long-term relationships with OMNI, surrounded by professionalism and a keen attention to detail. One property owner reported an outstanding experience over multiple years, underlining the importance of OMNI's due diligence and communication in managing their rental from afar. Even first-time landlords felt supported by the company, receiving guidance in navigating the complexities of property rentals.\n\n## The Great\n\nOMNI Property Management seems to shine in its interactions with both property owners and tenants. Reports indicate that transition periods between property owners and OMNI's management were handled with finesse, contributing to a seamless transition and continued satisfaction. Several homeowners cited specific instances where OMNI's team was \"super responsive,\" whether it was related to tenant screening or addressing concerns quickly and professionally. One homeowner mentioned essential guidance provided by OMNI that aligned with strategic business decisions, suggesting that OMNI's acumen spans beyond daily operational tasks.\n\nThe lasting impact of positive experiences was evident in the willingness of clients to refer OMNI to others, signifying trust and satisfaction. Instances where tenants received full security deposits upon moving out exemplify the fair and transparent practices that OMNI appears to be known for.\n\n## The Bad\n\nEmphasizing fairness and balance, it's notable that OMNI Property Management has not been without its flaws. Some user reviews have pointed to significant communication issues, including unresponsiveness and perceiving staff members as unhelpful or even rude. These communication challenges could be attributed to isolated incidents or systemic problems within the company.\n\nMaintenance concerns also surfaced in user reviews, mentioning neglect in snow removal that resulted in inaccessible parking lots for tenants. Such incidents underscore potential shortfalls in OMNI's services and may reflect inconsistencies in meeting tenant needs across different properties.\n\n## The Ugly\n\nUnfortunately, some user reviews have reflected a much harsher sentiment towards OMNI Property Management. Instances of potential neglect and perceived unprofessionalism have been cited, including tenants feeling as though they were being taken advantage of or criticized harshly by the company. Complaints ranged from the company's alleged failure to contact renters in advance regarding transitions to frank descriptions of interactions being the \"absolute worst\" rental experiences.\n\nNotably, concerns about returning security deposits and addressing maintenance concerns emerged as a common theme. Yet, it is worth mentioning that OMNI has engaged with and replied to many reviews, demonstrating a willingness to address concerns, apologize for unsatisfactory experiences, and aim for resolution.\n\nThis article aims to present a fair and balanced view of OMNI Property Management's services, although it's based on user reviews. Potential clients should consider both the positive and negative reviews while recognizing that exceptional experiences or issues could be context-specific and not necessarily indicative of the company's operations as a whole."
 }

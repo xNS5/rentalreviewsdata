@@ -14,10 +14,10 @@ client = OpenAI(
 )
 
 property_input = "combined/properties/"
-property_output = "./summaries/property_md/"
+property_output = "./summaries/properties/"
 
 company_input = "combined/companies/"
-company_output = "./summaries/company_md/"
+company_output = "./summaries/companies/"
 
 
 
@@ -44,7 +44,7 @@ def createArticles(path, out):
                 ]
               )
               with open(f'{out}/{file_content["name"]}.json', 'w') as output_file:
-                  json.dump({"name": file_content["name"], "summary": result.choices[0].message.content})
+                  json.dump({**input_file, "summary": result.choices[0].message.content})
                   output_file.close()
           input_file.close()
 

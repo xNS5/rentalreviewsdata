@@ -1,11 +1,28 @@
 import pymongo
 import os
 import pprint
+import json
+import sys
 from dotenv import dotenv_values
+
+yelp_path = "../yelp_input/output/"
+google_path = "../google_input/output/combined/"
+combined_path = "../summaries/"
 
 config = {
     **dotenv_values("db.env")
 }
+
+client = pymongo.MongoClient("mongodb://%s:%s@%s" % (config["MONGODB_USER"], config["MONGODB_PASSWORD"], config["MONGODB_URL"]))
+
+db = client["rentalreviews"]
+
+paths = {
+    yelp_path: "yelp_",
+    google_path: "google_",
+    combined_path: "combined_"
+}
+
 
 def listFiles(path):
     ret = []
@@ -15,28 +32,31 @@ def listFiles(path):
             ret.append(file_path)
     return ret
 
-
-
-yelp_path = "../yelp_input/output/"
-google_path = "../google_input/output/combined/"
-combined_path = "../combined/"
-summary_path = "../summaries/"
-
-# client = pymongo.MongoClient("mongodb://%s:%s@%s" % (config["MONGODB_USER"], config["MONGODB_PASSWORD"], config["MONGODB_URL"]))
-
-# db = client["rentalreviews"]
-categories = ["yelp_", "google_", "combined_", "summary_"]
-paths = [yelp_path, google_path, combined_path, summary_path]
-
-
-
 def populate(suffix):
-    for path in paths:
+    for path, collection_prefix in paths.items():
         files = listFiles(path + suffix)
-        dump = []
+        seed = []
         for file in files:
             with open(file, "r") as inputFile:
+                seed.append(json.load(inputFile))
+        collection_key = collection_prefix + suffix
+        db[collection_key].insert_many(seed)
+        db[collection_key].create_index("name")
 
+def clear_db(suffix):
+    for path, collection_prefix in paths.items():
+        collection_key = collection_prefix + suffix
+        db[collection_key].delete_many({})
 
+def main():
+    arg = sys.argv[1].lower()
+    if arg == "seed":
+        populate("companies")
+        populate("properties")
+    elif arg == "clear":
+        clear_db("companies")
+        clear_db("properties")
+    print("Done")
 
-populate("companies")
+if __name__ == "__main__":
+    main()

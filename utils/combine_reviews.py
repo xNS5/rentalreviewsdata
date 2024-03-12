@@ -10,9 +10,9 @@ yelp_path = "yelp_input/output/"
 companies_dir = "companies/"
 properties_dir = "properties/"
 
-curr_type = properties_dir
-curr_input = google_path
-other_input = yelp_path
+curr_type = companies_dir
+curr_input = yelp_path
+other_input = google_path
 
 file_dict = {}
 output = []
@@ -48,8 +48,7 @@ def search(data, key, value):
 def search_fuzzy(value, data):
     try:
         ret = process.extractOne(value, data)
-        if ret[1] > 95:
-            # print(ret[0])
+        if ret[1] >= 90:
             return ret[0]
         return None
     except:
@@ -58,7 +57,7 @@ def search_fuzzy(value, data):
 google_file_list = listFiles(google_path + curr_type)
 yelp_file_list = listFiles(yelp_path + curr_type)
 
-file_list = {str(x): search_fuzzy(x, yelp_file_list) for x in google_file_list}
+file_list = {str(x): search_fuzzy(x, google_file_list) for x in yelp_file_list}
 
 for file in file_list:
     if file_list[file] == None:

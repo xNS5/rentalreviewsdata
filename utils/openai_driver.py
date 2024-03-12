@@ -20,7 +20,6 @@ company_input = "combined/companies/"
 company_output = "./summaries/companies/"
 
 
-
 def createArticles(path, out):
         dir_list = os.listdir(path)
         for file in dir_list:

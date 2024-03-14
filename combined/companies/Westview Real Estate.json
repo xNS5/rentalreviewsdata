@@ -3,7 +3,6 @@
   "address": "112 E Maple St Bellingham, WA 98225",
   "company_type": "Real estate agency",
   "review_count": 66,
-  "avg_review": 2.8,
   "reviews": [
     {
       "author": "Mike Jack",
@@ -403,5 +402,6 @@
     }
   ],
   "adjusted_review_count": 48,
-  "adjusted_review_average": 2.7
+  "avg_rating": 2.8,
+  "adjusted_avg_rating": 2.7
 }

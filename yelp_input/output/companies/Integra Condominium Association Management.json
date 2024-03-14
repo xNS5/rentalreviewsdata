@@ -3,7 +3,6 @@
   "avg_rating": 1.4,
   "review_count": 10,
   "adjusted_review_count": 10,
-  "adjusted_review_average": 1.4,
   "reviews": [
     {
       "author": "Condo O.",
@@ -61,5 +60,6 @@
     }
   ],
   "company_type": "Property Management",
-  "address": "2183 Alpine Way Bellingham, WA 98226"
+  "address": "2183 Alpine Way Bellingham, WA 98226",
+  "adjusted_avg_rating": 1.4
 }

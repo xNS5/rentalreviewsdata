@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Commercial real estate agency",
   "review_count": 32,
-  "avg_review": 4.2,
   "reviews": [
     {
       "author": "Ryan Reynolds",
@@ -207,5 +206,6 @@
     }
   ],
   "adjusted_review_count": 28,
-  "adjusted_review_average": 4.2
+  "avg_rating": 4.2,
+  "adjusted_avg_rating": 4.2
 }

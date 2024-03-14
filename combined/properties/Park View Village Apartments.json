@@ -3,7 +3,6 @@
   "address": "425 Stuart Rd, Bellingham, WA 98226",
   "company_type": "Apartment complex",
   "review_count": 13,
-  "avg_review": 4.8,
   "reviews": [
     {
       "author": "Katelyn",
@@ -97,5 +96,6 @@
     }
   ],
   "adjusted_review_count": 9,
-  "adjusted_review_average": 5.0
+  "avg_rating": 4.8,
+  "adjusted_avg_rating": 5.0
 }

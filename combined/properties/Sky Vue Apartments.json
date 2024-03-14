@@ -3,7 +3,6 @@
   "address": "600-620 Lincoln St, Bellingham, WA 98229",
   "company_type": "Apartment complex",
   "review_count": 40,
-  "avg_review": 3.4,
   "reviews": [
     {
       "author": "Highkey mami",
@@ -399,5 +398,6 @@
     }
   ],
   "adjusted_review_count": 26,
-  "adjusted_review_average": 2.7
+  "avg_rating": 3.4,
+  "adjusted_avg_rating": 2.7
 }

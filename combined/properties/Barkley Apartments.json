@@ -1,9 +1,8 @@
 {
   "name": "Barkley Apartments",
-  "avg_rating": 1.8,
+  "avg_rating": 2.6,
   "review_count": 52,
   "adjusted_review_count": 38,
-  "adjusted_review_average": 2.2,
   "reviews": [
     {
       "author": "Echo C.",
@@ -480,5 +479,5 @@
   ],
   "company_type": "Apartments",
   "address": "3126 Racine St Bellingham, WA 98226",
-  "avg_review": 2.6
+  "adjusted_avg_rating": 2.2
 }

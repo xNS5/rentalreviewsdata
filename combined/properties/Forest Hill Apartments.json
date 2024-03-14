@@ -3,7 +3,6 @@
   "address": "701 N Forest St, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 2,
-  "avg_review": 1.0,
   "reviews": [
     {
       "author": "Indaris Nerothan",
@@ -19,5 +18,6 @@
     }
   ],
   "adjusted_review_count": 2,
-  "adjusted_review_average": 1.0
+  "avg_rating": 1.0,
+  "adjusted_avg_rating": 1.0
 }

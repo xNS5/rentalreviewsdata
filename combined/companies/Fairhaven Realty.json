@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Real estate agency",
   "review_count": 9,
-  "avg_review": 4.3,
   "reviews": [
     {
       "author": "Courtney Sinclair",
@@ -61,5 +60,6 @@
     }
   ],
   "adjusted_review_count": 5,
-  "adjusted_review_average": 4.2
+  "avg_rating": 4.3,
+  "adjusted_avg_rating": 4.2
 }

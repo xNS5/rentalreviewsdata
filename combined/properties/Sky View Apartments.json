@@ -3,7 +3,6 @@
   "address": "1800 Texas St, Bellingham, WA 98229",
   "company_type": "Apartment complex",
   "review_count": 5,
-  "avg_review": 3.6,
   "reviews": [
     {
       "author": "Teasa B",
@@ -37,5 +36,6 @@
     }
   ],
   "adjusted_review_count": 2,
-  "adjusted_review_average": 2.5
+  "avg_rating": 3.6,
+  "adjusted_avg_rating": 2.5
 }

@@ -3,7 +3,6 @@
   "address": "3005 Commercial Ave, Anacortes, WA 98221",
   "company_type": "Property management company",
   "review_count": 33,
-  "avg_review": 2.3,
   "reviews": [
     {
       "author": "Kristie Wagner",
@@ -223,5 +222,6 @@
     }
   ],
   "adjusted_review_count": 24,
-  "adjusted_review_average": 2.5
+  "avg_rating": 2.3,
+  "adjusted_avg_rating": 2.5
 }

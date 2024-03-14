@@ -3,7 +3,6 @@
   "address": "820 32nd St, Bellingham, WA 98225",
   "company_type": "Housing complex",
   "review_count": 11,
-  "avg_review": 4.4,
   "reviews": [
     {
       "author": "H_Scribbler",
@@ -73,5 +72,6 @@
     }
   ],
   "adjusted_review_count": 7,
-  "adjusted_review_average": 4.4
+  "avg_rating": 4.4,
+  "adjusted_avg_rating": 4.4
 }

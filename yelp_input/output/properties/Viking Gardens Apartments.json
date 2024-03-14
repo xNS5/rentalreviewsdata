@@ -3,7 +3,6 @@
   "avg_rating": 2.3,
   "review_count": 3,
   "adjusted_review_count": 3,
-  "adjusted_review_average": 2.3,
   "reviews": [
     {
       "author": "J K.",
@@ -19,5 +18,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "2300 Bill Mcdonald Pkwy Bellingham, WA 98225"
+  "address": "2300 Bill Mcdonald Pkwy Bellingham, WA 98225",
+  "adjusted_avg_rating": 2.3
 }

@@ -3,7 +3,6 @@
   "address": "2650 Lake Louise Rd, Bellingham, WA 98225",
   "company_type": "Property management company",
   "review_count": 2,
-  "avg_review": 2.0,
   "reviews": [
     {
       "author": "Big Bananna Boi",
@@ -25,5 +24,6 @@
     }
   ],
   "adjusted_review_count": 2,
-  "adjusted_review_average": 3.0
+  "avg_rating": 2.0,
+  "adjusted_avg_rating": 3.0
 }

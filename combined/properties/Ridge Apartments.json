@@ -3,7 +3,6 @@
   "address": "516 32nd St, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 8,
-  "avg_review": 4.0,
   "reviews": [
     {
       "author": "Daisy Diaz",
@@ -55,5 +54,6 @@
     }
   ],
   "adjusted_review_count": 8,
-  "adjusted_review_average": 4.0
+  "avg_rating": 4.0,
+  "adjusted_avg_rating": 4.0
 }

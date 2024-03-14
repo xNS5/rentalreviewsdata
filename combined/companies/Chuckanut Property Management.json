@@ -3,7 +3,6 @@
   "address": "2100 Iron St Bellingham, WA 98225",
   "company_type": "Property management company",
   "review_count": 50,
-  "avg_review": 1.8,
   "reviews": [
     {
       "author": "BH QE",
@@ -295,5 +294,6 @@
     }
   ],
   "adjusted_review_count": 47,
-  "adjusted_review_average": 1.8
+  "avg_rating": 1.8,
+  "adjusted_avg_rating": 1.8
 }

@@ -3,7 +3,6 @@
   "address": "1020 Railroad Ave, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 3,
-  "avg_review": 3.0,
   "reviews": [
     {
       "author": "Isabella kaufman geballe",
@@ -25,5 +24,6 @@
     }
   ],
   "adjusted_review_count": 2,
-  "adjusted_review_average": 2.0
+  "avg_rating": 3.0,
+  "adjusted_avg_rating": 2.0
 }

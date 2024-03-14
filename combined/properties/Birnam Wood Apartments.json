@@ -3,7 +3,6 @@
   "address": "2901 Bill McDonald Pkwy, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 34,
-  "avg_review": 3.9,
   "reviews": [
     {
       "author": "Shilo (Mae)",
@@ -211,5 +210,6 @@
     }
   ],
   "adjusted_review_count": 17,
-  "adjusted_review_average": 3.6
+  "avg_rating": 3.9,
+  "adjusted_avg_rating": 3.6
 }

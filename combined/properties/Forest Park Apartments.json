@@ -3,7 +3,6 @@
   "address": "2605 W Maplewood Ave, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 9,
-  "avg_review": 3.0,
   "reviews": [
     {
       "author": "Halfkin Rainbolt",
@@ -61,5 +60,6 @@
     }
   ],
   "adjusted_review_count": 6,
-  "adjusted_review_average": 2.7
+  "avg_rating": 3.0,
+  "adjusted_avg_rating": 2.7
 }

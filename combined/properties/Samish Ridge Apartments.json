@@ -3,7 +3,6 @@
   "avg_rating": 5.0,
   "review_count": 13,
   "adjusted_review_count": 10,
-  "adjusted_review_average": 5.0,
   "reviews": [
     {
       "author": "Sierra V.",
@@ -86,5 +85,5 @@
   ],
   "company_type": "Apartments",
   "address": "3966 Byron Ave Bellingham, WA 98229",
-  "avg_review": 5.0
+  "adjusted_avg_rating": 5.0
 }

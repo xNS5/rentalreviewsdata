@@ -3,7 +3,6 @@
   "avg_rating": 1.0,
   "review_count": 1,
   "adjusted_review_count": 1,
-  "adjusted_review_average": 1.0,
   "reviews": [
     {
       "author": "Drake H.",
@@ -13,5 +12,6 @@
     }
   ],
   "company_type": "Property Management",
-  "address": "Bellingham, WA 98228"
+  "address": "Bellingham, WA 98228",
+  "adjusted_avg_rating": 1.0
 }

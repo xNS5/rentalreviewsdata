@@ -3,7 +3,6 @@
   "avg_rating": 5.0,
   "review_count": 3,
   "adjusted_review_count": 3,
-  "adjusted_review_average": 5.0,
   "reviews": [
     {
       "author": "Milagros B.",
@@ -33,5 +32,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "2050 Fraser St Bellingham, WA 98229"
+  "address": "2050 Fraser St Bellingham, WA 98229",
+  "adjusted_avg_rating": 5.0
 }

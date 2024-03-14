@@ -3,7 +3,6 @@
   "address": "420 West Stuart Road, Bellingham, WA 98226",
   "company_type": "Apartment building",
   "review_count": 10,
-  "avg_review": 2.0,
   "reviews": [
     {
       "author": "Davey Fromthenavy",
@@ -87,5 +86,6 @@
     }
   ],
   "adjusted_review_count": 8,
-  "adjusted_review_average": 1.8
+  "avg_rating": 2.0,
+  "adjusted_avg_rating": 1.8
 }

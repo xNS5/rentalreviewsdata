@@ -1,9 +1,8 @@
 {
   "name": "South Hill Apartments",
-  "avg_rating": 1.3,
+  "avg_rating": 2.8,
   "review_count": 21,
   "adjusted_review_count": 15,
-  "adjusted_review_average": 2.7,
   "reviews": [
     {
       "author": "Yip E.",
@@ -134,5 +133,5 @@
   ],
   "company_type": "Apartments",
   "address": "255 N Forest St Apt 308 Bellingham, WA 98225",
-  "avg_review": 2.8
+  "adjusted_avg_rating": 2.7
 }

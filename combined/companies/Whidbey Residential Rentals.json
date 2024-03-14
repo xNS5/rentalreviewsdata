@@ -3,7 +3,6 @@
   "avg_rating": 5.0,
   "review_count": 2,
   "adjusted_review_count": 2,
-  "adjusted_review_average": 5.0,
   "reviews": [
     {
       "author": "Lucylyn G.",
@@ -19,5 +18,6 @@
     }
   ],
   "company_type": "Property Management",
-  "address": "285 NE Midway Blvd Ste 2 Oak Harbor, WA 98277"
+  "address": "285 NE Midway Blvd Ste 2 Oak Harbor, WA 98277",
+  "adjusted_avg_rating": 5.0
 }

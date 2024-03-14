@@ -3,7 +3,6 @@
   "avg_rating": 1.3,
   "review_count": 4,
   "adjusted_review_count": 4,
-  "adjusted_review_average": 1.3,
   "reviews": [
     {
       "author": "Yip E.",
@@ -31,5 +30,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "255 N Forest St Apt 308 Bellingham, WA 98225"
+  "address": "255 N Forest St Apt 308 Bellingham, WA 98225",
+  "adjusted_avg_rating": 1.3
 }

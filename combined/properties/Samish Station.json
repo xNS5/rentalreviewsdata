@@ -3,7 +3,6 @@
   "address": "109 N Samish Way, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 8,
-  "avg_review": 2.6,
   "reviews": [
     {
       "author": "Makayla Haverluk",
@@ -71,5 +70,6 @@
     }
   ],
   "adjusted_review_count": 4,
-  "adjusted_review_average": 2.2
+  "avg_rating": 2.6,
+  "adjusted_avg_rating": 2.2
 }

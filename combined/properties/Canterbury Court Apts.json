@@ -3,7 +3,6 @@
   "avg_rating": 3.2,
   "review_count": 6,
   "adjusted_review_count": 6,
-  "adjusted_review_average": 3.2,
   "reviews": [
     {
       "author": "Chantilly H.",
@@ -43,5 +42,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "3790 Canterbury Ln Bellingham, WA 98225"
+  "address": "3790 Canterbury Ln Bellingham, WA 98225",
+  "adjusted_avg_rating": 3.2
 }

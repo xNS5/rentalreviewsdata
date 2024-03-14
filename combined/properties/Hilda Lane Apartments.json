@@ -3,7 +3,6 @@
   "address": "2700 W Maplewood Ave, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 11,
-  "avg_review": 2.6,
   "reviews": [
     {
       "author": "Juliana Ruiz",
@@ -73,5 +72,6 @@
     }
   ],
   "adjusted_review_count": 5,
-  "adjusted_review_average": 2.4
+  "avg_rating": 2.6,
+  "adjusted_avg_rating": 2.4
 }

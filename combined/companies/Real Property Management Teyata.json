@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Property management company",
   "review_count": 57,
-  "avg_review": 4.6,
   "reviews": [
     {
       "author": "Grace Stiles",
@@ -513,5 +512,6 @@
     }
   ],
   "adjusted_review_count": 49,
-  "adjusted_review_average": 4.6
+  "avg_rating": 4.6,
+  "adjusted_avg_rating": 4.6
 }

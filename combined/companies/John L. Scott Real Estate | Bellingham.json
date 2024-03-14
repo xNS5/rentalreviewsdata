@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Real estate agency",
   "review_count": 107,
-  "avg_review": 4.9,
   "reviews": [
     {
       "author": "savannah demery",
@@ -1021,5 +1020,6 @@
     }
   ],
   "adjusted_review_count": 99,
-  "adjusted_review_average": 5.0
+  "avg_rating": 4.9,
+  "adjusted_avg_rating": 5.0
 }

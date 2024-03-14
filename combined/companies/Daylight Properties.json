@@ -3,7 +3,6 @@
   "address": "1155 N State St Ste 620 Bellingham, WA 98225",
   "company_type": "Property management company",
   "review_count": 29,
-  "avg_review": 3.8,
   "reviews": [
     {
       "author": "Forrest Templin",
@@ -213,5 +212,6 @@
     }
   ],
   "adjusted_review_count": 19,
-  "adjusted_review_average": 3.8
+  "avg_rating": 3.8,
+  "adjusted_avg_rating": 3.8
 }

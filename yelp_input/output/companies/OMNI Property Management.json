@@ -3,7 +3,6 @@
   "avg_rating": 2.4,
   "review_count": 5,
   "adjusted_review_count": 5,
-  "adjusted_review_average": 2.4,
   "reviews": [
     {
       "author": "Anon C.",
@@ -49,5 +48,6 @@
     }
   ],
   "company_type": "Property Management",
-  "address": "909 Squalicum Way Ste 107 Bellingham, WA 98225"
+  "address": "909 Squalicum Way Ste 107 Bellingham, WA 98225",
+  "adjusted_avg_rating": 2.4
 }

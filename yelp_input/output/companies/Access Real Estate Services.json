@@ -3,7 +3,6 @@
   "avg_rating": 2.6,
   "review_count": 20,
   "adjusted_review_count": 20,
-  "adjusted_review_average": 2.6,
   "reviews": [
     {
       "author": "Margaret E.",
@@ -135,5 +134,6 @@
     }
   ],
   "company_type": "Property Management",
-  "address": "Bellingham, WA 98225"
+  "address": "Bellingham, WA 98225",
+  "adjusted_avg_rating": 2.6
 }

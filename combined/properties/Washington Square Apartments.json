@@ -3,7 +3,6 @@
   "address": "2501 E St, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 3,
-  "avg_review": 5.0,
   "reviews": [
     {
       "author": "Anna Morrow",
@@ -33,5 +32,6 @@
     }
   ],
   "adjusted_review_count": 2,
-  "adjusted_review_average": 5.0
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
 }

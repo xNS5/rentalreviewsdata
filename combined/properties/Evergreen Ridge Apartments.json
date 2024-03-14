@@ -1,9 +1,8 @@
 {
   "name": "Evergreen Ridge Apartments",
-  "avg_rating": 1.0,
+  "avg_rating": 3.0,
   "review_count": 42,
   "adjusted_review_count": 30,
-  "adjusted_review_average": 3.1,
   "reviews": [
     {
       "author": "Michelle G.",
@@ -306,5 +305,5 @@
   ],
   "company_type": "Apartments",
   "address": "3451 Woburn St Bellingham, WA 98226",
-  "avg_review": 3.0
+  "adjusted_avg_rating": 3.1
 }

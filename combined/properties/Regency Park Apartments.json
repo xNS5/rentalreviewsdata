@@ -3,7 +3,6 @@
   "address": "2050 Fraser St, Bellingham, WA 98229",
   "company_type": "Apartment complex",
   "review_count": 156,
-  "avg_review": 3.5,
   "reviews": [
     {
       "author": "Nicoll Ferrari (Nikki)",
@@ -1279,5 +1278,6 @@
     }
   ],
   "adjusted_review_count": 81,
-  "adjusted_review_average": 3.5
+  "avg_rating": 3.5,
+  "adjusted_avg_rating": 3.5
 }

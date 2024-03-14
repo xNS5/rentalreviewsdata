@@ -3,7 +3,6 @@
   "address": "705-709 32nd St, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 2,
-  "avg_review": 3.0,
   "reviews": [
     {
       "author": "Tristin Day",
@@ -19,5 +18,6 @@
     }
   ],
   "adjusted_review_count": 2,
-  "adjusted_review_average": 3.0
+  "avg_rating": 3.0,
+  "adjusted_avg_rating": 3.0
 }

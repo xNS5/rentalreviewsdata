@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Real estate agency",
   "review_count": 28,
-  "avg_review": 4.6,
   "reviews": [
     {
       "author": "Jill",
@@ -195,5 +194,6 @@
     }
   ],
   "adjusted_review_count": 18,
-  "adjusted_review_average": 4.8
+  "avg_rating": 4.6,
+  "adjusted_avg_rating": 4.8
 }

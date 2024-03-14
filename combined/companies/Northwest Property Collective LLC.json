@@ -3,7 +3,6 @@
   "address": null,
   "company_type": "Short term apartment rental agency",
   "review_count": 7,
-  "avg_review": 5.0,
   "reviews": [
     {
       "author": "Elizabeth Cox",
@@ -77,5 +76,6 @@
     }
   ],
   "adjusted_review_count": 7,
-  "adjusted_review_average": 5.0
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
 }

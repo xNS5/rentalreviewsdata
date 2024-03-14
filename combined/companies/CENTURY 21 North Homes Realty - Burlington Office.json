@@ -3,7 +3,6 @@
   "address": "730 S Burlington Blvd, Burlington, WA 98233",
   "company_type": "Real estate agency",
   "review_count": 25,
-  "avg_review": 4.1,
   "reviews": [
     {
       "author": "Forrest Hopkins",
@@ -157,5 +156,6 @@
     }
   ],
   "adjusted_review_count": 17,
-  "adjusted_review_average": 4.4
+  "avg_rating": 4.1,
+  "adjusted_avg_rating": 4.4
 }

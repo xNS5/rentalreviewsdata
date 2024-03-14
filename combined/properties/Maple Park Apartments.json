@@ -1,9 +1,8 @@
 {
   "name": "Maple Park Apartments",
-  "avg_rating": 2.4,
+  "avg_rating": 3.6,
   "review_count": 79,
   "adjusted_review_count": 52,
-  "adjusted_review_average": 3.4,
   "reviews": [
     {
       "author": "Sarah W.",
@@ -482,5 +481,5 @@
   ],
   "company_type": "Apartments",
   "address": "1743 E Maple St Bellingham, WA 98229",
-  "avg_review": 3.6
+  "adjusted_avg_rating": 3.4
 }

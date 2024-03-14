@@ -3,7 +3,6 @@
   "address": "3420 W McLeod Rd, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 21,
-  "avg_review": 3.0,
   "reviews": [
     {
       "author": "Heather",
@@ -137,5 +136,6 @@
     }
   ],
   "adjusted_review_count": 12,
-  "adjusted_review_average": 2.6
+  "avg_rating": 3.0,
+  "adjusted_avg_rating": 2.6
 }

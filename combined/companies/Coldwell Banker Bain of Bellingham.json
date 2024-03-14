@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Real estate agent",
   "review_count": 19,
-  "avg_review": 4.8,
   "reviews": [
     {
       "author": "Pete Gegenhuber",
@@ -125,5 +124,6 @@
     }
   ],
   "adjusted_review_count": 17,
-  "adjusted_review_average": 4.8
+  "avg_rating": 4.8,
+  "adjusted_avg_rating": 4.8
 }

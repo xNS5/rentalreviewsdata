@@ -3,7 +3,6 @@
   "address": "41 NE Midway Blvd #101, Oak Harbor, WA 98277",
   "company_type": "Property management company",
   "review_count": 9,
-  "avg_review": 2.8,
   "reviews": [
     {
       "author": "Dave Carter",
@@ -73,5 +72,6 @@
     }
   ],
   "adjusted_review_count": 9,
-  "adjusted_review_average": 3.1
+  "avg_rating": 2.8,
+  "adjusted_avg_rating": 3.1
 }

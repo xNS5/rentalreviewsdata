@@ -3,7 +3,6 @@
   "address": "2110 Bill McDonald Pkwy Ste. 1, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 42,
-  "avg_review": 2.9,
   "reviews": [
     {
       "author": "Julia Stick",
@@ -399,5 +398,6 @@
     }
   ],
   "adjusted_review_count": 31,
-  "adjusted_review_average": 2.2
+  "avg_rating": 2.9,
+  "adjusted_avg_rating": 2.2
 }

@@ -3,7 +3,6 @@
   "address": "16404 Smokey Point Blvd Ste 203, Arlington, WA 98223",
   "company_type": "Property management company",
   "review_count": 15,
-  "avg_review": 5.0,
   "reviews": [
     {
       "author": "Sarah Gesick",
@@ -209,5 +208,6 @@
     }
   ],
   "adjusted_review_count": 14,
-  "adjusted_review_average": 4.7
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 4.7
 }

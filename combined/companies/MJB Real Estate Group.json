@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Real estate agency",
   "review_count": 23,
-  "avg_review": 5.0,
   "reviews": [
     {
       "author": "Gabe Wynn",
@@ -157,5 +156,6 @@
     }
   ],
   "adjusted_review_count": 22,
-  "adjusted_review_average": 5.0
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
 }

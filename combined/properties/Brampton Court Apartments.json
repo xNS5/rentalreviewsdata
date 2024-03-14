@@ -3,7 +3,6 @@
   "address": "1470 Birchwood Ave, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 20,
-  "avg_review": 2.8,
   "reviews": [
     {
       "author": "Juliana Ruiz",
@@ -127,5 +126,6 @@
     }
   ],
   "adjusted_review_count": 13,
-  "adjusted_review_average": 2.4
+  "avg_rating": 2.8,
+  "adjusted_avg_rating": 2.4
 }

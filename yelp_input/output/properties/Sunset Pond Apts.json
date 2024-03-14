@@ -3,7 +3,6 @@
   "avg_rating": 2.9,
   "review_count": 7,
   "adjusted_review_count": 7,
-  "adjusted_review_average": 2.9,
   "reviews": [
     {
       "author": "Marissa C.",
@@ -49,5 +48,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "1205 Woodstock Way Bellingham, WA 98226"
+  "address": "1205 Woodstock Way Bellingham, WA 98226",
+  "adjusted_avg_rating": 2.9
 }

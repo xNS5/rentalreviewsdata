@@ -3,7 +3,6 @@
   "address": "3710 168th St NE Suite B206, Arlington, WA 98223",
   "company_type": "Property management company",
   "review_count": 94,
-  "avg_review": 2.9,
   "reviews": [
     {
       "author": "Shawn Rae St. Pierre",
@@ -797,5 +796,6 @@
     }
   ],
   "adjusted_review_count": 89,
-  "adjusted_review_average": 2.9
+  "avg_rating": 2.9,
+  "adjusted_avg_rating": 2.9
 }

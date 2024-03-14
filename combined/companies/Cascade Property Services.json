@@ -3,7 +3,6 @@
   "address": "1261 NW Crosby Ave Unit A, Oak Harbor, WA 98277",
   "company_type": "Property management company",
   "review_count": 22,
-  "avg_review": 2.3,
   "reviews": [
     {
       "author": "Kimberly Dudeck",
@@ -163,5 +162,6 @@
     }
   ],
   "adjusted_review_count": 19,
-  "adjusted_review_average": 1.8
+  "avg_rating": 2.3,
+  "adjusted_avg_rating": 1.8
 }

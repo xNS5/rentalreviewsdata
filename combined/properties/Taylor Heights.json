@@ -3,7 +3,6 @@
   "address": "2115 Taylor Ave, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 11,
-  "avg_review": 4.1,
   "reviews": [
     {
       "author": "keashaa",
@@ -85,5 +84,6 @@
     }
   ],
   "adjusted_review_count": 4,
-  "adjusted_review_average": 2.8
+  "avg_rating": 4.1,
+  "adjusted_avg_rating": 2.8
 }

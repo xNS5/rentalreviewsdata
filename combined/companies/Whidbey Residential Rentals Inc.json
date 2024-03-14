@@ -3,7 +3,6 @@
   "address": "285 NE Midway Blvd Suite 2, Oak Harbor, WA 98277",
   "company_type": "Property management company",
   "review_count": 7,
-  "avg_review": 5.0,
   "reviews": [
     {
       "author": "Dan Gross",
@@ -47,5 +46,6 @@
     }
   ],
   "adjusted_review_count": 3,
-  "adjusted_review_average": 5.0
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
 }

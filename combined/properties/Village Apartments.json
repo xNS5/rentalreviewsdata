@@ -3,7 +3,6 @@
   "address": "3310 Alderwood Ave j1, Bellingham, WA 98225",
   "company_type": "Apartment rental agency",
   "review_count": 28,
-  "avg_review": 3.0,
   "reviews": [
     {
       "author": "Dana Carlson",
@@ -175,5 +174,6 @@
     }
   ],
   "adjusted_review_count": 19,
-  "adjusted_review_average": 2.8
+  "avg_rating": 3.0,
+  "adjusted_avg_rating": 2.8
 }

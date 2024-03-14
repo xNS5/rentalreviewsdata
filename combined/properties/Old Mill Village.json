@@ -3,7 +3,6 @@
   "address": "2100 Electric Ave, Bellingham, WA 98229",
   "company_type": "Apartment rental agency",
   "review_count": 15,
-  "avg_review": 4.6,
   "reviews": [
     {
       "author": "Maya Buhler",
@@ -121,5 +120,6 @@
     }
   ],
   "adjusted_review_count": 8,
-  "adjusted_review_average": 4.4
+  "avg_rating": 4.6,
+  "adjusted_avg_rating": 4.4
 }

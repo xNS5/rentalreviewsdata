@@ -3,7 +3,6 @@
   "avg_rating": 3.0,
   "review_count": 2,
   "adjusted_review_count": 2,
-  "adjusted_review_average": 3.0,
   "reviews": [
     {
       "author": "Kaitlyn S.",
@@ -19,5 +18,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "196 E Kellogg Rd Apt L2 Bellingham, WA 98226"
+  "address": "196 E Kellogg Rd Apt L2 Bellingham, WA 98226",
+  "adjusted_avg_rating": 3.0
 }

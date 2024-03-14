@@ -3,7 +3,6 @@
   "avg_rating": 3.0,
   "review_count": 7,
   "adjusted_review_count": 7,
-  "adjusted_review_average": 3.0,
   "reviews": [
     {
       "author": "bruce f.",
@@ -47,5 +46,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "1900 18th St Bellingham, WA 98225"
+  "address": "1900 18th St Bellingham, WA 98225",
+  "adjusted_avg_rating": 3.0
 }

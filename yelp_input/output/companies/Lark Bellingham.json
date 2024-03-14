@@ -3,7 +3,6 @@
   "review_count": 57,
   "avg_rating": 1.8,
   "adjusted_review_count": 57,
-  "adjusted_review_average": 1.8,
   "reviews": [
     {
       "author": "Allie S.",
@@ -501,5 +500,6 @@
     }
   ],
   "address": "800 Viking Cir Bellingham, WA 98229",
-  "company_type": "University Housing"
+  "company_type": "University Housing",
+  "adjusted_avg_rating": 1.8
 }

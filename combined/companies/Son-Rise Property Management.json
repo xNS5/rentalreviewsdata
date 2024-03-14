@@ -3,7 +3,6 @@
   "avg_rating": 1.9,
   "review_count": 29,
   "adjusted_review_count": 29,
-  "adjusted_review_average": 1.9,
   "reviews": [
     {
       "author": "Bryce T.",
@@ -245,5 +244,6 @@
     }
   ],
   "company_type": "Property Management",
-  "address": "3800 Byron Ave Ste 112 Bellingham, WA 98229"
+  "address": "3800 Byron Ave Ste 112 Bellingham, WA 98229",
+  "adjusted_avg_rating": 1.9
 }

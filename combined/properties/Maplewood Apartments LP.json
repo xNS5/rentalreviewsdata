@@ -3,7 +3,6 @@
   "address": "2849 W Maplewood Ave, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 11,
-  "avg_review": 4.0,
   "reviews": [
     {
       "author": "Jasmine Aviles",
@@ -73,5 +72,6 @@
     }
   ],
   "adjusted_review_count": 11,
-  "adjusted_review_average": 4.0
+  "avg_rating": 4.0,
+  "adjusted_avg_rating": 4.0
 }

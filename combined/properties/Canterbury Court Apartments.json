@@ -3,7 +3,6 @@
   "address": "3790 Canterbury Ln, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 51,
-  "avg_review": 3.4,
   "reviews": [
     {
       "author": "lawrence Mathes",
@@ -313,5 +312,6 @@
     }
   ],
   "adjusted_review_count": 28,
-  "adjusted_review_average": 3.1
+  "avg_rating": 3.4,
+  "adjusted_avg_rating": 3.1
 }

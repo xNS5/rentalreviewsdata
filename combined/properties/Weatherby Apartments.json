@@ -3,7 +3,6 @@
   "address": "2314 Weatherby Way, Bellingham, WA 98226",
   "company_type": "Apartment building",
   "review_count": 7,
-  "avg_review": 2.7,
   "reviews": [
     {
       "author": "M Jaiya",
@@ -49,5 +48,6 @@
     }
   ],
   "adjusted_review_count": 5,
-  "adjusted_review_average": 2.4
+  "avg_rating": 2.7,
+  "adjusted_avg_rating": 2.4
 }

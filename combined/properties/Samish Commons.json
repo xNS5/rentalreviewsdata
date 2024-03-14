@@ -3,7 +3,6 @@
   "address": "321 N Samish Way, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 12,
-  "avg_review": 4.1,
   "reviews": [
     {
       "author": "Pampered Duchess",
@@ -79,5 +78,6 @@
     }
   ],
   "adjusted_review_count": 9,
-  "adjusted_review_average": 4.3
+  "avg_rating": 4.1,
+  "adjusted_avg_rating": 4.3
 }

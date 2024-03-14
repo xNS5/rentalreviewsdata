@@ -1,9 +1,8 @@
 {
   "name": "Village At Baker Creek",
-  "avg_rating": 2.1,
+  "avg_rating": 2.2,
   "review_count": 44,
   "adjusted_review_count": 38,
-  "adjusted_review_average": 2.3,
   "reviews": [
     {
       "author": "Mike A.",
@@ -272,5 +271,5 @@
   ],
   "company_type": "Apartments",
   "address": "3963 Primrose Ln Bellingham, WA 98226",
-  "avg_review": 2.2
+  "adjusted_avg_rating": 2.3
 }

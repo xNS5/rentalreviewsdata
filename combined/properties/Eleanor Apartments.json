@@ -3,7 +3,6 @@
   "address": "1510 N Forest St, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 3,
-  "avg_review": 4.0,
   "reviews": [
     {
       "author": "Rita Johnson",
@@ -25,5 +24,6 @@
     }
   ],
   "adjusted_review_count": 2,
-  "adjusted_review_average": 3.5
+  "avg_rating": 4.0,
+  "adjusted_avg_rating": 3.5
 }

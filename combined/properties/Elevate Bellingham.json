@@ -1,9 +1,8 @@
 {
   "name": "Elevate Bellingham",
-  "avg_rating": 1.1,
+  "avg_rating": 3.7,
   "review_count": 169,
   "adjusted_review_count": 121,
-  "adjusted_review_average": 3.6,
   "reviews": [
     {
       "author": "Gina A.",
@@ -1518,5 +1517,5 @@
   ],
   "company_type": "University Housing",
   "address": "900 N Forest St Bellingham, WA 98225",
-  "avg_review": 3.7
+  "adjusted_avg_rating": 3.6
 }

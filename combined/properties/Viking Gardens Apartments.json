@@ -1,9 +1,8 @@
 {
   "name": "Viking Gardens Apartments",
-  "avg_rating": 2.3,
+  "avg_rating": 2.7,
   "review_count": 24,
   "adjusted_review_count": 15,
-  "adjusted_review_average": 2.1,
   "reviews": [
     {
       "author": "J K.",
@@ -174,5 +173,5 @@
   ],
   "company_type": "Apartments",
   "address": "2300 Bill Mcdonald Pkwy Bellingham, WA 98225",
-  "avg_review": 2.7
+  "adjusted_avg_rating": 2.1
 }

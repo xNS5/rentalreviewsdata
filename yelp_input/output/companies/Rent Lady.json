@@ -3,7 +3,6 @@
   "avg_rating": 3.0,
   "review_count": 6,
   "adjusted_review_count": 6,
-  "adjusted_review_average": 3.0,
   "reviews": [
     {
       "author": "Gabi M.",
@@ -43,5 +42,6 @@
     }
   ],
   "company_type": "Property Management",
-  "address": "La Conner, WA 98257"
+  "address": "La Conner, WA 98257",
+  "adjusted_avg_rating": 3.0
 }

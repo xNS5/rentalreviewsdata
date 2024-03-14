@@ -3,7 +3,6 @@
   "address": "3131 Ferry Ave, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 2,
-  "avg_review": 3.5,
   "reviews": [
     {
       "author": "Samantha H",
@@ -19,5 +18,6 @@
     }
   ],
   "adjusted_review_count": 1,
-  "adjusted_review_average": 2.0
+  "avg_rating": 3.5,
+  "adjusted_avg_rating": 2.0
 }

@@ -3,7 +3,6 @@
   "address": "611, 621 & 631, 621 Paloma Ln, Bellingham, WA 98226",
   "company_type": "Apartment complex",
   "review_count": 11,
-  "avg_review": 4.1,
   "reviews": [
     {
       "author": "Ernest Skiba",
@@ -77,5 +76,6 @@
     }
   ],
   "adjusted_review_count": 5,
-  "adjusted_review_average": 4.4
+  "avg_rating": 4.1,
+  "adjusted_avg_rating": 4.4
 }

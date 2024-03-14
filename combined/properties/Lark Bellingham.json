@@ -3,7 +3,6 @@
   "address": "800 Viking Cir, Bellingham, WA 98229",
   "company_type": "Apartment complex",
   "review_count": 208,
-  "avg_review": 2.9,
   "reviews": [
     {
       "author": "Andy Johnston",
@@ -1903,5 +1902,6 @@
     }
   ],
   "adjusted_review_count": 128,
-  "adjusted_review_average": 2.8
+  "avg_rating": 2.9,
+  "adjusted_avg_rating": 2.8
 }

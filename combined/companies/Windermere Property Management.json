@@ -3,7 +3,6 @@
   "address": "32785 State Rte 20 Suite #2, Oak Harbor, WA 98277",
   "company_type": "Property management company",
   "review_count": 195,
-  "avg_review": 2.6,
   "reviews": [
     {
       "author": "Dad tv",
@@ -1353,5 +1352,6 @@
     }
   ],
   "adjusted_review_count": 161,
-  "adjusted_review_average": 2.4
+  "avg_rating": 2.6,
+  "adjusted_avg_rating": 2.4
 }

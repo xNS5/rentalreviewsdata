@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Real estate agency",
   "review_count": 6,
-  "avg_review": 4.3,
   "reviews": [
     {
       "author": "Lesya Lyashenko",
@@ -63,5 +62,6 @@
     }
   ],
   "adjusted_review_count": 4,
-  "adjusted_review_average": 4.0
+  "avg_rating": 4.3,
+  "adjusted_avg_rating": 4.0
 }

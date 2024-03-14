@@ -3,7 +3,6 @@
   "avg_rating": 3.6,
   "review_count": 13,
   "adjusted_review_count": 13,
-  "adjusted_review_average": 3.6,
   "reviews": [
     {
       "author": "Tana P.",
@@ -97,5 +96,6 @@
     }
   ],
   "company_type": "Apartments",
-  "address": "1155 N State St Ste 620 Bellingham, WA 98225"
+  "address": "1155 N State St Ste 620 Bellingham, WA 98225",
+  "adjusted_avg_rating": 3.6
 }

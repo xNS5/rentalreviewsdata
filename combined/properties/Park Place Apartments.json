@@ -3,7 +3,6 @@
   "address": "3928 Northwest Ave, Bellingham, WA 98226",
   "company_type": "Apartment building",
   "review_count": 8,
-  "avg_review": 2.8,
   "reviews": [
     {
       "author": "Megan Ostrom",
@@ -55,5 +54,6 @@
     }
   ],
   "adjusted_review_count": 8,
-  "adjusted_review_average": 2.8
+  "avg_rating": 2.8,
+  "adjusted_avg_rating": 2.8
 }

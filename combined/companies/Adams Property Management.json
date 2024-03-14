@@ -3,7 +3,6 @@
   "address": "1344 King St Ste 201 Bellingham, WA 98229",
   "company_type": "Property management company",
   "review_count": 10,
-  "avg_review": 3.3,
   "reviews": [
     {
       "author": "Ethan Kendall",
@@ -67,5 +66,6 @@
     }
   ],
   "adjusted_review_count": 9,
-  "adjusted_review_average": 3.1
+  "avg_rating": 3.3,
+  "adjusted_avg_rating": 3.1
 }

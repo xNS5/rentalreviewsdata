@@ -3,7 +3,6 @@
   "address": "1511 N State St, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 5,
-  "avg_review": 3.2,
   "reviews": [
     {
       "author": "Brooke Lynn",
@@ -37,5 +36,6 @@
     }
   ],
   "adjusted_review_count": 3,
-  "adjusted_review_average": 2.7
+  "avg_rating": 3.2,
+  "adjusted_avg_rating": 2.7
 }

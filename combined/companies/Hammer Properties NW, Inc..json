@@ -3,7 +3,6 @@
   "address": "",
   "company_type": "Property management company",
   "review_count": 71,
-  "avg_review": 2.7,
   "reviews": [
     {
       "author": "Maddie Genger",
@@ -557,5 +556,6 @@
     }
   ],
   "adjusted_review_count": 54,
-  "adjusted_review_average": 2.7
+  "avg_rating": 2.7,
+  "adjusted_avg_rating": 2.7
 }

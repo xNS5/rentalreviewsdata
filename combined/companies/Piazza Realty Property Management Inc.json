@@ -3,7 +3,6 @@
   "address": "120 E George Hopper Rd, Burlington, WA 98233",
   "company_type": "Property management company",
   "review_count": 51,
-  "avg_review": 3.4,
   "reviews": [
     {
       "author": "Nicole LaCresha",
@@ -555,5 +554,6 @@
     }
   ],
   "adjusted_review_count": 48,
-  "adjusted_review_average": 3.6
+  "avg_rating": 3.4,
+  "adjusted_avg_rating": 3.6
 }

@@ -3,7 +3,6 @@
   "address": "2524 Douglas Ave, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 6,
-  "avg_review": 3.8,
   "reviews": [
     {
       "author": "Leo Spencer",
@@ -43,5 +42,6 @@
     }
   ],
   "adjusted_review_count": 3,
-  "adjusted_review_average": 4.0
+  "avg_rating": 3.8,
+  "adjusted_avg_rating": 4.0
 }

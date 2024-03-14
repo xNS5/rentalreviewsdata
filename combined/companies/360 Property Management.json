@@ -3,7 +3,6 @@
   "address": "471 SE Pioneer Way, Oak Harbor, WA 98277",
   "company_type": "Property management company",
   "review_count": 78,
-  "avg_review": 3.0,
   "reviews": [
     {
       "author": "Jasmine Martin",
@@ -511,5 +510,6 @@
     }
   ],
   "adjusted_review_count": 56,
-  "adjusted_review_average": 2.8
+  "avg_rating": 3.0,
+  "adjusted_avg_rating": 2.8
 }

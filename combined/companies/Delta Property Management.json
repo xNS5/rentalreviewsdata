@@ -3,7 +3,6 @@
   "address": "4229 76th St NE, Marysville, WA 98270",
   "company_type": "Property management company",
   "review_count": 55,
-  "avg_review": 3.4,
   "reviews": [
     {
       "author": "Jestine Wilson",
@@ -369,5 +368,6 @@
     }
   ],
   "adjusted_review_count": 42,
-  "adjusted_review_average": 3.4
+  "avg_rating": 3.4,
+  "adjusted_avg_rating": 3.4
 }

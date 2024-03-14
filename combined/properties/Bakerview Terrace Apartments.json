@@ -3,7 +3,6 @@
   "address": "258 E Bakerview Rd, Bellingham, WA 98226",
   "company_type": "Apartment building",
   "review_count": 9,
-  "avg_review": 4.2,
   "reviews": [
     {
       "author": "Jeff Bingman",
@@ -61,5 +60,6 @@
     }
   ],
   "adjusted_review_count": 3,
-  "adjusted_review_average": 4.7
+  "avg_rating": 4.2,
+  "adjusted_avg_rating": 4.7
 }

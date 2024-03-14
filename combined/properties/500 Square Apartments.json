@@ -3,7 +3,6 @@
   "address": "500 32nd St, Bellingham, WA 98225",
   "company_type": "Apartment building",
   "review_count": 15,
-  "avg_review": 3.3,
   "reviews": [
     {
       "author": "Kendra Morgen",
@@ -157,5 +156,6 @@
     }
   ],
   "adjusted_review_count": 11,
-  "adjusted_review_average": 3.0
+  "avg_rating": 3.3,
+  "adjusted_avg_rating": 3.0
 }

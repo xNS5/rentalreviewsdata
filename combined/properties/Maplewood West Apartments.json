@@ -3,7 +3,6 @@
   "address": "2836 W Maplewood Ave, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 7,
-  "avg_review": 3.9,
   "reviews": [
     {
       "author": "Charlotte Jane",
@@ -49,5 +48,6 @@
     }
   ],
   "adjusted_review_count": 3,
-  "adjusted_review_average": 4.0
+  "avg_rating": 3.9,
+  "adjusted_avg_rating": 4.0
 }

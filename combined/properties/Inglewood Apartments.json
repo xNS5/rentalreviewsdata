@@ -3,7 +3,6 @@
   "address": "3025 Ferry Ave, Bellingham, WA 98225",
   "company_type": "Apartment complex",
   "review_count": 20,
-  "avg_review": 3.6,
   "reviews": [
     {
       "author": "Lea S",
@@ -127,5 +126,6 @@
     }
   ],
   "adjusted_review_count": 12,
-  "adjusted_review_average": 3.2
+  "avg_rating": 3.6,
+  "adjusted_avg_rating": 3.2
 }

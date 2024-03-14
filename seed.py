@@ -1,12 +1,12 @@
 import pymongo
 import json
 import sys
-import utils.utilities as utilities
+from utilities import listFiles
 from dotenv import dotenv_values
 
-yelp_path = "../yelp_input/output/"
-google_path = "../google_input/output/combined/"
-combined_path = "../summaries/"
+yelp_path = "yelp_input/output/"
+google_path = "google_input/output/combined/"
+combined_path = "summaries/"
 
 config = {
     **dotenv_values("db.env")
@@ -24,7 +24,7 @@ paths = {
 
 def populate(suffix):
     for path, collection_prefix in paths.items():
-        files = utilities.listFiles(path + suffix)
+        files = listFiles(path + suffix + "/")
         seed = []
         for file in files:
             with open(file, "r") as inputFile:

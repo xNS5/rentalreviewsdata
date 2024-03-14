@@ -35,6 +35,7 @@ for file in file_list:
                 input_json["reviews"] += other_json["reviews"]
                 input_json["review_count"] += other_json["review_count"]
                 input_json["avg_rating"] = utilities.average_rating(input_json["reviews"])
+                input_json = utilities.calculate_adjusted_review_count(input_json)
                 if len(input_json["address"]) == 0:
                     print(input_json["name"])
                     input_json["address"] = other_json["address"]

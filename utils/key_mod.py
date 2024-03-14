@@ -1,4 +1,6 @@
 ## Utility script to change the names of keys in the .json files
+# So far I've only gotten it to work for top-level keys, and frankly I'm a little too lazy to 
+# figure out how to fix it. Maybe a second function for the "reviews" array. 
 
 import tempfile
 import json
@@ -6,7 +8,6 @@ import sys
 import os
 import shutil
 import utilities
-
 
 
 def main(old_key, new_key, path):

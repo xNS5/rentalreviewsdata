@@ -1,5 +1,7 @@
 import os
 import json
+import tempfile
+import shutil
 from thefuzz import process
 
 def listFiles(path):
@@ -47,3 +49,44 @@ def search_fuzzy(value, data):
         return None
     except:
         return None
+    
+
+def merge_dir(inputPath, summaryPath):
+    input_list = listFiles(inputPath)
+    with tempfile.TemporaryDirectory() as tempDir:
+        for file in input_list:
+            file_name = getFileName(file)[1]
+            with open(file, "r") as inputFile:
+                input_file_json = json.load(inputFile)
+                summary_file_path = summaryPath + file_name
+                with open(summary_file_path , "r") as summaryFile:
+                    summary_json = json.load(summaryFile)
+                    temp_file_path = tempDir + "/" + file_name
+                    with open(temp_file_path, "w") as outputFile:
+                        json.dump({**input_file_json, "summary" : summary_json["summary"]}, outputFile, ensure_ascii=True, indent=2)
+                        outputFile.close()
+                    summaryFile.close()
+                inputFile.close()
+        tmp_files = listFiles(tempDir)
+        for tmp_file in tmp_files:
+            tmp_file_name = getFileName(tmp_file)[1]
+            shutil.copy(tmp_file, summaryPath + tmp_file_name)
+        shutil.rmtree(tempDir)
+
+def merge_file(inputPath, summaryPath):
+    with tempfile.TemporaryDirectory() as tempDir:
+        file_name = utilities.getFileName(inputPath)[1]
+        with open(inputPath, "r") as inputFile:
+            input_file_json = json.load(inputFile)
+            with open("%s" % summaryPath, "r") as summaryFile:
+                summary_json = json.load(summaryFile)
+                with open("%s" % tempDir + "/" + file_name, "w") as outputFile:
+                    print(summary_json)
+                    json.dump({**input_file_json, "summary" : summary_json["summary"]}, outputFile, ensure_ascii=True, indent=2)
+                    outputFile.close()
+                summaryFile.close()
+            inputFile.close()
+        tmp_files = listFiles(tempDir)
+        for file in tmp_files:
+            shutil.move(file, summaryPath)
+        shutil.rmtree(tempDir)

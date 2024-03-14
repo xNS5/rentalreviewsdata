@@ -1,8 +1,7 @@
 import pymongo
-import os
-import pprint
 import json
 import sys
+import utils.utilities as utilities
 from dotenv import dotenv_values
 
 yelp_path = "../yelp_input/output/"
@@ -23,18 +22,9 @@ paths = {
     combined_path: "combined_"
 }
 
-
-def listFiles(path):
-    ret = []
-    for file in os.listdir(path):
-        file_path = os.path.join(path, file)
-        if os.path.isfile(file_path):
-            ret.append(file_path)
-    return ret
-
 def populate(suffix):
     for path, collection_prefix in paths.items():
-        files = listFiles(path + suffix)
+        files = utilities.listFiles(path + suffix)
         seed = []
         for file in files:
             with open(file, "r") as inputFile:
@@ -48,8 +38,7 @@ def clear_db(suffix):
         collection_key = collection_prefix + suffix
         db[collection_key].delete_many({})
 
-def main():
-    arg = sys.argv[1].lower()
+def main(arg):
     if arg == "seed":
         populate("companies")
         populate("properties")
@@ -59,4 +48,5 @@ def main():
     print("Done")
 
 if __name__ == "__main__":
-    main()
+    arg = sys.argv[1].lower()
+    main(arg)

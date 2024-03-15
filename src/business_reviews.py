@@ -115,7 +115,7 @@ def run():
     if(len(argv) > 1):
         for i in range(1,len(argv)):
             arg = argv[i]
-            filePath = './output/companies/%s.json' % arg.replace("/", "")
+            filePath = './google_input/output/companies/%s.json' % arg.replace("/", "")
             # if not exists(filePath):
             print("Company: %s" % (arg))
             reviews = scrape_google_reviews(arg)
@@ -126,7 +126,7 @@ def run():
             # else:
             #     print("%s.json already exists\n" % arg)
     else:
-        with open('./properties.json', "r") as inputFile:
+        with open('./google_input/properties.json', "r") as inputFile:
             input = json.load(inputFile)
             for i in range(0, len(input)):
                 company = input[i]

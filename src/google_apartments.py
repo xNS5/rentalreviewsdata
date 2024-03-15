@@ -98,7 +98,7 @@ def scrape_google_companies(search_param):
     driver.quit()
     return companyArr
 
-with open('./properties.json', "w") as outputFile:
+with open('./google_input/properties.json', "w") as outputFile:
     ret = scrape_google_companies("Apartment Complexes in Whatcom County")
     json.dump(ret, outputFile, ensure_ascii=True, indent=2)
     outputFile.close()

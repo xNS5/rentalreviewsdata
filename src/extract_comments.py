@@ -5,8 +5,6 @@ import os
 
 CLEANR = re.compile("<.*?>")
 
-
-
 def clean(string):
     cleaned = html.unescape(re.sub(CLEANR, "", string))
     encoded = cleaned.encode("ascii", "ignore")

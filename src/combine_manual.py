@@ -19,10 +19,9 @@ def main(input_path, output_path):
             master_file_reviews += input_reviews
             inputFile.close()
 
-    with open("./%s/%s.json" % (output_path, input_name), "w") as outputFile:
+    with open("./%s/%s.json" % (output_path, utilities.getFileName(input_path)), "w") as outputFile:
         json.dump(master_file_json, outputFile, ensure_ascii=True, indent=2)
         outputFile.close()  
-
 
 if __name__ == "__main__":
     args = sys.argv

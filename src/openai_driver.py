@@ -1,3 +1,5 @@
+# I feel like this one is pretty self explanatory, but it pipes all of the data to OpenAI and adds the returned summary to a file
+
 import os
 import json
 from openai import OpenAI
@@ -13,10 +15,10 @@ client = OpenAI(
 )
 
 property_input = "combined/properties/"
-property_output = "./summaries/properties/"
+property_output = "../summaries/properties/"
 
 company_input = "combined/companies/"
-company_output = "./summaries/companies/"
+company_output = "../summaries/companies/"
 
 
 def createArticles(path, out):
@@ -47,3 +49,4 @@ def createArticles(path, out):
           input_file.close()
 
 createArticles(company_input, company_output)
+createArticles(property_input, property_output)

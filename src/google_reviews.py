@@ -85,6 +85,7 @@ def scrape_google_reviews(company_name):
     
     time.sleep(5)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
+    driver.quit()
    
     review_elements = soup.find_all('div', class_=re.compile('jftiEf'))
 
@@ -107,7 +108,7 @@ def scrape_google_reviews(company_name):
             "review": "" if not review_text else clean(review_text.text),
             "ownerResponse": owner_response_msg
         })
-    driver.quit()
+    
     return reviews
 
 def run():
@@ -115,9 +116,9 @@ def run():
     if(len(argv) > 1):
         for i in range(1,len(argv)):
             arg = argv[i]
-            filePath = './google_input/output/companies/%s.json' % arg.replace("/", "")
+            filePath = './output/properties/%s.json' % arg.replace("/", "")
             # if not exists(filePath):
-            print("Company: %s" % (arg))
+            print("Property: %s" % (arg))
             reviews = scrape_google_reviews(arg)
             if len(reviews) > 0:
                 with open(filePath, "w") as outputFile:
@@ -126,19 +127,21 @@ def run():
             # else:
             #     print("%s.json already exists\n" % arg)
     else:
-        with open('./google_input/properties.json', "r") as inputFile:
-            input = json.load(inputFile)
-            for i in range(0, len(input)):
-                company = input[i]
-                companyName = company["name"]
-                if re.search("RE\/MAX", companyName):
-                    continue
-                filePath = './output/companies/%s.json' % companyName.replace("/", "")
-                if not exists(filePath):
-                    print("Company %d: %s" % (i+1, companyName))
-                    reviews = scrape_google_reviews(companyName)
-                    if len(reviews) > 0:
-                        with open(filePath, "w") as outputFile:
-                            json.dump(reviews, outputFile, ensure_ascii=True, indent=2)
-                            outputFile.close() 
+        with open("./google_input/config.json", "r") as configFile:
+            config = json.load(configFile)
+            for conf in config[1]:
+                with open(conf["inputfile"], "r") as inputFile:
+                    input = json.load(inputFile)
+                    for i in range(0, len(input)):
+                        company = input[i]
+                        companyName = company["name"]
+                        if company["review_count"] > 0:
+                            filePath = '%s/%s.json' % (conf['outputdir'] , companyName.replace("/", ""))
+                            if not exists(filePath):
+                                print("Property %d: %s" % (i+1, companyName))
+                                reviews = scrape_google_reviews(companyName)
+                                if len(reviews) > 0:
+                                    with open(filePath, "w") as outputFile:
+                                        json.dump(reviews, outputFile, ensure_ascii=True, indent=2)
+                                        outputFile.close() 
 run()

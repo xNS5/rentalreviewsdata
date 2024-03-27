@@ -1,3 +1,5 @@
+# Uses selenium webdriver to get information about companies and apartment complexes
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -40,12 +42,12 @@ def check_if_exists(driver, elem_type, selector):
     except:
         return None
     
-def scrape_google_companies(search_param):
+def scrape_google_companies(search_param, url):
     chrome_options = Options()
     service = ChromeService(ChromeDriverManager().install())
     driver = webdriver.Chrome(options=chrome_options,service=service)
 
-    driver.get('https://www.google.com/maps/@48.799556,-122.544531,11.67z?entry=ttu')
+    driver.get(url)
     time.sleep(2)
 
     search = driver.find_element(By.ID, 'searchboxinput')
@@ -101,9 +103,12 @@ def scrape_google_companies(search_param):
     driver.quit()
     return companyArr
 
-with open('./google_input/companies.json', "w") as outputFile:
-    ret = scrape_google_companies("property management companies in whatcom county")
-    json.dump(ret, outputFile, ensure_ascii=True, indent=2)
-    outputFile.close()
+with open("./google_input/config.json", "r") as configFile:
+    config = json.load(configFile)
+    for conf in config[0]:
+        with open(conf["outputfile"], "w") as outputFile:
+            ret = scrape_google_companies(conf["query"], conf["url"])
+            json.dump(ret, outputFile, ensure_ascii=True, indent=2)
+            outputFile.close()
 
 

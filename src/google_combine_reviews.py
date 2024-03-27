@@ -1,9 +1,12 @@
+# Combines the reviews from Google and Yelp
+
+
 import json
 import os
 import sys
 import utilities
 
-output_path = "./combined/"
+output_path = "./google_input/combined/"
 
 companies_dir = "companies/"
 properties_dir = "properties/"

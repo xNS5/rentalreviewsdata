@@ -1,3 +1,6 @@
+# Manually extracts comments from a given Yelp file
+
+
 import json
 import re
 import html

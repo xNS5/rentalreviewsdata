@@ -1,0 +1,77 @@
+{
+  "name": "Hilda Lane Apartments",
+  "address": "2700 W Maplewood Ave, Bellingham, WA 98225",
+  "company_type": "Apartment complex",
+  "review_count": 11,
+  "reviews": [
+    {
+      "author": "Juliana Ruiz",
+      "rating": 1.0,
+      "review": "Nothing against apex, but the owner is a HORRIBLE person. Harassing tenants to the point we had to put cameras in the apartment scared he was gonna come in while no one was home. Also, the house is so cheaply made its already falling ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Koby",
+      "rating": 1.0,
+      "review": "This is a horrible living experience if you have an animal. I myself have an ESA, which I forgot to add onto my application and had to put on after I moved in. The owner harrassed me about it, telling me that he didn't think I really needed ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joshua",
+      "rating": 4.0,
+      "review": "Cheap rent for ikea-quality housing. Hardwood floors and new appliances are great but there is very little privacy and not much attention to detail in construction. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Rudy Cruz",
+      "rating": 3.0,
+      "review": "Yumm.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Alicia Kelley",
+      "rating": 3.0,
+      "review": "Grounds are filthy",
+      "ownerResponse": []
+    },
+    {
+      "author": "Etilet Maipi",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Tony Chunks Donatello",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mary Giles",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "robert angelotti",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Paul Thornton",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Milangela Diaz",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 5,
+  "avg_rating": 2.6,
+  "adjusted_avg_rating": 2.4
+}

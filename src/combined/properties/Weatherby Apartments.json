@@ -1,0 +1,53 @@
+{
+  "name": "Weatherby Apartments",
+  "address": "2314 Weatherby Way, Bellingham, WA 98226",
+  "company_type": "Apartment building",
+  "review_count": 7,
+  "reviews": [
+    {
+      "author": "M Jaiya",
+      "rating": 1.0,
+      "review": "Congratulations, my first negative review goes to the thieves operating WestView Realty. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mike Jack",
+      "rating": 1.0,
+      "review": "Do yourself a favor and steer clear of Westview Realty unless you enjoy headaches and disappointment. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Glenn F",
+      "rating": 4.0,
+      "review": "My mother and I rented a 2 bedroom 2 bathroom unit a couple of months ago. The initial relationship with the leasing staff was rocky, but I feel has improved since weve moved in. The unit is as advertised, and the appliances are very nice. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "K King",
+      "rating": 1.0,
+      "review": "Liars and cheats. Beautiful apartments, but quality of build is questionable at best. Look beneath the surface and shoddy construction run by shady people is what you get. Moved into a brand new unit and the list of damaged and broken items ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Scott Welch",
+      "rating": 5.0,
+      "review": "Exxel Pacific doing a great job building.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joshua Jones",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "William Roberts",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 5,
+  "avg_rating": 2.7,
+  "adjusted_avg_rating": 2.4
+}

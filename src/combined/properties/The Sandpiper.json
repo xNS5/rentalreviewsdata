@@ -1,0 +1,17 @@
+{
+  "name": "The Sandpiper",
+  "address": "1010 Railroad Ave, Bellingham, WA 98225",
+  "company_type": "Apartment building",
+  "review_count": 1,
+  "reviews": [
+    {
+      "author": "Samia Quidwai",
+      "rating": 5.0,
+      "review": "Really responsive! Great service",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 1,
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
+}

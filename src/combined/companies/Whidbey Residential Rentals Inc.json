@@ -1,0 +1,51 @@
+{
+  "name": "Whidbey Residential Rentals Inc",
+  "address": "285 NE Midway Blvd Suite 2, Oak Harbor, WA 98277",
+  "company_type": "Property management company",
+  "review_count": 7,
+  "reviews": [
+    {
+      "author": "Dan Gross",
+      "rating": 5.0,
+      "review": "Whidbey Island Rentals has earned my long established business.\nI'm a property owner, which Whidbey Island Rentals has managed since 2002. As a long distance property owner I require with in the Law, visual inspections ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Theresa Reed",
+      "rating": 5.0,
+      "review": "I am the Designated Broker, I would never enter a property in my management company without proper notice in accordance with the landlord tenant laws.  My companies policy is to do everything within reason to return the tenants deposit when ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Yummy McGee",
+      "rating": 5.0,
+      "review": "They pointed me in the right direction for information on vacation rentals.",
+      "ownerResponse": [
+        {
+          "text": "Thank you for the review. We pride ourselves on offering ideas and solutions should we not offer the services you are inquiring about. Best of luck with your investment property!"
+        }
+      ]
+    },
+    {
+      "author": "S Anni",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mike Plummer",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Janedssa H",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 3,
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
+}

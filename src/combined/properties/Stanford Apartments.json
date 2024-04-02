@@ -1,0 +1,23 @@
+{
+  "name": "Stanford Apartments",
+  "address": "2001 Larrabee Ave #7, Bellingham, WA 98225",
+  "company_type": "Apartment building",
+  "review_count": 2,
+  "reviews": [
+    {
+      "author": "Shannon Laws",
+      "rating": 5.0,
+      "review": "A quiet apartment complex with a garden like setting.  You'll love the pink plum tree blooms in the spring and the Dogwood blosoms in late summer.  Carpet and tile flooring.  Clean & secured coin W/D room. Private owner who is easy to work with.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Anna Pliakina",
+      "rating": 5.0,
+      "review": "Great",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 2,
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
+}

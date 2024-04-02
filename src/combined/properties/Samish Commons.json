@@ -1,0 +1,83 @@
+{
+  "name": "Samish Commons",
+  "address": "321 N Samish Way, Bellingham, WA 98225",
+  "company_type": "Apartment complex",
+  "review_count": 12,
+  "reviews": [
+    {
+      "author": "Pampered Duchess",
+      "rating": 2.0,
+      "review": "The building itself is fine. It's new and rather well insulated. It's fine as low-income housing. However, it's \"tax credit\" rather than subsidized housing. The management can't keep janitorial staff, doesn't communicate well, and generally ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Vanessa Alexander",
+      "rating": 5.0,
+      "review": "Nice albeit small brand new apartments. Most Are some type of rent assisted/sliding fee scale ECT. Second building will be getting underway very soon they say, it should be open and people moving in sometime next year is what I've heard.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Fernando Gonzalez",
+      "rating": 5.0,
+      "review": "Beautiful piece of architecture in the Samish Urban village, lots of parking, easily accessible, next to Downtown and I-5.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Todd Johnson",
+      "rating": 5.0,
+      "review": "Tango and I really do love living here ..and Once the buildings are finished... sometime between Spring and the Summer of (2023)..Sammish Commons will be a Stable, Secure, Resident Friendly, Caring Management, little Community within ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Terrilynn Land",
+      "rating": 2.0,
+      "review": "Please use the eleavatr",
+      "ownerResponse": []
+    },
+    {
+      "author": "Carl Graber",
+      "rating": 5.0,
+      "review": "Excellent place to live",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kim Sandberg",
+      "rating": 5.0,
+      "review": "My friend lives there!  Great place!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Carl G",
+      "rating": 5.0,
+      "review": "Love the place",
+      "ownerResponse": []
+    },
+    {
+      "author": "Cyndi Ackerson",
+      "rating": 5.0,
+      "review": "I live here and I love it. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Tina Martin",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shovia Muchirawehondo",
+      "rating": 1.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Cindy S",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 9,
+  "avg_rating": 4.1,
+  "adjusted_avg_rating": 4.3
+}

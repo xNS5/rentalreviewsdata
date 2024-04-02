@@ -1,0 +1,41 @@
+{
+  "name": "Walton Place",
+  "address": "1511 N State St, Bellingham, WA 98225",
+  "company_type": "Apartment building",
+  "review_count": 5,
+  "reviews": [
+    {
+      "author": "Brooke Lynn",
+      "rating": 3.0,
+      "review": "For rent controlled apartments the ground level suites are nice, large apartments. Modern appliances, no frills. No air conditioning though. Proportions of living room size to bedrooms isn't ideal, unless you entertain and use the living ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Leah Steele",
+      "rating": 1.0,
+      "review": "Put a 150 dollar holding deposit that was refundable on an apartment and never got the money back after I decided to cancel on the apartment. Noted that the manager never disclosed there was a 3rd party involved with the money until after I inquired about getting my money back. What a dissapointment.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Evelyn Thompson",
+      "rating": 4.0,
+      "review": "I have lived here for over 5 years. It's great besides the occasional inspections and fire alarm testing.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Daniel Crutchfield",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Leann AZGirl Keith",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 3,
+  "avg_rating": 3.2,
+  "adjusted_avg_rating": 2.7
+}

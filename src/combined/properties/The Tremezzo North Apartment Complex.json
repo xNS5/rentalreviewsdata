@@ -1,0 +1,107 @@
+{
+  "name": "The Tremezzo North Apartment Complex",
+  "address": "545 E Kellogg Rd, Bellingham, WA 98226",
+  "company_type": "Apartment complex",
+  "review_count": 16,
+  "reviews": [
+    {
+      "author": "Chris J",
+      "rating": 4.0,
+      "review": "So far this place has been great. Close to town but only next to a church and fields. Tucked away a little so you dont have the city life feeling while being close to all the amenities.  Soundproofing needs work next to the stairs in the ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ma-Eyongerie Frambo",
+      "rating": 2.0,
+      "review": "The property is beautiful, great floor plans, and very nice in unit, however definitely some features not clearly communicated by any property management company that runs this property (Apex previously, Landmark currently). Two things you ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kaitlyn Monaghan",
+      "rating": 1.0,
+      "review": "Apex Property Management announced AFTER raising rent for the all tenants, that construction of a brand new apartment complex is happening on site. Tremezzo is supposed to be dog friendly, but the outside 'dog area' is not meant for any ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kiley Williams",
+      "rating": 1.0,
+      "review": "Very in your business property. Tenants spy on you, take photos of you inside your apartment to send to the management and fail to clean up after their dogs. The management constantly checks up on you and the entire time Ive lived here ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Betty Finkbonner (Jean)",
+      "rating": 3.0,
+      "review": "Seems like a good place.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kev",
+      "rating": 5.0,
+      "review": "Quiet nice location great floor plans",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kennedy Chauvin",
+      "rating": 5.0,
+      "review": "Beautiful place to work on!!!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Milangela Diaz",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Trent Pulsipher",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "travazf",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kendra McConnell",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jaxson Hall",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Michael Neria",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jyllea Mulligan",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Karma Swislow",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Sam Tolliver",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 7,
+  "avg_rating": 3.8,
+  "adjusted_avg_rating": 3.0
+}

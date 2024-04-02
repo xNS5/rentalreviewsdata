@@ -1,0 +1,23 @@
+{
+  "name": "Brooks Property Management",
+  "avg_rating": 1.0,
+  "review_count": 2,
+  "adjusted_review_count": 2,
+  "reviews": [
+    {
+      "author": "Olivia O.",
+      "rating": 1.0,
+      "review": "Company consistently loses rent checks after they have been turned in before the due date, then blames the tenants for the mishap. Do not rent with them they cannot be trusted to keep track of your money and when they lose your checks will threaten to evict you.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Ty J.",
+      "rating": 1.0,
+      "review": "My fianc missed 2 and half hours work for them to no show an appointment to see a property. There were 4 other potential applicants stood up.",
+      "ownerResponse": []
+    }
+  ],
+  "company_type": "Property Management",
+  "address": "1301 Iowa St Bellingham, WA 98229",
+  "adjusted_avg_rating": 1.0
+}

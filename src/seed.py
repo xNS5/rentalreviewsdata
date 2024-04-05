@@ -1,9 +1,6 @@
 import json
-import pymongo
-import firebase_admin
 import pyinputplus as pyinput
 from utilities import listFiles
-from firebase_admin import credentials, firestore
 from dotenv import dotenv_values
 
 
@@ -53,11 +50,12 @@ def main():
 
     match database_selection:
         case "MongoDB":
+            import pymongo
             client = pymongo.MongoClient("mongodb://%s:%s@%s" % (config["MONGODB_USER"], config["MONGODB_PASSWORD"], config["MONGODB_URL"]))
             db = client["rentalreviews"]
         case "Firebase":
-          
-
+           import firebase_admin
+           from firebase_admin import credentials, firestore
            cred = credentials.Certificate("certificate.json")
            firebase_admin.initialize_app(cred)
            db = firestore.client()

@@ -19,28 +19,42 @@ paths = {
 }
 
 def populate(db, client, suffix):
-   match client:
-       case "MongoDB":
-            for path, collection_prefix in paths.items():
-                files = listFiles(path + suffix + "/")
-                seed = []
-                for file in files:
-                    with open(file, "r") as inputFile:
-                        seed.append(json.load(inputFile))
-                collection_key = collection_prefix + suffix
-                db[collection_key].insert_many(seed)
-                db[collection_key].create_index("name")
-       case "Firebase":
-           doc_ref = db.collection("testcollection")
-           docs = doc_ref.stream()
-           for doc in docs:
-               print(f"{doc.id} => {doc.to_dict()}")
+    seed = []
+    for path, collection_prefix in paths.items():
+        files = listFiles(path + suffix + "/")
+        for file in files:
+            with open(file, "r") as inputFile:
+                seed.append(json.load(inputFile))
+        collection_key = collection_prefix + suffix
+    match client:
+        case "MongoDB":
+            db[collection_key].insert_many(seed)
+            db[collection_key].create_index("name")
+        case "Firebase":
+            db.collection(collection_key).add(seed)
 
 
 def clear_db(db, client, suffix):
-    for path, collection_prefix in paths.items():
-        collection_key = collection_prefix + suffix
-        db[collection_key].delete_many({})
+    match client:
+        case "MongoDB":
+            for path, collection_prefix in paths.items():
+                collection_key = collection_prefix + suffix
+                db[collection_key].delete_many({})
+        case "Firebase":
+            if batch_size == 0:
+                return
+
+            docs = coll_ref.list_documents(page_size=batch_size)
+            deleted = 0
+
+            for doc in docs:
+                print(f"Deleting doc {doc.id} => {doc.get().to_dict()}")
+                doc.delete()
+                deleted = deleted + 1
+
+            if deleted >= batch_size:
+                return delete_collection(coll_ref, batch_size)
+
 
 def main():
     database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)

@@ -49,7 +49,7 @@ def clear_db(db, client, suffix):
                 collection = db.collection(collection_key)
                 docs = collection.stream()
                 for doc in docs:
-                    print(f"Deleting doc {doc.id}")
+                    print(f"Deleting {doc.id}")
                     doc_ref = collection.document(doc.id)
                     batch.delete(doc_ref)
                 batch.commit()

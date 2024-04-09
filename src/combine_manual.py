@@ -1,3 +1,5 @@
+# This is strictly for Yelp data
+
 import json
 import os
 import sys

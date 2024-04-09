@@ -26,48 +26,66 @@ def populate(db, client, suffix):
             with open(file, "r") as inputFile:
                 seed_arr.append(json.load(inputFile))
         collection_key = collection_prefix + suffix
-        match client:
-            case "MongoDB":
-                db[collection_key].insert_many(seed_arr)
-                db[collection_key].create_index("name")
-            case "Firebase":
-                batch = db.batch()
-                for seed in seed_arr:
-                    doc_ref = db.collection(collection_key).document()
-                    batch.set(doc_ref, seed)
-                batch.commit()
-
-
+        try:
+            match client:
+                case "MongoDB":
+                    db[collection_key].insert_many(seed_arr)
+                    db[collection_key].create_index("name")
+                case "Firebase":
+                    batch = db.batch()
+                    for seed in seed_arr:
+                        doc_ref = db.collection(collection_key).document()
+                        batch.set(doc_ref, seed)
+                    batch.commit()
+        except Exception as e:
+            print(f'Failed to seed {client} with error {e}')
+            return
+        
+    print(f'Seeded {client} for {suffix}')
+    
+            
 def clear_db(db, client, suffix):
     for path, collection_prefix in paths.items():
         collection_key = collection_prefix + suffix
-        match client:
-            case "MongoDB":
+        try:
+            match client:
+                case "MongoDB":
                     db[collection_key].delete_many({})
-            case "Firebase":
-                batch = db.batch()
-                collection = db.collection(collection_key)
-                docs = collection.stream()
-                for doc in docs:
-                    print(f"Deleting {doc.id}")
-                    doc_ref = collection.document(doc.id)
-                    batch.delete(doc_ref)
-                batch.commit()
+                case "Firebase":
+                    batch = db.batch()
+                    collection = db.collection(collection_key)
+                    docs = collection.stream()
+                    for doc in docs:
+                        print(f"Deleting {doc.id}")
+                        doc_ref = collection.document(doc.id)
+                        batch.delete(doc_ref)
+                    batch.commit()
+        except Exception as e:
+             print(f'Failed to clear {client} with error {e}')
+             return
+        
+    print(f'Cleared {client} for {suffix}')
+
 
 
 def main(database_selection, database_action):
     db = None
-    match database_selection:
-        case "MongoDB":
-            import pymongo
-            client = pymongo.MongoClient("mongodb://%s:%s@%s" % (config["MONGODB_USER"], config["MONGODB_PASSWORD"], config["MONGODB_URL"]))
-            db = client["rentalreviews"]
-        case "Firebase":
-           import firebase_admin
-           from firebase_admin import credentials, firestore
-           cred = credentials.Certificate("certificate.json")
-           firebase_admin.initialize_app(cred)
-           db = firestore.client()
+    try:
+        match database_selection:
+            case "MongoDB":
+                import pymongo
+                client = pymongo.MongoClient("mongodb://%s:%s@%s" % (config["MONGODB_USER"], config["MONGODB_PASSWORD"], config["MONGODB_URL"]))
+                db = client["rentalreviews"]
+            case "Firebase":
+                import firebase_admin
+                from firebase_admin import credentials, firestore
+                cred = credentials.Certificate("certificate.json")
+                firebase_admin.initialize_app(cred)
+                db = firestore.client()
+        print(f'Initialized connection to {database_selection}')
+    except Exception as e:
+        print(f'Failed to initialize source {database_selection} with exception {e}')
+        return
 
     match database_action:
         case "Seed":

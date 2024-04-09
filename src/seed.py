@@ -6,7 +6,7 @@ from dotenv import dotenv_values
 
 yelp_path = "yelp_input/output/"
 google_path = "google_input/output/combined/"
-combined_path = "../summaries/"
+summary_path = "../summaries/"
 
 config = {
     **dotenv_values("db.env")
@@ -15,12 +15,18 @@ config = {
 paths = {
     yelp_path: "yelp_",
     google_path: "google_",
-    combined_path: "combined_"
+    summary_path: "summary_"
+}
+
+# Certificates for staging + production databases
+server_certificates = {
+    "Production": "./production_certificate.json",
+    "Staging": "./staging_certificate.json"
 }
 
 def populate(db, client, suffix):
-    seed_arr = []
     for path, collection_prefix in paths.items():
+        seed_arr = []
         files = listFiles(path + suffix + "/")
         for file in files:
             with open(file, "r") as inputFile:
@@ -68,7 +74,7 @@ def clear_db(db, client, suffix):
 
 
 
-def main(database_selection, database_action):
+def main(database_selection, database_action, database_environment):
     db = None
     try:
         match database_selection:
@@ -79,7 +85,7 @@ def main(database_selection, database_action):
             case "Firebase":
                 import firebase_admin
                 from firebase_admin import credentials, firestore
-                cred = credentials.Certificate("certificate.json")
+                cred = credentials.Certificate(server_certificates[database_environment])
                 firebase_admin.initialize_app(cred)
                 db = firestore.client()
         print(f'Initialized connection to {database_selection}')
@@ -98,5 +104,8 @@ def main(database_selection, database_action):
 if __name__ == "__main__":
     database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
     database_action = pyinput.inputMenu(["Seed", "Clear"], lettered=True, numbered=False)
+    database_environment = ""
+    if database_selection != "MongoDB":
+        database_environment = pyinput.inputMenu(["Production", "Staging"], lettered=True, numbered=False)
 
-    main(database_selection, database_action)
+    main(database_selection, database_action, database_environment)

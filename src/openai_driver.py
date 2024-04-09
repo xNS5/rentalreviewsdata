@@ -14,10 +14,10 @@ client = OpenAI(
   api_key=config["OPENAI_KEY"]
 )
 
-property_input = "combined/properties/"
+property_input = "all_combined/properties/"
 property_output = "../summaries/properties/"
 
-company_input = "combined/companies/"
+company_input = "all_combined/companies/"
 company_output = "../summaries/companies/"
 
 

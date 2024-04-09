@@ -53,8 +53,6 @@ requestObj = [
 
 CLEANR = re.compile("<.*?>")
 
-curr_type = "properties"
-
 def clean(string):
     cleaned = html.unescape(re.sub(CLEANR, "", string))
     encoded = cleaned.encode("ascii", "ignore")
@@ -113,49 +111,53 @@ def getCompanyDetails(id):
     }
 
 
-# You must initialize logging, otherwise you'll not see debug output.
-logging.basicConfig()
-logging.getLogger().setLevel(logging.DEBUG)
-requests_log = logging.getLogger("requests.packages.urllib3")
-requests_log.setLevel(logging.DEBUG)
-requests_log.propagate = False
+def main(curr_type):
+    # You must initialize logging, otherwise you'll not see debug output.
+    logging.basicConfig()
+    logging.getLogger().setLevel(logging.DEBUG)
+    requests_log = logging.getLogger("requests.packages.urllib3")
+    requests_log.setLevel(logging.DEBUG)
+    requests_log.propagate = False
 
-with open("./%s.json" % curr_type, "r") as inputFile:
-    data = json.load(inputFile)
-    session = Session()
-    url = "https://www.yelp.com/gql/batch"
-    req = Request(
-        "POST",
-        url,
-    )
-    for biz in data["businesses"]:
-        if biz["review_count"] < 55:
-            user_agent = user_agent_list[random.randint(0, len(user_agent_list) - 1)]
-            print(biz["name"])
-            requestObj[0]["variables"]["encBizId"] = biz["id"]
-            requestObj[0]["variables"]["reviewsPerPage"] = biz["review_count"]
-            req.json = requestObj
-            req.user_agent = user_agent
-            prepared_request = req.prepare()
-            response = session.send(prepared_request)
-            if response.status_code == 200:
-                res_json = json.loads(response.content.decode())
-                details = getCompanyDetails(biz["id"])
-                ret = getComments(res_json)
-                if len(ret["reviews"]) > 0:
-                    filePath = "./output/%s/%s.json" % (
-                        curr_type,
-                        biz["name"].replace("/", ""),
-                    )
-                    with open(filePath, "w") as outFile:
-                        json.dump({**ret, **details}, outFile, ensure_ascii=True, indent=2)
-                        outFile.close()
+    with open("./%s.json" % curr_type, "r") as inputFile:
+        data = json.load(inputFile)
+        session = Session()
+        url = "https://www.yelp.com/gql/batch"
+        req = Request(
+            "POST",
+            url,
+        )
+        for biz in data["businesses"]:
+            if biz["review_count"] < 55:
+                user_agent = user_agent_list[random.randint(0, len(user_agent_list) - 1)]
+                print(biz["name"])
+                requestObj[0]["variables"]["encBizId"] = biz["id"]
+                requestObj[0]["variables"]["reviewsPerPage"] = biz["review_count"]
+                req.json = requestObj
+                req.user_agent = user_agent
+                prepared_request = req.prepare()
+                response = session.send(prepared_request)
+                if response.status_code == 200:
+                    res_json = json.loads(response.content.decode())
+                    details = getCompanyDetails(biz["id"])
+                    ret = getComments(res_json)
+                    if len(ret["reviews"]) > 0:
+                        filePath = "./output/%s/%s.json" % (
+                            curr_type,
+                            biz["name"].replace("/", ""),
+                        )
+                        with open(filePath, "w") as outFile:
+                            json.dump({**ret, **details}, outFile, ensure_ascii=True, indent=2)
+                            outFile.close()
+                    else:
+                        print("%s review count below threshold" % biz["name"])
                 else:
-                    print("%s review count below threshold" % biz["name"])
+                    print("ERROR: ", response.status_code)
+                    break
             else:
-                print("ERROR: ", response.status_code)
-                break
-        else:
-            print("Skipping ", biz["name"])
+                print("Skipping ", biz["name"])
 
-        time.sleep(3 + random.randint(1, 3))
+            time.sleep(3 + random.randint(1, 3))
+
+main("companies")
+main("properties")

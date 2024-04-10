@@ -64,7 +64,7 @@ def validate(key, expected_value, path):
                 input_file_json = json.load(inputFile)
                 if key in input_file_json:
                     if input_file_json[key] != expected_value:
-                        print(f'File: { input_file_json["name"] }\r\nKey Mismatch for {key}: Expected: {expected_value}\r\nFound:{ input_file_json[key] }\r\n')
+                        print(f'\r\nFile: { input_file_json["name"] }\r\nKey Mismatch for {key}: Expected: {expected_value}\r\nFound:{ input_file_json[key] }\r\n')
                 else: 
                     print(f'Key not present in { input_file_json["name"] }')
                 inputFile.close()
@@ -74,5 +74,5 @@ if __name__ == "__main__":
     if len(args) == 3:
         key_swap(args[1], args[2], args[3])
     else:
-        value_swap("company_type", is_company, "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/yelp_input/output/properties/")
-        validate("company_type", "property", "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/yelp_input/output/properties/")
+        value_swap("company_type", is_company, "/Users/michaelkennedy/Git/osp/rentalreviewsdata/summaries/properties/")
+        validate("company_type", "property", "/Users/michaelkennedy/Git/osp/rentalreviewsdata/summaries/properties/")

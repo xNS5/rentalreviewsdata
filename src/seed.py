@@ -100,10 +100,15 @@ def main(database_selection, database_action, database_environment):
         case "Clear":
             clear_db(db, database_selection, "companies")
             clear_db(db, database_selection, "properties")
+        case "Re-seed":
+            clear_db(db, database_selection, "companies")
+            populate(db, database_selection, "companies")
+            clear_db(db, database_selection, "properties")
+            populate(db, database_selection, "properties")
 
 if __name__ == "__main__":
     database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
-    database_action = pyinput.inputMenu(["Seed", "Clear"], lettered=True, numbered=False)
+    database_action = pyinput.inputMenu(["Seed", "Clear", "Re-seed"], lettered=True, numbered=False)
     database_environment = ""
     if database_selection != "MongoDB":
         database_environment = pyinput.inputMenu(["Production", "Staging"], lettered=True, numbered=False)

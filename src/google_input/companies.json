@@ -322,13 +322,6 @@
     "avg_review": 5.0
   },
   {
-    "name": "Bellingham Real Estate - Michael Eisenberg",
-    "address": "2219 Rimland Dr Suite 301, Bellingham, WA 98226",
-    "company_type": "Real estate consultant",
-    "review_count": 8,
-    "avg_review": 5.0
-  },
-  {
     "name": "360 Property Management",
     "address": "471 SE Pioneer Way, Oak Harbor, WA 98277",
     "company_type": "Property management company",
@@ -404,13 +397,6 @@
     "company_type": "Real estate agency",
     "review_count": 25,
     "avg_review": 4.1
-  },
-  {
-    "name": "LCK Properties LLC",
-    "address": "4202 Guide Meridian Rd Suite 103, Bellingham, WA 98226",
-    "company_type": "Real estate consultant",
-    "review_count": 32,
-    "avg_review": 2.6
   },
   {
     "name": "Island Property Management",

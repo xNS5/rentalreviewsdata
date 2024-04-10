@@ -9,8 +9,13 @@ import os
 import shutil
 import utilities
 
+def is_company(val):
+    company_set = set(["Property Management", "Property management company", "Real estate agent", "Short term apartment rental agency", "Real Estate Services", "Real estate services", "University Housing", "Commercial real estate","Commercial real estate agency","Real estate rental agency", "Real estate agency"])
+    if val in company_set:
+        return "company"
+    return "property"
 
-def main(old_key, new_key, path):
+def key_swap(old_key, new_key, path):
     file_list = utilities.listFiles(path)
     with tempfile.TemporaryDirectory() as tempDir:
         for file in file_list:
@@ -29,7 +34,45 @@ def main(old_key, new_key, path):
             print(basepath)
             shutil.move(file, path + basepath)
         shutil.rmtree(tempDir)
+
+def value_swap(key, func, path):
+    file_list = utilities.listFiles(path)
+    with tempfile.TemporaryDirectory() as tempDir:
+        for file in file_list:
+            with open(file, "r") as inputFile:
+                input_file_json = json.load(inputFile)
+                if key in input_file_json:
+                    input_file_json[key] = func(input_file_json[key])
+                else: 
+                    print(f'Key not present in { input_file_json["name"] }')
+                with open(tempDir + "/" + input_file_json["name"] + ".json", "w") as outputFile:
+                    json.dump(input_file_json, outputFile, ensure_ascii=True, indent=2)
+                    outputFile.close()
+                inputFile.close()
+        tmp_files = utilities.listFiles(tempDir)
+        for file in tmp_files:
+            basepath = os.path.basename(file)
+            print(basepath)
+            shutil.move(file, path + basepath)
+        shutil.rmtree(tempDir)
+
+
+def validate(key, expected_value, path):
+        file_list = utilities.listFiles(path)
+        for file in file_list:
+            with open(file, "r") as inputFile:
+                input_file_json = json.load(inputFile)
+                if key in input_file_json:
+                    if input_file_json[key] != expected_value:
+                        print(f'File: { input_file_json["name"] }\r\nKey Mismatch for {key}: Expected: {expected_value}\r\nFound:{ input_file_json[key] }\r\n')
+                else: 
+                    print(f'Key not present in { input_file_json["name"] }')
+                inputFile.close()
         
 if __name__ == "__main__":
     args = sys.argv
-    main(args[1], args[2], args[3])
+    if len(args) == 3:
+        key_swap(args[1], args[2], args[3])
+    else:
+        # value_swap("company_type", is_company, "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/all_combined/companies/")
+        validate("company_type", "company", "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/all_combined/companies/")

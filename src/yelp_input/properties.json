@@ -410,43 +410,6 @@
       "distance": 1793.5791558357573
     },
     {
-      "id": "CydMwfSwWArzfYyzseBK9A",
-      "alias": "westview-real-estate-bellingham",
-      "name": "Westview Real Estate",
-      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/35Mk2F0tSe8KBLC3VDoNHg/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/westview-real-estate-bellingham?adjust_creative=0suoap7R9YKNcgmgRfoqHg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0suoap7R9YKNcgmgRfoqHg",
-      "review_count": 10,
-      "categories": [
-        {
-          "alias": "propertymgmt",
-          "title": "Property Management"
-        }
-      ],
-      "rating": 1.5,
-      "coordinates": {
-        "latitude": 48.7471084594727,
-        "longitude": -122.481658935547
-      },
-      "transactions": [],
-      "location": {
-        "address1": "112 E Maple St",
-        "address2": null,
-        "address3": null,
-        "city": "Bellingham",
-        "zip_code": "98225",
-        "country": "US",
-        "state": "WA",
-        "display_address": [
-          "112 E Maple St",
-          "Bellingham, WA 98225"
-        ]
-      },
-      "phone": "+13606473499",
-      "display_phone": "(360) 647-3499",
-      "distance": 573.1160675686554
-    },
-    {
       "id": "XRSe_4Zs1VnHsxxj1lQ-gw",
       "alias": "elevate-bellingham-bellingham",
       "name": "Elevate Bellingham",
@@ -482,81 +445,6 @@
       "phone": "+13602550949",
       "display_phone": "(360) 255-0949",
       "distance": 971.8070395646594
-    },
-    {
-      "id": "spdZ6kufVKZKJEr4xp6aoA",
-      "alias": "landmark-real-estate-management-bellingham",
-      "name": "Landmark Real Estate Management",
-      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/c0lZKUPsK_QnbSOoSwRQug/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/landmark-real-estate-management-bellingham?adjust_creative=0suoap7R9YKNcgmgRfoqHg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0suoap7R9YKNcgmgRfoqHg",
-      "review_count": 71,
-      "categories": [
-        {
-          "alias": "propertymgmt",
-          "title": "Property Management"
-        }
-      ],
-      "rating": 1.0,
-      "coordinates": {
-        "latitude": 48.7713999,
-        "longitude": -122.4495128
-      },
-      "transactions": [],
-      "location": {
-        "address1": "1835 Barkley Blvd",
-        "address2": "Ste 101",
-        "address3": "",
-        "city": "Bellingham",
-        "zip_code": "98226",
-        "country": "US",
-        "state": "WA",
-        "display_address": [
-          "1835 Barkley Blvd",
-          "Ste 101",
-          "Bellingham, WA 98226"
-        ]
-      },
-      "phone": "+13607381022",
-      "display_phone": "(360) 738-1022",
-      "distance": 3046.0547811738693
-    },
-    {
-      "id": "blndf5gffZdQpzjW-JwLUQ",
-      "alias": "chuckanut-property-management-bellingham",
-      "name": "Chuckanut Property Management",
-      "image_url": "",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/chuckanut-property-management-bellingham?adjust_creative=0suoap7R9YKNcgmgRfoqHg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0suoap7R9YKNcgmgRfoqHg",
-      "review_count": 42,
-      "categories": [
-        {
-          "alias": "realestatesvcs",
-          "title": "Real Estate Services"
-        }
-      ],
-      "rating": 2.0,
-      "coordinates": {
-        "latitude": 48.757926940918,
-        "longitude": -122.465950012207
-      },
-      "transactions": [],
-      "location": {
-        "address1": "2100 Iron St",
-        "address2": "",
-        "address3": "",
-        "city": "Bellingham",
-        "zip_code": "98225",
-        "country": "US",
-        "state": "WA",
-        "display_address": [
-          "2100 Iron St",
-          "Bellingham, WA 98225"
-        ]
-      },
-      "phone": "+13607333640",
-      "display_phone": "(360) 733-3640",
-      "distance": 1139.586834842483
     },
     {
       "id": "-dXTns2oeZoZ0TXuBUDzrA",
@@ -668,42 +556,6 @@
       "phone": "+13607347722",
       "display_phone": "(360) 734-7722",
       "distance": 3049.4257342022897
-    },
-    {
-      "id": "Tm2bzzZUir3GXElR64Mbdg",
-      "alias": "access-real-estate-services-bellingham",
-      "name": "Access Real Estate Services",
-      "image_url": "",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/access-real-estate-services-bellingham?adjust_creative=0suoap7R9YKNcgmgRfoqHg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0suoap7R9YKNcgmgRfoqHg",
-      "review_count": 20,
-      "categories": [
-        {
-          "alias": "propertymgmt",
-          "title": "Property Management"
-        }
-      ],
-      "rating": 2.5,
-      "coordinates": {
-        "latitude": 48.7539710998535,
-        "longitude": -122.501152038574
-      },
-      "transactions": [],
-      "location": {
-        "address1": "",
-        "address2": "",
-        "address3": "",
-        "city": "Bellingham",
-        "zip_code": "98225",
-        "country": "US",
-        "state": "WA",
-        "display_address": [
-          "Bellingham, WA 98225"
-        ]
-      },
-      "phone": "+13606850123",
-      "display_phone": "(360) 685-0123",
-      "distance": 923.2430793793474
     },
     {
       "id": "DuAFuJmHLXWDpnxM_N0qtw",

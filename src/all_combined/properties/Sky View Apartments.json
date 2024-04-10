@@ -1,0 +1,41 @@
+{
+  "name": "Sky View Apartments",
+  "address": "1800 Texas St, Bellingham, WA 98229",
+  "company_type": "property",
+  "review_count": 5,
+  "reviews": [
+    {
+      "author": "Teasa B",
+      "rating": 2.0,
+      "review": "Wasn't the best or safest place to live. My husband and I lived in a front apartment and had very few problems with our neighbors, none after the one got evicted. I had very kind and chatty neighbors and I actually miss them now that we've ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joseph",
+      "rating": 3.0,
+      "review": "No problems with management or maintenance, as all employees are very charming and genuine people. Complaints and maintenance are dealt with in good time. ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jenna Kennedy",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shattersphere",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jerry Franklin",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 2,
+  "avg_rating": 3.6,
+  "adjusted_avg_rating": 2.5
+}

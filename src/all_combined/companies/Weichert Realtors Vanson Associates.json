@@ -1,0 +1,67 @@
+{
+  "name": "Weichert Realtors Vanson Associates",
+  "address": "",
+  "company_type": "company",
+  "review_count": 6,
+  "reviews": [
+    {
+      "author": "Lesya Lyashenko",
+      "rating": 5.0,
+      "review": "Mariya Farmagey is truly the best agent ever. She helped me sell my house $25,000 above listing price. She goes above and beyond to ensure a pleasant and smooth transaction. I will recommend her to all my friends and family for their real estate transaction needs.",
+      "ownerResponse": [
+        {
+          "text": "Hi Lesya! Thank you so much for taking the time to leave such a positive review! We're thrilled to hear that you had a great experience with Mariya Farmagey. Your feedback means a lot to us, and it's truly gratifying to know that we were  More"
+        }
+      ]
+    },
+    {
+      "author": "Peter Nguyen",
+      "rating": 1.0,
+      "review": "Do not recommend. Horrible service trying to conduct business with Mariya Vitalyevna. Very rude and condescending Take your business elsewhere.",
+      "ownerResponse": [
+        {
+          "text": "Dear Peter, I sincerely apologize for the negative experience you had while trying to conduct business with us. I want to express my deepest regrets for any frustration or inconvenience you encountered. Please know that this does not align  More"
+        }
+      ]
+    },
+    {
+      "author": "Teresa Sanders",
+      "rating": 5.0,
+      "review": "If you are looking for a realtor that will go the extra mile Weichert is the best!! Ask for Michelle she's absolutely fantastic!!",
+      "ownerResponse": [
+        {
+          "text": "Thank you for your kind review and we agree, Michelle DeKoekkoek is a fantastic agent!"
+        }
+      ]
+    },
+    {
+      "author": "Rebecca Boonstra",
+      "rating": 5.0,
+      "review": "Great staff!",
+      "ownerResponse": [
+        {
+          "text": "Thank you!  We strive to always provide excellent customer care and appreciate your feedback."
+        }
+      ]
+    },
+    {
+      "author": "Kylee Klemann",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Todd Schaefer",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": [
+        {
+          "text": "Thank you for the positive rating!"
+        }
+      ]
+    }
+  ],
+  "adjusted_review_count": 4,
+  "avg_rating": 4.3,
+  "adjusted_avg_rating": 4.0
+}

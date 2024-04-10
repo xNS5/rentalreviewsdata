@@ -1,0 +1,59 @@
+{
+  "name": "Ridge Apartments",
+  "address": "516 32nd St, Bellingham, WA 98225",
+  "company_type": "property",
+  "review_count": 8,
+  "reviews": [
+    {
+      "author": "Daisy Diaz",
+      "rating": 5.0,
+      "review": "I have just about finished up my lease with The Ridge Bellingham and am sad to go. Many Bellingham renter companies are terrible and scam you for your money, but when renting with the private owner Lauren, I have had no issues. She replies ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brandon Chavez",
+      "rating": 5.0,
+      "review": "From last October, until a few weeks ago, I have had the pleasure of living at the Ridge. Although the common space is decidedly on the small side, the rooms are unusually spacious to make up for it: I comfortably fit my full-sized bed ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brian Kirk",
+      "rating": 5.0,
+      "review": "Hands down the best landlord Ive ever had, quick to respond, kind, and understanding. The building itself is perfect for students and families alike. My only problem with the place was that I couldnt live there another year.",
+      "ownerResponse": []
+    },
+    {
+      "author": "nicole brook",
+      "rating": 1.0,
+      "review": "Dont rent from the ridge apartments. Constant miscommunication form landlords and exploit tenants for money.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kendall Nedley",
+      "rating": 5.0,
+      "review": "Kind landlord, and a long walk or a short bus ride to campus. I have really enjoyed living here and just renewed my lease for another term!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Nate Cottnair",
+      "rating": 5.0,
+      "review": "Well appointed apartments with a kind and responsive landlord in a convenient location for WWU can be a rarity in Bellingham and I am so glad to have found this place",
+      "ownerResponse": []
+    },
+    {
+      "author": "Caroline Stenson",
+      "rating": 1.0,
+      "review": "extremely loud construction noise every day of the week. avoid living here unless you need to be close to campus and have no other options",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jason Aginsky",
+      "rating": 5.0,
+      "review": "Super close to campus and awesome apartments.",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 8,
+  "avg_rating": 4.0,
+  "adjusted_avg_rating": 4.0
+}

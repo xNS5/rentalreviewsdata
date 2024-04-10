@@ -1,0 +1,63 @@
+{
+  "name": "Cedar Grove Apartments",
+  "address": "1304 Telegraph Rd #1300, Bellingham, WA 98226",
+  "company_type": "property",
+  "review_count": 8,
+  "reviews": [
+    {
+      "author": "Simon P",
+      "rating": 5.0,
+      "review": "Excellent rental property. Manager is awesome and the apartments are well appointed. Very positive stay here.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Hayden Anderson",
+      "rating": 5.0,
+      "review": "Amazing management and very well maintained property. Nice appliances and building materials were used. A little drafty at times but nothing a heater can't fix. Love this place!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Stephanie Rasmussen",
+      "rating": 5.0,
+      "review": "Very friendly manager, beautiful and well-lit apartments, a fenced off-leash area for dogs, and  an indoor heated dog wash station! The two service requests I have had to put in were resolved within 24 hours, even with having to call out an electrician.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Julian McAllister",
+      "rating": 3.0,
+      "review": "Good but it could be better",
+      "ownerResponse": [
+        {
+          "text": "Hi Julian. Thank you for your review. Please let me know what I can do to make living here at Cedar Grove better for you. As you know, my door is always open for you and Sharon."
+        }
+      ]
+    },
+    {
+      "author": "DIEGO FERNANDO MAZUERA MAYOR",
+      "rating": 5.0,
+      "review": "Beautiful Apartments",
+      "ownerResponse": []
+    },
+    {
+      "author": "James Anderson",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Trinity Banks",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Bernita Madera",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 5,
+  "avg_rating": 4.5,
+  "adjusted_avg_rating": 4.6
+}

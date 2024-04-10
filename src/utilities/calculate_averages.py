@@ -10,7 +10,7 @@ def main(file):
     with open(file, "r") as inputFile:
         with tempfile.TemporaryDirectory() as tempDir:
             input_json = json.load(inputFile)
-            input_json["avg_rating"] = utilities.average_rating(input_json)
+            input_json["avg_rating"] = utilities.average_rating(input_json["reviews"])
             input_json["review_count"] = len(input_json["reviews"])
             input_json = utilities.calculate_adjusted_review_count(input_json)
             # print(json.dumps(input_json, indent=2))

@@ -1,0 +1,23 @@
+{
+  "name": "Follis Realty LLC",
+  "address": "1313 E Maple St Ste 108, Bellingham, WA 98225",
+  "company_type": "company",
+  "review_count": 2,
+  "reviews": [
+    {
+      "author": "John Hamilton",
+      "rating": 5.0,
+      "review": "Follis Reality is my property manager and they couldn't be any better!! 5+ stars.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joel Ryan",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ],
+  "adjusted_review_count": 1,
+  "avg_rating": 5.0,
+  "adjusted_avg_rating": 5.0
+}

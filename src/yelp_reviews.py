@@ -53,6 +53,8 @@ requestObj = [
 
 CLEANR = re.compile("<.*?>")
 
+company_set = set(["Property Management", "Real Estate Services", "University Housing", "Commercial Real Estate"])
+
 def clean(string):
     cleaned = html.unescape(re.sub(CLEANR, "", string))
     encoded = cleaned.encode("ascii", "ignore")
@@ -106,7 +108,7 @@ def getCompanyDetails(id):
     response = session.send(prepared_request)
     response_json = json.loads(response.content.decode())
     return {
-        "company_type": response_json["categories"][0]["title"],
+        "company_type": "company" if response_json["categories"][0]["title"] in company_set else "property",
         "address": " ".join(response_json["location"]["display_address"])
     }
 
@@ -143,7 +145,7 @@ def main(curr_type):
                     ret = getComments(res_json)
                     if len(ret["reviews"]) > 0:
                         filePath = "./output/%s/%s.json" % (
-                            curr_type,
+                            "companies" if details["company_type"] == "company" else "properties",
                             biz["name"].replace("/", ""),
                         )
                         with open(filePath, "w") as outFile:

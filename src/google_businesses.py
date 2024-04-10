@@ -19,7 +19,9 @@ import traceback
 
 NUMS = re.compile("[^0-9]")
 
-CLEANR = re.compile('<.*?>') 
+CLEANR = re.compile('<.*?>')
+
+company_set = set(["Property management company", "Real estate agency", "Real estate agent"])
 
 def clean(string):
     cleaned = html.unescape(re.sub(CLEANR, '', string))
@@ -76,7 +78,7 @@ def scrape_google_companies(search_param, url):
             company_title = check_if_exists(driver, By.XPATH,'//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[1]/h1').text
             if company_title not in nameSet:
                 nameSet.add(company_title)
-                company_type =  check_if_exists(driver, By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[2]')
+                company_type =  "company" if check_if_exists(driver, By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[2]') in company_set else "property"
                 location = check_if_exists(driver, By.XPATH,'//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[3]/button/div/div[2]/div[1]')
                 review_count =  check_if_exists(driver, By.XPATH,'//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[2]/span/span')
                 avg_review =  check_if_exists(driver, By.XPATH,'//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]')

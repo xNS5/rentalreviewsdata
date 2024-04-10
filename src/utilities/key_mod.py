@@ -74,5 +74,5 @@ if __name__ == "__main__":
     if len(args) == 3:
         key_swap(args[1], args[2], args[3])
     else:
-        # value_swap("company_type", is_company, "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/all_combined/companies/")
-        validate("company_type", "company", "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/all_combined/companies/")
+        value_swap("company_type", is_company, "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/all_combined/properties/")
+        validate("company_type", "property", "/Users/michaelkennedy/Git/osp/rentalreviewsdata/src/all_combined/properties/")

@@ -44,7 +44,7 @@ def createArticles(path, out):
                 ]
               )
               with open(f'{out}/{file_content["name"]}.json', 'w') as output_file:
-                  json.dump({**input_file, "summary": result.choices[0].message.content})
+                  json.dump({**input_file, "summary": result.choices[0].message.content}, output_file,  ensure_ascii=True, indent=2)
                   output_file.close()
           input_file.close()
 

@@ -92,7 +92,7 @@ def getComments(jsonObj):
         "review_count": business["reviewCount"],
         "adjusted_review_count": business["reviewCount"],
         "adjusted_review_average": float(business["rating"]),
-        "reviews": ret,
+        "yelp_reviews": ret,
     }
 
 def getCompanyDetails(id):

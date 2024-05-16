@@ -40,7 +40,7 @@ def main(base_path, curr_file, curr_type):
             curr_file_name = i["name"]
             try:
                 corresponding_file = file_dict["%s.json" % curr_file_name]
-                i["reviews"] = corresponding_file
+                i["google_reviews"] = corresponding_file
                 i = utilities.calculate_adjusted_review_count(i)
                 write(i, output_path +  curr_type + curr_file_name + ".json")
             except:

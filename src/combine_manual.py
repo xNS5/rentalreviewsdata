@@ -1,4 +1,4 @@
-# This is strictly for Yelp data
+# This is strictly for Yelp data, specifically because for some reason their GraphQL API errors out when requesting more than ~50 something reviews
 
 import json
 import os

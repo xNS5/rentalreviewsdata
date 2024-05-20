@@ -20,8 +20,8 @@ def get_yelp_whitelist():
     )
 
 
-def get_whitelist_types():
-    return {
+def get_whitelist_types(categories):
+    map = {
         "propertymgmt": "company",
         "apartments": "property",
         "condominiums": "property",
@@ -29,6 +29,11 @@ def get_whitelist_types():
         "realestatesvcs": "company",
         "university_housing": "property",
     }
+    for cat in categories:
+        if cat["alias"] in map:
+            return map[cat["alias"]]
+    
+    return None
 
 
 def listFiles(path):

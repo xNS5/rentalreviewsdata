@@ -22,7 +22,6 @@ my_headers = {
 def filter(jsonObj):
     ret = []
     whitelist = utilities.get_yelp_whitelist()
-    print(whitelist)
     for obj in jsonObj:
         if obj["location"]["country"] != "US":
             continue
@@ -36,10 +35,10 @@ def filter(jsonObj):
 
 def query(query_type_arr):
     ret = []
+    seen = set()
     for type in query_type_arr:
         session = Session()
         query_value = query_obj[type].replace(" ", "%20")
-        seen = set()
         i = 0
         while True:
             url = f"https://api.yelp.com/v3/businesses/search?location=Bellingham%2C%20WA&term={query_value}&sort_by=best_match&limit=20&offset={i}"
@@ -52,8 +51,9 @@ def query(query_type_arr):
                 break
             else:
                 for business in response_json["businesses"]:
-                    if business["alias"] in seen:
+                    if business["name"] in seen:
                         continue
+                    seen.add(business["name"])
                     ret.append(business)
     ret = filter(ret)
     with open(f"yelp_input/query_response.json", "w") as outFile:
@@ -69,7 +69,5 @@ if type == "all" or type.lower() == "companies":
     input_arr.append("companies")
 if type == "all" or type.lower() == "properties":
     input_arr.append("properties")
-else:
-    query([type.lower()])
 
 query(input_arr)

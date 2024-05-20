@@ -1,0 +1,19 @@
+{
+  "name": "Hoge & Davitte Realty Group",
+  "slug": "hoge-and-davitte-realty-group-seattle",
+  "avg_rating": 5.0,
+  "review_count": 1,
+  "adjusted_review_count": 1,
+  "adjusted_review_average": 5.0,
+  "yelp_reviews": [
+    {
+      "author": "Katie D.",
+      "rating": 5.0,
+      "date": "2023-08-06T14:17:39-07:00",
+      "review": "We loved working with Max & Greg  to purchase our home. They have great knowledge of waterfront and cabin properties which made our buying experience that much easier! Both are responsive and resourceful, and always seemed to be one step ahead of the questions we had for them throughout the process. I would highly recommend Hoge & Davitte Realty to my friends and family and we will definitely work with them in the future!",
+      "ownerResponse": []
+    }
+  ],
+  "company_type": "company",
+  "address": "Seattle, WA 98103"
+}

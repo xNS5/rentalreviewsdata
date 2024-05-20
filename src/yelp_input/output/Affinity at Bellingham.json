@@ -1,0 +1,26 @@
+{
+  "name": "Affinity at Bellingham",
+  "slug": "affinity-at-bellingham-bellingham",
+  "avg_rating": 3.0,
+  "review_count": 2,
+  "adjusted_review_count": 2,
+  "adjusted_review_average": 3.0,
+  "yelp_reviews": [
+    {
+      "author": "Marianne B.",
+      "rating": 5.0,
+      "date": "2023-06-14T13:03:21-07:00",
+      "review": "Beautiful center for 55 plus. All amenities plus utilities paid. Very impressive as well as very friendly staff",
+      "ownerResponse": []
+    },
+    {
+      "author": "K F.",
+      "rating": 1.0,
+      "date": "2019-06-15T07:26:46-07:00",
+      "review": "Bed bugs were found crawling from a wall in my 90-year-old parent's apartment. Called management and their response was blame my parents   One week after infestation was found, a terminator is coming. So for one week these people who don't leave their home are living in a bed bug ridden apartment. Neighbors were NOT notified. Bed bugs can multiply from a few to 13,000 in six months. It was a sickening sight and then Affinity's response was appalling!",
+      "ownerResponse": []
+    }
+  ],
+  "company_type": "property",
+  "address": "3930 Affinity Ln Bellingham, WA 98226"
+}

@@ -1,12 +1,14 @@
 import http.client as http_client
 import json
-from requests import Request, Session
+from dotenv import dotenv_values
+import pyinputplus as pyinput
 import logging
 import html
 import re
-from os.path import exists
 import random
 import time
+import utilities
+from requests import Request, Session
 
 http_client.HTTPConnection.debuglevel = 0
 
@@ -31,23 +33,29 @@ requestObj = [
             "reviewsPerPage": None,
             "selectedReviewEncId": "",
             "hasSelectedReview": False,
-            "sortBy": "DATE_DESC",
-            "ratings": [5, 4, 3, 2, 1],
+            "sortBy": "RELEVANCE_DESC",
+            "ratings": [
+                5,
+                4,
+                3,
+                2,
+                1
+            ],
+            "queryText": "",
             "isSearching": False,
             "after": None,
             "isTranslating": False,
             "translateLanguageCode": "en",
             "reactionsSourceFlow": "businessPageReviewSection",
-            "guv": "DAAFCD0158DCB3F2",
             "minConfidenceLevel": "HIGH_CONFIDENCE",
             "highlightType": "",
             "highlightIdentifier": "",
-            "isHighlighting": False,
+            "isHighlighting": False
         },
         "extensions": {
             "operationType": "query",
-            "documentId": "ef51f33d1b0eccc958dddbf6cde15739c48b34637a00ebe316441031d4bf7681",
-        },
+            "documentId": "ef51f33d1b0eccc958dddbf6cde15739c48b34637a00ebe316441031d4bf7681"
+        }
     }
 ]
 
@@ -74,12 +82,12 @@ def getComments(jsonObj):
             rating = data["rating"]
             ownerResponse = []
             if data["bizUserPublicReply"] != None:
-                ownerResponse.append(
+                 ownerResponse.append(
                     {
                         "text": clean(data["bizUserPublicReply"]["text"]),
                         "date": clean(
                             data["bizUserPublicReply"]["createdAt"][
-                                "localDateTimeForBusiness"
+                                "localDateTime"
                             ]
                         ),
                     }
@@ -88,13 +96,14 @@ def getComments(jsonObj):
                 {
                     "author": author,
                     "rating": float(rating),
-                    "date": data["createdAt"]["localDateTimeForBusiness"],
+                    "date": clean(data["createdAt"]["localDateTime"]),
                     "review": clean(text),
                     "ownerResponse": ownerResponse,
                 }
             )
     return {
         "name": business["name"],
+        "slug": business["alias"],
         "avg_rating": float(business["rating"]),
         "review_count": business["reviewCount"],
         "adjusted_review_count": business["reviewCount"],
@@ -103,25 +112,10 @@ def getComments(jsonObj):
     }
 
 
-def getCompanyDetails(id):
-    session = Session()
-    url = "https://api.yelp.com/v3/businesses/%s" % id
-    header = {"Authorization": ""}
-    req = Request("GET", url, headers=header)
-    prepared_request = req.prepare()
-    response = session.send(prepared_request)
-    response_json = json.loads(response.content.decode())
-    return {
-        "company_type": (
-            "company"
-            if response_json["categories"][0]["title"] in company_set
-            else "property"
-        ),
-        "address": " ".join(response_json["location"]["display_address"]),
-    }
+config = {**dotenv_values("yelp.env")}
 
 
-def main(curr_type):
+def query():
     # You must initialize logging, otherwise you'll not see debug output.
     logging.basicConfig()
     logging.getLogger().setLevel(logging.DEBUG)
@@ -129,7 +123,7 @@ def main(curr_type):
     requests_log.setLevel(logging.DEBUG)
     requests_log.propagate = False
 
-    with open("./%s.json" % curr_type, "r") as inputFile:
+    with open("./yelp_input/query_response.json", "r") as inputFile:
         data = json.load(inputFile)
         session = Session()
         url = "https://www.yelp.com/gql/batch"
@@ -137,7 +131,7 @@ def main(curr_type):
             "POST",
             url,
         )
-        for biz in data["businesses"]:
+        for biz in data:
             if biz["review_count"] < 55:
                 user_agent = user_agent_list[
                     random.randint(0, len(user_agent_list) - 1)
@@ -151,17 +145,15 @@ def main(curr_type):
                 response = session.send(prepared_request)
                 if response.status_code == 200:
                     res_json = json.loads(response.content.decode())
-                    details = getCompanyDetails(biz["id"])
+                    details = {
+                        "company_type": utilities.get_whitelist_types(
+                            biz["categories"]
+                        ),
+                        "address": " ".join(biz["location"]["display_address"]),
+                    }
                     ret = getComments(res_json)
-                    if len(ret["reviews"]) > 0:
-                        filePath = "./output/%s/%s.json" % (
-                            (
-                                "companies"
-                                if details["company_type"] == "company"
-                                else "properties"
-                            ),
-                            biz["name"].replace("/", ""),
-                        )
+                    if len(ret["yelp_reviews"]) > 0:
+                        filePath = "./yelp_input/output/%s.json" % (biz["name"].replace("/", ""),)
                         with open(filePath, "w") as outFile:
                             json.dump(
                                 {**ret, **details}, outFile, ensure_ascii=True, indent=2
@@ -178,5 +170,4 @@ def main(curr_type):
             time.sleep(3 + random.randint(1, 3))
 
 
-main("companies")
-main("properties")
+query()

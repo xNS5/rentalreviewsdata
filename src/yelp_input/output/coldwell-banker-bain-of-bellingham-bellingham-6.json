@@ -1,0 +1,40 @@
+{
+  "name": "Coldwell Banker Bain of Bellingham",
+  "slug": "coldwell-banker-bain-of-bellingham-bellingham-6",
+  "avg_rating": 4.2,
+  "review_count": 5,
+  "yelp_reviews": [
+    {
+      "author": "Lori Jo S.",
+      "rating": 5.0,
+      "review": "Professional and educated these brokers are top notch. Their managing broker strives for high integrity, knowledgeable brokers who take their clients needs and concerns seriously.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kayla D.",
+      "rating": 5.0,
+      "review": "Trish is a pleasure to work with! Her prompt answers to all our questions were very helpful as this was our first time selling. She is very knowledgeable, reliable, and responsive. Trish kept us informed through the whole process & made the it smooth, stress-free and easy for us. Our whole experience was wonderful! Thanks, Trish!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Cindy W.",
+      "rating": 5.0,
+      "review": "The only reason I was able to navigate - and survive - the process of buying a house in Bellingham and selling a house in Seattle (in that order) was having Anne Cantrell at my side. Her experience, coaching and advice helped me find the perfect house, on the market only three days, with 11 offers, all over asking price; the seller commented that I had the best agent. She also helped me, in a softening Seattle market, to price and show my house such that I received an offer within one week. Superlatives are insufficient to describe my gratitude and appreciation for Anne's expertise.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Sunny L.",
+      "rating": 5.0,
+      "review": "The agents at CB Bain are true professionals with the support of the entire CB Bain/Seal team from the Canadian border down to Portland.  They have cutting edge tools and education - their depth of knowledge is second to none.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Carlton P.",
+      "rating": 1.0,
+      "review": "Do not venture into this place if you are from outside the area. They are conspiritors with Whatcom Land & Title in charging excessive fees, and misrepresenting properties they list.",
+      "ownerResponse": []
+    }
+  ],
+  "company_type": "company",
+  "address": "3610 Meridian St Bellingham, WA 98225"
+}

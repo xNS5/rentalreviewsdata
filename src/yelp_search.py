@@ -2,57 +2,74 @@
 # Shouldn't require payment/payment method
 
 import json
-import re
 import pyinputplus as pyinput
 from dotenv import dotenv_values
-from os.path import exists
 from requests import Request, Session, get
 import http.client as http_client
+import utilities
 
 config = {**dotenv_values("yelp.env")}
 
 query_obj = {
-    "companies": "property%20management%20companies",
-    "properties": "apartment%20complexes",
+    "companies": "property management companies",
+    "properties": "apartment complexes",
 }
 
 my_headers = {
     "Authorization": f'Bearer {config["YELP_FUSION_KEY"]}',
 }
 
-
-def query(query_type):
-    session = Session()
-    query_value = query_obj[query_type]
+def filter(jsonObj):
     ret = []
-    seen = set()
-    i = 0
-    while True:
-        url = f"https://api.yelp.com/v3/businesses/search?location=Bellingham%2C%20WA&term={query_value}&sort_by=best_match&limit=20&offset={i}"
-        i += 10
-        req = Request("GET", url, headers=my_headers)
-        prepared_request = req.prepare()
-        response = session.send(prepared_request)
-        print(response.status_code)
-        response_json = json.loads(response.text)
-        if len(response_json["businesses"]) == 0:
-            break
-        else:
-            for business in response_json['businesses']:
-                if business['alias'] in seen:
-                    continue
-                ret.append(business)
+    whitelist = utilities.get_yelp_whitelist()
+    print(whitelist)
+    for obj in jsonObj:
+        if obj["location"]["country"] != "US":
+            continue
+        for category in obj["categories"]:
+            if category["alias"] in whitelist:
+                print(obj["name"])
+                ret.append(obj)
+                break
+    return ret
 
-    with open(f'yelp_input/{query_type}.json', "w") as outFile:
-        json.dump({"businesses": ret}, outFile,  ensure_ascii=True, indent=2)
+
+def query(query_type_arr):
+    ret = []
+    for type in query_type_arr:
+        session = Session()
+        query_value = query_obj[type].replace(" ", "%20")
+        seen = set()
+        i = 0
+        while True:
+            url = f"https://api.yelp.com/v3/businesses/search?location=Bellingham%2C%20WA&term={query_value}&sort_by=best_match&limit=20&offset={i}"
+            i += 10
+            req = Request("GET", url, headers=my_headers)
+            prepared_request = req.prepare()
+            response = session.send(prepared_request)
+            response_json = json.loads(response.text)
+            if len(response_json["businesses"]) == 0:
+                break
+            else:
+                for business in response_json["businesses"]:
+                    if business["alias"] in seen:
+                        continue
+                    ret.append(business)
+    ret = filter(ret)
+    with open(f"yelp_input/query_response.json", "w") as outFile:
+        json.dump(ret, outFile, ensure_ascii=True, indent=2)
         outFile.close()
 
 
-type = pyinput.inputMenu(
-    ["Companies", "Properties", "All"], lettered=True, numbered=False
-).lower()
-if type == "all":
-    query("companies")
-    query("properties")
+type = pyinput.inputMenu(["Companies", "Properties", "All"], lettered=True, numbered=False).lower()
+
+input_arr = []
+
+if type == "all" or type.lower() == "companies":
+    input_arr.append("companies")
+if type == "all" or type.lower() == "properties":
+    input_arr.append("properties")
 else:
-    query(type.lower())
+    query([type.lower()])
+
+query(input_arr)

@@ -6,6 +6,31 @@ from thefuzz import process
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
+
+def get_yelp_whitelist():
+    return set(
+        [
+            "propertymgmt",
+            "apartments",
+            "condominiums",
+            "realestateagents",
+            "realestatesvcs",
+            "university_housing",
+        ]
+    )
+
+
+def get_whitelist_types():
+    return {
+        "propertymgmt": "company",
+        "apartments": "property",
+        "condominiums": "property",
+        "realestateagents": "company",
+        "realestatesvcs": "company",
+        "university_housing": "property",
+    }
+
+
 def listFiles(path):
     ret = []
     print(path)
@@ -19,8 +44,10 @@ def listFiles(path):
 def getFileTuple(path):
     return os.path.split(path)
 
+
 def getFileName(path):
     return getFileTuple(path)[1]
+
 
 def calculate_adjusted_review_count(data):
     adjusted_count = 0
@@ -33,6 +60,7 @@ def calculate_adjusted_review_count(data):
     data["adjusted_review_average"] = round(adjusted_rating / adjusted_count, 1)
     return data
 
+
 def average_rating(data):
     num_reviews = len(data)
     rolling_sum_average = 0
@@ -40,11 +68,13 @@ def average_rating(data):
         rolling_sum_average += review["rating"]
     return round(rolling_sum_average / num_reviews, 1)
 
+
 def search(data, key, value):
     for d in data:
         if d[key] != None and d[key] == value:
             return d
     return None
+
 
 def search_fuzzy(value, data):
     try:
@@ -54,7 +84,7 @@ def search_fuzzy(value, data):
         return None
     except:
         return None
-    
+
 
 def merge_dir(inputPath, summaryPath):
     input_list = listFiles(inputPath)
@@ -64,11 +94,16 @@ def merge_dir(inputPath, summaryPath):
             with open(file, "r") as inputFile:
                 input_file_json = json.load(inputFile)
                 summary_file_path = summaryPath + file_name
-                with open(summary_file_path , "r") as summaryFile:
+                with open(summary_file_path, "r") as summaryFile:
                     summary_json = json.load(summaryFile)
                     temp_file_path = tempDir + "/" + file_name
                     with open(temp_file_path, "w") as outputFile:
-                        json.dump({**input_file_json, "summary" : summary_json["summary"]}, outputFile, ensure_ascii=True, indent=2)
+                        json.dump(
+                            {**input_file_json, "summary": summary_json["summary"]},
+                            outputFile,
+                            ensure_ascii=True,
+                            indent=2,
+                        )
                         outputFile.close()
                     summaryFile.close()
                 inputFile.close()
@@ -77,6 +112,7 @@ def merge_dir(inputPath, summaryPath):
             tmp_file_name = getFileName(tmp_file)[1]
             shutil.copy(tmp_file, summaryPath + tmp_file_name)
         shutil.rmtree(tempDir)
+
 
 def merge_file(inputPath, summaryPath):
     with tempfile.TemporaryDirectory() as tempDir:
@@ -87,7 +123,12 @@ def merge_file(inputPath, summaryPath):
                 summary_json = json.load(summaryFile)
                 with open("%s" % tempDir + "/" + file_name, "w") as outputFile:
                     print(summary_json)
-                    json.dump({**input_file_json, "summary" : summary_json["summary"]}, outputFile, ensure_ascii=True, indent=2)
+                    json.dump(
+                        {**input_file_json, "summary": summary_json["summary"]},
+                        outputFile,
+                        ensure_ascii=True,
+                        indent=2,
+                    )
                     outputFile.close()
                 summaryFile.close()
             inputFile.close()

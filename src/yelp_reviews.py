@@ -53,7 +53,6 @@ requestObj = [
 
 CLEANR = re.compile("<.*?>")
 
-company_set = set(["Property Management", "Real Estate Services", "University Housing", "Commercial Real Estate"])
 
 def clean(string):
     cleaned = html.unescape(re.sub(CLEANR, "", string))
@@ -76,12 +75,20 @@ def getComments(jsonObj):
             ownerResponse = []
             if data["bizUserPublicReply"] != None:
                 ownerResponse.append(
-                    {"text": clean(data["bizUserPublicReply"]["text"])}
+                    {
+                        "text": clean(data["bizUserPublicReply"]["text"]),
+                        "date": clean(
+                            data["bizUserPublicReply"]["createdAt"][
+                                "localDateTimeForBusiness"
+                            ]
+                        ),
+                    }
                 )
             ret.append(
                 {
                     "author": author,
                     "rating": float(rating),
+                    "date": data["createdAt"]["localDateTimeForBusiness"],
                     "review": clean(text),
                     "ownerResponse": ownerResponse,
                 }
@@ -95,21 +102,22 @@ def getComments(jsonObj):
         "yelp_reviews": ret,
     }
 
+
 def getCompanyDetails(id):
     session = Session()
-    url = 'https://api.yelp.com/v3/businesses/%s' % id
+    url = "https://api.yelp.com/v3/businesses/%s" % id
     header = {"Authorization": ""}
-    req = Request(
-        "GET",
-        url,
-        headers=header
-    )
+    req = Request("GET", url, headers=header)
     prepared_request = req.prepare()
     response = session.send(prepared_request)
     response_json = json.loads(response.content.decode())
     return {
-        "company_type": "company" if response_json["categories"][0]["title"] in company_set else "property",
-        "address": " ".join(response_json["location"]["display_address"])
+        "company_type": (
+            "company"
+            if response_json["categories"][0]["title"] in company_set
+            else "property"
+        ),
+        "address": " ".join(response_json["location"]["display_address"]),
     }
 
 
@@ -131,7 +139,9 @@ def main(curr_type):
         )
         for biz in data["businesses"]:
             if biz["review_count"] < 55:
-                user_agent = user_agent_list[random.randint(0, len(user_agent_list) - 1)]
+                user_agent = user_agent_list[
+                    random.randint(0, len(user_agent_list) - 1)
+                ]
                 print(biz["name"])
                 requestObj[0]["variables"]["encBizId"] = biz["id"]
                 requestObj[0]["variables"]["reviewsPerPage"] = biz["review_count"]
@@ -145,11 +155,17 @@ def main(curr_type):
                     ret = getComments(res_json)
                     if len(ret["reviews"]) > 0:
                         filePath = "./output/%s/%s.json" % (
-                            "companies" if details["company_type"] == "company" else "properties",
+                            (
+                                "companies"
+                                if details["company_type"] == "company"
+                                else "properties"
+                            ),
                             biz["name"].replace("/", ""),
                         )
                         with open(filePath, "w") as outFile:
-                            json.dump({**ret, **details}, outFile, ensure_ascii=True, indent=2)
+                            json.dump(
+                                {**ret, **details}, outFile, ensure_ascii=True, indent=2
+                            )
                             outFile.close()
                     else:
                         print("%s review count below threshold" % biz["name"])
@@ -160,6 +176,7 @@ def main(curr_type):
                 print("Skipping ", biz["name"])
 
             time.sleep(3 + random.randint(1, 3))
+
 
 main("companies")
 main("properties")

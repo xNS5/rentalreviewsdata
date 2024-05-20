@@ -1,0 +1,16 @@
+{
+  "name": "Arbour North",
+  "slug": "arbour-north",
+  "address": "3619 Byron Ave, Bellingham, WA 98225",
+  "company_type": "property",
+  "review_count": 1,
+  "avg_rating": 5.0,
+  "google_reviews": [
+    {
+      "author": "Fernando Gonzalez",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ]
+}

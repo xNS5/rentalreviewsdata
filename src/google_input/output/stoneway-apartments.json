@@ -1,0 +1,16 @@
+{
+  "name": "Stoneway Apartments",
+  "slug": "stoneway-apartments",
+  "address": "245 32nd St, Bellingham, WA 98225",
+  "company_type": "property",
+  "review_count": 1,
+  "avg_rating": 1.0,
+  "google_reviews": [
+    {
+      "author": "Jimmer Shine",
+      "rating": 1.0,
+      "review": "Great location and somewhat safe building. However, no package companies deliver here. It's a secured building with no mail room. Be aware.\nManagement and owners seem to be somewhat concerned about keeping the place comfortable, but turned out to be untrustworthy on multiple occasions. Would steer clear if possible.",
+      "ownerResponse": []
+    }
+  ]
+}

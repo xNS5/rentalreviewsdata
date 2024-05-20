@@ -22,9 +22,9 @@ def main(curr_input, other_input, curr_type):
     curr_file_list = google_file_list if other_prefix == "yelp" else yelp_file_list
     other_file_list = yelp_file_list if other_prefix == "yelp" else google_file_list
 
+
+    # Current plan is to do away with the fuzzy search, and essentially create a map in the event there are kind-of duplicates
     file_list = {str(x): utilities.search_fuzzy(x, curr_file_list) for x in other_file_list}
-    print(file_list)
-    return
 
     for file in file_list:
         # No match

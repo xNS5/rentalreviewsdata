@@ -1,0 +1,226 @@
+{
+  "name": "Birnam Wood Apartments",
+  "slug": "birnam-wood-apartments",
+  "address": "2901 Bill McDonald Pkwy, Bellingham, WA 98225",
+  "company_type": "property",
+  "review_count": 36,
+  "avg_rating": 3.8,
+  "google_reviews": [
+    {
+      "author": "Unknown User",
+      "rating": 1.0,
+      "review": "Hot water is not existant. Put in a maintenance request, they came a month later  ",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shilo (Mae)",
+      "rating": 3.0,
+      "review": "Lots of things needed maintainence when we moved in. Balcony is lovely, stains on the carpet not so much... it's very old and some of the walls were dirty in our room. Lights flickers when you turn them on as well. It's not horrible but it's not amazing either.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Andy nguyen",
+      "rating": 3.0,
+      "review": "Had mice come in my dorm in stack 3, however the schools exterminator quickly solved this problem. Other dorms seem to be more run down with old carpet and loose kitchen cabinets. Not to bad for first apartment style housing though.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Crystal Schmalz",
+      "rating": 4.0,
+      "review": "This is campus housing for WWU. It is all 2bdrm apartments, that are set up to housing 4 students (2 per room). It works out to being about $350 a month & you don't need a meal plan!! It has a full dinningroom & kitchen with a gas stove, double sink with gatbage disposal. A large living room, storage closet & food pantry. There is free on-site laundry as well!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Elizabeth",
+      "rating": 4.0,
+      "review": "These apartments are great when it comes to the price but currently there is limited parking due to construction. If you're looking for an affordable option as a student at Western Washington University I suggest it.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shara Rhoads",
+      "rating": 3.0,
+      "review": "For campus housing, they're okay. It takes several requests before maintenance addresses a problem. My daughter's heat was stuck on high; turning it down or even off did not help. Once they did attempt to fix it, now that temperatures outside are getting colder, the heat won't turn on.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Quentin Jensen",
+      "rating": 4.0,
+      "review": "best dorm, cheaper and is an actual apartment. facilities aren't mind blowing, but functional and well maintained. lots of community events",
+      "ownerResponse": []
+    },
+    {
+      "author": "Conrad Norris",
+      "rating": 3.0,
+      "review": "Its cheaply built, but its got a bit a charm and is priced competitively with other places in Bellingham and its close to campus",
+      "ownerResponse": []
+    },
+    {
+      "author": "Debra Haraldson",
+      "rating": 5.0,
+      "review": "It's for college students.  They do however need to give our younger generation a break in costs for everything while they are students.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Carl Graber",
+      "rating": 5.0,
+      "review": "Great",
+      "ownerResponse": []
+    },
+    {
+      "author": "Austin Voecks",
+      "rating": 5.0,
+      "review": "A nice, cost effective option if you want to stay close to campus",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jack Montgomery",
+      "rating": 3.0,
+      "review": "Acceptable but dated living space. It's what you make it!",
+      "ownerResponse": []
+    },
+    {
+      "author": "Kianna Keck",
+      "rating": 1.0,
+      "review": "I never lived here so I wouldn't know.",
+      "ownerResponse": []
+    },
+    {
+      "author": "M. W.",
+      "rating": 1.0,
+      "review": "You get what you give: cheap, but that's about it",
+      "ownerResponse": []
+    },
+    {
+      "author": "Eric Isaacs",
+      "rating": 2.0,
+      "review": "Not in great repair.",
+      "ownerResponse": []
+    },
+    {
+      "author": "American Classic",
+      "rating": 5.0,
+      "review": "Decent condos.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Athalie Millard",
+      "rating": 5.0,
+      "review": "Pretty place",
+      "ownerResponse": []
+    },
+    {
+      "author": "William Walker",
+      "rating": 5.0,
+      "review": "WWU Student housing",
+      "ownerResponse": []
+    },
+    {
+      "author": "Mr. Serrano",
+      "rating": 5.0,
+      "review": "Nice Apartments",
+      "ownerResponse": []
+    },
+    {
+      "author": "naseem",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Garrett Claeys",
+      "rating": 2.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Lily Gray",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Darcy Lindenmuth",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joe Chriest",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Oliver Winter",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Julie B",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Brittany Evans",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Pieter De Vryer",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "katie Kirchhofer",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Dwi Priyono",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "David Yang",
+      "rating": 3.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Corryn Johnson",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Luia Menchhofer",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Will Mckinley",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Toma Moran",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ]
+}

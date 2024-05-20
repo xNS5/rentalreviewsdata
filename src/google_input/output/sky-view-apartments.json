@@ -1,0 +1,40 @@
+{
+  "name": "Sky View Apartments",
+  "slug": "sky-view-apartments",
+  "address": "1800 Texas St, Bellingham, WA 98229",
+  "company_type": "property",
+  "review_count": 5,
+  "avg_rating": 3.6,
+  "google_reviews": [
+    {
+      "author": "Teasa B",
+      "rating": 2.0,
+      "review": "Wasn't the best or safest place to live. My husband and I lived in a front apartment and had very few problems with our neighbors, none after the one got evicted. I had very kind and chatty neighbors and I actually miss them now that we've moved. My suggestion is to take pictures of everything and stay in top of complaints. Our apartment started growing mold despite our efforts and money put into trying to clean and kill it. We complained and asked for help to get rid of the mold. When nothing happened and it continued to grow we found out I was pregnant and we decided to move out to somewhere safer.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joseph",
+      "rating": 3.0,
+      "review": "No problems with management or maintenance, as all employees are very charming and genuine people. Complaints and maintenance are dealt with in good time.\n\nOur issue is the residents. Over the time my boyfriend and I have been here, we've been called homophobic slurs late at night by drunk tenants, walked in on multiple times in our own livingroom by somebody wanting to buy drugs, witnessed domestic violence bi-monthly, stalked, harassed, almost robbed, and noises and screaming don't even phase us anymore it's so common.\n\nThe appliances are old and dirty, but it's a cheap place so we can't ask for the world. They allow pets which is nice, but the old tenant's fleas stuck around, which our cat didn't appreciate much... being a cat. Always strange people lurking about. Most likely someone selling something in a unit.\n\nI wouldn't recommend moving here unless you're desperate for a roof over your head as we were. It's cheap, warm, and flexible. No laundry, but good places nearby. Bus stops close-by every 15 minutes as well. If you do move here, just stick to yourself. The residents aren't worth getting involved with.\n----------------------\nUPDATE 2/7/19:\nMoved out a bit ago to Bellevue for school. Since this review was written, the neighborhood cleaned up, and I believe they installed a laundry room to be shared by tenants. Rent also increased as per the usual gentrification of Washington continues.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Shattersphere",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jenna Kennedy",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Jerry Franklin",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ]
+}

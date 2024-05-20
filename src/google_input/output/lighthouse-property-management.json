@@ -1,0 +1,16 @@
+{
+  "name": "Lighthouse Property Management",
+  "slug": "lighthouse-property-management",
+  "address": "63 Lake Samish Rd, Bellingham, WA 98229",
+  "company_type": "company",
+  "review_count": 1,
+  "avg_rating": 5.0,
+  "google_reviews": [
+    {
+      "author": "Kirsten Bruce",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Andrea Ridge",
+  "slug": "andrea-ridge",
+  "address": "939 20th St, Bellingham, WA 98225",
+  "company_type": "property",
+  "review_count": 3,
+  "avg_rating": 3.7,
+  "google_reviews": [
+    {
+      "author": "Danny Ngo",
+      "rating": 2.0,
+      "review": "Awful parking. Units look nice but are very cheaply made. Heat does not contain in the unit during cold winters. Walk ways on stairs usually pools resulting in ice and slippery conditions. Only 2 washers and dryers for tenants that they charge for.",
+      "ownerResponse": []
+    },
+    {
+      "author": "Joshua",
+      "rating": 4.0,
+      "review": "",
+      "ownerResponse": []
+    },
+    {
+      "author": "Rachel Rothberg",
+      "rating": 5.0,
+      "review": "",
+      "ownerResponse": []
+    }
+  ]
+}

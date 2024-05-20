@@ -2,6 +2,7 @@ import os, sys
 import json
 import tempfile
 import shutil
+import re
 from thefuzz import process
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
@@ -53,7 +54,7 @@ def get_whitelist_types(categories):
         "Furnished apartment building": "property",
         "Housing complex": "property"
     }
-    if isinstance(categories, dict):
+    if isinstance(categories, list):
         for cat in categories:
             if cat["alias"] in map:
                 return map[cat["alias"]]
@@ -63,7 +64,8 @@ def get_whitelist_types(categories):
         
     return None
     
-
+def get_slug(string):
+    return re.sub(r'\s{2,}', ' ', re.sub(r'[^a-zA-Z0-9\s]', '', string.lower())).replace(" ", "-")
 
 def listFiles(path):
     ret = []

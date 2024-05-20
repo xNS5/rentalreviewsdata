@@ -145,7 +145,7 @@ def query():
                     }
                     ret = getComments(res_json)
                     if len(ret["yelp_reviews"]) > 0:
-                        filePath = "./yelp_input/output/%s.json" % (biz["name"].replace("/", ""),)
+                        filePath = "./yelp_input/output/%s.json" % (biz["alias"].replace("/", ""),)
                         with open(filePath, "w") as outFile:
                             json.dump(
                                 {**ret, **details}, outFile, ensure_ascii=True, indent=2

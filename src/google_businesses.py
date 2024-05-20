@@ -34,6 +34,15 @@ def clean(string):
     decoded = encoded.decode()
     return decoded
 
+def validate():
+    path = "./google_input/output"
+    files = utilities.listFiles(path)
+    for file in files:
+        with open(file, "r") as inputFile:
+            file_json = json.load(inputFile)
+            for key in ["name", "slug", "company_type", "google_reviews"]:
+                assert file_json[key] is not None and len(file_json[key]) > 0, f"{file_json['name']}: {key} zero length"
+
 
 def scroll(driver, obj):
     scrollTop = driver.execute_script("return arguments[0].scrollTop", obj)
@@ -63,13 +72,20 @@ def get_reviews(driver):
             '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]',
         ).click()
         # Reviews Scrollable
+        time.sleep(3)
         scrollable = check_if_exists(
             driver,
             By.XPATH,
             '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[3]',
         )
-
+        
         scroll(driver, scrollable)
+        
+        # If the review has a "See More" button, click it
+        more_buttons = scrollable.find_elements(By.CSS_SELECTOR, '.w8nwRe.kyuRq')
+
+        for button in more_buttons:
+            button.click()
 
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
@@ -106,7 +122,7 @@ def get_reviews(driver):
         return []
 
 
-def scrape_google_companies(search_param, url):
+def scrape_google_companies(search_param, url, element_selector):
     chrome_options = Options()
     service = ChromeService(ChromeDriverManager().install())
     driver = webdriver.Chrome(options=chrome_options, service=service)
@@ -133,9 +149,7 @@ def scrape_google_companies(search_param, url):
     )
 
     # Gets all elements that represent a business
-    companyElements = scrollable.find_elements(By.CSS_SELECTOR, '.Nv2PK.tH5CWc.THOPZb')
-
-    print(len(companyElements))
+    companyElements = scrollable.find_elements(By.CSS_SELECTOR, element_selector)
 
     nameSet = set()
 
@@ -147,8 +161,9 @@ def scrape_google_companies(search_param, url):
                 driver,
                 By.XPATH,
                 '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[1]/h1',
-            ).text
-            if company_title not in nameSet:
+            )
+            if company_title is not None and company_title.text not in nameSet:
+                company_title = company_title.text
                 nameSet.add(company_title)
                 company_type = check_if_exists(
                     driver,
@@ -172,40 +187,41 @@ def scrape_google_companies(search_param, url):
                     '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]',
                 )
 
+                # Can't find company type
                 if company_type == None:
                     continue
                 else:
                     company_type = utilities.get_whitelist_types(company_type.text)
 
+                # If the address is visible
                 if location != None:
                     if "WA" in location.text or "Washington" in location.text:
                         location = location.text
                     else:
                         continue
+                
+                # If there are no reviews, skip
+                if review_count is None:
+                    continue
+                
+                # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
+                slug = utilities.get_slug(company_title)
 
-                with open("./google_input/output/%s.json" % company_title, "w") as outputFile:
+                with open("./google_input/output/%s.json" % slug, "w") as outputFile:
                     json.dump(
                         {
                             "name": company_title,
-                            "slug": company_title.lower().replace(" ", "-"),
+                            "slug": slug,
                             "address": location or "",
                             "company_type": company_type,
-                            "review_count": (
-                                0
-                                if review_count is None
-                                else int(re.sub(NUMS, "", review_count.text))
-                            ),
-                            "avg_review": (
-                                "None" if not avg_review else float(avg_review.text)
-                            ),
-                            "google_reviews": (
-                                get_reviews(driver) if review_count != None else []
-                            ),
+                            "review_count": int(re.sub(NUMS, "", review_count.text)),
+                            "avg_rating": float(avg_review.text),
+                            "google_reviews": get_reviews(driver),
                         }, outputFile, ensure_ascii=True, indent=2
                     )
                     outputFile.close()
             else:
-                print("%s already seen -- skipping" % company_title)
+                print("%s already seen -- skipping" % company_title.text)
         except Exception:
             traceback.print_exc()
     driver.quit()
@@ -214,12 +230,4 @@ def scrape_google_companies(search_param, url):
 with open("./google_input/config.json", "r") as configFile:
     config = json.load(configFile)
     for conf in config[0]:
-        scrape_google_companies(conf["query"], conf["url"])
-        # if os.path.isfile(conf["outputfile"]):
-        #     with open(conf["outputfile"], "r") as existing:
-        #         data = json.load(existing)
-        #         ret.extend(data)
-        #         existing.close()
-        # with open(conf["outputfile"], "w") as outputFile:
-        #     json.dump(ret, outputFile, ensure_ascii=True, indent=2)
-        #     outputFile.close()
+        scrape_google_companies(conf["query"], conf["url"], conf["css_selector"])

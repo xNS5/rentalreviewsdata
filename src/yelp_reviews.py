@@ -85,18 +85,12 @@ def getComments(jsonObj):
                  ownerResponse.append(
                     {
                         "text": clean(data["bizUserPublicReply"]["text"]),
-                        "date": clean(
-                            data["bizUserPublicReply"]["createdAt"][
-                                "localDateTime"
-                            ]
-                        ),
                     }
                 )
             ret.append(
                 {
                     "author": author,
                     "rating": float(rating),
-                    "date": clean(data["createdAt"]["localDateTime"]),
                     "review": clean(text),
                     "ownerResponse": ownerResponse,
                 }
@@ -106,8 +100,6 @@ def getComments(jsonObj):
         "slug": business["alias"],
         "avg_rating": float(business["rating"]),
         "review_count": business["reviewCount"],
-        "adjusted_review_count": business["reviewCount"],
-        "adjusted_review_average": float(business["rating"]),
         "yelp_reviews": ret,
     }
 

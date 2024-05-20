@@ -19,6 +19,20 @@ def get_yelp_whitelist():
         ]
     )
 
+def get_google_whitelist():
+    return set([
+        "Property management company",
+        "Commercial real estate agency",
+        "Real estate rental agency",
+        "Real estate agency",
+        "Short term apartment rental agency",
+        "Apartment building",
+        "Apartment complex",
+        "Apartment rental agency",
+        "Furnished apartment building",
+        "Housing complex",
+    ])
+
 
 def get_whitelist_types(categories):
     map = {
@@ -28,12 +42,27 @@ def get_whitelist_types(categories):
         "realestateagents": "company",
         "realestatesvcs": "company",
         "university_housing": "property",
+        "Property management company": "company",
+        "Commercial real estate agency": "company",
+        "Real estate rental agency": "company",
+        "Real estate agency": "company",
+        "Short term apartment rental agency": "company",
+        "Apartment building": "property",
+        "Apartment complex": "property",
+        "Apartment rental agency": "property",
+        "Furnished apartment building": "property",
+        "Housing complex": "property"
     }
-    for cat in categories:
-        if cat["alias"] in map:
-            return map[cat["alias"]]
-    
+    if isinstance(categories, dict):
+        for cat in categories:
+            if cat["alias"] in map:
+                return map[cat["alias"]]
+    else:
+        if categories in map:
+            return map[categories]
+        
     return None
+    
 
 
 def listFiles(path):

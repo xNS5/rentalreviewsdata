@@ -3,12 +3,12 @@
         {
             "query": "property management companies in whatcom county", 
             "url": "https://www.google.com/maps/@48.799556,-122.544531,11.67z?entry=ttu",
-            "outputfile": "./google_input/companies.json"
+            "outputfile": "./google_input/query_response.json"
         },
         {
-            "query": "property management companies in whatcom county", 
+            "query": "apartment complexes in whatcom county", 
             "url": "https://www.google.com/maps/@48.799556,-122.544531,11.67z?entry=ttu", 
-            "outputfile": "./google_input/properties.json"
+            "outputfile": "./google_input/query_response.json"
         }
     ], 
     [

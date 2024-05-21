@@ -176,8 +176,8 @@ def search_businesses(query_type_arr):
         query_value = query_obj[type].replace(" ", "%20")
         i = 0
         while True:
-            url = f"https://api.yelp.com/v3/businesses/search?location=Bellingham%2C%20WA&term={query_value}&sort_by=best_match&limit=20&offset={i}"
-            i += 10
+            url = f"https://api.yelp.com/v3/businesses/search?latitude=48.7519&longitude=-122.4787&term={query_value}&sort_by=best_match&limit=50&offset={i}"
+            i += 50
             response = make_request(Request("GET", url, headers=my_headers), session)
             if response.ok:
                 response_json = json.loads(response.text)

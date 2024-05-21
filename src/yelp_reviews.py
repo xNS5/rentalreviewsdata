@@ -154,7 +154,7 @@ def query(data):
 
                 business.reviews = ret
 
-                filePath = "./yelp/%s.json" % business.slug
+                filePath = "./yelp_input/output/%s.json" % business.slug
 
                 with open(filePath, "w") as outFile:
                     json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)

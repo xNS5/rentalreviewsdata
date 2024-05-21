@@ -8,9 +8,12 @@ import re
 import random
 import time
 import utilities
+from utilities import Review, Business
 from requests import Request, Session
 
 http_client.HTTPConnection.debuglevel = 0
+
+config = {**dotenv_values("yelp.env")}
 
 user_agent_list = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36",
@@ -25,6 +28,7 @@ user_agent_list = [
     "Mozilla/5.0 (iPad; CPU OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1",
 ]
 
+# Might need to copy the request headers from an existing request prior to initiating
 requestObj = [
     {
         "operationName": "GetBusinessReviewFeed",
@@ -34,13 +38,7 @@ requestObj = [
             "selectedReviewEncId": "",
             "hasSelectedReview": False,
             "sortBy": "RELEVANCE_DESC",
-            "ratings": [
-                5,
-                4,
-                3,
-                2,
-                1
-            ],
+            "ratings": [5, 4, 3, 2, 1],
             "queryText": "",
             "isSearching": False,
             "after": None,
@@ -50,17 +48,47 @@ requestObj = [
             "minConfidenceLevel": "HIGH_CONFIDENCE",
             "highlightType": "",
             "highlightIdentifier": "",
-            "isHighlighting": False
+            "isHighlighting": False,
         },
         "extensions": {
             "operationType": "query",
-            "documentId": "ef51f33d1b0eccc958dddbf6cde15739c48b34637a00ebe316441031d4bf7681"
-        }
+            "documentId": "ef51f33d1b0eccc958dddbf6cde15739c48b34637a00ebe316441031d4bf7681",
+        },
     }
 ]
 
+query_obj = {
+    "companies": "property management companies",
+    "properties": "apartment complexes",
+}
+
+my_headers = {
+    "Authorization": f'Bearer {config["YELP_FUSION_KEY"]}',
+}
+
 CLEANR = re.compile("<.*?>")
 
+def filter(jsonObj):
+    ret = []
+    whitelist = utilities.get_yelp_whitelist()
+    for obj in jsonObj:
+        if obj["location"]["country"] != "US":
+            continue
+        for category in obj["categories"]:
+            if category["alias"] in whitelist:
+                ret.append(
+                    Business(
+                        obj["id"],
+                        obj["name"],
+                        obj["rating"],
+                        utilities.get_whitelist_types(obj["categories"]),
+                        " ".join(obj["location"]["display_address"]),
+                        obj["review_count"],
+                        "yelp_reviews"
+                    )
+                )
+                break
+    return ret
 
 def clean(string):
     cleaned = html.unescape(re.sub(CLEANR, "", string))
@@ -68,6 +96,15 @@ def clean(string):
     decoded = encoded.decode()
     return decoded
 
+def make_request(request, session, request_obj = None, user_agent = None):
+    if request_obj:
+        request.json = request_obj
+    if user_agent:
+        request.user_agent = user_agent
+
+    prepared_request = request.prepare()
+    response = session.send(prepared_request)
+    return response
 
 def getComments(jsonObj):
     ret = []
@@ -80,34 +117,15 @@ def getComments(jsonObj):
             text = clean(data["text"]["full"])
             author = data["author"]["displayName"]
             rating = data["rating"]
-            ownerResponse = []
+            ownerResponse = ""
             if data["bizUserPublicReply"] != None:
-                 ownerResponse.append(
-                    {
-                        "text": clean(data["bizUserPublicReply"]["text"]),
-                    }
-                )
-            ret.append(
-                {
-                    "author": author,
-                    "rating": float(rating),
-                    "review": clean(text),
-                    "ownerResponse": ownerResponse,
-                }
-            )
-    return {
-        "name": business["name"],
-        "slug": business["alias"],
-        "avg_rating": float(business["rating"]),
-        "review_count": business["reviewCount"],
-        "yelp_reviews": ret,
-    }
+                ownerResponse = data["bizUserPublicReply"]["text"]
+            ret.append(Review(author, rating, text, ownerResponse))
 
+    # Returns array of Review objects
+    return ret
 
-config = {**dotenv_values("yelp.env")}
-
-
-def query():
+def query(data):
     # You must initialize logging, otherwise you'll not see debug output.
     logging.basicConfig()
     logging.getLogger().setLevel(logging.DEBUG)
@@ -115,51 +133,77 @@ def query():
     requests_log.setLevel(logging.DEBUG)
     requests_log.propagate = False
 
-    with open("./yelp_input/query_response.json", "r") as inputFile:
-        data = json.load(inputFile)
-        session = Session()
-        url = "https://www.yelp.com/gql/batch"
-        req = Request(
-            "POST",
-            url,
-        )
-        for biz in data:
-            if biz["review_count"] < 55:
-                user_agent = user_agent_list[
-                    random.randint(0, len(user_agent_list) - 1)
-                ]
-                print(biz["name"])
-                requestObj[0]["variables"]["encBizId"] = biz["id"]
-                requestObj[0]["variables"]["reviewsPerPage"] = biz["review_count"]
-                req.json = requestObj
-                req.user_agent = user_agent
-                prepared_request = req.prepare()
-                response = session.send(prepared_request)
-                if response.status_code == 200:
-                    res_json = json.loads(response.content.decode())
-                    details = {
-                        "company_type": utilities.get_whitelist_types(
-                            biz["categories"]
-                        ),
-                        "address": " ".join(biz["location"]["display_address"]),
-                    }
-                    ret = getComments(res_json)
-                    if len(ret["yelp_reviews"]) > 0:
-                        filePath = "./yelp_input/output/%s.json" % (biz["alias"].replace("/", ""),)
-                        with open(filePath, "w") as outFile:
-                            json.dump(
-                                {**ret, **details}, outFile, ensure_ascii=True, indent=2
-                            )
-                            outFile.close()
-                    else:
-                        print("%s review count below threshold" % biz["name"])
-                else:
-                    print("ERROR: ", response.status_code)
-                    break
+    session = Session()
+    url = "https://www.yelp.com/gql/batch"
+
+    for business in data:
+        if business.review_count <= 53:
+            user_agent = user_agent_list[random.randint(0, len(user_agent_list) - 1)]
+
+            print(business.name)
+
+            requestObj[0]["variables"]["encBizId"] = business.id
+            requestObj[0]["variables"]["reviewsPerPage"] = business.review_count
+
+            response = make_request(Request("POST", url), session, requestObj, user_agent)
+
+            if response.ok:
+
+                res_json = json.loads(response.content.decode())
+                ret = getComments(res_json)
+
+                business.reviews = ret
+
+                filePath = "./yelp/%s.json" % business.slug
+
+                with open(filePath, "w") as outFile:
+                    json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)
+                    outFile.close()
             else:
-                print("Skipping ", biz["name"])
+                print("ERROR: ", response.status_code)
+                break
+        else:
+            print("Skipping ", business.name)
 
-            time.sleep(3 + random.randint(1, 3))
+        time.sleep(3 + random.randint(1, 3))
 
+def search_businesses(query_type_arr):
+    ret = []
+    seen = set()
+    session = Session()
 
-query()
+    for type in query_type_arr:
+        query_value = query_obj[type].replace(" ", "%20")
+        i = 0
+        while True:
+            url = f"https://api.yelp.com/v3/businesses/search?location=Bellingham%2C%20WA&term={query_value}&sort_by=best_match&limit=20&offset={i}"
+            i += 10
+            response = make_request(Request("GET", url, headers=my_headers), session)
+            if response.ok:
+                response_json = json.loads(response.text)
+                if len(response_json["businesses"]) == 0:
+                    break
+                else:
+                    for business in response_json["businesses"]:
+                        if business["name"] in seen:
+                            continue
+                        seen.add(business["name"])
+                        ret.append(business)
+    
+    # Returns array of Business objects
+    return filter(ret)
+
+type = pyinput.inputMenu(
+    ["Companies", "Properties", "All"], lettered=True, numbered=False
+).lower()
+
+input_arr = []
+
+if type == "all" or type.lower() == "companies":
+    input_arr.append("companies")
+if type == "all" or type.lower() == "properties":
+    input_arr.append("properties")
+
+ret = search_businesses(input_arr)
+
+query(ret)

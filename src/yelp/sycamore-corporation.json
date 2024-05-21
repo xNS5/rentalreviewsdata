@@ -1,0 +1,16 @@
+{
+  "name": "Sycamore Corporation",
+  "slug": "sycamore-corporation",
+  "company_type": "company",
+  "address": "1200 Harris Ave Ste 413 Bellingham, WA 98225",
+  "review_count": 1,
+  "avg_rating": 5.0,
+  "yelp_reviews": [
+    {
+      "author": "Monica R.",
+      "rating": 5,
+      "review": "Sycamore Square\n\nThe famous beautiful brick building on the corner of 12th and Harris in Fairhaven was built in 1890 and still charms tourists and visitors alike. Make sure to reserve a whole afternoon to spend at this unique indoor shopping community. \n\nStroll through Sycamore Square and find a wide variety of shops, restaurants, spa services, with 12th Street Shoes, Mambo and The Black Cat being among the most famous. What a  unique building to dine, browse and shop in Bellingham. Many professional offices round out this beautiful space. Big plus with plenty of parking (which is tough to find sometimes in Fairhaven) Sycamore Square owns the  parking lot on the corner of 13th and Harris.",
+      "ownerResponse": null
+    }
+  ]
+}

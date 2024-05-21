@@ -218,7 +218,7 @@ def merge_file(inputPath, summaryPath):
                     outputFile.close()
                 summaryFile.close()
             inputFile.close()
-        tmp_files = listFiles(tempDir)
+        tmp_files = list_files(tempDir)
         for file in tmp_files:
             shutil.move(file, summaryPath)
         shutil.rmtree(tempDir)

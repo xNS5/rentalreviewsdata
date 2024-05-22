@@ -16,9 +16,8 @@ import re
 import html
 import json
 import traceback
-import os.path
-
 import utilities
+from utilities import Review, Business
 
 
 NUMS = re.compile("[^0-9]")
@@ -98,24 +97,15 @@ def get_reviews(driver):
             owner_response_element = review_element.find(
                 "div", class_=re.compile("CDe7pd")
             )
-            owner_response_msg = []
-            if owner_response_element:
-                owner_response_text = owner_response_element.find(
-                    "div", class_=re.compile("wiI7pd")
-                ).text
-                owner_response_msg.append({"text": clean(owner_response_text)})
 
-            review_rating = review_element.find("span", class_=re.compile("kvMYJc"))[
-                "aria-label"
-            ].split(" ")[0]
-            reviews.append(
-                {
-                    "author": clean(author),
-                    "rating": float(review_rating),
-                    "review": "" if not review_text else clean(review_text.text),
-                    "ownerResponse": owner_response_msg,
-                }
-            )
+            owner_response_msg = None
+
+            if owner_response_element is not None:
+                owner_response_msg = owner_response_element.find("div", class_=re.compile("wiI7pd")).text
+
+            review_rating = review_element.find("span", class_=re.compile("kvMYJc"))["aria-label"].split(" ")[0]
+
+            reviews.append(Review(author, review_rating, review_text, owner_response_msg))
 
         return reviews
     except Exception:
@@ -181,7 +171,7 @@ def scrape_google_companies(search_param, url, element_selector):
                     By.XPATH,
                     '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[2]/span/span',
                 )
-                avg_review = check_if_exists(
+                avg_rating = check_if_exists(
                     driver,
                     By.XPATH,
                     '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]',
@@ -206,19 +196,12 @@ def scrape_google_companies(search_param, url, element_selector):
                 
                 # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
                 slug = utilities.get_slug(company_title)
+                
+                curr_business = Business(company_title, avg_rating, company_type, location, review_count, "google_reviews")
+                curr_business.reviews = get_reviews(driver)
 
                 with open("./google_input/output/%s.json" % slug, "w") as outputFile:
-                    json.dump(
-                        {
-                            "name": company_title,
-                            "slug": slug,
-                            "address": location or "",
-                            "company_type": company_type,
-                            "review_count": int(re.sub(NUMS, "", review_count.text)),
-                            "avg_rating": float(avg_review.text),
-                            "google_reviews": get_reviews(driver),
-                        }, outputFile, ensure_ascii=True, indent=2
-                    )
+                    json.dump()
                     outputFile.close()
             else:
                 print("%s already seen -- skipping" % company_title.text)

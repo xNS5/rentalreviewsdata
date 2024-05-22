@@ -8,7 +8,6 @@ from thefuzz import process
 
 # sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
-
 def get_yelp_whitelist():
     return set(
         [
@@ -133,26 +132,6 @@ def getFileTuple(path):
 
 def getFileName(path):
     return getFileTuple(path)[1]
-
-
-def calculate_adjusted_review_count(data):
-    adjusted_count = 0
-    adjusted_rating = 0.0
-    for review in data["reviews"]:
-        if len(review["review"]) > 0:
-            adjusted_count += 1
-            adjusted_rating += review["rating"]
-    data["adjusted_review_count"] = adjusted_count
-    data["adjusted_review_average"] = round(adjusted_rating / adjusted_count, 1)
-    return data
-
-
-def average_rating(data):
-    num_reviews = len(data)
-    rolling_sum_average = 0
-    for review in data:
-        rolling_sum_average += review["rating"]
-    return round(rolling_sum_average / num_reviews, 1)
 
 
 def search(data, key, value):

@@ -9,35 +9,46 @@ output_path = "./reviews/"
 google_path = "./google_input/output/"
 yelp_path = "./yelp_input/output/"
 
-def main():
+def merge(file1, file2, prefix):
+    with open(file1, "r") as inputFile1, open(file2, "r") as inputFile2:
+        obj1 = json.load(inputFile1)
+        obj2 = json.load(inputFile2)
+        obj1[f"{prefix}_reviews"] = obj2[f"{prefix}_reviews"]
+        inputFile1.close()
+        inputFile2.close()
+        return obj1
 
-    def filter(input_path, alt_path):
-        input_list = utilities.list_files(input_path)
-        alt_list = utilities.list_files(alt_path)
-        input_prefix = "google" if "google" in input_path else "yelp"
-        alt_prefix = "yelp" if "yelp" in alt_path else "google"
-        company_map = utilities.company_map(input_prefix)
-        ret = []
-        seen = set()
-        for file in input_list:
-            # Check if company name is in map. If it's present, Copy over the data from v -> key file object, write to output.
-            #  Create function to avoid duplicating code 
-            # Else go to copy input file over
-            if not os.path.isfile(f"{alt_list}{file}"):
-                utilities.copy_file(f"{input_path}{file}", f"{output_path}{file}")
+def write(obj, path):
+    with open(path, "w") as outputFile:
+        json.dump(obj, outputFile, indent=2, ensure_ascii=True)
+        outputFile.close()
+
+def filter(input_path, alt_path):
+    input_list = utilities.list_files(input_path)
+    alt_list = utilities.list_files(alt_path)
+    input_prefix = "google" if "google" in input_path else "yelp"
+    alt_prefix = "yelp" if "yelp" in alt_path else "google"
+    
+    company_map = utilities.company_map(input_prefix)
+
+    for file in input_list:
+        # If file has a counterpart that's slightly different
+        file_without_extension = file[:-5]
+        if file_without_extension in company_map:
+            # If the file already exists in the output dir
+            if os.path.isfile(f"{output_path}{company_map[file_without_extension]}.json") or os.path.isfile(f"{output_path}{file}"):
+                continue
             else:
-                ret.append(file)
-        return ret
+                # Merge the files
+                file_json = merge(f"{input_path}{file}", f"{alt_path}{company_map[file_without_extension]}.json", alt_prefix)
+                write(file_json, f"{output_path}{file}")
+                
+        elif not os.path.isfile(f"{alt_list}{file}"):
+            utilities.copy_file(f"{input_path}{file}", f"{output_path}{file}")
+        else:
+            file_json = merge(f"{input_path}{file}", f"{alt_path}{file}", alt_prefix)
+            write(file_json, f"{output_path}{file}")
+    
 
-    yelp_ret = filter(yelp_path, google_path)
-    google_ret = filter(google_path, yelp_path)
-
-    print("YELP")
-    for ret in yelp_ret:
-        print(ret)
-    print("GOOGLE")
-    for ret in google_ret:
-        print(ret)
-
-
-main()
+filter(google_path, yelp_path)
+filter(yelp_path, google_path)

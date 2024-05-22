@@ -76,9 +76,8 @@ class Business:
         company_type,
         address,
         review_count,
-        review_key,
         id = None,
-        reviews=None,
+        reviews= None,
     ):
         self._id = id
         self._name = name
@@ -87,8 +86,7 @@ class Business:
         self._company_type = company_type
         self._address = address
         self._review_count = review_count
-        self._review_key = review_key
-        self._reviews = [review.to_dict() for review in reviews] if reviews is not None else []
+        self._reviews = reviews
 
     # Getters
     @property
@@ -127,7 +125,6 @@ class Business:
     def reviews(self):
         return self._reviews
 
-    # Setters
     @id.setter
     def id(self, id):
         self._id = id
@@ -162,27 +159,10 @@ class Business:
 
     @reviews.setter
     def reviews(self, reviews):
-        self._reviews = reviews
-    
-    def calculate_adjusted_review_count(data, prefix_list):
-        adjusted_count = 0
-        adjusted_rating = 0.0
-        for prefix in prefix_list:
-            for review in data[f"{prefix}_reviews"]:
-                if len(review["review"]) > 0:
-                    adjusted_count += 1
-                    adjusted_rating += review["rating"]
-            data["adjusted_review_count"] = adjusted_count
-            data["adjusted_review_average"] = round(adjusted_rating / adjusted_count, 1)
-        return data
-
-    def average_rating(data):
-        num_reviews = len(data)
-        rolling_sum_average = 0
-        for review in data:
-            rolling_sum_average += review["rating"]
-        return round(rolling_sum_average / num_reviews, 1)
-
+        if self._reviews == None:
+            self._reviews = reviews
+        else:
+            self._reviews = {**self._reviews, **reviews}
 
     # Convert to dictionary
     def to_dict(self):
@@ -193,7 +173,7 @@ class Business:
             "address": self.address,
             "review_count": self.review_count,
             "avg_rating": self.avg_rating,
-            self.review_key: self.reviews
+            "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()}
         }
 
     # Convert reviews to array of dictionaries

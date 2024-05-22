@@ -5,12 +5,14 @@
   "address": "690 32nd St Bellingham, WA 98225",
   "review_count": 1,
   "avg_rating": 4.0,
-  "yelp_reviews": [
-    {
-      "author": "Suzanne P.",
-      "rating": 4,
-      "review": "Chris went on the attack with me in the first place  calling my original review fake, then telling me I have my head in the sand. I asked about 10 people what they thought about these issues and some have been here for four to five years. Yes management can be prickly at times but the grounds are well taken care of, some owners don't pick up after their dogs as much as they should which is not cool, but overall considering there are 200 units my place is quiet I have respectful neighbors. Chris's rents are just over the top... Any complex will have it's issues and there are many areas in our town getting hit with crime, even in the best neighborhoods. The property management does need to step up more to protect the complex and keep in better touch with residents. My friend and I created Facebook page so we all can inform each other about anything going on which is at least proactive instead of just ranting.",
-      "ownerResponse": null
-    }
-  ]
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Suzanne P.",
+        "rating": 4,
+        "review": "Chris went on the attack with me in the first place  calling my original review fake, then telling me I have my head in the sand. I asked about 10 people what they thought about these issues and some have been here for four to five years. Yes management can be prickly at times but the grounds are well taken care of, some owners don't pick up after their dogs as much as they should which is not cool, but overall considering there are 200 units my place is quiet I have respectful neighbors. Chris's rents are just over the top... Any complex will have it's issues and there are many areas in our town getting hit with crime, even in the best neighborhoods. The property management does need to step up more to protect the complex and keep in better touch with residents. My friend and I created Facebook page so we all can inform each other about anything going on which is at least proactive instead of just ranting.",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

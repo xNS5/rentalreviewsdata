@@ -78,13 +78,12 @@ def filter(jsonObj):
             if category["alias"] in whitelist:
                 ret.append(
                     Business(
-                        obj["id"],
                         obj["name"],
                         obj["rating"],
                         utilities.get_whitelist_types(obj["categories"]),
                         " ".join(obj["location"]["display_address"]),
                         obj["review_count"],
-                        "yelp_reviews"
+                        obj["id"],
                     )
                 )
                 break
@@ -152,7 +151,7 @@ def query(data):
                 res_json = json.loads(response.content.decode())
                 ret = getComments(res_json)
 
-                business.reviews = ret
+                business.reviews = {"yelp_reviews": ret}
 
                 filePath = "./yelp_input/output/%s.json" % business.slug
 

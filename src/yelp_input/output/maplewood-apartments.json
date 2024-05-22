@@ -5,18 +5,20 @@
   "address": "2849 W Maplewood Ave Apt C2 Bellingham, WA 98225",
   "review_count": 2,
   "avg_rating": 1.0,
-  "yelp_reviews": [
-    {
-      "author": "Jordan M.",
-      "rating": 1,
-      "review": "I lived in this dump unfortunately for a year due to time constraints I had to take it because it was the only thing available at the time, these people never came around to do maintenance, they literally never did anything to the building or the grounds and the place looks like a complete crack shack! \n\nWe Moved into the unit at the end of spring so it was quite warm and would have been nice to open the windows but unfortunately these morons didn't even have a screen in our window from the first day we moved in and is soon as we put in a maintenance request nothing happened and we literally did not get a screen at all, I moved out of the unit and there was still not a screen in that window! After a year!!! \n\nAlso don't give me started on all the cockroaches that we're crawling around inside the building that were coming out of the big hole that was hidden behind the fridge! They also never addressed that!\n\nThey also stole my entire deposit because they claimed they had to clean out the unit and replace screen window and blinds that were never there in the first place ( we couldn't even open our windows) these people are thieves and scumbags do yourself a favor and stay in a motel for a couple weeks until something else pops up!",
-      "ownerResponse": null
-    },
-    {
-      "author": "Kayla G.",
-      "rating": 1,
-      "review": "Cheap apartments but you get what you pay for. Management not on site. They give no cares about any problems that arise(which many will that are most likely not your doing) and in fact they will  most likely turn it around to make it about you and how it's your fault and your responsibility. The neighbors alone will make you cringe. Noise at all hours, definitely drugs dealers who have people going in and out. Parking lot is beyond small for all that live there, good luck trying to even fit a regular sized car in those parking spots when it's full. Good luck not getting your car smashed or scratched because others that live there do not understand how to back out or enter such small spaces. Management does a horrible job at communicating all together to new tenants, so if you work late and the only spot you pay for has been taken by someone else. There's nothing you can do. Overflow is always full and street parking as well. So you're looking at illegally parking at the Free masons lodge across the street or miles away from your apartment. Enjoy the cold! It isn't until you ask management to get on the apartment towing list to be able to actually call the tow company and get a car towed out of your spot, not on your dime, when such things happen. But after that happens the first time, good luck not getting your car keyed. There are many who try to warn others about Apex, heed their warning, unlike me who didn't.",
-      "ownerResponse": null
-    }
-  ]
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Jordan M.",
+        "rating": 1,
+        "review": "I lived in this dump unfortunately for a year due to time constraints I had to take it because it was the only thing available at the time, these people never came around to do maintenance, they literally never did anything to the building or the grounds and the place looks like a complete crack shack! \n\nWe Moved into the unit at the end of spring so it was quite warm and would have been nice to open the windows but unfortunately these morons didn't even have a screen in our window from the first day we moved in and is soon as we put in a maintenance request nothing happened and we literally did not get a screen at all, I moved out of the unit and there was still not a screen in that window! After a year!!! \n\nAlso don't give me started on all the cockroaches that we're crawling around inside the building that were coming out of the big hole that was hidden behind the fridge! They also never addressed that!\n\nThey also stole my entire deposit because they claimed they had to clean out the unit and replace screen window and blinds that were never there in the first place ( we couldn't even open our windows) these people are thieves and scumbags do yourself a favor and stay in a motel for a couple weeks until something else pops up!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kayla G.",
+        "rating": 1,
+        "review": "Cheap apartments but you get what you pay for. Management not on site. They give no cares about any problems that arise(which many will that are most likely not your doing) and in fact they will  most likely turn it around to make it about you and how it's your fault and your responsibility. The neighbors alone will make you cringe. Noise at all hours, definitely drugs dealers who have people going in and out. Parking lot is beyond small for all that live there, good luck trying to even fit a regular sized car in those parking spots when it's full. Good luck not getting your car smashed or scratched because others that live there do not understand how to back out or enter such small spaces. Management does a horrible job at communicating all together to new tenants, so if you work late and the only spot you pay for has been taken by someone else. There's nothing you can do. Overflow is always full and street parking as well. So you're looking at illegally parking at the Free masons lodge across the street or miles away from your apartment. Enjoy the cold! It isn't until you ask management to get on the apartment towing list to be able to actually call the tow company and get a car towed out of your spot, not on your dime, when such things happen. But after that happens the first time, good luck not getting your car keyed. There are many who try to warn others about Apex, heed their warning, unlike me who didn't.",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

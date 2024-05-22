@@ -198,7 +198,7 @@ def scrape_google_companies(search_param, url, element_selector):
                 slug = utilities.get_slug(company_title)
                 
                 curr_business = Business(company_title, avg_rating, company_type, location, review_count, "google_reviews")
-                curr_business.reviews = get_reviews(driver)
+                curr_business.reviews = {"google_reviews": get_reviews(driver)}
 
                 with open("./google_input/output/%s.json" % slug, "w") as outputFile:
                     json.dump()

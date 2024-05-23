@@ -192,17 +192,50 @@ def search_businesses(query_type_arr):
     # Returns array of Business objects
     return filter(ret)
 
+
+def search_list(list):
+    ret = []
+    seen = set()
+    session = Session()
+
+    for id in list:
+        url = f"https://api.yelp.com/v3/businesses/{id}"
+        response = make_request(Request("GET", url, headers=my_headers), session)
+        if response.ok:
+            response_json = json.loads(response.text)
+            if len(response_json["businesses"]) == 0:
+                break
+            else:
+                for business in response_json["businesses"]:
+                    if business["name"] in seen:
+                        continue
+                    seen.add(business["name"])
+                    ret.append(business)
+    
+    # Returns array of Business objects
+    return filter(ret)
+
+
+
 type = pyinput.inputMenu(
-    ["Companies", "Properties", "All"], lettered=True, numbered=False
+    ["Companies", "Properties", "One-Off List", "All"], lettered=True, numbered=False
 ).lower()
 
 input_arr = []
+ret = []
 
-if type == "all" or type.lower() == "companies":
-    input_arr.append("companies")
-if type == "all" or type.lower() == "properties":
-    input_arr.append("properties")
+if type != "one-off list":
+    if type == "all" or type.lower() == "companies":
+        input_arr.append("companies")
+    if type == "all" or type.lower() == "properties":
+        input_arr.append("properties")
 
-ret = search_businesses(input_arr)
+    ret = search_businesses(input_arr)
+else:
+    #  Must be space-seprated list
+    input_list = pyinput.inputStr("Business IDs: ", blank=False)
+    input_list = input_list.replace(r'\s+', r'\s').split(" ")
+    ret = search_list(input_list)
+
 
 query(ret)

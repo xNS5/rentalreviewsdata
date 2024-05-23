@@ -19,19 +19,7 @@ import traceback
 import utilities
 from utilities import Review, Business
 
-
-NUMS = re.compile("[^0-9]")
-
-CLEANR = re.compile("<.*?>")
-
 whitelist = utilities.get_google_whitelist()
-
-
-def clean(string):
-    cleaned = html.unescape(re.sub(CLEANR, "", string))
-    encoded = cleaned.encode("ascii", "ignore")
-    decoded = encoded.decode()
-    return decoded
 
 def validate():
     path = "./google_input/output"

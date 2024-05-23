@@ -13,7 +13,7 @@ def merge(file1, file2, prefix):
     with open(file1, "r") as inputFile1, open(file2, "r") as inputFile2:
         obj1 = json.load(inputFile1)
         obj2 = json.load(inputFile2)
-        obj1[f"{prefix}_reviews"] = obj2[f"{prefix}_reviews"]
+        obj1["reviews"] = {**obj1["reviews"], **obj2[f"reviews"]}
         inputFile1.close()
         inputFile2.close()
         return obj1
@@ -40,6 +40,7 @@ def filter(input_path, alt_path):
                 continue
             else:
                 # Merge the files
+                print(file)
                 file_json = merge(f"{input_path}{file}", f"{alt_path}{company_map[file_without_extension]}.json", alt_prefix)
                 write(file_json, f"{output_path}{file}")
                 

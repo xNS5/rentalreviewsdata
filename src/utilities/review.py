@@ -5,7 +5,7 @@ import utilities
 
 
 CLEANR = re.compile("<.*?>")
-NUMS = re.compile("[^0-9]")
+NUMS = re.compile("[^0-9.]")
 
 
 def clean(string):
@@ -59,11 +59,11 @@ class Review:
     # Convert to dictionary
     def to_dict(self):
         return {
-            "author": self.author,
-            "rating": self.rating,
-            "review": self.review,
+            "author": clean(self.author),
+            "rating": float(re.sub(NUMS, "", self.rating)),
+            "review": clean(self.review),
             "ownerResponse": (
-                {"text": self.ownerResponse} if self.ownerResponse is not None else None
+                {"text": clean(self.ownerResponse)} if self.ownerResponse is not None else None
             ),
         }
 
@@ -171,8 +171,8 @@ class Business:
             "slug": self.slug,
             "company_type": self.company_type,
             "address": self.address,
-            "review_count": self.review_count,
-            "avg_rating": self.avg_rating,
+            "review_count": int(re.sub(NUMS, "", self.review_count)),
+            "avg_rating": float(re.sub(NUMS,"", self.avg_rating)),
             "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()}
         }
 

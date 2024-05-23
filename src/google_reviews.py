@@ -94,21 +94,21 @@ def get_reviews(driver):
         for review_element in review_elements:
             review_text = review_element.find("span", class_=re.compile("wiI7pd"))
             author = review_element.find("div", class_=re.compile("d4r55")).text
-            owner_response_element = review_element.find(
-                "div", class_=re.compile("CDe7pd")
-            )
+            owner_response_element = review_element.find("div", class_=re.compile("CDe7pd"))
 
             owner_response_msg = None
-
             if owner_response_element is not None:
                 owner_response_msg = owner_response_element.find("div", class_=re.compile("wiI7pd")).text
 
             review_rating = review_element.find("span", class_=re.compile("kvMYJc"))["aria-label"].split(" ")[0]
 
+            review_text = review_text.text if review_text else ""
+
             reviews.append(Review(author, review_rating, review_text, owner_response_msg))
 
         return reviews
-    except Exception:
+    except Exception as e:
+        traceback.print_exc()
         return []
 
 
@@ -147,14 +147,18 @@ def scrape_google_companies(search_param, url, element_selector):
         try:
             element.click()
             time.sleep(4)
+
             company_title = check_if_exists(
                 driver,
                 By.XPATH,
                 '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[1]/h1',
             )
+
             if company_title is not None and company_title.text not in nameSet:
                 company_title = company_title.text
+                print(company_title)
                 nameSet.add(company_title)
+
                 company_type = check_if_exists(
                     driver,
                     By.XPATH,
@@ -176,32 +180,27 @@ def scrape_google_companies(search_param, url, element_selector):
                     By.XPATH,
                     '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]',
                 )
-
-                # Can't find company type
+                
                 if company_type == None:
                     continue
-                else:
-                    company_type = utilities.get_whitelist_types(company_type.text)
-
-                # If the address is visible
-                if location != None:
-                    if "WA" in location.text or "Washington" in location.text:
-                        location = location.text
-                    else:
-                        continue
+                 
+                if location == None or ("WA" not in location.text and "Washington" not in location.text):
+                    continue
                 
-                # If there are no reviews, skip
                 if review_count is None:
                     continue
                 
+                
+                location = location.text
+                company_type = utilities.get_whitelist_types(company_type.text)
+                avg_rating = avg_rating.text
+                review_count = review_count.text
+                
                 # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
                 slug = utilities.get_slug(company_title)
-                
-                curr_business = Business(company_title, avg_rating, company_type, location, review_count, "google_reviews")
-                curr_business.reviews = {"google_reviews": get_reviews(driver)}
 
                 with open("./google_input/output/%s.json" % slug, "w") as outputFile:
-                    json.dump()
+                    json.dump(Business(company_title, avg_rating, company_type, location, review_count, None, {"google_reviews": get_reviews(driver)}).to_dict(), outputFile, ensure_ascii=True, indent=2)
                     outputFile.close()
             else:
                 print("%s already seen -- skipping" % company_title.text)

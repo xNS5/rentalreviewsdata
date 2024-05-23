@@ -1,0 +1,20 @@
+{
+  "name": "Monterra Apartments",
+  "slug": "monterra-apartments",
+  "company_type": "property",
+  "address": "487 31st St Bellingham, WA 98225",
+  "review_count": 1,
+  "avg_rating": 1.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Chloe E.",
+        "rating": 1,
+        "review": "This is NOT a safe place to live. If you're considering renting here, don't.  The residents include several criminals at this time. I've seen threats left on apartment doors and cars. I'd love to break my lease because I feel unsafe, but aparently I cannot. Cars get keyed all the time. We aren't allowed to recycle. There isn't enough parking for the residents. By the time I had lived here 3 months, we had gone through 3 different property managers, and none of them seemed to have a clue what they were doing. I cannot stress enough how terrible living here is. I have had 0 positive experiences with property managers or other tenants.",
+        "ownerResponse": {
+          "text": "Hi Chloe, We're troubled to read your review of Monterra, and we're eager to do all we can to help improve your time here. When you get a moment, could you please come to see us in the office or give us a call at (360) 306-8756? We look forward to hearing from you soon. Thanks."
+        }
+      }
+    ]
+  }
+}

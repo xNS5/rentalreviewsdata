@@ -5,55 +5,52 @@ import utilities
 def getPrefix(input, delimiter):
      return input.split(delimiter)[0]
 
-output_path = "all_combined/"
+output_path = "./reviews/"
+google_path = "./google_input/output/"
+yelp_path = "./yelp_input/output/"
 
-google_path = "google_input/output/combined/"
-yelp_path = "yelp_input/output/"
+#calculate values here
+def merge(file1, file2):
+    with open(file1, "r") as inputFile1, open(file2, "r") as inputFile2:
+        obj1 = json.load(inputFile1)
+        obj2 = json.load(inputFile2)
+        obj1["reviews"] = {**obj1["reviews"], **obj2[f"reviews"]}
+        inputFile1.close()
+        inputFile2.close()
+        return obj1
 
-companies_dir = "companies/"
-properties_dir = "properties/"
+def write(obj, path):
+    with open(path, "w") as outputFile:
+        json.dump(obj, outputFile, indent=2, ensure_ascii=True)
+        outputFile.close()
 
-def main(curr_input, other_input, curr_type):
-    google_file_list = utilities.listFiles(google_path + curr_type)
-    yelp_file_list = utilities.listFiles(yelp_path + curr_type)
+def filter(input_path, alt_path):
+    input_list = utilities.list_files(input_path)
+    alt_list = utilities.list_files(alt_path)
+    input_prefix = "google" if "google" in input_path else "yelp"
+    alt_prefix = "yelp" if "yelp" in alt_path else "google"
     
-    other_prefix = getPrefix(other_input, "_")
+    company_map = utilities.company_map(input_prefix)
 
-    curr_file_list = google_file_list if other_prefix == "yelp" else yelp_file_list
-    other_file_list = yelp_file_list if other_prefix == "yelp" else google_file_list
-
-
-    # Current plan is to do away with the fuzzy search, and essentially create a map in the event there are kind-of duplicates
-    file_list = {str(x): utilities.search_fuzzy(x, curr_file_list) for x in other_file_list}
-
-    for file in file_list:
-        # No match
-        if file_list[file] == None:
-            os.system("cp ./'%s' ./all_combined/'%s'" % (curr_input + curr_type + file, file))
+    for file in input_list:
+        # If file has a counterpart that's slightly different
+        file_without_extension = file[:-5]
+        if file_without_extension in company_map:
+            # If the file already exists in the output dir
+            if os.path.isfile(f"{output_path}{company_map[file_without_extension]}.json") or os.path.isfile(f"{output_path}{file}"):
+                continue
+            else:
+                # Merge the files
+                print(file)
+                file_json = merge(f"{input_path}{file}", f"{alt_path}{company_map[file_without_extension]}.json", alt_prefix)
+                write(file_json, f"{output_path}{file}")
+                
+        elif not os.path.isfile(f"{alt_list}{file}"):
+            utilities.copy_file(f"{input_path}{file}", f"{output_path}{file}")
         else:
-            # If the file already exists
-            if os.path.exists(output_path + curr_type + file):
-                    continue
-            # If the file doesn't exist
-            with open(file, "r") as inputFile:
-                with open(file_list[file], "r") as otherFile:
-                    
-                    input_json = json.load(inputFile)
-                    other_json = json.load(otherFile)
+            file_json = merge(f"{input_path}{file}", f"{alt_path}{file}", alt_prefix)
+            write(file_json, f"{output_path}{file}")
+    
 
-                    input_json[f"{other_prefix}_reviews"] = other_json["{other_prefix}_reviews"]
-                    input_json["review_count"] += other_json["review_count"]
-                    input_json["avg_rating"] = utilities.average_rating(input_json)
-                    input_json = utilities.calculate_adjusted_review_count(input_json)
-                    if len(input_json["address"]) == 0:
-                        print(input_json["name"], input_json["address"])
-                        input_json["address"] = other_json["address"]
-                    with open(output_path + curr_type + file, "w") as outputFile:
-                        json.dump(input_json, outputFile, ensure_ascii=True, indent=2)
-                        outputFile.close()
-                    otherFile.close()
-                inputFile.close()
-
-
-main(yelp_path, google_path, companies_dir)
-main(google_path, yelp_path, companies_dir)
+filter(google_path, yelp_path)
+filter(yelp_path, google_path)

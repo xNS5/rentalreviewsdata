@@ -1,0 +1,18 @@
+{
+  "name": "Taylor Heights",
+  "slug": "taylor-heights",
+  "company_type": "property",
+  "address": "2115 Taylor Ave Bellingham, WA 98225",
+  "review_count": 1,
+  "avg_rating": 1.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Avriel M.",
+        "rating": 1,
+        "review": "I wish I could keep them at zero stars, they never answer their phone, that'd be fine if they responded to emails but they don't do that either. They say they'll be back at one time and don't return until way past that time. They always have an excuse as to why they can't answer the phone or why they didn't respond to emails but how can you have the same excuse every time. Once is okay, twice maybe a coincidence but every single time? That's just their habits at this point, I think I've only got them when I called one time. Going straight to the leasing office is the best way to contact them and they're not even there on time majority of the time and even if they're there, the sign says their open, and their cars are in the parking lot, they have the door locked and don't respond to knocking on the door or phone calls. Parking is awful, the spaces are tight. My apartment had to use pliers to start our dryer for majority of the lease. All the apartments have different things though we all say the same price. Some have nicer washer dryers, the bathrooms are different the flooring and kitchens are different. It's a nice community of college students but the place is annoyingly atrocious",
+        "ownerResponse": null
+      }
+    ]
+  }
+}

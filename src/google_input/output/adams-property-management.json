@@ -1,46 +1,48 @@
 {
   "name": "Adams Property Management",
   "slug": "adams-property-management",
-  "address": "1344 King St #201, Bellingham, WA 98229",
   "company_type": "company",
+  "address": "1344 King St #201, Bellingham, WA 98229",
   "review_count": 6,
   "avg_rating": 3.5,
-  "google_reviews": [
-    {
-      "author": "Ethan Kendall",
-      "rating": 1.0,
-      "review": "Pipes froze went without running water for 10 days no restitution for equipment I bought to unthaw pipes slow to respond. Owners selling property gave me till end of lease to figure out new place to live found place a month early moving out still holding me to lease to pay April rent which is a scummy move been a good renter no problems or drama I crawled under unit checking for leaks they are going to take me to court just plain greedy people",
-      "ownerResponse": []
-    },
-    {
-      "author": "Graham Armstrong",
-      "rating": 5.0,
-      "review": "We rented from Howard and Caroline for 5 years, and while their management style might not work for everyone, it was perfect for us. We were comfortable handling the majority of maintenance and repairs on our own,  and they were comfortable being \"hands-off\" landlords. We paid a very reasonable price the entire time that we rented from them.\n\nThey are also good people. I will miss having small chats with Caroline once a month while turning in rent.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Nick Hatch",
-      "rating": 4.0,
-      "review": "I've been a tenant with Adams for over three years, and have been pleased with the no-nonsense approach they take with property management. Problems generally get fixed quickly, and they'll be a respectful and attentive landlord as long as you're an attentive tenant.\n\nThey have a reputation for being strict, but I've always been a respectful tenant, and am treated with the same respect.\n\nThey've never played games with nickel-and-diming security deposits, something many other landlords in Bellingham seem to love to do.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Sarah Ross-Morgan",
-      "rating": 1.0,
-      "review": "I've lived in Whatcom county most of my life and I've rented from many property management groups, most are pretty fair. Truthfully Adams is the second worst (Lakeway wins first by a landslide- oi vey). This guy...I've never been so abused by a property management company. Know your renters rights, people! DO NOT let Howard Adams bully you!",
-      "ownerResponse": []
-    },
-    {
-      "author": "Steven Shimko",
-      "rating": 5.0,
-      "review": "Awesome landlords, always punctual when there are issues",
-      "ownerResponse": []
-    },
-    {
-      "author": "Nick Farrell",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    }
-  ]
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Ethan Kendall",
+        "rating": 1.0,
+        "review": "Pipes froze went without running water for 10 days no restitution for equipment I bought to unthaw pipes slow to respond. Owners selling property gave me till end of lease to figure out new place to live found place a month early moving out still holding me to lease to pay April rent which is a scummy move been a good renter no problems or drama I crawled under unit checking for leaks they are going to take me to court just plain greedy people",
+        "ownerResponse": null
+      },
+      {
+        "author": "Graham Armstrong",
+        "rating": 5.0,
+        "review": "We rented from Howard and Caroline for 5 years, and while their management style might not work for everyone, it was perfect for us. We were comfortable handling the majority of maintenance and repairs on our own,  and they were comfortable being \"hands-off\" landlords. We paid a very reasonable price the entire time that we rented from them.\n\nThey are also good people. I will miss having small chats with Caroline once a month while turning in rent.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Nick Hatch",
+        "rating": 4.0,
+        "review": "I've been a tenant with Adams for over three years, and have been pleased with the no-nonsense approach they take with property management. Problems generally get fixed quickly, and they'll be a respectful and attentive landlord as long as you're an attentive tenant.\n\nThey have a reputation for being strict, but I've always been a respectful tenant, and am treated with the same respect.\n\nThey've never played games with nickel-and-diming security deposits, something many other landlords in Bellingham seem to love to do.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Sarah Ross-Morgan",
+        "rating": 1.0,
+        "review": "I've lived in Whatcom county most of my life and I've rented from many property management groups, most are pretty fair. Truthfully Adams is the second worst (Lakeway wins first by a landslide- oi vey). This guy...I've never been so abused by a property management company. Know your renters rights, people! DO NOT let Howard Adams bully you!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Steven Shimko",
+        "rating": 5.0,
+        "review": "Awesome landlords, always punctual when there are issues",
+        "ownerResponse": null
+      },
+      {
+        "author": "Nick Farrell",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

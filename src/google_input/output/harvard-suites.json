@@ -1,22 +1,24 @@
 {
   "name": "Harvard Suites",
   "slug": "harvard-suites",
-  "address": "705-709 32nd St, Bellingham, WA 98225",
   "company_type": "property",
+  "address": "705-709 32nd St, Bellingham, WA 98225",
   "review_count": 2,
   "avg_rating": 3.0,
-  "google_reviews": [
-    {
-      "author": "Tristin Day",
-      "rating": 1.0,
-      "review": "some of the loudest neighbors i have ever lived with one of them plays the drums  and another dude plays basketball in the morning both usually in the am",
-      "ownerResponse": []
-    },
-    {
-      "author": "Bim S",
-      "rating": 5.0,
-      "review": "Nice looking! Would love to see the inside and curious about the price.",
-      "ownerResponse": []
-    }
-  ]
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Tristin Day",
+        "rating": 1.0,
+        "review": "some of the loudest neighbors i have ever lived with one of them plays the drums  and another dude plays basketball in the morning both usually in the am",
+        "ownerResponse": null
+      },
+      {
+        "author": "Bim S",
+        "rating": 5.0,
+        "review": "Nice looking! Would love to see the inside and curious about the price.",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

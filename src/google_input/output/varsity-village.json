@@ -1,82 +1,84 @@
 {
   "name": "Varsity village",
   "slug": "varsity-village",
-  "address": "2475 Donovan Ave, Bellingham, WA 98225",
   "company_type": "property",
+  "address": "2475 Donovan Ave, Bellingham, WA 98225",
   "review_count": 12,
   "avg_rating": 3.1,
-  "google_reviews": [
-    {
-      "author": "Auston Olapas YouTube",
-      "rating": 5.0,
-      "review": "I don't remember being here so it must have not been that bad five stars",
-      "ownerResponse": []
-    },
-    {
-      "author": "Desirre J",
-      "rating": 1.0,
-      "review": "It's not really a good place",
-      "ownerResponse": []
-    },
-    {
-      "author": "Michael Johnson",
-      "rating": 4.0,
-      "review": "Great low income housing!  Long waitlist for singles..",
-      "ownerResponse": []
-    },
-    {
-      "author": "Derek Rider",
-      "rating": 3.0,
-      "review": "Nice quiet place to live.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Janine Richardson",
-      "rating": 1.0,
-      "review": "Run down",
-      "ownerResponse": []
-    },
-    {
-      "author": "H K",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Shawna Sessions",
-      "rating": 2.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Christina Hampton",
-      "rating": 2.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Jenna Kennedy",
-      "rating": 3.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "c",
-      "rating": 3.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Art Miller",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "cassie w",
-      "rating": 3.0,
-      "review": "",
-      "ownerResponse": []
-    }
-  ]
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Auston Olapas YouTube",
+        "rating": 5.0,
+        "review": "I don't remember being here so it must have not been that bad five stars",
+        "ownerResponse": null
+      },
+      {
+        "author": "Desirre J",
+        "rating": 1.0,
+        "review": "It's not really a good place",
+        "ownerResponse": null
+      },
+      {
+        "author": "Michael Johnson",
+        "rating": 4.0,
+        "review": "Great low income housing!  Long waitlist for singles..",
+        "ownerResponse": null
+      },
+      {
+        "author": "Derek Rider",
+        "rating": 3.0,
+        "review": "Nice quiet place to live.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Janine Richardson",
+        "rating": 1.0,
+        "review": "Run down",
+        "ownerResponse": null
+      },
+      {
+        "author": "H K",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Shawna Sessions",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Christina Hampton",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jenna Kennedy",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "c",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Art Miller",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "cassie w",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

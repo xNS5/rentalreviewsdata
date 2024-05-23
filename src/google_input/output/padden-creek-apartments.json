@@ -1,94 +1,90 @@
 {
   "name": "Padden Creek Apartments",
   "slug": "padden-creek-apartments",
-  "address": "1900 18th St, Bellingham, WA 98225",
   "company_type": "property",
+  "address": "1900 18th St, Bellingham, WA 98225",
   "review_count": 12,
   "avg_rating": 4.1,
-  "google_reviews": [
-    {
-      "author": "Bruce Fleet",
-      "rating": 5.0,
-      "review": "We lived at Padden Creek for seven months while waiting for a condo we purchased. This place is absolutely wonderful. Quiet, beautiful, just steps from some of the best trails and just a short walk to downtown Fairhaven. The management team led by Meghan is wonderful to work with and the maintenance staff is fast and efficient. I simply cant say enough good things about this apartment community.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Karen Brown",
-      "rating": 5.0,
-      "review": "I've lived at Padden Creek Apartments for almost five years, and I can't say enough positives about the experience. The office staff is experienced, friendly, and efficient, and maintenance is great as well. Any work is done quickly and efficiently. The complex is also a friendly community--many of the tenants have lived here for years, and we all know each other. The apartments are in a great location, next to miles of woodland trails and hiking, as well as a short walk into historic Fairhaven.   Rent prices are competitive, the location is superb, and the management is the best. You can't go wrong renting here. If I weren't moving out of town for work, I wouldn't even consider leaving.",
-      "ownerResponse": [
-        {
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Bruce Fleet",
+        "rating": 5.0,
+        "review": "We lived at Padden Creek for seven months while waiting for a condo we purchased. This place is absolutely wonderful. Quiet, beautiful, just steps from some of the best trails and just a short walk to downtown Fairhaven. The management team led by Meghan is wonderful to work with and the maintenance staff is fast and efficient. I simply cant say enough good things about this apartment community.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Karen Brown",
+        "rating": 5.0,
+        "review": "I've lived at Padden Creek Apartments for almost five years, and I can't say enough positives about the experience. The office staff is experienced, friendly, and efficient, and maintenance is great as well. Any work is done quickly and efficiently. The complex is also a friendly community--many of the tenants have lived here for years, and we all know each other. The apartments are in a great location, next to miles of woodland trails and hiking, as well as a short walk into historic Fairhaven.   Rent prices are competitive, the location is superb, and the management is the best. You can't go wrong renting here. If I weren't moving out of town for work, I wouldn't even consider leaving.",
+        "ownerResponse": {
           "text": "Karen, thank you so much for your 5-star review of our community! We're thrilled to hear that you've enjoyed your time in our community over the past several years. We strive to provide excellent service and a comfortable home for our residents, and we're glad that you've been able to make the most of our convenient location. We wish you all the best in your new home."
         }
-      ]
-    },
-    {
-      "author": "Debbie Clouthier",
-      "rating": 5.0,
-      "review": "Wonderful location, with walking/hiking trails right outside the door and easy access to Fairhaven Park and the Fairhaven shopping district.  My apartment (rented sight unseen as I moved from the east coast) was probably on its last tenant before renovation, so the trim and kitchen/bathroom cabinetry were worn and a little disappointing.  But it was clean, quiet, the apartment layout was great, the grounds were pleasant and well maintained, and the staff was friendly and very responsive to the few maintenance issues that arose during the year that I lived there.  I moved out because I bought a house in the neighborhood--otherwise I'd still be there!",
-      "ownerResponse": [
-        {
+      },
+      {
+        "author": "Debbie Clouthier",
+        "rating": 5.0,
+        "review": "Wonderful location, with walking/hiking trails right outside the door and easy access to Fairhaven Park and the Fairhaven shopping district.  My apartment (rented sight unseen as I moved from the east coast) was probably on its last tenant before renovation, so the trim and kitchen/bathroom cabinetry were worn and a little disappointing.  But it was clean, quiet, the apartment layout was great, the grounds were pleasant and well maintained, and the staff was friendly and very responsive to the few maintenance issues that arose during the year that I lived there.  I moved out because I bought a house in the neighborhood--otherwise I'd still be there!",
+        "ownerResponse": {
           "text": "Debbie, thank you for your kind words! We are so pleased that you had such a wonderful experience in our community and that it felt like home to you. We wish you all the best in your new home!"
         }
-      ]
-    },
-    {
-      "author": "Kiersten Baiamonte",
-      "rating": 5.0,
-      "review": "WOW! Let me tell you this was the best apartment finding experience I have ever gone through and I have moved at least 20 times. The entire staff is friendly, hard working and willing to do what it takes to make you feel secure in your choice of living in this beautiful community. Then, there is Miss Jennifer, the way that she took care of our family through this entire process was note worthy. She was direct, kind and accommodating and our family is thrilled to live in these beautiful apartment homes.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Eric Eberle",
-      "rating": 3.0,
-      "review": "Management put a notice on my car saying they would tow it in 48 hours because my tags expired. My new ones were lost in the mail and it's a pandemic. They have my email and phone number but they couldn't be bothered to contact me. If I did not see the notice my car would have been towed. This is how they treat a paying tenant who never companied about anything.  The worst part is they are constantly email us \"We are in this together\" yeah right but hey its a nice location",
-      "ownerResponse": [
-        {
+      },
+      {
+        "author": "Kiersten Baiamonte",
+        "rating": 5.0,
+        "review": "WOW! Let me tell you this was the best apartment finding experience I have ever gone through and I have moved at least 20 times. The entire staff is friendly, hard working and willing to do what it takes to make you feel secure in your choice of living in this beautiful community. Then, there is Miss Jennifer, the way that she took care of our family through this entire process was note worthy. She was direct, kind and accommodating and our family is thrilled to live in these beautiful apartment homes.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Eric Eberle",
+        "rating": 3.0,
+        "review": "Management put a notice on my car saying they would tow it in 48 hours because my tags expired. My new ones were lost in the mail and it's a pandemic. They have my email and phone number but they couldn't be bothered to contact me. If I did not see the notice my car would have been towed. This is how they treat a paying tenant who never companied about anything.  The worst part is they are constantly email us \"We are in this together\" yeah right but hey its a nice location",
+        "ownerResponse": {
           "text": "Hello Eric, thank you for sharing. We understand your frustration and would like to answer any of your questions about the policies we currently have in place. Please contact us at customercare@suhrco.com, we look forward to speaking with you soon."
         }
-      ]
-    },
-    {
-      "author": "Wendy Biesheuvel",
-      "rating": 4.0,
-      "review": "Could not ask for a better location.  Right on the trails, creek and behind Fairhaven park.  Very pet friendly.  I have wonderful neighbors.  Staff is warm hearted and appreciate tenants inputs especially if done respectfully and with a solution in mind.  Pool has received much TLC with brand new surfacing and a large quantity of quality poolside furnishings.  Maintenance is very responsive and very friendly.  Grounds are kept immaculate. Area is very quiet with polite neighbors.  No parties or beer bottles laying around. ;)\n\n...  Some appliances could be updated but hey, they cook, clean and keep cool just fine.\n...  A little more Sq. footage be nice.\n\nThe only reasons why a star is missing.\n\n...  Staff, location, tenants/neighbors and care of grounds easy 5 stars!\n\nResident 3 years",
-      "ownerResponse": []
-    },
-    {
-      "author": "Kate McDonald",
-      "rating": 1.0,
-      "review": "Yes, the location is lovely, but that is the only positive. The soundproofing between apartments is non-existent. I could hear my neighbors snores as clearly as if he were in my room. The appliances are cheap and worn out. We had to tie down the freezer door to keep it closed because the weatherstripping had worn out, and the dryer wouldnt completely dry the clothes. But the worst complaint is the tactics of management to scam money off the tenants. As other reviewers have said, they raise rent each year by increasing all the extras each year as well as the base rent. I guess in a market with so few rental options its not surprising if most landlords will take advantage where possible. However, their pattern of scamming the rental deposits is more than taking advantage; it is fraud. I paid $700 in a deposit and was informed that only $260 was going to be returned. The rental office representative claims the cleaning wasnt up to their standards, there were unlatched holes in the walls, and the chains hanging outside the front door for hanging baskets werent removed. The apartment was thoroughly cleaned, there were no unlatched holes, and another rental office representative told me to leave the chains. Based on the number of similar reports and reviews, I can only assume that the management company, SUHRCO condones or even trains this type of behavior. Be warnedyour deposit is not a deposit but rather a fee. The area is beautiful but the management is ugly.  Update: After communicating directly with the management company executives, I received a full refund of my deposit. While I was pleased for the outcome, Im still disappointed at the time and effort it took this outcome.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Mchael Hooker",
-      "rating": 5.0,
-      "review": "The apartment was in good condition, and very modest.\nMaintenance personnel are friendly and stay busy doing repairs.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Captain Howdy",
-      "rating": 5.0,
-      "review": "Beautiful grounds, great staff, and the maintenance is quick to fix things!",
-      "ownerResponse": []
-    },
-    {
-      "author": "choom 32",
-      "rating": 5.0,
-      "review": "Thank you Padden Creek Staff for your professionalism and being able to work with me on my last month. Thank you for the 5 years.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Neill Dorn",
-      "rating": 5.0,
-      "review": "Nice apartments, safe area, and responsive staff.",
-      "ownerResponse": []
-    },
-    {
-      "author": "alexm jones",
-      "rating": 1.0,
-      "review": "",
-      "ownerResponse": []
-    }
-  ]
+      },
+      {
+        "author": "Wendy Biesheuvel",
+        "rating": 4.0,
+        "review": "Could not ask for a better location.  Right on the trails, creek and behind Fairhaven park.  Very pet friendly.  I have wonderful neighbors.  Staff is warm hearted and appreciate tenants inputs especially if done respectfully and with a solution in mind.  Pool has received much TLC with brand new surfacing and a large quantity of quality poolside furnishings.  Maintenance is very responsive and very friendly.  Grounds are kept immaculate. Area is very quiet with polite neighbors.  No parties or beer bottles laying around. ;)\n\n...  Some appliances could be updated but hey, they cook, clean and keep cool just fine.\n...  A little more Sq. footage be nice.\n\nThe only reasons why a star is missing.\n\n...  Staff, location, tenants/neighbors and care of grounds easy 5 stars!\n\nResident 3 years",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kate McDonald",
+        "rating": 1.0,
+        "review": "Yes, the location is lovely, but that is the only positive. The soundproofing between apartments is non-existent. I could hear my neighbors snores as clearly as if he were in my room. The appliances are cheap and worn out. We had to tie down the freezer door to keep it closed because the weatherstripping had worn out, and the dryer wouldnt completely dry the clothes. But the worst complaint is the tactics of management to scam money off the tenants. As other reviewers have said, they raise rent each year by increasing all the extras each year as well as the base rent. I guess in a market with so few rental options its not surprising if most landlords will take advantage where possible. However, their pattern of scamming the rental deposits is more than taking advantage; it is fraud. I paid $700 in a deposit and was informed that only $260 was going to be returned. The rental office representative claims the cleaning wasnt up to their standards, there were unlatched holes in the walls, and the chains hanging outside the front door for hanging baskets werent removed. The apartment was thoroughly cleaned, there were no unlatched holes, and another rental office representative told me to leave the chains. Based on the number of similar reports and reviews, I can only assume that the management company, SUHRCO condones or even trains this type of behavior. Be warnedyour deposit is not a deposit but rather a fee. The area is beautiful but the management is ugly.  Update: After communicating directly with the management company executives, I received a full refund of my deposit. While I was pleased for the outcome, Im still disappointed at the time and effort it took this outcome.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mchael Hooker",
+        "rating": 5.0,
+        "review": "The apartment was in good condition, and very modest.\nMaintenance personnel are friendly and stay busy doing repairs.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Captain Howdy",
+        "rating": 5.0,
+        "review": "Beautiful grounds, great staff, and the maintenance is quick to fix things!",
+        "ownerResponse": null
+      },
+      {
+        "author": "choom 32",
+        "rating": 5.0,
+        "review": "Thank you Padden Creek Staff for your professionalism and being able to work with me on my last month. Thank you for the 5 years.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Neill Dorn",
+        "rating": 5.0,
+        "review": "Nice apartments, safe area, and responsive staff.",
+        "ownerResponse": null
+      },
+      {
+        "author": "alexm jones",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

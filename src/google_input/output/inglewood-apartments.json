@@ -1,130 +1,132 @@
 {
   "name": "Inglewood Apartments",
   "slug": "inglewood-apartments",
-  "address": "3025 Ferry Ave, Bellingham, WA 98225",
   "company_type": "property",
+  "address": "3025 Ferry Ave, Bellingham, WA 98225",
   "review_count": 20,
   "avg_rating": 3.6,
-  "google_reviews": [
-    {
-      "author": "Lea S",
-      "rating": 3.0,
-      "review": "At first this place seemed super great. Everyone was super nice and welcoming, the neighbors are also very sweet. However, after 3 months of living here I see a lot of issues. The parking lots are situated very weirdly, tandem parking spots are back to back, making it very difficult to get out when the spots are full, and there's no guests parking. There was a lot of damage to the cabinets in my unit, and they pretty much told me they didn't want to spend the money to replace them. (I've gotten several splinters now) my front door locks were screwed up from the start, so were all the windows and sliding door. They were all very cloudy on the INSIDE and can't be cleaned away. It looks horrendous tbh. Maintenance is a bit odd.  When you send in a request, there's no place to ask for a time. They just show up unannounced within a day or 2 at any time. It's very hard to do if you have a busy college life like me. The office hours aren't posted on their website, and every time I've called about something. It's taken almost a week for a response. I wouldn't say completely knock this place. But if you see anything you aren't happy about, make sure to tell them within the first couple of days of living here because it will not be addressed unless you complain a lot. Haha. I've enjoyed it here, but I do wish the damages were fixed before I even moved in. Especially bc they took longer cleaning and getting the place ready for me than they originally said they would.",
-      "ownerResponse": []
-    },
-    {
-      "author": "madie bernardo",
-      "rating": 2.0,
-      "review": "The parking situation isn't great or even good. It's difficult to visit people who live there because of the lack of visitor parking and the small amount of 15 min parking almost always being full. The resident parking isn't great or even good either because they made the majority of the spots double parking and you have to shuffle cars around to get in and out. They also just don't have the most space for exiting when it is designed the way it is.",
-      "ownerResponse": []
-    },
-    {
-      "author": "z zims",
-      "rating": 2.0,
-      "review": "They just increased the price of laundry by almost a dollar per load without notifying tenants in any way. The landlady and her assistant do not answer your calls or respond to maintenance requests in a timely manner, if they even bother. Overall not the worst place to live, but clearly poorly managed.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Luna",
-      "rating": 4.0,
-      "review": "This is most certainly a college apartment building, so I am going in to this review with that first. It's not going to be magical, nor does it have all of the amenities you might want from a high quality apartment building. No in-unit washer/dryers, just a laundry room. The landlords are fantastic, as long as you act like a civil human being and don't destroy their property or bother the neighbors. They are strict about their rules, and for good reason. Occasional party apartments, but they tend to come and go, and the landlords are always happy to shut it down if it's gotten too loud and rowdy. Apartments are decent quality, nothing you can't work with for the price. If you're tired of living in the dorms or you just want something simple, this is it. Assigned parking spaces (one per bedroom of the apartment) and it's well enforced. No pets, aside from fish or support/ service animals. Laundry is coin-op, but there's usually room so I've never had any delays waiting for a machine to free up.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Graham Manson",
-      "rating": 4.0,
-      "review": "EDIT: this review is based on experience with the previous landlord. It's since been taken over by Apex/PTLA, so YMMV.\n\nApartments are perfectly nice, nothing special. Spacious enough for me, and all the given appliances work fine. No in-home laundry, but there's an on-site laundromat. Lived here for three years, and never had an issue with the managers -- they're nice people who solve any problems you might have with your apartment.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Brook Castellan",
-      "rating": 1.0,
-      "review": "BIG OOF Oh this was just lovely. The landlords are name Dee and Rob because they will try to rob you and at best they would get a D grade in customer service. We had agreed on a move in date (this was done two months before said date) which was great and made our deposit/hold of about 900 dollars for a three bedroom unit. Two weeks before move in we get a call saying that they no longer know when the apartment will be ready! Lots of repairs to do and whatnot. Lame but whatever. Stuff happens and Covid. Things are difficult right now. Finally three (3) days before original move in I get a call saying we can move in the day after school started and two days after the originally agreed upon date. There was a catch though. We were told (not asked) we had to put in a work order for the very large sliding glass door onto the back porch (no cover from the rain) because Dee couldnt get it REPLACED before move in. Also the carpets would still be wet from cleaning and we would be signing our lease before we even stepped foot inside. Its a no from me dawg! Thankfully my roommates and I only pretend to be stupid and had found another place the week prior that was move in ready and had this magical thing known as e-mail and a website where we could read our lease and communicate with the owners anytime! Have I mentioned this place only use phone and paper? They think it is 1960 and talk like it is too. Lots of derogatory and disrespectful comments about Native Americans (Dee used a different phrase) and the LGBT community during our maybe one hour of interaction (I am a member of neither of these groups but my roommate is Bi). Just totally unnecessary and unprofessional. Anyways thank the lord that Dee pretends to follow that we found this other place as based on reviews on apartment reviews .com it sounds like we were far from the first people they have tried to rip off and disrespect like that. My dad was going to be my co-signer and she would only listen to him after he mentioned he was an Army veteran. Way to respect the troops! Anyways we hated this experience so much we didnt even try to get our 900 dollars back and are much happier at our place three blocks down the road which is much better maintained and believe it or not, the exact same price for a three bedroom. Also this place smells like cigarettes(I have smoked quite a bit myself but dude, not everyone needs to share) and the paint is peeling everywhere. The laundry is coin based and you have to walk out in the cold and rain during the winter to get there. Sad!",
-      "ownerResponse": []
-    },
-    {
-      "author": "Phillip Chen",
-      "rating": 5.0,
-      "review": "Dee and Rob are the best on-site managers ever! They are very friendly and treat you basically like their own kid. You can have a small gathering, but NO loud parties. You will get shut down within a hour.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Bianca Ciccotelli",
-      "rating": 3.0,
-      "review": "The parking is the worst but it's a typical college apartment complex",
-      "ownerResponse": []
-    },
-    {
-      "author": "Katie Lund",
-      "rating": 5.0,
-      "review": "Rob and Dee are great managers. They always help when something goes wrong. It's a quiet building within walking distance of Western. Lived here for 2 years and it was great!",
-      "ownerResponse": []
-    },
-    {
-      "author": "Jameson Knopp",
-      "rating": 4.0,
-      "review": "Cheap rent for boring apartments. Responsive and quick with repairs, but the landlady is weird and invasive. But you get what you pay for.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Joker 119",
-      "rating": 3.0,
-      "review": "Hot water only lasts about 5mins in the showers, aside from that everything else is fine",
-      "ownerResponse": []
-    },
-    {
-      "author": "Carl Graber",
-      "rating": 2.0,
-      "review": "has bed bugs",
-      "ownerResponse": []
-    },
-    {
-      "author": "Milangela Diaz",
-      "rating": 4.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "E Marie",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Elizabeth Liz Elsesser",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Mary Giles",
-      "rating": 1.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Kerringar",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Jonathan Hyry",
-      "rating": 4.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Christa Pitsch",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Julio",
-      "rating": 5.0,
-      "review": "",
-      "ownerResponse": []
-    }
-  ]
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Lea S",
+        "rating": 3.0,
+        "review": "At first this place seemed super great. Everyone was super nice and welcoming, the neighbors are also very sweet. However, after 3 months of living here I see a lot of issues. The parking lots are situated very weirdly, tandem parking spots are back to back, making it very difficult to get out when the spots are full, and there's no guests parking. There was a lot of damage to the cabinets in my unit, and they pretty much told me they didn't want to spend the money to replace them. (I've gotten several splinters now) my front door locks were screwed up from the start, so were all the windows and sliding door. They were all very cloudy on the INSIDE and can't be cleaned away. It looks horrendous tbh. Maintenance is a bit odd.  When you send in a request, there's no place to ask for a time. They just show up unannounced within a day or 2 at any time. It's very hard to do if you have a busy college life like me. The office hours aren't posted on their website, and every time I've called about something. It's taken almost a week for a response. I wouldn't say completely knock this place. But if you see anything you aren't happy about, make sure to tell them within the first couple of days of living here because it will not be addressed unless you complain a lot. Haha. I've enjoyed it here, but I do wish the damages were fixed before I even moved in. Especially bc they took longer cleaning and getting the place ready for me than they originally said they would.",
+        "ownerResponse": null
+      },
+      {
+        "author": "madie bernardo",
+        "rating": 2.0,
+        "review": "The parking situation isn't great or even good. It's difficult to visit people who live there because of the lack of visitor parking and the small amount of 15 min parking almost always being full. The resident parking isn't great or even good either because they made the majority of the spots double parking and you have to shuffle cars around to get in and out. They also just don't have the most space for exiting when it is designed the way it is.",
+        "ownerResponse": null
+      },
+      {
+        "author": "z zims",
+        "rating": 2.0,
+        "review": "They just increased the price of laundry by almost a dollar per load without notifying tenants in any way. The landlady and her assistant do not answer your calls or respond to maintenance requests in a timely manner, if they even bother. Overall not the worst place to live, but clearly poorly managed.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Luna",
+        "rating": 4.0,
+        "review": "This is most certainly a college apartment building, so I am going in to this review with that first. It's not going to be magical, nor does it have all of the amenities you might want from a high quality apartment building. No in-unit washer/dryers, just a laundry room. The landlords are fantastic, as long as you act like a civil human being and don't destroy their property or bother the neighbors. They are strict about their rules, and for good reason. Occasional party apartments, but they tend to come and go, and the landlords are always happy to shut it down if it's gotten too loud and rowdy. Apartments are decent quality, nothing you can't work with for the price. If you're tired of living in the dorms or you just want something simple, this is it. Assigned parking spaces (one per bedroom of the apartment) and it's well enforced. No pets, aside from fish or support/ service animals. Laundry is coin-op, but there's usually room so I've never had any delays waiting for a machine to free up.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Graham Manson",
+        "rating": 4.0,
+        "review": "EDIT: this review is based on experience with the previous landlord. It's since been taken over by Apex/PTLA, so YMMV.\n\nApartments are perfectly nice, nothing special. Spacious enough for me, and all the given appliances work fine. No in-home laundry, but there's an on-site laundromat. Lived here for three years, and never had an issue with the managers -- they're nice people who solve any problems you might have with your apartment.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Brook Castellan",
+        "rating": 1.0,
+        "review": "BIG OOF Oh this was just lovely. The landlords are name Dee and Rob because they will try to rob you and at best they would get a D grade in customer service. We had agreed on a move in date (this was done two months before said date) which was great and made our deposit/hold of about 900 dollars for a three bedroom unit. Two weeks before move in we get a call saying that they no longer know when the apartment will be ready! Lots of repairs to do and whatnot. Lame but whatever. Stuff happens and Covid. Things are difficult right now. Finally three (3) days before original move in I get a call saying we can move in the day after school started and two days after the originally agreed upon date. There was a catch though. We were told (not asked) we had to put in a work order for the very large sliding glass door onto the back porch (no cover from the rain) because Dee couldnt get it REPLACED before move in. Also the carpets would still be wet from cleaning and we would be signing our lease before we even stepped foot inside. Its a no from me dawg! Thankfully my roommates and I only pretend to be stupid and had found another place the week prior that was move in ready and had this magical thing known as e-mail and a website where we could read our lease and communicate with the owners anytime! Have I mentioned this place only use phone and paper? They think it is 1960 and talk like it is too. Lots of derogatory and disrespectful comments about Native Americans (Dee used a different phrase) and the LGBT community during our maybe one hour of interaction (I am a member of neither of these groups but my roommate is Bi). Just totally unnecessary and unprofessional. Anyways thank the lord that Dee pretends to follow that we found this other place as based on reviews on apartment reviews .com it sounds like we were far from the first people they have tried to rip off and disrespect like that. My dad was going to be my co-signer and she would only listen to him after he mentioned he was an Army veteran. Way to respect the troops! Anyways we hated this experience so much we didnt even try to get our 900 dollars back and are much happier at our place three blocks down the road which is much better maintained and believe it or not, the exact same price for a three bedroom. Also this place smells like cigarettes(I have smoked quite a bit myself but dude, not everyone needs to share) and the paint is peeling everywhere. The laundry is coin based and you have to walk out in the cold and rain during the winter to get there. Sad!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Phillip Chen",
+        "rating": 5.0,
+        "review": "Dee and Rob are the best on-site managers ever! They are very friendly and treat you basically like their own kid. You can have a small gathering, but NO loud parties. You will get shut down within a hour.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Bianca Ciccotelli",
+        "rating": 3.0,
+        "review": "The parking is the worst but it's a typical college apartment complex",
+        "ownerResponse": null
+      },
+      {
+        "author": "Katie Lund",
+        "rating": 5.0,
+        "review": "Rob and Dee are great managers. They always help when something goes wrong. It's a quiet building within walking distance of Western. Lived here for 2 years and it was great!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jameson Knopp",
+        "rating": 4.0,
+        "review": "Cheap rent for boring apartments. Responsive and quick with repairs, but the landlady is weird and invasive. But you get what you pay for.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Joker 119",
+        "rating": 3.0,
+        "review": "Hot water only lasts about 5mins in the showers, aside from that everything else is fine",
+        "ownerResponse": null
+      },
+      {
+        "author": "Carl Graber",
+        "rating": 2.0,
+        "review": "has bed bugs",
+        "ownerResponse": null
+      },
+      {
+        "author": "Milangela Diaz",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "E Marie",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Elizabeth Liz Elsesser",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mary Giles",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kerringar",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jonathan Hyry",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Christa Pitsch",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Julio",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

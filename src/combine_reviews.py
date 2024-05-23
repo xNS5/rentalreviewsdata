@@ -9,7 +9,8 @@ output_path = "./reviews/"
 google_path = "./google_input/output/"
 yelp_path = "./yelp_input/output/"
 
-def merge(file1, file2, prefix):
+#calculate values here
+def merge(file1, file2):
     with open(file1, "r") as inputFile1, open(file2, "r") as inputFile2:
         obj1 = json.load(inputFile1)
         obj2 = json.load(inputFile2)

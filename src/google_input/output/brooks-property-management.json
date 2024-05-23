@@ -1,52 +1,54 @@
 {
   "name": "Brooks Property Management",
   "slug": "brooks-property-management",
-  "address": "1301 Iowa St, Bellingham, WA 98229",
   "company_type": "company",
+  "address": "1301 Iowa St, Bellingham, WA 98229",
   "review_count": 7,
   "avg_rating": 2.1,
-  "google_reviews": [
-    {
-      "author": "Jennie Black",
-      "rating": 1.0,
-      "review": "Well just I had horrible experience with Brooks, I was misinformed by Opportunity Council and I was under the impression opportunity council would help with first and last month rent.  I had told Meliane as good faith I could pay next month due to lack of rental history I could pay next months rent at the time of moving in,  I then reached back out to meliane and explained that oppertunity council was NOT going to pay 1st and last month rent like I had thought. In the emails I had received I was to come up with $1,000 deposit $1700 *2 and rest of the rent for July  I had hustled up $5,000 dollars in less than 3 weeks for this unit. I go to let Meliane know that i finally have enough for this unit, mind you that after Meliane knew i was not going to get help from oppurinty council she still wanted me to pay next month rent  even thought it was not in  the original agreement or even apart of there guidelines I was just tryin to show good faith by paying next months rent, so even after she knew i wasnt; going to get help she still demanded I pay next month rent, So I had hustled up $5,000 cash I go to let Meliane know and she says oh you need another $1700 on top of it, This woman knew how badly my son and I needed this place, she knew I was counting every penny and for them to still want next month rent even tho is was not apart of their requirements even tho I begged her to please not charge me for next months rent and she still did anyways, it was a horrible thing to do to a single- homeless mother.",
-      "ownerResponse": []
-    },
-    {
-      "author": "Jen Caldwell",
-      "rating": 1.0,
-      "review": "Renters Beware!!!!!   When we viewed the apartment it was still occupied. We had Melanie, property manager, sign a contract stating it would be clean when we moved in. This place stinks soooooo bad still! I go to work smelling like a cat box and bad B.O. When we asked for repairs they immediately served us with a Quit of Tenancy and forced us to move out three weeks after we moved in. To top it off, three days after we moved in we we're drinking coffee \"enjoying\" our \"new\" stinky apartment and Mimi, the owner, comes barging through the back door. She pulled the trim that the \"security\" chain was attached to off the wall. Don't make the same mistake we did, keep looking. There's a reason why it's month to month here. And it's no good reason...",
-      "ownerResponse": []
-    },
-    {
-      "author": "Chuck Marquart",
-      "rating": 5.0,
-      "review": "Very professional......",
-      "ownerResponse": []
-    },
-    {
-      "author": "Jackie Kemmet",
-      "rating": 1.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "Paula Gatti",
-      "rating": 1.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "paul compton",
-      "rating": 2.0,
-      "review": "",
-      "ownerResponse": []
-    },
-    {
-      "author": "haydn doggett",
-      "rating": 4.0,
-      "review": "",
-      "ownerResponse": []
-    }
-  ]
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Jennie Black",
+        "rating": 1.0,
+        "review": "Well just I had horrible experience with Brooks, I was misinformed by Opportunity Council and I was under the impression opportunity council would help with first and last month rent.  I had told Meliane as good faith I could pay next month due to lack of rental history I could pay next months rent at the time of moving in,  I then reached back out to meliane and explained that oppertunity council was NOT going to pay 1st and last month rent like I had thought. In the emails I had received I was to come up with $1,000 deposit $1700 *2 and rest of the rent for July  I had hustled up $5,000 dollars in less than 3 weeks for this unit. I go to let Meliane know that i finally have enough for this unit, mind you that after Meliane knew i was not going to get help from oppurinty council she still wanted me to pay next month rent  even thought it was not in  the original agreement or even apart of there guidelines I was just tryin to show good faith by paying next months rent, so even after she knew i wasnt; going to get help she still demanded I pay next month rent, So I had hustled up $5,000 cash I go to let Meliane know and she says oh you need another $1700 on top of it, This woman knew how badly my son and I needed this place, she knew I was counting every penny and for them to still want next month rent even tho is was not apart of their requirements even tho I begged her to please not charge me for next months rent and she still did anyways, it was a horrible thing to do to a single- homeless mother.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jen Caldwell",
+        "rating": 1.0,
+        "review": "Renters Beware!!!!!   When we viewed the apartment it was still occupied. We had Melanie, property manager, sign a contract stating it would be clean when we moved in. This place stinks soooooo bad still! I go to work smelling like a cat box and bad B.O. When we asked for repairs they immediately served us with a Quit of Tenancy and forced us to move out three weeks after we moved in. To top it off, three days after we moved in we we're drinking coffee \"enjoying\" our \"new\" stinky apartment and Mimi, the owner, comes barging through the back door. She pulled the trim that the \"security\" chain was attached to off the wall. Don't make the same mistake we did, keep looking. There's a reason why it's month to month here. And it's no good reason...",
+        "ownerResponse": null
+      },
+      {
+        "author": "Chuck Marquart",
+        "rating": 5.0,
+        "review": "Very professional......",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jackie Kemmet",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Paula Gatti",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "paul compton",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "haydn doggett",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

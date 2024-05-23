@@ -1,16 +1,18 @@
 {
   "name": "City Gate Apartments",
   "slug": "city-gate-apartments",
-  "address": "607 E Holly St, Bellingham, WA 98225",
   "company_type": "property",
+  "address": "607 E Holly St, Bellingham, WA 98225",
   "review_count": 1,
   "avg_rating": 5.0,
-  "google_reviews": [
-    {
-      "author": "Dawn Toney",
-      "rating": 5.0,
-      "review": "They have let me live here for 4 years and that's awesome.",
-      "ownerResponse": []
-    }
-  ]
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Dawn Toney",
+        "rating": 5.0,
+        "review": "They have let me live here for 4 years and that's awesome.",
+        "ownerResponse": null
+      }
+    ]
+  }
 }

@@ -10,13 +10,12 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
-from sys import argv
 import time
 import re
-import html
 import json
 import traceback
 import utilities
+import pyinputplus as pyinput
 from utilities import Review, Business
 
 whitelist = utilities.get_google_whitelist()
@@ -141,11 +140,11 @@ def scrape_google_companies(search_param, url, element_selector):
                 By.XPATH,
                 '//*[@id="QA0Szd"]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[1]/h1',
             )
-
+            
             if company_title is not None and company_title.text not in nameSet:
                 company_title = company_title.text
                 print(company_title)
-                nameSet.add(company_title)
+               
 
                 company_type = check_if_exists(
                     driver,
@@ -177,8 +176,7 @@ def scrape_google_companies(search_param, url, element_selector):
                 
                 if review_count is None:
                     continue
-                
-                
+                                
                 location = location.text
                 company_type = utilities.get_whitelist_types(company_type.text)
                 avg_rating = avg_rating.text
@@ -187,6 +185,8 @@ def scrape_google_companies(search_param, url, element_selector):
                 # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
                 slug = utilities.get_slug(company_title)
 
+                nameSet.add(company_title)
+                
                 with open("./google_input/output/%s.json" % slug, "w") as outputFile:
                     json.dump(Business(company_title, avg_rating, company_type, location, review_count, None, {"google_reviews": get_reviews(driver)}).to_dict(), outputFile, ensure_ascii=True, indent=2)
                     outputFile.close()
@@ -199,5 +199,15 @@ def scrape_google_companies(search_param, url, element_selector):
 
 with open("./google_input/config.json", "r") as configFile:
     config = json.load(configFile)
-    for conf in config[0]:
-        scrape_google_companies(conf["query"], conf["url"], conf["css_selector"])
+
+    type = pyinput.inputMenu(
+        ["Companies", "Properties", "All"], lettered=True, numbered=False
+    ).lower()
+
+    if type == "companies":
+        scrape_google_companies(config[0][0]["query"], config[0][0]["url"], config[0][0]["css_selector"])
+    elif type == "properties":
+        scrape_google_companies(config[0][1]["query"], config[0][0]["url"], config[0][1]["css_selector"])
+    else:    
+        for conf in config[0]:
+            scrape_google_companies(conf["query"], conf["url"], conf["css_selector"])

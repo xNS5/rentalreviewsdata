@@ -19,8 +19,14 @@ def merge(file1, file2):
         inputFile2.close()
         return obj1
 
-def write(obj, path):
-    with open(path, "w") as outputFile:
+def write(obj, inputPath, outputPath):
+    if obj is None:
+        with open(inputPath, 'r') as inputFile:
+            obj = json.load(inputFile)
+            inputFile.close()
+
+    with open(outputPath, "w") as outputFile:
+        obj = {**obj, **(utilities.calculate_adjusted_review_count(obj)), **(utilities.calculate_average_rating(obj))}
         json.dump(obj, outputFile, indent=2, ensure_ascii=True)
         outputFile.close()
 
@@ -33,6 +39,7 @@ def filter(input_path, alt_path):
     company_map = utilities.company_map(input_prefix)
 
     for file in input_list:
+        print(file)
         # If file has a counterpart that's slightly different
         file_without_extension = file[:-5]
         if file_without_extension in company_map:
@@ -41,15 +48,14 @@ def filter(input_path, alt_path):
                 continue
             else:
                 # Merge the files
-                print(file)
-                file_json = merge(f"{input_path}{file}", f"{alt_path}{company_map[file_without_extension]}.json", alt_prefix)
-                write(file_json, f"{output_path}{file}")
+                file_json = merge(f"{input_path}{file}", f"{alt_path}{company_map[file_without_extension]}.json")
+                write(file_json, None, f"{output_path}{file}")
                 
         elif not os.path.isfile(f"{alt_list}{file}"):
-            utilities.copy_file(f"{input_path}{file}", f"{output_path}{file}")
+            write(None, f"{input_path}{file}", f"{output_path}{file}")
         else:
-            file_json = merge(f"{input_path}{file}", f"{alt_path}{file}", alt_prefix)
-            write(file_json, f"{output_path}{file}")
+            file_json = merge(f"{input_path}{file}", f"{alt_path}{file}")
+            write(file_json, None, f"{output_path}{file}")
     
 
 filter(google_path, yelp_path)

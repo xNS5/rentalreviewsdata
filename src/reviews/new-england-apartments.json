@@ -1,0 +1,50 @@
+{
+  "name": "New England Apartments",
+  "slug": "new-england-apartments",
+  "company_type": "property",
+  "address": "2524 Douglas Ave, Bellingham, WA 98225",
+  "review_count": 6,
+  "avg_rating": 3.8,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Leo Spencer",
+        "rating": 5.0,
+        "review": "The management is wonderful.  When a pipe burst and two buildings were left without water for about a day, they quickly delivered gallons of water to each apartment and set up plenty of outhouses.  They also kept us updated via email throughout the whole day.  Plus, they gave everyone pizza gift cards.  Super thoughtful and professional.\n\nThe apartments themselves are in good condition and the maintenance guy is quick and friendly.  Rent isn't too bad, either.\n\nNew England Apartments is definitely a  good housing option in Bellingham.  10/10 would recommend.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kate Welch",
+        "rating": 3.0,
+        "review": "I lived in the New England Apartments for 2 years while I was a student, and while overall it was a decent experience, there are some definite pros and cons.\nThe apartments themselves are nice enough, clean and spacious. But they're built pretty cheaply so things tend to need lots of repairs or just don't work quite right. I'm talking doors that were shady at best, locks that were installed incorrectly, windows that got stuck and toilets that leaked. They were pretty good about doing repairs quickly and were always very polite about letting you know when they'd be doing complex wide repairs, such as painting or checking on carbon monoxide alarms.\n\nThe staff is very friendly and helpful... but only for a few hours a day. RPM has extremely limited and unhelpfully short office hours, and they aren't the best about answering the phone during those office hours (which were reduced to around 4 hours a day recently), and the emergency off-hours phone number doesn't always work, and sometimes just rings their regular voicemail, which is highly unhelpful.\n\nThe pricing on these apartments is a bit much for what you're getting, but it's not a bad place to live and they're close to campus.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Marie Sullivan",
+        "rating": 4.0,
+        "review": "Ive lived in the New England Apartments for almost a year now. Weve had a lot of things that needed to be fixed, (sink replacement, refrigerator replacement, etc), but it was always done in a timely manner and the maintenance guy is so so friendly and pleasant. Theyre very good at responding to emails and concerns during the hours they are available, but those hours are quite limited. As far as I know its the only apartment complex they manage, so everything is very personal and I feel like they truly care about their tenants. The walls are thin, but not too thin, just hope you dont have noisy neighbors. I always feel safe in these apartments (we even fell asleep with the door unlocked by accident and nothing happened), and during winter break there was a package outside one of the doors that wasnt touched by ANYONE for nearly a month. I can walk to and from school in roughly 20 minutes. All around good apartments, only real complaints is that its pretty pricey for college students but its in a very convenient location, and parking can be pretty annoying (spots are small and people park like idiots sometimes) but there is a lot of street parking available. I plan to live here for the rest of my college career at Western.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Gavin Green",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Shakiya Griffith",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Natasha Nieman",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 3,
+  "adjusted_rating_average": 4.0
+}

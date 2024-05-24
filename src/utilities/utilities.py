@@ -118,7 +118,7 @@ def list_files(path):
         if file is not None:
             file_path = os.path.join(path, file)
             if os.path.isfile(file_path):
-                ret.append(getFileName(file_path))
+                ret.append(get_file_name(file_path))
     return ret
 
 
@@ -126,12 +126,12 @@ def copy_file(src, dest):
     shutil.copy(src, dest)
 
 
-def getFileTuple(path):
+def get_file_tuple(path):
     return os.path.split(path)
 
 
-def getFileName(path):
-    return getFileTuple(path)[1]
+def get_file_name(path):
+    return get_file_tuple(path)[1]
 
 
 def search(data, key, value):
@@ -150,31 +150,44 @@ def search_fuzzy(value, data):
     except:
         return None
     
-def calculate_adjusted_review_count(data, prefix_list):
+def calculate_adjusted_review_count(data):
     adjusted_count = 0
     adjusted_rating = 0.0
-    for prefix in prefix_list:
-        for review in data[f"{prefix}_reviews"]:
+    reviews_obj = data["reviews"]
+    keys = reviews_obj.keys()
+    for key in keys:
+        reviews = reviews_obj[key]
+        for review in reviews:
             if len(review["review"]) > 0:
                 adjusted_count += 1
                 adjusted_rating += review["rating"]
-        data["adjusted_review_count"] = adjusted_count
-        data["adjusted_review_average"] = round(adjusted_rating / adjusted_count, 1)
-    return data
+    return {
+        "adjusted_review_count" : adjusted_count,
+        "adjusted_rating_average": round(adjusted_rating / adjusted_count, 1) if adjusted_rating > 0 and adjusted_count > 0 else data["avg_rating"]
+    }
 
-def average_rating(data):
-    num_reviews = len(data)
-    rolling_sum_average = 0
-    for review in data:
-        rolling_sum_average += review["rating"]
-    return round(rolling_sum_average / num_reviews, 1)
+def calculate_average_rating(data):
+    reviews_obj = data["reviews"]
+    keys = reviews_obj.keys()
+    review_count = 0
+    rolling_average_sum = 0
+    for key in keys:
+        reviews = reviews_obj[key]
+        for review in reviews:
+            review_count+=1
+            rolling_average_sum += review["rating"]
+    
+    return {
+        "review_count": review_count,
+        "avg_rating": round(rolling_average_sum/review_count, 1)
+    }
 
 
 def merge_dir(inputPath, summaryPath):
     input_list = list_files(inputPath)
     with tempfile.TemporaryDirectory() as tempDir:
         for file in input_list:
-            file_name = getFileName(file)[1]
+            file_name = get_file_name(file)[1]
             with open(file, "r") as inputFile:
                 input_file_json = json.load(inputFile)
                 summary_file_path = summaryPath + file_name
@@ -193,14 +206,14 @@ def merge_dir(inputPath, summaryPath):
                 inputFile.close()
         tmp_files = list_files(tempDir)
         for tmp_file in tmp_files:
-            tmp_file_name = getFileName(tmp_file)[1]
+            tmp_file_name = get_file_name(tmp_file)[1]
             shutil.copy(tmp_file, summaryPath + tmp_file_name)
         shutil.rmtree(tempDir)
 
 
 def merge_file(inputPath, summaryPath):
     with tempfile.TemporaryDirectory() as tempDir:
-        file_name = getFileName(inputPath)[1]
+        file_name = get_file_name(inputPath)[1]
         with open(inputPath, "r") as inputFile:
             input_file_json = json.load(inputFile)
             with open("%s" % summaryPath, "r") as summaryFile:

@@ -1,0 +1,44 @@
+{
+  "name": "Kingsway Apartments",
+  "slug": "kingsway-apartments",
+  "company_type": "property",
+  "address": "4265 Creston Wy, Bellingham, WA 98226",
+  "review_count": 5,
+  "avg_rating": 4.8,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Gregory Feder",
+        "rating": 5.0,
+        "review": "Well-managed. Lovely units, great location. Only drawback is the adjacent construction.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Michael Neria",
+        "rating": 5.0,
+        "review": "Love this building. Granite tops, painted trim, soft close cabinets, nice common area and a fitness center.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jawaharlal Kakade",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Aarti Pingle",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kenna",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_rating_average": 5.0
+}

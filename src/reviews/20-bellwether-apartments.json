@@ -1,0 +1,32 @@
+{
+  "name": "20 Bellwether Apartments",
+  "slug": "20-bellwether-apartments",
+  "company_type": "property",
+  "address": "20 Bellwether Way, Bellingham, WA 98225",
+  "review_count": 3,
+  "avg_rating": 3.3,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "LeeAnn Cogert",
+        "rating": 2.0,
+        "review": "This is a non-smoking building where smoking is taking place.  If that is your cup of tea, move here.  If not, enforcement rarely can take place as the landlord relies on other tenants to take pics for proof.  That cannot happen if people are smoking inside their units.  Also, after the place filled up, there is a noticeable lack of maintenance.  As the area has become more traffic heavy, it has become less desirable as parking is not really plentiful and noise levels are high.  Also there is the train that has become more frequent over time.  The location's proximity to services is about all it has to offer other than a generally friendly group of tenants who reside there.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Robert Faitz",
+        "rating": 5.0,
+        "review": "Great place, love the view and location. Foot traffic is always people enjoying the weather, rarely are there street people who have nothing better to do. Lively during the weekend being next to the water and the only bummer is the regulars at the restaurants who take up parking spots.",
+        "ownerResponse": null
+      },
+      {
+        "author": "wj",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_rating_average": 3.5
+}

@@ -1,0 +1,32 @@
+{
+  "name": "The Turnstone",
+  "slug": "the-turnstone",
+  "company_type": "property",
+  "address": "1020 Railroad Ave, Bellingham, WA 98225",
+  "review_count": 3,
+  "avg_rating": 3.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Isabella kaufman geballe",
+        "rating": 3.0,
+        "review": "Alyssa is super nice, and has been so patient through my move out and the only reason for this three stars, other than that I dont know.",
+        "ownerResponse": null
+      },
+      {
+        "author": "J W",
+        "rating": 1.0,
+        "review": "Dont park in the parking garage.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Elizabeth Tobison",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_rating_average": 2.0
+}

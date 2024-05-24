@@ -1,0 +1,26 @@
+{
+  "name": "Bridge Creek Apartments",
+  "slug": "bridge-creek-apartments",
+  "company_type": "property",
+  "address": "272 E Bakerview Rd, Bellingham, WA 98226",
+  "review_count": 2,
+  "avg_rating": 2.5,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "American Classic",
+        "rating": 2.0,
+        "review": "The caregivers are not cleani g the places up and these apt are filthy, no toilet supplies like toilet paper\nand Kleenex. Clothes all over and . Disabled people so sweet but last time they had good Caregivers and it was clean but if caregivers let these apts fall Apart the people get sick and the vue of these buildings drop. It's a decent area. Ctaregivers do your job. Your. Boses are sweet and work hard! Your clients need you. Take them out more!!! Clean up and bosses...YOU TELL EM !!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Sheena Wilkerson",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_rating_average": 2.0
+}

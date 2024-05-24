@@ -1,0 +1,20 @@
+{
+  "name": "Bellingham Apartments",
+  "slug": "bellingham-apartments",
+  "company_type": "property",
+  "address": "3428 W McLeod Rd, Bellingham, WA 98225",
+  "review_count": 1,
+  "avg_rating": 1.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "David nagaria",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 0,
+  "adjusted_rating_average": 1.0
+}

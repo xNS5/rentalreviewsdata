@@ -1,0 +1,20 @@
+{
+  "name": "Rhododendron Court Apartments",
+  "slug": "rhododendron-court-apartments",
+  "company_type": "property",
+  "address": "1016-1020 24th St, Bellingham, WA 98225",
+  "review_count": 1,
+  "avg_rating": 3.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Katlyn Tin",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 0,
+  "adjusted_rating_average": 3.0
+}

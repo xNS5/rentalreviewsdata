@@ -1,0 +1,20 @@
+{
+  "name": "Trailview Apartments",
+  "slug": "trailview-apartments",
+  "company_type": "property",
+  "address": "2412 Rimland Dr, Bellingham, WA 98226",
+  "review_count": 1,
+  "avg_rating": 1.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Disgusted Mother",
+        "rating": 1.0,
+        "review": "There is a day care in this building! Why is it that Everytime I pick up my child I smell cigarettes \nThey are allowing children to be exposed to second hand smoke! ",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_rating_average": 1.0
+}

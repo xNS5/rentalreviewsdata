@@ -1,0 +1,26 @@
+{
+  "name": "Laurel Village",
+  "slug": "laurel-village",
+  "company_type": "property",
+  "address": "206 E Laurel St, Bellingham, WA 98225",
+  "review_count": 2,
+  "avg_rating": 4.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Danielle Seymour",
+        "rating": 5.0,
+        "review": "I live ther",
+        "ownerResponse": null
+      },
+      {
+        "author": "R Clark",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_rating_average": 5.0
+}

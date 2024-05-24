@@ -168,9 +168,6 @@ def get_company(driver, config):
             get_attribute(avg_rating_selector["by"]),
             avg_rating_selector["selector"],
         )
-
-        print(company_type, location, review_count)
-
     
         if company_type == None:
             print('Company Type is Null')

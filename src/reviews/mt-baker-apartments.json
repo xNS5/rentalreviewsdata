@@ -1,0 +1,44 @@
+{
+  "name": "Mt Baker Apartments",
+  "slug": "mt-baker-apartments",
+  "company_type": "property",
+  "address": "308 W Champion St, Bellingham, WA 98225",
+  "review_count": 5,
+  "avg_rating": 4.6,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Laura Sweet Mouse Rawes",
+        "rating": 5.0,
+        "review": "I live here they accept Section 8, low income which is really hard to find in Bellingham",
+        "ownerResponse": null
+      },
+      {
+        "author": "Denise Mercer",
+        "rating": 5.0,
+        "review": "I used to live here. I would love to move back. It was a very nice place to live then. Approx 12 yrs ago.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kevyn Jacobs",
+        "rating": 4.0,
+        "review": "I have lived here for almost 10 years. It's affordable clean and safe housing in downtown Bellingham.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Rising Horizon Gaming",
+        "rating": 5.0,
+        "review": "Living here has been the best thing that has happened to me. This place really saved my life",
+        "ownerResponse": null
+      },
+      {
+        "author": "Wes Turner",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 4,
+  "adjusted_rating_average": 4.8
+}

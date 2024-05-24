@@ -1,0 +1,62 @@
+{
+  "name": "Maplewood West Apartments",
+  "slug": "maplewood-west-apartments",
+  "company_type": "property",
+  "address": "2836 W Maplewood Ave, Bellingham, WA 98225",
+  "review_count": 8,
+  "avg_rating": 3.9,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Charlotte Jane",
+        "rating": 5.0,
+        "review": "Cute apartments with well tended yards, very nice inside, and fabulous neighborhood.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Steve",
+        "rating": 4.0,
+        "review": "Very well- managed and well maintained",
+        "ownerResponse": null
+      },
+      {
+        "author": "Tiger Woo",
+        "rating": 3.0,
+        "review": "Quiet neighborhood",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kelsey Florer",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mandi Meyers",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mike Linebrink",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Lenin Mendoza",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Tina Stensland",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 3,
+  "adjusted_rating_average": 4.0
+}

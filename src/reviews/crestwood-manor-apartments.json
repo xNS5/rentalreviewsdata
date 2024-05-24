@@ -1,0 +1,20 @@
+{
+  "name": "Crestwood Manor Apartments",
+  "slug": "crestwood-manor-apartments",
+  "company_type": "property",
+  "address": "2728 W Maplewood Ave Bellingham, WA 98225",
+  "review_count": 1,
+  "avg_rating": 1.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Jeffrey H.",
+        "rating": 1,
+        "review": "When I was a tenant at Crestwood Manor, it was an absolute nightmare. The property manager was extremely nosy and came to my door unannounced several times. She lost my rent checks THREE TIMES, would not fix ANYTHING in the apartment without being asked for weeks. My oven completely stopped working and she didn't get someone in to fix it for three weeks. I was completely without an oven for THREE WEEKS. Property manager lives in a house in the front of the place and there's always questionable looking people standing around and old beat up vehicles. It seemed like there might have been a lot of drug activity because some places had a LOT of traffic, and most of the tenants were pretty noisy. Doors slamming, yelling, music, knocking clear up until midnight sometimes. Glad I got out of there",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_rating_average": 1.0
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Walton Place",
+  "slug": "walton-place",
+  "company_type": "property",
+  "address": "1511 N State St, Bellingham, WA 98225",
+  "review_count": 6,
+  "avg_rating": 2.8,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Brooke Lynn",
+        "rating": 3.0,
+        "review": "For rent controlled apartments the ground level suites are nice, large apartments. Modern appliances, no frills. No air conditioning though. Proportions of living room size to bedrooms isn't ideal, unless you entertain and use the living room a lot. Second bedroom is office sized, not a full bedroom.\nMaster bedroom has great lighting from the wall of windows. High ceiling is the best feature.  Energy from the street. You need to be creative in positioning the furniture.\n\nMaintenance is all right but not consistent. Different person each time, some more helpful than others. Don't expect disability alterations the building isn't equipped for those despite what the ADA state law requires.\n\nThe application process needs improvement. Be prepared for confusing government forms and a month long process. It was traumatic.  Applying for government housing isn't the same as market rate, they don't follow the regular timelines of when you have to give notice to your previous landlord, they just tell you when you can move in at the last moment, so planning is difficult.\nMiscommunications occur frequently.   We had to spend a week in a hotel waiting for the forms to be processed, fearing we'd be homeless because we'd already used up our rent money. Sacrifices had to be made though.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Leah Steele",
+        "rating": 1.0,
+        "review": "Put a 150 dollar holding deposit that was refundable on an apartment and never got the money back after I decided to cancel on the apartment. Noted that the manager never disclosed there was a 3rd party involved with the money until after I inquired about getting my money back. What a dissapointment.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Evelyn Thompson",
+        "rating": 4.0,
+        "review": "I have lived here for over 5 years. It's great besides the occasional inspections and fire alarm testing.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jordan Graves",
+        "rating": 1.0,
+        "review": "If I could give 0 stars, I would. They took my application fee and an almost $200 holding fee and I never heard from them. No confirmation email, no phone call. Absolutely no follow up for months. I thought Id been scammed.\n\nRecieved a call several months later saying that they had a property manager quit on the spot. And that theyd get my money back to me. Its been months since then and Ive still heard nothing. Do not apply to this place. They will scam you out of your money. The lack of professionalism is insane.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Leann AZGirl Keith",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Daniel Crutchfield",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 4,
+  "adjusted_rating_average": 2.2
+}

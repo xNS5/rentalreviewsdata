@@ -1,0 +1,26 @@
+{
+  "name": "32nd St Apartments",
+  "slug": "32nd-st-apartments",
+  "company_type": "property",
+  "address": "705 32nd St, Bellingham, WA 98225",
+  "review_count": 2,
+  "avg_rating": 3.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Daniel Sherer",
+        "rating": 5.0,
+        "review": "Beautiful new apartments near shopping, the University and the freeway.",
+        "ownerResponse": null
+      },
+      {
+        "author": "levi montes",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_rating_average": 5.0
+}

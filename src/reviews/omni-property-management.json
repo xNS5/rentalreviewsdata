@@ -1,0 +1,50 @@
+{
+  "name": "OMNI Property Management",
+  "slug": "omni-property-management",
+  "company_type": "company",
+  "address": "909 Squalicum Way Ste 107 Bellingham, WA 98225",
+  "review_count": 5,
+  "avg_rating": 2.4,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Anon C.",
+        "rating": 1,
+        "review": "Quite possibly the worst management staff i have seen, yet.  Submitted an app and was told i was declined because they couldnt verify my business whis has been registered in Washington for 13yrs. Income verified over $8k/mo good references, zero late payments ever-  i habe never been denied and was confused, however after such a poor response, i have found it to be a blessing- professionals should be able and expected to locate a business at very least.",
+        "ownerResponse": {
+          "text": "We are sorry that you do not agree with our interpretation of the information submitted to us. I too do not agree with the information you have presented here. We do our best to evaluate the information presented and unfortunately, not all applications meet our qualifications. However, if an error was made and a correction and re-evaluation needs to be completed we are happy to do so.  Please feel free to reach out to our office and we will do our best to assist you in this matter. \nThank you, \nOMNI Property Management"
+        }
+      },
+      {
+        "author": "Christophe C.",
+        "rating": 1,
+        "review": "This company removed my google review. I will instead post it here since they are trying to silence me. \n\nI have text proof from an abusive, threatening, & insulting tenant in a condo unit that I legally own, that this company has been slandering me behind my back - which has also caused issues with this problem tenant becoming emboldened to think he can act like he owns my property and break contractual agreement while citing that the property management is in agreement that I am a \"problem\" (but how, as an owner of the condo, I never broke any rules and always paid HOA fees and never did anything for them to have a good reason to slander me?) is the gist of it. \n\nTo the point this problem tenant's threatening interactions with me lead me to believe I may need to contact police when going to inspect my own property. And I have already contacted Bellingham police.\n\nCompletely unprofessional and could be interpreted in court of law as committing slander/libel against me when interacting with my tenants - on my own legally owned property, and adversely affecting my ability to manage tenant living on my property that I legally own according to state and USA federal law.\n\nAnd.... it seems they pay google to get rid of negative reviews and artificially curate, or else why was my google review removed?",
+        "ownerResponse": {
+          "text": "It is unfortunate that this is the impression you perceived from the interactions you have had with our company.   We certainly have not conducted business in the way you have described. As we represent the Association Board in this situation and not you as the owner we do not have direct knowledge of your tenant relations.  Our company and the Board Association we represent have not had any such interactions with you or your tenant as you described. As we did not represent you in any way it is unclear what may have transpired between you and your tenant. We hope that this situation has been resolved and a more favorable tenant has been acquired by you.  We wish you the best of luck and look forward to continuing to assist you in the capacity of Association Manager."
+        }
+      },
+      {
+        "author": "Kevin S.",
+        "rating": 5,
+        "review": "Omni helped me out a lot when I first moved to Bellingham in July 2020. They provided me with a solid, affordable rental with minimal hassle, which is far from the experiences I had with other property management agencies who jerked me around and one of which even stole money from me. Omni, on the other hand, conducted themselves with integrity and were very easy to work with for the duration of my lease. When something needed to be fixed, they got it fixed. If there was some sort of miscommunication, they did not hesitate to clear it up. They were always very kind with me, and when I moved out, I received my entire security deposit back; apparently this is rare among Bellingham rental agencies, but I wouldn't know because I've only ever rented from Omni and they were awesome. If you are an honest, respectful person, they will provide those same qualities in return. Don't hesitate to reach out to them if you need a place to rent!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kyle L.",
+        "rating": 1,
+        "review": "OMNI declined rental application based on arbitrary requirements. Don't expect to be treated with respect or for the company to follow rental requirements when deciding to rent out a unit. According to the owners we were not the \"right\" tenant for the place and the owners just didn't like us. I wish I would have gotten to talk to the manager Lacey, because apparently she is the person to talk to but I was given the run around by Katy.",
+        "ownerResponse": {
+          "text": "Thank you for the feedback. It is unfortunate that you had such an unpleasant interaction with our company and if there is anything specific we can do to make any future interactions more pleasant I hope that you will reach out to us directly. I assure you that we follow all state and federal guidelines when reviewing applications and unfortunately in this competitive market we are unable to place everyone in the unit they desire. Thank you!"
+        }
+      },
+      {
+        "author": "Mark M.",
+        "rating": 4,
+        "review": "The ladies and Omni are very polite and helpful. They are following up on questions and the requests we have asked of them, it is night and day from our previous management company! THANK YOU!",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 5,
+  "adjusted_rating_average": 2.4
+}

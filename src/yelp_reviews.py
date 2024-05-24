@@ -66,8 +66,6 @@ my_headers = {
     "Authorization": f'Bearer {config["YELP_FUSION_KEY"]}',
 }
 
-CLEANR = re.compile("<.*?>")
-
 def filter(jsonObj):
     ret = []
     whitelist = utilities.get_yelp_whitelist()
@@ -80,7 +78,7 @@ def filter(jsonObj):
                     Business(
                         obj["name"],
                         obj["rating"],
-                        utilities.get_whitelist_types(obj["categories"]),
+                        obj["categories"],
                         " ".join(obj["location"]["display_address"]),
                         obj["review_count"],
                         obj["id"],
@@ -88,12 +86,6 @@ def filter(jsonObj):
                 )
                 break
     return ret
-
-def clean(string):
-    cleaned = html.unescape(re.sub(CLEANR, "", string))
-    encoded = cleaned.encode("ascii", "ignore")
-    decoded = encoded.decode()
-    return decoded
 
 def make_request(request, session, request_obj = None, user_agent = None):
     if request_obj:
@@ -113,7 +105,7 @@ def getComments(jsonObj):
         reviews = business["reviews"]["edges"]
         for review in reviews:
             data = review["node"]
-            text = clean(data["text"]["full"])
+            text = data["text"]["full"]
             author = data["author"]["displayName"]
             rating = data["rating"]
             ownerResponse = ""
@@ -192,7 +184,6 @@ def search_businesses(query_type_arr):
     # Returns array of Business objects
     return filter(ret)
 
-
 def search_list(list):
     ret = []
     seen = set()
@@ -215,16 +206,33 @@ def search_list(list):
     # Returns array of Business objects
     return filter(ret)
 
+def combine_manual(path):
+    file_list = utilities.list_files(path)
+    master_file_path = file_list[0]
+    master_file = open("./%s/%s" % (path, master_file_path), "r")
+    master_file_json = json.load(master_file)
+    master_file_data = master_file_json[0]["data"]["business"]
+    master_file_reviews = master_file_data["reviews"]["edges"]
 
+    for i in range(1, len(file_list)):
+        file = file_list[i]
+        with open("./%s/%s" % (path, file), "r") as inputFile:
+            input_file_json = json.load(inputFile)
+            input_reviews = input_file_json[0]["data"]["business"]["reviews"]["edges"]
+            master_file_reviews.extend(input_reviews)
+            inputFile.close()
 
 type = pyinput.inputMenu(
-    ["Companies", "Properties", "One-Off List", "All"], lettered=True, numbered=False
+    ["Companies", "Properties", "One-Off ID List", "Manual Combine", "All"], lettered=True, numbered=False
 ).lower()
 
 input_arr = []
 ret = []
 
-if type != "one-off list":
+if type == "manual combine":
+    pathArr = pyinput.inputStr("Directory Path: ").split(" ")
+
+elif type != "one-off list":
     if type == "all" or type.lower() == "companies":
         input_arr.append("companies")
     if type == "all" or type.lower() == "properties":

@@ -184,7 +184,7 @@ def get_company(driver, config):
             return
 
         location = location.text
-        company_type = utilities.get_whitelist_types(company_type.text)
+        company_type = company_type.text
         avg_rating = avg_rating.text
         review_count = review_count.text
         

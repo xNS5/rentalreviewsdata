@@ -169,7 +169,7 @@ class Business:
         return {
             "name": self.name,
             "slug": self.slug,
-            "company_type": self.company_type,
+            "company_type": utilities.get_whitelist_types(self.company_type),
             "address": self.address,
             "review_count": int(re.sub(NUMS, "", self.review_count)),
             "avg_rating": float(re.sub(NUMS,"", self.avg_rating)),

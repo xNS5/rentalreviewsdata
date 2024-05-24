@@ -130,10 +130,11 @@ def get_reviews(driver, config):
 def get_company(driver, config):
     nameSet = set()
 
+    company_title_selector = config["company_title"]
     company_title = check_if_exists(
         driver,
-        get_attribute(config["company_title"]["by"]),
-        config["company_title"]["selector"],
+        get_attribute(company_title_selector["by"]),
+        company_title_selector["selector"],
     )
 
     if company_title is not None and company_title.text not in nameSet:
@@ -168,22 +169,28 @@ def get_company(driver, config):
             avg_rating_selector["selector"],
         )
 
+        print(company_type, location, review_count)
+
     
         if company_type == None:
+            print('Company Type is Null')
             return
 
         if location == None or (
             "WA" not in location.text and "Washington" not in location.text
         ):
+            print("Location is Null or isn't based in WA")
             return
 
         if review_count is None:
+            print("Review count is Null")
             return
 
         location = location.text
         company_type = utilities.get_whitelist_types(company_type.text)
         avg_rating = avg_rating.text
         review_count = review_count.text
+        
 
         # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
         slug = utilities.get_slug(company_title)
@@ -277,7 +284,7 @@ with open("./google_input/config.json", "r") as configFile:
         url_list = pyinput.inputStr("Url List: ").split(" ")
         custom = True
         for url in url_list:
-            scrape_google_companies(None, url, config[-1])
+            scrape_google_companies(None, url, config[-1]["selectors"])
     else:
         for i in range(0, len(config) - 1):
             conf = config[i]

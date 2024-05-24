@@ -24,16 +24,16 @@ custom = False
 
 def get_attribute(strategy):
     strategies = {
-        "xpath": "XPATH",
-        "css_selector": "CSS_SELECTOR",
-        "id": "ID",
-        "name": "NAME",
-        "class_name": "CLASS_NAME",
-        "tag_name": "TAG_NAME",
-        "link_text": "LINK_TEXT",
-        "partial_link_text": "PARTIAL_LINK_TEXT",
+        "xpath": By.XPATH,
+        "css_selector": By.CSS_SELECTOR,
+        "id": By.ID,
+        "name": By.NAME,
+        "class_name": By.CLASS_NAME,
+        "tag_name": By.TAG_NAME,
+        "link_text": By.LINK_TEXT,
+        "partial_link_text": By.PARTIAL_LINK_TEXT,
     }
-    return getattr(By, strategies[strategy.upper()])
+    return strategies[strategy]
 
 
 def validate():
@@ -168,6 +168,7 @@ def get_company(driver, config):
             avg_rating_selector["selector"],
         )
 
+    
         if company_type == None:
             return
 

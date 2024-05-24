@@ -25,14 +25,14 @@
         },
         "avg_rating": {
           "by": "xpath",
-          "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[2]"
+          "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]"
         },
         "reviews_button": {
           "by": "xpath",
           "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]/div[2]"
         },
         "reviews_scrollable": {
-          "by": "xapth",
+          "by": "xpath",
           "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[3]"
         }
       }

@@ -221,6 +221,9 @@ def combine_manual(path):
             input_reviews = input_file_json[0]["data"]["business"]["reviews"]["edges"]
             master_file_reviews.extend(input_reviews)
             inputFile.close()
+    
+    review_obj = getComments(master_file_data)
+    businessObj = search_list([f"{master_file_data["encid"]}"])
 
 type = pyinput.inputMenu(
     ["Companies", "Properties", "One-Off ID List", "Manual Combine", "All"], lettered=True, numbered=False

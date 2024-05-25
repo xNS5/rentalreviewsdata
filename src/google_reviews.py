@@ -53,6 +53,12 @@ def scroll(driver, obj):
     scrollTopSet = set()
     while scrollTop not in scrollTopSet:
         scrollTopSet.add(scrollTop)
+                # If the review has a "See More" button, click it
+        more_buttons = driver.find_elements(By.CSS_SELECTOR, ".w8nwRe.kyuRq")
+
+        for button in more_buttons:
+            button.click()
+            
         driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", obj)
         scrollTop = driver.execute_script("return arguments[0].scrollTop", obj)
         time.sleep(3)
@@ -87,20 +93,16 @@ def get_reviews(driver, config):
 
         scroll(driver, scrollable)
 
-        # If the review has a "See More" button, click it
-        more_buttons = scrollable.find_elements(By.CSS_SELECTOR, ".w8nwRe.kyuRq")
-
-        for button in more_buttons:
-            button.click()
-
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         review_elements = soup.find_all("div", class_=re.compile("jftiEf"))
+        print(len(review_elements))
 
         reviews = []
         for review_element in review_elements:
             review_text = review_element.find("span", class_=re.compile("wiI7pd"))
             author = review_element.find("div", class_=re.compile("d4r55")).text
+            # print(author)
             owner_response_element = review_element.find(
                 "div", class_=re.compile("CDe7pd")
             )
@@ -195,6 +197,9 @@ def get_company(driver, config):
         nameSet.add(company_title)
 
         with open("./google_input/output/%s.json" % slug, "w") as outputFile:
+            reviews =  get_reviews(driver, config)
+
+            print(review_count, len(reviews))
             json.dump(
                 Business(
                     company_title,
@@ -203,7 +208,7 @@ def get_company(driver, config):
                     location,
                     review_count,
                     None,
-                    {"google_reviews": get_reviews(driver, config)},
+                    {"google_reviews": reviews},
                 ).to_dict(),
                 outputFile,
                 ensure_ascii=True,

@@ -3,8 +3,8 @@
   "slug": "forest-park-apartments",
   "company_type": "property",
   "address": "2605 W Maplewood Ave Bellingham, WA 98225",
-  "review_count": 3,
-  "avg_rating": 2.3,
+  "review_count": 12,
+  "avg_rating": 2.8,
   "reviews": {
     "yelp_reviews": [
       {
@@ -25,8 +25,64 @@
         "review": "I have been a tenant at Forest Park Apts for over 20 years.  I have never paid my rent late except for this month - I was 2 days late because I simply forgot.  They put a late notice on my door for the rent plus a $50 late fee.  I immediately went to the office and dropped off my check and a letter indicating that I didn't believe I deserved to pay the late fee considering my record and long tenancy.  Royce Group sent me a letter stating I still owed $50 so I called them (Michelle Saab) thinking that perhaps they didn't get my letter begging off the late fee.  That was not the case.  She did get my letter but didn't care.  She said 30 other people were late, too.  I replied that I know for a fact no one has lived there longer than me - not even close - and that maybe I should consider giving my notice.  Her reply was \"okay.\"  \n\nA Complete lack of respect and loyalty to a very long time tenant that has never paid rent late!  Really??\n\n\nSHAME ON YOU!!",
         "ownerResponse": null
       }
+    ],
+    "google_reviews": [
+      {
+        "author": "Halfkin Rainbolt",
+        "rating": 4.0,
+        "review": "I moved in,  early 2022, shortly after the business was bought by a new company. I have had a wonderful experience with the management and no problems to speak of. The maintenance is good, prompt and friendly. I recommend this to others. Recently, 2024, the management has put a lot of effort into improvements! New decks, and new heating systems that will also serve as air conditioners in summer.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Lynda Galbraith",
+        "rating": 4.0,
+        "review": "We delivered to a nice lady here. The one bedroom was nice size. Nice inside. Seems quiet",
+        "ownerResponse": null
+      },
+      {
+        "author": "Andrew Davis",
+        "rating": 5.0,
+        "review": "Recently tenents have been complaining about high rent increassess at Forest park apartments.  It appears to me this is primarily the result of the high inflation, nationally.  SUHRCO is the new company managing Forest Park apartments.  To their credit, they have done  some very expensive and necessary repairs to the apartment complex. Including extensive water damage to two of the apartments,  broken windows and parking lot lighting fixtures. I do appreciate the expensive repairs that they have done, lately.\n\nAndrew Davis     6-2-2022",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mesake Tudrau",
+        "rating": 1.0,
+        "review": "It's  an old apartment with high rent. I suppose to get a refund back but it seems like they don't bother. A stubborn officer with not very friendly approach in the ofgice.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Tasha Beckham",
+        "rating": 1.0,
+        "review": "We needed a new washer and they brought over a used dirty one and it started spitting all this dirty and stuff but now my kids blankets smell so bad and have stuff all over it smh",
+        "ownerResponse": null
+      },
+      {
+        "author": "make America great again",
+        "rating": 1.0,
+        "review": "They fail to tell you that a methadone clinic is across the street.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Milangela Diaz",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "M B",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Lisa's World",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
     ]
   },
-  "adjusted_review_count": 3,
-  "adjusted_rating_average": 2.3
+  "adjusted_review_count": 9,
+  "adjusted_rating_average": 2.6
 }

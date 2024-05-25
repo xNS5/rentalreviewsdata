@@ -1,4 +1,4 @@
-from .utilities import list_files, copy_file, get_file_name, get_file_tuple, get_slug
+from .utilities import list_files, list_directories, copy_file, get_file_name, get_file_tuple, get_slug
 from .utilities import calculate_adjusted_review_count, calculate_average_rating
 from .utilities import search, search_fuzzy
 from .utilities import merge_dir, merge_file

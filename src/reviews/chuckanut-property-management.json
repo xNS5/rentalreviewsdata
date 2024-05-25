@@ -3,8 +3,8 @@
   "slug": "chuckanut-property-management",
   "company_type": "company",
   "address": "2100 Iron St Bellingham, WA 98225",
-  "review_count": 44,
-  "avg_rating": 1.8,
+  "review_count": 51,
+  "avg_rating": 1.9,
   "reviews": {
     "yelp_reviews": [
       {
@@ -271,8 +271,52 @@
         "review": "I rented from Chuckanut for one school year. They gave me 2 keys to the room I rented in a house. One of the keys was for a door that was rarely locked. One night, this particular door was locked and the key did not fit in the lock.  I was new to town, and did not know anybody local so I called the emergency number that Chuckanut provided. No one answered and never called me back.  I had no choice but to sleep on the stairwell outside of this locked door. I could have been robbed or harmed since I wasn't shielded from potential intruders.  The next morning, I caught a bus to the rental office. The lady working there said \"try this key\". I had to ASK for transportation back to my apartment. She agreed to drive me. It seemed to me that it didn't matter that I was kept out of my apartment for an entire night, causing me to miss work the next day. My rent wasn't even prorated. And to top it off, they decided to install a sunlight in our kitchen's ceiling WITHOUT INFORMING US. I arrived home one day to find a man sawing into the ceiling while white dust fell onto appliances, dishes, counters, and the floor. It's like, thanks for all the asbestos, I really appreciate it when I have to clean up my kitchen because YOU failed to do your job correctly! AVOID THIS BUSINESS--THEY DON'T RESPECT YOU!!!!!!",
         "ownerResponse": null
       }
+    ],
+    "google_reviews": [
+      {
+        "author": "BH QE",
+        "rating": 1.0,
+        "review": "Horrible property management company.  They didn't do thinks they said they would do to clean the house before I moved in, they made me wait weeks for every essential repair I ever requested and they charged me with huge fees that were not in any way warranted when I moved out which has hurt my credit report.  I would avoid them at all costs.  I would give them 0 stars if that was possible.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Ted Smith",
+        "rating": 1.0,
+        "review": "We lived in a CPM house in Bellingham back when it was all we could afford.  It took us over a week to clean the place before we felt safe to move in because the house was absolutely filthy.  All of the outlets and garbage disposal were used up and I did all of the repair work because CPM would not respond. One Sunday morning the fire detector went off and we called the fire department because we smelled smoke. It turned out that the HVAC system didnt have a filter and was full of dust, which had caught fire.  When we were finally able to move out of this disaster, CPM charged us a $75 fee to clean the oven (which was filthy when we moved in) and when my 8-month pregnant wife went in to contest the charge, the manager wouldnt budge and told her he was charging us Because I can!  Female renters beware!  Sexist, chauvinistic, dominant male management that will treat you like the little woman!!!",
+        "ownerResponse": null
+      },
+      {
+        "author": "B LH",
+        "rating": 1.0,
+        "review": "I lived in a Chuckanut Property Managements rental for almost 2 years and the experience was terrible from beginning to end. Most importantly, they did not even respond to my requests for repairs for weeks. I had to get the name of the home owner via property records and contact him on LinkedIn and get him involved before they made any effort to repair things in the house. They left me with a broken refrigerator for weeks. They left a fence in the backyard down after a windstorm for over a month. I had to contact the owner every time for him to contact Chuckanut before they even acknowledged my requests. They didnt clean carpets or the house as promised before I moved in; the lady who did the lease signing with me was rude to my children and to myself. I moved out after proper notice, etc and after I moved out on the designated date and left the keys on the counter, they charged me for an additional months rent because when I moved out I didnt take the keys to their office. I left them on the kitchen counter as I have in rentals before. They also charged me various bogus charges after moving out. Chuckanut reported to credit agencies that I owed this extra month plus the bogus charges. Ive never experienced a worse property management company.",
+        "ownerResponse": null
+      },
+      {
+        "author": "George Hartdegen IV",
+        "rating": 5.0,
+        "review": "Great property mgmt company.!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Auston Olapas YouTube",
+        "rating": 5.0,
+        "review": "5 stars for spelling the name wrong, yiu cant make this up!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kyana Emley",
+        "rating": 1.0,
+        "review": "ABSOLUTELY THE WIRST PROPERTY MANAGEMENT IN BELLINGHAM",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jenna Kennedy",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      }
     ]
   },
-  "adjusted_review_count": 44,
-  "adjusted_rating_average": 1.8
+  "adjusted_review_count": 50,
+  "adjusted_rating_average": 1.9
 }

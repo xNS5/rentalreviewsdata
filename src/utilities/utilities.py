@@ -4,6 +4,7 @@ import json
 import tempfile
 import shutil
 import re
+from collections import defaultdict 
 from thefuzz import process
 
 # sys.path.append(os.path.dirname(os.path.realpath(__file__)))
@@ -119,7 +120,17 @@ def list_files(path):
             file_path = os.path.join(path, file)
             if os.path.isfile(file_path):
                 ret.append(get_file_name(file_path))
-    return ret
+    return sorted(ret)
+
+def list_directories(path):
+    ret = []
+    input = os.listdir(path)
+    for file in input:
+        if file is not None:
+            file_path = os.path.join(path, file)
+            if not os.path.isfile(file_path):
+                ret.append(get_file_name(file_path))
+    return sorted(ret)
 
 
 def copy_file(src, dest):
@@ -131,7 +142,7 @@ def get_file_tuple(path):
 
 
 def get_file_name(path):
-    return get_file_tuple(path)[1]
+    return str(get_file_tuple(path)[1])
 
 
 def search(data, key, value):
@@ -150,33 +161,38 @@ def search_fuzzy(value, data):
     except:
         return None
     
-def calculate_adjusted_review_count(data):
-    adjusted_count = 0
-    adjusted_rating = 0.0
+def get_all_reviews(data):
     reviews_obj = data["reviews"]
     keys = reviews_obj.keys()
+    ret = []
     for key in keys:
-        reviews = reviews_obj[key]
-        for review in reviews:
-            if len(review["review"]) > 0:
-                adjusted_count += 1
-                adjusted_rating += review["rating"]
+        ret.extend(reviews_obj[key])
+    return ret
+    
+    
+def calculate_adjusted_review_count(data):
+    reviews = get_all_reviews(data)
+    adjusted_count = 0
+    adjusted_rating = 0.0
+    
+    for review in reviews:
+        if len(review["review"]) > 0:
+            adjusted_count += 1
+            adjusted_rating += review["rating"]
+
     return {
         "adjusted_review_count" : adjusted_count,
         "adjusted_rating_average": round(adjusted_rating / adjusted_count, 1) if adjusted_rating > 0 and adjusted_count > 0 else data["avg_rating"]
     }
 
 def calculate_average_rating(data):
-    reviews_obj = data["reviews"]
-    keys = reviews_obj.keys()
+    reviews = get_all_reviews(data)
+    print(data["name"], len(reviews))
     review_count = 0
     rolling_average_sum = 0
-    for key in keys:
-        reviews = reviews_obj[key]
-        for review in reviews:
-            review_count+=1
-            rolling_average_sum += review["rating"]
-    
+    for review in reviews:
+        review_count+=1
+        rolling_average_sum += review["rating"]
     return {
         "review_count": review_count,
         "avg_rating": round(rolling_average_sum/review_count, 1)

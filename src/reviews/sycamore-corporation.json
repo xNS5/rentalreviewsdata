@@ -3,8 +3,8 @@
   "slug": "sycamore-corporation",
   "company_type": "company",
   "address": "1200 Harris Ave Ste 413 Bellingham, WA 98225",
-  "review_count": 1,
-  "avg_rating": 5.0,
+  "review_count": 6,
+  "avg_rating": 3.2,
   "reviews": {
     "yelp_reviews": [
       {
@@ -13,8 +13,48 @@
         "review": "Sycamore Square\n\nThe famous beautiful brick building on the corner of 12th and Harris in Fairhaven was built in 1890 and still charms tourists and visitors alike. Make sure to reserve a whole afternoon to spend at this unique indoor shopping community. \n\nStroll through Sycamore Square and find a wide variety of shops, restaurants, spa services, with 12th Street Shoes, Mambo and The Black Cat being among the most famous. What a  unique building to dine, browse and shop in Bellingham. Many professional offices round out this beautiful space. Big plus with plenty of parking (which is tough to find sometimes in Fairhaven) Sycamore Square owns the  parking lot on the corner of 13th and Harris.",
         "ownerResponse": null
       }
+    ],
+    "google_reviews": [
+      {
+        "author": "Skylar Smith",
+        "rating": 5.0,
+        "review": "Sycamore Square building is awesome! The history is sooo much fun to learn about. I invite you all to go to \"the creepy corner\" and see if you feel anything/anyone with you...",
+        "ownerResponse": null
+      },
+      {
+        "author": "Si H",
+        "rating": 1.0,
+        "review": "Extremely unprofessional. Doesn't answer calls during business hours and didn't respond to voicemails. When we did get in contact with the company, we were met with very unfriendly responses, almost giving us the feeling that we were an inconvenience to the employees. We were told that we would get the apartment we applied for and heard nothing back for two weeks. Then we received an email saying they had given it to someone else, wasting our time which could have been spent looking for other places. If you are looking for a competent, trusted property management company please look elsewhere.",
+        "ownerResponse": {
+          "text": "Hi Simon,\nI'm so sorry that was your experience with us. Recently we did undergo a change in staff and property management. If you're ever looking into another apartment don't be afraid to call and set up an appointment. We'd love another chance to change your mind!"
+        }
+      },
+      {
+        "author": "Steve Skippy Austin",
+        "rating": 2.0,
+        "review": "Need to get their act together. Lawns are un kept and land shaping sucks. Parking lots need striping. Rent is prohibitive.",
+        "ownerResponse": {
+          "text": "Hi Steve,\nI'm so sorry about your experience. Recently we did undergo a change in management and staff. We appreciate your continued patronage! If there is ever another issue feel free to contact us personally, and we will do our best to rectify the situation!"
+        }
+      },
+      {
+        "author": "Jesse",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": {
+          "text": "Dear Jesse Graf,\n\nWe assume that based on this one star review of our management firm that you are displaying your frustration for the timeframe for repair of your back slider door at Briarwood Terrace Apartments.  \n\nWe do understand your frustration; however, please understand that glass companies are booked 6-8 weeks out, and the timeline for repair is outside of our control.  \n\nYour glass door was not the only one which ended up broken due to a stray rock during landscaping, and we are doing our very best to get this repaired.  \n\nWe ask that you look for better ways to communicate your frustrations to our office other that resorting to petty reviews."
+        }
+      },
+      {
+        "author": "Viet Le",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": {
+          "text": "Thank you for your review! We are pleased to serve our tenants and owners!"
+        }
+      }
     ]
   },
-  "adjusted_review_count": 1,
-  "adjusted_rating_average": 5.0
+  "adjusted_review_count": 4,
+  "adjusted_rating_average": 3.2
 }

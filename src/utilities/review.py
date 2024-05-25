@@ -58,9 +58,11 @@ class Review:
 
     # Convert to dictionary
     def to_dict(self):
+        if isinstance(self.rating, str):
+            self.rating = float(re.sub(NUMS, "", self.rating))
         return {
             "author": clean(self.author),
-            "rating": float(re.sub(NUMS, "", self.rating)),
+            "rating": self.rating,
             "review": clean(self.review),
             "ownerResponse": (
                 {"text": clean(self.ownerResponse)} if self.ownerResponse is not None else None
@@ -166,13 +168,18 @@ class Business:
 
     # Convert to dictionary
     def to_dict(self):
+        if isinstance(self.review_count, str):
+            self.review_count = int(re.sub(NUMS, "", self.review_count))
+        if isinstance(self.avg_rating, str):
+            self.avg_rating = float(re.sub(NUMS,"", self.avg_rating))
+
         return {
             "name": self.name,
             "slug": self.slug,
             "company_type": utilities.get_whitelist_types(self.company_type),
             "address": self.address,
-            "review_count": int(re.sub(NUMS, "", self.review_count)),
-            "avg_rating": float(re.sub(NUMS,"", self.avg_rating)),
+            "review_count": self.review_count,
+            "avg_rating": self.avg_rating,
             "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()}
         }
 

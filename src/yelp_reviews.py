@@ -8,6 +8,7 @@ import re
 import random
 import time
 import utilities
+import traceback
 from utilities import Review, Business
 from requests import Request, Session
 
@@ -66,38 +67,58 @@ my_headers = {
     "Authorization": f'Bearer {config["YELP_FUSION_KEY"]}',
 }
 
-def filter(jsonObj):
-    ret = []
+def get_business(input_list):
     whitelist = utilities.get_yelp_whitelist()
-    for obj in jsonObj:
-        if obj["location"]["country"] != "US":
-            continue
-        for category in obj["categories"]:
-            if category["alias"] in whitelist:
-                ret.append(
-                    Business(
-                        obj["name"],
-                        obj["rating"],
-                        obj["categories"],
-                        " ".join(obj["location"]["display_address"]),
-                        obj["review_count"],
-                        obj["id"],
+    if isinstance(input_list, list):
+        ret = []
+        for obj in input_list:
+            if obj["location"]["country"] != "US":
+                continue
+            for category in obj["categories"]:
+                if category["alias"] in whitelist:
+                    ret.append(
+                        Business(
+                            obj["name"],
+                            obj["rating"],
+                            obj["categories"],
+                            " ".join(obj["location"]["display_address"]),
+                            obj["review_count"],
+                            obj["id"],
+                        )
                     )
-                )
-                break
-    return ret
-
+                    break
+        return ret
+    elif isinstance(input_list, dict):
+        input_obj = input_list
+        if input_obj["location"]["country"] != "US":
+            return
+        for category in input_obj["categories"]:
+            if category["alias"] in whitelist:
+               return Business(
+                        input_obj["name"],
+                        input_obj["rating"],
+                        input_obj["categories"],
+                        " ".join(input_obj["location"]["display_address"]),
+                        input_obj["review_count"],
+                        input_obj["id"],
+                    )
+                
+    
 def make_request(request, session, request_obj = None, user_agent = None):
-    if request_obj:
-        request.json = request_obj
-    if user_agent:
-        request.user_agent = user_agent
+    try:
+        if request_obj:
+            request.json = request_obj
+        if user_agent:
+            request.user_agent = user_agent
 
-    prepared_request = request.prepare()
-    response = session.send(prepared_request)
-    return response
+        prepared_request = request.prepare()
+        response = session.send(prepared_request)
+        return response
+    except Exception:
+        traceback.print_exc()
 
-def getComments(jsonObj):
+
+def get_comments(jsonObj):
     ret = []
     business = jsonObj[0]["data"]["business"]
     review_count = business["reviewCount"]
@@ -141,13 +162,11 @@ def query(data):
             if response.ok:
 
                 res_json = json.loads(response.content.decode())
-                ret = getComments(res_json)
+                ret = get_comments(res_json)
 
                 business.reviews = {"yelp_reviews": ret}
 
-                filePath = "./yelp_input/output/%s.json" % business.slug
-
-                with open(filePath, "w") as outFile:
+                with open(f"./yelp_input/output/{business.slug}.json", "w") as outFile:
                     json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)
                     outFile.close()
             else:
@@ -182,48 +201,67 @@ def search_businesses(query_type_arr):
                         ret.append(business)
     
     # Returns array of Business objects
-    return filter(ret)
+    return get_business(ret)
 
-def search_list(list):
+def search_list(input):
     ret = []
     seen = set()
     session = Session()
 
-    for id in list:
-        url = f"https://api.yelp.com/v3/businesses/{id}"
+    if isinstance(input, list):
+        for id in input:
+            url = f"https://api.yelp.com/v3/businesses/{id}"
+            response = make_request(Request("GET", url, headers=my_headers), session)
+            if response.ok:
+                response_json = json.loads(response.text)
+                if len(response_json["businesses"]) == 0:
+                    break
+                else:
+                    for business in response_json["businesses"]:
+                        if business["name"] in seen:
+                            continue
+                        seen.add(business["name"])
+                        ret.append(business)
+        return get_business(ret)
+    elif isinstance(input, str):
+        url = f"https://api.yelp.com/v3/businesses/{input}"
         response = make_request(Request("GET", url, headers=my_headers), session)
         if response.ok:
             response_json = json.loads(response.text)
-            if len(response_json["businesses"]) == 0:
-                break
-            else:
-                for business in response_json["businesses"]:
-                    if business["name"] in seen:
-                        continue
-                    seen.add(business["name"])
-                    ret.append(business)
+            return get_business(response_json)
     
     # Returns array of Business objects
-    return filter(ret)
+
 
 def combine_manual(path):
     file_list = utilities.list_files(path)
     master_file_path = file_list[0]
     master_file = open("./%s/%s" % (path, master_file_path), "r")
     master_file_json = json.load(master_file)
+    master_file.close()
     master_file_data = master_file_json[0]["data"]["business"]
     master_file_reviews = master_file_data["reviews"]["edges"]
+
+    businessObj = search_list(f"{master_file_data['encid']}")
+
+    reviews = []
 
     for i in range(1, len(file_list)):
         file = file_list[i]
         with open("./%s/%s" % (path, file), "r") as inputFile:
             input_file_json = json.load(inputFile)
-            input_reviews = input_file_json[0]["data"]["business"]["reviews"]["edges"]
-            master_file_reviews.extend(input_reviews)
             inputFile.close()
-    
-    review_obj = getComments(master_file_data)
-    businessObj = search_list([f"{master_file_data["encid"]}"])
+            input_reviews = input_file_json[0]["data"]["business"]["reviews"]["edges"]
+            reviews.extend(input_reviews)
+
+    master_file_reviews.extend(reviews)
+    review_obj = get_comments(master_file_json)
+    businessObj.reviews = {"yelp_reviews": review_obj}
+
+    with open(f"./yelp_input/output/{businessObj.slug}.json", "w") as outFile:
+        json.dump(businessObj.to_dict(), outFile, ensure_ascii=True, indent=2)
+        outFile.close()
+
 
 type = pyinput.inputMenu(
     ["Companies", "Properties", "One-Off ID List", "Manual Combine", "All"], lettered=True, numbered=False
@@ -232,9 +270,17 @@ type = pyinput.inputMenu(
 input_arr = []
 ret = []
 
-if type == "manual combine":
-    pathArr = pyinput.inputStr("Directory Path: ").split(" ")
 
+if type == "manual combine":
+    directories = utilities.list_directories("./manual_extraction/")
+    directories.append("All")
+    selected_manual_path = pyinput.inputMenu(directories, numbered=False, lettered=True).lower()
+    if selected_manual_path == "all":
+        for i in range(0, len(directories)-1):
+            path = directories[i]
+            combine_manual(f"./manual_extraction/{path}/")
+    else:
+        combine_manual(f"./manual_extraction/{selected_manual_path}/")
 elif type != "one-off list":
     if type == "all" or type.lower() == "companies":
         input_arr.append("companies")

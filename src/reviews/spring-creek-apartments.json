@@ -3,8 +3,8 @@
   "slug": "spring-creek-apartments",
   "company_type": "property",
   "address": "196 E Kellogg Rd Apt L2 Bellingham, WA 98226",
-  "review_count": 2,
-  "avg_rating": 3.0,
+  "review_count": 11,
+  "avg_rating": 3.5,
   "reviews": {
     "yelp_reviews": [
       {
@@ -19,8 +19,64 @@
         "review": "My partner, brother, and I called this complex to gather more information for a 2 bed/1 bath unit as we are planning to move to Washington in the next few months. We were in the process of being put on the wait list when they asked \"Will it be a family moving in?\" When we explained it would be us three she immediately told us that they wouldn't be able to accept us. We were confused because my partner and I have been living in other apartment units in California together for the past three years and have had no issues regarding us not being a hetero-normative married couple. We further asked why that was an issue and she explained that they've had problems with people breaking leases that made it difficult for the property management. We were trying to explain how discriminatory this sounded while explaining our situation and she said, \"Well this isn't the right place for you then\" and hung up. I have never had an experience quite as homophobic as this. If possible to give a 0 star I would.",
         "ownerResponse": null
       }
+    ],
+    "google_reviews": [
+      {
+        "author": "Storrie Morrow",
+        "rating": 5.0,
+        "review": "My partner and I have lived here for almost 2 years now, and I couldn't have imagined a better place for us to land. The complex has a lot of amenities. I love the sense of community I've felt here. My neighbors and the staff are so welcoming and quick to fix any issues that have come up. And the location in Bellingham is very convenient.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Luke Rose",
+        "rating": 5.0,
+        "review": "Latisha and her staff were absolutely wonderful the year I lived here. They have strict rules in place which Makes for a wonderful experience both inside and outside of the apartments. They were very attentive to any fixing needs, usually fixing appliances and such within the hour of me calling them. The recently remodeled apartments are absolutely beautiful inside. I would highly Recommend them to anyone looking for a quiet, nicely kept, and well run apartment complex.",
+        "ownerResponse": null
+      },
+      {
+        "author": "John Currier",
+        "rating": 5.0,
+        "review": "I lived here for 5 years after I got divorced.  It was a great home.  The staff was always wonderful to deal with, and 7 years later they're all still there.  The recent remodel looks wonderful and they make a genuine effort to make everyone feel that this is their home.  The opportunity for a large garden is rare for an apartment, and the grounds are amazing.  Walking trails, an old growth apple orchard, etc.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kate Schultehenrich",
+        "rating": 1.0,
+        "review": "My partner, brother, and I called this complex to gather more information for a 2 bed/1 bath unit as we are planning to move to Washington in the next few months. We were in the process of being put on the wait list when they asked \"Will it be a family moving in?\" When we explained it would be us three she immediately told us that they wouldn't be able to accept us. We were confused because my partner and I have been living in other apartment units in California together for the past three years and have had no issues regarding us not being a hetero-normative married couple. We further asked why that was an issue and she explained that they've had problems with people breaking leases that made it difficult for the property management. We were trying to explain how discriminatory this sounded while explaining our situation and she said, \"Well this isn't the right place for you then\" and hung up. I have never had an experience quite as homophobic as this. If possible to give a 0 star I would.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Ai Leen",
+        "rating": 1.0,
+        "review": "The community is okay, amenities are average BUT the manager is RUDE & OBNOXIOUS! She is very condescending, arrogant & really really rude. Walls are thin so be prepared to hear your neighbor snore & other things that happens at night that should be private between couples.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Dr Brenda Kotewa",
+        "rating": 5.0,
+        "review": "The staff here is responsive, friendly, and compassionate. They consider their renters part of their family and plan events accordingly. No discrimination here based on ability, ethnicity, religious beliefs, or gender diversity. Been here five years and no plans to move from this awesome location.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Ellie R.",
+        "rating": 1.0,
+        "review": "The apartment itself is cheaply made and the walls are so thin so you can hear your neighbors even if they are having a normal conversation. The manager and maintenance team are great, though.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mia C",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Joe Chavira",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
     ]
   },
-  "adjusted_review_count": 2,
-  "adjusted_rating_average": 3.0
+  "adjusted_review_count": 9,
+  "adjusted_rating_average": 3.2
 }

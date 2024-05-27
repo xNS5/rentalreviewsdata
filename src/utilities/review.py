@@ -178,8 +178,8 @@ class Business:
             "slug": self.slug,
             "company_type": utilities.get_whitelist_types(self.company_type),
             "address": self.address,
-            "review_count": self.review_count,
-            "avg_rating": self.avg_rating,
+            "displayed_review_count": self.review_count,
+            "displayed_avg_rating": self.avg_rating,
             "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()}
         }
 

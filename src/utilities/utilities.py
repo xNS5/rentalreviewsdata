@@ -193,8 +193,8 @@ def calculate_average_rating(data):
         review_count+=1
         rolling_average_sum += review["rating"]
     return {
-        "review_count": review_count,
-        "avg_rating": round(rolling_average_sum/review_count, 1)
+        "actual_review_count": review_count,
+        "actual_avg_rating": round(rolling_average_sum/review_count, 1)
     }
 
 

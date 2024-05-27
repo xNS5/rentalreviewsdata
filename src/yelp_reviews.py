@@ -28,7 +28,9 @@ user_agent_list = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36 Edg/100.0.0.0",
     "Mozilla/5.0 (iPad; CPU OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1",
 ]
-
+after = [
+    None, "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoyOX0=","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0Ijo2OX0="
+]
 # Might need to copy the request headers from an existing request prior to initiating
 requestObj = [
     {
@@ -148,21 +150,22 @@ def query(data):
     session = Session()
     url = "https://www.yelp.com/gql/batch"
 
-    for business in data:
-        if business.review_count <= 53:
-            user_agent = user_agent_list[random.randint(0, len(user_agent_list) - 1)]
+    for i, business in enumerate(data):
+        user_agent = user_agent_list[random.randint(0, len(user_agent_list) - 1)]
 
-            print(business.name)
+        print(business.name)
 
-            requestObj[0]["variables"]["encBizId"] = business.id
+        requestObj[0]["variables"]["encBizId"] = business.id
+        if business.review_count < 43 :
             requestObj[0]["variables"]["reviewsPerPage"] = business.review_count
 
             response = make_request(Request("POST", url), session, requestObj, user_agent)
 
             if response.ok:
-
                 res_json = json.loads(response.content.decode())
                 ret = get_comments(res_json)
+
+
 
                 business.reviews = {"yelp_reviews": ret}
 
@@ -190,7 +193,7 @@ def search_businesses(query_type_arr):
             i += 50
             response = make_request(Request("GET", url, headers=my_headers), session)
             if response.ok:
-                response_json = json.loads(response.text)
+                response_json = json.loads(response.content.decode())
                 if len(response_json["businesses"]) == 0:
                     break
                 else:
@@ -213,7 +216,7 @@ def search_list(input):
             url = f"https://api.yelp.com/v3/businesses/{id}"
             response = make_request(Request("GET", url, headers=my_headers), session)
             if response.ok:
-                response_json = json.loads(response.text)
+                response_json = json.loads(response.content.decode())
                 if len(response_json["businesses"]) == 0:
                     break
                 else:
@@ -227,10 +230,8 @@ def search_list(input):
         url = f"https://api.yelp.com/v3/businesses/{input}"
         response = make_request(Request("GET", url, headers=my_headers), session)
         if response.ok:
-            response_json = json.loads(response.text)
-            return get_business(response_json)
-    
-    # Returns array of Business objects
+            response_json = json.loads(response.content.decode())
+            return get_business([response_json])
 
 
 def combine_manual(path):
@@ -281,18 +282,19 @@ if type == "manual combine":
             combine_manual(f"./manual_extraction/{path}/")
     else:
         combine_manual(f"./manual_extraction/{selected_manual_path}/")
-elif type != "one-off list":
+elif type == "one-off id list":
+      #  Must be space-seprated list
+    input_list = pyinput.inputStr("Business IDs: ", blank=False)
+    input_list = input_list.replace(r'\s+', r'\s')
+    ret = search_list(input_list)
+
+else:
     if type == "all" or type.lower() == "companies":
         input_arr.append("companies")
     if type == "all" or type.lower() == "properties":
         input_arr.append("properties")
 
     ret = search_businesses(input_arr)
-else:
-    #  Must be space-seprated list
-    input_list = pyinput.inputStr("Business IDs: ", blank=False)
-    input_list = input_list.replace(r'\s+', r'\s').split(" ")
-    ret = search_list(input_list)
-
+  
 
 query(ret)

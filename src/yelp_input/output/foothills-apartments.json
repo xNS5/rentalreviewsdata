@@ -3,8 +3,8 @@
   "slug": "foothills-apartments",
   "company_type": "property",
   "address": "1320 Lakeway Dr Ste 100 Bellingham, WA 98229",
-  "displayed_review_count": 1,
-  "displayed_avg_rating": 1.0,
+  "review_count": 1,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

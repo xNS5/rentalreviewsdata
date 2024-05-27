@@ -3,8 +3,8 @@
   "slug": "ed-finlan-group",
   "company_type": "company",
   "address": "425 Commercial St Ste 200 Mount Vernon, WA 98273",
-  "displayed_review_count": 5,
-  "displayed_avg_rating": 4.2,
+  "review_count": 5,
+  "average_rating": 4.2,
   "reviews": {
     "yelp_reviews": [
       {

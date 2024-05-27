@@ -3,8 +3,8 @@
   "slug": "maplewood-apartments",
   "company_type": "property",
   "address": "2849 W Maplewood Ave Apt C2 Bellingham, WA 98225",
-  "displayed_review_count": 2,
-  "displayed_avg_rating": 1.0,
+  "review_count": 2,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

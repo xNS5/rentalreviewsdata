@@ -3,8 +3,8 @@
   "slug": "emb-management",
   "company_type": "company",
   "address": "15301 NE 90th St Ste 170 Redmond, WA 98052",
-  "displayed_review_count": 44,
-  "displayed_avg_rating": 1.6,
+  "review_count": 44,
+  "average_rating": 1.6,
   "reviews": {
     "yelp_reviews": [
       {

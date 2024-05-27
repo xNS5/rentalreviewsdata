@@ -3,8 +3,8 @@
   "slug": "muljat-group-realtors",
   "company_type": "company",
   "address": "510 Lakeway Dr Bellingham, WA 98225",
-  "displayed_review_count": 4,
-  "displayed_avg_rating": 4.0,
+  "review_count": 4,
+  "average_rating": 4.0,
   "reviews": {
     "yelp_reviews": [
       {

@@ -3,8 +3,8 @@
   "slug": "adams-property-management",
   "company_type": "company",
   "address": "1344 King St Ste 201 Bellingham, WA 98229",
-  "displayed_review_count": 4,
-  "displayed_avg_rating": 3.0,
+  "review_count": 4,
+  "average_rating": 3.0,
   "reviews": {
     "yelp_reviews": [
       {

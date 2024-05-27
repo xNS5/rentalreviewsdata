@@ -3,8 +3,8 @@
   "slug": "matt-mcbeathexp-realty",
   "company_type": "company",
   "address": "2211 Elliott Ave Ste 200 Seattle, WA 98121",
-  "displayed_review_count": 2,
-  "displayed_avg_rating": 5.0,
+  "review_count": 2,
+  "average_rating": 5.0,
   "reviews": {
     "yelp_reviews": [
       {

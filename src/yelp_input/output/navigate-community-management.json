@@ -3,8 +3,8 @@
   "slug": "navigate-community-management",
   "company_type": "company",
   "address": "16300 Mill Creek Blvd Ste 201-202 Mill Creek, WA 98012",
-  "displayed_review_count": 40,
-  "displayed_avg_rating": 3.8,
+  "review_count": 40,
+  "average_rating": 3.8,
   "reviews": {
     "yelp_reviews": [
       {

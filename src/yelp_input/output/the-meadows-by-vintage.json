@@ -3,8 +3,8 @@
   "slug": "the-meadows-by-vintage",
   "company_type": "property",
   "address": "Bellingham, WA 98226",
-  "displayed_review_count": 1,
-  "displayed_avg_rating": 1.0,
+  "review_count": 1,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

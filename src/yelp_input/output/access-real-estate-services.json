@@ -3,8 +3,8 @@
   "slug": "access-real-estate-services",
   "company_type": "company",
   "address": "Bellingham, WA 98225",
-  "displayed_review_count": 20,
-  "displayed_avg_rating": 2.6,
+  "review_count": 20,
+  "average_rating": 2.6,
   "reviews": {
     "yelp_reviews": [
       {

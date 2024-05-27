@@ -3,8 +3,8 @@
   "slug": "spring-creek-apartments",
   "company_type": "property",
   "address": "196 E Kellogg Rd Apt L2 Bellingham, WA 98226",
-  "displayed_review_count": 2,
-  "displayed_avg_rating": 3.0,
+  "review_count": 2,
+  "average_rating": 3.0,
   "reviews": {
     "yelp_reviews": [
       {

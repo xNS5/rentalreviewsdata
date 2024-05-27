@@ -3,8 +3,8 @@
   "slug": "windermere-property-management",
   "company_type": "company",
   "address": "541 W Bakerview Rd Bellingham, WA 98226",
-  "displayed_review_count": 33,
-  "displayed_avg_rating": 1.5,
+  "review_count": 33,
+  "average_rating": 1.5,
   "reviews": {
     "yelp_reviews": [
       {

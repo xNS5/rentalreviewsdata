@@ -3,8 +3,8 @@
   "slug": "stateside-bellingham",
   "company_type": "property",
   "address": "903 N State St Bellingham, WA 98225",
-  "displayed_review_count": 8,
-  "displayed_avg_rating": 1.8,
+  "review_count": 8,
+  "average_rating": 1.8,
   "reviews": {
     "yelp_reviews": [
       {

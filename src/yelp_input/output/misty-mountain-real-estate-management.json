@@ -3,8 +3,8 @@
   "slug": "misty-mountain-real-estate-management",
   "company_type": "company",
   "address": "2900 Meridian St Bellingham, WA 98225",
-  "displayed_review_count": 11,
-  "displayed_avg_rating": 1.0,
+  "review_count": 11,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

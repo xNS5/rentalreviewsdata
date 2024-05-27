@@ -3,8 +3,8 @@
   "slug": "lakeway-rentals",
   "company_type": "company",
   "address": "3547 Lakeway Dr Bellingham, WA 98229",
-  "displayed_review_count": 33,
-  "displayed_avg_rating": 1.1,
+  "review_count": 33,
+  "average_rating": 1.1,
   "reviews": {
     "yelp_reviews": [
       {

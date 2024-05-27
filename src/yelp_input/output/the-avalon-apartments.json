@@ -3,8 +3,8 @@
   "slug": "the-avalon-apartments",
   "company_type": "property",
   "address": "206 Flora St Bellingham, WA 98225",
-  "displayed_review_count": 3,
-  "displayed_avg_rating": 1.0,
+  "review_count": 3,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

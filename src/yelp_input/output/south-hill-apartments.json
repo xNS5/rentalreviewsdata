@@ -3,8 +3,8 @@
   "slug": "south-hill-apartments",
   "company_type": "property",
   "address": "255 N Forest St Apt 308 Bellingham, WA 98225",
-  "displayed_review_count": 4,
-  "displayed_avg_rating": 1.3,
+  "review_count": 4,
+  "average_rating": 1.3,
   "reviews": {
     "yelp_reviews": [
       {

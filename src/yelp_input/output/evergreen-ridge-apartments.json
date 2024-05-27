@@ -3,8 +3,8 @@
   "slug": "evergreen-ridge-apartments",
   "company_type": "property",
   "address": "3451 Woburn St Bellingham, WA 98226",
-  "displayed_review_count": 3,
-  "displayed_avg_rating": 2.3,
+  "review_count": 3,
+  "average_rating": 2.3,
   "reviews": {
     "yelp_reviews": [
       {

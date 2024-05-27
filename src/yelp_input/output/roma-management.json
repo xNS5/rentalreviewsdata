@@ -3,8 +3,8 @@
   "slug": "roma-management",
   "company_type": "company",
   "address": "557 W Bakerview Rd Ste 108 Bellingham, WA 98226",
-  "displayed_review_count": 7,
-  "displayed_avg_rating": 1.9,
+  "review_count": 7,
+  "average_rating": 1.9,
   "reviews": {
     "yelp_reviews": [
       {

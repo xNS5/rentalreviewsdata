@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "5711 Vista Dr Ferndale, WA 98248",
   "review_count": 8,
-  "avg_rating": 1.5,
+  "average_rating": 1.5,
   "reviews": {
     "yelp_reviews": [
       {

@@ -3,8 +3,8 @@
   "slug": "lilac-listings-at-remax-whatcom-county",
   "company_type": "company",
   "address": "913 Lakeway Dr Bellingham, WA 98229",
-  "displayed_review_count": 7,
-  "displayed_avg_rating": 5.0,
+  "review_count": 7,
+  "average_rating": 5.0,
   "reviews": {
     "yelp_reviews": [
       {

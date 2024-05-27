@@ -28,37 +28,44 @@ user_agent_list = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36 Edg/100.0.0.0",
     "Mozilla/5.0 (iPad; CPU OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1",
 ]
+
+# This is essentially the "index" value used for paginating Yelp reviews
 after = [
-    None, "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoyOX0=","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0Ijo2OX0=","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxMDl9","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxNDl9","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxODl9"
+    None, "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjozOX0=","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0Ijo3OX0=","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxMTl9","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxNTl9","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxOTl9", "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoyMzl9", "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoyNzl9", "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjozMTl9",
+]
+
+document_id_list = [
+    "8bad289146c687e874539832a54eecc102ed2f128ae88c1a2f76b3163538c388",
 ]
 # Might need to copy the request headers from an existing request prior to initiating
-requestObj = [
-    {
-        "operationName": "GetBusinessReviewFeed",
-        "variables": {
-            "encBizId": None,
-            "reviewsPerPage": None,
-            "selectedReviewEncId": "",
-            "hasSelectedReview": False,
-            "sortBy": "RELEVANCE_DESC",
-            "ratings": [5, 4, 3, 2, 1],
-            "queryText": "",
-            "isSearching": False,
-            "after": None,
-            "isTranslating": False,
-            "translateLanguageCode": "en",
-            "reactionsSourceFlow": "businessPageReviewSection",
-            "minConfidenceLevel": "HIGH_CONFIDENCE",
-            "highlightType": "",
-            "highlightIdentifier": "",
-            "isHighlighting": False,
-        },
-        "extensions": {
-            "operationType": "query",
-            "documentId": "ef51f33d1b0eccc958dddbf6cde15739c48b34637a00ebe316441031d4bf7681",
-        },
-    }
-]
+
+def get_request_obj(variables):
+    return {
+            "operationName": "GetBusinessReviewFeed",
+            "variables": {
+                "encBizId": None,
+                "reviewsPerPage": None,
+                "selectedReviewEncId": "",
+                "hasSelectedReview": False,
+                "sortBy": "RELEVANCE_DESC",
+                "ratings": [5, 4, 3, 2, 1],
+                "queryText": "",
+                "isSearching": False,
+                "after": None,
+                "isTranslating": False,
+                "translateLanguageCode": "en",
+                "reactionsSourceFlow": "businessPageReviewSection",
+                "minConfidenceLevel": "HIGH_CONFIDENCE",
+                "highlightType": "",
+                "highlightIdentifier": "",
+                "isHighlighting": False,
+                **variables
+            },
+            "extensions": {
+                "operationType": "query",
+                "documentId": "ef51f33d1b0eccc958dddbf6cde15739c48b34637a00ebe316441031d4bf7681",
+            },
+        }
 
 query_obj = {
     "companies": "property management companies",
@@ -112,7 +119,6 @@ def make_request(request, session, request_obj = None, user_agent = None):
             request.json = request_obj
         if user_agent:
             request.user_agent = user_agent
-
         prepared_request = request.prepare()
         response = session.send(prepared_request)
         return response
@@ -122,7 +128,7 @@ def make_request(request, session, request_obj = None, user_agent = None):
 
 def get_comments(jsonObj):
     ret = []
-    business = jsonObj[0]["data"]["business"]
+    business = jsonObj["data"]["business"]
     review_count = business["reviewCount"]
     if review_count != None and review_count > 0:
         reviews = business["reviews"]["edges"]
@@ -155,28 +161,42 @@ def query(data):
 
         print(business.name)
 
-        requestObj[0]["variables"]["encBizId"] = business.id
+        request_obj = get_request_obj({"encBizId":  business.id})
+
+        ret_arr = []
+
         if business.review_count < 43 :
-            requestObj[0]["variables"]["reviewsPerPage"] = business.review_count
-
-            response = make_request(Request("POST", url), session, requestObj, user_agent)
-
+            request_obj["variables"]["reviewsPerPage"] = business.review_count
+            response = make_request(Request("POST", url), session, request_obj, user_agent)
             if response.ok:
                 res_json = json.loads(response.content.decode())
-                ret = get_comments(res_json)
-
-
-
-                business.reviews = {"yelp_reviews": ret}
-
-                with open(f"./yelp_input/output/{business.slug}.json", "w") as outFile:
-                    json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)
-                    outFile.close()
+                ret_arr.extend(get_comments(res_json))
             else:
                 print("ERROR: ", response.status_code)
                 break
         else:
-            print("Skipping ", business.name)
+            request_obj["variables"]["reviewsPerPage"] = 40
+            temp = []
+            # "After" array is how Yelp indexes/paginates the reviews in increments of 10 reviews/page. 
+            for i in range(len(after)):
+                request_obj["variables"]["after"] = after[i]
+                response = make_request(Request("POST", url), session, request_obj, user_agent)
+                if response.ok:
+                    res_json = json.loads(response.content.decode())
+                    res_reviews = get_comments(res_json)
+                    temp.extend(res_reviews)
+                    if len(res_reviews) < 40:
+                        ret_arr.extend(temp)
+                        break    
+                else:
+                    print(response.status_code, json.dumps(response.content.decode(), indent=2))
+                    break
+
+        business.reviews = {"yelp_reviews": ret_arr}
+
+        with open(f"./yelp_input/output/{business.slug}.json", "w") as outFile:
+            json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)
+            outFile.close()
 
         time.sleep(3 + random.randint(1, 3))
 
@@ -233,7 +253,6 @@ def search_list(input):
             response_json = json.loads(response.content.decode())
             return get_business([response_json])
 
-
 def combine_manual(path):
     file_list = utilities.list_files(path)
     master_file_path = file_list[0]
@@ -268,7 +287,7 @@ type = pyinput.inputMenu(
     ["Companies", "Properties", "One-Off ID List", "Manual Combine", "All"], lettered=True, numbered=False
 ).lower()
 
-input_arr = []
+input_arr = ["companies", "properties"]
 ret = []
 
 
@@ -290,11 +309,10 @@ elif type == "one-off id list":
 
 else:
     if type == "all" or type.lower() == "companies":
-        input_arr.append("companies")
+        ret = search_businesses([input_arr[0]])
     if type == "all" or type.lower() == "properties":
-        input_arr.append("properties")
-
-    ret = search_businesses(input_arr)
+        ret = search_businesses([input_arr[1]])
+    else:
+        ret = search_businesses(input_arr)
   
-
 query(ret)

@@ -3,8 +3,8 @@
   "slug": "soria-real-estate",
   "company_type": "company",
   "address": "515 E Fairhaven Ave Burlington, WA 98233",
-  "displayed_review_count": 1,
-  "displayed_avg_rating": 1.0,
+  "review_count": 1,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

@@ -74,7 +74,7 @@ class Business:
     def __init__(
         self,
         name,
-        avg_rating,
+        average_rating,
         company_type,
         address,
         review_count,
@@ -84,7 +84,7 @@ class Business:
         self._id = id
         self._name = name
         self._slug = utilities.get_slug(name)
-        self._avg_rating = avg_rating
+        self._average_rating = average_rating
         self._company_type = company_type
         self._address = address
         self._review_count = review_count
@@ -104,8 +104,8 @@ class Business:
         return self._slug
 
     @property
-    def avg_rating(self):
-        return self._avg_rating
+    def average_rating(self):
+        return self._average_rating
 
     @property
     def company_type(self):
@@ -139,9 +139,9 @@ class Business:
     def slug(self, slug):
         self._slug = utilities.get_slug(slug)
 
-    @avg_rating.setter
-    def avg_rating(self, avg_rating):
-        self._avg_rating = avg_rating
+    @average_rating.setter
+    def average_rating(self, average_rating):
+        self._average_rating = average_rating
 
     @company_type.setter
     def company_type(self, company_type):
@@ -170,16 +170,16 @@ class Business:
     def to_dict(self):
         if isinstance(self.review_count, str):
             self.review_count = int(re.sub(NUMS, "", self.review_count))
-        if isinstance(self.avg_rating, str):
-            self.avg_rating = float(re.sub(NUMS,"", self.avg_rating))
+        if isinstance(self.average_rating, str):
+            self.rating = float(re.sub(NUMS,"", self.average_rating))
 
         return {
             "name": self.name,
             "slug": self.slug,
             "company_type": utilities.get_whitelist_types(self.company_type),
             "address": self.address,
-            "displayed_review_count": self.review_count,
-            "displayed_avg_rating": self.avg_rating,
+            "review_count": self.review_count,
+            "average_rating": self.average_rating,
             "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()}
         }
 

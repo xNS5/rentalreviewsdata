@@ -3,8 +3,8 @@
   "slug": "brampton-court-apts",
   "company_type": "property",
   "address": "1470 Birchwood Ave Bellingham, WA 98225",
-  "displayed_review_count": 9,
-  "displayed_avg_rating": 1.4,
+  "review_count": 9,
+  "average_rating": 1.4,
   "reviews": {
     "yelp_reviews": [
       {

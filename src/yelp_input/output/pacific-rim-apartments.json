@@ -3,8 +3,8 @@
   "slug": "pacific-rim-apartments",
   "company_type": "property",
   "address": "978 Pacific Rim Ln Bellingham, WA 98226",
-  "displayed_review_count": 2,
-  "displayed_avg_rating": 2.5,
+  "review_count": 2,
+  "average_rating": 2.5,
   "reviews": {
     "yelp_reviews": [
       {

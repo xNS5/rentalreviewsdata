@@ -3,8 +3,8 @@
   "slug": "sean-ryan-nexthome-northwest-living",
   "company_type": "company",
   "address": "11 Bellwether Way Ste 111 Bellingham, WA 98225",
-  "displayed_review_count": 13,
-  "displayed_avg_rating": 4.7,
+  "review_count": 13,
+  "average_rating": 4.7,
   "reviews": {
     "yelp_reviews": [
       {

@@ -3,8 +3,8 @@
   "slug": "lark-bellingham",
   "company_type": "property",
   "address": "800 Viking Cir Bellingham, WA 98229",
-  "displayed_review_count": 59,
-  "displayed_avg_rating": 1.7,
+  "review_count": 59,
+  "average_rating": 1.7,
   "reviews": {
     "yelp_reviews": [
       {

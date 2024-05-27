@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "1850 Lake Whatcom Blvd Bellingham, WA 98229",
   "review_count": 9,
-  "avg_rating": 1.4,
+  "average_rating": 1.4,
   "reviews": {
     "yelp_reviews": [
       {

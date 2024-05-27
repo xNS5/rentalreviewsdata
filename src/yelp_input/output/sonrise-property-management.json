@@ -3,8 +3,8 @@
   "slug": "sonrise-property-management",
   "company_type": "company",
   "address": "3800 Byron Ave Ste 112 Bellingham, WA 98229",
-  "displayed_review_count": 28,
-  "displayed_avg_rating": 1.8,
+  "review_count": 28,
+  "average_rating": 1.8,
   "reviews": {
     "yelp_reviews": [
       {

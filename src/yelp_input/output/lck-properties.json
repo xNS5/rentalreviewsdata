@@ -3,8 +3,8 @@
   "slug": "lck-properties",
   "company_type": "company",
   "address": "3150 Orleans St Suite Bellingham, WA 98226",
-  "displayed_review_count": 8,
-  "displayed_avg_rating": 1.0,
+  "review_count": 8,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

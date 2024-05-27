@@ -3,8 +3,8 @@
   "slug": "dex-apartments",
   "company_type": "property",
   "address": "904 E Chestnut St Bellingham, WA 98225",
-  "displayed_review_count": 1,
-  "displayed_avg_rating": 1.0,
+  "review_count": 1,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

@@ -3,8 +3,8 @@
   "slug": "vanessa-parry-bellwether-real-estate",
   "company_type": "company",
   "address": "11 Bellwether Way Ste 201 Bellingham, WA 98225",
-  "displayed_review_count": 5,
-  "displayed_avg_rating": 5.0,
+  "review_count": 5,
+  "average_rating": 5.0,
   "reviews": {
     "yelp_reviews": [
       {

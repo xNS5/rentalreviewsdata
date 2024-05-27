@@ -182,7 +182,7 @@ def calculate_adjusted_reviews(data):
 
     return {
         "adjusted_review_count" : adjusted_count,
-        "adjusted_rating_average": round(adjusted_rating / adjusted_count, 1) if adjusted_rating > 0 and adjusted_count > 0 else data["avg_rating"]
+        "adjusted_average_rating": round(adjusted_rating / adjusted_count, 1) if adjusted_rating > 0 and adjusted_count > 0 else data["avg_rating"]
     }
 
 def calculate_actual_rating(data):
@@ -193,8 +193,8 @@ def calculate_actual_rating(data):
         review_count+=1
         rolling_average_sum += review["rating"]
     return {
-        "actual_review_count": review_count,
-        "actual_avg_rating": round(rolling_average_sum/review_count, 1)
+        "review_count": review_count,
+        "average_rating": round(rolling_average_sum/review_count, 1)
     }
 
 

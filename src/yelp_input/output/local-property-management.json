@@ -3,8 +3,8 @@
   "slug": "local-property-management",
   "company_type": "company",
   "address": "1310 9th St Ste 814 Bellingham, WA 98228",
-  "review_count": 3,
-  "avg_rating": 2.3,
+  "displayed_review_count": 3,
+  "displayed_avg_rating": 2.3,
   "reviews": {
     "yelp_reviews": [
       {

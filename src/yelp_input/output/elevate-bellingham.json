@@ -3,8 +3,8 @@
   "slug": "elevate-bellingham",
   "company_type": "property",
   "address": "900 N Forest St Bellingham, WA 98225",
-  "review_count": 9,
-  "avg_rating": 1.1,
+  "displayed_review_count": 9,
+  "displayed_avg_rating": 1.1,
   "reviews": {
     "yelp_reviews": [
       {

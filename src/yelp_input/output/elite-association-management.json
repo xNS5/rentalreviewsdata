@@ -3,8 +3,8 @@
   "slug": "elite-association-management",
   "company_type": "company",
   "address": "1313 E Maple St Ste 209 Bellingham, WA 98225",
-  "review_count": 3,
-  "avg_rating": 1.0,
+  "displayed_review_count": 3,
+  "displayed_avg_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

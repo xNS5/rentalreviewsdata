@@ -3,8 +3,8 @@
   "slug": "windermere-property-management",
   "company_type": "company",
   "address": "541 W Bakerview Rd Bellingham, WA 98226",
-  "review_count": 33,
-  "avg_rating": 1.5,
+  "displayed_review_count": 33,
+  "displayed_avg_rating": 1.5,
   "reviews": {
     "yelp_reviews": [
       {
@@ -92,15 +92,15 @@
         "ownerResponse": null
       },
       {
-        "author": "Marian S.",
-        "rating": 1,
-        "review": "I would give zero stars if possible.  It seems that there is a lack of concern for customers.  I called from out of town and was given different information over the phone than I was given at the office when we showed up there.  If you are trying to find a rental in Whatcom County I would not recommend this agency.  Multiple phone calls were not returned and office staff seemed unaware of what was actually going on.  I like to give positive reviews but can not for this agency.  They would benefit from management and culture change at this agency.",
-        "ownerResponse": null
-      },
-      {
         "author": "Sharayah S.",
         "rating": 5,
         "review": "I've never rented from an actual rental company before - I've only ever rented from private parties. I am by nature opposed to big corporations, so when I was rental-shopping, I avoided homes rented by Windermere, and other places like it. But a home I really wanted to see was Windermere's, so I finally gave in and took a look. I'm soo glad I did, because it was definitely the house for me.\n\nI have never had ANY problems or issues of ANY kind with Windermere or Ebright Wight. Doug Wight is just about the nicest guy in the world, and the best landlord I could ever have hoped to have. He is honest, he is fair, and he gets things done. Any time I have any issue or problem with my house, he sends someone right over. The girls in the office are always super nice and helpful, and I have never had any complaints whatsoever. \n\nMaybe I will sing a different song when I move out (if? I love it here.), but the security deposit wasn't even that high, so though I hope they don't keep it, as I've taken really excellent care of my house, if they do, they do. That's part of renting. \n\nIf the other renter had mentioned the dirty carpets to them when he moved in, I'll bet they would have sent someone over to clean them. Even I knew to make a list of anything wrong with the house before I moved in, and I've never done this before. I'm also bothered that he listed a lot of positives about Windermere and even said it's \"not the worst company to rent from,\" but then he gave them only 1 star? Come on. How about we rate on our experience as a whole, not penalize them for our own inability to report damage to our unit upon arrival. \n\nAs for the repair man letting himself in without authorization, it's inexcusable. I've never had it happen to me, and nothing in the world would upset me more in the capacity of renting. But I've lived here 3.5 years, and filled out my share of work order requests, and they've always been really good about calling me ahead of time. Never once have they shown up without my authorizing it. \n\nI have always paid my rent on time, and taken care of my home. I can't speak for deadbeats who don't do the same. If you're a responsible person, I absolutely recommend Windermere/Ebright Wight. I am beyond blessed to live in one of their homes. I can't rave about it more.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Marian S.",
+        "rating": 1,
+        "review": "I would give zero stars if possible.  It seems that there is a lack of concern for customers.  I called from out of town and was given different information over the phone than I was given at the office when we showed up there.  If you are trying to find a rental in Whatcom County I would not recommend this agency.  Multiple phone calls were not returned and office staff seemed unaware of what was actually going on.  I like to give positive reviews but can not for this agency.  They would benefit from management and culture change at this agency.",
         "ownerResponse": null
       },
       {

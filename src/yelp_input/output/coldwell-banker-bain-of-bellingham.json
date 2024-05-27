@@ -3,8 +3,8 @@
   "slug": "coldwell-banker-bain-of-bellingham",
   "company_type": "company",
   "address": "3610 Meridian St Bellingham, WA 98225",
-  "review_count": 5,
-  "avg_rating": 4.2,
+  "displayed_review_count": 5,
+  "displayed_avg_rating": 4.2,
   "reviews": {
     "yelp_reviews": [
       {

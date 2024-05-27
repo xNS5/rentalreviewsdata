@@ -3,8 +3,8 @@
   "slug": "barkley-apartments",
   "company_type": "property",
   "address": "3126 Racine St Bellingham, WA 98226",
-  "review_count": 9,
-  "avg_rating": 1.8,
+  "displayed_review_count": 9,
+  "displayed_avg_rating": 1.8,
   "reviews": {
     "yelp_reviews": [
       {

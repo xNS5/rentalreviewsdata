@@ -3,10 +3,16 @@
   "slug": "regency-park-apartments",
   "company_type": "property",
   "address": "2050 Fraser St Bellingham, WA 98229",
-  "review_count": 3,
-  "avg_rating": 5.0,
+  "displayed_review_count": 4,
+  "displayed_avg_rating": 5.0,
   "reviews": {
     "yelp_reviews": [
+      {
+        "author": "Blessed M.",
+        "rating": 5,
+        "review": "The office ladies are amazing and genuinely care about the tenants. the maintenance team is also the dream team! I am very happy we moved here!",
+        "ownerResponse": null
+      },
       {
         "author": "Milagros B.",
         "rating": 5,

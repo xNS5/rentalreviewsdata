@@ -3,10 +3,16 @@
   "slug": "evergreen-ridge-apartments",
   "company_type": "property",
   "address": "3451 Woburn St Bellingham, WA 98226",
-  "review_count": 2,
-  "avg_rating": 1.0,
+  "displayed_review_count": 3,
+  "displayed_avg_rating": 2.3,
   "reviews": {
     "yelp_reviews": [
+      {
+        "author": "James P.",
+        "rating": 5,
+        "review": "This apartment complex is among the best, well managed small community  you can find today. I have lived in many apartment complex's in my time and this is by far the best. The management team was completely professional throughout the application process, yet still welcoming. We ran into a few snags with section 8 housing, but the team there took it in stride. At one point it was uncertain when and even if we were going to move in. Management continued to hold the apartment for us. The complex is also very strict on the rules and regulations of the lease agreement. This was a breath of fresh air for me because being lax leads to no one fallowing the rules. Lastly, the complex is in an ideal location and most areas, as well as the freeway are easily accessible. Renting here has been a pleasant experience thus far!",
+        "ownerResponse": null
+      },
       {
         "author": "Michelle G.",
         "rating": 1,

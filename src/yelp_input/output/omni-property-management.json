@@ -3,8 +3,8 @@
   "slug": "omni-property-management",
   "company_type": "company",
   "address": "909 Squalicum Way Ste 107 Bellingham, WA 98225",
-  "review_count": 5,
-  "avg_rating": 2.4,
+  "displayed_review_count": 5,
+  "displayed_avg_rating": 2.4,
   "reviews": {
     "yelp_reviews": [
       {

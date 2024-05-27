@@ -3,8 +3,8 @@
   "slug": "sean-ryan-nexthome-northwest-living",
   "company_type": "company",
   "address": "11 Bellwether Way Ste 111 Bellingham, WA 98225",
-  "review_count": 13,
-  "avg_rating": 4.7,
+  "displayed_review_count": 13,
+  "displayed_avg_rating": 4.7,
   "reviews": {
     "yelp_reviews": [
       {
@@ -20,7 +20,7 @@
         "rating": 5,
         "review": "Sean Ryan helped me buy my first home in 2013 and he's earned my repeat business since then in buying and selling, with my most recent purchase in 2021. From keeping me aware of market trends and helping me find a home that would work for my family and budget in a difficult market to helping me list and sell in a different season and market, Sean brought the right attention and energy to the task. He wrote almost 10 offers on my behalf during one home search and gave excellent advice regarding negotiating final terms. If you're looking for an agent that has experience and savvy, who will listen to your wants and needs and search on your behalf, Sean's your guy. If you're looking for an agent to market your home with excellent photos and help you decide the right listing price for the current market, Sean's your guy. I recommend his services wholeheartedly!",
         "ownerResponse": {
-          "text": "Jordan, you\u2019re the best. I truly appreciate trust, kind words, and appreciate how supportive you\u2019ve always been. You know I\u2019ll always be here for you! Thanks again!"
+          "text": "Jordan, youre the best. I truly appreciate trust, kind words, and appreciate how supportive youve always been. You know Ill always be here for you! Thanks again!"
         }
       },
       {
@@ -36,7 +36,7 @@
         "rating": 1,
         "review": "Asked him to get me information on a property and make an appointment to see it, never heard back from him and the property was sold out from under me. He just fell off the face of the earth. Never contacted me by phone, email, or text after our initial conversation about it. Needless to say, I found a new realtor.",
         "ownerResponse": {
-          "text": "Chris, my sincere apologies. I\u2019ve just gone back through my messages and my emails and I don\u2019t see the message from you. I\u2019ve been sending you new listings, but I truly don\u2019t know what message about viewing a home you are talking about\u2026 needless to say something got crossed up and I\u2019m very sorry. Was it a text message or email?"
+          "text": "Chris, my sincere apologies. Ive just gone back through my messages and my emails and I dont see the message from you. Ive been sending you new listings, but I truly dont know what message about viewing a home you are talking about needless to say something got crossed up and Im very sorry. Was it a text message or email?"
         }
       },
       {

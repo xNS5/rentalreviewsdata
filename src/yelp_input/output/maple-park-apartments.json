@@ -3,8 +3,8 @@
   "slug": "maple-park-apartments",
   "company_type": "property",
   "address": "1743 E Maple St Bellingham, WA 98229",
-  "review_count": 12,
-  "avg_rating": 2.4,
+  "displayed_review_count": 12,
+  "displayed_avg_rating": 2.4,
   "reviews": {
     "yelp_reviews": [
       {
@@ -14,7 +14,7 @@
         "ownerResponse": null
       },
       {
-        "author": "Ann\u00eb V.",
+        "author": "Ann V.",
         "rating": 5,
         "review": "I've lived here for five years, seen multiple rotations of staff through the front office, and can comfortably say that I have had really lovely experiences. \nMaintenance has slowed down due to a severe shortage of staffing, but urgent issues are addressed promptly. Courtney, the complex manager, is friendly, diligent, and communicates well. Rent has increased quite a bit since I moved in but it's comparable to other Bellingham complexes, and Maple Park is quiet, feels very safe, and is pet-friendly. (There are a few cats that are safely able to be indoor/outdoor cats, which is saying a lot.) \nMany residents have been here for multiple years, and I've seen residents leave and then return a year or two later. \nPlus, it's managed by Suhrco, NOT landmark, which in Bellingham is just a massive plus. \nI've kept an eye out for other apartments in the city, out of curiosity, and haven't found anywhere that feels even remotely worth the move. \n\nMy only moderate complaint is that sometimes Amazon or USPS get lazy when the leasing office is closed and decide to just not deliver packages, but I guess Courtney said something because it's been several months since they pulled that nonsense.",
         "ownerResponse": null

@@ -3,8 +3,8 @@
   "slug": "integra-condominium-association-management",
   "company_type": "company",
   "address": "2183 Alpine Way Bellingham, WA 98226",
-  "review_count": 10,
-  "avg_rating": 1.4,
+  "displayed_review_count": 10,
+  "displayed_avg_rating": 1.4,
   "reviews": {
     "yelp_reviews": [
       {

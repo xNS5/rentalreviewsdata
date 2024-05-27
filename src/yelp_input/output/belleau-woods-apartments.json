@@ -3,8 +3,8 @@
   "slug": "belleau-woods-apartments",
   "company_type": "property",
   "address": "4018 Northwest Ave Bellingham, WA 98226",
-  "review_count": 4,
-  "avg_rating": 1.0,
+  "displayed_review_count": 4,
+  "displayed_avg_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

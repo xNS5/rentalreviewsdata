@@ -3,8 +3,8 @@
   "slug": "eric-green-john-l-scott-real-estate",
   "company_type": "company",
   "address": "2903 Newmarket St Ste 111 Bellingham, WA 98226",
-  "review_count": 2,
-  "avg_rating": 5.0,
+  "displayed_review_count": 2,
+  "displayed_avg_rating": 5.0,
   "reviews": {
     "yelp_reviews": [
       {

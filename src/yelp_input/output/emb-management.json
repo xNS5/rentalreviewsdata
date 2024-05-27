@@ -3,8 +3,8 @@
   "slug": "emb-management",
   "company_type": "company",
   "address": "15301 NE 90th St Ste 170 Redmond, WA 98052",
-  "review_count": 44,
-  "avg_rating": 1.6,
+  "displayed_review_count": 44,
+  "displayed_avg_rating": 1.6,
   "reviews": {
     "yelp_reviews": [
       {
@@ -74,7 +74,7 @@
         "rating": 1,
         "review": "EMB's property management services have been severely lacking. During our annual meeting, our Property Manager, Chelsea Pollard, displayed unprofessional behavior by rolling her eyes, snickering, and making condescending remarks. This kind of attitude is unacceptable and unbecoming of someone in her position. Furthermore, our property is not being adequately maintained, and the lack of cleanliness and upkeep is a major concern. Additionally, EMB seems to lack proper budget management skills, which is reflected in the poor state of our property. I strongly advise against using EMB's services if you are seeking a well-run property.",
         "ownerResponse": {
-          "text": "Thank you for taking the time to leave us feedback. We\u2019ve received confirmation that someone from the branch has made contact with you to resolve your issue. Please contact us at customerservice@associaonline.com if your issue was not resolved or if you would like to let us know how we can improve your experience."
+          "text": "Thank you for taking the time to leave us feedback. Weve received confirmation that someone from the branch has made contact with you to resolve your issue. Please contact us at customerservice@associaonline.com if your issue was not resolved or if you would like to let us know how we can improve your experience."
         }
       },
       {

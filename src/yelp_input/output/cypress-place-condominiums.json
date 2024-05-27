@@ -3,8 +3,8 @@
   "slug": "cypress-place-condominiums",
   "company_type": "property",
   "address": "690 32nd St Bellingham, WA 98225",
-  "review_count": 1,
-  "avg_rating": 4.0,
+  "displayed_review_count": 1,
+  "displayed_avg_rating": 4.0,
   "reviews": {
     "yelp_reviews": [
       {

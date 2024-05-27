@@ -3,8 +3,8 @@
   "slug": "daylight-properties",
   "company_type": "property",
   "address": "1155 N State St Ste 620 Bellingham, WA 98225",
-  "review_count": 13,
-  "avg_rating": 3.6,
+  "displayed_review_count": 13,
+  "displayed_avg_rating": 3.6,
   "reviews": {
     "yelp_reviews": [
       {

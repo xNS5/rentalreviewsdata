@@ -3,8 +3,8 @@
   "slug": "sunset-pond-apts",
   "company_type": "property",
   "address": "1205 Woodstock Way Bellingham, WA 98226",
-  "review_count": 7,
-  "avg_rating": 2.9,
+  "displayed_review_count": 7,
+  "displayed_avg_rating": 2.9,
   "reviews": {
     "yelp_reviews": [
       {

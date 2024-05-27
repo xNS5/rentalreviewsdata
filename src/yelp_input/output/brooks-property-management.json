@@ -3,8 +3,8 @@
   "slug": "brooks-property-management",
   "company_type": "company",
   "address": "1301 Iowa St Bellingham, WA 98229",
-  "review_count": 2,
-  "avg_rating": 1.0,
+  "displayed_review_count": 2,
+  "displayed_avg_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

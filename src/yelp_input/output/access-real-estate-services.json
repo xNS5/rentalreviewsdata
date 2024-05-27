@@ -3,8 +3,8 @@
   "slug": "access-real-estate-services",
   "company_type": "company",
   "address": "Bellingham, WA 98225",
-  "review_count": 20,
-  "avg_rating": 2.6,
+  "displayed_review_count": 20,
+  "displayed_avg_rating": 2.6,
   "reviews": {
     "yelp_reviews": [
       {
@@ -38,15 +38,15 @@
         "ownerResponse": null
       },
       {
-        "author": "Ludi C.",
-        "rating": 1,
-        "review": "Access refused our request to do the inspection walk through for check-out. I had never come across a company so uncooperative. Then I found out why- they took almost $600 from out deposit ! I had NEVER experienced such a huge amount taken out. We cleaned! The checkout notes said we damaged things that were already damaged. The damages even showed in their rental advertisements. When confronted with the advertisement pictures showing the damages, Access then changed their story and said all $600 was for 10 hours of cleaning. They also charged us $60 for changing a battery in the smoke detector when we already changed it. They did not listen, just took our money like some god damn robber. This family owned business is a family of thieves who prey on especially young inexperienced rentors. I'm considering taking them to small claims court to get our money back!",
-        "ownerResponse": null
-      },
-      {
         "author": "Donald B.",
         "rating": 1,
         "review": "My particular experience with this company was far from positive.  They cancelled a showing 30 minutes prior and then as a consolation said that I could show up at a group showing to get involved with a circus.  I am inclined to never do business with them.  I hate the fact that it is a landlords market where they can treat everyone like they are in the hunger games.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Ludi C.",
+        "rating": 1,
+        "review": "Access refused our request to do the inspection walk through for check-out. I had never come across a company so uncooperative. Then I found out why- they took almost $600 from out deposit ! I had NEVER experienced such a huge amount taken out. We cleaned! The checkout notes said we damaged things that were already damaged. The damages even showed in their rental advertisements. When confronted with the advertisement pictures showing the damages, Access then changed their story and said all $600 was for 10 hours of cleaning. They also charged us $60 for changing a battery in the smoke detector when we already changed it. They did not listen, just took our money like some god damn robber. This family owned business is a family of thieves who prey on especially young inexperienced rentors. I'm considering taking them to small claims court to get our money back!",
         "ownerResponse": null
       },
       {

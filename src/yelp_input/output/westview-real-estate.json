@@ -3,8 +3,8 @@
   "slug": "westview-real-estate",
   "company_type": "company",
   "address": "112 E Maple St Bellingham, WA 98225",
-  "review_count": 9,
-  "avg_rating": 1.0,
+  "displayed_review_count": 9,
+  "displayed_avg_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {

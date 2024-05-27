@@ -3,8 +3,8 @@
   "slug": "the-vintage-at-bellingham",
   "company_type": "property",
   "address": "4625 Cordata Pkwy Ofc Bellingham, WA 98226",
-  "review_count": 1,
-  "avg_rating": 5.0,
+  "displayed_review_count": 1,
+  "displayed_avg_rating": 5.0,
   "reviews": {
     "yelp_reviews": [
       {

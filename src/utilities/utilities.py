@@ -170,7 +170,7 @@ def get_all_reviews(data):
     return ret
     
     
-def calculate_adjusted_review_count(data):
+def calculate_adjusted_reviews(data):
     reviews = get_all_reviews(data)
     adjusted_count = 0
     adjusted_rating = 0.0
@@ -185,7 +185,7 @@ def calculate_adjusted_review_count(data):
         "adjusted_rating_average": round(adjusted_rating / adjusted_count, 1) if adjusted_rating > 0 and adjusted_count > 0 else data["avg_rating"]
     }
 
-def calculate_average_rating(data):
+def calculate_actual_rating(data):
     reviews = get_all_reviews(data)
     review_count = 0
     rolling_average_sum = 0

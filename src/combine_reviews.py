@@ -27,8 +27,8 @@ def write(obj, inputPath, outputPath):
             inputFile.close()
 
     with open(outputPath, "w") as outputFile:
-        adjusted_review_obj = utilities.calculate_adjusted_review_count(obj)
-        rating_obj = utilities.calculate_average_rating(obj)
+        adjusted_review_obj = utilities.calculate_adjusted_reviews(obj)
+        rating_obj = utilities.calculate_actual_rating(obj)
         obj = {**obj, **adjusted_review_obj, **rating_obj}
         json.dump(obj, outputFile, indent=2, ensure_ascii=True)
         outputFile.close()

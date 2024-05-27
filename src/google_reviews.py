@@ -22,6 +22,7 @@ whitelist = utilities.get_google_whitelist()
 
 custom = False
 
+
 def get_attribute(strategy):
     strategies = {
         "xpath": By.XPATH,
@@ -53,12 +54,12 @@ def scroll(driver, obj):
     scrollTopSet = set()
     while scrollTop not in scrollTopSet:
         scrollTopSet.add(scrollTop)
-                # If the review has a "See More" button, click it
+        # If the review has a "See More" button, click it
         more_buttons = driver.find_elements(By.CSS_SELECTOR, ".w8nwRe.kyuRq")
 
         for button in more_buttons:
             button.click()
-            
+
         driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", obj)
         scrollTop = driver.execute_script("return arguments[0].scrollTop", obj)
         time.sleep(3)
@@ -66,7 +67,7 @@ def scroll(driver, obj):
 
 def check_if_exists(driver, elem_type, selector):
     try:
-        return WebDriverWait(driver, 5).until(
+        return WebDriverWait(driver, 8).until(
             EC.visibility_of_element_located((elem_type, selector))
         )
     except:
@@ -96,13 +97,11 @@ def get_reviews(driver, config):
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         review_elements = soup.find_all("div", class_=re.compile("jftiEf"))
-        print(len(review_elements))
 
         reviews = []
         for review_element in review_elements:
             review_text = review_element.find("span", class_=re.compile("wiI7pd"))
             author = review_element.find("div", class_=re.compile("d4r55")).text
-            # print(author)
             owner_response_element = review_element.find(
                 "div", class_=re.compile("CDe7pd")
             )
@@ -127,7 +126,7 @@ def get_reviews(driver, config):
     except Exception as e:
         traceback.print_exc()
         return []
-    
+
 
 def get_company(driver, config):
     nameSet = set()
@@ -139,84 +138,85 @@ def get_company(driver, config):
         company_title_selector["selector"],
     )
 
-    if company_title is not None and company_title.text not in nameSet:
-        company_title = company_title.text
-        print(company_title)
+    if company_title is not None:
+        if company_title.text not in nameSet:
+            company_title = company_title.text
+            print(company_title)
 
-        company_type_selector = config["company_type"]
-        company_type = check_if_exists(
-            driver,
-            get_attribute(company_type_selector["by"]),
-            company_type_selector["selector"],
-        )
-
-        location_selector = config["location"]
-        location = check_if_exists(
-            driver,
-            get_attribute(location_selector["by"]),
-            location_selector["selector"],
-        )
-
-        review_count_selector = config["review_count"]
-        review_count = check_if_exists(
-            driver,
-            get_attribute(review_count_selector["by"]),
-            review_count_selector["selector"],
-        )
-
-        avg_rating_selector = config["avg_rating"]
-        avg_rating = check_if_exists(
-            driver,
-            get_attribute(avg_rating_selector["by"]),
-            avg_rating_selector["selector"],
-        )
-    
-        if company_type == None:
-            print('Company Type is Null')
-            return
-
-        if location == None or (
-            "WA" not in location.text and "Washington" not in location.text
-        ):
-            print("Location is Null or isn't based in WA")
-            return
-
-        if review_count is None:
-            print("Review count is Null")
-            return
-
-        location = location.text
-        company_type = company_type.text
-        avg_rating = avg_rating.text
-        review_count = review_count.text
-        
-
-        # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
-        slug = utilities.get_slug(company_title)
-
-        nameSet.add(company_title)
-
-        with open("./google_input/output/%s.json" % slug, "w") as outputFile:
-            reviews =  get_reviews(driver, config)
-
-            print(review_count, len(reviews))
-            json.dump(
-                Business(
-                    company_title,
-                    avg_rating,
-                    company_type,
-                    location,
-                    review_count,
-                    None,
-                    {"google_reviews": reviews},
-                ).to_dict(),
-                outputFile,
-                ensure_ascii=True,
-                indent=2,
+            company_type_selector = config["company_type"]
+            company_type = check_if_exists(
+                driver,
+                get_attribute(company_type_selector["by"]),
+                company_type_selector["selector"],
             )
-            outputFile.close()
+
+            location_selector = config["location"]
+            location = check_if_exists(
+                driver,
+                get_attribute(location_selector["by"]),
+                location_selector["selector"],
+            )
+
+            review_count_selector = config["review_count"]
+            review_count = check_if_exists(
+                driver,
+                get_attribute(review_count_selector["by"]),
+                review_count_selector["selector"],
+            )
+
+            avg_rating_selector = config["avg_rating"]
+            avg_rating = check_if_exists(
+                driver,
+                get_attribute(avg_rating_selector["by"]),
+                avg_rating_selector["selector"],
+            )
+
+            if company_type == None:
+                print(f"Company Type for {company_title} is Null")
+                return
+
+            if location == None:
+                print(f"Location for {company_title} missing")
+            elif "WA" not in location.text and "Washington" not in location.text:
+                print(f"Location for {company_title} is not based in WA")
+                return
+
+            if review_count is None:
+                print(f"No reviews for {company_title}")
+                return
+
+            location = location.text if location != None else ""
+            company_type = company_type.text
+            avg_rating = avg_rating.text
+            review_count = review_count.text
+
+            # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
+            slug = utilities.get_slug(company_title)
+
+            nameSet.add(company_title)
+
+            with open("./google_input/output/%s.json" % slug, "w") as outputFile:
+                reviews = get_reviews(driver, config)
+
+                json.dump(
+                    Business(
+                        company_title,
+                        avg_rating,
+                        company_type,
+                        location,
+                        review_count,
+                        None,
+                        {"google_reviews": reviews},
+                    ).to_dict(),
+                    outputFile,
+                    ensure_ascii=True,
+                    indent=2,
+                )
+                outputFile.close()
+        else:
+            print("%s already seen -- skipping" % company_title.text)
     else:
-        print("%s already seen -- skipping" % company_title.text)
+        print("Missing company title")
 
 
 def scrape_google_companies(search_param, url, config):
@@ -262,7 +262,7 @@ def scrape_google_companies(search_param, url, config):
             except Exception:
                 traceback.print_exc()
     else:
-        get_company(driver,config)
+        get_company(driver, config)
     driver.quit()
 
 

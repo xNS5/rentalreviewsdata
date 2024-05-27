@@ -175,6 +175,7 @@ def get_company(driver, config):
                 print(f"Company Type for {company_title} is Null")
                 return
 
+            # Just because the address element isn't present doesn't mean it isn't in Bellingham -- e.g. ACP Property Managment + Fast Property Management. 
             if location == None:
                 print(f"Location for {company_title} missing")
             elif "WA" not in location.text and "Washington" not in location.text:

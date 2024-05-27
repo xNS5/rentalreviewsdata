@@ -187,7 +187,6 @@ def calculate_adjusted_review_count(data):
 
 def calculate_average_rating(data):
     reviews = get_all_reviews(data)
-    print(data["name"], len(reviews))
     review_count = 0
     rolling_average_sum = 0
     for review in reviews:

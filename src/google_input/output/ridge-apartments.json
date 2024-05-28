@@ -1,0 +1,60 @@
+{
+  "name": "Ridge Apartments",
+  "slug": "ridge-apartments",
+  "company_type": "property",
+  "address": "516 32nd St, Bellingham, WA 98225",
+  "review_count": 8,
+  "average_rating": 4.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Daisy Diaz",
+        "rating": 5.0,
+        "review": "I have just about finished up my lease with The Ridge Bellingham and am sad to go. Many Bellingham renter companies are terrible and scam you for your money, but when renting with the private owner Lauren, I have had no issues. She replies very quickly with any questions and is very understanding. She has been patient and kind even when I was having trouble deciding if I was going to stay another year changing my mind back and fourth. That is an extremely frustrating thing for me to do, but she did not show one ounce of annoyance with me. Everything in these apartments were new as it was jusy built and we were the first renters. Very good price for what you get. Anything I needed fixed, she got someone in and out right away. My favorite thing is the soft close drawers and cabinets. If I could stay another year I would do it.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Brandon Chavez",
+        "rating": 5.0,
+        "review": "From last October, until a few weeks ago, I have had the pleasure of living at the Ridge. Although the common space is decidedly on the small side, the rooms are unusually spacious to make up for it: I comfortably fit my full-sized bed frame, a medium desk, and a full-sized, tall bookshelf in my room comfortably, and the space never felt cramped. The kitchen features reasonable amounts of counterspace and cupboard storage, as well as a full-sized fridge. The high ceilings, shiny new appliances, lovely marbled countertops and wooden floors, in conjunction with the complex's proximity to Sehome Village and major highways make this a *fabulous* and cost-effective alternative to dorm living! Your grocery store, cell phone carrier (T-Mobile), internet provider (Xfinity in Haggen), and Dollar Tree, to name a few, are all a ten minute walk away. Frankly, it's more difficult to name any kind of store that *isn't* within arms reach! Convenient on site parking is available for a small fee ($30 at the time of this writing).\n\nAlthough the property's condition, convenience, and interior aesthetics are prime selling points in and of themselves, one would be remiss to ignore the effective, gracious, and responsive management provided by Ridge Bellingham's own Lauren Kramer: In a fashion so unlike any other management company l've encountered, she will actually respond to your maintenance requests, set crystal-clear expectations about move-out cleanups, enforce parking permits, address noise complaints, and make a reasonable effort to ensure your compatibility with any roommates (so reasonable, in fact, that I *fell in love* with one of mine, but that's another story). These are just a few of the critical things that management here does very well, but above all, Lauren is communicative, fair, friendly, and can be counted on to handle questions and concerns in a timely fashion which demonstrates both professionalism and genuine empathy for The Ridge's tenants. The only reason I left is because I had grown out of the space and was ready to have my own apartment for the first time. In other words, the only thing that could have made my stay at The Ridge better would have been finding it as an even younger college student.\n\nAs far as student living goes, I am fairly convinced that no better combination of well-maintained living and overqualified management exists in this city. And I'm entirely convinced that it doesn't exist at this price.\n\n- Brandon and Stephanie",
+        "ownerResponse": null
+      },
+      {
+        "author": "Brian Kirk",
+        "rating": 5.0,
+        "review": "Hands down the best landlord Ive ever had, quick to respond, kind, and understanding. The building itself is perfect for students and families alike. My only problem with the place was that I couldnt live there another year.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kendall Nedley",
+        "rating": 5.0,
+        "review": "Kind landlord, and a long walk or a short bus ride to campus. I have really enjoyed living here and just renewed my lease for another term!",
+        "ownerResponse": null
+      },
+      {
+        "author": "nicole brook",
+        "rating": 1.0,
+        "review": "Dont rent from the ridge apartments. Constant miscommunication form landlords and exploit tenants for money.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Nate Cottnair",
+        "rating": 5.0,
+        "review": "Well appointed apartments with a kind and responsive landlord in a convenient location for WWU can be a rarity in Bellingham and I am so glad to have found this place",
+        "ownerResponse": null
+      },
+      {
+        "author": "Caroline Stenson",
+        "rating": 1.0,
+        "review": "extremely loud construction noise every day of the week. avoid living here unless you need to be close to campus and have no other options",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jason Aginsky",
+        "rating": 5.0,
+        "review": "Super close to campus and awesome apartments.",
+        "ownerResponse": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Lighthouse Property Management",
+  "slug": "lighthouse-property-management",
+  "company_type": "company",
+  "address": "63 Lake Samish Rd, Bellingham, WA 98229",
+  "review_count": 2,
+  "average_rating": 3.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Kirsten Bruce",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ],
+    "yelp_reviews": [
+      {
+        "author": "Drake H.",
+        "rating": 1,
+        "review": "Good luck getting repairs done. After 8 months, we still have not gotten things fixed from our original move in inspection. Rent is high for what you get and service is poor",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 1.0
+}

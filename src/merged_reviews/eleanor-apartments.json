@@ -1,0 +1,32 @@
+{
+  "name": "Eleanor Apartments",
+  "slug": "eleanor-apartments",
+  "company_type": "property",
+  "address": "1510 N Forest St, Bellingham, WA 98225",
+  "review_count": 3,
+  "average_rating": 4.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Rita Johnson",
+        "rating": 4.0,
+        "review": "I live in California but I'm looking to move closer to my son in Bellingham, WA. I need an low income senior apartment. This cite was very helpful but how do I get an application?",
+        "ownerResponse": null
+      },
+      {
+        "author": "Patty Dawn",
+        "rating": 3.0,
+        "review": "Apartments for seniors. Mercy Management difficult to deal with.",
+        "ownerResponse": null
+      },
+      {
+        "author": "JD Kjell Hjelle",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_average_rating": 3.5
+}

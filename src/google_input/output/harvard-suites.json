@@ -1,0 +1,30 @@
+{
+  "name": "Harvard Suites",
+  "slug": "harvard-suites",
+  "company_type": "property",
+  "address": "705-709 32nd St, Bellingham, WA 98225",
+  "review_count": 3,
+  "average_rating": 2.3,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Tristin Day",
+        "rating": 1.0,
+        "review": "some of the loudest neighbors i have ever lived with one of them plays the drums  and another dude plays basketball in the morning both usually in the am",
+        "ownerResponse": null
+      },
+      {
+        "author": "David Sisson",
+        "rating": 1.0,
+        "review": "8 months later and still havent got my security deposit back :/ reached out several times via phone, email, and renter portal.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Bim S",
+        "rating": 5.0,
+        "review": "Nice looking! Would love to see the inside and curious about the price.",
+        "ownerResponse": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Don Enos",
+  "slug": "don-enos",
+  "company_type": "company",
+  "address": "Blaine, WA 98230",
+  "review_count": 2,
+  "average_rating": 5.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Employee P.",
+        "rating": 5,
+        "review": "Don has a lot of experience and brings great energy to all his endeavors. Definitely recommend his services!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Brian G.",
+        "rating": 5,
+        "review": "I recently used Don Enos as my business development consultant and strategist, and it was one of the best decisions I ever made. He helped me to develop a sound business strategy, which has already had a major impact on the success of my business. Don is an expert at what he does, with vast experience in helping businesses grow. He provided clear and concise advice and guidance, allowing me to make informed decisions quickly and confidently.",
+        "ownerResponse": null
+      }
+    ]
+  }
+}

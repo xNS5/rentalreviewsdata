@@ -4,9 +4,15 @@
   "company_type": "property",
   "address": "1511 N State St, Bellingham, WA 98225",
   "review_count": 6,
-  "avg_rating": 2.8,
+  "average_rating": 2.8,
   "reviews": {
     "google_reviews": [
+      {
+        "author": "Jordan Graves",
+        "rating": 1.0,
+        "review": "If I could give 0 stars, I would. They took my application fee and an almost $200 holding fee and I never heard from them. No confirmation email, no phone call. Absolutely no follow up for months. I thought Id been scammed.\n\nRecieved a call several months later saying that they had a property manager quit on the spot. And that theyd get my money back to me. Its been months since then and Ive still heard nothing. Do not apply to this place. They will scam you out of your money. The lack of professionalism is insane.",
+        "ownerResponse": null
+      },
       {
         "author": "Brooke Lynn",
         "rating": 3.0,
@@ -23,12 +29,6 @@
         "author": "Evelyn Thompson",
         "rating": 4.0,
         "review": "I have lived here for over 5 years. It's great besides the occasional inspections and fire alarm testing.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Jordan Graves",
-        "rating": 1.0,
-        "review": "If I could give 0 stars, I would. They took my application fee and an almost $200 holding fee and I never heard from them. No confirmation email, no phone call. Absolutely no follow up for months. I thought Id been scammed.\n\nRecieved a call several months later saying that they had a property manager quit on the spot. And that theyd get my money back to me. Its been months since then and Ive still heard nothing. Do not apply to this place. They will scam you out of your money. The lack of professionalism is insane.",
         "ownerResponse": null
       },
       {

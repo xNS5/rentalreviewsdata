@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "3420 W McLeod Rd, Bellingham, WA 98225",
   "review_count": 21,
-  "avg_rating": 3.0,
+  "average_rating": 3.0,
   "reviews": {
     "google_reviews": [
       {
@@ -16,15 +16,15 @@
         }
       },
       {
-        "author": "Z K C",
-        "rating": 1.0,
-        "review": "Dogs Barking at Night has gotten better. Trash is Everywhere. If you smoke here please try to pick up ur cigarette filters and garbage plz. Dogs do bark constantly during the day. If you have a dog please find a way to keep them entertained especially for puppies. Parking space is tight sometimes vehicles get bumped.",
-        "ownerResponse": null
-      },
-      {
         "author": "Teasa B",
         "rating": 3.0,
         "review": "There's a lot of upgrading happening here at the moment. Sometimes it's noisy. The \"Club House\" has been unusable for about a year. They're working on it but no ETA. Pet friendly apartment. You will hear dogs! (I don't mind but someone might.)\n\nI've noticed the people tend to stay to themselves, but will usually throw out some small talk. There are a considerable amount of kids and new families. Mostly it's a quiet and peaceful place surrounded by trees. I hear birds outside my door everyday. We can sometimes hear the planes go by overhead since we are close to the airport. If you're in the back theres a... factory (?) that makes noise, I don't really notice but my husband has made comments about it. I like how close we are to the freeway and stores while also still feeling out of the way. Parking is crazy compact, it's also all assigned and guests are supposed to park on the street, but usually don't.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Z K C",
+        "rating": 1.0,
+        "review": "Dogs Barking at Night has gotten better. Trash is Everywhere. If you smoke here please try to pick up ur cigarette filters and garbage plz. Dogs do bark constantly during the day. If you have a dog please find a way to keep them entertained especially for puppies. Parking space is tight sometimes vehicles get bumped.",
         "ownerResponse": null
       },
       {

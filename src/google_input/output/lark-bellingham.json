@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "800 Viking Cir, Bellingham, WA 98229",
   "review_count": 214,
-  "avg_rating": 2.9,
+  "average_rating": 2.9,
   "reviews": {
     "google_reviews": [
       {
@@ -662,18 +662,18 @@
         }
       },
       {
+        "author": "Mark MacDonald",
+        "rating": 5.0,
+        "review": "Great place to work and live with helpful and supportive staff members. There's a large community vibe thanks to the volleyball courts, BBQ's, fire pits and ping pong tables available to all residents in the courtyard. Love being a part of the team and NXNW community.",
+        "ownerResponse": null
+      },
+      {
         "author": "Karl Denby",
         "rating": 5.0,
         "review": "Over hated. Not 5 stars but this is my attempt to balance it.",
         "ownerResponse": {
           "text": "Thank you so much for taking the time to leave your feedback. Please feel free to reach out and let us know how we can earn your 5-star review. You can email us at live@larkbellingham.com, or stop by for a chat."
         }
-      },
-      {
-        "author": "Mark MacDonald",
-        "rating": 5.0,
-        "review": "Great place to work and live with helpful and supportive staff members. There's a large community vibe thanks to the volleyball courts, BBQ's, fire pits and ping pong tables available to all residents in the courtyard. Love being a part of the team and NXNW community.",
-        "ownerResponse": null
       },
       {
         "author": "Ali Nazy",
@@ -714,14 +714,6 @@
         "ownerResponse": null
       },
       {
-        "author": "Tanyia Tweten",
-        "rating": 5.0,
-        "review": "I was just cleaning out the apartments before the new kids moved in. I would totally want to live here if I was in Uni",
-        "ownerResponse": {
-          "text": "HI Tanyia, thank you for the positive feedback! We are happy to hear about your perception of our community. Please do not hesitate to reach out if you have any questions!"
-        }
-      },
-      {
         "author": "joel con",
         "rating": 2.0,
         "review": "Parking is atrocious as well as the cleanup of the dumpster area. As far as the help is concerned with requests it is usually just figure it out yourself.",
@@ -735,6 +727,14 @@
         "review": "I absolutely love Lark! The only complaint that I have is that the trash and recycling are often always overflowing, but other than that the staff is great and so are my neighbors!",
         "ownerResponse": {
           "text": "Hi Athena, Thank you so much for your feedback. We have recently been able to add cardboard recycling back to our property and hope that the trash overflows less now. We are glad to hear you are having a nice time here!"
+        }
+      },
+      {
+        "author": "Tanyia Tweten",
+        "rating": 5.0,
+        "review": "I was just cleaning out the apartments before the new kids moved in. I would totally want to live here if I was in Uni",
+        "ownerResponse": {
+          "text": "HI Tanyia, thank you for the positive feedback! We are happy to hear about your perception of our community. Please do not hesitate to reach out if you have any questions!"
         }
       },
       {

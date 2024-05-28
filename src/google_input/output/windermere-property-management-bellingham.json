@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "541 W Bakerview Rd, Bellingham, WA 98226",
   "review_count": 185,
-  "avg_rating": 2.8,
+  "average_rating": 2.8,
   "reviews": {
     "google_reviews": [
       {
@@ -142,19 +142,19 @@
         }
       },
       {
-        "author": "D. Marie Williamson",
-        "rating": 1.0,
-        "review": "WA State Human Rights Commission has reached out to your office on behalf of myself, HUD, and most importantly, my daughter.",
-        "ownerResponse": {
-          "text": "We apologize to see you had a negative experience. Please contact our office so that we may better assist you and your rental goals.\nThank you kindly,\nWindermere Property Management"
-        }
-      },
-      {
         "author": "Isaac Lozier",
         "rating": 1.0,
         "review": "WORST RENTAL AGENCY I HAVE EVER HAD TO DEAL WITH. I lived under them for three years and this is not an exaggeration, the agency does not care about your health or well being, only your money. Maintenence requests go unanswered for months and months unless you call every week until they fix it. If your appliance breaks good luck getting a replacement sooner that two months. MULTIPLE times did I have to go to the laundromat for long periods of time or hand wash dishes for weeks on end.\n\nWe are getting charges over our damage deposit for things we told them to fix months and years before moving out. I am getting charged out of my deposit for a light bulb that was burnt out when I moved in. If you live in an old, rotten, outdated apartment it doesn't matter, they will still raise your rent $200 at a time. Trying to raise a family? Forget it because they failed to do anything about neighbors smoking and it coming into our apartment. Look at your new rental closely because they also paint over water damage.  Worst property management I have ever dealt with and everyone in thier office has an attitude anytime you call with a question. I guess I would be mad to if I was only making $17 an hour.",
         "ownerResponse": {
           "text": "Hi Isaac,\nOur system shows that you have not been a tenant with us before. Please contact our office with more details to work it this out. \nThank you,\nWindermere Property Management"
+        }
+      },
+      {
+        "author": "D. Marie Williamson",
+        "rating": 1.0,
+        "review": "WA State Human Rights Commission has reached out to your office on behalf of myself, HUD, and most importantly, my daughter.",
+        "ownerResponse": {
+          "text": "We apologize to see you had a negative experience. Please contact our office so that we may better assist you and your rental goals.\nThank you kindly,\nWindermere Property Management"
         }
       },
       {
@@ -316,14 +316,6 @@
         "ownerResponse": null
       },
       {
-        "author": "John Fryer",
-        "rating": 5.0,
-        "review": "They are always very nice and I really like the positive attitude that they have.",
-        "ownerResponse": {
-          "text": "Thank you John for you kind words!\n\nKind Regards,\nWindermere Property Management "
-        }
-      },
-      {
         "author": "Frances Dillinger",
         "rating": 1.0,
         "review": "Listen to the one star reviews !! This place does not care about their tenants.  I lived in a building with windows as old as the building and paid way more for heat in the winter than I should have and they kept saying they were going to eventually replace the windows.  Never did.  The carpet had multiple stains and burns on it and they refused to replace it or clean it properly when I moved it, after paying rent on time , and what did they do after ? Charge me to clean the carpets when they should have replaced them. Moldy and gross should have read the reviews here before moving in.   Greedy corporate pigs",
@@ -374,6 +366,14 @@
         "rating": 1.0,
         "review": "Decided to charge me $1200 for a carpet-cleaned bright and shiny apartment when I moved out. When I lived there, took months to get a new furnace after mine was shot and the floor was so cold my toes would go numb.",
         "ownerResponse": null
+      },
+      {
+        "author": "John Fryer",
+        "rating": 5.0,
+        "review": "They are always very nice and I really like the positive attitude that they have.",
+        "ownerResponse": {
+          "text": "Thank you John for you kind words!\n\nKind Regards,\nWindermere Property Management "
+        }
       },
       {
         "author": "Britt Connell",
@@ -632,18 +632,18 @@
         }
       },
       {
+        "author": "Joe Skar",
+        "rating": 1.0,
+        "review": "The \"no housing assistance accepted\" blanket policy is hurting disadvantaged people in this extreme housing market. Despite guaranteed rent payments they outright refuse to accept \"poor people\" in their properties.",
+        "ownerResponse": null
+      },
+      {
         "author": "Ella",
         "rating": 1.0,
         "review": "The older Lady at the front desk is so rude.",
         "ownerResponse": {
           "text": "Your feedback is important to us and we value our customers. Please contact our office so we can address your experience directly. \n\nKind Regards,\nWindermere Property Management "
         }
-      },
-      {
-        "author": "Joe Skar",
-        "rating": 1.0,
-        "review": "The \"no housing assistance accepted\" blanket policy is hurting disadvantaged people in this extreme housing market. Despite guaranteed rent payments they outright refuse to accept \"poor people\" in their properties.",
-        "ownerResponse": null
       },
       {
         "author": "Richard Huizenga",
@@ -674,12 +674,6 @@
         }
       },
       {
-        "author": "George Howe",
-        "rating": 1.0,
-        "review": "They raised our rent by $75 last year. We are on disability. Boy, did we get the shaft.",
-        "ownerResponse": null
-      },
-      {
         "author": "Rubn Dominguez",
         "rating": 1.0,
         "review": "Be careful be careful they has bad reputation.\n\nMake sure you take pictures before and as you leave your rental place with Windermere Property Management. It is bad dishonest companie in town",
@@ -701,6 +695,12 @@
         "author": "Michelle Kellogg",
         "rating": 2.0,
         "review": "The doors were locked I was dropping of a deposit for a single mom so her and her boys could move in she'd been homeless and didnt have the $50 administrative fee so she could get the keys u would think at a time like this they would wave the fee",
+        "ownerResponse": null
+      },
+      {
+        "author": "George Howe",
+        "rating": 1.0,
+        "review": "They raised our rent by $75 last year. We are on disability. Boy, did we get the shaft.",
         "ownerResponse": null
       },
       {
@@ -762,18 +762,18 @@
         }
       },
       {
+        "author": "Aaron Allen",
+        "rating": 2.0,
+        "review": "Wow. So disappointed. The lobby is closed so had to wait outside. They are closed mid day for lunch so had to go but twice and wait about 45 min for a key pickup. Friendly and perfessional staff.",
+        "ownerResponse": null
+      },
+      {
         "author": "anni o",
         "rating": 1.0,
         "review": "unhelpful, uncaring. the same as all other property management in bellingham unfortunately",
         "ownerResponse": {
           "text": "Hi Anni,\nWe are always looking for ways to improve and would appreciate the chance to discuss your experience. Please contact the office so we may address your concerns.\n\nThank you,\nWindermere Property Management "
         }
-      },
-      {
-        "author": "Aaron Allen",
-        "rating": 2.0,
-        "review": "Wow. So disappointed. The lobby is closed so had to wait outside. They are closed mid day for lunch so had to go but twice and wait about 45 min for a key pickup. Friendly and perfessional staff.",
-        "ownerResponse": null
       },
       {
         "author": "Jordy Spaur",
@@ -846,15 +846,15 @@
         "ownerResponse": null
       },
       {
-        "author": "Karen Hunt",
-        "rating": 3.0,
-        "review": "Was checking for rentals but they only sell here in area.",
-        "ownerResponse": null
-      },
-      {
         "author": "Alena Fletcher",
         "rating": 5.0,
         "review": "The girls at this office are amazing!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Karen Hunt",
+        "rating": 3.0,
+        "review": "Was checking for rentals but they only sell here in area.",
         "ownerResponse": null
       },
       {
@@ -864,18 +864,18 @@
         "ownerResponse": null
       },
       {
-        "author": "Sharon",
-        "rating": 5.0,
-        "review": "Courteous, respectful and supportive staff.",
-        "ownerResponse": null
-      },
-      {
         "author": "Julian Sibley",
         "rating": 1.0,
         "review": "Worst property management company I have ever rented through",
         "ownerResponse": {
           "text": "Thank you for your feedback. We would like to take this opportunity to respond to your comment.\nWe imagine your unfavorable review is written in response to the Deposit Disposition letter you received recently.\nThe back side of the move out notice provides a comprehensive list of items that need your attention prior to move out. It is very important that the unit is left in good condition and ready for the next tenant to move in. Unfortunately this was not the case when you vacated your unit. The unit was left dirty and required 5 hours of cleaning. The kitchen was particularly dirty. The paint was new upon move in and according to HUD guidelines the life expectancy for paint is 5-7 years. When you moved out there was damage done to the paint beyond normal wear and tear. The walls throughout had black soot damage on them to which left outlines on the walls where items had been hanging. You were charged for  of the cost to paint the unit.\nWe work very hard to be fair to our tenants while still doing what is right by the property owner. If you have items you would like to discuss regarding your experience with Windermere Management, we would be happy to meet with you."
         }
+      },
+      {
+        "author": "Sharon",
+        "rating": 5.0,
+        "review": "Courteous, respectful and supportive staff.",
+        "ownerResponse": null
       },
       {
         "author": "Kristina Kovacic",

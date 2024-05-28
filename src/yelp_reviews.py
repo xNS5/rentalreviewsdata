@@ -230,6 +230,7 @@ def search_list(input):
     ret = []
     seen = set()
     session = Session()
+    name_blacklist = utilities.get_company_blacklist()
 
     if isinstance(input, list):
         for id in input:
@@ -241,7 +242,8 @@ def search_list(input):
                     break
                 else:
                     for business in response_json["businesses"]:
-                        if business["name"] in seen:
+                        temp_slug = utilities.get_slug(business["name"])
+                        if business["name"] in seen or temp_slug in name_blacklist:
                             continue
                         seen.add(business["name"])
                         ret.append(business)

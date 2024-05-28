@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "425 Stuart Rd, Bellingham, WA 98226",
   "review_count": 13,
-  "avg_rating": 4.8,
+  "average_rating": 4.8,
   "reviews": {
     "google_reviews": [
       {
@@ -70,6 +70,24 @@
         "ownerResponse": {
           "text": "Thank you so much for your kind words, Carl. We really appreciate you taking the time out to share your experience with us.\n\nCheers,\n\nPark View Village"
         }
+      },
+      {
+        "author": "Fernando Perez",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Milangela Diaz",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Judge Smith",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
       }
     ]
   }

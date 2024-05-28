@@ -60,5 +60,5 @@ def filter(input_path, alt_path):
             write(file_json, None, f"{output_path}{file}")
     
 
-filter(google_path, yelp_path)
 filter(yelp_path, google_path)
+filter(google_path, yelp_path)

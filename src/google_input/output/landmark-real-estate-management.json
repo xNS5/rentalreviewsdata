@@ -3,14 +3,20 @@
   "slug": "landmark-real-estate-management",
   "company_type": "company",
   "address": "455 Stuart Rd, Bellingham, WA 98226",
-  "review_count": 677,
-  "avg_rating": 3.5,
+  "review_count": 680,
+  "average_rating": 3.5,
   "reviews": {
     "google_reviews": [
       {
         "author": "John K. Cummings",
         "rating": 5.0,
         "review": "Landmark is very professional and courteous property Management group. I really enjoyed the two years that I lived in their apartment. I got to know Marianna well and appreciate everything she did for me. I highly recommend if you're a renter using landmark property management group.",
+        "ownerResponse": null
+      },
+      {
+        "author": "melinda pearson",
+        "rating": 5.0,
+        "review": "So far, the application process with Landmark has been smooth! The various staff members I've spoken with have been friendly and helpful, and the process was made extremely clear. Their application fee is $65, compared to $50 for most other property managers in Bellingham, but so far that is our only criticism. Move-in is in September so will update with any new feedback then, but they have so far proven trustworthy, communicative and friendly. And their portal is really helpful also!",
         "ownerResponse": null
       },
       {
@@ -62,6 +68,12 @@
         "ownerResponse": null
       },
       {
+        "author": "Brianna Matthews",
+        "rating": 5.0,
+        "review": "I will start off by saying the only con about the building is that the windows in the units dont open all the way. Other then that the common room for guest to go into is a great place to hang out and you can even hook up your gaming devices to the tv in there. The roof is a great place to go to have a party or to enjoy the fire pit with friends and lastly the work out room is great and helpful too.",
+        "ownerResponse": null
+      },
+      {
         "author": "Rochelle Macagba",
         "rating": 5.0,
         "review": "When we moved in, our light bulbs were put in incorrectly and Cami was extremely responsive and able to help us quickly. We are now ending our 1.5yr lease and between Cami and Yanna, we were so well taken care of. The immediate responses, attention to detail and patience they had with us through difficult times are what made us rate them 5 stars. This is our second place and second lease ending with Landmark. I will be applying with them again",
@@ -104,15 +116,15 @@
         "ownerResponse": null
       },
       {
-        "author": "Kala Bay",
-        "rating": 1.0,
-        "review": "I am tenant and I had a flood happen in my apartment recently. There was a gap in communication with my property manager, but when I tried to follow up, I reached the front desk. Ocean, the first lady I spoke with, was rude and short with me. She doesn't tell you what she is going to do she just sends you off to someone. I asked her not to just send me off to a voicemail, because this was a time sensitive matter and instead of talking with me to solve this issue, she transferred me anyway. When I called back in, I got someone else (I can't remember her name, unfortunately) and she was extremely disrespectful. I don't know what happened in the two minutes it took me to call back, but as soon as I introduced myself, she had a terrible attitude. Immediately was talking over me, cutting me off when I tried to explain the situation, raised her voice at me, and accused me of yelling at her. It was the WORST customer service interaction I've ever had. She was extremely rude, disrespectful, unkind, unwilling to help resolve the issue at hand, as is her job. She is obviously incapable of handling that position, if that is how she treats the tenants calling in for assistance. I asked to be transferred to her supervisor, and she was snarky about it, but luckily transferred me right away. I spoke with Wendy. Wendy was amazing. Clearly, knew how to do her job, and what customer service meant. Literally, all I wanted was an escalation so that my property manager knew that I was trying to reach her about a time sensitive issue. That's it. That's a completely reasonable request, and Wendy was able to  help me with that in 5 minutes. So, in my experience, don't go into that office, expecting to be treated with dignity. At least not by those two workers. They showed very clearly that they have no desire to be respectful or uphold any standard to customer service.",
-        "ownerResponse": null
-      },
-      {
         "author": "Wesley Cox",
         "rating": 5.0,
         "review": "Originally moved from out of state and the staff were amazing at helping me find a place and get all the correct paperwork done! I typically would talk to Ocean at the front desk who was always helpful but I was never turned away by any other front office staff.\n\nRecently a pipe had burst in our current unit and our property manager was extremely helpful throughout the entire process. She helped us pick out alternative units and worked really hard to get our application the attention it needed!\n\nOverall Im very pleased, Ive never had them ignore a maintenance request and they have always been very attentive and caring in times of need!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Charlie Devereux",
+        "rating": 4.0,
+        "review": "Just getting started as a co-signer. The non-refundable application fee for all applicants and their co-signers seems excessive, but other than that they seem to be a decent operation. The background checks are a pain but also are appreciated, as parents of a student renter.",
         "ownerResponse": null
       },
       {
@@ -176,6 +188,12 @@
         "ownerResponse": {
           "text": "Hi Jadey, Thank you for the 5 star review!"
         }
+      },
+      {
+        "author": "Kala Bay",
+        "rating": 1.0,
+        "review": "I am tenant and I had a flood happen in my apartment recently. There was a gap in communication with my property manager, but when I tried to follow up, I reached the front desk. Ocean, the first lady I spoke with, was rude and short with me. She doesn't tell you what she is going to do she just sends you off to someone. I asked her not to just send me off to a voicemail, because this was a time sensitive matter and instead of talking with me to solve this issue, she transferred me anyway. When I called back in, I got someone else (I can't remember her name, unfortunately) and she was extremely disrespectful. I don't know what happened in the two minutes it took me to call back, but as soon as I introduced myself, she had a terrible attitude. Immediately was talking over me, cutting me off when I tried to explain the situation, raised her voice at me, and accused me of yelling at her. It was the WORST customer service interaction I've ever had. She was extremely rude, disrespectful, unkind, unwilling to help resolve the issue at hand, as is her job. She is obviously incapable of handling that position, if that is how she treats the tenants calling in for assistance. I asked to be transferred to her supervisor, and she was snarky about it, but luckily transferred me right away. I spoke with Wendy. Wendy was amazing. Clearly, knew how to do her job, and what customer service meant. Literally, all I wanted was an escalation so that my property manager knew that I was trying to reach her about a time sensitive issue. That's it. That's a completely reasonable request, and Wendy was able to  help me with that in 5 minutes. So, in my experience, don't go into that office, expecting to be treated with dignity. At least not by those two workers. They showed very clearly that they have no desire to be respectful or uphold any standard to customer service.",
+        "ownerResponse": null
       },
       {
         "author": "Kathleen Beaty",
@@ -253,12 +271,6 @@
         "author": "Kylaijah Mathis",
         "rating": 5.0,
         "review": "Tia Herring Help us so much on finding our first appartment. She has great input. Just make sure you come in perpared and she is a wonderful help. Also We did go ask for help in person with printed out forms (places/, travel time, Questions, price preferseces, etc.)",
-        "ownerResponse": null
-      },
-      {
-        "author": "Leah Carpentier",
-        "rating": 5.0,
-        "review": "Haelley at 1818 D Street property was extremely helpful.  She showed me all of the apartments that were currently available and made sure I had all of my questions answered.",
         "ownerResponse": null
       },
       {
@@ -355,6 +367,12 @@
         "author": "Leo Craig",
         "rating": 5.0,
         "review": "Angie was a great help showing me around the apartment. Answered all my questions and was open about property details.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Leah Carpentier",
+        "rating": 5.0,
+        "review": "Haelley at 1818 D Street property was extremely helpful.  She showed me all of the apartments that were currently available and made sure I had all of my questions answered.",
         "ownerResponse": null
       },
       {
@@ -510,12 +528,6 @@
         }
       },
       {
-        "author": "Amber Chaput",
-        "rating": 5.0,
-        "review": "Everyone is so caring and kind! I've had a very pleasant experience with Landmark and highly recommend this company!  ",
-        "ownerResponse": null
-      },
-      {
         "author": "Hannah Alexander",
         "rating": 5.0,
         "review": "Landmark has such amazing people working constantly to help and support their residents. I had such a great experience with this company. The people I personally worked with were amazing and worked so hard to help me with my housing and were extremely kind and supportive the whole process.",
@@ -525,12 +537,6 @@
         "author": "kahleb richwine",
         "rating": 1.0,
         "review": "Only after applying to three different units and paying 3 different application fees w/ Landmark was I made aware that you have to submit a holding fee to even be considered. Then, they stacked several additional administrative fees that added up to about $600 after first months rent & security deposit. And after moving into the unit, we discovered bed bugs & ticks that same day. Cannot recommend avoiding Landmark enough.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Nicole Martinez",
-        "rating": 5.0,
-        "review": "Kami Winslow is a GEM to work with! Thank you for your quick action and listening ear :)",
         "ownerResponse": null
       },
       {
@@ -577,12 +583,6 @@
         "author": "Hanne Hojsted",
         "rating": 5.0,
         "review": "I am extremely  happy with the outstanding service from manager cami  and Jill  and I shall recommend  them to everyone who is looking  for a great place to live",
-        "ownerResponse": null
-      },
-      {
-        "author": "Lindsey Brehm",
-        "rating": 5.0,
-        "review": "Beautiful apartments.  The showing agent was very helpful and answered all my questions.",
         "ownerResponse": null
       },
       {
@@ -646,6 +646,18 @@
         }
       },
       {
+        "author": "William Becker",
+        "rating": 5.0,
+        "review": "Erika & the team upfront and in back offices were so efficient and helpful!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Amber Chaput",
+        "rating": 5.0,
+        "review": "Everyone is so caring and kind! I've had a very pleasant experience with Landmark and highly recommend this company!  ",
+        "ownerResponse": null
+      },
+      {
         "author": "Sam Magno",
         "rating": 5.0,
         "review": "I had the pleasure of working with Cami at Landmark and I couldn't be happier with her service. Her team has been incredibly helpful and responsive to any needs or concerns. Even through the change on tenant steps she made the process easy and stress-free.",
@@ -658,6 +670,12 @@
         "ownerResponse": {
           "text": "Hello Clare, we are so terribly sorry for your experience and would be grateful if you could provide us with an opportunity to change your impression. Please contact us at your earliest convenience to let us know with more specifics about your circumstances and we will do whatever we can to assist you with whatever you need. Please reach out to us at: info@visitlandmark.com via email and title your email: Clare Wong. We will ensure that a manager is available to assist you and listen your experience and the surrounding circumstances, so that we may improve moving forward. We do not want anyone to walk away feeling not heard, and not helped. "
         }
+      },
+      {
+        "author": "Lindsey Brehm",
+        "rating": 5.0,
+        "review": "Beautiful apartments.  The showing agent was very helpful and answered all my questions.",
+        "ownerResponse": null
       },
       {
         "author": "Drew Secules",
@@ -698,6 +716,12 @@
         "ownerResponse": {
           "text": "Mr Hung La,\nWe are so sorry for the delay in repairing your refrigerator! We have confirmed that an appliance repair person will be out today to make repairs. We will also follow up with the team handling your request to ensure that future work orders are not delayed and handled professionally. We appreciate your feedback and look forward to regaining your trust. "
         }
+      },
+      {
+        "author": "Nicole Martinez",
+        "rating": 5.0,
+        "review": "Kami Winslow is a GEM to work with! Thank you for your quick action and listening ear :)",
+        "ownerResponse": null
       },
       {
         "author": "Rashad Tyson",
@@ -876,12 +900,6 @@
         "ownerResponse": null
       },
       {
-        "author": "Rayne Luthi",
-        "rating": 5.0,
-        "review": "Tia was so helpful! She was very knowledgeable and answered all of my questions. Checking out this apartment was such a smooth experience.",
-        "ownerResponse": null
-      },
-      {
         "author": "Carolyn Cutting",
         "rating": 5.0,
         "review": "Amber was wonderful with assisting us in securing an apartment for this year! She offered great communication and updates as we moved through the application stages. She was very helpful in ensuring that we knew exactly what was needed and when by the Landmark Real Estate Office.",
@@ -896,12 +914,6 @@
         "ownerResponse": {
           "text": "HI Soriah, thank you for the feedback. If you have any other specific items, you would like to address please feel free to reach out to our Director of Human Resources at Stephanie@visitlandmark.com with your concerns."
         }
-      },
-      {
-        "author": "Isaiah Adams",
-        "rating": 5.0,
-        "review": "Ocean at the front desk is awesome to work with shes quick an is always nice",
-        "ownerResponse": null
       },
       {
         "author": "Carlos V",
@@ -1036,6 +1048,12 @@
         }
       },
       {
+        "author": "Rayne Luthi",
+        "rating": 5.0,
+        "review": "Tia was so helpful! She was very knowledgeable and answered all of my questions. Checking out this apartment was such a smooth experience.",
+        "ownerResponse": null
+      },
+      {
         "author": "Casey Coles",
         "rating": 5.0,
         "review": "Living in Bellingham the past few years Ive had the pleasure of renting with Landmark.  Im absolutely pleased with their services and staff.   One staff member in particular, Marianna she has been the most wonderful property manager Ive had the pleasure of dealing with and is just an incredible person inside and out.  She has been extremely helpful and professional through out the whole process.  Shes gone out of her way to answer any questions Ive had and the list goes on.  Thank you so much for your kindness and professionalism.  I will most definitely rent from landmark again in the future because of Marianna.",
@@ -1050,6 +1068,12 @@
         "ownerResponse": {
           "text": "Hi Quinn, thank you for the feedback. If you have any other specific items, you would like to address please feel free to reach out to our Director of Human Resources at Stephanie@visitlandmark.com with your concerns."
         }
+      },
+      {
+        "author": "Isaiah Adams",
+        "rating": 5.0,
+        "review": "Ocean at the front desk is awesome to work with shes quick an is always nice",
+        "ownerResponse": null
       },
       {
         "author": "Taylor manoske",
@@ -1268,12 +1292,6 @@
         }
       },
       {
-        "author": "Zack Callahan",
-        "rating": 5.0,
-        "review": "Kind, friendly, easy process. Prepared for questions and information.",
-        "ownerResponse": null
-      },
-      {
         "author": "Rebeka Chadwell",
         "rating": 1.0,
         "review": "Landmark Property Management is one of the worst companies I have ever rented through. Too bad I cant give a zero star review because they dont even deserve that. Since applying which took a full week and we couldnt even get ahold of anyone on the phone during that time. The unit was infested with cockroaches and the bug maintenance people came out every week and it did nothing. Maintenance calling numerous times because they forgot if they came out or not. Like what a joke. And then upon move out they took our whole security deposit. And now we owe money?! It took two maintenance guys 6.5 hours to replace some blinds, a closet door, drip pans, and a screen vent?! They said it took them an hour two replace drip pans and 2 hours to go shopping. And apparently they arent a capitalist company. Stay away from this company thats what I have to say.",
@@ -1470,12 +1488,6 @@
         }
       },
       {
-        "author": "Tyler King",
-        "rating": 1.0,
-        "review": "Worst management experience, complete disorder. Landmark continually issues new rules for property and there's no visitor parking.  The  parking for visitors were discontinued because landmark was telling people it was ok for visitors to park at another businesses private parking.",
-        "ownerResponse": null
-      },
-      {
         "author": "Lisa Apsay",
         "rating": 2.0,
         "review": "I lived at McKenzie Square for 3.5 years and moved out early this year.  I didn't hear much from them in the first couple of years, which was fine.  I'm not quite sure what happened after that second year, but I began receiving invoices for past due rent for multiple months, even though I had never been late.  Even though I emailed my property manager and she corrected the error, it happened at least 2 other times.  Landmark would also go through McKenzie Square posting notices to enter units with less than a days notice.\n\nThese things were extremely annoying, however, the thing that put me over the edge was that one night SOMEONE TRIED TO BREAK INTO MY UNIT WHILE I WAS HOME AND I HAD TO CALL THE POLICE.  It turned out that the person was another McKenzie resident, who was intoxicated from alcohol and prescription medication and genuinely thought my unit was hers.  I didn't feel safe living near a person with those types of tendencies and asked my property manager to take action.  She didn't.\n\nLandmark is uncaring and unresponsive to the needs of their tenants.  I highly advise a potential renter with Landmark to proceed with caution.",
@@ -1514,6 +1526,12 @@
         "ownerResponse": {
           "text": "Hi Abby, please let us know what we can improve on in the future. Thanks,"
         }
+      },
+      {
+        "author": "Chris Casquilho",
+        "rating": 4.0,
+        "review": "Rented our property sight unseen from out of town. Had a friend stop over to give it the smell test. Landmark was very helpful and timely getting us through the paperwork even though we were in a rush. When we moved in, the carpet needed a cleaning. We called Landmark and they sent someone over right away (we weren't charged for the cleaning). Later, the upstairs neighbors exhibited a habit of being rowdy and noisy at all hours, and Landmark courteously and promptly communicated with them and got them to stop. Landmark has been great responding to maintenance requests, and their maintenance people and employees have been great. We've been here over a year.",
+        "ownerResponse": null
       },
       {
         "author": "Sheila Alamo",
@@ -1722,6 +1740,12 @@
         }
       },
       {
+        "author": "Zack Callahan",
+        "rating": 5.0,
+        "review": "Kind, friendly, easy process. Prepared for questions and information.",
+        "ownerResponse": null
+      },
+      {
         "author": "S Callister",
         "rating": 4.0,
         "review": "I co-signed for my son & his girlfriend to rent a small house in Bellingham while they were students. Though we were braced for difficulties because of some of the bad reviews, Landmark turned out to be just fine and very fair to work with. Yes, they have fairly strict requirements to be eligible to rent or co-sign, but I dont blame them - they have to protect their own interejsts and their property owners.  Their lease is also fairly thorough and strict, but as someone who once had a property of my own mistreated by tenants, I applaud that they require their tenants to take proper care of their rental, leave it in as good a condition as they found it, and be decent neighbors while they live there. Thats really what it comes down to. I was professional and polite in dealing with them, and I received the same from them. They even offered to adjust the term of the lease so it would coincide with the end of the academic year. At one point we needed to have something done to property to facilitate the type of internet we wanted, We followed proper procedure and requested permission, and they were quick to respond and supportive.  The only reason I gave them 4 rather than 5 stars was I thought the extra administrative fee charged at the beginning was steep (I understand there are costs associated with new tenants/leases, but in my opinion it seems like that should be borne by the propery owner who is paying the mgt company to rent the property for him/her - though I should add that all the mgt companies in this area seem to do this); additionally, the property was not cleaned all that well prior to move-in (Im a perfectionist about that), and there were a couple of things that really needed refurbishing: the finish on the tub was gone to the point it wasnt possible to clean it well, and the kitchen range needed refurbishing, e.g. temp markings worn off on the oven dial so no way to set oven to specific temp  (not unusual in older places, and more of a property owner issue). But - we were very thorough and detailed in documenting the condition of everything at move-in, again at move-out (when we worked hard to clean as well as humanly possible - as all tenants should), and we had no trouble getting back the majority of the deposit (less carpet cleaning costs, which they tell you from the beginning they will deduct). Bottom line, I felt they simply want tenants to behave like responsible, polite adults (as I would want if I was the mgt co. or property owner), to follow certain procedures (like communicating in writing, which protects both sides), and they would respond in kind.",
@@ -1898,12 +1922,6 @@
         }
       },
       {
-        "author": "Leonor Benbow",
-        "rating": 5.0,
-        "review": "Great company and good customer service !",
-        "ownerResponse": null
-      },
-      {
         "author": "Stu Fales",
         "rating": 3.0,
         "review": "My first rating was a 0....but then I went in after 3 months of not getting my final statement and they got rid of the \"bad egg(s)\" and have been replaced with a great new property manager, I think I would rent from here again now. They had one bad egg that screwed a lot of people over.",
@@ -1954,12 +1972,6 @@
         }
       },
       {
-        "author": "Janelle Kurtz",
-        "rating": 4.0,
-        "review": "Answered the phone quickly and was helpful with my requests",
-        "ownerResponse": null
-      },
-      {
         "author": "Devon Delaney",
         "rating": 1.0,
         "review": "I had a poor rental experiences, but also, a news article just came out (April 2020) reporting that Landmark has broken the governors ordinance  in regards to evictions and late fees amid Covid-19 in Washington state... and nobody in Whatcom County is surprised. Landmark is always trying to find loopholes and ways to snake their tenants wherever they can. Despicable company.",
@@ -1974,6 +1986,12 @@
         "ownerResponse": {
           "text": "Tracy, thank you for the five star review and for renting with us. We appreciate it!"
         }
+      },
+      {
+        "author": "Leonor Benbow",
+        "rating": 5.0,
+        "review": "Great company and good customer service !",
+        "ownerResponse": null
       },
       {
         "author": "Sondra Miller",
@@ -2054,6 +2072,12 @@
         "ownerResponse": {
           "text": "Michelle, if you could provide me with more detailed information I could look into this issue for you and see what happened. From our application; \"Applications are pre-reviewed in the order in which (completed & paid) they are received.\" \"The only way to reserve a unit and move to the end of the application process is to submit a holding fee.\""
         }
+      },
+      {
+        "author": "Janelle Kurtz",
+        "rating": 4.0,
+        "review": "Answered the phone quickly and was helpful with my requests",
+        "ownerResponse": null
       },
       {
         "author": "Christina Lopez",
@@ -2316,12 +2340,6 @@
         }
       },
       {
-        "author": "Sarah Casey",
-        "rating": 5.0,
-        "review": "Vanessa was very helpful and answered all my questions. I like this company because everyone I have encountered so far has been very kind and quick to reply.",
-        "ownerResponse": null
-      },
-      {
         "author": "Jason Groom",
         "rating": 4.0,
         "review": "Tia was very helpful even though I came off rude she pushed through and helped with my questions",
@@ -2474,12 +2492,6 @@
         }
       },
       {
-        "author": "Nicholas Green",
-        "rating": 1.0,
-        "review": "Worst management company in town",
-        "ownerResponse": null
-      },
-      {
         "author": "Tori W",
         "rating": 1.0,
         "review": "Changed my mind, dont expect your deposit back no matter how much you clean.",
@@ -2494,6 +2506,12 @@
         "ownerResponse": {
           "text": "Keely, thank you for the five star review. We appreciate your time!"
         }
+      },
+      {
+        "author": "Nicholas Green",
+        "rating": 1.0,
+        "review": "Worst management company in town",
+        "ownerResponse": null
       },
       {
         "author": "talon lawrence",
@@ -2526,14 +2544,6 @@
         "ownerResponse": null
       },
       {
-        "author": "Dante Price",
-        "rating": 5.0,
-        "review": "Tia was nice and thourough",
-        "ownerResponse": {
-          "text": "Thank you for the great review. Appreciate it.\nTia"
-        }
-      },
-      {
         "author": "Nolan Echols",
         "rating": 1.0,
         "review": "Rude customer service. Once you sign the lease they don't care about you",
@@ -2561,14 +2571,6 @@
         "review": "Extremely rude staff..very poor communication. DO NOT GIVE THESE PEOPLE A DEPOSIT UNTIL THEY \"APPROVE \" YOU!!!!!!",
         "ownerResponse": {
           "text": "James,\nWe are so sorry to hear that you had a poor experience regarding communication. We would be interested in getting some feedback on the specifics if you would be willing to share to our office manager."
-        }
-      },
-      {
-        "author": "Zoe Roth",
-        "rating": 5.0,
-        "review": "Always super helpful to me and easy to work with!",
-        "ownerResponse": {
-          "text": "Hi Sam, thank you for the 5 stars!"
         }
       },
       {
@@ -2624,6 +2626,12 @@
         "ownerResponse": {
           "text": "Hi Steven, Thank you for the 5 stars!"
         }
+      },
+      {
+        "author": "Robert Sadler",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
       },
       {
         "author": "Vidya Kothakotha",

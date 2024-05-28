@@ -3,10 +3,16 @@
   "slug": "regency-park-apartments",
   "company_type": "property",
   "address": "2050 Fraser St, Bellingham, WA 98229",
-  "review_count": 157,
-  "avg_rating": 3.5,
+  "review_count": 161,
+  "average_rating": 3.5,
   "reviews": {
     "google_reviews": [
+      {
+        "author": "sheila harrison",
+        "rating": 5.0,
+        "review": "The staff does an amazing job. They are all great and make this feel more like a family. Terry has been making sure everything is looked at and we are given the ok to play with chalk again and for the kids to ride bikes!",
+        "ownerResponse": null
+      },
       {
         "author": "Nicoll Ferrari (Nikki)",
         "rating": 5.0,
@@ -206,14 +212,6 @@
         }
       },
       {
-        "author": "Jamie Alvarez",
-        "rating": 4.0,
-        "review": "Very clean, well maintained neighborhood. The management ladies were very friendly!",
-        "ownerResponse": {
-          "text": "Jamie,\nThank you for your kind review; we are happy to pass along your comments to the team here at Regency Park Apartments!\nRegards,\nRegency Park Management"
-        }
-      },
-      {
         "author": "Andrea Maier",
         "rating": 4.0,
         "review": "My daughter lives there. Nice place washer and dryer in them. Dishwasher too.",
@@ -226,6 +224,14 @@
         "rating": 5.0,
         "review": "We moved in not long ago and its awesome I am sooooo happy here my kids love it and the staff are so nice.",
         "ownerResponse": null
+      },
+      {
+        "author": "Jamie Alvarez",
+        "rating": 4.0,
+        "review": "Very clean, well maintained neighborhood. The management ladies were very friendly!",
+        "ownerResponse": {
+          "text": "Jamie,\nThank you for your kind review; we are happy to pass along your comments to the team here at Regency Park Apartments!\nRegards,\nRegency Park Management"
+        }
       },
       {
         "author": "Kristin Morris",
@@ -336,18 +342,18 @@
         }
       },
       {
+        "author": "Jenn Marie",
+        "rating": 4.0,
+        "review": "Wish the pool or just the hot tub at least, would be open further into the fall...",
+        "ownerResponse": null
+      },
+      {
         "author": "night fire yt",
         "rating": 1.0,
         "review": "There was mold in corners and overall bad place",
         "ownerResponse": {
           "text": "Hi there,\nWe ask that you please email us with more details so we can help out with this. Please email us at live@regencyparkwa.com with more information. \nSincerely,\nRegency Park Management Team"
         }
-      },
-      {
-        "author": "Jenn Marie",
-        "rating": 4.0,
-        "review": "Wish the pool or just the hot tub at least, would be open further into the fall...",
-        "ownerResponse": null
       },
       {
         "author": "Sonja Jager",
@@ -605,6 +611,24 @@
         "author": "cassie w",
         "rating": 2.0,
         "review": "Bad neighborhood",
+        "ownerResponse": null
+      },
+      {
+        "author": "Blessed Mom",
+        "rating": 5.0,
+        "review": "Terri and Marcy are amazing! They are involved in the Community and really care about the tenants! If I have any issue at all, they are on top of it. They went above and beyond and now the kids can play with the sidewalk chalk and ride their bikes :) I love the community involvement between tenants and office staff. It makes living here feel like home. They listen to ideas of the tenants and they dont dismiss us. I love it here! If you need anything ever, ask Terri, Marcy! Our maintenance staff is amazing as well. Nome is always so caring and personable and professional. He communicates with you and once he fixes whatever the issue is, he will\nFollow up with you. I never have to chase anyone to get a work order completed! He also always has a smile on his face! I have absolutely no complaints. Regency Park is amazing!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Nanny Buttersworth",
+        "rating": 5.0,
+        "review": "Love this place!\n\nTerri is the best! So welcoming and she cares so much! She works hard to help her residents!\n\nFaves about our community\n\nNeighbors and staff! The pool! The fitness room! The trails! The location, close to shopping and easy access to I-5, maintenance and our new manager is awesome too!\n\nDownsides, parking. (We are working out a solution)\n\nLove our community ",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jennifer Sobjack",
+        "rating": 5.0,
+        "review": "I give out community a five star rating based on these factors.\n\n1.) My neighbors! They are my friends and I can count on them. \n\n2.) The (current as of this writing) staff is amazing. Caring, fun, hard working, and you can really talk to them when in need of anything!\n\n3.) It seems that everyone here is doing their best and I really believe we have a strong community right now. \n\nWith that being said, there are some downsides to living here (city) and these are things you are going to find pretty much no matter where you are living in Bellingham unfortunately. \n\nI should mention we have community get togethers for the kiddos, and we have a pool and hot tub open during the summer. \n\nAll year round we have a fitness room. \n\nSo happy to have an affordable place to live while I am preparing to buy a house.",
         "ownerResponse": null
       },
       {

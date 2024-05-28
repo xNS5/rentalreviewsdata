@@ -33,7 +33,7 @@ def company_map(key):
             "maplewood-apartments": "maplewood-apartments-lp",
             "optimus-property-solutions": "optimus-property-solutions-property-sales-management",
             "pomeroy-court-appartments": "pomeroy-court-apartments",
-            "sonrise-property-management": "pure-property-management-of-washington",
+            # "sonrise-property-management": "pure-property-management-of-washington",
             "stateside-bellingham": "stateside",
             "sunset-pond-apts": "sunset-pond-apartments",
             "windermere-property-management": "windermere-property-management-bellingham",
@@ -48,7 +48,7 @@ def company_map(key):
             "maplewood-apartments-lp": "maplewood-apartments",
             "optimus-property-solutions-property-sales-management": "optimus-property-solutions",
             "pomeroy-court-apartments": "pomeroy-court-appartments",
-            "pure-property-management-of-washington": "sonrise-property-management",
+            # "pure-property-management-of-washington": "sonrise-property-management",
             "stateside": "stateside-bellingham",
             "sunset-pond-apartments": "sunset-pond-apts",
             "windermere-property-management-bellingham": "windermere-property-management",
@@ -56,6 +56,23 @@ def company_map(key):
         },
     }
     return map[key] if key in map else {}
+
+def get_company_blacklist():
+    return set([
+        "john-l-scott-real-estate-bellingham",
+        "briddick-webb-bellingham-real-estate-agent-remax-whatcom-county-inc",
+        "julian-company-real-estate-team-with-the-muljat-group",
+        "remax-whatcom-county",
+        "eric-green-john-l-scott-real-estate",
+        "guardian-northwest-title-escrow",
+        "julie-carpenterremax-whatcom-county",
+        "lilac-listings-at-remax-whatcom-county",
+        "lck-properties",
+        "liz-standow-bellingham-real-estate",
+        "matt-mcbeathexp-realty",
+        "sean-ryan-nexthome-northwest-living",
+        "vanessa-parry-bellwether-real-estate"
+    ])
 
 
 def get_google_whitelist():

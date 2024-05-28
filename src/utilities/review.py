@@ -171,7 +171,7 @@ class Business:
         if isinstance(self.review_count, str):
             self.review_count = int(re.sub(NUMS, "", self.review_count))
         if isinstance(self.average_rating, str):
-            self.rating = float(re.sub(NUMS,"", self.average_rating))
+            self.average_rating = float(re.sub(NUMS,"", self.average_rating))
 
         return {
             "name": self.name,

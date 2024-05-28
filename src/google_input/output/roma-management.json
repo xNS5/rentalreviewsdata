@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "557 W Bakerview Rd #108, Bellingham, WA 98226",
   "review_count": 68,
-  "avg_rating": 3.7,
+  "average_rating": 3.7,
   "reviews": {
     "google_reviews": [
       {
@@ -16,19 +16,19 @@
         }
       },
       {
-        "author": "Katelyn",
-        "rating": 5.0,
-        "review": "Before Roma took over as my property management company it took weeks to have things fixed, if they ever even got fixed. Usually things were just ignored or brushed off and I ended up having to do a lot of repairing around my super old house myself. Since Roma took over Ive felt like Im actually being taken care of again and its a breath of fresh air. By far the most attentive and generally best property management company Ive rented through since I started renting years and years ago. From day 1 theyve been super caring and on top of things. Thanks for all you guys do!!",
-        "ownerResponse": {
-          "text": "Thank you for sharing your experience! We're delighted to hear tht you apprecaite our efforts to provide exceptional support. Your feedback movtivates us to continue delievering the best service to our residents."
-        }
-      },
-      {
         "author": "S. Jackson",
         "rating": 4.0,
         "review": "Pros:\n- Office management is very caring and professional, always willing to help with anything you need\n- Hardly raised the rent at all during my time here ($25 total raise for two years)\n- Easy to use portal for rent payments and maintenance requests\n- Very comfy & cozy with nice appliances, great insulation in the building\n\nCons:\n- Horrible parking. The customers from the massage parlor, delivery people, and tenant's guests constantly take reserved spaces. While the office staff tries very hard to help, sometimes the office is closed and nothing can really be done besides parking in the overflow parking lot which is further away. Not very fun when it's cold/rainy out\n- Slow maintenance. They are always very kind and always get it done but it takes awhile\n\nOverall I've enjoyed my stay here, I'm moving due to other circumstances but if I was looking to continue living in a studio apartment I'd stay",
         "ownerResponse": {
           "text": "Hi Sarah, We appreciate your residency for the past two year and welcome your feedback. Regrettably parking allocation is out of our control, we do inform all our prospective tenants prior to renting about the challenges. Our goal is to ensure maintenance items are completed in a timely manner however some items do take longer. The Property mangement does need to owner to approve maintenance."
+        }
+      },
+      {
+        "author": "Katelyn",
+        "rating": 5.0,
+        "review": "Before Roma took over as my property management company it took weeks to have things fixed, if they ever even got fixed. Usually things were just ignored or brushed off and I ended up having to do a lot of repairing around my super old house myself. Since Roma took over Ive felt like Im actually being taken care of again and its a breath of fresh air. By far the most attentive and generally best property management company Ive rented through since I started renting years and years ago. From day 1 theyve been super caring and on top of things. Thanks for all you guys do!!",
+        "ownerResponse": {
+          "text": "Thank you for sharing your experience! We're delighted to hear tht you apprecaite our efforts to provide exceptional support. Your feedback movtivates us to continue delievering the best service to our residents."
         }
       },
       {
@@ -72,14 +72,6 @@
         }
       },
       {
-        "author": "Kayleigh Banks",
-        "rating": 5.0,
-        "review": "We are so happy with Roma Management. I rented a gorgeous apartment in Ferndale from them for a few years and then when my relationship changed they helped me coordinate a transfer to a different apartment and really made a very difficult time a lot easier with their support. Since then I have rented two other apartments from them and can tell you everything has been great. Erin in the office is on top of things and very responsive. If you are looking for a place to live, check them out.",
-        "ownerResponse": {
-          "text": "Thank you for your very kind feedback, we truly appreciate that you took the time to share your experience. Thrilled to hear you have enjoyed your time with us thus far and look forward to working with you in the future.. "
-        }
-      },
-      {
         "author": "Candace",
         "rating": 4.0,
         "review": "Erin in the office was amazing. Minor fixes tend to get left behind, large things are fixed very very quickly. Overall, a very good experience, especially considering the property management experience in Whatcom County as a whole. *Insect maintenance on the property could be improved as spiders are not my favorite.",
@@ -101,6 +93,14 @@
         "review": "Erin from Roma made our renting experience wonderful. Her attentiveness and dedication to making every interaction human instead of a cold corporate response was refreshing, to say the least. She truly went above and beyond, setting a new standard for your typical management company. A sincere thank you to Erin and the entire Roma team.",
         "ownerResponse": {
           "text": "Hi Jessica,  Thank you for your very kind feedback! It is so rewarding when you see that someone like you appreciate all that we do. We truly love helping people. All the best to you moving forward."
+        }
+      },
+      {
+        "author": "Kayleigh Banks",
+        "rating": 5.0,
+        "review": "We are so happy with Roma Management. I rented a gorgeous apartment in Ferndale from them for a few years and then when my relationship changed they helped me coordinate a transfer to a different apartment and really made a very difficult time a lot easier with their support. Since then I have rented two other apartments from them and can tell you everything has been great. Erin in the office is on top of things and very responsive. If you are looking for a place to live, check them out.",
+        "ownerResponse": {
+          "text": "Thank you for your very kind feedback, we truly appreciate that you took the time to share your experience. Thrilled to hear you have enjoyed your time with us thus far and look forward to working with you in the future.. "
         }
       },
       {
@@ -142,14 +142,6 @@
         }
       },
       {
-        "author": "Elijah Owen (Eli)",
-        "rating": 1.0,
-        "review": "I put in eight maintenance requests and only one was taken care of because it was a leak in the sink and it would damage their property. 2 years I was being strung along with a simple door fix.\n\nLady in the office is extremely rude. Avoid at all costs.",
-        "ownerResponse": {
-          "text": "Please do not base your judgement/opinion about Roma Management by this review, there is so much more to this situation than the person is willing to share, lease violations etc. "
-        }
-      },
-      {
         "author": "Irena Kolbert",
         "rating": 4.0,
         "review": "Nice and fancy units I have to say! There is always parking in the Ferndale Willy Flats, and it was overall a great experience. I didn't like that they kept my $1250 deposit when I moved out early though. There were no damages at all in my unit, but they apparently keep the whole deposit if you don't stay the whole lease. Other PM companies like Landmark don't charge that high of a fee to break a lease, especially considering they now can rent my spot for a few hundred dollars more per month just because I left early. If anything, I did them a favor lol. But oh well, it was a nice apartment at least.",
@@ -163,6 +155,14 @@
         "review": "I have been with Roma Management for almost a year now. Whenever I have a problem, they are quick to respond and show they truly do care for your best interest. I've spoken with all of the staff and each one has been nothing but kind and thoughtful. Unfortunately, one of the apartments were not in a good condition due to previous renters... However, the Roma Management team have continued to communicate with me every step of the way and have worked to fix everything that needs to be fixed.\nI want to say a very special thank you to Erin Galbraith in specific. She is so kind and hard working. Erin works to help find the solution for all of your problems and continues to follow through with what she says will happen. I appreciate all of her hard work and dedication to her work, she always go above and beyond (which is so hard to find)!",
         "ownerResponse": {
           "text": "Justine - we appreciate you and your patience with this unique situation."
+        }
+      },
+      {
+        "author": "Elijah Owen (Eli)",
+        "rating": 1.0,
+        "review": "I put in eight maintenance requests and only one was taken care of because it was a leak in the sink and it would damage their property. 2 years I was being strung along with a simple door fix.\n\nLady in the office is extremely rude. Avoid at all costs.",
+        "ownerResponse": {
+          "text": "Please do not base your judgement/opinion about Roma Management by this review, there is so much more to this situation than the person is willing to share, lease violations etc. "
         }
       },
       {

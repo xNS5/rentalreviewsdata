@@ -3,8 +3,8 @@
   "slug": "omni-property-management",
   "company_type": "company",
   "address": "909 Squalicum Way STE 107, Bellingham, WA 98225",
-  "review_count": 64,
-  "avg_rating": 4.3,
+  "review_count": 63,
+  "average_rating": 4.3,
   "reviews": {
     "google_reviews": [
       {
@@ -24,14 +24,6 @@
         }
       },
       {
-        "author": "Corey Havens",
-        "rating": 1.0,
-        "review": "When the owner of our rental home called to tell us our contract was being transferred to OMNI, she said they would contact us 'well in advance' before the transition. I waited three months and was never contacted. Finally I contacted OMNI days before rent was due to figure out how to pay them. I was told it was their busiest week of the year.\n\nWe were told rent would increase and six months before it happened they quoted us about a 20% increase. Then, two months before they doubled it to a 43% increase.\n\nWhen I asked if this was a mistake, I was told that 'the house could be rented for more if it were marketed today.'\n\nNice",
-        "ownerResponse": {
-          "text": "We appriciate your feedback and we certainly understand that the rent increases in this area have been more difficult for some more than others.  \nI hate to have this converstaion in a public forum but this is how you have choosen to proceed. \nAs you noted you were give 6 month's advanced notice of the increase and ample opportunity to discuss the situation, sign the offered renewal and lock in the rate offered or find other accomidations. After much work on the home and changes in city requirements you were give 2 additional months at the same very low rate. We then again negotiated the offer for a discount for another 3 months. Even currently your rent is several hundred dollars lower than market rent. \nWhat many renters do not understand is that the cost of ownership has increased greatly over the past several years in Tax increases, Insruance increases and the cost of labor and materials to make repairs.  Taxes alone have increase around 30% over the past 3 years. And though this is not the case for you, many owners also lost month's of unrecoverable rent during Covid. Some even lost their property because they were unable to pay their mortgages. \nWe understand that rent increases can be challenging, and we want to assure you that we have made an effort to keep this adjustment reasonable. We value our tenants, and we are committed to providing them with a well-maintained and comfortable living environment.\nPlease feel free to contact us directly to continue this conversation in a private arena. \nSincerely,\nLacey Lutjemeier, \nOwner, Operation Manager\nOMNI Property Management"
-        }
-      },
-      {
         "author": "K T",
         "rating": 5.0,
         "review": "OMNI took over our lease a few years ago and we have been very pleased throughout. Everyone we have dealt with in the office has been professional, pleasant and responsive. We had some mildly serious maintenance concerns that were addressed immediately, even at times when finding a contractor is hard.\n\nI feel like OMNI is above board and doing their best to be fair to both tenants and landlords , as well as following fair housing regulations and practices. In general, it is a relief to have a property management company that is conscientious about their work and offers  consistently professional responses.",
@@ -45,6 +37,14 @@
         "review": "I had an incredibly poor experience renting through Omni. Communication throughout our whole lease cycle was inconsistent and unprofessional. I loved the property I rented but if I hadn't been moving out of state I would have moved to a property managed by anyone else, without hesitation, and paid more to avoid the loopholes of an Omni leasing experience. I've rented from private landlords and other management companies in other areas and never felt as taken advantage of as I did by Omni. If you are considering renting with them I would highly advise you to consult the Washington State tenancy laws before you sign anything that will minimize your rights.",
         "ownerResponse": {
           "text": "Corinne, \nWe are truly sorry that you felt that we were not consistent in our communication with you.  We make every effort to explain the lease agreement and requirements in a clear way as we understand that the legal wording required can be confusing. I see we went back and forth multiple times by email/text during this transaction. Roommate switches and lease changes can add to the confusion with so many parties involved.  Our hope is that if you feel there is something more we could have done you would reach out to us directly to try and rectify the situation. However, I understand that there is not always a completely satisfactory solution for all parties involved.  All leases have costs involved for certain items and we make best efforts to remind tenants what is written in their signed lease agreement as soon as these situations come up. \nWe hope that you have found a more satisfying living arrangement for yourself.\nBest Wishes, \nLacey Lutjemeier, Operations Manager\nOMNI Property Management LLC"
+        }
+      },
+      {
+        "author": "Corey Havens",
+        "rating": 1.0,
+        "review": "When the owner of our rental home called to tell us our contract was being transferred to OMNI, she said they would contact us 'well in advance' before the transition. I waited three months and was never contacted. Finally I contacted OMNI days before rent was due to figure out how to pay them. I was told it was their busiest week of the year.\n\nWe were told rent would increase and six months before it happened they quoted us about a 20% increase. Then, two months before they doubled it to a 43% increase.\n\nWhen I asked if this was a mistake, I was told that 'the house could be rented for more if it were marketed today.'\n\nNice",
+        "ownerResponse": {
+          "text": "We appriciate your feedback and we certainly understand that the rent increases in this area have been more difficult for some more than others.  \nI hate to have this converstaion in a public forum but this is how you have choosen to proceed. \nAs you noted you were give 6 month's advanced notice of the increase and ample opportunity to discuss the situation, sign the offered renewal and lock in the rate offered or find other accomidations. After much work on the home and changes in city requirements you were give 2 additional months at the same very low rate. We then again negotiated the offer for a discount for another 3 months. Even currently your rent is several hundred dollars lower than market rent. \nWhat many renters do not understand is that the cost of ownership has increased greatly over the past several years in Tax increases, Insruance increases and the cost of labor and materials to make repairs.  Taxes alone have increase around 30% over the past 3 years. And though this is not the case for you, many owners also lost month's of unrecoverable rent during Covid. Some even lost their property because they were unable to pay their mortgages. \nWe understand that rent increases can be challenging, and we want to assure you that we have made an effort to keep this adjustment reasonable. We value our tenants, and we are committed to providing them with a well-maintained and comfortable living environment.\nPlease feel free to contact us directly to continue this conversation in a private arena. \nSincerely,\nLacey Lutjemeier, \nOwner, Operation Manager\nOMNI Property Management"
         }
       },
       {
@@ -140,12 +140,6 @@
         "ownerResponse": {
           "text": "We are sorry to hear you had such a bad previous experience and we hope that we will continue to fulfill your expectations and beyond. Thank you!"
         }
-      },
-      {
-        "author": "Christopher Croyle",
-        "rating": 4.0,
-        "review": "Hit or miss, depending on the person that responds back. Just glad my dishwasher works now",
-        "ownerResponse": null
       },
       {
         "author": "Kelley Jasper",

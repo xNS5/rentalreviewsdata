@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "355 Meadowbrook Ct, Bellingham, WA 98226",
   "review_count": 94,
-  "avg_rating": 3.6,
+  "average_rating": 3.6,
   "reviews": {
     "google_reviews": [
       {
@@ -72,14 +72,6 @@
         }
       },
       {
-        "author": "tammy stewart",
-        "rating": 5.0,
-        "review": "I was not home when they came to fix my wash machine. I told them they were welcome to go in and service my machine without my being there. They did the repair and left without a hitch. Thank you!",
-        "ownerResponse": {
-          "text": "Hi Tammy, we enjoy having you as our loyal resident. We have been actively working to improve our amenities, and we appreciate the acknowledgment of our efforts. Thanks for taking the time to share your favorable feedback. We look forward to offering you many more positive experiences in our community. If you ever need any assistance, please reach out to us at 360-715-9401."
-        }
-      },
-      {
         "author": "Lance Schaumberg",
         "rating": 1.0,
         "review": "As mentioned earlier, this place has the makings of a real gang-infested complex. Section 8, SSI, welfare, and other such recipients make up a good chunk of the people here. I could write stories here of what I've seen and heard, but there might be children reading this. The weekend noise is awful, especially the drunks coming in at 2AM. Many parents let their children run loose in the parking lot all day unsupervised. The resulting noise is unreal. This may change in the winter. I'm not going to be here to find out (thank God). Good bye and good riddance! Avoid like plague. I should also mention that I made an appointment to sign the lease at move-in time and was rescheduled (to a later day) half an hour before the arranged time because, I was told, the person who had an appointment before me was late. Not my problem. Also overheard management in confrontations with other staff in front of tenants. Highly unprofessional. If you move here, you will be sorry.",
@@ -101,6 +93,14 @@
         "review": "DO YOURSELF A FAVOR, AVOID THIS PLACE AT ALL COST!!!\n\nThese people were nice and helpful when you live there, once you move out, they will show you their true faces. They billed me $3383 after we moved out!!!!\n\nBefore we moved out, the manager said that we had to pay only until the last day we stayed (which is only 2 days of the new billing circle) then they billed us for the whole month.\n\nThey also billed us for the new carpet replacement of more than $1600 saying that they replaced the carpet before we moved in and after we moved out, which is a lie. Before we moved in we were told to wait for a few days because they just shampooed the carpet. Then after we moved in, the carpet was still wet and it took almost a month till the carpet got dry. I also talked to the new tenant of the apt and he said the carpet was not replaced, they just cleaned it because when he moved in the whole floor was damp.\n\nToday I went there to talk to the manager, she was totally ignorant and rude. She asked me to talk to the credit company that handles my case while she was the one who prepared the bill to cheat my money. She even threatened to call the police on me. Such a horrible place, I so regret that I gave them 2 years of rent.\n\nThe Meadows by Vintage, dishonest business won't get you anywhere! You guys are supposed to help low income people, not to scam them. I hope there will be more people who raise their voices so police will investigate this place.",
         "ownerResponse": {
           "text": "Thank you for reviewing our community as feedback from former residents can be valuable to us. We regret any issues with your security deposit, especially because our team aims to communicate all policies and charges related to move-out in advance. We are discussing your situation with our team and someone will contact you shortly to discuss this further. In the meantime, if you wish to reach out to us, please email us at meadows.cd@fpimgt.com. We appreciate your review and wish you well."
+        }
+      },
+      {
+        "author": "tammy stewart",
+        "rating": 5.0,
+        "review": "I was not home when they came to fix my wash machine. I told them they were welcome to go in and service my machine without my being there. They did the repair and left without a hitch. Thank you!",
+        "ownerResponse": {
+          "text": "Hi Tammy, we enjoy having you as our loyal resident. We have been actively working to improve our amenities, and we appreciate the acknowledgment of our efforts. Thanks for taking the time to share your favorable feedback. We look forward to offering you many more positive experiences in our community. If you ever need any assistance, please reach out to us at 360-715-9401."
         }
       },
       {

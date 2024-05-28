@@ -3,8 +3,8 @@
   "slug": "500-square-apartments",
   "company_type": "property",
   "address": "500 32nd St, Bellingham, WA 98225",
-  "review_count": 16,
-  "avg_rating": 3.4,
+  "review_count": 17,
+  "average_rating": 3.5,
   "reviews": {
     "google_reviews": [
       {
@@ -94,6 +94,12 @@
         "ownerResponse": {
           "text": "Hello Stillo!  Thank you for your review!  We're glad you like it here!"
         }
+      },
+      {
+        "author": "Kennedy Hogan",
+        "rating": 5.0,
+        "review": "Super nice and communicative repair man! Got it fixed with no problem. Even gave me a heads up when he was on his way",
+        "ownerResponse": null
       },
       {
         "author": "Evan Heald (Evan Nelson)",

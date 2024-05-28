@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "3790 Canterbury Ln, Bellingham, WA 98225",
   "review_count": 54,
-  "avg_rating": 3.3,
+  "average_rating": 3.3,
   "reviews": {
     "google_reviews": [
       {
@@ -185,6 +185,150 @@
         "author": "Brian George",
         "rating": 5.0,
         "review": "It's all about the apartments",
+        "ownerResponse": null
+      },
+      {
+        "author": "Vitaly Oros",
+        "rating": 5.0,
+        "review": "Nice place",
+        "ownerResponse": null
+      },
+      {
+        "author": "Bank Bandzz",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Ean",
+        "rating": 1.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Danny Ingram",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Dostrimos",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Darcy Lindenmuth",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Dan Ouilette",
+        "rating": 3.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "An Da",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Desiree Mork",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Luis Carbajal",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mike Robey",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Mary Giles",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Gerent G",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Trevor Lange",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kate Talotta (Kate Beans)",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Healthy Eating With Mirna",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Holly Houston",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Tiffany Barker",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Grayson Hovorka",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Brad Willey",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "carolyn quick",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Pankti Shah",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kelly Murphy",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "JAESA PAPILLON",
+        "rating": 4.0,
+        "review": "",
         "ownerResponse": null
       }
     ]

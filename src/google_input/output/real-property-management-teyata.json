@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "119 N Commercial St Suite 910, Bellingham, WA 98225",
   "review_count": 62,
-  "avg_rating": 4.5,
+  "average_rating": 4.5,
   "reviews": {
     "google_reviews": [
       {
@@ -70,18 +70,18 @@
         }
       },
       {
+        "author": "Britney's Bullet Journal",
+        "rating": 5.0,
+        "review": "Weve lived in this property for three months and locked ourselves out of our unit. We called the office, around 6:30 at night, and they were able to come out to us in under 30 minutes. They saved us a locksmith bill! Very grateful for their help.",
+        "ownerResponse": null
+      },
+      {
         "author": "Amanda Gain",
         "rating": 1.0,
         "review": "Update:\n8449 Moonlight Ave in Blaine. I don't recommend staying here or renting from this property management. They raised the rent after a year, plus raised it another $500 when we left. They took pretty much our entire security deposit. They charged an exorbitant fee for landscaping even though when we first arrived, the yard was just a sand pit and invasive blackberry. I took time to plant native plants and clover but they still decided to charge about $600 from the deposit for that. They hire the cheapest labor possible so cabinets just fell apart, fridge stopped working, the paint job was horrible.\n\nPipes froze and burst both summers. Our neighbor helped us out with that and said that whoever did the plumbing did a terrible job.",
         "ownerResponse": {
           "text": "Amanda thank you so much for sharing your experience renting from us!  "
         }
-      },
-      {
-        "author": "Britney's Bullet Journal",
-        "rating": 5.0,
-        "review": "Weve lived in this property for three months and locked ourselves out of our unit. We called the office, around 6:30 at night, and they were able to come out to us in under 30 minutes. They saved us a locksmith bill! Very grateful for their help.",
-        "ownerResponse": null
       },
       {
         "author": "Brandi Kincaid",

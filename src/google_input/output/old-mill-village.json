@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "2100 Electric Ave, Bellingham, WA 98229",
   "review_count": 16,
-  "avg_rating": 4.6,
+  "average_rating": 4.6,
   "reviews": {
     "google_reviews": [
       {
@@ -76,6 +76,46 @@
         "ownerResponse": {
           "text": "Thank you very much for this 5-star review of Old Mill Village! We try our best to provide a fantastic living experience, and we love to hear that our efforts are paying off.\n"
         }
+      },
+      {
+        "author": "Sarah Davidson",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": {
+          "text": "Were happy to see that you had a 5-Star experience at Old Mill Village!\n"
+        }
+      },
+      {
+        "author": "Maya McFadden",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": {
+          "text": "Thank you for awarding Old Mill Village a five-star rating, Maya. We're thrilled that we exceeded your expectations! If you ever need anything, don't hesitate to get in touch."
+        }
+      },
+      {
+        "author": "Arvid Lindstrum",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Wilson Bui",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Matt McC",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jim Carlson",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
       }
     ]
   }

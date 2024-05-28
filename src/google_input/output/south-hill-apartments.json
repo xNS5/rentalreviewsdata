@@ -3,10 +3,16 @@
   "slug": "south-hill-apartments",
   "company_type": "property",
   "address": "255 N Forest St APT 116, Bellingham, WA 98225",
-  "review_count": 17,
-  "avg_rating": 3.1,
+  "review_count": 18,
+  "average_rating": 3.2,
   "reviews": {
     "google_reviews": [
+      {
+        "author": "Lani Suyama",
+        "rating": 5.0,
+        "review": "Im really surprised this complex doesnt have a better rating. I thought the South Hill Apartments were lovely, and my time as a tenant here was hands down the best experience Ive had as a renter in Bellingham. The staff is friendly and helpful, neighbors were nice, and the location of the building itself is unbeatable. Its an old building, so its no surprise that there were somewhat frequent water shut offs, but they never lasted super long and we were always given a gracious heads up. This was perhaps the only negative thing I could think to say about these apartments. Its been a little less than a year since Ive had to move out and I really miss it!",
+        "ownerResponse": null
+      },
       {
         "author": "Aaron Sime",
         "rating": 5.0,

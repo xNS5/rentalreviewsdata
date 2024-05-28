@@ -130,6 +130,7 @@ def get_reviews(driver, config):
 
 def get_company(driver, config):
     nameSet = set()
+    name_blacklist = utilities.get_company_blacklist()
 
     company_title_selector = config["company_title"]
     company_title = check_if_exists(
@@ -185,14 +186,20 @@ def get_company(driver, config):
             if review_count is None:
                 print(f"No reviews for {company_title}")
                 return
+            
+            # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
+            slug = utilities.get_slug(company_title)
+            
+            if slug in name_blacklist:
+                print(f"{company_title} is a blacklisted company. Skipping...")
+                return
 
             location = location.text if location != None else ""
             company_type = company_type.text
             avg_rating = avg_rating.text
             review_count = review_count.text
 
-            # Removing non alphanumeric + whitespace characters (e.g. CompanyName Inc.) would have the "." removed
-            slug = utilities.get_slug(company_title)
+
 
             nameSet.add(company_title)
 

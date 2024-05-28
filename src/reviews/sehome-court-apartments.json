@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "820 32nd St, Bellingham, WA 98225",
   "review_count": 11,
-  "avg_rating": 4.4,
+  "average_rating": 4.36,
   "reviews": {
     "google_reviews": [
       {
@@ -76,5 +76,5 @@
     ]
   },
   "adjusted_review_count": 7,
-  "adjusted_rating_average": 4.4
+  "adjusted_average_rating": 4.43
 }

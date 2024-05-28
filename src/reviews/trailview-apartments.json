@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "2412 Rimland Dr, Bellingham, WA 98226",
   "review_count": 1,
-  "avg_rating": 1.0,
+  "average_rating": 1.0,
   "reviews": {
     "google_reviews": [
       {
@@ -16,5 +16,5 @@
     ]
   },
   "adjusted_review_count": 1,
-  "adjusted_rating_average": 1.0
+  "adjusted_average_rating": 1.0
 }

@@ -4,17 +4,17 @@
   "company_type": "property",
   "address": "1400 Moore St, Bellingham, WA 98229",
   "review_count": 1,
-  "avg_rating": 2.0,
+  "average_rating": 2.0,
   "reviews": {
     "google_reviews": [
       {
         "author": "Rebecca Cohen",
         "rating": 2.0,
-        "review": "The apartments look nice on the inside, and onsite manager Liz is very kind and adaptable. Unfortunately Christy, the offsite manager, could majorly improve how she speaks to people in terms of unnecessary rudeness. I checked in to see how our rental app was coming and she proceeded to rightfully explain that she only makes reference calls once (sure, its frustrating when it means there was a miscommunication with someone and wont be revisited, but I understand from one busy woman to another) but then continue to state that our application is dead in the water. Hope Liz gets a raise though!",
+        "review": "The apartments look nice on the inside, and onsite manager Liz is very kind and adaptable. Unfortunately Christy, the offsite manager, could majorly improve how she speaks to people in terms of unnecessary rudeness. I checked in to see how ",
         "ownerResponse": null
       }
     ]
   },
   "adjusted_review_count": 1,
-  "adjusted_rating_average": 2.0
+  "adjusted_average_rating": 2.0
 }

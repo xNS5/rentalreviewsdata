@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "114 W Magnolia St Suite 201, Bellingham, WA 98225",
   "review_count": 32,
-  "avg_rating": 4.2,
+  "average_rating": 4.19,
   "reviews": {
     "google_reviews": [
       {
@@ -206,5 +206,5 @@
     ]
   },
   "adjusted_review_count": 28,
-  "adjusted_rating_average": 4.2
+  "adjusted_average_rating": 4.18
 }

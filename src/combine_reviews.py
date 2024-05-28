@@ -15,7 +15,6 @@ def merge(file1, file2):
         obj1 = json.load(inputFile1)
         obj2 = json.load(inputFile2)
         obj1["reviews"] = {**obj1["reviews"], **obj2[f"reviews"]}
-        obj1["review_count"] += obj2["review_count"]
         inputFile1.close()
         inputFile2.close()
         return obj1
@@ -41,7 +40,7 @@ def filter(input_path, alt_path):
     company_map = utilities.company_map(input_prefix)
 
     for file in input_list:
-        # print(file)
+        print(file)
         # If file has a counterpart that's slightly different
         file_without_extension = file[:-5]
         if file_without_extension in company_map:

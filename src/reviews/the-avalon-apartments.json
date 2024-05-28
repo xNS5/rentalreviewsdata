@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "206 Flora St Bellingham, WA 98225",
   "review_count": 3,
-  "avg_rating": 1.0,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {
@@ -28,5 +28,5 @@
     ]
   },
   "adjusted_review_count": 3,
-  "adjusted_rating_average": 1.0
+  "adjusted_average_rating": 1.0
 }

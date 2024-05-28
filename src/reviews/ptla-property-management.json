@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "2020 Pacific St, Bellingham, WA 98229",
   "review_count": 51,
-  "avg_rating": 1.8,
+  "average_rating": 1.82,
   "reviews": {
     "google_reviews": [
       {
@@ -21,22 +21,6 @@
         "review": "I have been trying for days to get in touch with anyone in the office. Our hot water froze during the last cold snap and because of a design flaw the pipes ran in an exterior wall. The only solution was to put a small heater in the garage and it took 3 days for the weather to warm up and the pipes to thaw. By law they have 24hrs to find a solution. Secondly, I live in a 3 story townhome with the lower level consisting of a bedroom/bathroom and entry way. On a normal winter day the temperature cannot get above 62 degrees with full heat going. When it was cold outside it was 48 degrees on that level, I had to move my daughter out of her room and upstairs. On the upper 2 floors the the heat also struggled in the cold with the max heat being 62 on the very cold days. In speaking with others in the same type of unit in my complex they are also having the same difficulties with heat. This is a design flaw and cannot be rectified easily. PTLA has violated the tenancy law but not rectifying the situation in a timely manner. I have put in my notice to terminate my tenancy after 3 days of no hot water/adequate heat and have not heard anything from them. I have emailed, dropped off a letter, messaged through the portal and called and left a message. Not sure what else to do.",
         "ownerResponse": {
           "text": "Dana, thank you for reaching out, and we apologize for the delayed response. A member of our team will reach out to you today to address these concerns. "
-        }
-      },
-      {
-        "author": "Salim",
-        "rating": 1.0,
-        "review": "Ive been here for 2 months, and I have nothing good to say about PTLA. For starters, the entire apartment was much smaller than advertised on the floor plan. About 2 square feet per room smaller. The washing machines went out for a week, and they did nothing to respond to our calls and emails, so we just had to wear dirty clothes. They didnt charge us for electricity until this month, when they dropped the 2 months of electricity bills on us at once, AFTER our rent had already been paid, then continued to charge us $5 per day of late fees without notifying us. We didnt notice this until it racked up to over $50. Then, of course, theyve continued to not respond to our emails or calls, and continually go out of office for extended periods of time. They are raising the rent, and making us sign the lease for next year in December. If we dont by the 8th, they are going to raise it again. If we don't by the end of the month, they will assume we arent renewing?? PTLA is an awful, selfish, money hungry business. Never trust them.",
-        "ownerResponse": {
-          "text": "Thank you for your feedback, and we're sorry to hear that you have not had a good experience so far. Unfortunately, the laundry machines at your property are owned and managed by a third-party laundry company who will not allow us to do maintenance on the machines ourselves. However, if you ever have issues with the machines, you can contact their  customer support. We have signs in the laundry rooms with their contact information should you ever need assistance. \nWe did have an issue with the utilities charges this month, which has now been resolved. We are happy to reverse any late fees that were assessed because of this error if your account is otherwise in good standing. It looks like our team already took care of this for you, so please reach out to us if you do not see that on your account. \n\nThank you for your understanding, and we look forward to improving your experience."
-        }
-      },
-      {
-        "author": "Callie L",
-        "rating": 1.0,
-        "review": "Tried to steal our entire security deposit after move out when we spent 2 full days with 6 people cleaning the apartment. I anticipated they might try this so I took a video upon move out to prove the state of the apartment was perfectly clean and in good order. It took the video proof, a lawyer, and calls and emails every single day to get them to return the deposit. If you must rent from them, take pictures/videos on move in and move out and be prepared to contact them every single day when they steal your deposit. Also CC their bosses on the emails so they get annoyed/embarrassed and respond back to you. Good luck and rent elsewhere if possible!!",
-        "ownerResponse": {
-          "text": "Callie, thank you for your review. We apologize for the responsiveness issues you experienced. Although we do our best to fairly assess move-out conditions, we welcome former residents to reach out to us if they feel we have made a mistake so we can correct that. We are glad to have resolved your concern and are working to improve future responsiveness. Again, thank you for your review, and we are happy to speak with you if there is anything further we can do for you."
         }
       },
       {
@@ -57,6 +41,22 @@
         "review": "Awful customer service. Terrible response time for maintenance issues. basically cannot get anyone to respond to an email or phone call and if they do they usually mess it up. They have VERY sneaky wording in their lease renewals so watch out! They send out renewal contracts six months in advanced with decent deals so just be aware cause if you ignore those you will lose you place at the end of your lease. In regards to the actual unit at Elwood. Its beautiful. Marble counters, stainless steel appliances and in unit washer/dryer. The construction is near finished so you dont hear it that often anymore. Parking sucks but thats typical for Bellingham.",
         "ownerResponse": {
           "text": "Thank you for your review, Lindsey. We are sorry to hear you haven't had a positive experience so far. A member of our team will reach out to you shortly to address your concerns. "
+        }
+      },
+      {
+        "author": "Salim",
+        "rating": 1.0,
+        "review": "Ive been here for 2 months, and I have nothing good to say about PTLA. For starters, the entire apartment was much smaller than advertised on the floor plan. About 2 square feet per room smaller. The washing machines went out for a week, and they did nothing to respond to our calls and emails, so we just had to wear dirty clothes. They didnt charge us for electricity until this month, when they dropped the 2 months of electricity bills on us at once, AFTER our rent had already been paid, then continued to charge us $5 per day of late fees without notifying us. We didnt notice this until it racked up to over $50. Then, of course, theyve continued to not respond to our emails or calls, and continually go out of office for extended periods of time. They are raising the rent, and making us sign the lease for next year in December. If we dont by the 8th, they are going to raise it again. If we don't by the end of the month, they will assume we arent renewing?? PTLA is an awful, selfish, money hungry business. Never trust them.",
+        "ownerResponse": {
+          "text": "Thank you for your feedback, and we're sorry to hear that you have not had a good experience so far. Unfortunately, the laundry machines at your property are owned and managed by a third-party laundry company who will not allow us to do maintenance on the machines ourselves. However, if you ever have issues with the machines, you can contact their  customer support. We have signs in the laundry rooms with their contact information should you ever need assistance. \nWe did have an issue with the utilities charges this month, which has now been resolved. We are happy to reverse any late fees that were assessed because of this error if your account is otherwise in good standing. It looks like our team already took care of this for you, so please reach out to us if you do not see that on your account. \n\nThank you for your understanding, and we look forward to improving your experience."
+        }
+      },
+      {
+        "author": "Callie L",
+        "rating": 1.0,
+        "review": "Tried to steal our entire security deposit after move out when we spent 2 full days with 6 people cleaning the apartment. I anticipated they might try this so I took a video upon move out to prove the state of the apartment was perfectly clean and in good order. It took the video proof, a lawyer, and calls and emails every single day to get them to return the deposit. If you must rent from them, take pictures/videos on move in and move out and be prepared to contact them every single day when they steal your deposit. Also CC their bosses on the emails so they get annoyed/embarrassed and respond back to you. Good luck and rent elsewhere if possible!!",
+        "ownerResponse": {
+          "text": "Callie, thank you for your review. We apologize for the responsiveness issues you experienced. Although we do our best to fairly assess move-out conditions, we welcome former residents to reach out to us if they feel we have made a mistake so we can correct that. We are glad to have resolved your concern and are working to improve future responsiveness. Again, thank you for your review, and we are happy to speak with you if there is anything further we can do for you."
         }
       },
       {
@@ -228,6 +228,14 @@
         "ownerResponse": null
       },
       {
+        "author": "Katelynn Pratt",
+        "rating": 1.0,
+        "review": "This place is a mf joke. NO ONE WAS EVER THERE TO HELP!! Also, they charge so much, spend your money elsewhere",
+        "ownerResponse": {
+          "text": "Katelynn, thank you for your review. We're sorry to hear that you didn't have a positive experience. If there is anything we can do to address your concerns, please give our office a call."
+        }
+      },
+      {
         "author": "W Riches",
         "rating": 1.0,
         "review": "One star is too much. \nThis company is the worst!\nWARNiNG\n  DO NOT \nuse PTLA whatsoever\nREAD the REViEWS",
@@ -294,14 +302,6 @@
         "ownerResponse": null
       },
       {
-        "author": "Katelynn Pratt",
-        "rating": 1.0,
-        "review": "This place is a mf joke. NO ONE WAS EVER THERE TO HELP!! Also, they charge so much, spend your money elsewhere",
-        "ownerResponse": {
-          "text": "Katelynn, thank you for your review. We're sorry to hear that you didn't have a positive experience. If there is anything we can do to address your concerns, please give our office a call."
-        }
-      },
-      {
         "author": "Thwho Thwhat",
         "rating": 5.0,
         "review": "",
@@ -346,5 +346,5 @@
     ]
   },
   "adjusted_review_count": 44,
-  "adjusted_rating_average": 1.9
+  "adjusted_average_rating": 1.86
 }

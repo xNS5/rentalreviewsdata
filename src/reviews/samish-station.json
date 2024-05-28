@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "109 N Samish Way, Bellingham, WA 98225",
   "review_count": 8,
-  "avg_rating": 2.6,
+  "average_rating": 2.62,
   "reviews": {
     "google_reviews": [
       {
@@ -66,5 +66,5 @@
     ]
   },
   "adjusted_review_count": 4,
-  "adjusted_rating_average": 2.2
+  "adjusted_average_rating": 2.25
 }

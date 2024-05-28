@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "120 E George Hopper Rd, Burlington, WA 98233",
   "review_count": 60,
-  "avg_rating": 3.4,
+  "average_rating": 3.38,
   "reviews": {
     "google_reviews": [
       {
@@ -472,5 +472,5 @@
     ]
   },
   "adjusted_review_count": 49,
-  "adjusted_rating_average": 3.5
+  "adjusted_average_rating": 3.51
 }

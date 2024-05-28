@@ -2,18 +2,10 @@
   "name": "Hideaway Apartments",
   "slug": "hideaway-apartments",
   "company_type": "property",
-  "address": "1213 Whatcom St Bellingham, WA 98229",
+  "address": "1213 Whatcom St #96, Bellingham, WA 98229",
   "review_count": 8,
-  "avg_rating": 2.4,
+  "average_rating": 2.38,
   "reviews": {
-    "yelp_reviews": [
-      {
-        "author": "Becky C.",
-        "rating": 2,
-        "review": "Honestly, they were okay-ish. \n\nWen I first moved in around spring 2012, it was a shitshow and the cops had to be called all the time things broke and they raised rent way too often.\n\nOnly reason they got two stars is because management was nice to me. But ask my neighbors to remove their sign because you are racist? Nope. They did nothing wrong and were delightful people.",
-        "ownerResponse": null
-      }
-    ],
     "google_reviews": [
       {
         "author": "Katya",
@@ -57,8 +49,16 @@
         "review": "Reminds me of the 90s.",
         "ownerResponse": null
       }
+    ],
+    "yelp_reviews": [
+      {
+        "author": "Becky C.",
+        "rating": 2,
+        "review": "Honestly, they were okay-ish. \n\nWen I first moved in around spring 2012, it was a shitshow and the cops had to be called all the time things broke and they raised rent way too often.\n\nOnly reason they got two stars is because management was nice to me. But ask my neighbors to remove their sign because you are racist? Nope. They did nothing wrong and were delightful people.",
+        "ownerResponse": null
+      }
     ]
   },
   "adjusted_review_count": 8,
-  "adjusted_rating_average": 2.4
+  "adjusted_average_rating": 2.38
 }

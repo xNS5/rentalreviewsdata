@@ -4,9 +4,15 @@
   "company_type": "property",
   "address": "1304 Telegraph Rd #1300, Bellingham, WA 98226",
   "review_count": 10,
-  "avg_rating": 4.5,
+  "average_rating": 4.5,
   "reviews": {
     "google_reviews": [
+      {
+        "author": "Alberta Garcia",
+        "rating": 5.0,
+        "review": "Ta was amazing! Our application process took less then 1 week and she was great at communicating. The units look great and the price was fair when compared to other rentals in the area.",
+        "ownerResponse": null
+      },
       {
         "author": "Simon P",
         "rating": 5.0,
@@ -40,12 +46,6 @@
         "ownerResponse": null
       },
       {
-        "author": "Alberta Garcia",
-        "rating": 5.0,
-        "review": "Ta was amazing! Our application process took less then 1 week and she was great at communicating. The units look great and the price was fair when compared to other rentals in the area.",
-        "ownerResponse": null
-      },
-      {
         "author": "Joe Chriest",
         "rating": 4.0,
         "review": "",
@@ -72,5 +72,5 @@
     ]
   },
   "adjusted_review_count": 6,
-  "adjusted_rating_average": 4.7
+  "adjusted_average_rating": 4.67
 }

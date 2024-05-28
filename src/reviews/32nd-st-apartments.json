@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "705 32nd St, Bellingham, WA 98225",
   "review_count": 2,
-  "avg_rating": 3.0,
+  "average_rating": 3.0,
   "reviews": {
     "google_reviews": [
       {
@@ -22,5 +22,5 @@
     ]
   },
   "adjusted_review_count": 1,
-  "adjusted_rating_average": 5.0
+  "adjusted_average_rating": 5.0
 }

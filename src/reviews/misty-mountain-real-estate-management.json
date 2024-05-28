@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "2900 Meridian St Bellingham, WA 98225",
   "review_count": 11,
-  "avg_rating": 1.0,
+  "average_rating": 1.0,
   "reviews": {
     "yelp_reviews": [
       {
@@ -76,5 +76,5 @@
     ]
   },
   "adjusted_review_count": 11,
-  "adjusted_rating_average": 1.0
+  "adjusted_average_rating": 1.0
 }

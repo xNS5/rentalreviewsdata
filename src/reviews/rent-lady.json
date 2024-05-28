@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "La Conner, WA 98257",
   "review_count": 6,
-  "avg_rating": 3.0,
+  "average_rating": 3.0,
   "reviews": {
     "yelp_reviews": [
       {
@@ -46,5 +46,5 @@
     ]
   },
   "adjusted_review_count": 6,
-  "adjusted_rating_average": 3.0
+  "adjusted_average_rating": 3.0
 }

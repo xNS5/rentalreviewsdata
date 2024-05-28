@@ -2,34 +2,10 @@
   "name": "Local Property Management",
   "slug": "local-property-management",
   "company_type": "company",
-  "address": "1310 9th St Ste 814 Bellingham, WA 98228",
+  "address": "810 Harris Ave, Bellingham, WA 98225",
   "review_count": 17,
-  "avg_rating": 3.9,
+  "average_rating": 3.88,
   "reviews": {
-    "yelp_reviews": [
-      {
-        "author": "Renee D.",
-        "rating": 5,
-        "review": "Local Property management offers a professional rental experience and is prompt, friendly, and efficient throughout the entire process.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Kiana O.",
-        "rating": 1,
-        "review": "If you like being scammed rent from Local\nProperty! I lived there for several months and experienced several in inconveniences and terrible customer service.",
-        "ownerResponse": {
-          "text": "Hi Kiana,\n\nUnfortunately, your description does not at all line up with the facts of your tenancy with us. You repeatedly violated the lease agreement, left your apartment a complete mess and then tried to use photos from someone else's listing to deceive us (something you admitted to doing in your subsequent communication with us). I am happy to provide those records if you now don't recall doing so.\n\nI am sorry that you were clearly unhappy living with us - that is not what we want at all, and we work very hard on resident satisfaction. Our Google reviews, which are much more popular than yelp, show that we have one of the highest ratings in all of Bellingham. But still, that is no excuse to continue to lie and smear our name.\n\nI hope you'll find it in you to update or delete your review in accordance with honesty and integrity.\n\nWe wish you all the best.\n\n-James"
-        }
-      },
-      {
-        "author": "Billie R.",
-        "rating": 1,
-        "review": "Completely dis-organized and could care less about potential customers time.  Called on a property, Tonya said they wouldn't be showing it for a week and a half, gave me a day and time.  Tonya ended up calling me back that evening to advise she gave me the wrong day.\n\nShowed up to the property, with 3 other people and waited 15 minutes.  Finally called to find out it had been rented.\n\nNot only did she/they not call us back to give us the courtesy of not wasting our time, no apologies were made.  She obviously had my name and number.\n\nI will not do business with a company that has such a disregard for people and their time.  I find this rude.  \nA call could have been made at any time that the house had been rented. Mind you, it is still listed on their website.  \n\nFar to many property management companies in this town.  \n\n1 star because they do not offer NEGATIVE STARS option.",
-        "ownerResponse": {
-          "text": "Hi Billie,\n\nThere is no excuse for what happened when you interacted with our business, and I'm sorry this review didn't get a response sooner. We are much more active on Google reviews, so these few Yelp ones tend to slip through the cracks.\n\nAlso, with this review being so old, I can assure you that management has changed up significantly. I am James, the new manager. Been working here for two years now and have a strong emphasis on resident satisfaction - the aforementioned Google reviews will show that effort to be successful.\n\nWhile I know there's nothing we can do to undo what happened when we were under less effective management, I hope you'll keep a look out for any of our listings again if you should need housing. I promise you won't be disappointed!\n\nHave a wonderful day.\n\n-James"
-        }
-      }
-    ],
     "google_reviews": [
       {
         "author": "Susan Zanol",
@@ -121,8 +97,32 @@
         "review": "",
         "ownerResponse": null
       }
+    ],
+    "yelp_reviews": [
+      {
+        "author": "Renee D.",
+        "rating": 5,
+        "review": "Local Property management offers a professional rental experience and is prompt, friendly, and efficient throughout the entire process.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kiana O.",
+        "rating": 1,
+        "review": "If you like being scammed rent from Local\nProperty! I lived there for several months and experienced several in inconveniences and terrible customer service.",
+        "ownerResponse": {
+          "text": "Hi Kiana,\n\nUnfortunately, your description does not at all line up with the facts of your tenancy with us. You repeatedly violated the lease agreement, left your apartment a complete mess and then tried to use photos from someone else's listing to deceive us (something you admitted to doing in your subsequent communication with us). I am happy to provide those records if you now don't recall doing so.\n\nI am sorry that you were clearly unhappy living with us - that is not what we want at all, and we work very hard on resident satisfaction. Our Google reviews, which are much more popular than yelp, show that we have one of the highest ratings in all of Bellingham. But still, that is no excuse to continue to lie and smear our name.\n\nI hope you'll find it in you to update or delete your review in accordance with honesty and integrity.\n\nWe wish you all the best.\n\n-James"
+        }
+      },
+      {
+        "author": "Billie R.",
+        "rating": 1,
+        "review": "Completely dis-organized and could care less about potential customers time.  Called on a property, Tonya said they wouldn't be showing it for a week and a half, gave me a day and time.  Tonya ended up calling me back that evening to advise she gave me the wrong day.\n\nShowed up to the property, with 3 other people and waited 15 minutes.  Finally called to find out it had been rented.\n\nNot only did she/they not call us back to give us the courtesy of not wasting our time, no apologies were made.  She obviously had my name and number.\n\nI will not do business with a company that has such a disregard for people and their time.  I find this rude.  \nA call could have been made at any time that the house had been rented. Mind you, it is still listed on their website.  \n\nFar to many property management companies in this town.  \n\n1 star because they do not offer NEGATIVE STARS option.",
+        "ownerResponse": {
+          "text": "Hi Billie,\n\nThere is no excuse for what happened when you interacted with our business, and I'm sorry this review didn't get a response sooner. We are much more active on Google reviews, so these few Yelp ones tend to slip through the cracks.\n\nAlso, with this review being so old, I can assure you that management has changed up significantly. I am James, the new manager. Been working here for two years now and have a strong emphasis on resident satisfaction - the aforementioned Google reviews will show that effort to be successful.\n\nWhile I know there's nothing we can do to undo what happened when we were under less effective management, I hope you'll keep a look out for any of our listings again if you should need housing. I promise you won't be disappointed!\n\nHave a wonderful day.\n\n-James"
+        }
+      }
     ]
   },
   "adjusted_review_count": 15,
-  "adjusted_rating_average": 3.9
+  "adjusted_average_rating": 3.93
 }

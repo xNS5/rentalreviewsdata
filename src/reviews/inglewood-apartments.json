@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "3025 Ferry Ave, Bellingham, WA 98225",
   "review_count": 20,
-  "avg_rating": 3.6,
+  "average_rating": 3.6,
   "reviews": {
     "google_reviews": [
       {
@@ -130,5 +130,5 @@
     ]
   },
   "adjusted_review_count": 12,
-  "adjusted_rating_average": 3.2
+  "adjusted_average_rating": 3.17
 }

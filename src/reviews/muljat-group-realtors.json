@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "510 Lakeway Dr Bellingham, WA 98225",
   "review_count": 4,
-  "avg_rating": 4.0,
+  "average_rating": 4.0,
   "reviews": {
     "yelp_reviews": [
       {
@@ -34,5 +34,5 @@
     ]
   },
   "adjusted_review_count": 4,
-  "adjusted_rating_average": 4.0
+  "adjusted_average_rating": 4.0
 }

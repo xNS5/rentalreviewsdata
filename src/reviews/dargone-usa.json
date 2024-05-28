@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "2363 Main St Ste 102 Ferndale, WA 98248",
   "review_count": 3,
-  "avg_rating": 1.3,
+  "average_rating": 1.33,
   "reviews": {
     "yelp_reviews": [
       {
@@ -28,5 +28,5 @@
     ]
   },
   "adjusted_review_count": 3,
-  "adjusted_rating_average": 1.3
+  "adjusted_average_rating": 1.33
 }

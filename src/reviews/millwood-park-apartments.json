@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "3907 Flynn St, Bellingham, WA 98229",
   "review_count": 3,
-  "avg_rating": 3.7,
+  "average_rating": 3.67,
   "reviews": {
     "google_reviews": [
       {
@@ -28,5 +28,5 @@
     ]
   },
   "adjusted_review_count": 1,
-  "adjusted_rating_average": 2.0
+  "adjusted_average_rating": 2.0
 }

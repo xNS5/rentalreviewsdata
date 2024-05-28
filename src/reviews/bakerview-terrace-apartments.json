@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "258 E Bakerview Rd, Bellingham, WA 98226",
   "review_count": 9,
-  "avg_rating": 4.2,
+  "average_rating": 4.22,
   "reviews": {
     "google_reviews": [
       {
@@ -64,5 +64,5 @@
     ]
   },
   "adjusted_review_count": 3,
-  "adjusted_rating_average": 4.7
+  "adjusted_average_rating": 4.67
 }

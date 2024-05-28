@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "455 Westerly Rd, Bellingham, WA 98226",
   "review_count": 23,
-  "avg_rating": 2.9,
+  "average_rating": 2.87,
   "reviews": {
     "google_reviews": [
       {
@@ -148,5 +148,5 @@
     ]
   },
   "adjusted_review_count": 14,
-  "adjusted_rating_average": 2.1
+  "adjusted_average_rating": 2.14
 }

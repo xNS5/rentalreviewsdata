@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "1310 9th St, Bellingham, WA 98225",
   "review_count": 13,
-  "avg_rating": 4.5,
+  "average_rating": 4.54,
   "reviews": {
     "google_reviews": [
       {
@@ -94,5 +94,5 @@
     ]
   },
   "adjusted_review_count": 10,
-  "adjusted_rating_average": 4.5
+  "adjusted_average_rating": 4.5
 }

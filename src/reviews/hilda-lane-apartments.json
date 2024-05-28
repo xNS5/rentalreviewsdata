@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "2700 W Maplewood Ave, Bellingham, WA 98225",
   "review_count": 11,
-  "avg_rating": 2.6,
+  "average_rating": 2.64,
   "reviews": {
     "google_reviews": [
       {
@@ -76,5 +76,5 @@
     ]
   },
   "adjusted_review_count": 5,
-  "adjusted_rating_average": 2.4
+  "adjusted_average_rating": 2.4
 }

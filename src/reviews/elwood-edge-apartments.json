@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "3815 Elwood Ave, Bellingham, WA 98229",
   "review_count": 12,
-  "avg_rating": 1.6,
+  "average_rating": 1.58,
   "reviews": {
     "google_reviews": [
       {
@@ -84,5 +84,5 @@
     ]
   },
   "adjusted_review_count": 10,
-  "adjusted_rating_average": 1.3
+  "adjusted_average_rating": 1.3
 }

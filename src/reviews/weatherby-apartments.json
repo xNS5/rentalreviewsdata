@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "2314 Weatherby Way, Bellingham, WA 98226",
   "review_count": 5,
-  "avg_rating": 3.4,
+  "average_rating": 3.4,
   "reviews": {
     "google_reviews": [
       {
@@ -40,5 +40,5 @@
     ]
   },
   "adjusted_review_count": 3,
-  "adjusted_rating_average": 3.3
+  "adjusted_average_rating": 3.33
 }

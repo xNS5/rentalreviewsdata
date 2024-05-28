@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "3615 Bennett Dr, Bellingham, WA 98225",
   "review_count": 8,
-  "avg_rating": 4.4,
+  "average_rating": 4.38,
   "reviews": {
     "google_reviews": [
       {
@@ -58,5 +58,5 @@
     ]
   },
   "adjusted_review_count": 6,
-  "adjusted_rating_average": 4.2
+  "adjusted_average_rating": 4.17
 }

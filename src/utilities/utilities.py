@@ -139,6 +139,7 @@ def list_files(path):
                 ret.append(get_file_name(file_path))
     return sorted(ret)
 
+
 def list_directories(path):
     ret = []
     input = os.listdir(path)
@@ -199,7 +200,7 @@ def calculate_adjusted_reviews(data):
 
     return {
         "adjusted_review_count" : adjusted_count,
-        "adjusted_average_rating": round(adjusted_rating / adjusted_count, 1) if adjusted_rating > 0 and adjusted_count > 0 else data["avg_rating"]
+        "adjusted_average_rating": round(adjusted_rating / adjusted_count, 2) if adjusted_count > 0 else data["average_rating"]
     }
 
 def calculate_actual_rating(data):
@@ -211,7 +212,7 @@ def calculate_actual_rating(data):
         rolling_average_sum += review["rating"]
     return {
         "review_count": review_count,
-        "average_rating": round(rolling_average_sum/review_count, 1)
+        "average_rating": round(rolling_average_sum/review_count, 2)
     }
 
 

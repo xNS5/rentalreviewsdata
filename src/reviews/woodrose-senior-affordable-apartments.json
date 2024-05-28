@@ -1,28 +1,20 @@
 {
-  "name": "Woodrose Apartments",
-  "slug": "woodrose-apartments",
+  "name": "Woodrose Senior Affordable Apartments",
+  "slug": "woodrose-senior-affordable-apartments",
   "company_type": "property",
-  "address": "3353 Racine St, Bellingham, WA 98226",
+  "address": "3353 Racine St Bellingham, WA 98226",
   "review_count": 80,
-  "avg_rating": 4.1,
+  "average_rating": 4.1,
   "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Lucia C.",
+        "rating": 3,
+        "review": "I'll say immediately that I'm not familiar with Woodrose. (I rated 'average' because I had to choose something.) I'm looking at reviews of apartments for older people. The reviews here are all negative, but I have also noticed that they all seem to have been written by the same person. Same syntax, vocabulary, and complaints. I hope that Yelp can look into this.",
+        "ownerResponse": null
+      }
+    ],
     "google_reviews": [
-      {
-        "author": "Jann E",
-        "rating": 5.0,
-        "review": "When i first toured this place i felt at home ,i knew right from the start this was where i wanted to live ,and i have been so right the ladies in the office  ,Kelsi And Karen  was always ready to answer any questions i may have  asked.   I called many other places and toured a few never had that welcome home feeling i get here ..   if your thinking of moving here  ,you wont be unhappy with your choice.  Janne",
-        "ownerResponse": {
-          "text": "Hello Janne,\nThank you for such a wonderful review! We're glad to hear we delivered such a great experience! If there's anything further we can do for you, we are happy to help!\nRegards,\n\nThe \nWoodrose Team :)"
-        }
-      },
-      {
-        "author": "Lucy C",
-        "rating": 4.0,
-        "review": "Well maintained, clean, safe, pet friendly, plenty of parking, and beautiful courtyard. A nice community for independent seniors.\n\nThe staff is wonderful, courteous, caring, and promptly attend to maintenance issues. We have monthly scheduled events, such as potlucks, birthday celebrations, and variety of fun activities.\n\nPersonally, I would love to see newer appliances, instead of the outdated ones. Doing away with the existing carpet, which some of the units still have (including mine). Adding a washer and dryer in the apartments. Otherwise, I like living here.",
-        "ownerResponse": {
-          "text": "Hello Lucy, thank you for your kind review; we are happy to pass along your comments to the team here at Woodrose Senior Affordable Apartments and we're happy we could meet your expectations! \nRegards,\nThe Woodrose Team"
-        }
-      },
       {
         "author": "Sherri Ransom",
         "rating": 5.0,
@@ -32,11 +24,27 @@
         }
       },
       {
+        "author": "Jann E",
+        "rating": 5.0,
+        "review": "When i first toured this place i felt at home ,i knew right from the start this was where i wanted to live ,and i have been so right the ladies in the office  ,Kelsi And Karen  was always ready to answer any questions i may have  asked.   I called many other places and toured a few never had that welcome home feeling i get here ..   if your thinking of moving here  ,you wont be unhappy with your choice.  Janne",
+        "ownerResponse": {
+          "text": "Hello Janne,\nThank you for such a wonderful review! We're glad to hear we delivered such a great experience! If there's anything further we can do for you, we are happy to help!\nRegards,\n\nThe \nWoodrose Team :)"
+        }
+      },
+      {
         "author": "Feathered Moth",
         "rating": 4.0,
         "review": "I've been working as a caregiver for different individuals in this building for three years now. There's a lot of good to be said about the place! It's a beautiful building with great gardens and landscaping. There's a large courtyard in both buildings that are wonderful social spaces, especially during the summer. There's a lovely sense of community among the residents.\nHOWEVER. I don't understand how this could be senior apartments for so long without the front doors being automatic. As you get older, you become more disabled. It is inevitable. The doors are heavy and difficult to open and even more so for people with walkers and wheelchairs. I've been told by the ladies in the office that they'll get new doors soon! Well, it's been three years, and I'm certainly not the only person who feels strongly on this matter. It damages walkers and wheelchairs. Pieces of extremely expensive and necessary mobility devices that are difficult to sometimes impossible to replace. It's appalling. It doesn't seem to matter how often the issue comes up. It just never gets changed. It is the only senior/disability apartment complex in the county that I'm aware of that has this problem.\n\nEDIT: as the response says, they did install a new automated door! It took them a few weeks longer than stated to get the doors installed and for all the residents to finally get their key fob. I personally think the doors could still be more accessible, but at least this is better than before! I also have a suspicion that nothing would have happened if I hadn't posted this review, but I suppose the why doesn't matter so long as it's done.",
         "ownerResponse": {
           "text": "Hello,\nI wanted to thank you for taking the time to comment on a couple of your concerns here at Woodrose. I wanted to let you know how excited we are that the installation of the new ADA doors for both buildings has begun this week. The new ADA doors, as well as new entry call boxes at the front and back door of each lobby should be completed very soon.\n\nI also wanted to comment on your statement regarding Fairfield giving multiple yearly rent increases to residents. This is incorrect information. Fairfield increases the rents only one time a year. If a resident has more than one increase in a given year, then it is due to the fact that they had a yearly review with the housing authority. The housing authority does reviews with clients on the program. If a resident gets a rent increase from housing, then housing notifies us. \nIn the future, feel free to call us with any questions or concerns and we would be happy to address them.\nRegards,\nWoodrose Management"
+        }
+      },
+      {
+        "author": "Karen Price",
+        "rating": 5.0,
+        "review": "Great maintenance & property managers.\nFriendly & Professional.\nNo matter how busy they are or what day or time it is, even in emergency situations...",
+        "ownerResponse": {
+          "text": "Hi, thank so much for rating us! Our team takes pride in providing an excellent experience!"
         }
       },
       {
@@ -53,6 +61,14 @@
         "review": "Woodrose is a wonderful place to live. Kelsey the office manager is Awesome, she is patient and kind with all her residents .",
         "ownerResponse": {
           "text": "Hi Teresa, thank you for your review! Our team strives to deliver an excellent experience, and are glad you found this to be the case during your visit. If you have further needs or questions, please reach out!"
+        }
+      },
+      {
+        "author": "Lucy C",
+        "rating": 4.0,
+        "review": "Well maintained, clean, safe, pet friendly, plenty of parking, and beautiful courtyard. A nice community for independent seniors.\n\nThe staff is wonderful, courteous, caring, and promptly attend to maintenance issues. We have monthly scheduled events, such as potlucks, birthday celebrations, and variety of fun activities.\n\nPersonally, I would love to see newer appliances, instead of the outdated ones. Doing away with the existing carpet, which some of the units still have (including mine). Adding a washer and dryer in the apartments. Otherwise, I like living here.",
+        "ownerResponse": {
+          "text": "Hello Lucy, thank you for your kind review; we are happy to pass along your comments to the team here at Woodrose Senior Affordable Apartments and we're happy we could meet your expectations! \nRegards,\nThe Woodrose Team"
         }
       },
       {
@@ -291,14 +307,6 @@
         "review": "",
         "ownerResponse": {
           "text": "Hi, thank you for your review! Please don't hesitate to let us know if there's anything additional that we can do for you!"
-        }
-      },
-      {
-        "author": "Karen Price",
-        "rating": 5.0,
-        "review": "",
-        "ownerResponse": {
-          "text": "Hi, thank so much for rating us! Our team takes pride in providing an excellent experience!"
         }
       },
       {
@@ -551,16 +559,8 @@
         "review": "",
         "ownerResponse": null
       }
-    ],
-    "yelp_reviews": [
-      {
-        "author": "Lucia C.",
-        "rating": 3,
-        "review": "I'll say immediately that I'm not familiar with Woodrose. (I rated 'average' because I had to choose something.) I'm looking at reviews of apartments for older people. The reviews here are all negative, but I have also noticed that they all seem to have been written by the same person. Same syntax, vocabulary, and complaints. I hope that Yelp can look into this.",
-        "ownerResponse": null
-      }
     ]
   },
-  "adjusted_review_count": 38,
-  "adjusted_rating_average": 4.1
+  "adjusted_review_count": 39,
+  "adjusted_average_rating": 4.1
 }

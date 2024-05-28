@@ -4,13 +4,13 @@
   "company_type": "property",
   "address": "20 Bellwether Way, Bellingham, WA 98225",
   "review_count": 3,
-  "avg_rating": 3.3,
+  "average_rating": 3.33,
   "reviews": {
     "google_reviews": [
       {
         "author": "LeeAnn Cogert",
         "rating": 2.0,
-        "review": "This is a non-smoking building where smoking is taking place.  If that is your cup of tea, move here.  If not, enforcement rarely can take place as the landlord relies on other tenants to take pics for proof.  That cannot happen if people are smoking inside their units.  Also, after the place filled up, there is a noticeable lack of maintenance.  As the area has become more traffic heavy, it has become less desirable as parking is not really plentiful and noise levels are high.  Also there is the train that has become more frequent over time.  The location's proximity to services is about all it has to offer other than a generally friendly group of tenants who reside there.",
+        "review": "This is a non-smoking building where smoking is taking place.  If that is your cup of tea, move here.  If not, enforcement rarely can take place as the landlord relies on other tenants to take pics for proof.  That cannot happen if people ",
         "ownerResponse": null
       },
       {
@@ -28,5 +28,5 @@
     ]
   },
   "adjusted_review_count": 2,
-  "adjusted_rating_average": 3.5
+  "adjusted_average_rating": 3.5
 }

@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "545 E Kellogg Rd, Bellingham, WA 98226",
   "review_count": 16,
-  "avg_rating": 3.8,
+  "average_rating": 3.75,
   "reviews": {
     "google_reviews": [
       {
@@ -106,5 +106,5 @@
     ]
   },
   "adjusted_review_count": 7,
-  "adjusted_rating_average": 3.0
+  "adjusted_average_rating": 3.0
 }

@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "1211 Mill Ave #102, Bellingham, WA 98225",
   "review_count": 18,
-  "avg_rating": 4.1,
+  "average_rating": 4.06,
   "reviews": {
     "google_reviews": [
       {
@@ -136,5 +136,5 @@
     ]
   },
   "adjusted_review_count": 17,
-  "adjusted_rating_average": 4.2
+  "adjusted_average_rating": 4.24
 }

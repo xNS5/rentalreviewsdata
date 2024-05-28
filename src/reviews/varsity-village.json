@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "2475 Donovan Ave, Bellingham, WA 98225",
   "review_count": 12,
-  "avg_rating": 3.1,
+  "average_rating": 3.08,
   "reviews": {
     "google_reviews": [
       {
@@ -82,5 +82,5 @@
     ]
   },
   "adjusted_review_count": 5,
-  "adjusted_rating_average": 2.8
+  "adjusted_average_rating": 2.8
 }

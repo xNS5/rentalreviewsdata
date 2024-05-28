@@ -1,11 +1,137 @@
 {
-  "name": "Access Real Estate Services LLC",
-  "slug": "access-real-estate-services-llc",
+  "name": "Access Real Estate Services",
+  "slug": "access-real-estate-services",
   "company_type": "company",
-  "address": "809 W Orchard Dr #8, Bellingham, WA 98225",
+  "address": "Bellingham, WA 98225",
   "review_count": 116,
-  "avg_rating": 3.3,
+  "average_rating": 3.33,
   "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Margaret E.",
+        "rating": 1,
+        "review": "Wish I could give zero stars. Never had an issue with a property management company before this one (call me lucky I suppose). However, this company finds sneaky ways to charge you fees (not small ones), and their customer service team will deflect and ignore any concerns you have regarding the clarity or legitimacy of said fees. Reaching out to the owner, Rachel, was also not helpful as she never answered any emails and the rest of her team would not ever put me in touch with her. Above all, Access's customer service was the worst I've ever dealt with. Customer service is hard work but they were consistently beyond rude any time we called, acting like it was a massive inconvenience to deal with anything.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jaspreet T.",
+        "rating": 1,
+        "review": "Access has good people that seem to mean well but some are incompetent at their job. If you decide to move forward with them, expect poor service on weekends, independently check on your property after the tenant moves out, and most importantly, check their math! \n\nDuring my experience, I had rude customer service when I called on a Saturday, my property smelled of wet dog after the tenant moved out, and I was overcharged on multiple occasions. Access was quick to correct their accounting mistakes when I pointed them out so I would highly encourage anyone who uses their services to double check their invoices and challenge them as necessary - I was overcharged multiple times during my ~6 months with access.\n\nThe aforementioned inconveniences make the overall experience unpleasant. To the access team, I recommend double checking invoices before sending them out and maintaining an open line of communication with owners.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Rusty S.",
+        "rating": 1,
+        "review": "ATTENTION BELLINGHAM STUDENTS,\nACCESS IS ESSENTIALLY THE COMCAST OF RENTAL AGENCIES\n\nThis is the first business that has ever been so thoroughly unethical, that I felt compelled to warn the public about them.\n\nThese people are scam artists through and through; preying on the young and financially challenged. Their business seems to generate a significant portion of its income from fines, fees and extravagant move out charges. \n\nThey are very good at making it abundantly clear that their only goal is to generate profit and any expense. \n\nAdditionally, it seems that their business is very disorganized. They can not seem to keep track of any maintenance requests or documentation. After several written requests for repairs to features that were damaged upon move-in, we eventually gave up and just accepted that we were going to have to live with the pre-existing damage. Little did we know they would attempt to hold us financially responsible for said damage upon move-out.  \n\nThese people are not to be trusted and will take any action necessary to exert their power over the young and under privileged. If you attempt to dispute any of their actions or charges they will NOT hesitate to block youfrom contacting them, or even go as far as to take preemptive legal action against you.\n\n\nYou have been warned.",
+        "ownerResponse": null
+      },
+      {
+        "author": "LaVerne S.",
+        "rating": 5,
+        "review": "We're new to Washington and found Access to be very helpful in finding a new home in the Bellingham area.  The staff was welcoming and helpful - every detail, both small and large, was anticipated and well managed.  Thanks for making such a great first impression for our new home town.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Donna W.",
+        "rating": 2,
+        "review": "Rudest owner around in property management,...  AND SHE WAS WORKING FOR ME!  ...   Procrastinates everything by saying she is working on it.  Closed minded, unwilling to consider any suggestions. Forgets who she is working for.  She is going to do what benefits her and at her convienence only, and that is that!\n\nI gave this service 2 stars because she has some very nice, intelligent and personable employees.  Otherwise, she personally, gets zero stars from me.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Donald B.",
+        "rating": 1,
+        "review": "My particular experience with this company was far from positive.  They cancelled a showing 30 minutes prior and then as a consolation said that I could show up at a group showing to get involved with a circus.  I am inclined to never do business with them.  I hate the fact that it is a landlords market where they can treat everyone like they are in the hunger games.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Ludi C.",
+        "rating": 1,
+        "review": "Access refused our request to do the inspection walk through for check-out. I had never come across a company so uncooperative. Then I found out why- they took almost $600 from out deposit ! I had NEVER experienced such a huge amount taken out. We cleaned! The checkout notes said we damaged things that were already damaged. The damages even showed in their rental advertisements. When confronted with the advertisement pictures showing the damages, Access then changed their story and said all $600 was for 10 hours of cleaning. They also charged us $60 for changing a battery in the smoke detector when we already changed it. They did not listen, just took our money like some god damn robber. This family owned business is a family of thieves who prey on especially young inexperienced rentors. I'm considering taking them to small claims court to get our money back!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Beth M.",
+        "rating": 1,
+        "review": "Drove over 6 hours only for one of our scheduled showings to have been forgotten about so we waited 20 minutes in a parking lot for nothing. Another house we looked at had rotting beams under the raised parking and overall disrepair and uncleanliness, exposed pipes, garbage under the home, etc. One prospective tenant described the beams as \"rickety\" and was immediately snapped at by an employee who insisted that the overhanging platform was a part of the road (it wasn't).",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kyle A.",
+        "rating": 5,
+        "review": "The owners truly care about their customers and have very agreeable in assisting me as a renter.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Dana B.",
+        "rating": 5,
+        "review": "Access is a great place to rent with! Their staff is courteous and professional, far beyon any other rental agency located in Bellingham. I recommend them to anyone looking for an excellent rental experience.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Alicia P.",
+        "rating": 1,
+        "review": "If you enjoy renting from a company that actively steals from you, tries to upcharge without checking info, and doesn't care about their tenants than access is right for you! While renting from them for one year we experienced water coming up from the floor boards and were told this was a normal and ongoing issue and they would \"look into it\", they did not. We experienced plumbing issues, including waste leaking in from the upstairs unit, and Access was unhelpful and unconcerned. After an attempted break in we had to threaten them, as they kept hanging up, in order to have basic security measures enforced such as nailing the windows so no one could sneak in again. Additionally we were repeatedly \"charged\" for utilities and bills that were not in our name but in the last tenants information. This billing issue took over three months to fix and because of their speedy turnover in personnel we never talked to the same person twice. This company will take full advantage of anyone and especially college renters who may not be familiar with renters rights, an issue I now know by heart. I would give them negative stars if I could. Please avoid this godawful agency at all costs. I wish I had seen a review like this before I had signed a lease.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Meghan M.",
+        "rating": 1,
+        "review": "I scheduled a showing that was confirmed by text multiple times. When I showed up for my scheduled showing, there were four others waiting as well. Nobody showed up. We later found out the house was already occupied. Very poorly managed.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Alyssa T.",
+        "rating": 1,
+        "review": "STAY AWAY! Access just wants your money, is horrible at getting back to you about SERIOUS issues (until you threaten to sue them), and does not include everything they advertise! I will never rent through them again and I suggest everyone and anyone stay away if at all possible.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kristen R.",
+        "rating": 1,
+        "review": "COLLEGE STUDENTS BEWARE!!!!\nThis company uses deceptive and dishonest business practices. Please be sure and READ everything before you sign. This business is in the habit of taking advantage of college students who trust them. After working with Alex on a matter pertaining to my son's lease, I requested to speak with his supervisor. FIVE times. I was never given the information. I feel like the supervisor was aware of the situation and chose not to speak with me.\nDECEPTIVE. DISHONEST. SNEAKY.  SHAMEFUL.\nIf I could give less stars I would.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Scott M.",
+        "rating": 5,
+        "review": "Access has been excellent from day one!  Have worked with several local Property Management firms over the last 8+ years, and they're the best around.  Highly Recommend!!",
+        "ownerResponse": {
+          "text": "Thanks Scott, It's great working with you too!"
+        }
+      },
+      {
+        "author": "Cheryll K.",
+        "rating": 5,
+        "review": "We have been very pleased with the services of Access Real Estate during the almost four years we've worked with them. We can't imagine a more responsive, courteous, and capable group of people.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Dave M.",
+        "rating": 1,
+        "review": "Worst service I have received by a real estate company in Bellingham. This town is notorious for having its shady real estate services that exploits the students in the community. Access is a perfect example of this. Very unprofessional and rude",
+        "ownerResponse": null
+      },
+      {
+        "author": "Cheryll K.",
+        "rating": 5,
+        "review": "As 2017 draws to a close, we want to thank Access for another year free of rental-home worry! The Access team takes good care of us and our tenants. Prompt, courteous, absolutely dependable and completely professional, the folks at Access problem-solve 24/7 so we don't have to. Nothing ever falls through the cracks, and their reports and accounting are impeccably done. Thanks, Access! You're the best.",
+        "ownerResponse": {
+          "text": "Thank you Cheryll, You are an absolute pleasure to work for!"
+        }
+      },
+      {
+        "author": "Susanne S.",
+        "rating": 4,
+        "review": "Access manages our condominium complex extremely competently with only a few relatively minor glitches.  Phone calls are returned and emails responded to in a timely manner.  I can't imagine anyone better to work with than Access.  Personnel are cheerful and accommodating.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Jaya V.",
+        "rating": 4,
+        "review": "We've been using Access for property management for a few years now and have been very pleased with them. They have notified us of any problems with our rental property and given us the choice of fixing it or having them hire someone to do it. They find new tenants, collect rents and pay us, all without a hitch. Personnel have changed over the time we've been usuing them, but we've always been treated politely.",
+        "ownerResponse": null
+      }
+    ],
     "google_reviews": [
       {
         "author": "G.k. Pearson",
@@ -30,18 +156,18 @@
         "ownerResponse": null
       },
       {
+        "author": "Andrea Paszkowski",
+        "rating": 5.0,
+        "review": "They are wonderful. So easy to work with and they get back to you quickly if anything is needed (maintenance, etc). Best property management company experience I've ever had.\n\nUpdate-But just wanted to add to my original review what a pleasure it was to work with everyone at Access Real Estate. My lease is ending as of tomorrow due to moving out of state. We rented with them for 2 years & are truly sorrow we couldn't continue with them.   We truly had the best experience with Access Real Estate. They were communicative, professional, understanding, and prompt. They are the ones to check out first when looking for a rental!",
+        "ownerResponse": null
+      },
+      {
         "author": "Hanna Adams",
         "rating": 1.0,
         "review": "I was completely SCAMMED by this company!\nDo not give them your money.\n\nI spoke on the phone with an employee who told me we could apply for a listing without seeing it in person first- we live 3 hours away so coordinating this is difficult.\n\nI was also assured that my credit wouldnt be an issue during the application process- I am a stay at home mom of a baby with no income, and was applying with 2 other adults with VERY good income and credit (tens of thousands monthly)\n\nAfter paying this company $150 for an application,  and calling to confirm we were first in line for the rental-\nI was sent a few scant emails saying we cant apply without viewing, my credit disqualified us and that they wouldnt allow us to rent-\nThey refused to return my calls.\n\nContradictory to everything I had been told BEFORE I forked over $150 bucks.\nSmells like a scam to me!",
         "ownerResponse": {
           "text": "Hanna, we certainly are not running any kind of scam.  We have to pay to have your credit and criminal background check performed.  We also have to pay employees to evaluate your credit score and background check.  Those items are not free. After obtaining information on all of the applicants, it was determined that you did not meet the minimum requirements for renting that particulare unit.  The same requirements are applied to all tenants and we rent on a first come first served basis to qualified applicants.  \nDavid M Long Jr MBA, CPA\nCFO/Owner Access Real Estate Services"
         }
-      },
-      {
-        "author": "Andrea Paszkowski",
-        "rating": 5.0,
-        "review": "They are wonderful. So easy to work with and they get back to you quickly if anything is needed (maintenance, etc). Best property management company experience I've ever had.\n\nUpdate-But just wanted to add to my original review what a pleasure it was to work with everyone at Access Real Estate. My lease is ending as of tomorrow due to moving out of state. We rented with them for 2 years & are truly sorrow we couldn't continue with them.   We truly had the best experience with Access Real Estate. They were communicative, professional, understanding, and prompt. They are the ones to check out first when looking for a rental!",
-        "ownerResponse": null
       },
       {
         "author": "Eileen Turk",
@@ -88,12 +214,6 @@
         }
       },
       {
-        "author": "pau Borden",
-        "rating": 5.0,
-        "review": "I believe Access PM is fabulous.  Their monthly statements are easy to understand and very clear.  I love working with Bryan Long.  He is very responsive to all my concerns as a property owner.",
-        "ownerResponse": null
-      },
-      {
         "author": "Chris Moye",
         "rating": 5.0,
         "review": "I have a unique perspective in regards to the quality of Access Real Estate as I am both a tenant in one of the properties they manage as well as an employee of a service company that assists with some their maintenance needs.  I have had nothing but positive interactions with the Access team on both sides of the coin.  They are quick to respond to maintenance requests and my tenant needs. They are fastidious in ensuring their properties are safe and well maintained and have a keen eye on balancing the tenant /ownership relationships so that all parties \"win\".  As a management company the Access team has been a pleasure to rent from and work with.  I would start and end with Access when looking for a professional, caring, relationship driven management company.",
@@ -134,6 +254,12 @@
         "ownerResponse": null
       },
       {
+        "author": "pau Borden",
+        "rating": 5.0,
+        "review": "I believe Access PM is fabulous.  Their monthly statements are easy to understand and very clear.  I love working with Bryan Long.  He is very responsive to all my concerns as a property owner.",
+        "ownerResponse": null
+      },
+      {
         "author": "A Ben",
         "rating": 5.0,
         "review": "I have been a tenant for almost 3 years now, and Access has been (by far) the best property management company I've ever rented from. They respond to my maintenance requests immediately (same day!) and have always had great communication with me. Consistent, professional, top notch service!",
@@ -143,12 +269,6 @@
         "author": "Nicole P",
         "rating": 5.0,
         "review": "We are tenants of a rental home, family of four. We have been homeowners for 15 years, and were concerned about becoming tenants after our home sold, but we have been treated well and have a lovely home. The home was clean and in good repair when we moved in. We had an issue with the dishwasher and the dishwasher was replaced in a little over a week. A good portion of Bellingham housing is run by huge property management companies who can set any rents and any rules they wish because of the high demand for housing,. Access, being a bit smaller company than most, seems to be quite fair in their dealings and easier to work with than most companies.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Peter Commons",
-        "rating": 5.0,
-        "review": "Access has been managing our property for years. They are reliable, trustworthy, and quick to respond  which is super important to us as we don't live anywhere nearby.",
         "ownerResponse": null
       },
       {
@@ -200,6 +320,12 @@
         "ownerResponse": {
           "text": "Ben, I've talked to staff regarding this matter and we've been doing everything we can to remedy the issue.  Best Rooter & Blythe plumbing have been to your unit already and it has been determined that the damage is well beneath the surface.  An excavator has been engaged to dig up the plumbing line so it can be repaired.  However, recent weather conditions (heavy rains) haven't allowed this to happen yet.  I'll also add that your point of contact is either the property owner or the management company that is managing the unit.  We manage the association, but do not manage any rental units at this association.  We've been communicating frequently with the owner of the unit and if you are not being kept in the loop, you should be contacting her or the rental management company, not Access Real Estate Services."
         }
+      },
+      {
+        "author": "Peter Commons",
+        "rating": 5.0,
+        "review": "Access has been managing our property for years. They are reliable, trustworthy, and quick to respond  which is super important to us as we don't live anywhere nearby.",
+        "ownerResponse": null
       },
       {
         "author": "Alissa Reynolds",
@@ -288,19 +414,19 @@
         }
       },
       {
-        "author": "Casey Norman",
-        "rating": 5.0,
-        "review": "Access RES is handling a rental property for us.  They have done a great job managing the property and updating us with any issues or concerns.  Renewing the tenant lease was a breeze.  Since we are living out of state it gives me peace of mind that I don't need to worry.  Thank You!!",
-        "ownerResponse": {
-          "text": "Thanks Casey!"
-        }
-      },
-      {
         "author": "Steven Kelly",
         "rating": 1.0,
         "review": "I was on the Board of a condominium association for several years that used Access as the Association Managers.  During my tenure I found that Access consistently failed to follow through on their commitments, failed to adhere to a key requirement of the Governing documents, failed to adhere to important terms of the management agreement and were rude to Board members.",
         "ownerResponse": {
           "text": "Steve, I will just mention this -- you came in to our office and proceeded to use profanity.  I informed you in no uncertain terms that your behavior was unacceptable.  I think most folks can figure things out from here. I have no idea why you feel inclined to make derogatory and false comments a year after the fact."
+        }
+      },
+      {
+        "author": "Casey Norman",
+        "rating": 5.0,
+        "review": "Access RES is handling a rental property for us.  They have done a great job managing the property and updating us with any issues or concerns.  Renewing the tenant lease was a breeze.  Since we are living out of state it gives me peace of mind that I don't need to worry.  Thank You!!",
+        "ownerResponse": {
+          "text": "Thanks Casey!"
         }
       },
       {
@@ -398,18 +524,18 @@
         }
       },
       {
+        "author": "G. Elaine Nash",
+        "rating": 1.0,
+        "review": "Would be nice to do a minus review\nTotally rude",
+        "ownerResponse": {
+          "text": "If you are going to post a negative review, it would be nice to know what the problem was.  Just complaining doesn't tell me, the owner, or anyone reading your review anything other than you are unhappy."
+        }
+      },
+      {
         "author": "Craig Gunst",
         "rating": 5.0,
         "review": "I provide electrical service work for Access.  They always have knowledge of the property I am going to and everyone in the office are very professional and helpful with any questions that I may have.  Very great company to do work for.",
         "ownerResponse": null
-      },
-      {
-        "author": "Doug Taube",
-        "rating": 1.0,
-        "review": "I hve never been treated as rude,unethical by a buisness include owners wife.i hve been n bham 28yrs.hve worked,owned small buisness.and #1is treat others as u would want b treated.i hope this comp.will b liable for writting a lease for a tentant.who has been live 9yrs at present apt.after they sign lease access sent letter stated they cant renew or honor this contract.there is a pattern of discrimination.with disabled indivisuals.i ask others take few minutes to express their opinons.with experiences dealing with access prop.mgt.they presently hve 9 rentals in one complex.they raised rents from average200_300$...in 1month notice.is the reason tenants are leaveing.there are several tenants been here 2-9years. 3_4 hve been over 6yrs.are upset landlords are able to not b accountable for their actions.please take the time to read peoples opinons.to b able form your own.i do wish good health happiness+prosperity to all mankind.......David i appriciate your response.i understand reason for rent increase.taxes renovations agee rent was lower then should be.im talking regard another tenant been here 9 yrs.your comp.sign renew lease also sec.8 then he rec.a letter state access will not honor lease sign by all parties concern.if a tenant breaks a lease they are responible for balance.why would this not same to access mistakes? I am waiting for results.hopefull he obtains legal council.he has severe disabilities.for myself given 30days after reside 3yrs.paid n full n time.unfortuately if given 60-90days notice.that would allow to find 1bdm under 800$.and sec 8.....when there is 1% in bellingham fit critera.then hve 4others sign new lease past 45days.they all didnt rec the currant prices..1bdm 912$ include w\\s...2bdm 1050$ studio 765$.....we hve pattern of indifferences i would enjoy to meet snd talk for few moments.i believe the changes were the owner and yourself.the incident with your wife was disapointing.she is a professional know s better how treat a tenant.i hve always been polite.brought n fowers for the staff.im sure owner of property will hear about currant situation.with thr lease sign sealed +delievered.tenant who has mental disabilities reside 9yrs.any court would award damages for the mistskes access has made.you hve my phone #.god bless u and your family.",
-        "ownerResponse": {
-          "text": "Doug, I'm sorry you feel the way you do.  What you don't realize here is that we, as property managers, do not get to make all of the decisions.  The owners of complexes often insist on rent increases after they have made investments in the property, which is the case with your particular apartment complex.  Honestly, the rents were too low at this complex compared to others nearby.  It's also important to realize that owners of complexes can legally deny certain categories of individuals tenancy, which was done in your case.  I also add that neither you nor anyone else has been denied tenancy because you are disabled.\n\nI am 100% certain there was no executed lease document between our company and you.  You were offered tenancy and then we realized you fell into a category the owner of the complex no longer wished to rent to.  We verified with the proper authority that denying tenancy in this manner was indeed legal.  I made that phone call myself.  So, the offer of continued tenancy was withdrawn as soon as we realized what had happened.  You were given more notice than your existing lease requires that we would not be renewing your lease.  There is nothing illegal or nefarious here.\nI wish you the best in your search for your new home.  David M Long Jr"
-        }
       },
       {
         "author": "Yvonne Carson",
@@ -417,6 +543,14 @@
         "review": "Access Real Estate Services is the management company for our Homeowner Association. I have found them easy to work with and quick to respond to questions.",
         "ownerResponse": {
           "text": "Thanks Yvonne, I was glad to see you joined the board!"
+        }
+      },
+      {
+        "author": "Doug Taube",
+        "rating": 1.0,
+        "review": "I hve never been treated as rude,unethical by a buisness include owners wife.i hve been n bham 28yrs.hve worked,owned small buisness.and #1is treat others as u would want b treated.i hope this comp.will b liable for writting a lease for a tentant.who has been live 9yrs at present apt.after they sign lease access sent letter stated they cant renew or honor this contract.there is a pattern of discrimination.with disabled indivisuals.i ask others take few minutes to express their opinons.with experiences dealing with access prop.mgt.they presently hve 9 rentals in one complex.they raised rents from average200_300$...in 1month notice.is the reason tenants are leaveing.there are several tenants been here 2-9years. 3_4 hve been over 6yrs.are upset landlords are able to not b accountable for their actions.please take the time to read peoples opinons.to b able form your own.i do wish good health happiness+prosperity to all mankind.......David i appriciate your response.i understand reason for rent increase.taxes renovations agee rent was lower then should be.im talking regard another tenant been here 9 yrs.your comp.sign renew lease also sec.8 then he rec.a letter state access will not honor lease sign by all parties concern.if a tenant breaks a lease they are responible for balance.why would this not same to access mistakes? I am waiting for results.hopefull he obtains legal council.he has severe disabilities.for myself given 30days after reside 3yrs.paid n full n time.unfortuately if given 60-90days notice.that would allow to find 1bdm under 800$.and sec 8.....when there is 1% in bellingham fit critera.then hve 4others sign new lease past 45days.they all didnt rec the currant prices..1bdm 912$ include w\\s...2bdm 1050$ studio 765$.....we hve pattern of indifferences i would enjoy to meet snd talk for few moments.i believe the changes were the owner and yourself.the incident with your wife was disapointing.she is a professional know s better how treat a tenant.i hve always been polite.brought n fowers for the staff.im sure owner of property will hear about currant situation.with thr lease sign sealed +delievered.tenant who has mental disabilities reside 9yrs.any court would award damages for the mistskes access has made.you hve my phone #.god bless u and your family.",
+        "ownerResponse": {
+          "text": "Doug, I'm sorry you feel the way you do.  What you don't realize here is that we, as property managers, do not get to make all of the decisions.  The owners of complexes often insist on rent increases after they have made investments in the property, which is the case with your particular apartment complex.  Honestly, the rents were too low at this complex compared to others nearby.  It's also important to realize that owners of complexes can legally deny certain categories of individuals tenancy, which was done in your case.  I also add that neither you nor anyone else has been denied tenancy because you are disabled.\n\nI am 100% certain there was no executed lease document between our company and you.  You were offered tenancy and then we realized you fell into a category the owner of the complex no longer wished to rent to.  We verified with the proper authority that denying tenancy in this manner was indeed legal.  I made that phone call myself.  So, the offer of continued tenancy was withdrawn as soon as we realized what had happened.  You were given more notice than your existing lease requires that we would not be renewing your lease.  There is nothing illegal or nefarious here.\nI wish you the best in your search for your new home.  David M Long Jr"
         }
       },
       {
@@ -468,15 +602,15 @@
         "ownerResponse": null
       },
       {
-        "author": "Laura Bethany",
-        "rating": 1.0,
-        "review": "My mother tried to apply for a rental through this company, and she was treated horribly.",
-        "ownerResponse": null
-      },
-      {
         "author": "Marko Polo 0069",
         "rating": 5.0,
         "review": "I've worked with these people for years and they always seem to do their best to satisfy their tenants.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Laura Bethany",
+        "rating": 1.0,
+        "review": "My mother tried to apply for a rental through this company, and she was treated horribly.",
         "ownerResponse": null
       },
       {
@@ -539,14 +673,6 @@
         "review": "They are very unproffessional and rude",
         "ownerResponse": {
           "text": "Hi Ann, I don't see your name in our system any where.  Would you mind elaborating on your comment so I can see if there is something I can help you with.\n\nDavid Long"
-        }
-      },
-      {
-        "author": "G. Elaine Nash",
-        "rating": 1.0,
-        "review": "Would be nice to do a minus review\nTotally rude",
-        "ownerResponse": {
-          "text": "If you are going to post a negative review, it would be nice to know what the problem was.  Just complaining doesn't tell me, the owner, or anyone reading your review anything other than you are unhappy."
         }
       },
       {
@@ -665,134 +791,8 @@
           "text": "Hi Anna, I believe you called our office earlier today and asked whether you could pay your rent late.  You were informed there would be late rent fees if rent was not paid on time.  This policy is spelled out explicitly in your lease.  While not always a popular policy, we do strictly enforce rent due dates for all of our properties.\n\nIf you are upset about something different, please let me know and I'll respond.\n\nDavid"
         }
       }
-    ],
-    "yelp_reviews": [
-      {
-        "author": "Margaret E.",
-        "rating": 1,
-        "review": "Wish I could give zero stars. Never had an issue with a property management company before this one (call me lucky I suppose). However, this company finds sneaky ways to charge you fees (not small ones), and their customer service team will deflect and ignore any concerns you have regarding the clarity or legitimacy of said fees. Reaching out to the owner, Rachel, was also not helpful as she never answered any emails and the rest of her team would not ever put me in touch with her. Above all, Access's customer service was the worst I've ever dealt with. Customer service is hard work but they were consistently beyond rude any time we called, acting like it was a massive inconvenience to deal with anything.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Jaspreet T.",
-        "rating": 1,
-        "review": "Access has good people that seem to mean well but some are incompetent at their job. If you decide to move forward with them, expect poor service on weekends, independently check on your property after the tenant moves out, and most importantly, check their math! \n\nDuring my experience, I had rude customer service when I called on a Saturday, my property smelled of wet dog after the tenant moved out, and I was overcharged on multiple occasions. Access was quick to correct their accounting mistakes when I pointed them out so I would highly encourage anyone who uses their services to double check their invoices and challenge them as necessary - I was overcharged multiple times during my ~6 months with access.\n\nThe aforementioned inconveniences make the overall experience unpleasant. To the access team, I recommend double checking invoices before sending them out and maintaining an open line of communication with owners.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Rusty S.",
-        "rating": 1,
-        "review": "ATTENTION BELLINGHAM STUDENTS,\nACCESS IS ESSENTIALLY THE COMCAST OF RENTAL AGENCIES\n\nThis is the first business that has ever been so thoroughly unethical, that I felt compelled to warn the public about them.\n\nThese people are scam artists through and through; preying on the young and financially challenged. Their business seems to generate a significant portion of its income from fines, fees and extravagant move out charges. \n\nThey are very good at making it abundantly clear that their only goal is to generate profit and any expense. \n\nAdditionally, it seems that their business is very disorganized. They can not seem to keep track of any maintenance requests or documentation. After several written requests for repairs to features that were damaged upon move-in, we eventually gave up and just accepted that we were going to have to live with the pre-existing damage. Little did we know they would attempt to hold us financially responsible for said damage upon move-out.  \n\nThese people are not to be trusted and will take any action necessary to exert their power over the young and under privileged. If you attempt to dispute any of their actions or charges they will NOT hesitate to block youfrom contacting them, or even go as far as to take preemptive legal action against you.\n\n\nYou have been warned.",
-        "ownerResponse": null
-      },
-      {
-        "author": "LaVerne S.",
-        "rating": 5,
-        "review": "We're new to Washington and found Access to be very helpful in finding a new home in the Bellingham area.  The staff was welcoming and helpful - every detail, both small and large, was anticipated and well managed.  Thanks for making such a great first impression for our new home town.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Donna W.",
-        "rating": 2,
-        "review": "Rudest owner around in property management,...  AND SHE WAS WORKING FOR ME!  ...   Procrastinates everything by saying she is working on it.  Closed minded, unwilling to consider any suggestions. Forgets who she is working for.  She is going to do what benefits her and at her convienence only, and that is that!\n\nI gave this service 2 stars because she has some very nice, intelligent and personable employees.  Otherwise, she personally, gets zero stars from me.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Ludi C.",
-        "rating": 1,
-        "review": "Access refused our request to do the inspection walk through for check-out. I had never come across a company so uncooperative. Then I found out why- they took almost $600 from out deposit ! I had NEVER experienced such a huge amount taken out. We cleaned! The checkout notes said we damaged things that were already damaged. The damages even showed in their rental advertisements. When confronted with the advertisement pictures showing the damages, Access then changed their story and said all $600 was for 10 hours of cleaning. They also charged us $60 for changing a battery in the smoke detector when we already changed it. They did not listen, just took our money like some god damn robber. This family owned business is a family of thieves who prey on especially young inexperienced rentors. I'm considering taking them to small claims court to get our money back!",
-        "ownerResponse": null
-      },
-      {
-        "author": "Donald B.",
-        "rating": 1,
-        "review": "My particular experience with this company was far from positive.  They cancelled a showing 30 minutes prior and then as a consolation said that I could show up at a group showing to get involved with a circus.  I am inclined to never do business with them.  I hate the fact that it is a landlords market where they can treat everyone like they are in the hunger games.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Beth M.",
-        "rating": 1,
-        "review": "Drove over 6 hours only for one of our scheduled showings to have been forgotten about so we waited 20 minutes in a parking lot for nothing. Another house we looked at had rotting beams under the raised parking and overall disrepair and uncleanliness, exposed pipes, garbage under the home, etc. One prospective tenant described the beams as \"rickety\" and was immediately snapped at by an employee who insisted that the overhanging platform was a part of the road (it wasn't).",
-        "ownerResponse": null
-      },
-      {
-        "author": "Kyle A.",
-        "rating": 5,
-        "review": "The owners truly care about their customers and have very agreeable in assisting me as a renter.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Dana B.",
-        "rating": 5,
-        "review": "Access is a great place to rent with! Their staff is courteous and professional, far beyon any other rental agency located in Bellingham. I recommend them to anyone looking for an excellent rental experience.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Alicia P.",
-        "rating": 1,
-        "review": "If you enjoy renting from a company that actively steals from you, tries to upcharge without checking info, and doesn't care about their tenants than access is right for you! While renting from them for one year we experienced water coming up from the floor boards and were told this was a normal and ongoing issue and they would \"look into it\", they did not. We experienced plumbing issues, including waste leaking in from the upstairs unit, and Access was unhelpful and unconcerned. After an attempted break in we had to threaten them, as they kept hanging up, in order to have basic security measures enforced such as nailing the windows so no one could sneak in again. Additionally we were repeatedly \"charged\" for utilities and bills that were not in our name but in the last tenants information. This billing issue took over three months to fix and because of their speedy turnover in personnel we never talked to the same person twice. This company will take full advantage of anyone and especially college renters who may not be familiar with renters rights, an issue I now know by heart. I would give them negative stars if I could. Please avoid this godawful agency at all costs. I wish I had seen a review like this before I had signed a lease.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Meghan M.",
-        "rating": 1,
-        "review": "I scheduled a showing that was confirmed by text multiple times. When I showed up for my scheduled showing, there were four others waiting as well. Nobody showed up. We later found out the house was already occupied. Very poorly managed.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Alyssa T.",
-        "rating": 1,
-        "review": "STAY AWAY! Access just wants your money, is horrible at getting back to you about SERIOUS issues (until you threaten to sue them), and does not include everything they advertise! I will never rent through them again and I suggest everyone and anyone stay away if at all possible.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Kristen R.",
-        "rating": 1,
-        "review": "COLLEGE STUDENTS BEWARE!!!!\nThis company uses deceptive and dishonest business practices. Please be sure and READ everything before you sign. This business is in the habit of taking advantage of college students who trust them. After working with Alex on a matter pertaining to my son's lease, I requested to speak with his supervisor. FIVE times. I was never given the information. I feel like the supervisor was aware of the situation and chose not to speak with me.\nDECEPTIVE. DISHONEST. SNEAKY.  SHAMEFUL.\nIf I could give less stars I would.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Scott M.",
-        "rating": 5,
-        "review": "Access has been excellent from day one!  Have worked with several local Property Management firms over the last 8+ years, and they're the best around.  Highly Recommend!!",
-        "ownerResponse": {
-          "text": "Thanks Scott, It's great working with you too!"
-        }
-      },
-      {
-        "author": "Cheryll K.",
-        "rating": 5,
-        "review": "We have been very pleased with the services of Access Real Estate during the almost four years we've worked with them. We can't imagine a more responsive, courteous, and capable group of people.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Dave M.",
-        "rating": 1,
-        "review": "Worst service I have received by a real estate company in Bellingham. This town is notorious for having its shady real estate services that exploits the students in the community. Access is a perfect example of this. Very unprofessional and rude",
-        "ownerResponse": null
-      },
-      {
-        "author": "Cheryll K.",
-        "rating": 5,
-        "review": "As 2017 draws to a close, we want to thank Access for another year free of rental-home worry! The Access team takes good care of us and our tenants. Prompt, courteous, absolutely dependable and completely professional, the folks at Access problem-solve 24/7 so we don't have to. Nothing ever falls through the cracks, and their reports and accounting are impeccably done. Thanks, Access! You're the best.",
-        "ownerResponse": {
-          "text": "Thank you Cheryll, You are an absolute pleasure to work for!"
-        }
-      },
-      {
-        "author": "Susanne S.",
-        "rating": 4,
-        "review": "Access manages our condominium complex extremely competently with only a few relatively minor glitches.  Phone calls are returned and emails responded to in a timely manner.  I can't imagine anyone better to work with than Access.  Personnel are cheerful and accommodating.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Jaya V.",
-        "rating": 4,
-        "review": "We've been using Access for property management for a few years now and have been very pleased with them. They have notified us of any problems with our rental property and given us the choice of fixing it or having them hire someone to do it. They find new tenants, collect rents and pay us, all without a hitch. Personnel have changed over the time we've been usuing them, but we've always been treated politely.",
-        "ownerResponse": null
-      }
     ]
   },
   "adjusted_review_count": 98,
-  "adjusted_rating_average": 3.3
+  "adjusted_average_rating": 3.35
 }

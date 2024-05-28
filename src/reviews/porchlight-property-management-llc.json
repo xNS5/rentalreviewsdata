@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "519 Front St suite a, Lynden, WA 98264",
   "review_count": 34,
-  "avg_rating": 3.8,
+  "average_rating": 3.82,
   "reviews": {
     "google_reviews": [
       {
@@ -60,15 +60,15 @@
         "ownerResponse": null
       },
       {
-        "author": "Timothy Radch",
-        "rating": 5.0,
-        "review": "Great company and friendly people, was a pleasure dealing with them.",
-        "ownerResponse": null
-      },
-      {
         "author": "Yevgeniy Zadneprovskiy",
         "rating": 5.0,
         "review": "Best Property Management company weve worked with. They were very professional, response times were quick and when we had a couple issues come up at our rental we had resolution quickly. Both Mitzi and Marlae were awesome and wed happily work with them again.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Timothy Radch",
+        "rating": 5.0,
+        "review": "Great company and friendly people, was a pleasure dealing with them.",
         "ownerResponse": null
       },
       {
@@ -228,5 +228,5 @@
     ]
   },
   "adjusted_review_count": 27,
-  "adjusted_rating_average": 3.5
+  "adjusted_average_rating": 3.52
 }

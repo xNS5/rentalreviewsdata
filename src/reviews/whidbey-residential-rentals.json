@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "285 NE Midway Blvd Ste 2 Oak Harbor, WA 98277",
   "review_count": 2,
-  "avg_rating": 5.0,
+  "average_rating": 5.0,
   "reviews": {
     "yelp_reviews": [
       {
@@ -22,5 +22,5 @@
     ]
   },
   "adjusted_review_count": 2,
-  "adjusted_rating_average": 5.0
+  "adjusted_average_rating": 5.0
 }

@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "1111 N Forest St, Bellingham, WA 98225",
   "review_count": 68,
-  "avg_rating": 2.7,
+  "average_rating": 2.72,
   "reviews": {
     "google_reviews": [
       {
@@ -480,5 +480,5 @@
     ]
   },
   "adjusted_review_count": 51,
-  "adjusted_rating_average": 2.7
+  "adjusted_average_rating": 2.75
 }

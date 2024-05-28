@@ -4,7 +4,7 @@
   "company_type": "company",
   "address": "425 Commercial St Ste 200 Mount Vernon, WA 98273",
   "review_count": 5,
-  "avg_rating": 4.2,
+  "average_rating": 4.2,
   "reviews": {
     "yelp_reviews": [
       {
@@ -40,5 +40,5 @@
     ]
   },
   "adjusted_review_count": 5,
-  "adjusted_rating_average": 4.2
+  "adjusted_average_rating": 4.2
 }

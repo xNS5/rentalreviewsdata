@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "2901 Bill McDonald Pkwy, Bellingham, WA 98225",
   "review_count": 36,
-  "avg_rating": 3.8,
+  "average_rating": 3.83,
   "reviews": {
     "google_reviews": [
       {
@@ -62,15 +62,15 @@
         "ownerResponse": null
       },
       {
-        "author": "Carl Graber",
-        "rating": 5.0,
-        "review": "Great",
-        "ownerResponse": null
-      },
-      {
         "author": "Austin Voecks",
         "rating": 5.0,
         "review": "A nice, cost effective option if you want to stay close to campus",
+        "ownerResponse": null
+      },
+      {
+        "author": "Carl Graber",
+        "rating": 5.0,
+        "review": "Great",
         "ownerResponse": null
       },
       {
@@ -226,5 +226,5 @@
     ]
   },
   "adjusted_review_count": 19,
-  "adjusted_rating_average": 3.5
+  "adjusted_average_rating": 3.53
 }

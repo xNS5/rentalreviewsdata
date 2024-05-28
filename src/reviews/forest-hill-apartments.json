@@ -4,7 +4,7 @@
   "company_type": "property",
   "address": "701 N Forest St, Bellingham, WA 98225",
   "review_count": 2,
-  "avg_rating": 1.0,
+  "average_rating": 1.0,
   "reviews": {
     "google_reviews": [
       {
@@ -22,5 +22,5 @@
     ]
   },
   "adjusted_review_count": 2,
-  "adjusted_rating_average": 1.0
+  "adjusted_average_rating": 1.0
 }

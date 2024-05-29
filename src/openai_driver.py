@@ -3,7 +3,8 @@
 import os
 import json
 import utilities
-from openai import OpenAI
+import asyncio
+from openai import OpenAI, AsyncOpenAI
 from dotenv import dotenv_values
 
 config = {
@@ -14,17 +15,17 @@ client = OpenAI(
   api_key=config["OPENAI_KEY"]
 )
 
+async_client = AsyncOpenAI(
+       api_key=config["OPENAI_KEY"]
+)
+
+semaphore = asyncio.Semaphore(3)
+
 reviews_path = "./merged_reviews"
 output_path = "./summaries"
 
-
-def createArticles(path, out):
-        dir_list = utilities.list_files(path)
-        for file in dir_list:
-          print(file)
-          with open(f"{path}/{file}", "r") as input_file:
-              file_content = json.load(input_file)
-              prompt = f'''Create an article in HTML format for the {file_content["company_type"]} {file_content["name"]} with the following requirements: 
+def get_prompt(file_content):
+     return f'''Create an article in HTML format for the {file_content["company_type"]} {file_content["name"]} with the following requirements: 
               1. This article sub-sections should be: good, great, bad, and ugly. The content of sub-section should reflect the sentiment of the heading. The sub-section headers should be wrapped in HTML <h2></h2> tags. 
               2. Each section shall have 2 paragraphs comprised of 3-5 sentences for each paragraph. Each paragraph should be wrapped in <p></p> tags. 
               3. There shall be no identifiable information, such as the name of the reviewer.
@@ -36,18 +37,35 @@ def createArticles(path, out):
               9. The "search_terms" shall contain phrases or words from the reviews, or sentiments derived from the reviews. Derived sentiments can include "good communication", "responsive to maintenance requests", or "poor communication", "didn't return security deposit", etc.  
               10. The response shall be a single line, without markdown-style backticks.
               The data is as follows in JSON format, with the reviews contained in the "reviews" key: ### {json.dumps(file_content, ensure_ascii=True, indent=2)} ###'''
+
+def create_articles(path, out):
+        dir_list = utilities.list_files(path)
+        for file in dir_list:
+          print(file)
+          with open(f"{path}/{file}", "r") as input_file:
+              file_json = json.load(input_file)
               result = client.chat.completions.create(
                 model="gpt-4-1106-preview",
                 messages=[
                     {"role": "system", "content": "You are a helpful assistant whose job is to summarize real company reviews to create well-balanced articles on local property management companies."},
-                    {"role": "user", "content": prompt}
+                    {"role": "user", "content": get_prompt(file_json)}
                 ]
               )
-              with open(f'{out}/{file_content["slug"]}.json', 'w') as output_file:
+              with open(f'{out}/{file_json["slug"]}.json', 'w') as output_file:
                   
-                  json.dump({**file_content, "summary": json.loads(result.choices[0].message.content)}, output_file,  ensure_ascii=True, indent=2)
+                  json.dump({**file_json, "summary": json.loads(result.choices[0].message.content)}, output_file,  ensure_ascii=True, indent=2)
                   output_file.close()
           input_file.close()
           return
+        
+async def rate_limiter():
+     
 
-createArticles(reviews_path, output_path)
+async def create_articles_async(path, out):
+     dir_list = utilities.list_files(path)
+     for file in dir_list:
+          
+
+
+
+# create_articles(reviews_path, output_path)

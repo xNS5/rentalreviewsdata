@@ -9,7 +9,7 @@ google_path = "google_input/output/combined/"
 summary_path = "../summaries/"
 
 config = {
-    **dotenv_values("db.env")
+    **dotenv_values(".env")
 }
 
 paths = {

@@ -14,7 +14,7 @@ from requests import Request, Session
 
 http_client.HTTPConnection.debuglevel = 0
 
-config = {**dotenv_values("yelp.env")}
+config = {**dotenv_values(".env")}
 
 user_agent_list = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36",

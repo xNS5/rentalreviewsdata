@@ -1,0 +1,44 @@
+{
+  "name": "Weatherby Apartments",
+  "slug": "weatherby-apartments",
+  "company_type": "property",
+  "address": "2314 Weatherby Way, Bellingham, WA 98226",
+  "review_count": 5,
+  "average_rating": 3.4,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Glenn F",
+        "rating": 4.0,
+        "review": "My mother and I rented a 2 bedroom 2 bathroom unit a couple of months ago. The initial relationship with the leasing staff was rocky, but I feel has improved since weve moved in. The unit is as advertised, and the appliances are very nice. The dishwasher is so quiet! We rarely hear our neighbors and our fellow residents are nice. The leasing office have been very responsive to the few2 maintenance requests since we moved in. The maintenance team have been professional and prepared to complete work in an efficient manner. My mother was so pleased that Kim and the maintenance team had installed a safety bar in her bathroom before we moved in. The hallways and trash areas are kept clean, the garage doors actually work to keep your car safe and the garage is well lit. What we would have liked to see when we moved in; how to operate the BBQ grill (the power source is not anywhere youd expect and not labeled at the time), a map that indicates where the mail room is for large packages (didnt know there was one, but there is), where the trash area is and what the process is to use the club room (still a little confused about that one). Im sure that Covid precautions had a lot to do with how tours were/were not done and move-in tours done. Anyway, for us it is a nice complex thats close to everything we need to keep our life moving. The relationship with the leasing staff is much better and I dont worry about anything anymorewe actually plan on signing another lease. I do want to mention that though I have a Service K9, I know other residents that have dogs as regular pets here. Perhaps the prior policy changed but dogs are allowed at the Weatherby. If you move here, I believe youll be happy and very comfortable with your choice.",
+        "ownerResponse": null
+      },
+      {
+        "author": "K King",
+        "rating": 1.0,
+        "review": "Liars and cheats. Beautiful apartments, but quality of build is questionable at best. Look beneath the surface and shoddy construction run by shady people is what you get. Moved into a brand new unit and the list of damaged and broken items was extensive on our move in inspection was extensive. Several repairs needed. New appliances failing, cabinet doors falling apart. Smoke alarms frequently going off due to changes in water pressure that have shut down elevators for days. The heat went out at the coldest point of winter and no one responded for days. But most importantly- get everything in writing from these backhanded swindlers. The leasing agents are all sale, no integrity. They'll tell you month to month is okay and then force you to extend for a year or move out. No compromising. No reasonable extension with higher rent. They will admit they agreed to terms they're now not abiding by. Also good luck to all our dog owning neighbors, they're now banning dogs.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Scott Welch",
+        "rating": 5.0,
+        "review": "Exxel Pacific doing a great job building.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Joshua Jones",
+        "rating": 2.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "William Roberts",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 3,
+  "adjusted_average_rating": 3.33
+}

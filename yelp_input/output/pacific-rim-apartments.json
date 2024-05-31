@@ -1,0 +1,24 @@
+{
+  "name": "Pacific Rim Apartments",
+  "slug": "pacific-rim-apartments",
+  "company_type": "property",
+  "address": "978 Pacific Rim Ln Bellingham, WA 98226",
+  "review_count": 2,
+  "average_rating": 2.5,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Owen W.",
+        "rating": 3,
+        "review": "The staff for Pacific Rim Apartments are great, and the apartments themselves are decent for the price. There is even an on-site gym, and the office is on-site as well. Very convenient. The other renters are great too.\n\nThere are two big problems with this place, though, and it is getting way worse as time goes on.\n\n1. They keep having verifications and inspections like it is going out of style. The people they have come by don't always come by, and sometimes the inspections are going on for two days instead of just one. So if you have a lot of trouble with people you don't know coming into your house, this is just hell.\n\n2. Their maintenance company just decides not to show up sometimes. They do fix things when they come by. But you can never be sure that they will - so if you take off of work to wait for them, hey, you might get to take off yet another day and wait hours. Fun times.\n\nThe office directs complaints to the maintenance company itself, so it's like they have no control whatsoever over the situation. This is extremely frustrating.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Christi K.",
+        "rating": 2,
+        "review": "We love the area, the managers of the complex are super nice, the only thing is construction & no assigned parking. Some of us works two jobs and works late, when we get off work. We come to a full parking lot. Some don't even live here, they are visiting but the ones who do pay rent has to park on the other side of the complex and walk. By morning you see all the visitors cars gone, so when I get up for work. I have to walk all the way over to the other complex to start my car to warm it up as I finish getting ready for work. It's cold and when your car is that far away from your complex it's hard to glance out and check to see if the car is still there. I end up getting up earlier than I should just to go to work early, I have seen cars taken up two spots, or motorcycles in one spot, cars that hasn't been driven or moved for months. You can tell because the tired are flat. It's hard to unload groceries or anything heavy for that matter. Having to park so far. If there was assigned parking it would be nice for the tenants, besides that, the area is great. It's close to a bust stop, near a college and lots of shopping. There are trails we can walk and a new park they are in the process of building. We love it here. We just don't like the parking, our cars get scratched or door dings. We value what we work hard for. & if having to pay for assigned parking will give us a spot to park, i would pay it. It just makes sense to have assigned parking for tenants who pays FULL rent.",
+        "ownerResponse": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Hideaway Apartments",
+  "slug": "hideaway-apartments",
+  "company_type": "property",
+  "address": "1213 Whatcom St #96, Bellingham, WA 98229",
+  "review_count": 8,
+  "average_rating": 2.38,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Katya",
+        "rating": 4.0,
+        "review": "They cleaned out apartment so well before moving in. Everything was spotless and new carpet. The office workers are really nice. We can hardly ever hear neighbors or upstairs, there's a nice big grassy area to walk a dog and the price is really good for the quality and size. Main downside, in my opinion, is the dated interior, which included a bathroom with consistent mold issues, but it was manageable with regular cleaning of the ceiling.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kate Ortiz",
+        "rating": 4.0,
+        "review": "Affordable, close to town, bus route, and other services. Month to month so good for students. I moved here because it was one of the few affordable places i could have my cats and have easy bus access to school. I've been here for two and a half years and have been very content. Quiet and warm too - hardly ever any big parties because there's not many students. Office responds to concerns quickly. Spacious. I have no complaints. Some people complain that you have to pay for laundry but it's about half the price of the Bellingham Cleaning Center nearby and it saves a ton on the electric bill. Plus you can do three loads at once! anyway, really great place to live.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Tiona",
+        "rating": 1.0,
+        "review": "DO NOT MOVE HERE! I lived here for years and there is black mold in every wall(they clean the exterior when you do inspection of unit so it doesn't show up until a few weeks after move in). The often \"misplace\" packages. There are drug addicts EVERYWHERE. Constant garbage on ground of premises. They will take your entire deposit(we even paid for cleaners on move out and they still took entire deposit) AND charge you over your rental amount.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Aj ang",
+        "rating": 1.0,
+        "review": "I had to move when I saw someone in the parking lot using with the car door open, they didn't even live there. No response to problems, condoms and even needles found around the property. They have a security camera which one of the workers told me, it doesn't work, it's just for looks. A lot of neighbors complained of theft of of their cars. Theft from the laundry rooms. A bunch of bums and users stay in the little wooded area right by some of the parking spaces. Not worth it!!",
+        "ownerResponse": null
+      },
+      {
+        "author": "Kat Man",
+        "rating": 2.0,
+        "review": "It was a nice apartment when I first moved in it was clean and nice but got silver fish and in summer we got black ants and I talked to neighbors and they get them too and I hate the laundry room they never sanitize the washing machines and dryers one of the neighbors throws away mattresses like no other and I noticed one of the mattresses tossed and bed bug stains and it scares me and honestly the only positive thing is it's close to my work",
+        "ownerResponse": null
+      },
+      {
+        "author": "Cori Robinson",
+        "rating": 1.0,
+        "review": "100% not worth the rent they charge.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Benjamin Allen",
+        "rating": 4.0,
+        "review": "Reminds me of the 90s.",
+        "ownerResponse": null
+      }
+    ],
+    "yelp_reviews": [
+      {
+        "author": "Becky C.",
+        "rating": 2,
+        "review": "Honestly, they were okay-ish. \n\nWen I first moved in around spring 2012, it was a shitshow and the cops had to be called all the time things broke and they raised rent way too often.\n\nOnly reason they got two stars is because management was nice to me. But ask my neighbors to remove their sign because you are racist? Nope. They did nothing wrong and were delightful people.",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 8,
+  "adjusted_average_rating": 2.38
+}

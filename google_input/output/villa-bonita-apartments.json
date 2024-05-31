@@ -1,0 +1,24 @@
+{
+  "name": "Villa Bonita Apartments",
+  "slug": "villa-bonita-apartments",
+  "company_type": "property",
+  "address": "3131 Ferry Ave, Bellingham, WA 98225",
+  "review_count": 2,
+  "average_rating": 3.5,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Samantha H",
+        "rating": 2.0,
+        "review": "Just toured unit C108 in Villa Bonita. There was only a single window pane and mold and mildew growing around the windows. Not a dealbreaker though. But after being in the unit for 10-15 minutes, my partner and I came out covered in fleas. If you are considering this property, PLEASE CHECK FOR FLEAS. It might have just been this unit, but it might be a problem in the entire complex. Other than that the management was nice, but I really question their integrity and transparency by allowing us to tour a flea infested apartment. I have pictures of the fleas as well.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Yvonne Johnson",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  }
+}

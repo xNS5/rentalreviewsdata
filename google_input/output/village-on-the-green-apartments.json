@@ -1,0 +1,38 @@
+{
+  "name": "Village on the Green Apartments",
+  "slug": "village-on-the-green-apartments",
+  "company_type": "property",
+  "address": "2600 Alderwood Ave, Bellingham, WA 98225",
+  "review_count": 4,
+  "average_rating": 2.5,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Malcolm Barbera",
+        "rating": 1.0,
+        "review": "Most crooked backwards rental company ever. Neglected to give me any paperwork or indication on how to set up utilities and then they slap me with fees upon fees when it wasnt set up in a timely manner. Do not rent here if you can go anywhere else this place is the worst.",
+        "ownerResponse": {
+          "text": "Hello Malcolm, I would love to help you with this but I do not see anyone that currently lives here with that name. Are you sure you have the right complex? "
+        }
+      },
+      {
+        "author": "Kaysha lynn ARADANAS",
+        "rating": 5.0,
+        "review": "Tony is an amazing property manager. I have never had a property manager as attentive as her. Fair warning alot of neighbors here are rude, not all but some.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Maira Toro",
+        "rating": 1.0,
+        "review": "Not a good place to live. All lies the manager tells you.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Gerges Hana",
+        "rating": 3.0,
+        "review": "Small cheap apts, not bad, but not great.",
+        "ownerResponse": null
+      }
+    ]
+  }
+}

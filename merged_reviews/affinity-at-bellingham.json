@@ -1,0 +1,104 @@
+{
+  "name": "Affinity at Bellingham",
+  "slug": "affinity-at-bellingham",
+  "company_type": "property",
+  "address": "3930 Affinity Ln, Bellingham, WA 98226",
+  "review_count": 12,
+  "average_rating": 4.17,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Barbara Hansen",
+        "rating": 1.0,
+        "review": "I had moved in right when I turned 55 into a 2 bedroom apartment.  Due to personal issues, I moved out, but returned since my first experience was fantastic.  Since coming back, there is a list a mile long NOT to stay here.  Number one; ",
+        "ownerResponse": {
+          "text": "Barbara, we certainly don't like seeing a current resident so unhappy. That's not what Affinity is about! Some of these items, we have been able to address with you via email and offered to discuss further in person or over the phone at  More"
+        }
+      },
+      {
+        "author": "Debbie Sage",
+        "rating": 5.0,
+        "review": "We love living here at Affinity in Bellingham! The staff are simply lovely and if we need anything at all they're quick to help.  The community of residents are friendly and there are many ways to be involved and stay connected if you want ",
+        "ownerResponse": {
+          "text": "Thank you so much for the wonderful review Debbie!  We are so happy to have you as a resident!"
+        }
+      },
+      {
+        "author": "Laura Dutton",
+        "rating": 5.0,
+        "review": "We  recently moved to Affinity from Austin, Texas. The administrative staff,; Kristin , Amber and Laurie were all absolutely wonderful to deal with. There were a lot of logistics involved and they were very professional and accommodating. ",
+        "ownerResponse": {
+          "text": "What an amazing review!  Thank you so much, Laura.  We are happy you and Lee have become members of our community!"
+        }
+      },
+      {
+        "author": "Cecilia",
+        "rating": 5.0,
+        "review": "Being here is home to me - the place is always clean, cheerful with happy people not only living here but the ones who are our refuge of help or questions anytime, Laurie, Amber, Kristin.  Always smile and ask us how we are doing.  The ",
+        "ownerResponse": null
+      },
+      {
+        "author": "John Reed",
+        "rating": 5.0,
+        "review": "Jesus and Norman are professional and courteous and always do an excellent job.  They are a definite selling point for living at Affinity.",
+        "ownerResponse": {
+          "text": "We really appreciate you taking the time to leave us a great review.  We're are so lucky to have you as a resident John!  Thanks for all you do."
+        }
+      },
+      {
+        "author": "Rod Elin",
+        "rating": 5.0,
+        "review": "We've been here going on four years this May and have found the perfect independent living facility.  It's quiet, secure, with loads of amenities and activities.  The maintenance is top drawer and quick to respond as is the management and ",
+        "ownerResponse": {
+          "text": "Hi Rod, \nThank you for taking the time to provide a great review for Affinity in Bellingham!  We're lucky to have you as a resident here!  Have the best day.\nLaurie"
+        }
+      },
+      {
+        "author": "Barbara Hansen",
+        "rating": 4.0,
+        "review": "Maintenance department is exceptional. Even though there are only 2 maintenance persons, they are excellent.  Housekeeping is also short shorthanded.  Front desk person is there when scheduled to work.",
+        "ownerResponse": {
+          "text": "Thank you so much for taking the time to leave us a review Barbara!  We appreciate you and your feedback!"
+        }
+      },
+      {
+        "author": "Kelly Powell",
+        "rating": 5.0,
+        "review": "I have lived at Affinity for almost 2yrs years now & I have enjoyed every second of it! The Mgr. Laurie does her job extremely well to ensure that we feel safe, secure, happy, heard, and genuinely cared for! What other apartment complex ",
+        "ownerResponse": {
+          "text": "Good morning Kelly!\nThank you so much for your great review!  I have shared this review with the team.\nHave a great day."
+        }
+      },
+      {
+        "author": "china m",
+        "rating": 5.0,
+        "review": "This is a wonderful place to live and we have enjoyed being a part of the Affinity community. There are so many opportunities to take advantage of within close proximity, as well as the social events available here. We've met so many lovely ",
+        "ownerResponse": {
+          "text": "Thank you for so much for your wonderful review!  We appreciate it so much."
+        }
+      },
+      {
+        "author": "Susan Harmon",
+        "rating": 4.0,
+        "review": "These are what I consider upscale apartments for 55+ ages. They offer a lot of amenities in the apartment building, including an elevator. There are usually monthly activities taking place. They maintain the interior and exterior of the ",
+        "ownerResponse": null
+      }
+    ],
+    "yelp_reviews": [
+      {
+        "author": "Marianne B.",
+        "rating": 5,
+        "review": "Beautiful center for 55 plus. All amenities plus utilities paid. Very impressive as well as very friendly staff",
+        "ownerResponse": null
+      },
+      {
+        "author": "K F.",
+        "rating": 1,
+        "review": "Bed bugs were found crawling from a wall in my 90-year-old parent's apartment. Called management and their response was blame my parents   One week after infestation was found, a terminator is coming. So for one week these people who don't leave their home are living in a bed bug ridden apartment. Neighbors were NOT notified. Bed bugs can multiply from a few to 13,000 in six months. It was a sickening sight and then Affinity's response was appalling!",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 12,
+  "adjusted_average_rating": 4.17
+}

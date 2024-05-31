@@ -1,0 +1,32 @@
+{
+  "name": "Millwood Park Apartments",
+  "slug": "millwood-park-apartments",
+  "company_type": "property",
+  "address": "3907 Flynn St, Bellingham, WA 98229",
+  "review_count": 3,
+  "average_rating": 3.67,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Tracy Muder",
+        "rating": 2.0,
+        "review": "There very old has a major mold issue and a few days ago the fire sprinkler went off in my apartment for reason, soaked my whole apartment lost a lot of things I can't get back I've lived here for 5 yrs and I was asked to move out in 3 days from the sprinkler incident and now me and my 9 yr old son are homeless they never offered to help me or nothing since this wasn't my fault my son is so upset and cryed over this I don't no what I'm going to do",
+        "ownerResponse": null
+      },
+      {
+        "author": "Dezeray Hammer",
+        "rating": 4.0,
+        "review": "",
+        "ownerResponse": null
+      },
+      {
+        "author": "Dancer of Tells",
+        "rating": 5.0,
+        "review": "",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 2.0
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Sophia Place Apartments",
+  "slug": "sophia-place-apartments",
+  "company_type": "property",
+  "address": "256 Prince Ave, Bellingham, WA 98226",
+  "review_count": 2,
+  "average_rating": 2.5,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Jamie Smith",
+        "rating": 2.0,
+        "review": "Garbages are always overfilling. No one on site to address problems if you have one.\n\nAs the other reviewer mentioned, you can hear every cough or sneeze the other unit makes.\n\nPet friendly! Almost everyone has dogs.",
+        "ownerResponse": null
+      },
+      {
+        "author": "Emily Goodin",
+        "rating": 3.0,
+        "review": "We rented a 3-bedroom 2nd floor apartment for 5 months while house-hunting. It was great to find a unit that we could rent by the month; also it was cat-friendly. We were the first occupants of the unit, after construction of the building. Having all solid surface flooring was nice, but there appeared to be no noise insulation at all behind the walls or between the floors. We could hear the showers running and toilets flushing from the 3rd floor apartment above us with amazing clarity. The neighbors above us had a dog and we could hear his claws scratching the floor when they played with him (we assume) inside. (We didn't hear all his \"pawsteps\" though.) The owners/residents had heavy footfalls and we *could* hear them walking. We tried our best to walk softly so we wouldn't bother the people below us but we don't know if we were successful. We didn't have any issues with maintenance, and the property management company (Landmark) was fine, with professional and helpful staff. No surprises with fees, etc. CenturyLink is pre-wired into the units for Internet/cable; as of the time we stayed there, no other provider was available in this building. We have no regrets about staying here but wouldn't want to be long-term residents.",
+        "ownerResponse": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_average_rating": 2.5
+}

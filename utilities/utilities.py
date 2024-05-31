@@ -4,7 +4,6 @@ import json
 import tempfile
 import shutil
 import re
-from collections import defaultdict 
 from thefuzz import process
 
 # sys.path.append(os.path.dirname(os.path.realpath(__file__)))

@@ -1,14 +1,12 @@
 import http.client as http_client
-import json
-from dotenv import dotenv_values
 import pyinputplus as pyinput
+import json
 import logging
-import html
-import re
 import random
 import time
 import utilities
 import traceback
+from dotenv import dotenv_values
 from utilities import Review, Business
 from requests import Request, Session
 

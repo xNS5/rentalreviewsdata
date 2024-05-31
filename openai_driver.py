@@ -5,8 +5,7 @@ import json
 import utilities
 from sys import argv
 from asyncio import Semaphore, gather, run, as_completed
-from pydantic import BaseModel
-from openai import OpenAI, AsyncOpenAI
+from openai import AsyncOpenAI
 from dotenv import dotenv_values
 
 config = {

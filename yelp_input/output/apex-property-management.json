@@ -3,8 +3,8 @@
   "slug": "apex-property-management",
   "company_type": "company",
   "address": "2020 Pacific St Bellingham, WA 98225",
-  "displayed_review_count": 52,
-  "displayed_avg_rating": 1.5,
+  "review_count": 52,
+  "average_rating": 1.52,
   "reviews": {
     "yelp_reviews": [
       {

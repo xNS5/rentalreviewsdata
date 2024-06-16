@@ -2,9 +2,7 @@ import os
 import shutil
 import json
 import tempfile
-import shutil
 import re
-from thefuzz import process
 
 # sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
@@ -167,16 +165,6 @@ def search(data, key, value):
         if d[key] != None and d[key] == value:
             return d
     return None
-
-
-def search_fuzzy(value, data):
-    try:
-        ret = process.extractOne(value, data)
-        if ret[1] >= 90:
-            return ret[0]
-        return None
-    except:
-        return None
     
 def get_all_reviews(data):
     reviews_obj = data["reviews"]

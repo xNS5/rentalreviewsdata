@@ -11,7 +11,7 @@ oldValue = "<article>"
 newValue = "<article class='review-summary'>"
 
 
-def main(path, key, oldValue, newValue):
+def replace(path, key, oldValue, newValue):
     input_list = utilities.list_files(path)
 
     if len(input_list) == 0:
@@ -37,6 +37,4 @@ def main(path, key, oldValue, newValue):
             shutil.move(f'{tempDir}/{file}', f'{path}/{file}')
         shutil.rmtree(tempDir)
 
-
-main(path, key, oldValue, newValue)
-
+replace(path, key, oldValue, newValue)

@@ -1,5 +1,6 @@
 import json
 import pyinputplus as pyinput
+from git import Repo
 from utilities import list_files
 from dotenv import dotenv_values
 
@@ -12,12 +13,19 @@ config = {
     **dotenv_values(".env")
 }
 
-def populate(db, client):
+def populate(db, client, files = []):
     seed_arr = []
-    files = list_files(input_path)
-    for file in files:
-        with open(f"{input_path}{file}", "r") as inputFile:
-            seed_arr.append(json.load(inputFile))
+    if len(files) == 0:
+        files = list_files(input_path)
+        for file in files:
+            with open(f"{input_path}{file}", "r") as inputFile:
+                input_json = json.load(inputFile)
+                seed_arr.append({**input_json, "_id": input_json['slug']})
+    else:
+         for file in files:
+            with open(f"{file}", "r") as inputFile:
+                seed_arr.append(json.load(inputFile))
+
     try:
         match client:
             case "MongoDB":
@@ -26,14 +34,13 @@ def populate(db, client):
             case "Firebase":
                 batch = db.batch()
                 for seed in seed_arr:
-                    doc_ref = db.collection(collection_key).document()
+                    doc_ref = db.collection(collection_key).document(seed['slug'])
                     batch.set(doc_ref, seed)
                 batch.commit()
     except Exception as e:
         print(f'Failed to seed {client} with error {e}')
         return
-        
-    print(f'Seeded {client}')
+    print(f'Seeded {client} with {len(seed_arr)} records.')
     
             
 def clear_db(db, client):
@@ -46,7 +53,7 @@ def clear_db(db, client):
                 collection = db.collection(collection_key)
                 docs = collection.stream()
                 for doc in docs:
-                    print(f"Deleting {doc.id}")
+                    # print(f"Deleting {doc.id}")
                     doc_ref = collection.document(doc.id)
                     batch.delete(doc_ref)
                 batch.commit()
@@ -55,6 +62,17 @@ def clear_db(db, client):
             return
     
     print(f'Cleared {client}')
+
+def update(db, client):
+    repo_obj = Repo("./")
+    files = []
+    for item in repo_obj.index.diff(None):
+        if collection_key in item.a_path:
+            files.append(item.a_path)
+    if len(files) > 0:
+         populate(db, client, files)
+    else:
+        print("No updates available")
 
 
 def main(database_selection, database_action):
@@ -81,12 +99,14 @@ def main(database_selection, database_action):
             populate(db, database_selection)
         case "Clear":
             clear_db(db, database_selection)
+        case "Update":
+            update(db, database_selection)
         case "Re-seed":
             clear_db(db, database_selection)
             populate(db, database_selection)
 
 if __name__ == "__main__":
     database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
-    database_action = pyinput.inputMenu(["Seed", "Clear", "Re-seed"], lettered=True, numbered=False)
+    database_action = pyinput.inputMenu(["Seed", "Clear", "Update", "Re-seed"], lettered=True, numbered=False)
 
     main(database_selection, database_action)

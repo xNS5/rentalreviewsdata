@@ -29,14 +29,8 @@ def get_prompt(file_content):
               6. When referring to the user-supplied reviews, call them "user reviews". When referring to the generated output from this request, call it "article", such as "in this article...", "this article's intent is to...", etc.
               7. The data shall be a single line string, without markdown-style backticks.
               8. The data shall not have any control characters, such as newlines or carriage returns. 
+              9. The article structure shall have the following template: "<article><heading><h1>#company_name#</h1></heading><section><heading><h2>Good</h2></heading><p>#section_content#</p></section><section><heading><h2>Great</h2></heading><p>#section_content#</p></section><section><heading><h2>Bad</h2></heading><p>#section_content#</p></section><section><heading><h2>Ugly</h2></heading><p>#section_content#</p></section></article>" where "#section_content#" should be replaced with the article section text. 
 
-              The article structure shall have the following requirements:
-              1. The resulting article shall be contained in a HTML <article class="review-summary"></article> tag.
-              2. Each sub-section shall be contained in <section></section> tags. 
-              3. A sub-section heading shall be contained in a <heading></heading> tag.
-              4. The heading text shall be contained in <h2></h2> tag. 
-              5. The sub-section content shall be contained in <p class="review-content"></p> tags.
-              
               The data is as follows in JSON format, with the reviews contained in the "reviews" key: ### {json.dumps(file_content, ensure_ascii=True, indent=2)} ###'''
         
         

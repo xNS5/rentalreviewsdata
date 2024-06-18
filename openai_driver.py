@@ -16,6 +16,10 @@ async_client = AsyncOpenAI(
        api_key=config["OPENAI_KEY"]
 )
 
+disclaimer_file = open("./disclaimer.json", "r")
+disclaimer = json.load(disclaimer_file)
+disclaimer_file.close() 
+
 reviews_path = "./merged_reviews"
 output_path = "./articles"
 
@@ -23,15 +27,19 @@ def get_prompt(file_content):
      return f'''Create an article for the {file_content["company_type"]} {file_content["name"]} with the following requirements: 
               1. This article sub-sections should be: good, great, bad, and ugly. The content of sub-section should reflect the sentiment of the heading.
               2. Each section shall have 2 paragraphs comprised of 3-5 sentences for each paragraph.
-              3. If there are not enough reviews to generate enough data, each section shall have only 1 paragraph comprised of 3-5 sentences.
+              3. If there are not enough detailed reviews to generate enough data, each section shall have only 1 paragraph comprised of 3-5 sentences.
               4. There shall be no identifiable information in the article, such as the name of the reviewer.
-              5. Be as detailed as possible, citing specific examples of the property management company either neglecting their duties or exceeding expectations, and any common themes such as not addressing maintenance concerns, not returning security deposits, poor communication, as well as how many times the company has replied to user reviews. 
-              6. When referring to the user-supplied reviews, call them "user reviews". When referring to the generated output from this request, call it "article", such as "in this article...", "this article's intent is to...", etc.
-              7. The data shall be a single line string, without markdown-style backticks.
-              8. The data shall not have any control characters, such as newlines or carriage returns. 
-              9. The article structure shall have the following template: "<article><heading><h1>#company_name#</h1></heading><section><heading><h2>Good</h2></heading><p>#section_content#</p></section><section><heading><h2>Great</h2></heading><p>#section_content#</p></section><section><heading><h2>Bad</h2></heading><p>#section_content#</p></section><section><heading><h2>Ugly</h2></heading><p>#section_content#</p></section></article>" where "#section_content#" should be replaced with the article section text. 
+              5. Be as detailed as possible, citing specific examples of the property management company either neglecting their duties or exceeding expectations, and any common themes such as not addressing maintenance concerns, not returning security deposits, poor communication, as well as how many times the company has replied to user reviews.
+              6. If there are specific examples that describe a previous tenant's experience, paraphrase their experience and include it in the corresponding section.
+              7. When referring to the user-supplied reviews, call them "user reviews". When referring to the generated output from this request, call it "article", such as "in this article...", "this article's intent is to...", etc.
+              8. The data shall be a single line string, without markdown-style backticks.
+              9. The data shall not have any control characters, such as newlines or carriage returns. 
+              10. The article structure shall have the following template: "<section><h2>Good</h2><p>#section_content#</p></section><section><h2>Great</h2><p>#section_content#</p></section><section><h2>Bad</h2><p>#section_content#</p></section><section><h2>Ugly</h2><p>#section_content#</p></section>" where "#section_content#" should be replaced with the article section text. 
 
-              The data is as follows in JSON format, with the reviews contained in the "reviews" key: ### {json.dumps(file_content, ensure_ascii=True, indent=2)} ###'''
+              The data is as follows in JSON format, with the reviews contained in the "reviews" key: 
+              ### 
+              {json.dumps(file_content, ensure_ascii=True, indent=2)} 
+              ###'''
         
         
 async def create_articles_async(file_json):
@@ -51,15 +59,23 @@ async def rate_limiter(file_path: str, semaphore: Semaphore):
             print(f"{file_json['name']}")
             input_file.close()
             result = await create_articles_async(file_json)
+
+            summary_dict = {
+                "text":  result.choices[0].message.content.replace('\n', '')
+            }
+
+            if file_json["slug"] in disclaimer:
+                summary_dict["disclaimer"] = disclaimer[file_json["slug"]]
+
             return {
                  **file_json,
-                "summary": result.choices[0].message.content.replace('\n', '')
+                 "summary": summary_dict
             }
      
 
 async def async_driver(path, out):
   file_list = utilities.list_files(path)
-  semaphore = Semaphore(5)
+  semaphore = Semaphore(1)
   tasks = [rate_limiter(f"{path}/{file}", semaphore) for file in file_list]
   result = await gather(*tasks)
   for res in result:

@@ -7,7 +7,7 @@ from dotenv import dotenv_values
 
 input_path = "./articles/"
 collection_key = "articles"
-certificate_path = "./production_certificate.json"
+certificate_path = "./firebase_certificate.json"
 
 config = {
     **dotenv_values(".env")
@@ -20,7 +20,11 @@ def populate(db, client, files = []):
         for file in files:
             with open(f"{input_path}{file}", "r") as inputFile:
                 input_json = json.load(inputFile)
-                seed_arr.append({**input_json, "_id": input_json['slug']})
+                if client == "MongoDB":
+                    seed_arr.append({**input_json, "_id": input_json['slug']})
+                else:
+                    seed_arr.append(input_json)
+                    
     else:
          for file in files:
             with open(f"{file}", "r") as inputFile:
@@ -53,7 +57,7 @@ def clear_db(db, client):
                 collection = db.collection(collection_key)
                 docs = collection.stream()
                 for doc in docs:
-                    # print(f"Deleting {doc.id}")
+                    print(f"Deleting {doc.id}")
                     doc_ref = collection.document(doc.id)
                     batch.delete(doc_ref)
                 batch.commit()

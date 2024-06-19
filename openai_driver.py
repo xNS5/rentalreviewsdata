@@ -73,15 +73,16 @@ async def rate_limiter(file_path: str, semaphore: Semaphore):
             }
      
 
-async def async_driver(path, out):
-  file_list = utilities.list_files(path)
-  semaphore = Semaphore(1)
-  tasks = [rate_limiter(f"{path}/{file}", semaphore) for file in file_list]
-  result = await gather(*tasks)
-  for res in result:
-      with open(f"{out}/{res['slug']}.json", 'w') as output_file:
-          json.dump(res, output_file, indent=2, ensure_ascii=True)
-          output_file.close()
+async def async_driver(path, out, file_list = []):
+    if len(file_list) == 0:
+        file_list = utilities.list_files(path)
+    semaphore = Semaphore(10)
+    tasks = [rate_limiter(f"{path}/{file}", semaphore) for file in file_list]
+    result = await gather(*tasks)
+    for res in result:
+        with open(f"{out}/{res['slug']}.json", 'w') as output_file:
+            json.dump(res, output_file, indent=2, ensure_ascii=True)
+            output_file.close()
           
 
 run(async_driver(reviews_path, output_path))

@@ -9,12 +9,32 @@ input_path = "./articles/"
 collection_key = "articles"
 certificate_path = "./firebase_certificate.json"
 
+collection_keys = {
+    "articles": ["summary"],
+    "reviews": ["reviews"],
+    "companies": ["name", "slug", "company_type", "address", "review_count", "average_rating",  "adjusted_review_count", "adjusted_average_rating"]
+}
 config = {
     **dotenv_values(".env")
 }
 
+def list_collections(db, client):
+    match client:
+        case "MongoDB":
+            return db.list_collection_names()
+        case "Firebase":
+            return [collection.id for collection in db.collections()]
+
 def populate(db, client, files = []):
+
+    def construct_obj(seed, seed_key_arr):
+        ret = {}
+        for key in seed_key_arr:
+            ret[key] = seed[key]
+        return ret
+
     seed_arr = []
+
     if len(files) == 0:
         files = list_files(input_path)
         for file in files:
@@ -33,13 +53,19 @@ def populate(db, client, files = []):
     try:
         match client:
             case "MongoDB":
-                db[collection_key].insert_many(seed_arr)
-                db[collection_key].create_index("name")
+                for key, key_arr in collection_keys.items():
+                    insert_arr = []
+                    for seed in seed_arr:
+                        temp_obj = construct_obj(seed, key_arr)
+                        insert_arr.append({**temp_obj})
+                    db[key].insert_many(insert_arr)
             case "Firebase":
                 batch = db.batch()
                 for seed in seed_arr:
-                    doc_ref = db.collection(collection_key).document(seed['slug'])
-                    batch.set(doc_ref, seed)
+                    for key, key_arr in collection_keys.items():
+                        modified_seed = construct_obj(seed, key_arr)
+                        doc_ref = db.collection(key).document(seed['slug'])
+                        batch.set(doc_ref, modified_seed)
                 batch.commit()
     except Exception as e:
         print(f'Failed to seed {client} with error {e}')
@@ -48,25 +74,29 @@ def populate(db, client, files = []):
     
             
 def clear_db(db, client):
+    collection_key_arr = list_collections(db, client)
     try:
         match client:
             case "MongoDB":
-                db[collection_key].delete_many({})
+                for key in collection_key_arr:
+                    db[collection_key].delete_many({})
             case "Firebase":
                 batch = db.batch()
-                collection = db.collection(collection_key)
-                docs = collection.stream()
-                for doc in docs:
-                    print(f"Deleting {doc.id}")
-                    doc_ref = collection.document(doc.id)
-                    batch.delete(doc_ref)
+                for key in collection_key_arr:
+                    collection = db.collection(key)
+                    docs = collection.stream()
+                    for doc in docs:
+                        # print(f"Deleting {doc.id}")
+                        doc_ref = collection.document(doc.id)
+                        batch.delete(doc_ref)
                 batch.commit()
     except Exception as e:
             print(f'Failed to clear {client} with error {e}')
             return
     
     print(f'Cleared {client}')
-
+            
+        
 def update(db, client):
     repo_obj = Repo("./")
     files = []
@@ -108,9 +138,12 @@ def main(database_selection, database_action):
         case "Re-seed":
             clear_db(db, database_selection)
             populate(db, database_selection)
+        case "List":
+            collection_list = list_collections(db, database_selection)
+            print(collection_list)
 
 if __name__ == "__main__":
     database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
-    database_action = pyinput.inputMenu(["Seed", "Clear", "Update", "Re-seed"], lettered=True, numbered=False)
+    database_action = pyinput.inputMenu(["Seed", "Clear", "List", "Update", "Re-seed"], lettered=True, numbered=False)
 
     main(database_selection, database_action)

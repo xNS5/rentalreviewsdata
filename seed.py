@@ -6,7 +6,6 @@ from dotenv import dotenv_values
 
 
 input_path = "./articles/"
-collection_key = "articles"
 certificate_path = "./firebase_certificate.json"
 
 collection_keys = {
@@ -59,9 +58,8 @@ def populate(db, client, files = []):
                 for seed in seed_arr:
                     for key, key_arr in collection_keys.items():
                         temp_obj = construct_obj(seed, key_arr, client)
-                        temp_obj["_id"] = seed["slug"]
+                        temp_obj['_id'] = seed["slug"]
                         ret_obj[key].append(temp_obj)
-
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
             case "Firebase":
@@ -84,7 +82,7 @@ def clear_db(db, client):
         match client:
             case "MongoDB":
                 for key in collection_key_arr:
-                    db[key].drop()
+                    db.drop_collection(key)
             case "Firebase":
                 batch = db.batch()
                 for key in collection_key_arr:
@@ -106,7 +104,7 @@ def update(db, client):
     repo_obj = Repo("./")
     files = []
     for item in repo_obj.index.diff(None):
-        if collection_key in item.a_path:
+        if "articles" in item.a_path:
             files.append(item.a_path)
     if len(files) > 0:
          populate(db, client, files)
@@ -142,15 +140,13 @@ def main(database_selection, database_action):
             update(db, database_selection)
         case "Re-seed":
             clear_db(db, database_selection)
-            populate(db, database_selection, ["20-bellwether-apartments.json"])
+            populate(db, database_selection)
         case "List":
             collection_list = list_collections(db, database_selection)
             print(collection_list)
 
 if __name__ == "__main__":
-    # database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
-    # database_action = pyinput.inputMenu(["Seed", "Clear", "List", "Update", "Re-seed"], lettered=True, numbered=False)
+    database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
+    database_action = pyinput.inputMenu(["Seed", "Clear", "List", "Update", "Re-seed"], lettered=True, numbered=False)
 
-    database_selection = "MongoDB"
-    database_action = "Re-seed"
     main(database_selection, database_action)

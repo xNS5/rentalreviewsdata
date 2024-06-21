@@ -14,6 +14,7 @@ collection_keys = {
     "reviews": ["reviews"],
     "companies": ["name", "slug", "company_type", "address", "review_count", "average_rating",  "adjusted_review_count", "adjusted_average_rating"]
 }
+
 config = {
     **dotenv_values(".env")
 }
@@ -27,10 +28,14 @@ def list_collections(db, client):
 
 def populate(db, client, files = []):
 
-    def construct_obj(seed, seed_key_arr):
+    def construct_obj(seed, seed_key_arr, client):
         ret = {}
         for key in seed_key_arr:
-            ret[key] = seed[key]
+            if type(seed[key]) is dict:
+                for sub_key in seed[key]:
+                    ret[sub_key] = seed[key][sub_key]
+            else:
+                ret[key] = seed.get(key, None)
         return ret
 
     seed_arr = []
@@ -40,35 +45,35 @@ def populate(db, client, files = []):
         for file in files:
             with open(f"{input_path}{file}", "r") as inputFile:
                 input_json = json.load(inputFile)
-                if client == "MongoDB":
-                    seed_arr.append({**input_json, "_id": input_json['slug']})
-                else:
-                    seed_arr.append(input_json)
+                seed_arr.append(input_json)
                     
     else:
          for file in files:
-            with open(f"{file}", "r") as inputFile:
+            with open(f"{input_path}/{file}", "r") as inputFile:
                 seed_arr.append(json.load(inputFile))
 
     try:
         match client:
             case "MongoDB":
-                for key, key_arr in collection_keys.items():
-                    insert_arr = []
-                    for seed in seed_arr:
-                        temp_obj = construct_obj(seed, key_arr)
-                        insert_arr.append({**temp_obj})
-                    db[key].insert_many(insert_arr)
+                ret_obj = {key : [] for key in collection_keys.keys()}
+                for seed in seed_arr:
+                    for key, key_arr in collection_keys.items():
+                        temp_obj = construct_obj(seed, key_arr, client)
+                        temp_obj["_id"] = seed["slug"]
+                        ret_obj[key].append(temp_obj)
+
+                for key, value in ret_obj.items():
+                    db[key].insert_many(value)
             case "Firebase":
                 batch = db.batch()
                 for seed in seed_arr:
                     for key, key_arr in collection_keys.items():
-                        modified_seed = construct_obj(seed, key_arr)
+                        modified_seed = construct_obj(seed, key_arr, client)
                         doc_ref = db.collection(key).document(seed['slug'])
                         batch.set(doc_ref, modified_seed)
                 batch.commit()
     except Exception as e:
-        print(f'Failed to seed {client} with error {e}')
+        print(f'Failed to seed {client} with error: {e}')
         return
     print(f'Seeded {client} with {len(seed_arr)} records.')
     
@@ -79,7 +84,7 @@ def clear_db(db, client):
         match client:
             case "MongoDB":
                 for key in collection_key_arr:
-                    db[collection_key].delete_many({})
+                    db[key].drop()
             case "Firebase":
                 batch = db.batch()
                 for key in collection_key_arr:
@@ -137,13 +142,15 @@ def main(database_selection, database_action):
             update(db, database_selection)
         case "Re-seed":
             clear_db(db, database_selection)
-            populate(db, database_selection)
+            populate(db, database_selection, ["20-bellwether-apartments.json"])
         case "List":
             collection_list = list_collections(db, database_selection)
             print(collection_list)
 
 if __name__ == "__main__":
-    database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
-    database_action = pyinput.inputMenu(["Seed", "Clear", "List", "Update", "Re-seed"], lettered=True, numbered=False)
+    # database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)
+    # database_action = pyinput.inputMenu(["Seed", "Clear", "List", "Update", "Re-seed"], lettered=True, numbered=False)
 
+    database_selection = "MongoDB"
+    database_action = "Re-seed"
     main(database_selection, database_action)

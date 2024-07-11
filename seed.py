@@ -8,6 +8,35 @@ from dotenv import dotenv_values
 input_path = "./articles/"
 certificate_path = "./firebase_certificate.json"
 
+
+input_paths = [
+    {
+        "path": "./articles/",
+        "simple:": False,
+        "collection_keys:": {
+            "articles": ["summary"],
+            "reviews": ["reviews"],
+            "companies": [
+                "name",
+                "slug",
+                "company_type",
+                "address",
+                "review_count",
+                "average_rating",
+                "adjusted_review_count",
+                "adjusted_average_rating",
+            ],
+        },
+    },
+    {
+        "path": "./config/",
+        "simple:": True,
+        "collection_keys": {
+            "config": None
+        }
+    }
+]
+
 collection_keys = {
     "articles": ["summary"],
     "reviews": ["reviews"],
@@ -25,7 +54,8 @@ def list_collections(db, client):
         case "Firebase":
             return [collection.id for collection in db.collections()]
 
-def populate(db, client, files = []):
+def populate(db, client, pathObj, files = []):
+    
 
     def construct_obj(seed, seed_key_arr, client):
         ret = {}
@@ -35,9 +65,13 @@ def populate(db, client, files = []):
                     ret[sub_key] = seed[key][sub_key]
             else:
                 ret[key] = seed.get(key, None)
+        if client == "MongoDB":
+            ret["_id"] = seed["slug"]
+
         return ret
 
     seed_arr = []
+    input_path = pathObj["path"]
 
     if len(files) == 0:
         files = list_files(input_path)
@@ -45,30 +79,40 @@ def populate(db, client, files = []):
             with open(f"{input_path}{file}", "r") as inputFile:
                 input_json = json.load(inputFile)
                 seed_arr.append(input_json)
+                inputFile.close()
                     
     else:
          for file in files:
             with open(f"{input_path}/{file}", "r") as inputFile:
                 seed_arr.append(json.load(inputFile))
+                inputFile.close()
 
     try:
         match client:
             case "MongoDB":
-                ret_obj = {key : [] for key in collection_keys.keys()}
+                ret_obj = {key : [] for key in pathObj["collection_keys"].keys()}
                 for seed in seed_arr:
-                    for key, key_arr in collection_keys.items():
-                        temp_obj = construct_obj(seed, key_arr, client)
-                        temp_obj['_id'] = seed["slug"]
+                    for key, key_arr in pathObj["collection_keys"].items():
+                        temp_obj = {}
+                        if pathObj["simple"] == True:
+                            temp_obj = seed
+                        else:
+                            temp_obj = construct_obj(seed, key_arr, client)
+
                         ret_obj[key].append(temp_obj)
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
             case "Firebase":
                 batch = db.batch()
                 for seed in seed_arr:
-                    for key, key_arr in collection_keys.items():
-                        modified_seed = construct_obj(seed, key_arr, client)
+                    for key, key_arr in pathObj["collection_keys"].items():
+                        temp_obj = {}
+                        if pathObj["simple"] == True:
+                            temp_obj = seed
+                        else:
+                            temp_obj = construct_obj(seed, key_arr, client)
                         doc_ref = db.collection(key).document(seed['slug'])
-                        batch.set(doc_ref, modified_seed)
+                        batch.set(doc_ref, temp_obj)
                 batch.commit()
     except Exception as e:
         print(f'Failed to seed {client} with error: {e}')
@@ -100,14 +144,16 @@ def clear_db(db, client):
     print(f'Cleared {client}')
             
         
-def update(db, client):
+def update(db, client, pathObj):
     repo_obj = Repo("./")
     files = []
+    updatePath = pathObj["path"].split('/')[1]
     for item in repo_obj.index.diff(None):
-        if "articles" in item.a_path:
+        print(item)
+        if updatePath in item.a_path:
             files.append(item.a_path)
     if len(files) > 0:
-         populate(db, client, files)
+         populate(db, client, path, files)
     else:
         print("No updates available")
 
@@ -131,19 +177,20 @@ def main(database_selection, database_action):
         print(f'Failed to initialize source {database_selection} with exception {e}')
         return
 
-    match database_action:
-        case "Seed":
-            populate(db, database_selection)
-        case "Clear":
-            clear_db(db, database_selection)
-        case "Update":
-            update(db, database_selection)
-        case "Re-seed":
-            clear_db(db, database_selection)
-            populate(db, database_selection)
-        case "List":
-            collection_list = list_collections(db, database_selection)
-            print(collection_list)
+    for path in input_paths:
+        match database_action:
+            case "Seed":
+                populate(db, database_selection, path)
+            case "Clear":
+                clear_db(db, database_selection)
+            case "Update":
+                update(db, database_selection, path)
+            case "Re-seed":
+                clear_db(db, database_selection)
+                populate(db, database_selection, path)
+            case "List":
+                collection_list = list_collections(db, database_selection)
+                print(collection_list)
 
 if __name__ == "__main__":
     database_selection = pyinput.inputMenu(["MongoDB", "Firebase"], lettered=True, numbered=False)

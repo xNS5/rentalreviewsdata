@@ -3,17 +3,15 @@ import pyinputplus as pyinput
 from git import Repo
 from utilities import list_files
 from dotenv import dotenv_values
+from collections import defaultdict
 
-
-input_path = "./articles/"
 certificate_path = "./firebase_certificate.json"
-
 
 input_paths = [
     {
         "path": "./articles/",
-        "simple:": False,
-        "collection_keys:": {
+        "simple": False,
+        "collection_keys": {
             "articles": ["summary"],
             "reviews": ["reviews"],
             "companies": [
@@ -30,18 +28,12 @@ input_paths = [
     },
     {
         "path": "./config/",
-        "simple:": True,
+        "simple": True,
         "collection_keys": {
             "config": None
         }
     }
 ]
-
-collection_keys = {
-    "articles": ["summary"],
-    "reviews": ["reviews"],
-    "companies": ["name", "slug", "company_type", "address", "review_count", "average_rating",  "adjusted_review_count", "adjusted_average_rating"]
-}
 
 config = {
     **dotenv_values(".env")
@@ -55,8 +47,6 @@ def list_collections(db, client):
             return [collection.id for collection in db.collections()]
 
 def populate(db, client, pathObj, files = []):
-    
-
     def construct_obj(seed, seed_key_arr, client):
         ret = {}
         for key in seed_key_arr:
@@ -90,7 +80,7 @@ def populate(db, client, pathObj, files = []):
     try:
         match client:
             case "MongoDB":
-                ret_obj = {key : [] for key in pathObj["collection_keys"].keys()}
+                ret_obj = defaultdict(lambda: [])
                 for seed in seed_arr:
                     for key, key_arr in pathObj["collection_keys"].items():
                         temp_obj = {}
@@ -117,7 +107,7 @@ def populate(db, client, pathObj, files = []):
     except Exception as e:
         print(f'Failed to seed {client} with error: {e}')
         return
-    print(f'Seeded {client} with {len(seed_arr)} records.')
+    print(f'Seeded {client} with {len(seed_arr)} records from {pathObj["path"]}.')
     
             
 def clear_db(db, client):
@@ -177,16 +167,17 @@ def main(database_selection, database_action):
         print(f'Failed to initialize source {database_selection} with exception {e}')
         return
 
+    # Clear first for both actions, otherwise it will clear -> seed, clear -> seed for each path object
+    if database_action == "Re-Seed" or database_action == "Clear":
+        clear_db(db, database_selection)
+
     for path in input_paths:
         match database_action:
             case "Seed":
                 populate(db, database_selection, path)
-            case "Clear":
-                clear_db(db, database_selection)
             case "Update":
                 update(db, database_selection, path)
             case "Re-seed":
-                clear_db(db, database_selection)
                 populate(db, database_selection, path)
             case "List":
                 collection_list = list_collections(db, database_selection)

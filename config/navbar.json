@@ -18,20 +18,20 @@
       "type": "dropdown",
       "url": "/resources",
       "target": "_self",
-      "children": [
-        {
+      "children": {
+        "0": {
           "name": "Bellingham Tenants Union",
           "type": "link",
           "url": "https://bellinghamtenantsunion.org/",
           "target": "_blank"
         },
-        {
+        "1": {
           "name": "Residential Landlord-Tenant Act",
           "type": "link",
           "url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=59.18",
           "target": "_blank"
         }
-      ]
+      }
     },
     {
       "name": "About",
@@ -45,35 +45,5 @@
       "url": "/contact",
       "target": "_self"
     }
-  ],
-  "footer": [
-    [
-      {
-        "type": "link",
-        "title": "Github",
-        "icon": "fab-github",
-        "alt": "",
-        "url": "https://github.com/xNS5/rentalreviews/",
-        "target": "_blank"
-      }
-    ],
-    [
-      {
-        "type": "link",
-        "text": "Privacy Policy",
-        "url": "/privacy-policy",
-        "target": ""
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "text": "Michael Kennedy © 2024-2025"
-      }
-    ]
-  ],
-  "metadata": {
-    "title": "Bellingham Rental Reviews",
-    "description": "Empowering renters with AI insights"
-  }
+  ]
 }

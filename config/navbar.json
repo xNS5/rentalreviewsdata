@@ -1,0 +1,49 @@
+{
+  "name": "navigation",
+  "nav": [
+    {
+      "name": "Home",
+      "type": "link",
+      "url": "/",
+      "target": "_self"
+    },
+    {
+      "name": "Reviews",
+      "type": "link",
+      "url": "/reviews",
+      "target": "_self"
+    },
+    {
+      "name": "Resources",
+      "type": "dropdown",
+      "url": "/resources",
+      "target": "_self",
+      "children": {
+        "0": {
+          "name": "Bellingham Tenants Union",
+          "type": "link",
+          "url": "https://bellinghamtenantsunion.org/",
+          "target": "_blank"
+        },
+        "1": {
+          "name": "Residential Landlord-Tenant Act",
+          "type": "link",
+          "url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=59.18",
+          "target": "_blank"
+        }
+      }
+    },
+    {
+      "name": "About",
+      "type": "link",
+      "url": "/about",
+      "target": "_self"
+    },
+    {
+      "name": "Contact",
+      "type": "link",
+      "url": "/contact",
+      "target": "_self"
+    }
+  ]
+}

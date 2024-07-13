@@ -1,0 +1,29 @@
+{
+    "name": "about",
+    "description": "About",
+    "content": [
+        {
+            "avatar": {
+                "type": "url",
+                "url": "https://avatars.githubusercontent.com/u/27764452?v=4"
+            },
+            "text": "Hi, I'm Michael Kennedy. I'm a software engineer based in Bellingham, WA. Like many students at Western, after living in the dorms my freshman year I decided to move off campus. It was my first time living on my own, and navigating Bellingham's rental market was a challenge. I didn't know how to find roommates, what I wanted in a rental property, whether to seek out a private landlord or a property management company, etc. After doing some research, I realized I needed to be more scrupulous of which company manages a given rental. I came across reviews, forum posts, detailing experiences with mold, broken appliances, unresolved maintenance requests. Having witnessed and experienced how complicated it is to navigate the Bellingham rental market, I knew I wanted to create <i>something</i> to help first-time renters. At the time my skills weren't quite there, and I didn't really know what I wanted to accomplish.<br>Then in late 2022, ChatGPT was released. I played around with it for a while, and started formulating an idea: what if I scraped reviews for local companies and piped it to ChatGPT? Although the quality of its responses varied based on the input prompt, it did do a good job at ingesting data and making sense of it in a human-readable format. Then it occurred to me: what if I scraped the reviews for companies in the Bellingham area, then piped it to ChatGPT? All of the heavy lifting would be done by the AI, all I would need to do is present it to the end user. I unfortunately got laid off at the beginning of 2024, so I luckily (or unluckily) had plenty of time on my hands.",
+            "links": {
+                "heading": "Want to get in touch?",
+                "children": [
+                    {
+                        "name": "Email",
+                        "type": "link",
+                        "url": "mailto:michael@michaelkennedy.dev?"
+                    },
+                    {
+                        "name": "Linkedin",
+                        "type": "link",
+                        "url": "https://linkedin.com/in/mw-kennedy",
+                        "icon": "fab-linkedin-square"
+                    }
+                ]
+            }
+        }
+    ]
+}

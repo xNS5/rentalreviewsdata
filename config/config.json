@@ -1,74 +1,79 @@
 {
-    "nav": [
+  "name": "navigation",
+  "nav": [
+    {
+      "name": "Home",
+      "type": "link",
+      "url": "/",
+      "target": "_self"
+    },
+    {
+      "name": "Reviews",
+      "type": "link",
+      "url": "/reviews",
+      "target": "_self"
+    },
+    {
+      "name": "Resources",
+      "type": "dropdown",
+      "url": "/resources",
+      "target": "_self",
+      "children": [
         {
-          "name": "Home",
+          "name": "Bellingham Tenants Union",
           "type": "link",
-          "url": "/",
-          "target": "_self"
+          "url": "https://bellinghamtenantsunion.org/",
+          "target": "_blank"
         },
         {
-          "name": "Reviews",
+          "name": "Residential Landlord-Tenant Act",
           "type": "link",
-          "url": "/reviews",
-          "target": "_self"
-        },
-        {
-          "name": "Resources",
-          "type": "dropdown",
-          "url": "/resources",
-          "target": "_self",
-          "children": [
-            {
-              "name": "Bellingham Tenants Union",
-              "type": "link",
-              "url": "https://bellinghamtenantsunion.org/",
-              "target": "_blank"
-            },
-            {
-              "name": "Residential Landlord-Tenant Act",
-              "type": "link",
-              "url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=59.18",
-              "target": "_blank"
-            }
-          ]
-        },
-        { "name": "About", "type": "link", "url": "/about", "target": "_self" },
-        {
-          "name": "Contact",
-          "type": "link",
-          "url": "/contact",
-          "target": "_self"
-        }
-      ],
-    "footer": [
-      [
-        {
-          "type": "link",
-          "title": "Github",
-          "icon": "fab-github",
-          "alt": "",
-          "url": "https://github.com/xNS5/rentalreviews/",
+          "url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=59.18",
           "target": "_blank"
         }
-      ],
-      [
-        {
-          "type": "link",
-          "text": "Privacy Policy",
-          "url": "/privacy-policy",
-          "target": ""
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "text": "Michael Kennedy © 2024-2025"
-        }
       ]
-    ],
-    "metadata": {
-      "title": "Bellingham Rental Reviews",
-      "description": "Empowering renters with AI insights"
+    },
+    {
+      "name": "About",
+      "type": "link",
+      "url": "/about",
+      "target": "_self"
+    },
+    {
+      "name": "Contact",
+      "type": "link",
+      "url": "/contact",
+      "target": "_self"
     }
+  ],
+  "footer": [
+    [
+      {
+        "type": "link",
+        "title": "Github",
+        "icon": "fab-github",
+        "alt": "",
+        "url": "https://github.com/xNS5/rentalreviews/",
+        "target": "_blank"
+      }
+    ],
+    [
+      {
+        "type": "link",
+        "text": "Privacy Policy",
+        "url": "/privacy-policy",
+        "target": ""
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "text": "Michael Kennedy © 2024-2025"
+      }
+    ]
+  ],
+  "metadata": {
+    "title": "Bellingham Rental Reviews",
+    "description": "Empowering renters with AI insights"
   }
-  
+}

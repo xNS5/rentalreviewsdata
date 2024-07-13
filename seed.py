@@ -1,4 +1,5 @@
 import json
+import traceback 
 import pyinputplus as pyinput
 from git import Repo
 from utilities import list_files
@@ -88,24 +89,25 @@ def populate(db, client, pathObj, files = []):
                             temp_obj = seed
                         else:
                             temp_obj = construct_obj(seed, key_arr, client)
-
                         ret_obj[key].append(temp_obj)
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
             case "Firebase":
                 batch = db.batch()
                 for seed in seed_arr:
+                   
                     for key, key_arr in pathObj["collection_keys"].items():
                         temp_obj = {}
                         if pathObj["simple"] == True:
                             temp_obj = seed
                         else:
                             temp_obj = construct_obj(seed, key_arr, client)
-                        doc_ref = db.collection(key).document(seed['slug'])
+                        index_key = 'slug' if 'slug' in seed else 'name'
+                        doc_ref = db.collection(key).document(seed[index_key])
                         batch.set(doc_ref, temp_obj)
                 batch.commit()
-    except Exception as e:
-        print(f'Failed to seed {client} with error: {e}')
+    except:
+        print(f'Failed to seed {client} with error: {traceback.print_exc()}')
         return
     print(f'Seeded {client} with {len(seed_arr)} records from {pathObj["path"]}.')
     

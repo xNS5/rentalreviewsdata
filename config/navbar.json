@@ -18,20 +18,20 @@
       "type": "dropdown",
       "url": "/resources",
       "target": "_self",
-      "children": {
-        "0": {
+      "children": [
+        {
           "name": "Bellingham Tenants Union",
           "type": "link",
           "url": "https://bellinghamtenantsunion.org/",
           "target": "_blank"
         },
-        "1": {
+        {
           "name": "Residential Landlord-Tenant Act",
           "type": "link",
           "url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=59.18",
           "target": "_blank"
         }
-      }
+      ]
     },
     {
       "name": "About",

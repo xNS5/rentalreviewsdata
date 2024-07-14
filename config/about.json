@@ -14,7 +14,8 @@
                     {
                         "name": "Email",
                         "type": "link",
-                        "url": "mailto:michael@michaelkennedy.dev?"
+                        "url": "mailto:michael@michaelkennedy.dev",
+                        "icon": "far-envelope"
                     },
                     {
                         "name": "Linkedin",

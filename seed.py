@@ -74,7 +74,7 @@ def populate(db, client, pathObj, files = []):
                     
     else:
          for file in files:
-            with open(f"{input_path}/{file}", "r") as inputFile:
+            with open(f"./{file}", "r") as inputFile:
                 seed_arr.append(json.load(inputFile))
                 inputFile.close()
 
@@ -95,7 +95,6 @@ def populate(db, client, pathObj, files = []):
             case "Firebase":
                 batch = db.batch()
                 for seed in seed_arr:
-                   
                     for key, key_arr in pathObj["collection_keys"].items():
                         temp_obj = {}
                         if pathObj["simple"] == True:
@@ -141,13 +140,12 @@ def update(db, client, pathObj):
     files = []
     updatePath = pathObj["path"].split('/')[1]
     for item in repo_obj.index.diff(None):
-        print(item)
         if updatePath in item.a_path:
             files.append(item.a_path)
     if len(files) > 0:
-         populate(db, client, path, files)
+         populate(db, client, pathObj, files)
     else:
-        print("No updates available")
+        print(f"No updates available in {updatePath}")
 
 
 def main(database_selection, database_action):

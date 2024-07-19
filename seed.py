@@ -56,9 +56,6 @@ def populate(db, client, pathObj, files = []):
                     ret[sub_key] = seed[key][sub_key]
             else:
                 ret[key] = seed.get(key, None)
-        if client == "MongoDB":
-            ret["_id"] = seed["slug"]
-
         return ret
 
     seed_arr = []
@@ -89,6 +86,7 @@ def populate(db, client, pathObj, files = []):
                             temp_obj = seed
                         else:
                             temp_obj = construct_obj(seed, key_arr, client)
+                        temp_obj["_id"] = seed["slug" if "slug" in seed else "name"] 
                         ret_obj[key].append(temp_obj)
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
@@ -168,16 +166,16 @@ def main(database_selection, database_action):
         return
 
     # Clear first for both actions, otherwise it will clear -> seed, clear -> seed for each path object
-    if database_action == "Re-Seed" or database_action == "Clear":
+    if database_action.lower() == "re-seed" or database_action.lower() == "clear":
         clear_db(db, database_selection)
 
     for path in input_paths:
-        match database_action:
-            case "Seed":
+        match database_action.lower():
+            case "seed":
                 populate(db, database_selection, path)
-            case "Update":
+            case "update":
                 update(db, database_selection, path)
-            case "Re-seed":
+            case "re-seed":
                 populate(db, database_selection, path)
             case "List":
                 collection_list = list_collections(db, database_selection)

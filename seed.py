@@ -2,7 +2,7 @@ import json
 import traceback 
 import pyinputplus as pyinput
 from git import Repo
-from utilities import list_files
+from utilities import list_files, get_file_name
 from dotenv import dotenv_values
 from collections import defaultdict
 
@@ -47,33 +47,29 @@ def list_collections(db, client):
         case "Firebase":
             return [collection.id for collection in db.collections()]
 
-def populate(db, client, pathObj, files = []):
-    def construct_obj(seed, seed_key_arr, client):
-        ret = {}
-        for key in seed_key_arr:
-            if type(seed[key]) is dict:
-                for sub_key in seed[key]:
-                    ret[sub_key] = seed[key][sub_key]
-            else:
-                ret[key] = seed.get(key, None)
-        return ret
+def construct_obj(seed, seed_key_arr, client):
+    ret = {}
+    for key in seed_key_arr:
+        if type(seed[key]) is dict:
+            for sub_key in seed[key]:
+                ret[sub_key] = seed[key][sub_key]
+        else:
+            ret[key] = seed.get(key, None)
+    if client == "MongoDB":
+        ret["_id"] = seed["slug" if "slug" in seed else "name"] 
+    return ret
+
+def populate(db, client, pathObj):
 
     seed_arr = []
     input_path = pathObj["path"]
+    files = list_files(input_path)
 
-    if len(files) == 0:
-        files = list_files(input_path)
-        for file in files:
-            with open(f"{input_path}{file}", "r") as inputFile:
-                input_json = json.load(inputFile)
-                seed_arr.append(input_json)
-                inputFile.close()
-                    
-    else:
-         for file in files:
-            with open(f"./{file}", "r") as inputFile:
-                seed_arr.append(json.load(inputFile))
-                inputFile.close()
+    for file in files:
+        with open(f"{input_path}{file}", "r") as inputFile:
+            input_json = json.load(inputFile)
+            seed_arr.append(input_json)
+            inputFile.close()
 
     try:
         match client:
@@ -86,7 +82,6 @@ def populate(db, client, pathObj, files = []):
                             temp_obj = seed
                         else:
                             temp_obj = construct_obj(seed, key_arr, client)
-                        temp_obj["_id"] = seed["slug" if "slug" in seed else "name"] 
                         ret_obj[key].append(temp_obj)
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
@@ -99,16 +94,14 @@ def populate(db, client, pathObj, files = []):
                             temp_obj = seed
                         else:
                             temp_obj = construct_obj(seed, key_arr, client)
-                        index_key = 'slug' if 'slug' in seed else 'name'
-                        doc_ref = db.collection(key).document(seed[index_key])
+                        doc_ref = db.collection(key).document(seed['slug' if 'slug' in seed else 'name'])
                         batch.set(doc_ref, temp_obj)
                 batch.commit()
     except:
         print(f'Failed to seed {client} with error: {traceback.print_exc()}')
         return
     print(f'Seeded {client} with {len(seed_arr)} records from {pathObj["path"]}.')
-    
-            
+              
 def clear_db(db, client):
     collection_key_arr = list_collections(db, client)
     try:
@@ -131,8 +124,7 @@ def clear_db(db, client):
             return
     
     print(f'Cleared {client}')
-            
-        
+                  
 def update(db, client, pathObj):
     repo_obj = Repo("./")
     files = []
@@ -140,8 +132,21 @@ def update(db, client, pathObj):
     for item in repo_obj.index.diff(None):
         if updatePath in item.a_path:
             files.append(item.a_path)
-    if len(files) > 0:
-         populate(db, client, pathObj, files)
+    if len(files) > 0:        
+        if client == "MongoDB":
+            update_obj = defaultdict(lambda: [])
+            for file in files:
+                with open(f"./{file}", "r") as inputFile:
+                    input_json = json.load(inputFile)
+                    for key, key_arr in pathObj["collection_keys"].items():
+                        temp_obj = {}
+                        if pathObj["simple"] == True:
+                            temp_obj = input_json
+                        else:
+                            temp_obj = construct_obj(input_json, key_arr, client)
+                        db[key].update_one({"_id": input_json["slug" if "slug" in input_json else "name"]},{"$set": temp_obj}, upsert=True)
+                    inputFile.close()
+        print(f"Updated {client} with {len(files)} records")
     else:
         print(f"No updates available in {updatePath}")
 

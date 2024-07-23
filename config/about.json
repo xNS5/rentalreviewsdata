@@ -15,13 +15,13 @@
                         "name": "Email",
                         "type": "link",
                         "url": "mailto:michael@michaelkennedy.dev",
-                        "icon": "far-envelope"
+                        "icon": "fas-envelope"
                     },
                     {
                         "name": "Linkedin",
                         "type": "link",
                         "url": "https://linkedin.com/in/mw-kennedy",
-                        "icon": "fab-linkedin-square"
+                        "icon": "fab-linkedin"
                     }
                 ]
             }

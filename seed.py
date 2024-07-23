@@ -132,24 +132,37 @@ def update(db, client, pathObj):
     for item in repo_obj.index.diff(None):
         if updatePath in item.a_path:
             files.append(item.a_path)
-    if len(files) > 0:        
-        if client == "MongoDB":
-            update_obj = defaultdict(lambda: [])
-            for file in files:
-                with open(f"./{file}", "r") as inputFile:
-                    input_json = json.load(inputFile)
-                    for key, key_arr in pathObj["collection_keys"].items():
-                        temp_obj = {}
-                        if pathObj["simple"] == True:
-                            temp_obj = input_json
-                        else:
-                            temp_obj = construct_obj(input_json, key_arr, client)
-                        db[key].update_one({"_id": input_json["slug" if "slug" in input_json else "name"]},{"$set": temp_obj}, upsert=True)
-                    inputFile.close()
+    if len(files) > 0: 
+        match client:      
+            case "MongoDB":
+                update_obj = defaultdict(lambda: [])
+                for file in files:
+                    with open(f"./{file}", "r") as inputFile:
+                        input_json = json.load(inputFile)
+                        for key, key_arr in pathObj["collection_keys"].items():
+                            temp_obj = {}
+                            if pathObj["simple"] == True:
+                                temp_obj = input_json
+                            else:
+                                temp_obj = construct_obj(input_json, key_arr, client)
+                            db[key].update_one({"_id": input_json["slug" if "slug" in input_json else "name"]},{"$set": temp_obj}, upsert=True)
+                        inputFile.close()
+            case "Firebase":
+                for file in files:
+                     with open(f"./{file}", "r") as inputFile:
+                        input_json = json.load(inputFile)
+                        for key, key_arr in pathObj["collection_keys"].items():
+                            temp_obj = {}
+                            if pathObj["simple"] == True:
+                                temp_obj = input_json
+                            else:
+                                temp_obj = construct_obj(input_json, key_arr, client)
+                            doc_ref = db[key].document(input_json["seed" if "seed" in input_json else "name"])
+                            doc_ref.update(temp_obj)              
+
         print(f"Updated {client} with {len(files)} records")
     else:
         print(f"No updates available in {updatePath}")
-
 
 def main(database_selection, database_action):
     db = None

@@ -1,0 +1,38 @@
+{
+    "name": "faq",
+    "description": "Frequently Asked Questions",
+    "questions": [
+        {
+            "question": "How is the data gathered and stored?",
+            "answer": "The data for this project is gathered by scraping reviews from Yelp and Google, however only Google is scraped in the traditional sense. Everything you see on a website is in HTML -- and if you can see it, it can be scraped. The data is presently stored in a Firebase Firestore database. For a more in-depth explanation of how the data is gathered, please see the <a href='https://github.com/xns5/rentalreviewsdata'>Github repository </a>"
+        },
+        {
+            "question": "Are the reviews on this site trustworthy and unbiased?",
+            "answer": "Yes and no. In some instances there are maybe one or two reviews for a given property or company. To address this problem, the review count and the adjusted review count are displayed for the user to see. Additionally, people generally only leave reviews when they have something negative to say; some of them have weight, some don't. If one wants to vet the authenticity of the reviews, all one has to do is search for them on their respective platforms (i.e. Google or Yelp).  The summaries are generated based on those same reviews, so in some instances the summaries themselves may be biased."
+        },
+        {
+            "question": "How frequently are reviews updated?",
+            "answer": "As of now they're updated on an infrequent basis, but the current plan is to update them on a 2-3 month basis."
+        },
+        {
+            "question": "How can I help or otherwise contribute to this project?",
+            "answer": "I am presently not accepting financial contributions to avoid any conflicts of interest; however, if one is interested in contributing to the data on this website, simply create a public review on Google or Yelp. The data is gathered directly from those websites, so any reviews made will eventually be added to the data for this project. I understand that some may not feel comfortable doing this with their personal accounts, but for the sake of transparency this is necessary."
+        },
+        {
+            "question": "My property management company/apartment complex is not listed, how do I get them added?",
+            "answer": "There are a few scenarios where a property management company or apartment complex is not listed: first, they could not have a page on either Yelp or Google. Second, they could have pages on either site, but has zero reviews. And third, I could just have missed it due to the way data is scraped. Please verify that they have a publicly-facing Yelp or Google page, and if they exist *and* have reviews please reach out to me at <a href='mailto:michael@michaelkennedy.dev'>michael@michaelkennedy.dev</a> or submit a <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a>."
+        },
+        {
+            "question": "Why are the review counts different from the originating website? ",
+            "answer": "The total displayed review count is calculated using the review counts from both Yelp and Google. Google on the other hand doesn't display all of the reviews. On the reviews page, they have a disclaimer that reads: 'Reviews are automatically processed to detect inappropriate content like fake reviews and spam. We may take down reviews that are flagged in order to comply with <a href='https://support.google.com/contributionpolicy/answer/7400114?ref_topic=7422769'>Google policies</a> or legal obligations', which essentially means that not all reviews are displayed for one of several reasons. The scripts developed for this project gather all visible reviews, so unless I can find a way to see all reviews there's a chance the number won't match."
+        },
+        {
+            "question": "What information do you gather on visitors?",
+            "answer": "Other than basic analytics, none."
+        },
+        {
+            "question": "What if my question wasn't answered here?",
+            "answer": "Feel free to reach out to me at <a href='mailto:michael@michaelkennedy.dev'>michael@michaelkennedy.dev</a> or submit a  <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a> and I'd be more than happy to answer any questions."
+        }
+    ]
+}

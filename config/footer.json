@@ -14,6 +14,11 @@
       "text": "Privacy Policy",
       "url": "/privacy-policy",
       "target": ""
+    }, {
+      "type": "link",
+      "text": "FAQ",
+      "url": "/faq",
+      "target": ""
     }],
     "2": [{
       "type": "text",

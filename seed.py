@@ -166,7 +166,7 @@ def update(db, client, pathObj):
                                 temp_obj = input_json
                             else:
                                 temp_obj = construct_obj(input_json, key_arr, client)
-                            doc_ref = db[key].document(
+                            doc_ref = db.collection(key).document(
                                 input_json["seed" if "seed" in input_json else "name"]
                             )
                             doc_ref.update(temp_obj)

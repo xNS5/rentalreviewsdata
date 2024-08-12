@@ -85,6 +85,7 @@ def get_google_whitelist():
             "Apartment rental agency",
             "Furnished apartment building",
             "Housing complex",
+            "Student housing center"
         ]
     )
 
@@ -107,6 +108,7 @@ def get_whitelist_types(categories):
         "Apartment rental agency": "property",
         "Furnished apartment building": "property",
         "Housing complex": "property",
+        "Student housing center": "property"
     }
     if isinstance(categories, list):
         for cat in categories:

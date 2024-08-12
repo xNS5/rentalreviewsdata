@@ -1,27 +1,28 @@
 {
-    "name": "footer",
-    "footer": {
-        "0": [ {
-            "type": "link",
-            "title": "Github",
-            "icon": "fab-github",
-            "alt": "",
-            "url": "https://github.com/xNS5/rentalreviews/",
-            "target": "_blank"
-          }],
-          "1": [
-            {
-                "type": "link",
-                "text": "Privacy Policy",
-                "url": "/privacy-policy",
-                "target": ""
-              }
-          ],
-          "2": [
-            {
-                "type": "text",
-                "text": "Michael Kennedy © 2024-2025"
-              }
-          ]
-      }
+  "name": "footer",
+  "footer": {
+    "0": [{
+      "type": "link",
+      "title": "Github",
+      "icon": "fab-github",
+      "alt": "",
+      "url": "https://github.com/xNS5/rentalreviews/",
+      "target": "_blank"
+    }],
+    "1":[{
+      "type": "link",
+      "text": "Privacy Policy",
+      "url": "/privacy-policy",
+      "target": ""
+    }, {
+      "type": "link",
+      "text": "FAQ",
+      "url": "/faq",
+      "target": ""
+    }],
+    "2": [{
+      "type": "text",
+      "text": "Michael Kennedy © 2024-2025"
+    }]
+  }
 }

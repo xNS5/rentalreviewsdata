@@ -34,12 +34,6 @@
       ]
     },
     {
-      "name": "About",
-      "type": "link",
-      "url": "/about",
-      "target": "_self"
-    },
-    {
       "name": "Contact",
       "type": "link",
       "url": "/contact",

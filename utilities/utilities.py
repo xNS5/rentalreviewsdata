@@ -6,110 +6,40 @@ import re
 
 # sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
-def get_yelp_whitelist():
+
+def get_config():
+    with open("utilities/config.json", "r") as inputFile:
+        input_json = json.load(inputFile)
+        inpputFile.close()
+        return input_json
+
+
+def get_yelp_category_whitelist():
+    config = get_config()
     return set(
-        [
-            "propertymgmt",
-            "apartments",
-            "condominiums",
-            "realestateagents",
-            "realestatesvcs",
-            "university_housing",
-        ]
+        config["yelp_category_whitelist"]
     )
 
+def get_seed_config():
+    config = get_config()
+    return config["seed_config"]
 
 def company_map(key):
-    map = {
-        "yelp": {
-            "access-real-estate-services": "access-real-estate-services-llc",
-            "brampton-court-apts": "brampton-court-apartments",
-            "canterbury-court-apts": "canterbury-court-apartments",
-            "integra-condominium-association-management": "integra-condominium-association-management-inc",
-            "lakeway-rentals": "lakeway-rentals-work",
-            "maplewood-apartments": "maplewood-apartments-lp",
-            "optimus-property-solutions": "optimus-property-solutions-property-sales-management",
-            "pomeroy-court-appartments": "pomeroy-court-apartments",
-            # "sonrise-property-management": "pure-property-management-of-washington",
-            "stateside-bellingham": "stateside",
-            "sunset-pond-apts": "sunset-pond-apartments",
-            "windermere-property-management": "windermere-property-management-bellingham",
-            "woodrose-senior-affordable-apartments": "woodrose-apartments",
-        },
-        "google": {
-            "access-real-estate-services-llc": "access-real-estate-services",
-            "brampton-court-apartments": "brampton-court-apts",
-            "canterbury-court-apartments": "canterbury-court-apts",
-            "integra-condominium-association-management-inc": "integra-condominium-association-management",
-            "lakeway-rentals-work": "lakeway-rentals",
-            "maplewood-apartments-lp": "maplewood-apartments",
-            "optimus-property-solutions-property-sales-management": "optimus-property-solutions",
-            "pomeroy-court-apartments": "pomeroy-court-appartments",
-            # "pure-property-management-of-washington": "sonrise-property-management",
-            "stateside": "stateside-bellingham",
-            "sunset-pond-apartments": "sunset-pond-apts",
-            "windermere-property-management-bellingham": "windermere-property-management",
-            "woodrose-apartments": "woodrose-senior-affordable-apartments",
-        },
-    }
-    return map[key] if key in map else {}
+    map = get_config()
+    return map["company_map"][key] if key in map else {}
 
 def get_company_blacklist():
-    return set([
-        "john-l-scott-real-estate-bellingham",
-        "briddick-webb-bellingham-real-estate-agent-remax-whatcom-county-inc",
-        "julian-company-real-estate-team-with-the-muljat-group",
-        "remax-whatcom-county",
-        "eric-green-john-l-scott-real-estate",
-        "guardian-northwest-title-escrow",
-        "julie-carpenterremax-whatcom-county",
-        "lilac-listings-at-remax-whatcom-county",
-        "lck-properties",
-        "liz-standow-bellingham-real-estate",
-        "matt-mcbeathexp-realty",
-        "sean-ryan-nexthome-northwest-living",
-        "vanessa-parry-bellwether-real-estate"
-    ])
-
-
-def get_google_whitelist():
     return set(
-        [
-            "Property management company",
-            "Commercial real estate agency",
-            "Real estate rental agency",
-            "Real estate agency",
-            "Short term apartment rental agency",
-            "Apartment building",
-            "Apartment complex",
-            "Apartment rental agency",
-            "Furnished apartment building",
-            "Housing complex",
-            "Student housing center"
-        ]
+        get_config["company_blacklist"]
     )
 
+def get_google_category_whitelist():
+    return set(
+        get_config("google_category_whitelist")
+    )
 
 def get_whitelist_types(categories):
-    map = {
-        "propertymgmt": "company",
-        "apartments": "property",
-        "condominiums": "property",
-        "realestateagents": "company",
-        "realestatesvcs": "company",
-        "university_housing": "property",
-        "Property management company": "company",
-        "Commercial real estate agency": "company",
-        "Real estate rental agency": "company",
-        "Real estate agency": "company",
-        "Short term apartment rental agency": "company",
-        "Apartment building": "property",
-        "Apartment complex": "property",
-        "Apartment rental agency": "property",
-        "Furnished apartment building": "property",
-        "Housing complex": "property",
-        "Student housing center": "property"
-    }
+    map = get_config()["category_map"]
     if isinstance(categories, list):
         for cat in categories:
             if cat["alias"] in map:
@@ -167,7 +97,8 @@ def search(data, key, value):
         if d[key] != None and d[key] == value:
             return d
     return None
-    
+
+
 def get_all_reviews(data):
     reviews_obj = data["reviews"]
     keys = reviews_obj.keys()
@@ -175,33 +106,38 @@ def get_all_reviews(data):
     for key in keys:
         ret.extend(reviews_obj[key])
     return ret
-    
-    
+
+
 def calculate_adjusted_reviews(data):
     reviews = get_all_reviews(data)
     adjusted_count = 0
     adjusted_rating = 0.0
-    
+
     for review in reviews:
         if len(review["review"]) > 0:
             adjusted_count += 1
             adjusted_rating += review["rating"]
 
     return {
-        "adjusted_review_count" : adjusted_count,
-        "adjusted_average_rating": round(adjusted_rating / adjusted_count, 2) if adjusted_count > 0 else data["average_rating"]
+        "adjusted_review_count": adjusted_count,
+        "adjusted_average_rating": (
+            round(adjusted_rating / adjusted_count, 2)
+            if adjusted_count > 0
+            else data["average_rating"]
+        ),
     }
+
 
 def calculate_actual_rating(data):
     reviews = get_all_reviews(data)
     review_count = 0
     rolling_average_sum = 0
     for review in reviews:
-        review_count+=1
+        review_count += 1
         rolling_average_sum += review["rating"]
     return {
         "review_count": review_count,
-        "average_rating": round(rolling_average_sum/review_count, 2)
+        "average_rating": round(rolling_average_sum / review_count, 2),
     }
 
 

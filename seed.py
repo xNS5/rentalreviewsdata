@@ -2,36 +2,15 @@ import json
 import traceback
 import pyinputplus as pyinput
 from git import Repo
-from utilities import list_files, get_file_name
+from utilities import list_files, get_file_name, get_seed_config
 from dotenv import dotenv_values
 from collections import defaultdict
 
 certificate_path = "./firebase_certificate.json"
 
-input_paths = [
-    {
-        "path": "./articles/",
-        "simple": False,
-        "collection_keys": {
-            "articles": ["summary"],
-            "reviews": ["reviews"],
-            "companies": [
-                "name",
-                "slug",
-                "company_type",
-                "address",
-                "review_count",
-                "average_rating",
-                "adjusted_review_count",
-                "adjusted_average_rating",
-            ],
-        },
-    },
-    {"path": "./config/", "simple": True, "collection_keys": {"config": None}},
-]
-
 config = {**dotenv_values(".env")}
 
+seed_config = get_seed_config()
 
 def list_collections(db, client):
     match client:
@@ -208,7 +187,7 @@ def main(database_selection, database_action):
     if database_action.lower() == "re-seed" or database_action.lower() == "clear":
         clear_db(db, database_selection)
 
-    for path in input_paths:
+    for path in seed_config:
         match database_action.lower():
             case "seed":
                 populate(db, database_selection, path)

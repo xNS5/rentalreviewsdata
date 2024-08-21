@@ -1,8 +1,10 @@
 import json
 import traceback
+import sys
+import argparse
 import pyinputplus as pyinput
 from git import Repo
-from utilities import list_files, get_file_name, get_seed_config
+from utilities import list_files, get_seed_config
 from dotenv import dotenv_values
 from collections import defaultdict
 
@@ -195,17 +197,41 @@ def main(database_selection, database_action):
                 update(db, database_selection, path)
             case "re-seed":
                 populate(db, database_selection, path)
-            case "List":
+            case "list":
                 collection_list = list_collections(db, database_selection)
                 print(collection_list)
 
 
 if __name__ == "__main__":
-    database_selection = pyinput.inputMenu(
-        ["MongoDB", "Firebase"], lettered=True, numbered=False
-    )
-    database_action = pyinput.inputMenu(
-        ["Seed", "Clear", "List", "Update", "Re-seed"], lettered=True, numbered=False
-    )
+    database_selection = None 
+    database_action = None
+    database_options = ["mongodb", "firebase"]
+    action_options = ["seed", "clear", "list", "update", "re-seed"]
+    if len(sys.argv) > 1:
+        parser = argparse.ArgumentParser()
+        parser.add_argument("-db", "--database", required=True, help="Database Name")
+        parser.add_argument("-a", "--action", required=True, help="Action to perform on the database")
+
+        args = parser.parse_args()
+
+        if args.database.lower() not in database_options:
+            print("Invalid database selection")
+            exit(1)
+        else:
+            database_selection = args.database
+
+        if args.action.lower() not in action_options:
+            print("Invalid database action")
+            exit(1)
+        else:
+            database_action = args.action
+
+    else: 
+        database_selection = pyinput.inputMenu(
+            database_options , lettered=True, numbered=False
+        )
+        database_action = pyinput.inputMenu(
+            action_options, lettered=True, numbered=False
+        )
 
     main(database_selection, database_action)

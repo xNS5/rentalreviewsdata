@@ -1,43 +1,24 @@
 import json
 import traceback
+import sys
+import argparse
 import pyinputplus as pyinput
 from git import Repo
-from utilities import list_files, get_file_name
+from utilities import list_files, get_seed_config
 from dotenv import dotenv_values
 from collections import defaultdict
 
 certificate_path = "./firebase_certificate.json"
 
-input_paths = [
-    {
-        "path": "./articles/",
-        "simple": False,
-        "collection_keys": {
-            "articles": ["summary"],
-            "reviews": ["reviews"],
-            "companies": [
-                "name",
-                "slug",
-                "company_type",
-                "address",
-                "review_count",
-                "average_rating",
-                "adjusted_review_count",
-                "adjusted_average_rating",
-            ],
-        },
-    },
-    {"path": "./config/", "simple": True, "collection_keys": {"config": None}},
-]
-
 config = {**dotenv_values(".env")}
 
+seed_config = get_seed_config()
 
 def list_collections(db, client):
     match client:
-        case "MongoDB":
+        case "mongodb":
             return db.list_collection_names()
-        case "Firebase":
+        case "firebase":
             return [collection.id for collection in db.collections()]
 
 
@@ -49,7 +30,7 @@ def construct_obj(seed, seed_key_arr, client):
                 ret[sub_key] = seed[key][sub_key]
         else:
             ret[key] = seed.get(key, None)
-    if client == "MongoDB":
+    if client == "mongodb":
         ret["_id"] = seed["slug" if "slug" in seed else "name"]
     return ret
 
@@ -68,7 +49,7 @@ def populate(db, client, pathObj):
 
     try:
         match client:
-            case "MongoDB":
+            case "mongodb":
                 ret_obj = defaultdict(lambda: [])
                 for seed in seed_arr:
                     for key, key_arr in pathObj["collection_keys"].items():
@@ -82,7 +63,7 @@ def populate(db, client, pathObj):
                         ret_obj[key].append(temp_obj)
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
-            case "Firebase":
+            case "firebase":
                 batch = db.batch()
                 for seed in seed_arr:
                     for key, key_arr in pathObj["collection_keys"].items():
@@ -106,10 +87,10 @@ def clear_db(db, client):
     collection_key_arr = list_collections(db, client)
     try:
         match client:
-            case "MongoDB":
+            case "mongodb":
                 for key in collection_key_arr:
                     db.drop_collection(key)
-            case "Firebase":
+            case "firebase":
                 batch = db.batch()
                 for key in collection_key_arr:
                     collection = db.collection(key)
@@ -135,7 +116,7 @@ def update(db, client, pathObj):
             files.append(item.a_path)
     if len(files) > 0:
         match client:
-            case "MongoDB":
+            case "mongodb":
                 update_obj = defaultdict(lambda: [])
                 for file in files:
                     with open(f"./{file}", "r") as inputFile:
@@ -156,7 +137,7 @@ def update(db, client, pathObj):
                                 upsert=True,
                             )
                         inputFile.close()
-            case "Firebase":
+            case "firebase":
                 for file in files:
                     with open(f"./{file}", "r") as inputFile:
                         input_json = json.load(inputFile)
@@ -174,13 +155,13 @@ def update(db, client, pathObj):
         print(f"Updated {client} with {len(files)} records")
     else:
         print(f"No updates available in {updatePath}")
-
+           
 
 def main(database_selection, database_action):
     db = None
     try:
         match database_selection:
-            case "MongoDB":
+            case "mongodb":
                 import pymongo
 
                 client = pymongo.MongoClient(
@@ -192,7 +173,7 @@ def main(database_selection, database_action):
                     )
                 )
                 db = client["rentalreviews"]
-            case "Firebase":
+            case "firebase":
                 import firebase_admin
                 from firebase_admin import credentials, firestore
 
@@ -208,7 +189,7 @@ def main(database_selection, database_action):
     if database_action.lower() == "re-seed" or database_action.lower() == "clear":
         clear_db(db, database_selection)
 
-    for path in input_paths:
+    for path in seed_config:
         match database_action.lower():
             case "seed":
                 populate(db, database_selection, path)
@@ -216,17 +197,42 @@ def main(database_selection, database_action):
                 update(db, database_selection, path)
             case "re-seed":
                 populate(db, database_selection, path)
-            case "List":
+            case "list":
                 collection_list = list_collections(db, database_selection)
                 print(collection_list)
 
 
 if __name__ == "__main__":
-    database_selection = pyinput.inputMenu(
-        ["MongoDB", "Firebase"], lettered=True, numbered=False
-    )
-    database_action = pyinput.inputMenu(
-        ["Seed", "Clear", "List", "Update", "Re-seed"], lettered=True, numbered=False
-    )
+    database_selection = None 
+    database_action = None
+    database_options = ["mongodb", "firebase"]
+    action_options = ["seed", "clear", "list", "update", "re-seed"]
+    if len(sys.argv) > 1:
+        parser = argparse.ArgumentParser()
+        parser.add_argument("-db", "--database", required=True, help="Database Name")
+        parser.add_argument("-a", "--action", required=True, help="Action to perform on the database")
+
+        args = parser.parse_args()
+
+        if args.database.lower() not in database_options:
+            print("Invalid database selection")
+            exit(1)
+        else:
+            database_selection = args.database.lower()
+
+        if args.action.lower() not in action_options:
+            print("Invalid database action")
+            exit(1)
+        else:
+            database_action = args.action.lower()
+
+    else: 
+        database_selection = pyinput.inputMenu(
+            database_options , lettered=True, numbered=False
+        ).lower()
+
+        database_action = pyinput.inputMenu(
+            action_options, lettered=True, numbered=False
+        ).lower()
 
     main(database_selection, database_action)

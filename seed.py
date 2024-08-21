@@ -16,9 +16,9 @@ seed_config = get_seed_config()
 
 def list_collections(db, client):
     match client:
-        case "MongoDB":
+        case "mongodb":
             return db.list_collection_names()
-        case "Firebase":
+        case "firebase":
             return [collection.id for collection in db.collections()]
 
 
@@ -30,7 +30,7 @@ def construct_obj(seed, seed_key_arr, client):
                 ret[sub_key] = seed[key][sub_key]
         else:
             ret[key] = seed.get(key, None)
-    if client == "MongoDB":
+    if client == "mongodb":
         ret["_id"] = seed["slug" if "slug" in seed else "name"]
     return ret
 
@@ -49,7 +49,7 @@ def populate(db, client, pathObj):
 
     try:
         match client:
-            case "MongoDB":
+            case "mongodb":
                 ret_obj = defaultdict(lambda: [])
                 for seed in seed_arr:
                     for key, key_arr in pathObj["collection_keys"].items():
@@ -63,7 +63,7 @@ def populate(db, client, pathObj):
                         ret_obj[key].append(temp_obj)
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
-            case "Firebase":
+            case "firebase":
                 batch = db.batch()
                 for seed in seed_arr:
                     for key, key_arr in pathObj["collection_keys"].items():
@@ -87,10 +87,10 @@ def clear_db(db, client):
     collection_key_arr = list_collections(db, client)
     try:
         match client:
-            case "MongoDB":
+            case "mongodb":
                 for key in collection_key_arr:
                     db.drop_collection(key)
-            case "Firebase":
+            case "firebase":
                 batch = db.batch()
                 for key in collection_key_arr:
                     collection = db.collection(key)
@@ -116,7 +116,7 @@ def update(db, client, pathObj):
             files.append(item.a_path)
     if len(files) > 0:
         match client:
-            case "MongoDB":
+            case "mongodb":
                 update_obj = defaultdict(lambda: [])
                 for file in files:
                     with open(f"./{file}", "r") as inputFile:
@@ -137,7 +137,7 @@ def update(db, client, pathObj):
                                 upsert=True,
                             )
                         inputFile.close()
-            case "Firebase":
+            case "firebase":
                 for file in files:
                     with open(f"./{file}", "r") as inputFile:
                         input_json = json.load(inputFile)
@@ -155,13 +155,13 @@ def update(db, client, pathObj):
         print(f"Updated {client} with {len(files)} records")
     else:
         print(f"No updates available in {updatePath}")
-
+           
 
 def main(database_selection, database_action):
     db = None
     try:
         match database_selection:
-            case "MongoDB":
+            case "mongodb":
                 import pymongo
 
                 client = pymongo.MongoClient(
@@ -173,7 +173,7 @@ def main(database_selection, database_action):
                     )
                 )
                 db = client["rentalreviews"]
-            case "Firebase":
+            case "firebase":
                 import firebase_admin
                 from firebase_admin import credentials, firestore
 
@@ -218,20 +218,21 @@ if __name__ == "__main__":
             print("Invalid database selection")
             exit(1)
         else:
-            database_selection = args.database
+            database_selection = args.database.lower()
 
         if args.action.lower() not in action_options:
             print("Invalid database action")
             exit(1)
         else:
-            database_action = args.action
+            database_action = args.action.lower()
 
     else: 
         database_selection = pyinput.inputMenu(
             database_options , lettered=True, numbered=False
-        )
+        ).lower()
+
         database_action = pyinput.inputMenu(
             action_options, lettered=True, numbered=False
-        )
+        ).lower()
 
     main(database_selection, database_action)

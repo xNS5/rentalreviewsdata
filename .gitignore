@@ -3,4 +3,3 @@ venv/
 .vscode
 __pycache__/
 *_certificate.json
-docker-compose.yml

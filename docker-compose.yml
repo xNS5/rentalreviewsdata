@@ -1,0 +1,34 @@
+services:
+  mongo:
+    image: mongo
+    container_name: mongo_db
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGODB_ADMIN_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_ADMIN_PASSWORD}
+    volumes:
+      - rentalreviews-mongo:/data/db
+
+  mongo-express:
+    image: mongo-express
+    container_name: mongo_express
+    restart: always
+    ports:
+      - 8081:8081        
+    environment:
+      ME_CONFIG_BASICAUTH: true
+      ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGODB_ADMIN_USERNAME}
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGODB_ADMIN_PASSWORD}
+      ME_CONFIG_BASICAUTH_USERNAME: ${MONGO_EXPRESS_ADMIN_USERNAME}
+      ME_CONFIG_BASICAUTH_PASSWORD: ${MONGO_EXPRESS_ADMIN_PASSWORD}
+      ME_CONFIG_MONGODB_URL: mongodb://${MONGODB_ADMIN_USERNAME}:${MONGODB_ADMIN_PASSWORD}@mongo:27017/
+    depends_on:
+      - mongo
+    volumes:
+      - rentalreviews-mongo:/data/db
+
+volumes:
+  rentalreviews-mongo:
+    external: true

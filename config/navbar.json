@@ -34,9 +34,9 @@
       ]
     },
     {
-      "name": "Contact",
+      "name": "FAQ",
       "type": "link",
-      "url": "/contact",
+      "url": "/faq",
       "target": "_self"
     }
   ]

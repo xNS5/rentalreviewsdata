@@ -33,7 +33,7 @@
         {
             "question": "What if my question wasn't answered?",
             "expanded": true,
-            "answer": "",
+            "answer": "Feel free to shoot me an email, I'd be more than happy to answer any questions.",
             "links": [
                 {
                     "name": "Contact Me",

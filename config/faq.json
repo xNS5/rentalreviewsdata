@@ -8,11 +8,11 @@
         },
         {
             "question": "Are the reviews on this site trustworthy and unbiased?",
-            "answer": "Yes and no. In some instances there are maybe one or two reviews for a given property or company. To address this problem, the review count and the adjusted review count are displayed for the user to see. Additionally, people generally only leave reviews when they have something negative to say; some of them have weight, some don't. If one wants to vet the authenticity of the reviews, all one has to do is search for them on their respective platforms (i.e. Google or Yelp).  The summaries are generated based on those same reviews, so in some instances the summaries themselves may be biased."
+            "answer": "Yes and no. In some instances there are maybe one or two reviews for a given property or company. While it may not be evident that's the case, one can simply click the \"Raw Data\" button to see the raw review text. Additionally, people generally only leave reviews when they have something negative to say; some of them have weight, some don't. Some leave a novel describing their experiences, some simply leave a rating. The 'Adjusted Review Count' removes the reviews that only have a rating. The thinking behind this is that if someone were checking out the reviews for a specific company, would a review with no substance make an impact? I don't believe so. If one wants to vet the authenticity of the reviews, all they haveto do is search for them on their respective platforms (i.e. Google or Yelp). The summaries are generated based on those same reviews, so in some instances the summaries themselves may be biased."
         },
         {
             "question": "How frequently are reviews updated?",
-            "answer": "As of now they're updated on an infrequent basis, but the current plan is to update them on a 2-3 month basis."
+            "answer": "As of now they're updated infrequetly, but the current plan is to update them on a 2-3 month basis."
         },
         {
             "question": "How can I help or otherwise contribute to this project?",
@@ -20,7 +20,7 @@
         },
         {
             "question": "My property management company/apartment complex is not listed, how do I get them added?",
-            "answer": "There are a few scenarios where a property management company or apartment complex is not listed: first, they could not have a page on either Yelp or Google. Second, they could have pages on either site, but has zero reviews. And third, I could just have missed it due to the way data is scraped. Please verify that they have a publicly-facing Yelp or Google page, and if they exist *and* have reviews please reach out to me at <a href='mailto:michael@michaelkennedy.dev'>michael@michaelkennedy.dev</a> or submit a <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a>."
+            "answer": "There are a few scenarios where a property management company or apartment complex is not listed: first, they could not have a page on either Yelp or Google. Second, they could have pages on either site, but has zero reviews. And third, I could just have missed it due to the way data is scraped. Please verify that they have a publicly-facing Yelp or Google page, and if they exist <i>and</i> have reviews please reach out to me at <a href='mailto:hello@bhamrentalreviews.com'>hello@bhamrentalreviews.com</a> or submit a <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a>."
         },
         {
             "question": "Why are the review counts different from the originating website? ",
@@ -31,8 +31,17 @@
             "answer": "Other than basic analytics, none."
         },
         {
-            "question": "What if my question wasn't answered here?",
-            "answer": "Feel free to reach out to me at <a href='mailto:michael@michaelkennedy.dev'>michael@michaelkennedy.dev</a> or submit a  <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a> and I'd be more than happy to answer any questions."
+            "question": "What if my question wasn't answered?",
+            "expanded": true,
+            "answer": "Feel free to shoot me an email, I'd be more than happy to answer any questions.",
+            "links": [
+                {
+                    "name": "Contact",
+                    "type": "link",
+                    "url": "mailto:hello@bhamrentalreviews.com?subject=Website%20Inquiry",
+                    "target":"_self"
+                }
+            ]
         }
     ]
 }

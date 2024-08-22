@@ -20,7 +20,7 @@
         },
         {
             "question": "My property management company/apartment complex is not listed, how do I get them added?",
-            "answer": "There are a few scenarios where a property management company or apartment complex is not listed: first, they could not have a page on either Yelp or Google. Second, they could have pages on either site, but has zero reviews. And third, I could just have missed it due to the way data is scraped. Please verify that they have a publicly-facing Yelp or Google page, and if they exist *and* have reviews please reach out to me at <a href='mailto:michael@michaelkennedy.dev'>michael@michaelkennedy.dev</a> or submit a <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a>."
+            "answer": "There are a few scenarios where a property management company or apartment complex is not listed: first, they could not have a page on either Yelp or Google. Second, they could have pages on either site, but has zero reviews. And third, I could just have missed it due to the way data is scraped. Please verify that they have a publicly-facing Yelp or Google page, and if they exist <i>and</i> have reviews please reach out to me at <a href='mailto:hello@bhamrentalreviews.com'>hello@bhamrentalreviews.com</a> or submit a <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a>."
         },
         {
             "question": "Why are the review counts different from the originating website? ",
@@ -38,7 +38,7 @@
                 {
                     "name": "Contact Me",
                     "type": "link",
-                    "url": "mailto:hello@bhamrentalreviews.dev?subject=Website%20Inquiry",
+                    "url": "mailto:hello@bhamrentalreviews.com?subject=Website%20Inquiry",
                     "target":"_self"
                 }
             ]

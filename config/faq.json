@@ -31,8 +31,17 @@
             "answer": "Other than basic analytics, none."
         },
         {
-            "question": "What if my question wasn't answered here?",
-            "answer": "Feel free to reach out to me at <a href='mailto:michael@michaelkennedy.dev'>michael@michaelkennedy.dev</a> or submit a  <a href='https://github.com/xNS5/rentalreviewsdata/issues'>Github issue</a> and I'd be more than happy to answer any questions."
+            "question": "What if my question wasn't answered?",
+            "expanded": true,
+            "answer": "",
+            "links": [
+                {
+                    "name": "Contact Me",
+                    "type": "link",
+                    "url": "mailto:hello@bhamrentalreviews.dev?subject=Website%20Inquiry",
+                    "target":"_self"
+                }
+            ]
         }
     ]
 }

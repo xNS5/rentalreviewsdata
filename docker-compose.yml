@@ -3,6 +3,8 @@ services:
     image: mongo
     container_name: mongo_db
     restart: always
+    networks:
+      - rentalreviews
     ports:
       - 27017:27017
     environment:
@@ -15,6 +17,8 @@ services:
     image: mongo-express
     container_name: mongo_express
     restart: always
+    networks:
+      - rentalreviews
     ports:
       - 8081:8081        
     environment:
@@ -28,6 +32,9 @@ services:
       - mongo
     volumes:
       - rentalreviews-mongo:/data/db
+networks:
+  rentalreviews:
+    name: rentalreviews
 
 volumes:
   rentalreviews-mongo:

@@ -8,6 +8,10 @@
         "adjusted_average_rating": {
             "prefix": "Adjusted review average",
             "postfix": "out of 5"
+        },
+        "review_count": {
+            "prefix": "",
+            "postfix": "total reviews"
         }
     }
 }

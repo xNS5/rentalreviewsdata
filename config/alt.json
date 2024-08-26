@@ -1,0 +1,13 @@
+{
+    "name": "alt",
+    "reviews": {
+        "average_rating": {
+            "prefix": "Review average",
+            "postfix": "out of 5"
+        },
+        "adjusted_average_rating": {
+            "prefix": "Adjusted review average",
+            "postfix": "out of 5"
+        }
+    }
+}

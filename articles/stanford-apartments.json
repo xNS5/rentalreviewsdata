@@ -1,7 +1,7 @@
 {
   "name": "Stanford Apartments",
   "slug": "stanford-apartments",
-  "company_type": "property",
+  "company_type": "Property",
   "address": "2001 Larrabee Ave #7, Bellingham, WA 98225",
   "review_count": 2,
   "average_rating": 5.0,

@@ -1,7 +1,7 @@
 {
   "name": "Rent Lady",
   "slug": "rent-lady",
-  "company_type": "company",
+  "company_type": "Company",
   "address": "La Conner, WA 98257",
   "review_count": 6,
   "average_rating": 3.0,

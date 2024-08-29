@@ -1,7 +1,7 @@
 {
   "name": "New England Apartments",
   "slug": "new-england-apartments",
-  "company_type": "property",
+  "company_type": "Property",
   "address": "2524 Douglas Ave, Bellingham, WA 98225",
   "review_count": 6,
   "average_rating": 3.83,

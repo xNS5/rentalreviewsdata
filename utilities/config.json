@@ -1,0 +1,118 @@
+{
+    "seed_config": [
+        {
+            "path": "./articles/",
+            "simple": false,
+            "collection_keys": {
+                "articles": [
+                    "summary"
+                ],
+                "reviews": [
+                    "reviews"
+                ],
+                "companies": [
+                    "name",
+                    "slug",
+                    "company_type",
+                    "address",
+                    "review_count",
+                    "average_rating",
+                    "adjusted_review_count",
+                    "adjusted_average_rating"
+                ]
+            }
+        },
+        {
+            "path": "./config/",
+            "simple": true,
+            "collection_keys": {
+                "config": null
+            }
+        }
+    ],
+    "yelp_category_whitelist": [
+        "propertymgmt",
+        "apartments",
+        "condominiums",
+        "realestateagents",
+        "realestatesvcs",
+        "university_housing"
+    ],
+    "google_category_whitelist": [
+        "Property management company",
+        "Commercial real estate agency",
+        "Real estate rental agency",
+        "Real estate agency",
+        "Short term apartment rental agency",
+        "Apartment building",
+        "Apartment complex",
+        "Apartment rental agency",
+        "Furnished apartment building",
+        "Housing complex",
+        "Student housing center"
+    ],
+    "category_map": {
+        "propertymgmt": "Company",
+        "apartments": "Property",
+        "condominiums": "Property",
+        "realestateagents": "Company",
+        "realestatesvcs": "Company",
+        "university_housing": "Property",
+        "Property management company": "Company",
+        "Commercial real estate agency": "Company",
+        "Real estate rental agency": "Company",
+        "Real estate agency": "Company",
+        "Short term apartment rental agency": "Company",
+        "Apartment building": "Property",
+        "Apartment complex": "Property",
+        "Apartment rental agency": "Property",
+        "Furnished apartment building": "Property",
+        "Housing complex": "Property",
+        "Student housing center": "Property"
+    },
+    "company_map": {
+        "yelp": {
+            "access-real-estate-services": "access-real-estate-services-llc",
+            "brampton-court-apts": "brampton-court-apartments",
+            "canterbury-court-apts": "canterbury-court-apartments",
+            "integra-condominium-association-management": "integra-condominium-association-management-inc",
+            "lakeway-rentals": "lakeway-rentals-work",
+            "maplewood-apartments": "maplewood-apartments-lp",
+            "optimus-property-solutions": "optimus-property-solutions-property-sales-management",
+            "pomeroy-court-appartments": "pomeroy-court-apartments",
+            "stateside-bellingham": "stateside",
+            "sunset-pond-apts": "sunset-pond-apartments",
+            "windermere-property-management": "windermere-property-management-bellingham",
+            "woodrose-senior-affordable-apartments": "woodrose-apartments"
+        },
+        "google": {
+            "access-real-estate-services-llc": "access-real-estate-services",
+            "brampton-court-apartments": "brampton-court-apts",
+            "canterbury-court-apartments": "canterbury-court-apts",
+            "integra-condominium-association-management-inc": "integra-condominium-association-management",
+            "lakeway-rentals-work": "lakeway-rentals",
+            "maplewood-apartments-lp": "maplewood-apartments",
+            "optimus-property-solutions-property-sales-management": "optimus-property-solutions",
+            "pomeroy-court-apartments": "pomeroy-court-appartments",
+            "stateside": "stateside-bellingham",
+            "sunset-pond-apartments": "sunset-pond-apts",
+            "windermere-property-management-bellingham": "windermere-property-management",
+            "woodrose-apartments": "woodrose-senior-affordable-apartments"
+        }
+    },
+    "company_blacklist": [
+        "john-l-scott-real-estate-bellingham",
+        "briddick-webb-bellingham-real-estate-agent-remax-whatcom-county-inc",
+        "julian-company-real-estate-team-with-the-muljat-group",
+        "remax-whatcom-county",
+        "eric-green-john-l-scott-real-estate",
+        "guardian-northwest-title-escrow",
+        "julie-carpenterremax-whatcom-county",
+        "lilac-listings-at-remax-whatcom-county",
+        "lck-properties",
+        "liz-standow-bellingham-real-estate",
+        "matt-mcbeathexp-realty",
+        "sean-ryan-nexthome-northwest-living",
+        "vanessa-parry-bellwether-real-estate"
+    ]
+}

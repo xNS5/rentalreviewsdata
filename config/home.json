@@ -1,0 +1,11 @@
+{
+    "name": "home",
+    "title": "Bellingham Rental Reviews",
+    "description": "The Bellingham Rental Reviews Project",
+    "content": [
+        {
+            "title": "Welcome to the Bellingham Rental Reviews Project",
+            "text": "<p>It's no secret that property management companies and landlords have a bad reputation, especially in the Bellingham area. These entities are in a position of power, where they control the flow of housing. Many landlords leverage their positions to take advantage of their tenants -- by raising prices, failing to ensure that the dwelling is habitable, and violating state law. However, not all property management companies or landlords sink that low. Some are very attentive and treat their tenants fairly. It would be impossible to gather data to provide a holistic review of private landlords; however, there is plenty of data available about property management companies and apartment complexes to give a potential renter a good idea of what they would be getting into.</p><p>This project seeks to aid first-time renters in the Bellingham area, allowing them to make informed decisions when looking for rental properties using the power of AI. For more information, a more in-depth write-up on how the data is gathered and processed can be found in the <a href='https://github.com/xns5/rentalreviewsdata'>GitHub Repository</a>.</p>"
+        }
+    ]
+}

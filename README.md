@@ -30,12 +30,12 @@ Yelp has an official API, however it only returns 3 reviews per business -- not 
 
 ### Google
 
-As mentioned previously, Google chunks their data. Inspecting the network requests doesn't return anythin meaningful, so the next (and most tedious, in my experience) course of action would be to use Selenium to automate the process, as well as some kind of HTML parser to extract the data I need. Due to the fragile nature of using Selenium in this way, the process needed to be broken down into two parts: first, a list of business names is needed. Second, the reviews for those companies needed to be gathered. Using Selenium introduced a number of tedious steps that the average person wouldn't have needed to take into account; steps such as checking to see if the company has an address, checking to see if a company has reviews, clicking on the "reviews" button to bring the reviews into focus, scrolling through those reviews and waiting for subsequent reviews to load, etc.
+As mentioned previously, Google chunks their data. Inspecting the network requests doesn't return anything meaningful, so the next (and most tedious, in my experience) course of action would be to use Selenium to automate the process, as well as some kind of HTML parser to extract the data I need. Due to the fragile nature of using Selenium in this way, the process needed to be broken down into two parts: first, a list of business names is needed. Second, the reviews for those companies needed to be gathered. Using Selenium introduced a number of tedious steps that the average person wouldn't have needed to take into account; steps such as checking to see if the company has an address, checking to see if a company has reviews, clicking on the "reviews" button to bring the reviews into focus, scrolling through those reviews and waiting for subsequent reviews to load, etc.
 
 
 ### OpenAI
 
-Once the data has been gathered and cleaned up, the next step becomes fine tuning the OpenAI prompt to yield the best results. This is the prompt that is presently used:
+Once the data has been gathered and cleaned up, the next step becomes fine tuning the OpenAI prompt to yield the best results. This is the prompt:
 
 ```
 Create an article for the {company type} {name} with the following requirements: 

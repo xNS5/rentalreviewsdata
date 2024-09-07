@@ -34,7 +34,7 @@ def get_prompt(file_content):
               7. When referring to the user-supplied reviews, call them "user reviews". When referring to the generated output from this request, call it "article", such as "in this article...", "this article's intent is to...", etc.
               8. The data shall be a single line string, without markdown-style backticks.
               9. The data shall not have any control characters, such as newlines or carriage returns. 
-              10. The article structure shall have the following template: "<section><h2>Good</h2><p>#section_content#</p></section><section><h2>Great</h2><p>#section_content#</p></section><section><h2>Bad</h2><p>#section_content#</p></section><section><h2>Ugly</h2><p>#section_content#</p></section>" where "#section_content#" should be replaced with the article section text. 
+              10. The article structure shall have the following template: "<section id=\"good\"><h2>Good</h2><p>#section_content#</p></section><section id=\"great\"><h2>Great</h2><p>#section_content#</p></section><section id=\"bad\"><h2>Bad</h2><p>#section_content#</p></section><section id=\"ugly\"><h2>Ugly</h2><p>#section_content#</p></section>" where "#section_content#" should be replaced with the article section text. 
 
               The data is as follows in JSON format, with the reviews contained in the "reviews" key: 
               ### 
@@ -47,7 +47,7 @@ async def create_articles_async(file_json):
      return await async_client.chat.completions.create(
                 model="gpt-4-1106-preview",
                 messages=[
-                    {"role": "system", "content": "You are a helpful assistant whose job is to summarize real company reviews to create well-balanced articles on local property management companies."},
+                    {"role": "system", "content": "You are a helpful assistant whose job is to summarize real company reviews to create well-balanced articles on local property management companies and rental properties."},
                     {"role": "user", "content": prompt}
                 ],
               )

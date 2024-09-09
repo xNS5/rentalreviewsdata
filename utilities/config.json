@@ -30,6 +30,124 @@
             }
         }
     ],
+    "google_config": {
+        "queries": [
+            {
+                "query": "property management companies in whatcom county",
+                "url": "https://www.google.com/maps/@48.545241,-122.2509158,10.41z?entry=ttu",
+                "selectors": {
+                  "company_elements": {
+                    "by": "css_selector",
+                    "selector": ".Nv2PK.tH5CWc.THOPZb"
+                  },
+                  "company_title": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[1]/h1"
+                  },
+                  "company_type": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/span/span/button"
+                  },
+                  "location": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[3]/button/div/div[2]/div[1]"
+                  },
+                  "review_count": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[2]/span/span"
+                  },
+                  "avg_rating": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]"
+                  },
+                  "reviews_button": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]/div[2]"
+                  },
+                  "reviews_scrollable": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[3]"
+                  }
+                }
+              },
+              {
+                "query": "apartment complexes in whatcom county",
+                "url": "https://www.google.com/maps/@48.545241,-122.2509158,10.41z?entry=ttu",
+                "selectors": {
+                  "company_elements": {
+                    "by": "css_selector",
+                    "selector": ".Nv2PK.THOPZb.CpccDe"
+                  },
+                  "company_title": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[1]/h1"
+                  },
+                  "company_type": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/span/span/button"
+                  },
+                  "location": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[3]/button/div/div[2]/div[1]"
+                  },
+                  "review_count": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[2]/span/span"
+                  },
+                  "avg_rating": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]"
+                  },
+                  "reviews_button": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]/div[2]"
+                  },
+                  "reviews_scrollable": {
+                    "by": "xpath",
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[3]"
+                  }
+                }
+              }
+        ],
+        "custom": {
+            "selectors": {
+              "company_title": {
+                "by": "xpath",
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[1]/h1"
+              },
+              "company_type": {
+                "by": "xpath",
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div/div[2]/span/span/button"
+              },
+              "location": {
+                "by": "xpath",
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[7]/div[3]/button/div/div[2]/div[1]"
+              },
+              "review_count": {
+                "by": "xpath",
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[2]/span/span"
+              },
+              "avg_rating": {
+                "by": "xpath",
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/span[1]/span[1]"
+              },
+              "reviews_button": {
+                "by": "xpath",
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[3]/div/div/button[2]"
+              },
+              "reviews_scrollable": {
+                "by": "xpath",
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]"
+              }
+            }
+          }
+    },
+    "yelp_config": {
+      "query_obj": {
+        "companies": "property management companies",
+        "properties": "apartment complexes"
+    }
+    },
     "yelp_category_whitelist": [
         "propertymgmt",
         "apartments",
@@ -114,5 +232,17 @@
         "matt-mcbeathexp-realty",
         "sean-ryan-nexthome-northwest-living",
         "vanessa-parry-bellwether-real-estate"
-    ]
+    ],
+    "disclaimer": {
+        "pure-property-management-of-washington":"Pure Property Management of Washington is relatively new to the Bellingham area, having acquired Son-Rise Property management. It is unclear whether Son-Rise simply rebranded, or whether PURE replaced property managers with their own.",
+        "apex-property-management":"Apex Property Management was acquired by the San Francisco-based PTLA in early 2020. Apex's Yelp page indicates that they are officially closed, and their website redirects to PTLA's website. It is unclear whether Apex simply rebranded under PTLA or if they cleaned house after the acquisition.",
+        "sonrise-property-management": "Son-Rise Property Management was acquired by the California-based PURE Property management sometime between 2020 and 2023. It is unclear whether Son-Rise simply rebranded under PURE or if PURE replaced existing management with their own."
+    },
+    "file_paths": {
+      "parent_path": "data",
+      "google": "google",
+      "yelp": "yelp",
+      "merged": "merged",
+      "articles": "articles"
+    }
 }

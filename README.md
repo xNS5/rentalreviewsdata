@@ -23,14 +23,47 @@ The general steps for gathering and processing this data is as follows:
 
 There are two main, popular sites for leaving reviews for a company: Google and Yelp. Google chunks their data, which makes it virtually impossible for me to get the information I need via HTTP requests alone. Yelp has an "official" API, however requests only return 3 reviews per company -- not ideal for my purposes. For each website, data on both property management companies and apartment complexes needs to be gathered. There is a high likelihood that there will be overlap between the results, and a non-zero chance of the company names being slightly different between the two websites. For example, one company on Google might have "LLC" at the end while the same result on Yelp might not. Despite this minor difference, both results correspond to the same company.
 
-### Yelp
+# Yelp
 
 Yelp has an official API, however it only returns 3 reviews per business -- not super helpful for my specific purposes. It is important to note that in order to get the list of businesses for Yelp and the business IDs one needs to use the official API. As it happens, Yelp also has unofficial REST API -- which I was able to use to my advantage. Technically speaking they had a REST API when I started this project, and within the last year or so switched to a GraphQL-based API. This required me to start my scripts from scratch, but I was able to get all of the data I needed regardless. To prevent my requests from getting flagged and subsequently blocked, I ensured that the requests used a pseudo-random user agent in addition to adding time-outs that sent requests at pseudo-random intervals. Once I had the data, I needed to process it. Yelp's search results returned a mix of relevant and semi-relevant results -- meaning if I were to search for "Property Management Company", it would not only return property management companies but also real estate agents, agencies, rental maintenance companies, real estate photographers, etc. 
 
+## Usage
 
-### Google
+There are technically two parts to this script: first, finding the businesses and second getting the reviews for those businesses. The first part will require one to get a [Yelp Fusion API key](https://fusion.yelp.com/). The account + key is free, however there is a request limit of 500/day which shouldn't be a problem unless these scripts are being used for an alternate purpose. Once the API key is acquired, place it in `src/yelp.env` with the key "YELP_FUSION_KEY". Create an additional key "YELP_FUSION_HEADER_TYPE" which will be "bearer". The end result will look something like "Authorization: **\[bearer\]** **\[yelp_fusion_api_key\]**". 
 
-As mentioned previously, Google chunks their data. Inspecting the network requests doesn't return anything meaningful, so the next (and most tedious, in my experience) course of action would be to use Selenium to automate the process, as well as some kind of HTML parser to extract the data I need. Due to the fragile nature of using Selenium in this way, the process needed to be broken down into two parts: first, a list of business names is needed. Second, the reviews for those companies needed to be gathered. Using Selenium introduced a number of tedious steps that the average person wouldn't have needed to take into account; steps such as checking to see if the company has an address, checking to see if a company has reviews, clicking on the "reviews" button to bring the reviews into focus, scrolling through those reviews and waiting for subsequent reviews to load, etc.
+The second part of the script requires a valid request header. Perform a search on Yelp and navigate to the business page. In the developer tools networking tab, search for a `batch` request that has `"operationName": "GetBusinessReviewFeed"`, and copy the request header. Switch every boolean to "False" as "false" isn't valid in Python, and either remove the "encBizId" and "reviewsPerPage" or set the values to "None". 
+
+
+# Google
+
+As mentioned previously, Google chunks their data. Inspecting the network requests doesn't return anything meaningful, so the next (and most tedious, in my experience) course of action would be to use Selenium to automate the process, as well as some kind of HTML parser to extract the data I need. Due to the fragile nature of using Selenium in this way, the process needed to be broken down into two parts: first, a list of business names is needed. Second, the reviews for those companies needed to be gathered. Using Selenium introduced a number of tedious steps that the average person wouldn't have needed to take into account; steps such as checking to see if the company has an address, checking to see if a company has reviews, clicking on the "reviews" button to bring the reviews into focus, scrolling through those reviews and waiting for subsequent reviews to load, etc. 
+
+## Usage
+
+Simply run `google_reviews.py` from within `src/`. The `config.json` file has all of the input parameters and XPATH/CSS selectors to get the corresponding elements on the UI. 
+
+The "General Search" paramters share all selectors **except** for the `company_elements` CSS selector. The selectors are as follows:
+
+* `company_elements`: when doing a "general search", a list of results are returned and each element will correspond to the `company_elements`. 
+* `company_title`: this one should be pretty self explanatory, it's the name of the business. 
+* `company_type`: the type of company, whether it's a property management company, real eastate agent, apartment building/complex, etc.
+* `location`: the address of the company. Note: if the location *isn't* in Washington it'll skip the listing.
+* `review_count`: the total number of reviews.
+* `avg_rating`: the listed average review rating. 
+* `reviews_button`: the button that one clicks to view the text reviews for a given company.
+* `reviews_scrollable`: the part of the UI with the scroll bar, which will allow the script to load all of the review elements. 
+
+### Note
+
+* If the XPATH/CSS selectors need to be updated, open up Google Chrome, grab the correct XPATH selector, and paste it in the "selector" key in `config.json`. If making updates to the general searches, ensure that the selector is updated in both config objects. 
+* The `custom` option is strictly for companies/searches that were missed in the initial scrape. If the input isn't a URL, it'll error out.
+
+## Common Issues
+
+1. The XPATH/CSS selectors need to be updated in `config.json`. Simply go into Google Chrome, copy the correct ones, and update them in the config object(s).
+2. The correct `chromedriver` and/or Google Chrome isn't installed. To install `chromedriver`, see [this guide](https://skolo.online/documents/webscrapping/#pre-requisites) for Linux/MacOS specific instructions. 
+
+#### 
 
 
 ### OpenAI

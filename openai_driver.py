@@ -16,12 +16,11 @@ async_client = AsyncOpenAI(
        api_key=config["OPENAI_KEY"]
 )
 
-disclaimer_file = open("./disclaimer.json", "r")
-disclaimer = json.load(disclaimer_file)
-disclaimer_file.close() 
+disclaimer_file = utilities.get_disclaimer_map()
+file_paths = utilities.get_file_paths()
 
-reviews_path = "./merged_reviews"
-output_path = "./articles"
+input_path = f"{file_paths['parent_path']}/{file_paths['merged']}"
+output_path = f"{file_paths['articles']}"
 
 def get_prompt(file_content):
      return f'''Create an article for the {file_content["company_type"]} {file_content["name"]} with the following requirements: 
@@ -40,8 +39,7 @@ def get_prompt(file_content):
               ### 
               {json.dumps(file_content, ensure_ascii=True, indent=2)} 
               ###'''
-        
-        
+               
 async def create_articles_async(file_json):
      prompt = get_prompt(file_json)
      return await async_client.chat.completions.create(
@@ -72,7 +70,6 @@ async def rate_limiter(file_path: str, semaphore: Semaphore):
                  "summary": summary_dict
             }
      
-
 async def async_driver(path, out, file_list = []):
     if len(file_list) == 0:
         file_list = utilities.list_files(path)
@@ -84,5 +81,5 @@ async def async_driver(path, out, file_list = []):
             json.dump(res, output_file, indent=2, ensure_ascii=True)
             output_file.close()
           
-
-run(async_driver(reviews_path, output_path))
+run(async_driver(input_path, output_path))
+utilities.remove_path(input_path)

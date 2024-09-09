@@ -15,10 +15,7 @@ import utilities
 import pyinputplus as pyinput
 from utilities import Review, Business
 
-whitelist = utilities.get_google_whitelist()
-
 custom = False
-
 
 def get_attribute(strategy):
     strategies = {
@@ -35,15 +32,17 @@ def get_attribute(strategy):
 
 
 def validate():
-    path = "./google_input/output"
-    files = utilities.listFiles(path)
+    path = "google"
+    files = utilities.list_Files(path)
     for file in files:
-        with open(file, "r") as inputFile:
-            file_json = json.load(inputFile)
-            for key in ["name", "slug", "company_type", "google_reviews"]:
-                assert (
-                    file_json[key] is not None and len(file_json[key]) > 0
-                ), f"{file_json['name']}: {key} zero length"
+        if file.lower().endswith(".json"):
+            with open(file, "r") as inputFile:
+                file_json = json.load(inputFile)
+                for key in ["name", "slug", "company_type", "google_reviews"]:
+                    assert (
+                        file_json[key] is not None and len(file_json[key]) > 0
+                    ), f"{file_json['name']}: {key} zero length"
+                inputFile.close()
 
 
 def scroll(driver, obj):
@@ -196,11 +195,9 @@ def get_company(driver, config):
             avg_rating = avg_rating.text
             review_count = review_count.text
 
-
-
             nameSet.add(company_title)
 
-            with open("./google_input/output/%s.json" % slug, "w") as outputFile:
+            with open("google/%s.json" % slug, "w") as outputFile:
                 reviews = get_reviews(driver, config)
 
                 json.dump(
@@ -270,28 +267,29 @@ def scrape_google_companies(search_param, url, config):
     driver.quit()
 
 
-with open("./google_input/config.json", "r") as configFile:
-    config = json.load(configFile)
+config = utilities.get_google_config()
 
-    type = pyinput.inputMenu(
-        ["Companies", "Properties", "Custom", "All"], lettered=True, numbered=False
-    ).lower()
+type = pyinput.inputMenu(
+    ["Companies", "Properties", "Custom", "All"], lettered=True, numbered=False
+).lower()
 
-    if type == "companies":
-        scrape_google_companies(
-            config[0]["query"], config[0]["url"], config[0]["selectors"]
-        )
-    elif type == "properties":
-        scrape_google_companies(
-            config[1]["query"], config[1]["url"], config[1]["selectors"]
-        )
-    elif type == "custom":
-        # Space Separated
-        url_list = pyinput.inputStr("Url List: ").split(" ")
-        custom = True
-        for url in url_list:
-            scrape_google_companies(None, url, config[-1]["selectors"])
-    else:
-        for i in range(0, len(config) - 1):
-            conf = config[i]
-            scrape_google_companies(conf["query"], conf["url"], conf["selectors"])
+utilities.create_directory("data/google")
+
+
+if type == "companies":
+    scrape_google_companies(
+        config["queries"][0]["query"], config["queries"][0]["url"], config["queries"][0]["selectors"]
+    )
+elif type == "properties":
+    scrape_google_companies(
+        config["queries"][1]["query"], config["queries"][1]["url"], config["queries"][1]["selectors"]
+    )
+elif type == "custom":
+    # Space Separated
+    url_list = pyinput.inputStr("Url List (space separated): ").split(" ")
+    custom = True
+    for url in url_list:
+        scrape_google_companies(None, url, config["custom"]["selectors"])
+else:
+    for query in config['queries']:
+        scrape_google_companies(query["query"], query["url"], query["selectors"])

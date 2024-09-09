@@ -32,7 +32,7 @@ def get_attribute(strategy):
 
 
 def validate():
-    path = "./google"
+    path = "google"
     files = utilities.list_Files(path)
     for file in files:
         if file.lower().endswith(".json"):
@@ -197,7 +197,7 @@ def get_company(driver, config):
 
             nameSet.add(company_title)
 
-            with open("./google/%s.json" % slug, "w") as outputFile:
+            with open("google/%s.json" % slug, "w") as outputFile:
                 reviews = get_reviews(driver, config)
 
                 json.dump(
@@ -272,6 +272,8 @@ config = utilities.get_google_config()
 type = pyinput.inputMenu(
     ["Companies", "Properties", "Custom", "All"], lettered=True, numbered=False
 ).lower()
+
+utilities.create_directory("google")
 
 
 if type == "companies":

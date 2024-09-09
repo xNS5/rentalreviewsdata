@@ -1,6 +1,7 @@
 import os
 import json
 import tempfile
+import shutil
 import re
 
 def get_config():
@@ -15,6 +16,10 @@ def get_yelp_category_whitelist():
     return set(
         config["yelp_category_whitelist"]
     )
+
+def get_yelp_config():
+    config = get_config()
+    return config['yelp_config']
 
 def get_seed_config():
     config = get_config()
@@ -54,7 +59,6 @@ def get_whitelist_types(categories):
 
     return None
 
-
 #  Converts string to slug by first replacing non-alphanumeric characters with a space, then removing 2+ spaces
 def get_slug(string):
     return re.sub(
@@ -86,6 +90,19 @@ def list_directories(path):
 def get_file_tuple(path):
     return os.path.split(path)
 
+def create_directory(path):
+    if not os.path.exists(path):
+        os.makedirs(path);
+
+def remove_path(path):
+    if os.path.exists(path):
+        if os.path.isfile(path):
+            os.remove(file)
+        elif os.path.isdir(path):
+            shutil.rmtree(path)
+    else:
+        raise ValueError(f'File {path} does not exist')
+            
 
 def get_file_name(path):
     return str(get_file_tuple(path)[1])

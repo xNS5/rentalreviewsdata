@@ -142,6 +142,12 @@
             }
           }
     },
+    "yelp_config": {
+      "query_obj": {
+        "companies": "property management companies",
+        "properties": "apartment complexes"
+    }
+    },
     "yelp_category_whitelist": [
         "propertymgmt",
         "apartments",

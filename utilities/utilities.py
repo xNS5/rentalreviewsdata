@@ -9,16 +9,27 @@ def get_config():
         inputFile.close()
         return input_json
 
-
 def get_yelp_category_whitelist():
     config = get_config()
     return set(
         config["yelp_category_whitelist"]
     )
 
+def get_yelp_config():
+    config = get_config()
+    return config['yelp_config']
+
 def get_seed_config():
     config = get_config()
     return config["seed_config"]
+
+def get_google_config():
+    config = get_config()
+    return config["google_config"]
+
+def get_disclaimer_map():
+    map = get_config()
+    return map["disclaimer"]
 
 def company_map(key):
     map = get_config()
@@ -26,12 +37,12 @@ def company_map(key):
 
 def get_company_blacklist():
     return set(
-        get_config["company_blacklist"]
+        get_config()["company_blacklist"]
     )
 
 def get_google_category_whitelist():
     return set(
-        get_config("google_category_whitelist")
+        get_config()["google_category_whitelist"]
     )
 
 def get_whitelist_types(categories):
@@ -45,7 +56,6 @@ def get_whitelist_types(categories):
             return map[categories]
 
     return None
-
 
 #  Converts string to slug by first replacing non-alphanumeric characters with a space, then removing 2+ spaces
 def get_slug(string):
@@ -78,6 +88,22 @@ def list_directories(path):
 def get_file_tuple(path):
     return os.path.split(path)
 
+def create_directory(path):
+    os.makedirs(path, exist_ok=True)
+
+def get_file_paths():
+    config = get_config()
+    return config['file_paths']
+
+def remove_path(path):
+    if os.path.exists(path):
+        if os.path.isfile(path):
+            os.remove(file)
+        elif os.path.isdir(path):
+            shutil.rmtree(path)
+    else:
+        raise ValueError(f'File {path} does not exist')
+            
 
 def get_file_name(path):
     return str(get_file_tuple(path)[1])

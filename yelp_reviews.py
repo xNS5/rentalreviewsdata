@@ -14,6 +14,8 @@ http_client.HTTPConnection.debuglevel = 0
 
 config = {**dotenv_values(".env")}
 
+file_paths = utilities.get_file_paths()
+
 user_agent_list = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36",
     "Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1",
@@ -32,10 +34,21 @@ after = [
     None, "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjozOX0=","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0Ijo3OX0=","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxMTl9","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxNTl9","eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoxOTl9", "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoyMzl9", "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjoyNzl9", "eyJ2ZXJzaW9uIjoxLCJ0eXBlIjoib2Zmc2V0Iiwib2Zmc2V0IjozMTl9",
 ]
 
-document_id_list = [
-    "8bad289146c687e874539832a54eecc102ed2f128ae88c1a2f76b3163538c388",
-]
-# Might need to copy the request headers from an existing request prior to initiating
+my_headers = {
+    "Authorization": f'Bearer {config["YELP_FUSION_KEY"]}',
+}
+
+def make_request(request, session, request_obj = None, user_agent = None):
+    try:
+        if request_obj:
+            request.json = request_obj
+        if user_agent:
+            request.user_agent = user_agent
+        prepared_request = request.prepare()
+        response = session.send(prepared_request)
+        return response
+    except Exception:
+        traceback.print_exc()
 
 def get_request_obj(variables):
     return {
@@ -65,17 +78,8 @@ def get_request_obj(variables):
             },
         }
 
-query_obj = {
-    "companies": "property management companies",
-    "properties": "apartment complexes",
-}
-
-my_headers = {
-    "Authorization": f'Bearer {config["YELP_FUSION_KEY"]}',
-}
-
 def get_business(input_list):
-    whitelist = utilities.get_yelp_whitelist()
+    whitelist = utilities.get_yelp_category_whitelist()
     if isinstance(input_list, list):
         ret = []
         for obj in input_list:
@@ -109,20 +113,6 @@ def get_business(input_list):
                         input_obj["review_count"],
                         input_obj["id"],
                     )
-                
-    
-def make_request(request, session, request_obj = None, user_agent = None):
-    try:
-        if request_obj:
-            request.json = request_obj
-        if user_agent:
-            request.user_agent = user_agent
-        prepared_request = request.prepare()
-        response = session.send(prepared_request)
-        return response
-    except Exception:
-        traceback.print_exc()
-
 
 def get_comments(jsonObj):
     ret = []
@@ -192,7 +182,7 @@ def query(data):
 
         business.reviews = {"yelp_reviews": ret_arr}
 
-        with open(f"./yelp_input/output/{business.slug}.json", "w") as outFile:
+        with open(f"{file_paths['parent_path']}/{file_paths['yelp']}/{business.slug}.json", "w") as outFile:
             json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)
             outFile.close()
 
@@ -203,16 +193,15 @@ def search_businesses(query_type_arr):
     seen = set()
     session = Session()
 
-    for type in query_type_arr:
-        query_value = query_obj[type].replace(" ", "%20")
+    for query_value in query_type_arr:
         i = 0
         while True:
-            url = f"https://api.yelp.com/v3/businesses/search?latitude=48.7519&longitude=-122.4787&term={query_value}&sort_by=best_match&limit=50&offset={i}"
+            url = f'https://api.yelp.com/v3/businesses/search?latitude=48.7519&longitude=-122.4787&term={query_value.replace(" ", "%20")}&sort_by=best_match&limit=50&offset={i}'
             i += 50
             response = make_request(Request("GET", url, headers=my_headers), session)
             if response.ok:
                 response_json = json.loads(response.content.decode())
-                if len(response_json["businesses"]) == 0:
+                if len(response_json["businesses"]) == 0 or i > response_json['total']:
                     break
                 else:
                     for business in response_json["businesses"]:
@@ -220,6 +209,8 @@ def search_businesses(query_type_arr):
                             continue
                         seen.add(business["name"])
                         ret.append(business)
+            else:
+                break
     
     # Returns array of Business objects
     return get_business(ret)
@@ -253,66 +244,26 @@ def search_list(input):
             response_json = json.loads(response.content.decode())
             return get_business([response_json])
 
-def combine_manual(path):
-    file_list = utilities.list_files(path)
-    master_file_path = file_list[0]
-    master_file = open("./%s/%s" % (path, master_file_path), "r")
-    master_file_json = json.load(master_file)
-    master_file.close()
-    master_file_data = master_file_json[0]["data"]["business"]
-    master_file_reviews = master_file_data["reviews"]["edges"]
-
-    businessObj = search_list(f"{master_file_data['encid']}")
-
-    reviews = []
-
-    for i in range(1, len(file_list)):
-        file = file_list[i]
-        with open("./%s/%s" % (path, file), "r") as inputFile:
-            input_file_json = json.load(inputFile)
-            inputFile.close()
-            input_reviews = input_file_json[0]["data"]["business"]["reviews"]["edges"]
-            reviews.extend(input_reviews)
-
-    master_file_reviews.extend(reviews)
-    review_obj = get_comments(master_file_json)
-    businessObj.reviews = {"yelp_reviews": review_obj}
-
-    with open(f"./yelp_input/output/{businessObj.slug}.json", "w") as outFile:
-        json.dump(businessObj.to_dict(), outFile, ensure_ascii=True, indent=2)
-        outFile.close()
-
-
 type = pyinput.inputMenu(
-    ["Companies", "Properties", "One-Off ID List", "Manual Combine", "All"], lettered=True, numbered=False
+    ["Companies", "Properties", "One-Off ID List", "All"], lettered=True, numbered=False
 ).lower()
 
-input_arr = ["companies", "properties"]
 ret = []
 
+utilities.create_directory(f"{file_paths['parent_path']}/{file_paths['yelp']}")
 
-if type == "manual combine":
-    directories = utilities.list_directories("./manual_extraction/")
-    directories.append("All")
-    selected_manual_path = pyinput.inputMenu(directories, numbered=False, lettered=True).lower()
-    if selected_manual_path == "all":
-        for i in range(0, len(directories)-1):
-            path = directories[i]
-            combine_manual(f"./manual_extraction/{path}/")
-    else:
-        combine_manual(f"./manual_extraction/{selected_manual_path}/")
-elif type == "one-off id list":
+if type == "one-off id list":
       #  Must be space-seprated list
-    input_list = pyinput.inputStr("Business IDs: ", blank=False)
+    input_list = pyinput.inputStr("Business IDs (Space-Separated): ", blank=False)
     input_list = input_list.replace(r'\s+', r'\s')
     ret = search_list(input_list)
-
 else:
+    query_obj = utilities.get_yelp_config()['query_obj']
     if type == "all" or type.lower() == "companies":
-        ret = search_businesses([input_arr[0]])
-    if type == "all" or type.lower() == "properties":
-        ret = search_businesses([input_arr[1]])
+        ret = search_businesses([query_obj[type]])
+    elif type == "all" or type.lower() == "properties":
+        ret = search_businesses([query_obj[type]])
     else:
-        ret = search_businesses(input_arr)
+        ret = search_businesses(list(query_obj.values()))
   
 query(ret)

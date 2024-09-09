@@ -14,6 +14,8 @@ http_client.HTTPConnection.debuglevel = 0
 
 config = {**dotenv_values(".env")}
 
+file_paths = utilities.get_file_paths()
+
 user_agent_list = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36",
     "Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1",
@@ -180,7 +182,7 @@ def query(data):
 
         business.reviews = {"yelp_reviews": ret_arr}
 
-        with open(f"yelp/{business.slug}.json", "w") as outFile:
+        with open(f"{file_paths['parent_path']}/{file_paths['yelp']}/{business.slug}.json", "w") as outFile:
             json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)
             outFile.close()
 
@@ -248,7 +250,7 @@ type = pyinput.inputMenu(
 
 ret = []
 
-utilities.create_directory("yelp")
+utilities.create_directory(f"{file_paths['parent_path']}/{file_paths['yelp']}")
 
 if type == "one-off id list":
       #  Must be space-seprated list

@@ -5,9 +5,11 @@ import utilities
 def getPrefix(input, delimiter):
      return input.split(delimiter)[0]
 
-output_path = "merged_reviews"
-google_path = "google"
-yelp_path = "yelp"
+file_paths = utilities.get_file_paths()
+
+output_path = f"{file_paths['parent_path']}/{file_paths['merged']}"
+google_path = f"{file_paths['parent_path']}/{file_paths['google']}"
+yelp_path = f"{file_paths['parent_path']}/{file_paths['yelp']}"
 
 
 def merge(file1, file2):
@@ -57,13 +59,9 @@ def filter(input_path, alt_path):
             file_json = merge(f"{input_path}{file}", f"{alt_path}{file}")
             write(file_json, None, f"{output_path}{file}")
 
-def cleanup(path):
-    utilities.remove_path(path)
-
-utilities.create_directory("merged_reviews")
+utilities.create_directory(output_path)
 
 filter(yelp_path, google_path)
 filter(google_path, yelp_path)
 
-cleanup(yelp_path)
-cleanup(google_path)
+utilities.remove_path("data")

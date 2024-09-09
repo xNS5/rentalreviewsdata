@@ -273,7 +273,7 @@ type = pyinput.inputMenu(
     ["Companies", "Properties", "Custom", "All"], lettered=True, numbered=False
 ).lower()
 
-utilities.create_directory("google")
+utilities.create_directory("data/google")
 
 
 if type == "companies":

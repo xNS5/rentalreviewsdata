@@ -3,5 +3,4 @@ venv/
 .vscode
 __pycache__/
 *_certificate.json
-google/
-yelp/
+data/

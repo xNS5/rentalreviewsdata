@@ -10,7 +10,6 @@ def get_config():
         inputFile.close()
         return input_json
 
-
 def get_yelp_category_whitelist():
     config = get_config()
     return set(
@@ -31,7 +30,7 @@ def get_google_config():
 
 def get_disclaimer_map():
     map = get_config()
-    return config["disclaimer"]
+    return map["disclaimer"]
 
 def company_map(key):
     map = get_config()
@@ -91,8 +90,11 @@ def get_file_tuple(path):
     return os.path.split(path)
 
 def create_directory(path):
-    if not os.path.exists(path):
-        os.makedirs(path);
+    os.makedirs(path, exist_ok=True)
+
+def get_file_paths():
+    config = get_config()
+    return config['file_paths']
 
 def remove_path(path):
     if os.path.exists(path):

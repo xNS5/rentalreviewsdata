@@ -20,18 +20,26 @@ def get_seed_config():
     config = get_config()
     return config["seed_config"]
 
+def get_google_config():
+    config = get_config()
+    return config["google_config"]
+
+def get_disclaimer_map():
+    map = get_config()
+    return config["disclaimer"]
+
 def company_map(key):
     map = get_config()
     return map["company_map"][key] if key in map else {}
 
 def get_company_blacklist():
     return set(
-        get_config["company_blacklist"]
+        get_config()["company_blacklist"]
     )
 
 def get_google_category_whitelist():
     return set(
-        get_config("google_category_whitelist")
+        get_config()["google_category_whitelist"]
     )
 
 def get_whitelist_types(categories):

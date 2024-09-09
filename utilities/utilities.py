@@ -1,7 +1,6 @@
 import os
 import json
 import tempfile
-import shutil
 import re
 
 def get_config():

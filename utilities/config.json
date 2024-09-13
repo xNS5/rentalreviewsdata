@@ -1,8 +1,25 @@
 {
+    "db_config": {
+      "staging": "firebase_staging_certificate.json",
+      "production": "firebase_certificate.json"
+    },
     "seed_config": [
         {
-            "path": "./articles/",
+            "path": "articles",
             "simple": false,
+            "index": true,
+            "index_config": {
+              "key": "slug",
+              "collection": "index",
+              "document_name": "index",
+              "values": [
+                "name",
+                "slug",
+                "review_count",
+                "average_rating",
+                "adjusted_average_rating"
+              ]
+            },
             "collection_keys": {
                 "articles": [
                     "summary"
@@ -23,8 +40,9 @@
             }
         },
         {
-            "path": "./config/",
+            "path": "config",
             "simple": true,
+            "index": false,
             "collection_keys": {
                 "config": null
             }

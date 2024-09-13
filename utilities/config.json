@@ -8,10 +8,11 @@
             "path": "articles",
             "simple": false,
             "index": true,
+            "squash": false,
             "index_config": {
               "key": "slug",
               "collection": "index",
-              "document_name": "index",
+              "document_name": "properties_and_companies",
               "values": [
                 "name",
                 "slug",
@@ -21,13 +22,10 @@
               ]
             },
             "collection_keys": {
-                "articles": [
-                    "summary"
-                ],
                 "reviews": [
                     "reviews"
                 ],
-                "companies": [
+                "properties_and_companies": [
                     "name",
                     "slug",
                     "company_type",
@@ -35,16 +33,18 @@
                     "review_count",
                     "average_rating",
                     "adjusted_review_count",
-                    "adjusted_average_rating"
+                    "adjusted_average_rating",
+                    "summary"
                 ]
             }
         },
         {
             "path": "config",
-            "simple": true,
+            "squash": true,
             "index": false,
-            "collection_keys": {
-                "config": null
+            "squash_config": {
+              "collection": "config",
+              "document_name": "config"
             }
         }
     ],

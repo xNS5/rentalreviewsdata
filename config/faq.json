@@ -1,6 +1,7 @@
 {
     "name": "faq",
-    "description": "Frequently Asked Questions",
+    "title": "Frequently Asked Questions",
+    "description": "Quick Answers to Your Top Questions",
     "questions": [
         {
             "question": "How is the data gathered and stored?",

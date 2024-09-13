@@ -30,6 +30,29 @@ def construct_obj(seed, seed_key_arr, client):
             ret[key] = seed.get(key, None)
     return ret
 
+def squash_file(db, client, pathObj):
+    seed_obj = {}
+    input_path = pathObj["path"]
+    files = list_files(input_path)
+    squash_config = pathObj['squash_config']
+
+    for file in files:
+        with open(f"{input_path}/{file}", "r") as inputFile:
+            input_json = json.load(inputFile)
+            seed_obj[file[:-5]] = input_json
+            inputFile.close()
+    try:
+        match client:
+            case "mongodb":
+                seed_obj["_id"] = squash_config['document_name']
+                db[squash_config['collection']].insert_one(seed_obj) 
+            case "firebase":
+                db.collection(squash_config["collection"]).document(squash_config['document_name']).set(seed_obj)                    
+    
+        print(f'Squashed \033[1m{pathObj["path"]}\033[0m in {client}')
+    except:
+        print(f"Failed to squash on {client} with error: {traceback.print_exc()}")
+        return
 
 def create_index(db, client, pathObj):
     seed_arr = []
@@ -52,7 +75,7 @@ def create_index(db, client, pathObj):
                         ret_obj[seed[index_config["key"]]] = temp_obj
                     else:
                         ret_obj[seed['slug']] = temp_obj
-                ret_obj["_id"] = f'{pathObj["path"]}-{index_config["document_name"]}'
+                ret_obj["_id"] = f'{index_config["document_name"]}_index'
                 db[index_config["collection"]].insert_one(ret_obj) 
             case "firebase":
                 ret_obj = {}
@@ -62,14 +85,13 @@ def create_index(db, client, pathObj):
                         ret_obj[seed[index_config['key']]] = temp_obj
                     else:
                         ret_obj[seed['slug']] = temp_obj
-                db.collection(index_config["collection"]).document(f'{pathObj["path"]}-{index_config["document_name"]}').set(ret_obj)                    
+                db.collection(index_config["collection"]).document(f'{index_config["document_name"]}_index').set(ret_obj)                    
     
         print(f'Created index on {client} for {pathObj["path"]}')
     except:
         print(f"Failed to seed {client} with error: {traceback.print_exc()}")
         return
    
-
 
 def populate(db, client, pathObj):
 
@@ -229,11 +251,14 @@ def main(database_selection, database_action):
     
     def exec(action):
         for path in seed_config:
-            match action:
-                case "seed" | "re-seed":
-                    populate(db, database_selection, path)
-                case "update":
-                    update(db, database_selection, path)
+            if path['squash'] == True:
+                squash_file(db, database_selection, path)
+            else:
+                match action:
+                    case "seed" | "re-seed":
+                        populate(db, database_selection, path)
+                    case "update":
+                        update(db, database_selection, path)
 
     actions = {
         "clear": lambda: clear_db(db, database_selection),

@@ -1,6 +1,4 @@
-{
-  "name": "navigation",
-  "nav": [
+[
     {
       "name": "Home",
       "type": "link",
@@ -40,4 +38,3 @@
       "target": "_self"
     }
   ]
-}

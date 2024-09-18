@@ -27,6 +27,10 @@ def get_google_config():
     config = get_config()
     return config["google_config"]
 
+def get_facebook_config():
+    config = get_config()
+    return config["facebook_config"]
+
 def get_disclaimer_map():
     map = get_config()
     return map["disclaimer"]

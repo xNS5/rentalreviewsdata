@@ -142,6 +142,22 @@
             }
           }
     },
+    "facebook_config": {
+      "selectors": {
+        "review_elements": {
+          "by": "xpath",
+          "selector": "/html/body/div[1]/div/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div[13]/div/div/div[3]/div/div/div/div/span/div"
+        },
+        "company_title": {
+          "by": "xpath",
+          "selector": "/html/body/div[1]/div/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[3]/div/div/div[1]/div/div/span/h1"
+        },
+        "initial_sign_in_modal": {
+          "by": "xpath",
+          "selector": "/html/body/div[1]/div/div[1]/div/div[5]/div/div/div[1]/div/div[2]/div/div/div/div[1]/div"
+        }
+      }
+    },
     "yelp_config": {
       "query_obj": {
         "companies": "property management companies",

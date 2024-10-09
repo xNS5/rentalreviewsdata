@@ -9,6 +9,10 @@ def get_config():
         inputFile.close()
         return input_json
 
+def get_db_env(mode):
+    config = get_config()
+    return config["db_config"][mode]
+
 def get_yelp_category_whitelist():
     config = get_config()
     return set(

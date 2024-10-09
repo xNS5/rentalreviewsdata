@@ -4,11 +4,9 @@ import sys
 import argparse
 import pyinputplus as pyinput
 from git import Repo
-from utilities import list_files, get_seed_config
+from utilities import list_files, get_seed_config, get_db_env
 from dotenv import dotenv_values
 from collections import defaultdict
-
-certificate_path = "./firebase_certificate.json"
 
 config = {**dotenv_values(".env")}
 
@@ -30,10 +28,70 @@ def construct_obj(seed, seed_key_arr, client):
                 ret[sub_key] = seed[key][sub_key]
         else:
             ret[key] = seed.get(key, None)
-    if client == "mongodb":
-        ret["_id"] = seed["slug" if "slug" in seed else "name"]
     return ret
 
+def squash_file(db, client, pathObj):
+    seed_obj = {}
+    input_path = pathObj["path"]
+    files = list_files(input_path)
+    squash_config = pathObj['squash_config']
+
+    for file in files:
+        with open(f"{input_path}/{file}", "r") as inputFile:
+            input_json = json.load(inputFile)
+            seed_obj[file[:-5]] = input_json
+            inputFile.close()
+    try:
+        match client:
+            case "mongodb":
+                seed_obj["_id"] = squash_config['document_name']
+                db[squash_config['collection']].insert_one(seed_obj) 
+            case "firebase":
+                db.collection(squash_config["collection"]).document(squash_config['document_name']).set(seed_obj)                    
+    
+        print(f'Squashed \033[1m{pathObj["path"]}\033[0m in {client}')
+    except:
+        print(f"Failed to squash on {client} with error: {traceback.print_exc()}")
+        return
+
+def create_index(db, client, pathObj):
+    seed_arr = []
+    input_path = pathObj["path"]
+    files = list_files(input_path)
+    index_config = pathObj["index_config"]
+
+    for file in files:
+        with open(f"{input_path}/{file}", "r") as inputFile:
+            input_json = json.load(inputFile)
+            seed_arr.append(input_json)
+            inputFile.close()
+    try:
+        match client:
+            case "mongodb":
+                ret_obj = {}
+                for seed in seed_arr:
+                    temp_obj = construct_obj(seed, index_config["values"], client)
+                    if index_config["key"] in seed:
+                        ret_obj[seed[index_config["key"]]] = temp_obj
+                    else:
+                        ret_obj[seed['slug']] = temp_obj
+                ret_obj["_id"] = f'{index_config["document_name"]}_index'
+                db[index_config["collection"]].insert_one(ret_obj) 
+            case "firebase":
+                ret_obj = {}
+                for seed in seed_arr:
+                    temp_obj = construct_obj(seed, index_config["values"], client)
+                    if index_config['key'] in seed:
+                        ret_obj[seed[index_config['key']]] = temp_obj
+                    else:
+                        ret_obj[seed['slug']] = temp_obj
+                db.collection(index_config["collection"]).document(f'{index_config["document_name"]}_index').set(ret_obj)                    
+    
+        print(f'Created index on {client} for {pathObj["path"]}')
+    except:
+        print(f"Failed to seed {client} with error: {traceback.print_exc()}")
+        return
+   
 
 def populate(db, client, pathObj):
 
@@ -42,10 +100,13 @@ def populate(db, client, pathObj):
     files = list_files(input_path)
 
     for file in files:
-        with open(f"{input_path}{file}", "r") as inputFile:
+        with open(f"{input_path}/{file}", "r") as inputFile:
             input_json = json.load(inputFile)
             seed_arr.append(input_json)
             inputFile.close()
+
+    if pathObj["index"] == True:
+        create_index(db, client, pathObj)
 
     try:
         match client:
@@ -176,31 +237,39 @@ def main(database_selection, database_action):
             case "firebase":
                 import firebase_admin
                 from firebase_admin import credentials, firestore
-
+            
+                certificate_path = get_db_env(config['DB_ENV'])
+                print(f'Firebase Certificate: \033[1m{certificate_path}\033[0m')
                 cred = credentials.Certificate(certificate_path)
-                firebase_admin.initialize_app(cred)
-                db = firestore.client()
+                app = firebase_admin.initialize_app(cred)
+                db = firestore.client(app)
+               
         print(f"Initialized connection to {database_selection}")
     except Exception as e:
-        print(f"Failed to initialize source {database_selection} with exception {e}")
+        print(f"Failed to initialize source {database_selection} with exception:\n{e}")
         return
+    
+    def exec(action):
+        for path in seed_config:
+            if path['squash'] == True:
+                squash_file(db, database_selection, path)
+            else:
+                match action:
+                    case "seed" | "re-seed":
+                        populate(db, database_selection, path)
+                    case "update":
+                        update(db, database_selection, path)
 
-    # Clear first for both actions, otherwise it will clear -> seed, clear -> seed for each path object
-    if database_action.lower() == "re-seed" or database_action.lower() == "clear":
-        clear_db(db, database_selection)
+    actions = {
+        "clear": lambda: clear_db(db, database_selection),
+        "re-seed": lambda: (clear_db(db, database_selection), exec(database_action)),
+        'update': lambda: exec(database_action),
+        'seed': lambda: exec(database_action),
+        'list': lambda: print(list_collections(db, database_selection))
+    }
 
-    for path in seed_config:
-        match database_action.lower():
-            case "seed":
-                populate(db, database_selection, path)
-            case "update":
-                update(db, database_selection, path)
-            case "re-seed":
-                populate(db, database_selection, path)
-            case "list":
-                collection_list = list_collections(db, database_selection)
-                print(collection_list)
-
+    if database_action in actions:
+        actions[database_action]()
 
 if __name__ == "__main__":
     database_selection = None 

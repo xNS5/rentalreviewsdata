@@ -23,10 +23,10 @@ def list_collections(db, client):
 def construct_obj(seed, seed_key_arr, client):
     ret = {}
     for key in seed_key_arr:
-        if type(seed[key]) is dict:
-            for sub_key in seed[key]:
-                ret[sub_key] = seed[key][sub_key]
-        else:
+        # if type(seed[key]) is dict:
+        #     for sub_key in seed[key]:
+        #         ret[sub_key] = seed[key][sub_key]
+        # else:
             ret[key] = seed.get(key, None)
     return ret
 

@@ -1,27 +1,31 @@
-{
-  "footer": {
-    "0": [{
-      "type": "link",
-      "title": "Github",
-      "icon": "fab-github",
-      "alt": "GitHub logo: A black cat with octopus tentacles and a curled tail inside a white circle.",
-      "url": "https://github.com/xNS5/rentalreviews/",
-      "target": "_blank"
-    }],
-    "1":[{
-      "type": "link",
-      "text": "Privacy Policy",
-      "url": "/privacy-policy",
-      "target": ""
-    }, {
-      "type": "link",
-      "text": "FAQ",
-      "url": "/faq",
-      "target": ""
-    }],
-    "2": [{
-      "type": "text",
-      "text": "Michael Kennedy © 2024-2025"
-    }]
+[
+  {
+    "type": "link",
+    "title": "Github",
+    "icon": "fab-github",
+    "alt": "GitHub logo: A black cat with octopus tentacles and a curled tail inside a white circle.",
+    "url": "https://github.com/xNS5/rentalreviews/",
+    "target": "_blank",
+    "row": 0
+  },
+  {
+    "type": "link",
+    "text": "Privacy Policy",
+    "url": "/privacy-policy",
+    "target": "",
+    "row": 1
+
+  },
+  {
+    "type": "link",
+    "text": "FAQ",
+    "url": "/faq",
+    "target": "",
+    "row": 1
+  },
+  {
+    "type": "text",
+    "text": "Michael Kennedy © 2024-2025",
+    "row": 2
   }
-}
+]

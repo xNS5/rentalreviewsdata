@@ -59,6 +59,8 @@ def create_index(db, client, pathObj):
     input_path = pathObj["path"]
     files = list_files(input_path)
     index_config = pathObj["index_config"]
+    index_file_name = f'{index_config["document_name"]}_index'
+    ret_obj = {"data": []}
 
     for file in files:
         with open(f"{input_path}/{file}", "r") as inputFile:
@@ -66,26 +68,15 @@ def create_index(db, client, pathObj):
             seed_arr.append(input_json)
             inputFile.close()
     try:
+        for seed in seed_arr:
+            temp_obj = construct_obj(seed, index_config["values"], client)
+            ret_obj['data'].append(temp_obj)
         match client:
             case "mongodb":
-                ret_obj = {}
-                for seed in seed_arr:
-                    temp_obj = construct_obj(seed, index_config["values"], client)
-                    if index_config["key"] in seed:
-                        ret_obj[seed[index_config["key"]]] = temp_obj
-                    else:
-                        ret_obj[seed['slug']] = temp_obj
-                ret_obj["_id"] = f'{index_config["document_name"]}_index'
+                ret_obj["_id"] = index_file_name
                 db[index_config["collection"]].insert_one(ret_obj) 
             case "firebase":
-                ret_obj = {}
-                for seed in seed_arr:
-                    temp_obj = construct_obj(seed, index_config["values"], client)
-                    if index_config['key'] in seed:
-                        ret_obj[seed[index_config['key']]] = temp_obj
-                    else:
-                        ret_obj[seed['slug']] = temp_obj
-                db.collection(index_config["collection"]).document(f'{index_config["document_name"]}_index').set(ret_obj)                    
+                db.collection(index_config["collection"]).document(index_file_name).set(ret_obj)                    
     
         print(f'Created index on {client} for {pathObj["path"]}')
     except:
@@ -171,7 +162,7 @@ def clear_db(db, client):
 def update(db, client, pathObj):
     repo_obj = Repo("./")
     files = []
-    updatePath = pathObj["path"].split("/")[1]
+    updatePath = pathObj["path"]
     for item in repo_obj.index.diff(None):
         if updatePath in item.a_path:
             files.append(item.a_path)

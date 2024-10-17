@@ -1,5 +1,4 @@
 {
-    "name": "alt",
     "reviews": {
         "company_type": {
             "prefix": "Company type",
@@ -16,6 +15,22 @@
         "review_count": {
             "prefix": "",
             "postfix": "total reviews"
+        },
+        "first_page": {
+            "prefix": "First page",
+            "postfix": ""
+        },
+        "previous_page": {
+            "prefix": "Previous page",
+            "postfix": ""
+        },
+        "next_page": {
+            "prefix": "Next page",
+            "postfix": ""
+        },
+        "last_page": {
+            "prefix": "Last page",
+            "postfix": ""
         }
     },
     "review": {

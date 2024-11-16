@@ -4,6 +4,8 @@ import sys
 import argparse
 import pyinputplus as pyinput
 from git import Repo
+from pymongo.errors import DuplicateKeyError, WriteError
+
 from utilities import list_files, get_seed_config, get_db_env
 from dotenv import dotenv_values
 from collections import defaultdict
@@ -30,11 +32,11 @@ def construct_obj(seed, seed_key_arr, client):
             ret[key] = seed.get(key, None)
     return ret
 
-def squash_file(db, client, pathObj):
+def squash_file(db, client, path_obj):
     seed_obj = {}
-    input_path = pathObj["path"]
+    input_path = path_obj["path"]
     files = list_files(input_path)
-    squash_config = pathObj['squash_config']
+    squash_config = path_obj['squash_config']
 
     for file in files:
         with open(f"{input_path}/{file}", "r") as inputFile:
@@ -49,7 +51,7 @@ def squash_file(db, client, pathObj):
             case "firebase":
                 db.collection(squash_config["collection"]).document(squash_config['document_name']).set(seed_obj)                    
     
-        print(f'Squashed \033[1m{pathObj["path"]}\033[0m in {client}')
+        print(f'Squashed \033[1m{path_obj["path"]}\033[0m in {client}')
     except:
         print(f"Failed to squash on {client} with error: {traceback.print_exc()}")
         return
@@ -79,15 +81,15 @@ def create_index(db, client, pathObj):
                 db.collection(index_config["collection"]).document(index_file_name).set(ret_obj)                    
     
         print(f'Created index on {client} for {pathObj["path"]}')
-    except:
+    except IOError | TypeError | DuplicateKeyError | WriteError:
         print(f"Failed to seed {client} with error: {traceback.print_exc()}")
         return
    
 
-def populate(db, client, pathObj):
+def populate(db, client, path_obj):
 
     seed_arr = []
-    input_path = pathObj["path"]
+    input_path = path_obj["path"]
     files = list_files(input_path)
 
     for file in files:
@@ -96,43 +98,35 @@ def populate(db, client, pathObj):
             seed_arr.append(input_json)
             inputFile.close()
 
-    if pathObj["index"] == True:
-        create_index(db, client, pathObj)
+    if path_obj["index"]:
+        create_index(db, client, path_obj)
 
     try:
         match client:
             case "mongodb":
                 ret_obj = defaultdict(lambda: [])
                 for seed in seed_arr:
-                    for key, key_arr in pathObj["collection_keys"].items():
-                        temp_obj = {}
-                        id_str = seed["slug" if "slug" in seed else "name"]
-                        if pathObj["simple"] == True:
-                            temp_obj = seed
-                        else:
-                            temp_obj = construct_obj(seed, key_arr, client)
-                        temp_obj["_id"] = id_str
-                        ret_obj[key].append(temp_obj)
+                    for key, key_arr in path_obj["collection_keys"].items():
+                        ret_obj[key].append({
+                            **(seed if path_obj["simple"] else construct_obj(seed, key_arr, client)),
+                            "_id": seed["slug" if "slug" in seed else "name"]
+                        })
                 for key, value in ret_obj.items():
                     db[key].insert_many(value)
             case "firebase":
                 batch = db.batch()
                 for seed in seed_arr:
-                    for key, key_arr in pathObj["collection_keys"].items():
-                        temp_obj = {}
-                        if pathObj["simple"] == True:
-                            temp_obj = seed
-                        else:
-                            temp_obj = construct_obj(seed, key_arr, client)
+                    for key, key_arr in path_obj["collection_keys"].items():
+                        temp_obj = seed if path_obj["simple"] else construct_obj(seed, key_arr, client)
                         doc_ref = db.collection(key).document(
                             seed["slug" if "slug" in seed else "name"]
                         )
                         batch.set(doc_ref, temp_obj)
                 batch.commit()
-    except:
+    except IOError | TypeError | DuplicateKeyError | WriteError:
         print(f"Failed to seed {client} with error: {traceback.print_exc()}")
         return
-    print(f'Seeded {client} with {len(seed_arr)} records from {pathObj["path"]}.')
+    print(f'Seeded {client} with {len(seed_arr)} records from {path_obj["path"]}.')
 
 
 def clear_db(db, client):
@@ -159,10 +153,10 @@ def clear_db(db, client):
     print(f"Cleared {client}")
 
 
-def update(db, client, pathObj):
+def update(db, client, path_obj):
     repo_obj = Repo("./")
     files = []
-    updatePath = pathObj["path"]
+    updatePath = path_obj["path"]
     for item in repo_obj.index.diff(None):
         if updatePath in item.a_path:
             files.append(item.a_path)
@@ -173,9 +167,9 @@ def update(db, client, pathObj):
                 for file in files:
                     with open(f"./{file}", "r") as inputFile:
                         input_json = json.load(inputFile)
-                        for key, key_arr in pathObj["collection_keys"].items():
+                        for key, key_arr in path_obj["collection_keys"].items():
                             temp_obj = {}
-                            if pathObj["simple"] == True:
+                            if path_obj["simple"] == True:
                                 temp_obj = input_json
                             else:
                                 temp_obj = construct_obj(input_json, key_arr, client)
@@ -193,9 +187,9 @@ def update(db, client, pathObj):
                 for file in files:
                     with open(f"./{file}", "r") as inputFile:
                         input_json = json.load(inputFile)
-                        for key, key_arr in pathObj["collection_keys"].items():
+                        for key, key_arr in path_obj["collection_keys"].items():
                             temp_obj = {}
-                            if pathObj["simple"] == True:
+                            if path_obj["simple"] == True:
                                 temp_obj = input_json
                             else:
                                 temp_obj = construct_obj(input_json, key_arr, client)
@@ -215,6 +209,7 @@ def main(database_selection, database_action):
         match database_selection:
             case "mongodb":
                 import pymongo
+                from pymongo.errors import (DuplicateKeyError, WriteError, OperationFailure, ConnectionFailure, InvalidDocument)
 
                 client = pymongo.MongoClient(
                     "mongodb://%s:%s@%s"
@@ -242,7 +237,7 @@ def main(database_selection, database_action):
     
     def exec(action):
         for path in seed_config:
-            if path['squash'] == True:
+            if path['squash']:
                 squash_file(db, database_selection, path)
             else:
                 match action:
@@ -265,12 +260,15 @@ def main(database_selection, database_action):
 if __name__ == "__main__":
     database_selection = None 
     database_action = None
+    database_environment = None
     database_options = ["mongodb", "firebase"]
     action_options = ["seed", "clear", "list", "update", "re-seed"]
+    env_options = ["test", "prod"]
     if len(sys.argv) > 1:
         parser = argparse.ArgumentParser()
         parser.add_argument("-db", "--database", required=True, help="Database Name")
         parser.add_argument("-a", "--action", required=True, help="Action to perform on the database")
+        parser.add_argument("-env", "--env", required=False, help="Database Environment [test|prod]`")
 
         args = parser.parse_args()
 
@@ -285,6 +283,12 @@ if __name__ == "__main__":
             exit(1)
         else:
             database_action = args.action.lower()
+
+        if args.env.lower() not in env_options:
+            print("Invalid database environment")
+            exit(1)
+        else:
+            database_environment = args.env.lower()
 
     else: 
         database_selection = pyinput.inputMenu(

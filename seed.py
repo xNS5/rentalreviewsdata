@@ -4,7 +4,6 @@ import sys
 import argparse
 import pyinputplus as pyinput
 from git import Repo
-from pymongo.errors import DuplicateKeyError, WriteError
 
 from utilities import list_files, get_seed_config, get_db_env
 from dotenv import dotenv_values
@@ -13,6 +12,57 @@ from collections import defaultdict
 config = {**dotenv_values(".env")}
 
 seed_config = get_seed_config()
+
+def get_params():
+    database_selection = None
+    database_action = None
+    database_environment = None
+    database_options = ["mongodb", "firebase"]
+    action_options = ["seed", "clear", "list", "update", "re-seed"]
+    env_options = ["test", "prod"]
+    if len(sys.argv) > 1:
+        parser = argparse.ArgumentParser()
+        parser.add_argument("-db", "--database", required=True, help="Database Name")
+        parser.add_argument("-a", "--action", required=True, help="Action to perform on the database")
+        parser.add_argument("-env", "--env", required=False, help="Database Environment [test|prod]`")
+
+        args = parser.parse_args()
+
+        if args.database.lower() not in database_options:
+            print("Invalid database selection")
+            exit(1)
+        else:
+            database_selection = args.database.lower()
+
+        if args.action.lower() not in action_options:
+            print("Invalid database action")
+            exit(1)
+        else:
+            database_action = args.action.lower()
+
+        if args.env is not None:
+            if args.env.lower() not in env_options:
+                print("Invalid database environment")
+                exit(1)
+            else:
+                database_environment = args.env.lower()
+
+
+    else:
+        database_environment = None
+        database_selection = pyinput.inputMenu(
+            database_options , lettered=True, numbered=False
+        ).lower()
+
+        database_action = pyinput.inputMenu(
+            action_options, lettered=True, numbered=False
+        ).lower()
+
+        if database_selection == "firebase":
+            database_environment = pyinput.inputMenu(
+                env_options, lettered=True, numbered=False
+            ).lower()
+    return database_selection, database_action, database_environment
 
 def list_collections(db, client):
     match client:
@@ -52,15 +102,15 @@ def squash_file(db, client, path_obj):
                 db.collection(squash_config["collection"]).document(squash_config['document_name']).set(seed_obj)                    
     
         print(f'Squashed \033[1m{path_obj["path"]}\033[0m in {client}')
-    except:
-        print(f"Failed to squash on {client} with error: {traceback.print_exc()}")
+    except Exception as e:
+        print(f"Failed to squash on {client} with error: {traceback.print_exc()} {e}")
         return
 
-def create_index(db, client, pathObj):
+def create_index(db, client, path_obj):
     seed_arr = []
-    input_path = pathObj["path"]
+    input_path = path_obj["path"]
     files = list_files(input_path)
-    index_config = pathObj["index_config"]
+    index_config = path_obj["index_config"]
     index_file_name = f'{index_config["document_name"]}_index'
     ret_obj = {"data": []}
 
@@ -80,9 +130,9 @@ def create_index(db, client, pathObj):
             case "firebase":
                 db.collection(index_config["collection"]).document(index_file_name).set(ret_obj)                    
     
-        print(f'Created index on {client} for {pathObj["path"]}')
-    except IOError | TypeError | DuplicateKeyError | WriteError:
-        print(f"Failed to seed {client} with error: {traceback.print_exc()}")
+        print(f'Created index on {client} for {path_obj["path"]}')
+    except Exception as e:
+        print(f"Failed to seed {client} with error: {traceback.print_exc()} {e}")
         return
    
 
@@ -123,8 +173,8 @@ def populate(db, client, path_obj):
                         )
                         batch.set(doc_ref, temp_obj)
                 batch.commit()
-    except IOError | TypeError | DuplicateKeyError | WriteError:
-        print(f"Failed to seed {client} with error: {traceback.print_exc()}")
+    except Exception as e:
+        print(f"Failed to seed {client} with error: {traceback.print_exc()} {e}")
         return
     print(f'Seeded {client} with {len(seed_arr)} records from {path_obj["path"]}.')
 
@@ -156,23 +206,18 @@ def clear_db(db, client):
 def update(db, client, path_obj):
     repo_obj = Repo("./")
     files = []
-    updatePath = path_obj["path"]
+    update_path = path_obj["path"]
     for item in repo_obj.index.diff(None):
-        if updatePath in item.a_path:
+        if update_path in item.a_path:
             files.append(item.a_path)
     if len(files) > 0:
         match client:
             case "mongodb":
-                update_obj = defaultdict(lambda: [])
                 for file in files:
                     with open(f"./{file}", "r") as inputFile:
                         input_json = json.load(inputFile)
                         for key, key_arr in path_obj["collection_keys"].items():
-                            temp_obj = {}
-                            if path_obj["simple"] == True:
-                                temp_obj = input_json
-                            else:
-                                temp_obj = construct_obj(input_json, key_arr, client)
+                            temp_obj = input_json if path_obj["simple"] else  construct_obj(input_json, key_arr, client)
                             db[key].update_one(
                                 {
                                     "_id": input_json[
@@ -188,11 +233,7 @@ def update(db, client, path_obj):
                     with open(f"./{file}", "r") as inputFile:
                         input_json = json.load(inputFile)
                         for key, key_arr in path_obj["collection_keys"].items():
-                            temp_obj = {}
-                            if path_obj["simple"] == True:
-                                temp_obj = input_json
-                            else:
-                                temp_obj = construct_obj(input_json, key_arr, client)
+                            temp_obj = input_json if path_obj["simple"] else  construct_obj(input_json, key_arr, client)
                             doc_ref = db.collection(key).document(
                                 input_json["seed" if "seed" in input_json else "name"]
                             )
@@ -200,16 +241,16 @@ def update(db, client, path_obj):
 
         print(f"Updated {client} with {len(files)} records")
     else:
-        print(f"No updates available in {updatePath}")
+        print(f"No updates available in {update_path}")
            
 
-def main(database_selection, database_action):
+def main():
+    db_name, db_action, db_env = get_params()
     db = None
     try:
-        match database_selection:
+        match db_name:
             case "mongodb":
                 import pymongo
-                from pymongo.errors import (DuplicateKeyError, WriteError, OperationFailure, ConnectionFailure, InvalidDocument)
 
                 client = pymongo.MongoClient(
                     "mongodb://%s:%s@%s"
@@ -219,84 +260,41 @@ def main(database_selection, database_action):
                         config["MONGODB_URL"],
                     )
                 )
-                db = client["rentalreviews"]
+                db = client[config["MONGODB_DB_NAME"]]
             case "firebase":
                 import firebase_admin
                 from firebase_admin import credentials, firestore
             
-                certificate_path = get_db_env(config['DB_ENV'])
+                certificate_path = get_db_env(db_env)
                 print(f'Firebase Certificate: \033[1m{certificate_path}\033[0m')
                 cred = credentials.Certificate(certificate_path)
                 app = firebase_admin.initialize_app(cred)
                 db = firestore.client(app)
                
-        print(f"Initialized connection to {database_selection}")
+        print(f"Initialized connection to {db_name}")
     except Exception as e:
-        print(f"Failed to initialize source {database_selection} with exception:\n{e}")
+        print(f"Failed to initialize source {db_name} with exception:\n{e}")
         return
     
     def exec(action):
         for path in seed_config:
             if path['squash']:
-                squash_file(db, database_selection, path)
+                squash_file(db, db_name, path)
             else:
                 match action:
                     case "seed" | "re-seed":
-                        populate(db, database_selection, path)
+                        populate(db, db_name, path)
                     case "update":
-                        update(db, database_selection, path)
+                        update(db, db_name, path)
 
     actions = {
-        "clear": lambda: clear_db(db, database_selection),
-        "re-seed": lambda: (clear_db(db, database_selection), exec(database_action)),
-        'update': lambda: exec(database_action),
-        'seed': lambda: exec(database_action),
-        'list': lambda: print(list_collections(db, database_selection))
+        "clear": lambda: clear_db(db, db_name),
+        "re-seed": lambda: (clear_db(db, db_name), exec(db_action)),
+        'update': lambda: exec(db_action),
+        'seed': lambda: exec(db_action),
+        'list': lambda: print(list_collections(db, db_name))
     }
 
-    if database_action in actions:
-        actions[database_action]()
+    if db_action in actions:
+        actions[db_action]()
 
-if __name__ == "__main__":
-    database_selection = None 
-    database_action = None
-    database_environment = None
-    database_options = ["mongodb", "firebase"]
-    action_options = ["seed", "clear", "list", "update", "re-seed"]
-    env_options = ["test", "prod"]
-    if len(sys.argv) > 1:
-        parser = argparse.ArgumentParser()
-        parser.add_argument("-db", "--database", required=True, help="Database Name")
-        parser.add_argument("-a", "--action", required=True, help="Action to perform on the database")
-        parser.add_argument("-env", "--env", required=False, help="Database Environment [test|prod]`")
-
-        args = parser.parse_args()
-
-        if args.database.lower() not in database_options:
-            print("Invalid database selection")
-            exit(1)
-        else:
-            database_selection = args.database.lower()
-
-        if args.action.lower() not in action_options:
-            print("Invalid database action")
-            exit(1)
-        else:
-            database_action = args.action.lower()
-
-        if args.env.lower() not in env_options:
-            print("Invalid database environment")
-            exit(1)
-        else:
-            database_environment = args.env.lower()
-
-    else: 
-        database_selection = pyinput.inputMenu(
-            database_options , lettered=True, numbered=False
-        ).lower()
-
-        database_action = pyinput.inputMenu(
-            action_options, lettered=True, numbered=False
-        ).lower()
-
-    main(database_selection, database_action)

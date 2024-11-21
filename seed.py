@@ -56,9 +56,8 @@ def get_params():
                 print("Environment required for Firebase")
                 exit(1)
 
-        if args.verbose is not None:
-            global verbose
-            verbose = True
+        global verbose
+        verbose = args.verbose is not None and args.verbose == True
 
     else:
         database_environment = None
@@ -323,4 +322,4 @@ def main(db_name, db_action, db_env = None):
 
 if __name__ == "__main__":
     db_name, db_action, db_env = get_params()
-    # main(db_name, db_action, db_env)
+    main(db_name, db_action, db_env)

@@ -120,7 +120,7 @@ def squash_file(db, client, path_obj):
                 db.collection(squash_config["collection"]).document(squash_config['document_name']).set(seed_obj)                    
 
         if verbose:
-            print(f'Squashed \033[1m{path_obj["path"]}\033[0m in {client}')
+            print(f'Squashed {path_obj["path"]} in {client}')
     except Exception as e:
         print(f"Failed to squash on {client} with error: {traceback.print_exc()} {e}", file=sys.stderr)
         return
@@ -148,8 +148,9 @@ def create_index(db, client, path_obj):
                 db[index_config["collection"]].insert_one(ret_obj) 
             case "firebase":
                 db.collection(index_config["collection"]).document(index_file_name).set(ret_obj)                    
-    
-        print(f'Created index on {client} for {path_obj["path"]}')
+
+        if verbose:
+            print(f'Created index on {client} for {path_obj["path"]}', file=sys.stdout)
     except Exception as e:
         print(f"Failed to seed {client} with error: {traceback.print_exc()} {e}", file=sys.stderr)
         return
@@ -195,7 +196,7 @@ def populate(db, client, path_obj):
         print(f"Failed to seed {client} with error: {traceback.print_exc()} {e}", file=sys.stderr)
         return
     if verbose:
-        print(f'Seeded {client} with {len(seed_arr)} records from {path_obj["path"]}.')
+        print(f'Seeded {client} with {len(seed_arr)} records from {path_obj["path"]}')
 
 
 def clear_db(db, client):

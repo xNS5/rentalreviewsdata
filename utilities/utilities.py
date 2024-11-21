@@ -115,7 +115,7 @@ def get_file_name(path):
 
 def search(data, key, value):
     for d in data:
-        if d[key] != None and d[key] == value:
+        if d[key] is not None and d[key] == value:
             return d
     return None
 
@@ -160,3 +160,7 @@ def calculate_actual_rating(data):
         "review_count": review_count,
         "average_rating": round(rolling_average_sum / review_count, 2),
     }
+
+def get_file_count(path):
+    input = os.listdir(path)
+    return len(input)

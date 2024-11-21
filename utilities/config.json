@@ -1,6 +1,6 @@
 {
     "db_config": {
-      "staging": "firebase_staging_certificate.json",
+      "test": "firebase_staging_certificate.json",
       "production": "firebase_certificate.json"
     },
     "seed_config": [

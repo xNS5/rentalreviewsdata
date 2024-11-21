@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 import tempfile
 import re
 
@@ -102,7 +103,7 @@ def get_file_paths():
 def remove_path(path):
     if os.path.exists(path):
         if os.path.isfile(path):
-            os.remove(file)
+            os.remove(path)
         elif os.path.isdir(path):
             shutil.rmtree(path)
     else:

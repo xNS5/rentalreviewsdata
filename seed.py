@@ -34,27 +34,27 @@ def get_params():
         args = parser.parse_args()
 
         if args.database.lower() not in database_options:
-            print("Invalid database selection")
-            exit(1)
+            print("Invalid database selection", file=sys.stderr)
+            exit(-1)
         else:
             database_selection = args.database.lower()
 
         if args.action.lower() not in action_options:
-            print("Invalid database action")
-            exit(1)
+            print("Invalid database action", file=sys.stderr)
+            exit(-1)
         else:
             database_action = args.action.lower()
 
         if args.database.lower() == "firebase":
             if args.env is not None:
                 if args.env.lower() not in env_options:
-                    print("Invalid database environment")
+                    print("Invalid database environment", file=sys.stderr)
                     exit(1)
                 else:
                     database_environment = args.env.lower()
             else:
-                print("Environment required for Firebase")
-                exit(1)
+                print("Environment required for Firebase", file=sys.stderr)
+                exit(-1)
 
         global verbose
         verbose = args.verbose is not None and args.verbose == True
@@ -313,6 +313,9 @@ def main(db_name, db_action, db_env = None):
 
         if db_action in actions:
             actions[db_action]()
+        else:
+            print("Invalid Action", file=sys.stderr)
+            exit(-1)
     except Exception as e:
         print(f"Failed to initialize source {db_name} with exception:\n{e}", file=sys.stderr)
         return

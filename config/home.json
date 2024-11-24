@@ -2,6 +2,7 @@
     "name": "home",
     "title": "Bellingham Rental Reviews",
     "description": "The Bellingham Rental Reviews Project",
+    "aria_announcement": "Main content contains a heading and paragraph text",
     "content": [
         {
             "title": "Welcome to the Bellingham Rental Reviews Project",

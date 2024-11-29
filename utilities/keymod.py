@@ -8,8 +8,8 @@ from datetime import datetime
 
 # Only works on first-level keys because I'm lazy
 def replace():
-    path = "../articles"
-    key = "summary"
+    path = "articles"
+    key = "timestamp"
     oldValue = "<article>"
     newValue = "<article class='review-summary'>"
     input_list = utilities.list_files(path)
@@ -22,8 +22,8 @@ def replace():
         for file in input_list:
             with open(f'{path}/{file}', 'r') as inputFile:
                 input_json = json.load(inputFile)
-                input_value = input_json[key]
-                new_value = input_value.replace(oldValue, newValue)
+                input_value = datetime.strptime(input_json[key], '%m/%d/%Y')
+                new_value = input_value.strftime("%B %-d %Y")
                 with open(f'{tempDir}/{file}', 'w') as outputFile:
                     json.dump({**input_json, key: new_value},
                     outputFile,
@@ -55,7 +55,7 @@ def add_key():
                 creation_time = timestamp.st_ctime
                 formatted = datetime.fromtimestamp(creation_time)
                 with open(f'{tempDir}/{file}', 'w') as outputFile:
-                    json.dump({**input_json, key: formatted.strftime("%m/%d/%Y")},
+                    json.dump({**input_json, key: formatted.strftime("%B %-d %Y")},
                     outputFile,
                     ensure_ascii=True,
                     indent=2
@@ -66,5 +66,5 @@ def add_key():
         for file in tmp_files:
             shutil.move(f'{tempDir}/{file}', f'{path}/{file}')
         shutil.rmtree(tempDir)
-# replace()
-add_key()
+replace()
+# add_key()

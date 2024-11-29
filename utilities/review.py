@@ -13,13 +13,17 @@ def clean(string):
     decoded = encoded.decode()
     return decoded
 
+# Convert reviews to array of dictionaries
+def reviews_to_array(reviews):
+    return [review.to_dict() for review in reviews]
+
 
 class Review:
-    def __init__(self, author, rating, review, ownerResponse=None):
+    def __init__(self, author, rating, review, owner_response=None):
         self._author = author
         self._rating = rating
         self._review = review
-        self._ownerResponse = ownerResponse if ownerResponse != "" else None
+        self._owner_response = owner_response if owner_response != "" else None
 
     # Getters
     @property
@@ -35,8 +39,8 @@ class Review:
         return self._review
 
     @property
-    def ownerResponse(self):
-        return self._ownerResponse
+    def owner_response(self):
+        return self._owner_response
 
     # Setters
     @author.setter
@@ -51,9 +55,9 @@ class Review:
     def review(self, review):
         self._review = review
 
-    @ownerResponse.setter
-    def ownerResponse(self, ownerResponse):
-        self._ownerResponse = ownerResponse
+    @owner_response.setter
+    def owner_response(self, owner_response):
+        self._owner_response = owner_response
 
     # Convert to dictionary
     def to_dict(self):
@@ -63,8 +67,8 @@ class Review:
             "author": clean(self.author),
             "rating": self.rating,
             "review": clean(self.review),
-            "ownerResponse": (
-                {"text": clean(self.ownerResponse)} if self.ownerResponse is not None else None
+            "owner_response": (
+                {"text": clean(self.owner_response)} if self.owner_response is not None else None
             ),
         }
 
@@ -80,6 +84,7 @@ class Business:
         id = None,
         reviews= None,
     ):
+        self._review_key = None
         self._id = id
         self._name = name
         self._slug = utilities.get_slug(name)
@@ -160,7 +165,7 @@ class Business:
 
     @reviews.setter
     def reviews(self, reviews):
-        if self._reviews == None:
+        if self._reviews is None:
             self._reviews = reviews
         else:
             self._reviews = {**self._reviews, **reviews}
@@ -181,7 +186,3 @@ class Business:
             "average_rating": self.average_rating,
             "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()}
         }
-
-    # Convert reviews to array of dictionaries
-    def reviews_to_array(self, reviews):
-        return [review.to_dict() for review in reviews]

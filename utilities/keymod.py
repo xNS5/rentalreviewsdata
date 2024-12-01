@@ -9,7 +9,7 @@ from datetime import datetime
 # Only works on first-level keys because I'm lazy
 def replace():
     path = "articles"
-    key = "timestamp"
+    key = "created_timestamp"
     oldValue = "<article>"
     newValue = "<article class='review-summary'>"
     input_list = utilities.list_files(path)
@@ -22,10 +22,10 @@ def replace():
         for file in input_list:
             with open(f'{path}/{file}', 'r') as inputFile:
                 input_json = json.load(inputFile)
-                input_value = datetime.strptime(input_json[key], '%m/%d/%Y')
-                new_value = input_value.strftime("%B %-d %Y")
+                input_value = datetime.fromtimestamp(input_json[key])
+                new_value = (input_value - datetime(1970, 1, 1)).total_seconds()
                 with open(f'{tempDir}/{file}', 'w') as outputFile:
-                    json.dump({**input_json, key: new_value},
+                    json.dump({**input_json, key: int(new_value)},
                     outputFile,
                     ensure_ascii=True,
                     indent=2

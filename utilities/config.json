@@ -36,7 +36,7 @@
                     "average_rating",
                     "adjusted_review_count",
                     "adjusted_average_rating",
-                    "timestamp",
+                    "created_timestamp",
                     "summary"
                 ]
             }

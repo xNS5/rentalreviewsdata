@@ -1,5 +1,6 @@
 {
     "name": "reviews",
     "title": "Reviews",
-    "description": "Rental Reviews Data"
+    "description": "Rental Reviews Data",
+    "disclaimer": "Note: The Adjusted Review Count and Adjusted Review Rating reflects only reviews with both text and a rating"
 }

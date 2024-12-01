@@ -19,7 +19,8 @@
                 "company_type",
                 "review_count",
                 "average_rating",
-                "adjusted_average_rating"
+                "adjusted_average_rating",
+                "timestamp"
               ]
             },
             "collection_keys": {
@@ -35,6 +36,7 @@
                     "average_rating",
                     "adjusted_review_count",
                     "adjusted_average_rating",
+                    "created_timestamp",
                     "summary"
                 ]
             }

@@ -17,7 +17,9 @@ async_client = AsyncOpenAI(
        api_key=config["OPENAI_KEY"]
 )
 
+epoch = datetime(1970, 1, 1)
 now = datetime.now()
+now_in_seconds = (now - epoch).total_seconds()
 
 disclaimer_file = utilities.get_disclaimer_map()
 file_paths = utilities.get_file_paths()
@@ -63,7 +65,6 @@ async def rate_limiter(file_path: str, semaphore: Semaphore):
 
             summary_dict = {
                 "text":  result.choices[0].message.content.replace('\n', ''),
-                "timestamp": f'{now.strftime("%m/%d/%Y")}'
             }
 
             if file_json["slug"] in disclaimer_file:
@@ -71,6 +72,7 @@ async def rate_limiter(file_path: str, semaphore: Semaphore):
 
             return {
                  **file_json,
+                 "created_timestamp": now_in_seconds,
                  "summary": summary_dict
             }
      

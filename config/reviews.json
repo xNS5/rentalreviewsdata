@@ -7,96 +7,96 @@
     {
       "title": "Company Type",
       "key": "company_type",
-      "type:": "select",
-      "value:": [
+      "type": "select",
+      "value": [
         {
-          "title:": "Company",
-          "key:": "company"
+          "title": "Company",
+          "key": "company"
         },
         {
-          "title:": "Property",
-          "key:": "property"
+          "title": "Property",
+          "key": "property"
         }
       ]
     },
     {
-      "title:": "Average Rating",
-      "key:": "average_rating",
-      "type:": "select",
-      "value:": [
+      "title": "Average Rating",
+      "key": "average_rating",
+      "type": "select",
+      "value": [
         {
-          "title:": 1,
-          "key:": 1
+          "title": 1,
+          "key": 1
         },
         {
-          "title:": 2,
-          "key:": 2
+          "title": 2,
+          "key": 2
         },
         {
-          "title:": 3,
-          "key:": 3
+          "title": 3,
+          "key": 3
+        },
+       {
+          "title": 4,
+          "key": 4
         },
         {
-          "title:": 4,
-          "key:": 4
-        },
-        {
-          "title:": 5,
-          "key:": 5
+          "title": 5,
+          "key": 5
         }
       ]
     },
     {
-      "title:": "Adjusted Average Rating",
-      "key:": "adjusted_average_rating",
-      "type:": "select",
-      "value:": [
+      "title": "Adjusted Average Rating",
+      "key": "adjusted_average_rating",
+      "type": "select",
+      "value": [
         {
-          "title:": 1,
-          "key:": 1
+          "title": 1,
+          "key": 1
         },
         {
-          "title:": 2,
-          "key:": 2
+          "title": 2,
+          "key": 2
         },
         {
-          "title:": 3,
-          "key:": 3
+          "title": 3,
+          "key": 3
         },
         {
-          "title:": 4,
-          "key:": 4
+          "title": 4,
+          "key": 4
         },
         {
-          "title:": 5,
-          "key:": 5
+          "title": 5,
+          "key": 5
         }
       ]
     },
     {
-      "title:": "Review Count",
-      "key:": "review_count",
-      "type:": "select",
-      "value:": [
+      "title": "Review Count",
+      "key": "review_count",
+      "type": "select",
+      "value": [
         {
-          "title:": 10,
-          "key:": 10
+          "title": 10,
+          "key": 10
         },
         {
-          "title:": 20,
-          "key:": 20
+          "title": 20,
+          "key": 20
         },
         {
-          "title:": 30,
-          "key:": 30
+          "title": 30,
+          "key": 30
         },
         {
-          "title:": 40,
-          "key:": 40
+          "title": 40,
+          "key": 40
         },
         {
-          "title:": 50,
-          "key:": 50
+          "title": 50,
+          "key": 50
         }
       ]
     }

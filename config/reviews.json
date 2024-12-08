@@ -13,10 +13,12 @@
       "value": [
         {
           "title": "Company",
+          "value": "Company",
           "key": "Company"
         },
         {
           "title": "Property",
+          "value": "Property",
           "key": "Property"
         }
       ]
@@ -25,7 +27,10 @@
       "title": "search",
       "key": "search",
       "type": "",
-      "comparison": "===",
+      "comparison": "includes",
+      "searchKey": "name",
+      "prefix": "",
+      "suffix": "",
       "shouldRender": false
     },
     {
@@ -33,6 +38,8 @@
       "key": "average_rating",
       "type": "select",
       "comparison": ">=",
+      "prefix": "",
+      "suffix": "+",
       "shouldRender": true,
       "value": [
         {

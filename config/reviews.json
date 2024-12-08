@@ -8,21 +8,32 @@
       "title": "Company Type",
       "key": "company_type",
       "type": "select",
+      "comparison": "===",
+      "shouldRender": true,
       "value": [
         {
           "title": "Company",
-          "key": "company"
+          "key": "Company"
         },
         {
           "title": "Property",
-          "key": "property"
+          "key": "Property"
         }
       ]
+    },
+    {
+      "title": "search",
+      "key": "search",
+      "type": "",
+      "comparison": "===",
+      "shouldRender": false
     },
     {
       "title": "Average Rating",
       "key": "average_rating",
       "type": "select",
+      "comparison": ">=",
+      "shouldRender": true,
       "value": [
         {
           "title": 1,
@@ -36,7 +47,7 @@
           "title": 3,
           "key": 3
         },
-       {
+        {
           "title": 4,
           "key": 4
         },
@@ -50,6 +61,8 @@
       "title": "Adjusted Average Rating",
       "key": "adjusted_average_rating",
       "type": "select",
+      "comparison": ">=",
+      "shouldRender": true,
       "value": [
         {
           "title": 1,
@@ -77,6 +90,8 @@
       "title": "Review Count",
       "key": "review_count",
       "type": "select",
+      "comparison": ">=",
+      "shouldRender": true,
       "value": [
         {
           "title": 10,

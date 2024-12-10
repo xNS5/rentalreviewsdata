@@ -24,11 +24,10 @@
       ]
     },
     {
-      "title": "search",
-      "key": "search",
+      "title": "name",
+      "key": "name",
       "type": "",
       "comparison": "includes",
-      "searchKey": "name",
       "prefix": "",
       "suffix": "",
       "shouldRender": false

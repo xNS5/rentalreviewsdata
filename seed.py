@@ -15,13 +15,15 @@ seed_config = get_seed_config()
 
 verbose = False
 
+testConnection = False
+
 
 def get_params():
     database_selection = None
     database_action = None
     database_environment = None
     database_options = ["mongodb", "firebase"]
-    action_options = ["seed", "clear", "list", "update", "re-seed"]
+    action_options = ["seed", "clear", "list", "update", "test", "re-seed"]
     env_options = ["test", "production"]
     confirmation_options = ["Yes", "No"]
     if len(sys.argv) > 1:
@@ -331,6 +333,7 @@ def main(db_name, db_action, db_env=None):
                     )
                 )
                 db = client[config["MONGODB_DB_NAME"]]
+
             case "firebase":
                 import firebase_admin
                 from firebase_admin import credentials, firestore
@@ -344,6 +347,9 @@ def main(db_name, db_action, db_env=None):
 
         if verbose:
             print(f"Initialized connection to {db_name}")
+        if db_action == 'test':
+            print(f"Successfully connected to {db_name}")
+            exit()
 
         def exec_action(action):
             for path in seed_config:

@@ -28,8 +28,6 @@
       "key": "name",
       "type": "",
       "comparison": "includes",
-      "prefix": "",
-      "suffix": "",
       "shouldRender": false
     },
     {
@@ -37,8 +35,14 @@
       "key": "average_rating",
       "type": "select",
       "comparison": ">=",
-      "prefix": "",
-      "suffix": "+",
+      "style": {
+        "alt": {
+          "prefix": "greater than or equal to",
+          "postfix": ""
+        },
+        "prefix": "≥",
+        "postfix": ""
+      },
       "shouldRender": true,
       "value": [
         {
@@ -68,6 +72,14 @@
       "key": "adjusted_average_rating",
       "type": "select",
       "comparison": ">=",
+      "style": {
+                "alt": {
+          "prefix": "greater than or equal to",
+          "postfix": ""
+        },
+        "prefix": "≥",
+        "postfix": ""
+      },
       "shouldRender": true,
       "value": [
         {
@@ -97,6 +109,14 @@
       "key": "review_count",
       "type": "select",
       "comparison": ">=",
+      "style": {
+                "alt": {
+          "prefix": "greater than or equal to",
+          "postfix": ""
+        },
+        "prefix": "≥",
+        "postfix": ""
+      },
       "shouldRender": true,
       "value": [
         {

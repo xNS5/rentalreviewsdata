@@ -1,6 +1,145 @@
 {
-    "name": "reviews",
-    "title": "Reviews",
-    "description": "Rental Reviews Data",
-    "disclaimer": "Note: The Adjusted Review Count and Adjusted Review Rating reflects only reviews with both text and a rating"
+  "name": "reviews",
+  "title": "Reviews",
+  "description": "Rental Reviews Data",
+  "disclaimer": "Note: The Adjusted Review Count and Adjusted Review Rating reflects only reviews with both text and a rating",
+  "filter_props": [
+    {
+      "title": "Company Type",
+      "key": "company_type",
+      "type": "select",
+      "comparison": "===",
+      "shouldRender": true,
+      "value": [
+        {
+          "title": "Company",
+          "value": "Company",
+          "key": "Company"
+        },
+        {
+          "title": "Property",
+          "value": "Property",
+          "key": "Property"
+        }
+      ]
+    },
+    {
+      "title": "name",
+      "key": "name",
+      "type": "",
+      "comparison": "includes",
+      "shouldRender": false
+    },
+    {
+      "title": "Average Rating",
+      "key": "average_rating",
+      "type": "select",
+      "comparison": ">=",
+      "style": {
+        "alt": {
+          "prefix": "greater than or equal to",
+          "postfix": ""
+        },
+        "prefix": "≥",
+        "postfix": ""
+      },
+      "shouldRender": true,
+      "value": [
+        {
+          "title": 1,
+          "key": 1
+        },
+        {
+          "title": 2,
+          "key": 2
+        },
+        {
+          "title": 3,
+          "key": 3
+        },
+        {
+          "title": 4,
+          "key": 4
+        },
+        {
+          "title": 5,
+          "key": 5
+        }
+      ]
+    },
+    {
+      "title": "Adjusted Average Rating",
+      "key": "adjusted_average_rating",
+      "type": "select",
+      "comparison": ">=",
+      "style": {
+                "alt": {
+          "prefix": "greater than or equal to",
+          "postfix": ""
+        },
+        "prefix": "≥",
+        "postfix": ""
+      },
+      "shouldRender": true,
+      "value": [
+        {
+          "title": 1,
+          "key": 1
+        },
+        {
+          "title": 2,
+          "key": 2
+        },
+        {
+          "title": 3,
+          "key": 3
+        },
+        {
+          "title": 4,
+          "key": 4
+        },
+        {
+          "title": 5,
+          "key": 5
+        }
+      ]
+    },
+    {
+      "title": "Review Count",
+      "key": "review_count",
+      "type": "select",
+      "comparison": ">=",
+      "style": {
+                "alt": {
+          "prefix": "greater than or equal to",
+          "postfix": ""
+        },
+        "prefix": "≥",
+        "postfix": ""
+      },
+      "shouldRender": true,
+      "value": [
+        {
+          "title": 10,
+          "key": 10
+        },
+        {
+          "title": 20,
+          "key": 20
+        },
+        {
+          "title": 30,
+          "key": 30
+        },
+        {
+          "title": 40,
+          "key": 40
+        },
+        {
+          "title": 50,
+          "key": 50
+        }
+      ]
+    }
+  ]
 }

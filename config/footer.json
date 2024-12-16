@@ -23,6 +23,13 @@
     "target": "",
     "row": 1
   },
+    {
+    "type": "link",
+    "text": "Accessibility",
+    "url": "/accessibility",
+    "target": "",
+    "row": 1
+  },
   {
     "type": "text",
     "text": "Michael Kennedy © 2024-2025",

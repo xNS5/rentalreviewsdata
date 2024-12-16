@@ -9,6 +9,14 @@
       "key": "company_type",
       "type": "select",
       "comparison": "===",
+      "style": {
+        "alt": {
+          "prefix": "",
+          "postfix": ""
+        },
+        "prefix": "",
+        "postfix": ""
+      },
       "shouldRender": true,
       "value": [
         {
@@ -73,7 +81,7 @@
       "type": "select",
       "comparison": ">=",
       "style": {
-                "alt": {
+        "alt": {
           "prefix": "greater than or equal to",
           "postfix": ""
         },
@@ -110,7 +118,7 @@
       "type": "select",
       "comparison": ">=",
       "style": {
-                "alt": {
+        "alt": {
           "prefix": "greater than or equal to",
           "postfix": ""
         },

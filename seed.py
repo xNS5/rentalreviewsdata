@@ -128,7 +128,7 @@ def squash_file(db, client, path_obj):
     squash_config = path_obj["squash_config"]
 
     for file in files:
-        with open(f"{input_path}/{file}", "r") as inputFile:
+        with open(f"{input_path}/{file}", "r", encoding="utf-8") as inputFile:
             input_json = json.load(inputFile)
             seed_obj[file[:-5]] = input_json
             inputFile.close()
@@ -161,7 +161,7 @@ def create_index(db, client, path_obj):
     ret_obj = {"data": []}
 
     for file in files:
-        with open(f"{input_path}/{file}", "r") as inputFile:
+        with open(f"{input_path}/{file}", "r", encoding="utf-8") as inputFile:
             input_json = json.load(inputFile)
             seed_arr.append(input_json)
             inputFile.close()
@@ -194,7 +194,7 @@ def populate(db, client, path_obj):
     files = list_files(input_path)
 
     for file in files:
-        with open(f"{input_path}/{file}", "r") as inputFile:
+        with open(f"{input_path}/{file}", "r", encoding="utf-8") as inputFile:
             input_json = json.load(inputFile)
             seed_arr.append(input_json)
             inputFile.close()
@@ -279,7 +279,7 @@ def update(db, client, path_obj):
         match client:
             case "mongodb":
                 for file in files:
-                    with open(f"./{file}", "r") as inputFile:
+                    with open(f"./{file}", "r", encoding="utf-8") as inputFile:
                         input_json = json.load(inputFile)
                         for key, key_arr in path_obj["collection_keys"].items():
                             temp_obj = (
@@ -299,7 +299,7 @@ def update(db, client, path_obj):
                         inputFile.close()
             case "firebase":
                 for file in files:
-                    with open(f"./{file}", "r") as inputFile:
+                    with open(f"./{file}", "r", encoding="utf-8") as inputFile:
                         input_json = json.load(inputFile)
                         for key, key_arr in path_obj["collection_keys"].items():
                             temp_obj = (

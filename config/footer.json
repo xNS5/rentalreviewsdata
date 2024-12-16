@@ -18,15 +18,15 @@
   },
   {
     "type": "link",
-    "text": "FAQ",
-    "url": "/faq",
+    "text": "Accessibility",
+    "url": "/accessibility",
     "target": "",
     "row": 1
   },
-    {
+  {
     "type": "link",
-    "text": "Accessibility",
-    "url": "/accessibility",
+    "text": "FAQ",
+    "url": "/faq",
     "target": "",
     "row": 1
   },

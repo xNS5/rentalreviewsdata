@@ -1,4 +1,35 @@
 {
     "title": "Bellingham Rental Reviews",
-    "description": "Empowering renters with AI insights"
+    "description": "Empowering renters with AI insights",
+    "robots": {
+        "rules": [
+            {
+                "userAgent": [
+                    "Googlebot",
+                    "Bingbot",
+                    "DuckDuckBot",
+                    "Baiduspider",
+                    "Yandex",
+                    "Yahoo! Slurp"
+                ],
+                "allow": "/"
+            },
+            {
+                "userAgent": [
+                    "*AI*",
+                    "*Bot*",
+                    "GPT",
+                    "ChatGPT",
+                    "OpenAI",
+                    "Claude",
+                    "Bard",
+                    "Gemini",
+                    "Anthropic",
+                    "*Crawler*",
+                    "*Scraper*"
+                ],
+                "disallow": "/"
+            }
+        ]
+    }
 }

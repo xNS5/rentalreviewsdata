@@ -2,6 +2,7 @@ import json
 import traceback
 import sys
 import argparse
+from datetime import datetime
 import pyinputplus as pyinput
 from git import Repo
 
@@ -321,23 +322,34 @@ def create_sitemap():
     base_url = get_base_url()
     output_path = "./sitemap/sitemap.json"
     config_files = list_files("config")
+    today = datetime.today().strftime("%Y-%m-%d")
     for file in config_files:
         with open(f"config/{file}", 'r', encoding='utf-8') as input_file:
             input_json = json.load(input_file)
             if 'type' in input_json and input_json['type'] == 'page':
                 pages.append({
                     "url": f"{base_url}/{input_json['name']}",
+                    "lastModified": today,
+                    "changeFrequency": "monthly",
+                    "priority": 1
                 })
             input_file.close()
     article_files = list_files("articles")
     for file in article_files:
         with open(f"articles/{file}", 'r', encoding='utf-8') as input_file:
             input_json = json.load(input_file)
+            created_timestamp = datetime.fromtimestamp(input_json['created_timestamp']).strftime("%Y-%m-%d")
             pages.append({
-                "url": f"{base_url}/reviews/{input_json['slug']}"
+                "url": f"{base_url}/reviews/{input_json['slug']}",
+                "lastModified": created_timestamp,
+                "changeFrequency": "monthly",
+                "priority": 0.9
             })
             pages.append({
-                "url": f"{base_url}reviews/{input_json['slug']}/data"
+                "url": f"{base_url}/reviews/{input_json['slug']}/data",
+                "lastModified": created_timestamp,
+                "changeFrequency": "monthly",
+                "priority": 0.2
             })
             input_file.close()
     create_json_file(output_path, pages)

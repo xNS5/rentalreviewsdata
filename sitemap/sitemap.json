@@ -1,965 +1,1928 @@
 [
   {
-    "url": "https://bhamrentalreviews.com/accessibility"
+    "url": "https://bhamrentalreviews.com/accessibility",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
   },
   {
-    "url": "https://bhamrentalreviews.com/faq"
+    "url": "https://bhamrentalreviews.com/faq",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
   },
   {
-    "url": "https://bhamrentalreviews.com/home"
+    "url": "https://bhamrentalreviews.com/home",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
   },
   {
-    "url": "https://bhamrentalreviews.com/privacy-policy"
+    "url": "https://bhamrentalreviews.com/privacy-policy",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews"
+    "url": "https://bhamrentalreviews.com/reviews",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/20-bellwether-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/20-bellwether-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/20-bellwether-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/20-bellwether-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/32nd-st-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/32nd-st-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/32nd-st-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/32nd-st-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/500-square-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/500-square-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/500-square-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/500-square-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/access-real-estate-services"
+    "url": "https://bhamrentalreviews.com/reviews/access-real-estate-services",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/access-real-estate-services/data"
+    "url": "https://bhamrentalreviews.com/reviews/access-real-estate-services/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/acp-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/acp-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/acp-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/acp-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/adams-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/adams-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/adams-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/adams-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/affinity-at-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/affinity-at-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/affinity-at-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/affinity-at-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/alamo-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/alamo-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/alamo-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/alamo-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/andrea-ridge"
+    "url": "https://bhamrentalreviews.com/reviews/andrea-ridge",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/andrea-ridge/data"
+    "url": "https://bhamrentalreviews.com/reviews/andrea-ridge/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/apex-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/apex-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/apex-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/apex-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/arbour-north"
+    "url": "https://bhamrentalreviews.com/reviews/arbour-north",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/arbour-north/data"
+    "url": "https://bhamrentalreviews.com/reviews/arbour-north/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/bakerview-terrace-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/bakerview-terrace-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/bakerview-terrace-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/bakerview-terrace-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/barkley-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/barkley-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/barkley-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/barkley-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/belleau-woods-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/belleau-woods-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/belleau-woods-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/belleau-woods-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/bellingham-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/bellingham-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/bellingham-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/bellingham-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/bellingham-green"
+    "url": "https://bhamrentalreviews.com/reviews/bellingham-green",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/bellingham-green/data"
+    "url": "https://bhamrentalreviews.com/reviews/bellingham-green/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/birnam-wood-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/birnam-wood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/birnam-wood-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/birnam-wood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/brampton-court-apts"
+    "url": "https://bhamrentalreviews.com/reviews/brampton-court-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/brampton-court-apts/data"
+    "url": "https://bhamrentalreviews.com/reviews/brampton-court-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/briarwood-terrace-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/briarwood-terrace-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/briarwood-terrace-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/briarwood-terrace-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/bridge-creek-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/bridge-creek-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/bridge-creek-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/bridge-creek-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/brooks-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/brooks-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/brooks-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/brooks-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/canterbury-court-apts"
+    "url": "https://bhamrentalreviews.com/reviews/canterbury-court-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/canterbury-court-apts/data"
+    "url": "https://bhamrentalreviews.com/reviews/canterbury-court-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/cascade-meadows"
+    "url": "https://bhamrentalreviews.com/reviews/cascade-meadows",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/cascade-meadows/data"
+    "url": "https://bhamrentalreviews.com/reviews/cascade-meadows/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/cedar-grove-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/cedar-grove-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/cedar-grove-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/cedar-grove-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/chuckanut-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/chuckanut-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/chuckanut-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/chuckanut-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/city-gate-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/city-gate-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/city-gate-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/city-gate-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/coldwell-banker-bain-of-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/coldwell-banker-bain-of-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/coldwell-banker-bain-of-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/coldwell-banker-bain-of-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/crescent-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/crescent-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/crescent-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/crescent-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/crestwood-manor-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/crestwood-manor-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/crestwood-manor-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/crestwood-manor-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/cypress-place-condominiums"
+    "url": "https://bhamrentalreviews.com/reviews/cypress-place-condominiums",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/cypress-place-condominiums/data"
+    "url": "https://bhamrentalreviews.com/reviews/cypress-place-condominiums/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/dargone-usa"
+    "url": "https://bhamrentalreviews.com/reviews/dargone-usa",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/dargone-usa/data"
+    "url": "https://bhamrentalreviews.com/reviews/dargone-usa/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/daylight-properties"
+    "url": "https://bhamrentalreviews.com/reviews/daylight-properties",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/daylight-properties/data"
+    "url": "https://bhamrentalreviews.com/reviews/daylight-properties/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/dci-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/dci-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/dci-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/dci-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/dex-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/dex-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/dex-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/dex-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/don-enos"
+    "url": "https://bhamrentalreviews.com/reviews/don-enos",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/don-enos/data"
+    "url": "https://bhamrentalreviews.com/reviews/don-enos/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/ed-finlan-group"
+    "url": "https://bhamrentalreviews.com/reviews/ed-finlan-group",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/ed-finlan-group/data"
+    "url": "https://bhamrentalreviews.com/reviews/ed-finlan-group/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/edgemont-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/edgemont-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/edgemont-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/edgemont-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/eleanor-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/eleanor-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/eleanor-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/eleanor-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/elevate-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/elevate-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/elevate-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/elevate-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/elite-association-management"
+    "url": "https://bhamrentalreviews.com/reviews/elite-association-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/elite-association-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/elite-association-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/elwood-edge-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/elwood-edge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/elwood-edge-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/elwood-edge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/emb-management"
+    "url": "https://bhamrentalreviews.com/reviews/emb-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/emb-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/emb-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/evergreen-properties-nw"
+    "url": "https://bhamrentalreviews.com/reviews/evergreen-properties-nw",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/evergreen-properties-nw/data"
+    "url": "https://bhamrentalreviews.com/reviews/evergreen-properties-nw/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/evergreen-ridge-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/evergreen-ridge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/evergreen-ridge-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/evergreen-ridge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/fairhaven-harbor"
+    "url": "https://bhamrentalreviews.com/reviews/fairhaven-harbor",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/fairhaven-harbor/data"
+    "url": "https://bhamrentalreviews.com/reviews/fairhaven-harbor/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/fairhaven-park-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/fairhaven-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/fairhaven-park-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/fairhaven-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/fairhaven-plaza-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/fairhaven-plaza-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/fairhaven-plaza-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/fairhaven-plaza-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/fast-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/fast-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/fast-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/fast-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/follis-realty-llc"
+    "url": "https://bhamrentalreviews.com/reviews/follis-realty-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/follis-realty-llc/data"
+    "url": "https://bhamrentalreviews.com/reviews/follis-realty-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/foothills-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/foothills-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/foothills-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/foothills-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/forest-hill-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/forest-hill-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/forest-hill-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/forest-hill-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/forest-park-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/forest-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/forest-park-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/forest-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/gray-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/gray-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/gray-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/gray-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/hammer-properties-nw-inc"
+    "url": "https://bhamrentalreviews.com/reviews/hammer-properties-nw-inc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/hammer-properties-nw-inc/data"
+    "url": "https://bhamrentalreviews.com/reviews/hammer-properties-nw-inc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/harborview-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/harborview-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/harborview-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/harborview-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/harvard-suites"
+    "url": "https://bhamrentalreviews.com/reviews/harvard-suites",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/harvard-suites/data"
+    "url": "https://bhamrentalreviews.com/reviews/harvard-suites/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/heather-commons"
+    "url": "https://bhamrentalreviews.com/reviews/heather-commons",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/heather-commons/data"
+    "url": "https://bhamrentalreviews.com/reviews/heather-commons/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/hideaway-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/hideaway-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/hideaway-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/hideaway-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/hilda-lane-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/hilda-lane-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/hilda-lane-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/hilda-lane-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/inglewood-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/inglewood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/inglewood-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/inglewood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/integra-condominium-association-management"
+    "url": "https://bhamrentalreviews.com/reviews/integra-condominium-association-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/integra-condominium-association-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/integra-condominium-association-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/kerf-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/kerf-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/kerf-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/kerf-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/kingsway-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/kingsway-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/kingsway-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/kingsway-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/lakeway-rentals"
+    "url": "https://bhamrentalreviews.com/reviews/lakeway-rentals",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/lakeway-rentals/data"
+    "url": "https://bhamrentalreviews.com/reviews/lakeway-rentals/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/landmark-real-estate-management"
+    "url": "https://bhamrentalreviews.com/reviews/landmark-real-estate-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/landmark-real-estate-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/landmark-real-estate-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/lark-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/lark-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/lark-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/lark-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/larkin-place-apts"
+    "url": "https://bhamrentalreviews.com/reviews/larkin-place-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/larkin-place-apts/data"
+    "url": "https://bhamrentalreviews.com/reviews/larkin-place-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/laurel-village"
+    "url": "https://bhamrentalreviews.com/reviews/laurel-village",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/laurel-village/data"
+    "url": "https://bhamrentalreviews.com/reviews/laurel-village/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/lighthouse-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/lighthouse-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/lighthouse-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/lighthouse-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/local-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/local-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/local-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/local-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/mahogany-manor"
+    "url": "https://bhamrentalreviews.com/reviews/mahogany-manor",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/mahogany-manor/data"
+    "url": "https://bhamrentalreviews.com/reviews/mahogany-manor/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/maple-park-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/maple-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/maple-park-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/maple-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/maplewood-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/maplewood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/maplewood-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/maplewood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/maplewood-place-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/maplewood-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/maplewood-place-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/maplewood-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/maplewood-west-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/maplewood-west-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/maplewood-west-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/maplewood-west-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/millwood-park-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/millwood-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/millwood-park-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/millwood-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/misty-mountain-real-estate-management"
+    "url": "https://bhamrentalreviews.com/reviews/misty-mountain-real-estate-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/misty-mountain-real-estate-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/misty-mountain-real-estate-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/monterra-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/monterra-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/monterra-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/monterra-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/mt-baker-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/mt-baker-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/mt-baker-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/mt-baker-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/muljat-group-realtors"
+    "url": "https://bhamrentalreviews.com/reviews/muljat-group-realtors",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/muljat-group-realtors/data"
+    "url": "https://bhamrentalreviews.com/reviews/muljat-group-realtors/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/navigate-community-management"
+    "url": "https://bhamrentalreviews.com/reviews/navigate-community-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/navigate-community-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/navigate-community-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/new-england-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/new-england-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/new-england-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/new-england-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/newport-apartments-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/newport-apartments-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/newport-apartments-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/newport-apartments-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/northbrook-place-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/northbrook-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/northbrook-place-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/northbrook-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/northwest-property-collective-llc"
+    "url": "https://bhamrentalreviews.com/reviews/northwest-property-collective-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/northwest-property-collective-llc/data"
+    "url": "https://bhamrentalreviews.com/reviews/northwest-property-collective-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/old-mill-village"
+    "url": "https://bhamrentalreviews.com/reviews/old-mill-village",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/old-mill-village/data"
+    "url": "https://bhamrentalreviews.com/reviews/old-mill-village/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/omni-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/omni-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/omni-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/omni-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/optimus-property-solutions"
+    "url": "https://bhamrentalreviews.com/reviews/optimus-property-solutions",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/optimus-property-solutions/data"
+    "url": "https://bhamrentalreviews.com/reviews/optimus-property-solutions/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/pacific-continental-realty-llc"
+    "url": "https://bhamrentalreviews.com/reviews/pacific-continental-realty-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/pacific-continental-realty-llc/data"
+    "url": "https://bhamrentalreviews.com/reviews/pacific-continental-realty-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/pacific-rim-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/pacific-rim-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/pacific-rim-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/pacific-rim-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/padden-creek-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/padden-creek-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/padden-creek-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/padden-creek-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/park-place-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/park-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/park-place-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/park-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/park-terrace-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/park-terrace-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/park-terrace-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/park-terrace-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/park-view-village-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/park-view-village-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/park-view-village-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/park-view-village-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/patos-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/patos-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/patos-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/patos-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/piazza-realty-property-management-inc"
+    "url": "https://bhamrentalreviews.com/reviews/piazza-realty-property-management-inc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/piazza-realty-property-management-inc/data"
+    "url": "https://bhamrentalreviews.com/reviews/piazza-realty-property-management-inc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/pomeroy-court-appartments"
+    "url": "https://bhamrentalreviews.com/reviews/pomeroy-court-appartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/pomeroy-court-appartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/pomeroy-court-appartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/porchlight-property-management-llc"
+    "url": "https://bhamrentalreviews.com/reviews/porchlight-property-management-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/porchlight-property-management-llc/data"
+    "url": "https://bhamrentalreviews.com/reviews/porchlight-property-management-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/prince-avenue-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/prince-avenue-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/prince-avenue-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/prince-avenue-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/property-management-professionals"
+    "url": "https://bhamrentalreviews.com/reviews/property-management-professionals",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/property-management-professionals/data"
+    "url": "https://bhamrentalreviews.com/reviews/property-management-professionals/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/ptla-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/ptla-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/ptla-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/ptla-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/pure-property-management-of-washington"
+    "url": "https://bhamrentalreviews.com/reviews/pure-property-management-of-washington",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/pure-property-management-of-washington/data"
+    "url": "https://bhamrentalreviews.com/reviews/pure-property-management-of-washington/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/real-property-management-north-puget-sound"
+    "url": "https://bhamrentalreviews.com/reviews/real-property-management-north-puget-sound",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/real-property-management-north-puget-sound/data"
+    "url": "https://bhamrentalreviews.com/reviews/real-property-management-north-puget-sound/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/real-property-management-teyata"
+    "url": "https://bhamrentalreviews.com/reviews/real-property-management-teyata",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/real-property-management-teyata/data"
+    "url": "https://bhamrentalreviews.com/reviews/real-property-management-teyata/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/regency-park-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/regency-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/regency-park-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/regency-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/rent-lady"
+    "url": "https://bhamrentalreviews.com/reviews/rent-lady",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/rent-lady/data"
+    "url": "https://bhamrentalreviews.com/reviews/rent-lady/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/rhododendron-court-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/rhododendron-court-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/rhododendron-court-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/rhododendron-court-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/ridge-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/ridge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/ridge-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/ridge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/roma-management"
+    "url": "https://bhamrentalreviews.com/reviews/roma-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/roma-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/roma-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/samish-commons"
+    "url": "https://bhamrentalreviews.com/reviews/samish-commons",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/samish-commons/data"
+    "url": "https://bhamrentalreviews.com/reviews/samish-commons/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/samish-ridge-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/samish-ridge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/samish-ridge-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/samish-ridge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/samish-station"
+    "url": "https://bhamrentalreviews.com/reviews/samish-station",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/samish-station/data"
+    "url": "https://bhamrentalreviews.com/reviews/samish-station/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sehome-court-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/sehome-court-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sehome-court-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/sehome-court-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sky-view-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/sky-view-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sky-view-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/sky-view-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sky-vue-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/sky-vue-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sky-vue-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/sky-vue-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sonrise-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/sonrise-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sonrise-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/sonrise-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sophia-place-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/sophia-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sophia-place-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/sophia-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/soria-real-estate"
+    "url": "https://bhamrentalreviews.com/reviews/soria-real-estate",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/soria-real-estate/data"
+    "url": "https://bhamrentalreviews.com/reviews/soria-real-estate/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/south-hill-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/south-hill-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/south-hill-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/south-hill-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/spring-creek-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/spring-creek-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/spring-creek-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/spring-creek-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/stanford-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/stanford-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/stanford-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/stanford-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/stateside-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/stateside-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/stateside-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/stateside-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/stoneway-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/stoneway-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/stoneway-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/stoneway-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sunmark-properties"
+    "url": "https://bhamrentalreviews.com/reviews/sunmark-properties",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sunmark-properties/data"
+    "url": "https://bhamrentalreviews.com/reviews/sunmark-properties/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sunset-pond-apts"
+    "url": "https://bhamrentalreviews.com/reviews/sunset-pond-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sunset-pond-apts/data"
+    "url": "https://bhamrentalreviews.com/reviews/sunset-pond-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/sycamore-corporation"
+    "url": "https://bhamrentalreviews.com/reviews/sycamore-corporation",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/sycamore-corporation/data"
+    "url": "https://bhamrentalreviews.com/reviews/sycamore-corporation/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/taylor-heights"
+    "url": "https://bhamrentalreviews.com/reviews/taylor-heights",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/taylor-heights/data"
+    "url": "https://bhamrentalreviews.com/reviews/taylor-heights/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-avalon-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/the-avalon-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-avalon-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-avalon-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-edge-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/the-edge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-edge-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-edge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-meadows-by-vintage"
+    "url": "https://bhamrentalreviews.com/reviews/the-meadows-by-vintage",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-meadows-by-vintage/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-meadows-by-vintage/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-sandpiper"
+    "url": "https://bhamrentalreviews.com/reviews/the-sandpiper",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-sandpiper/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-sandpiper/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-tremezzo-north-apartment-complex"
+    "url": "https://bhamrentalreviews.com/reviews/the-tremezzo-north-apartment-complex",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-tremezzo-north-apartment-complex/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-tremezzo-north-apartment-complex/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-turnstone"
+    "url": "https://bhamrentalreviews.com/reviews/the-turnstone",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-turnstone/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-turnstone/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-twin-pines-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/the-twin-pines-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-twin-pines-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-twin-pines-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-u-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/the-u-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-u-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-u-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-village-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/the-village-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-village-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-village-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/the-vintage-at-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/the-vintage-at-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/the-vintage-at-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/the-vintage-at-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/trailview-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/trailview-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/trailview-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/trailview-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/triple-rock-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/triple-rock-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/triple-rock-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/triple-rock-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/tullwood-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/tullwood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/tullwood-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/tullwood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/utopia-property-management-bellingham-wa"
+    "url": "https://bhamrentalreviews.com/reviews/utopia-property-management-bellingham-wa",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/utopia-property-management-bellingham-wa/data"
+    "url": "https://bhamrentalreviews.com/reviews/utopia-property-management-bellingham-wa/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/varsity-village"
+    "url": "https://bhamrentalreviews.com/reviews/varsity-village",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/varsity-village/data"
+    "url": "https://bhamrentalreviews.com/reviews/varsity-village/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/viking-gardens-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/viking-gardens-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/viking-gardens-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/viking-gardens-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/villa-bonita-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/villa-bonita-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/villa-bonita-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/villa-bonita-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/village-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/village-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/village-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/village-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/village-at-baker-creek"
+    "url": "https://bhamrentalreviews.com/reviews/village-at-baker-creek",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/village-at-baker-creek/data"
+    "url": "https://bhamrentalreviews.com/reviews/village-at-baker-creek/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/village-on-the-green-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/village-on-the-green-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/village-on-the-green-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/village-on-the-green-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/vintage-at-bellingham"
+    "url": "https://bhamrentalreviews.com/reviews/vintage-at-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/vintage-at-bellingham/data"
+    "url": "https://bhamrentalreviews.com/reviews/vintage-at-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/voltaire-court-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/voltaire-court-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/voltaire-court-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/voltaire-court-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/walton-place"
+    "url": "https://bhamrentalreviews.com/reviews/walton-place",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/walton-place/data"
+    "url": "https://bhamrentalreviews.com/reviews/walton-place/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/washington-square-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/washington-square-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/washington-square-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/washington-square-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/weatherby-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/weatherby-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/weatherby-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/weatherby-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/westview-real-estate"
+    "url": "https://bhamrentalreviews.com/reviews/westview-real-estate",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/westview-real-estate/data"
+    "url": "https://bhamrentalreviews.com/reviews/westview-real-estate/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/whidbey-residential-rentals"
+    "url": "https://bhamrentalreviews.com/reviews/whidbey-residential-rentals",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/whidbey-residential-rentals/data"
+    "url": "https://bhamrentalreviews.com/reviews/whidbey-residential-rentals/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/windermere-property-management-north-sound"
+    "url": "https://bhamrentalreviews.com/reviews/windermere-property-management-north-sound",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/windermere-property-management-north-sound/data"
+    "url": "https://bhamrentalreviews.com/reviews/windermere-property-management-north-sound/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/windermere-property-management"
+    "url": "https://bhamrentalreviews.com/reviews/windermere-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/windermere-property-management/data"
+    "url": "https://bhamrentalreviews.com/reviews/windermere-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/woodrose-senior-affordable-apartments"
+    "url": "https://bhamrentalreviews.com/reviews/woodrose-senior-affordable-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/woodrose-senior-affordable-apartments/data"
+    "url": "https://bhamrentalreviews.com/reviews/woodrose-senior-affordable-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   },
   {
-    "url": "https://bhamrentalreviews.com/reviews/wwu-living-university-heights"
+    "url": "https://bhamrentalreviews.com/reviews/wwu-living-university-heights",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
   },
   {
-    "url": "https://bhamrentalreviews.comreviews/wwu-living-university-heights/data"
+    "url": "https://bhamrentalreviews.com/reviews/wwu-living-university-heights/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
   }
 ]

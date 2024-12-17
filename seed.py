@@ -328,7 +328,7 @@ def create_sitemap():
             input_json = json.load(input_file)
             if 'type' in input_json and input_json['type'] == 'page':
                 pages.append({
-                    "url": f"{base_url}/{input_json['name']}",
+                    "url": f"{input_json['name']}",
                     "lastModified": today,
                     "changeFrequency": "monthly",
                     "priority": 1
@@ -340,13 +340,13 @@ def create_sitemap():
             input_json = json.load(input_file)
             created_timestamp = datetime.fromtimestamp(input_json['created_timestamp']).strftime("%Y-%m-%d")
             pages.append({
-                "url": f"{base_url}/reviews/{input_json['slug']}",
+                "url": f"reviews/{input_json['slug']}",
                 "lastModified": created_timestamp,
                 "changeFrequency": "monthly",
                 "priority": 0.9
             })
             pages.append({
-                "url": f"{base_url}/reviews/{input_json['slug']}/data",
+                "url": f"reviews/{input_json['slug']}/data",
                 "lastModified": created_timestamp,
                 "changeFrequency": "monthly",
                 "priority": 0.2

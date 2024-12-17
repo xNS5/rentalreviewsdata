@@ -1,9 +1,8 @@
 {
-  "name": "reviews",
+  "name": "Reviews",
   "title": "Reviews",
   "type": "page",
   "description": "Rental Reviews Data",
-  "disclaimer": "Note: The Adjusted Review Count and Adjusted Review Rating reflects only reviews with both text and a rating",
   "filter_props": [
     {
       "title": "Company Type",

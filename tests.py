@@ -30,6 +30,11 @@ prompt_inputs = [
         "arg": ["-db", "firebase", "-a", "list"],
         "expected": {"fd": "stderr", "out": ["Environment required for Firebase"]},
     },
+    {
+        "name": "Test Generating Sitemap",
+        "arg": ["-db", "mongodb", "-a", "re-seed", "-sitemap"],
+        "expected": {"fd": "stdout", "out": [""]},
+    }
 ]
 mongodb_inputs = [
     {
@@ -106,6 +111,20 @@ mongodb_inputs = [
                 "Squashed sitemap in mongodb"
             ],
         },
+    },
+{
+        "name": "Test Generating Sitemap Verbose",
+        "arg": ["-db", "mongodb", "-a", "re-seed", "-sitemap", "-v"],
+        "expected": {"fd": "stdout", "out": [
+                "Generated Sitemap",
+                "Initialized connection to mongodb",
+                "Cleared mongodb",
+                "Created index on mongodb for articles",
+                f"Seeded mongodb with {get_file_count('articles')} records from articles",
+                "Squashed config in mongodb",
+                "Squashed sitemap in mongodb"
+            ],
+                     },
     },
 ]
 firebase_inputs = [
@@ -191,6 +210,21 @@ firebase_inputs = [
                 "Squashed sitemap in firebase"
             ],
         },
+    },
+{
+        "name": "Test Generating Sitemap Verbose",
+        "arg": ["-db", "firebase", "-a", "re-seed", "-env", "test", "-sitemap", "-v"],
+        "expected": {"fd": "stdout", "out": [
+                "Generated Sitemap",
+                 f"Firebase Certificate: {get_db_env('test')}",
+                "Initialized connection to firebase",
+                "Cleared firebase",
+                "Created index on firebase for articles",
+                f"Seeded firebase with {get_file_count('articles')} records from articles",
+                "Squashed config in firebase",
+                "Squashed sitemap in firebase"
+            ],
+                     },
     },
 ]
 

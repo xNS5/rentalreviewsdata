@@ -1,14 +1,18 @@
 import os
 import json
 import shutil
-import tempfile
 import re
+from pathlib import Path
 
 def get_config():
     with open("utilities/config.json", "r") as inputFile:
         input_json = json.load(inputFile)
         inputFile.close()
         return input_json
+
+def get_base_url():
+    config = get_config()
+    return config['base_url']
 
 def get_db_env(mode):
     config = get_config()
@@ -95,6 +99,13 @@ def get_file_tuple(path):
 
 def create_directory(path):
     os.makedirs(path, exist_ok=True)
+
+def create_json_file(path, contents):
+    file = Path(path)
+    file.parent.mkdir(exist_ok=True, parents=True)
+    with open(file, 'w', encoding='utf-8') as output_file:
+        json.dump(contents, output_file, ensure_ascii=True, indent=2)
+        output_file.close()
 
 def get_file_paths():
     config = get_config()

@@ -5,7 +5,7 @@ import argparse
 import pyinputplus as pyinput
 from git import Repo
 
-from utilities import list_files, get_seed_config, get_db_env
+from utilities import list_files, get_seed_config, get_db_env, get_base_url, create_json_file
 from dotenv import dotenv_values
 from collections import defaultdict
 
@@ -316,8 +316,36 @@ def update(db, client, path_obj):
     else:
         print(f"No updates available in {update_path}")
 
+def create_sitemap():
+    pages = []
+    base_url = get_base_url()
+    output_path = "./sitemap/sitemap.json"
+    config_files = list_files("config")
+    for file in config_files:
+        with open(f"config/{file}", 'r', encoding='utf-8') as input_file:
+            input_json = json.load(input_file)
+            if 'type' in input_json and input_json['type'] == 'page':
+                pages.append({
+                    "url": f"{base_url}/{input_json['name']}",
+                })
+            input_file.close()
+    article_files = list_files("articles")
+    for file in article_files:
+        with open(f"articles/{file}", 'r', encoding='utf-8') as input_file:
+            input_json = json.load(input_file)
+            pages.append({
+                "url": f"{base_url}/reviews/{input_json['slug']}"
+            })
+            pages.append({
+                "url": f"{base_url}reviews/{input_json['slug']}/data"
+            })
+            input_file.close()
+    create_json_file(output_path, pages)
+    return
+
 
 def main(db_name, db_action, db_env=None):
+    create_sitemap()
     try:
         db = None
         match db_name:

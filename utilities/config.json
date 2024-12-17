@@ -1,4 +1,5 @@
 {
+  "base_url":"https://bhamrentalreviews.com",
     "db_config": {
       "test": "firebase_staging_certificate.json",
       "production": "firebase_certificate.json"
@@ -48,6 +49,15 @@
             "squash_config": {
               "collection": "config",
               "document_name": "config"
+            }
+        },
+      {
+            "path": "sitemap",
+            "squash": true,
+            "index": false,
+            "squash_config": {
+              "collection": "sitemap",
+              "document_name": "sitemap"
             }
         }
     ],

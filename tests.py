@@ -37,7 +37,7 @@ mongodb_inputs = [
         "arg": ["-db", "mongodb", "-a", "list"],
         "expected": {
             "fd": "stdout",
-            "out": [["config", "index", "properties_and_companies", "reviews"]],
+            "out": [["config", "index", "properties_and_companies", "reviews", "sitemap"]],
         },
     },
     {
@@ -47,7 +47,7 @@ mongodb_inputs = [
             "fd": "stdout",
             "out": [
                 "Initialized connection to mongodb",
-                ["config", "index", "properties_and_companies", "reviews"],
+                ["config", "index", "properties_and_companies", "reviews", "sitemap"],
             ],
         },
     },
@@ -68,6 +68,7 @@ mongodb_inputs = [
                 "Created index on mongodb for articles",
                 f"Seeded mongodb with {get_file_count('articles')} records from articles",
                 "Squashed config in mongodb",
+                "Squashed sitemap in mongodb"
             ],
         },
     },
@@ -102,6 +103,7 @@ mongodb_inputs = [
                 "Created index on mongodb for articles",
                 f"Seeded mongodb with {get_file_count('articles')} records from articles",
                 "Squashed config in mongodb",
+                "Squashed sitemap in mongodb"
             ],
         },
     },
@@ -112,7 +114,7 @@ firebase_inputs = [
         "arg": ["-db", "firebase", "-a", "list", "-env", "test"],
         "expected": {
             "fd": "stdout",
-            "out": [["config", "index", "properties_and_companies", "reviews"]],
+            "out": [["config", "index", "properties_and_companies", "reviews", "sitemap"]],
         },
     },
     {
@@ -123,7 +125,7 @@ firebase_inputs = [
             "out": [
                 f"Firebase Certificate: {get_db_env('test')}",
                 "Initialized connection to firebase",
-                ["config", "index", "properties_and_companies", "reviews"],
+                ["config", "index", "properties_and_companies", "reviews", "sitemap"],
             ],
         },
     },
@@ -145,6 +147,7 @@ firebase_inputs = [
                 "Created index on firebase for articles",
                 f"Seeded firebase with {get_file_count('articles')} records from articles",
                 "Squashed config in firebase",
+                "Squashed sitemap in firebase",
             ],
         },
     },
@@ -185,6 +188,7 @@ firebase_inputs = [
                 "Created index on firebase for articles",
                 f"Seeded firebase with {get_file_count('articles')} records from articles",
                 "Squashed config in firebase",
+                "Squashed sitemap in firebase"
             ],
         },
     },

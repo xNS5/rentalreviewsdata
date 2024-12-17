@@ -125,6 +125,13 @@ def get_file_name(path):
     return str(get_file_tuple(path)[1])
 
 
+def get_file_metadata(path):
+    return {
+        "created": os.path.getctime(path),
+        "modified": os.path.getmtime(path)
+    }
+
+
 def search(data, key, value):
     for d in data:
         if d[key] is not None and d[key] == value:

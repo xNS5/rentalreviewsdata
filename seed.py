@@ -6,7 +6,7 @@ from datetime import datetime
 import pyinputplus as pyinput
 from git import Repo
 
-from utilities import list_files, get_seed_config, get_db_env, get_base_url, create_json_file
+from utilities import list_files, get_seed_config, get_db_env, get_file_metadata, create_json_file
 from dotenv import dotenv_values
 from collections import defaultdict
 
@@ -319,17 +319,18 @@ def update(db, client, path_obj):
 
 def create_sitemap():
     pages = []
-    base_url = get_base_url()
     output_path = "./sitemap/sitemap.json"
     config_files = list_files("config")
-    today = datetime.today().strftime("%Y-%m-%d")
     for file in config_files:
-        with open(f"config/{file}", 'r', encoding='utf-8') as input_file:
+        config_file_path = f"config/{file}"
+        metadata = get_file_metadata(config_file_path)
+        metadata_modified_timestamp = datetime.fromtimestamp(metadata['modified']).strftime("%Y-%m-%d")
+        with open(config_file_path, 'r', encoding='utf-8') as input_file:
             input_json = json.load(input_file)
             if 'type' in input_json and input_json['type'] == 'page':
                 pages.append({
                     "url": f"{input_json['name']}",
-                    "lastModified": today,
+                    "lastModified": metadata_modified_timestamp,
                     "changeFrequency": "monthly",
                     "priority": 1
                 })

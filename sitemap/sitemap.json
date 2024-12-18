@@ -1,0 +1,1928 @@
+[
+  {
+    "url": "accessibility",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
+  },
+  {
+    "url": "faq",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
+  },
+  {
+    "url": "home",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
+  },
+  {
+    "url": "privacy-policy",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
+  },
+  {
+    "url": "reviews",
+    "lastModified": "2024-12-16",
+    "changeFrequency": "monthly",
+    "priority": 1
+  },
+  {
+    "url": "reviews/20-bellwether-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/20-bellwether-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/32nd-st-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/32nd-st-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/500-square-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/500-square-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/access-real-estate-services",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/access-real-estate-services/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/acp-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/acp-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/adams-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/adams-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/affinity-at-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/affinity-at-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/alamo-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/alamo-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/andrea-ridge",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/andrea-ridge/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/apex-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/apex-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/arbour-north",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/arbour-north/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/bakerview-terrace-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/bakerview-terrace-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/barkley-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/barkley-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/belleau-woods-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/belleau-woods-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/bellingham-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/bellingham-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/bellingham-green",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/bellingham-green/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/birnam-wood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/birnam-wood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/brampton-court-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/brampton-court-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/briarwood-terrace-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/briarwood-terrace-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/bridge-creek-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/bridge-creek-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/brooks-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/brooks-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/canterbury-court-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/canterbury-court-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/cascade-meadows",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/cascade-meadows/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/cedar-grove-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/cedar-grove-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/chuckanut-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/chuckanut-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/city-gate-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/city-gate-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/coldwell-banker-bain-of-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/coldwell-banker-bain-of-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/crescent-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/crescent-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/crestwood-manor-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/crestwood-manor-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/cypress-place-condominiums",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/cypress-place-condominiums/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/dargone-usa",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/dargone-usa/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/daylight-properties",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/daylight-properties/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/dci-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/dci-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/dex-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/dex-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/don-enos",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/don-enos/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/ed-finlan-group",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/ed-finlan-group/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/edgemont-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/edgemont-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/eleanor-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/eleanor-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/elevate-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/elevate-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/elite-association-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/elite-association-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/elwood-edge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/elwood-edge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/emb-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/emb-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/evergreen-properties-nw",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/evergreen-properties-nw/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/evergreen-ridge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/evergreen-ridge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/fairhaven-harbor",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/fairhaven-harbor/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/fairhaven-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/fairhaven-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/fairhaven-plaza-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/fairhaven-plaza-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/fast-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/fast-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/follis-realty-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/follis-realty-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/foothills-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/foothills-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/forest-hill-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/forest-hill-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/forest-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/forest-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/gray-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/gray-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/hammer-properties-nw-inc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/hammer-properties-nw-inc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/harborview-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/harborview-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/harvard-suites",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/harvard-suites/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/heather-commons",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/heather-commons/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/hideaway-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/hideaway-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/hilda-lane-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/hilda-lane-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/inglewood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/inglewood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/integra-condominium-association-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/integra-condominium-association-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/kerf-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/kerf-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/kingsway-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/kingsway-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/lakeway-rentals",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/lakeway-rentals/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/landmark-real-estate-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/landmark-real-estate-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/lark-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/lark-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/larkin-place-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/larkin-place-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/laurel-village",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/laurel-village/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/lighthouse-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/lighthouse-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/local-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/local-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/mahogany-manor",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/mahogany-manor/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/maple-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/maple-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/maplewood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/maplewood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/maplewood-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/maplewood-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/maplewood-west-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/maplewood-west-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/millwood-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/millwood-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/misty-mountain-real-estate-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/misty-mountain-real-estate-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/monterra-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/monterra-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/mt-baker-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/mt-baker-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/muljat-group-realtors",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/muljat-group-realtors/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/navigate-community-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/navigate-community-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/new-england-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/new-england-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/newport-apartments-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/newport-apartments-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/northbrook-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/northbrook-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/northwest-property-collective-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/northwest-property-collective-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/old-mill-village",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/old-mill-village/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/omni-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/omni-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/optimus-property-solutions",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/optimus-property-solutions/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/pacific-continental-realty-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/pacific-continental-realty-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/pacific-rim-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/pacific-rim-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/padden-creek-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/padden-creek-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/park-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/park-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/park-terrace-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/park-terrace-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/park-view-village-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/park-view-village-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/patos-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/patos-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/piazza-realty-property-management-inc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/piazza-realty-property-management-inc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/pomeroy-court-appartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/pomeroy-court-appartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/porchlight-property-management-llc",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/porchlight-property-management-llc/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/prince-avenue-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/prince-avenue-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/property-management-professionals",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/property-management-professionals/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/ptla-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/ptla-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/pure-property-management-of-washington",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/pure-property-management-of-washington/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/real-property-management-north-puget-sound",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/real-property-management-north-puget-sound/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/real-property-management-teyata",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/real-property-management-teyata/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/regency-park-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/regency-park-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/rent-lady",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/rent-lady/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/rhododendron-court-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/rhododendron-court-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/ridge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/ridge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/roma-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/roma-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/samish-commons",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/samish-commons/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/samish-ridge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/samish-ridge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/samish-station",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/samish-station/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sehome-court-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sehome-court-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sky-view-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sky-view-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sky-vue-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sky-vue-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sonrise-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sonrise-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sophia-place-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sophia-place-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/soria-real-estate",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/soria-real-estate/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/south-hill-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/south-hill-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/spring-creek-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/spring-creek-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/stanford-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/stanford-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/stateside-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/stateside-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/stoneway-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/stoneway-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sunmark-properties",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sunmark-properties/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sunset-pond-apts",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sunset-pond-apts/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/sycamore-corporation",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/sycamore-corporation/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/taylor-heights",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/taylor-heights/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-avalon-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-avalon-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-edge-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-edge-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-meadows-by-vintage",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-meadows-by-vintage/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-sandpiper",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-sandpiper/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-tremezzo-north-apartment-complex",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-tremezzo-north-apartment-complex/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-turnstone",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-turnstone/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-twin-pines-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-twin-pines-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-u-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-u-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-village-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-village-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/the-vintage-at-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/the-vintage-at-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/trailview-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/trailview-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/triple-rock-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/triple-rock-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/tullwood-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/tullwood-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/utopia-property-management-bellingham-wa",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/utopia-property-management-bellingham-wa/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/varsity-village",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/varsity-village/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/viking-gardens-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/viking-gardens-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/villa-bonita-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/villa-bonita-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/village-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/village-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/village-at-baker-creek",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/village-at-baker-creek/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/village-on-the-green-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/village-on-the-green-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/vintage-at-bellingham",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/vintage-at-bellingham/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/voltaire-court-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/voltaire-court-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/walton-place",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/walton-place/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/washington-square-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/washington-square-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/weatherby-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/weatherby-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/westview-real-estate",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/westview-real-estate/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/whidbey-residential-rentals",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/whidbey-residential-rentals/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/windermere-property-management-north-sound",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/windermere-property-management-north-sound/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/windermere-property-management",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/windermere-property-management/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/woodrose-senior-affordable-apartments",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/woodrose-senior-affordable-apartments/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  },
+  {
+    "url": "reviews/wwu-living-university-heights",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  {
+    "url": "reviews/wwu-living-university-heights/data",
+    "lastModified": "2024-09-06",
+    "changeFrequency": "monthly",
+    "priority": 0.2
+  }
+]

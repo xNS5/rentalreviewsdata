@@ -1,0 +1,6 @@
+{
+  "name": "review",
+  "title": "Review",
+  "aria_announcement": "Main content contains headings, a list containing text, and paragraph text",
+  "displayed_column_ratings": ["review_count", "average_rating", "adjusted_review_count", "adjusted_average_rating"]
+}

@@ -39,6 +39,12 @@
       "shouldRender": false
     },
     {
+      "title": "page_number",
+      "key": "page_number",
+      "comparison": "",
+      "shouldRender": false
+    },
+    {
       "title": "Average Rating",
       "key": "average_rating",
       "type": "select",

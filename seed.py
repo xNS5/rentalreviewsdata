@@ -2,10 +2,11 @@ import json
 import traceback
 import sys
 import argparse
+from datetime import datetime
 import pyinputplus as pyinput
 from git import Repo
 
-from utilities import list_files, get_seed_config, get_db_env
+from utilities import list_files, get_seed_config, get_db_env, get_file_metadata, create_json_file
 from dotenv import dotenv_values
 from collections import defaultdict
 
@@ -15,15 +16,57 @@ seed_config = get_seed_config()
 
 verbose = False
 
+testConnection = False
+
+def create_sitemap():
+    pages = []
+    output_path = "./sitemap/sitemap.json"
+    config_files = list_files("config")
+    for file in config_files:
+        config_file_path = f"config/{file}"
+        metadata = get_file_metadata(config_file_path)
+        metadata_modified_timestamp = datetime.fromtimestamp(metadata['modified']).strftime("%Y-%m-%d")
+        with open(config_file_path, 'r', encoding='utf-8') as input_file:
+            input_json = json.load(input_file)
+            if 'type' in input_json and input_json['type'] == 'page':
+                pages.append({
+                    "url": f"{input_json['name']}",
+                    "lastModified": metadata_modified_timestamp,
+                    "changeFrequency": "monthly",
+                    "priority": 1
+                })
+            input_file.close()
+    article_files = list_files("articles")
+    for file in article_files:
+        with open(f"articles/{file}", 'r', encoding='utf-8') as input_file:
+            input_json = json.load(input_file)
+            created_timestamp = datetime.fromtimestamp(input_json['created_timestamp']).strftime("%Y-%m-%d")
+            pages.append({
+                "url": f"reviews/{input_json['slug']}",
+                "lastModified": created_timestamp,
+                "changeFrequency": "monthly",
+                "priority": 0.9
+            })
+            pages.append({
+                "url": f"reviews/{input_json['slug']}/data",
+                "lastModified": created_timestamp,
+                "changeFrequency": "monthly",
+                "priority": 0.2
+            })
+            input_file.close()
+    create_json_file(output_path, pages)
+    return
+
 
 def get_params():
     database_selection = None
     database_action = None
     database_environment = None
     database_options = ["mongodb", "firebase"]
-    action_options = ["seed", "clear", "list", "update", "re-seed"]
+    action_options = ["seed", "clear", "list", "update", "test", "re-seed"]
     env_options = ["test", "production"]
     confirmation_options = ["Yes", "No"]
+
     if len(sys.argv) > 1:
         parser = argparse.ArgumentParser()
         parser.add_argument("-db", "--database", required=True, help="Database Name")
@@ -43,6 +86,12 @@ def get_params():
             required=False,
             help="Verbose output",
             action="store_true",
+        )
+        parser.add_argument(
+            "-sitemap",
+            required=False,
+            help="Generates Sitemap",
+            action="store_true"
         )
 
         args = parser.parse_args()
@@ -72,6 +121,11 @@ def get_params():
 
         global verbose
         verbose = args.verbose is not None and args.verbose == True
+
+        if args.sitemap is not None and args.sitemap == True:
+            create_sitemap()
+            if verbose:
+                print("Generated Sitemap", file=sys.stdout)
 
     else:
         database_environment = None
@@ -126,7 +180,7 @@ def squash_file(db, client, path_obj):
     squash_config = path_obj["squash_config"]
 
     for file in files:
-        with open(f"{input_path}/{file}", "r") as inputFile:
+        with open(f"{input_path}/{file}", "r", encoding="utf-8") as inputFile:
             input_json = json.load(inputFile)
             seed_obj[file[:-5]] = input_json
             inputFile.close()
@@ -159,7 +213,7 @@ def create_index(db, client, path_obj):
     ret_obj = {"data": []}
 
     for file in files:
-        with open(f"{input_path}/{file}", "r") as inputFile:
+        with open(f"{input_path}/{file}", "r", encoding="utf-8") as inputFile:
             input_json = json.load(inputFile)
             seed_arr.append(input_json)
             inputFile.close()
@@ -192,7 +246,7 @@ def populate(db, client, path_obj):
     files = list_files(input_path)
 
     for file in files:
-        with open(f"{input_path}/{file}", "r") as inputFile:
+        with open(f"{input_path}/{file}", "r", encoding="utf-8") as inputFile:
             input_json = json.load(inputFile)
             seed_arr.append(input_json)
             inputFile.close()
@@ -277,7 +331,7 @@ def update(db, client, path_obj):
         match client:
             case "mongodb":
                 for file in files:
-                    with open(f"./{file}", "r") as inputFile:
+                    with open(f"./{file}", "r", encoding="utf-8") as inputFile:
                         input_json = json.load(inputFile)
                         for key, key_arr in path_obj["collection_keys"].items():
                             temp_obj = (
@@ -297,7 +351,7 @@ def update(db, client, path_obj):
                         inputFile.close()
             case "firebase":
                 for file in files:
-                    with open(f"./{file}", "r") as inputFile:
+                    with open(f"./{file}", "r", encoding="utf-8") as inputFile:
                         input_json = json.load(inputFile)
                         for key, key_arr in path_obj["collection_keys"].items():
                             temp_obj = (
@@ -331,6 +385,7 @@ def main(db_name, db_action, db_env=None):
                     )
                 )
                 db = client[config["MONGODB_DB_NAME"]]
+
             case "firebase":
                 import firebase_admin
                 from firebase_admin import credentials, firestore
@@ -344,6 +399,9 @@ def main(db_name, db_action, db_env=None):
 
         if verbose:
             print(f"Initialized connection to {db_name}")
+        if db_action == 'test':
+            print(f"Successfully connected to {db_name}")
+            exit()
 
         def exec_action(action):
             for path in seed_config:

@@ -7,6 +7,7 @@ from sys import argv
 from asyncio import Semaphore, gather, run, as_completed
 from openai import AsyncOpenAI
 from dotenv import dotenv_values
+from datetime import datetime
 
 config = {
     **dotenv_values(".env")
@@ -15,6 +16,10 @@ config = {
 async_client = AsyncOpenAI(
        api_key=config["OPENAI_KEY"]
 )
+
+epoch = datetime(1970, 1, 1)
+now = datetime.now()
+now_in_seconds = (now - epoch).total_seconds()
 
 disclaimer_file = utilities.get_disclaimer_map()
 file_paths = utilities.get_file_paths()
@@ -59,14 +64,15 @@ async def rate_limiter(file_path: str, semaphore: Semaphore):
             result = await create_articles_async(file_json)
 
             summary_dict = {
-                "text":  result.choices[0].message.content.replace('\n', '')
+                "text":  result.choices[0].message.content.replace('\n', ''),
             }
 
-            if file_json["slug"] in disclaimer:
-                summary_dict["disclaimer"] = disclaimer[file_json["slug"]]
+            if file_json["slug"] in disclaimer_file:
+                summary_dict["disclaimer"] = disclaimer_file[file_json["slug"]]
 
             return {
                  **file_json,
+                 "created_timestamp": now_in_seconds,
                  "summary": summary_dict
             }
      

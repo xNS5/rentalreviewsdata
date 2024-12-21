@@ -5,11 +5,11 @@
             "postfix": ""
         },
         "average_rating": {
-            "prefix": "Review rating average",
+            "prefix": "Rating average",
             "postfix": "out of 5"
         },
         "adjusted_average_rating": {
-            "prefix": "Adjusted review rating average",
+            "prefix": "Adjusted average rating",
             "postfix": "out of 5"
         },
         "review_count": {
@@ -39,16 +39,16 @@
             "postfix": "total reviews"
         },
         "average_rating": {
-            "prefix": "Review rating average",
+            "prefix": "Review average rating",
             "postfix": "out of 5"
         },
         "adjusted_review_count": {
             "prefix": "Adjusted review count",
-            "postfix": "reviews where users submitted both a rating and text"
+            "postfix": ""
         },
         "adjusted_average_rating": {
-            "prefix": "Adjusted rating average",
-            "postfix": "out of 5 from reviews with both text and a rating"
+            "prefix": "Adjusted average rating",
+            "postfix": "out of 5"
         }
     }
 }

@@ -1,38 +1,47 @@
 {
     "name": "faq",
     "title": "Frequently Asked Questions",
+    "type": "page",
     "description": "Quick Answers to Your Top Questions",
     "aria_announcement": "Main content contains a list of headings and paragraph text",
     "questions": [
         {
+            "id": "data",
             "question": "How is the data gathered and stored?",
             "answer": "<p>The data for this project is gathered by scraping reviews from Yelp and Google. Everything you see on a website is in HTML, and if the data is available to the public, it can be scraped. The data is stored in a Firebase Firestore database. For a more in-depth explanation of how the data gets gathered, please see the <a href='https://github.com/xns5/rentalreviewsdata' tabindex='-1'>Github repository</a>.</p>"
         },
         {
+            "id": "trust",
             "question": "Are the reviews on this site trustworthy and unbiased?",
             "answer": "<p>Yes and no. People often leave reviews when they have something negative to share, but the significance of these reviews varies. Some are detailed, offering an in-depth account of their experiences. Others are limited to a simple rating without any explanation. You may encounter terms like \"Adjusted Review Count\" or \"Adjusted Review Average\" on a listing—these represent the number of reviews that include both a rating and a written description. The reasoning behind this is that a rating alone, without context, doesn't provide meaningful insight into a company's service. For example, a company with only one or two reviews—especially without descriptions—doesn't offer much helpful information for prospective renters. In contrast, a company with 100+ reviews gives a richer data set for summarizing renter experiences.</p>"
         },
         {
+            "id": "update",
             "question": "How frequently are reviews updated?",
             "answer": "<p>As of now they're updated infrequently, but the current plan is to update them on a 2-3 month basis.</p>"
         },
         {
+            "id": "contribute",
             "question": "How can I help or otherwise contribute to this project?",
             "answer": "<p>I am presently not accepting financial contributions to avoid conflicts of interest; however, if one is interested in contributing to the data on this website,  please create a public review on Google or Yelp. The data is gathered directly from those websites, so all public reviews will eventually be added to the data for this project. I understand that some may not feel comfortable doing this with their accounts, but this is important to ensure as much transparency as possible.<p>"
         },
         {
+            "id": "location-not-present",
             "question": "My property management company/apartment complex is not listed, how do I get them added?",
-            "answer": "<p>There are a few scenarios where a property management company or apartment complex is not listed: first, they could not have a page on either Yelp or Google. Second, they could have pages on either site, but has zero reviews. And third, I could just have missed it due to the way data is scraped. Please verify that they have a publicly-facing Yelp or Google page, and if they exist and have reviews, please reach out to me at <a href='mailto:hello@bhamrentalreviews.com?subject=Website%20Inquiry' tabindex='-1'>hello@bhamrentalreviews.com</a> or submit a <a href='https://github.com/xNS5/rentalreviewsdata/issues' tabindex='-1'>Github issue</a></p>"
+            "answer": "<p>There are a few scenarios where a property management company or apartment complex is not listed: first, they could not have a page on either Yelp or Google. Second, they could have pages on either site, but has zero reviews. And third, I could just have missed it due to the way data is scraped. Please verify that they have a publicly-facing Yelp or Google page, and if they exist and have reviews, please reach out to me at <a href='mailto:hello@bhamrentalreviews.com?subject=Website%20Inquiry' tabindex='-1'>hello@bhamrentalreviews.com</a> or submit a <a href='https://github.com/xNS5/rentalreviewsdata/issues' tabindex='-1'>Github issue.</a></p>"
         },
         {
+            "id": "total-review-count",
             "question": "Why are the review counts different from the originating website?",
-            "answer": "<p>The total displayed review count is calculated using the review counts from both Yelp and Google. Google on the other hand doesn't display all of the reviews. On the reviews page, they have a disclaimer that reads: 'Reviews are automatically processed to detect inappropriate content like fake reviews and spam. We may take down reviews that are flagged in order to comply with <a href='https://support.google.com/contributionpolicy/answer/7400114?ref_topic=7422769' tabindex='-1'>Google policies</a> or legal obligations', which essentially means that not all reviews are displayed for one of several reasons. The scripts developed for this project gather all visible reviews, so unless I can find a way to see all reviews there's a chance the number won't match.</p>"
+            "answer": "<p>The total displayed review count is calculated using the review counts from both Yelp and Google. Google on the other hand doesn't display all of the reviews. On the reviews page, they have a disclaimer that reads: \"Reviews are automatically processed to detect inappropriate content like fake reviews and spam. We may take down reviews that are flagged in order to comply with <a href='https://support.google.com/contributionpolicy/answer/7400114?ref_topic=7422769' tabindex='-1'>Google policies</a> or legal obligations\", which essentially means that not all reviews are displayed for one of several reasons. The scripts developed for this project gather all visible reviews, so unless I can find a way to see all reviews there's a chance the number won't match.</p>"
         },
         {
+            "id": "analytics",
             "question": "What information do you gather on visitors?",
             "answer": "<p>Other than basic analytics, none.</p>"
         },
         {
+            "id": "more-questions",
             "question": "What if my question wasn't answered?",
             "answer": "<p>Feel free to shoot me an email, I'd be more than happy to answer any questions.</p>",
             "links": [

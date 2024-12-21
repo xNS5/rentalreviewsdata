@@ -1,4 +1,5 @@
 {
+  "base_url":"https://bhamrentalreviews.com",
     "db_config": {
       "test": "firebase_staging_certificate.json",
       "production": "firebase_certificate.json"
@@ -19,7 +20,8 @@
                 "company_type",
                 "review_count",
                 "average_rating",
-                "adjusted_average_rating"
+                "adjusted_average_rating",
+                "timestamp"
               ]
             },
             "collection_keys": {
@@ -35,6 +37,7 @@
                     "average_rating",
                     "adjusted_review_count",
                     "adjusted_average_rating",
+                    "created_timestamp",
                     "summary"
                 ]
             }
@@ -46,6 +49,15 @@
             "squash_config": {
               "collection": "config",
               "document_name": "config"
+            }
+        },
+      {
+            "path": "sitemap",
+            "squash": true,
+            "index": false,
+            "squash_config": {
+              "collection": "sitemap",
+              "document_name": "sitemap"
             }
         }
     ],

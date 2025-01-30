@@ -13,7 +13,8 @@
                     "Yandex",
                     "Yahoo! Slurp"
                 ],
-                "allow": "/"
+                "allow": "/",
+                "disallow": "/reviews/*"
             },
             {
                 "userAgent": [

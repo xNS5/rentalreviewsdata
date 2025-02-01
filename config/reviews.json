@@ -3,8 +3,8 @@
   "title": "Reviews",
   "type": "page",
   "description": "Rental Reviews Data",
-  "filter_props": [
-    {
+  "filter_props": {
+    "company_type": {
       "title": "Company Type",
       "key": "company_type",
       "type": "select",
@@ -31,14 +31,14 @@
         }
       ]
     },
-    {
+    "name": {
       "title": "name",
       "key": "name",
       "type": "",
       "comparison": "includes",
       "shouldRender": false
     },
-    {
+    "average_rating":   {
       "title": "Average Rating",
       "key": "average_rating",
       "type": "select",
@@ -75,7 +75,7 @@
         }
       ]
     },
-    {
+    "adjusted_average_rating":  {
       "title": "Adjusted Average Rating",
       "key": "adjusted_average_rating",
       "type": "select",
@@ -112,7 +112,7 @@
         }
       ]
     },
-    {
+    "review_count":  {
       "title": "Review Count",
       "key": "review_count",
       "type": "select",
@@ -149,5 +149,8 @@
         }
       ]
     }
-  ]
+  }
 }
+
+
+

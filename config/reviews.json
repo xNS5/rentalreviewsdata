@@ -7,7 +7,8 @@
     "company_type": {
       "title": "Company Type",
       "key": "company_type",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "string",
       "comparison": "===",
       "style": {
         "alt": {
@@ -34,14 +35,16 @@
     "name": {
       "title": "name",
       "key": "name",
-      "type": "",
+      "component_type": "",
+      "data_type": "string",
       "comparison": "includes",
       "shouldRender": false
     },
     "average_rating":   {
       "title": "Average Rating",
       "key": "average_rating",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "int",
       "comparison": ">=",
       "style": {
         "alt": {
@@ -78,7 +81,8 @@
     "adjusted_average_rating":  {
       "title": "Adjusted Average Rating",
       "key": "adjusted_average_rating",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "int",
       "comparison": ">=",
       "style": {
         "alt": {
@@ -115,7 +119,8 @@
     "review_count":  {
       "title": "Review Count",
       "key": "review_count",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "int",
       "comparison": ">=",
       "style": {
         "alt": {

@@ -19,7 +19,7 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+      "options": [
         {
           "title": "Company",
           "value": "Company",
@@ -55,25 +55,30 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+      "options": [
         {
           "title": 1,
+          "value": 1,
           "key": 1
         },
         {
           "title": 2,
+          "value": 2,
           "key": 2
         },
         {
           "title": 3,
+          "value": 3,
           "key": 3
         },
         {
           "title": 4,
+          "value": 4,
           "key": 4
         },
         {
           "title": 5,
+          "value": 5,
           "key": 5
         }
       ]
@@ -93,25 +98,30 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+       "options": [
         {
           "title": 1,
+          "value": 1,
           "key": 1
         },
         {
           "title": 2,
+          "value": 2,
           "key": 2
         },
         {
           "title": 3,
+          "value": 3,
           "key": 3
         },
         {
           "title": 4,
+          "value": 4,
           "key": 4
         },
         {
           "title": 5,
+          "value": 5,
           "key": 5
         }
       ]
@@ -131,25 +141,30 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+      "options": [
         {
           "title": 10,
+          "value": 10,
           "key": 10
         },
         {
           "title": 20,
+          "value": 20,
           "key": 20
         },
         {
           "title": 30,
+          "value": 30,
           "key": 30
         },
         {
           "title": 40,
+          "value": 40,
           "key": 40
         },
         {
           "title": 50,
+          "value": 50,
           "key": 50
         }
       ]

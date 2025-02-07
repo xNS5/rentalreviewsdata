@@ -1,6 +1,7 @@
 import html
 import re
 import utilities
+from collections import defaultdict
 
 
 CLEANR = re.compile("<.*?>")
@@ -21,7 +22,7 @@ def reviews_to_array(reviews):
 class Review:
     def __init__(self, author, rating, review, owner_response=None):
         self._author = author
-        self._rating = rating
+        self._rating = int(re.sub(NUMS, '', rating)) if isinstance(rating, str) else rating
         self._review = review
         self._owner_response = owner_response if owner_response != "" else None
 
@@ -49,7 +50,7 @@ class Review:
 
     @rating.setter
     def rating(self, rating):
-        self._rating = rating
+        self._rating = float(re.sub(NUMS, "", rating))
 
     @review.setter
     def review(self, review):
@@ -61,8 +62,6 @@ class Review:
 
     # Convert to dictionary
     def to_dict(self):
-        if isinstance(self.rating, str):
-            self.rating = float(re.sub(NUMS, "", self.rating))
         return {
             "author": clean(self.author),
             "rating": self.rating,
@@ -84,14 +83,15 @@ class Business:
         id = None,
         reviews= None,
     ):
+
         self._review_key = None
         self._id = id
         self._name = name
         self._slug = utilities.get_slug(name)
-        self._average_rating = average_rating
+        self._average_rating = float(re.sub(NUMS, "", average_rating)) if isinstance(average_rating, str) else average_rating
         self._company_type = company_type
         self._address = address
-        self._review_count = review_count
+        self.review_count = int(re.sub(NUMS, "", review_count)) if isinstance(review_count, str) else review_count
         self._reviews = reviews
 
     # Getters
@@ -145,6 +145,8 @@ class Business:
 
     @average_rating.setter
     def average_rating(self, average_rating):
+        if isinstance(average_rating, 'str'):
+            self._average_rating = float(re.sub(NUMS,"", average_rating))
         self._average_rating = average_rating
 
     @company_type.setter
@@ -157,6 +159,8 @@ class Business:
 
     @review_count.setter
     def review_count(self, review_count):
+        if isinstance(review_count, str):
+            self._review_count = int(re.sub(NUMS, "", review_count))
         self._review_count = review_count
 
     @review_key.setter
@@ -172,11 +176,6 @@ class Business:
 
     # Convert to dictionary
     def to_dict(self):
-        if isinstance(self.review_count, str):
-            self.review_count = int(re.sub(NUMS, "", self.review_count))
-        if isinstance(self.average_rating, str):
-            self.average_rating = float(re.sub(NUMS,"", self.average_rating))
-
         return {
             "name": self.name,
             "slug": self.slug,
@@ -184,5 +183,5 @@ class Business:
             "address": self.address,
             "review_count": self.review_count,
             "average_rating": self.average_rating,
-            "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()}
+            "reviews": {key: [review.to_dict() for review in value] for key, value in self.reviews.items()},
         }

@@ -1,5 +1,5 @@
 {
-  "base_url":"https://bhamrentalreviews.com",
+    "base_url":"https://bhamrentalreviews.com",
     "db_config": {
       "test": "firebase_staging_certificate.json",
       "production": "firebase_certificate.json"
@@ -62,8 +62,8 @@
         }
     ],
     "google_config": {
-        "queries": [
-            {
+        "queries": {
+          "companies":  {
                 "query": "property management companies in whatcom county",
                 "url": "https://www.google.com/maps/@48.545241,-122.2509158,10.41z?entry=ttu",
                 "selectors": {
@@ -93,7 +93,7 @@
                   },
                   "reviews_button": {
                     "by": "xpath",
-                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]/div[2]"
+                    "selector": "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]"
                   },
                   "reviews_scrollable": {
                     "by": "xpath",
@@ -101,7 +101,7 @@
                   }
                 }
               },
-              {
+          "properties":  {
                 "query": "apartment complexes in whatcom county",
                 "url": "https://www.google.com/maps/@48.545241,-122.2509158,10.41z?entry=ttu",
                 "selectors": {
@@ -139,7 +139,7 @@
                   }
                 }
               }
-        ],
+        },
         "custom": {
             "selectors": {
               "company_title": {
@@ -152,7 +152,7 @@
               },
               "location": {
                 "by": "xpath",
-                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[7]/div[3]/button/div/div[2]/div[1]"
+                "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[2]/div/div[1]/div/div/div[9]/div[3]/button/div/div[2]/div[1]"
               },
               "review_count": {
                 "by": "xpath",
@@ -262,7 +262,13 @@
         "liz-standow-bellingham-real-estate",
         "matt-mcbeathexp-realty",
         "sean-ryan-nexthome-northwest-living",
-        "vanessa-parry-bellwether-real-estate"
+        "vanessa-parry-bellwether-real-estate",
+        "aimee-slesk",
+        "cerise-noah-windermere-real-estate",
+        "jerry-swann-best-choice-realty",
+        "julian-company-muljat-group",
+        "kc-coonc-north-sound-commercial"
+
     ],
     "disclaimer": {
         "pure-property-management-of-washington":"Pure Property Management of Washington is relatively new to the Bellingham area, having acquired Son-Rise Property management. It is unclear whether Son-Rise simply rebranded, or whether PURE replaced property managers with their own.",

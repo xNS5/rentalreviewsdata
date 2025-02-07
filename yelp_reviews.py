@@ -1,8 +1,12 @@
 import http.client as http_client
+import os.path
+
 import pyinputplus as pyinput
 import json
 import logging
 import random
+import sys
+import argparse
 import time
 import utilities
 import traceback
@@ -37,6 +41,13 @@ after = [
 my_headers = {
     "Authorization": f'Bearer {config["YELP_FUSION_KEY"]}',
 }
+
+
+verbose = False
+
+
+output_path = f"{file_paths['parent_path']}/{file_paths['yelp']}"
+
 
 def make_request(request, session, request_obj = None, user_agent = None):
     try:
@@ -82,19 +93,19 @@ def get_business(input_list):
     whitelist = utilities.get_yelp_category_whitelist()
     if isinstance(input_list, list):
         ret = []
-        for obj in input_list:
-            if obj["location"]["country"] != "US":
+        for input_obj in input_list:
+            if input_obj["location"]["country"] != "US":
                 continue
-            for category in obj["categories"]:
+            for category in input_obj["categories"]:
                 if category["alias"] in whitelist:
                     ret.append(
                         Business(
-                            obj["name"],
-                            obj["rating"],
-                            obj["categories"],
-                            " ".join(obj["location"]["display_address"]),
-                            obj["review_count"],
-                            obj["id"],
+                            input_obj["name"],
+                            input_obj["rating"],
+                            input_obj["categories"],
+                            " ".join(input_obj["location"]["display_address"]),
+                            input_obj["review_count"],
+                            input_obj["id"],
                         )
                     )
                     break
@@ -110,28 +121,28 @@ def get_business(input_list):
                         input_obj["rating"],
                         input_obj["categories"],
                         " ".join(input_obj["location"]["display_address"]),
-                        input_obj["review_count"],
+                        input_obj["reviewCount"],
                         input_obj["id"],
                     )
 
 def get_comments(jsonObj):
-    ret = []
+    _ret = []
     business = jsonObj["data"]["business"]
     review_count = business["reviewCount"]
-    if review_count != None and review_count > 0:
+    if review_count is not None and review_count > 0:
         reviews = business["reviews"]["edges"]
         for review in reviews:
             data = review["node"]
             text = data["text"]["full"]
             author = data["author"]["displayName"]
             rating = data["rating"]
-            ownerResponse = ""
-            if data["bizUserPublicReply"] != None:
-                ownerResponse = data["bizUserPublicReply"]["text"]
-            ret.append(Review(author, rating, text, ownerResponse))
+            owner_response = ""
+            if data["bizUserPublicReply"] is not None:
+                owner_response = data["bizUserPublicReply"]["text"]
+            _ret.append(Review(author, rating, text, owner_response))
 
     # Returns array of Review objects
-    return ret
+    return _ret
 
 def query(data):
     # You must initialize logging, otherwise you'll not see debug output.
@@ -183,7 +194,7 @@ def query(data):
         if len(ret_arr) > 0:
             business.reviews = {"yelp_reviews": ret_arr}
 
-            with open(f"{file_paths['parent_path']}/{file_paths['yelp']}/{business.slug}.json", "w") as out_file:
+            with open(f"{output_path}/{business.slug}.json", "w") as out_file:
                 json.dump(business.to_dict(), out_file, ensure_ascii=True, indent=2)
                 out_file.close()
 
@@ -248,26 +259,43 @@ def search_list(input):
             response_json = json.loads(response.content.decode())
             return get_business([response_json])
 
-type = pyinput.inputMenu(
-    ["Companies", "Properties", "One-Off ID List", "All"], lettered=True, numbered=False
-).lower()
+def get_params():
+    query_type_list = ["companies", "properties", "custom", "all"]
+    if len(sys.argv) > 1:
+        parser = argparse.ArgumentParser()
+        parser.add_argument("-t", "--type", required=True, help="Query type: Companies, Properties, Custom, All")
+        parser.add_argument("-v", "--verbose", required=False, help="Verbose Output flat", action="store_true")
 
-ret = []
+        args = parser.parse_args()
 
-utilities.create_directory(f"{file_paths['parent_path']}/{file_paths['yelp']}")
+        global verbose
+        verbose = args.verbose is not None and args.verbose == True
 
-if type == "one-off id list":
-      #  Must be space-seprated list
-    input_list = pyinput.inputStr("Business IDs (Space-Separated): ", blank=False)
-    input_list = input_list.replace(r'\s+', r'\s')
-    ret = search_list(input_list)
-else:
+        if args.type.lower() not in query_type_list:
+            print("Invalid Query Type", file=sys.stderr)
+            exit(-1)
+
+        return args.type.lower()
+
+    return pyinput.inputMenu(
+            query_type_list, lettered=True, numbered=False
+        ).lower()
+
+
+if __name__ == "__main__":
+    if not utilities.path_exists(output_path):
+        utilities.create_directory(output_path)
+
     query_obj = utilities.get_yelp_config()['query_obj']
-    if type.lower() == "companies":
-        ret = search_businesses([query_obj[type]])
-    elif type.lower() == "properties":
-        ret = search_businesses([query_obj[type]])
-    else:
-        ret = search_businesses(list(query_obj.values()))
+    query_type = get_params()
+    match query_type:
+        case "custom":
+            input_list = pyinput.inputStr("Business IDs (Space-Separated): ", blank=False)
+            input_list = input_list.replace(r'\s+', r'\s')
+            ret = search_list(input_list)
+        case "all":
+            ret = search_businesses(list(query_obj.values()))
+        case _:
+            ret = search_businesses([query_obj[query_type]])
 
     query(ret)

@@ -180,11 +180,12 @@ def query(data):
                     print(response.status_code, json.dumps(response.content.decode(), indent=2))
                     break
 
-        business.reviews = {"yelp_reviews": ret_arr}
+        if len(ret_arr) > 0:
+            business.reviews = {"yelp_reviews": ret_arr}
 
-        with open(f"{file_paths['parent_path']}/{file_paths['yelp']}/{business.slug}.json", "w") as outFile:
-            json.dump(business.to_dict(), outFile, ensure_ascii=True, indent=2)
-            outFile.close()
+            with open(f"{file_paths['parent_path']}/{file_paths['yelp']}/{business.slug}.json", "w") as out_file:
+                json.dump(business.to_dict(), out_file, ensure_ascii=True, indent=2)
+                out_file.close()
 
         time.sleep(3 + random.randint(1, 3))
 
@@ -192,6 +193,7 @@ def search_businesses(query_type_arr):
     ret = []
     seen = set()
     session = Session()
+    name_blacklist = utilities.get_company_blacklist()
 
     for query_value in query_type_arr:
         i = 0
@@ -205,7 +207,8 @@ def search_businesses(query_type_arr):
                     break
                 else:
                     for business in response_json["businesses"]:
-                        if business["name"] in seen:
+                        temp_slug = utilities.get_slug(business["name"])
+                        if business["name"] in seen or temp_slug in name_blacklist or 'remax' in temp_slug or "muljat" in temp_slug:
                             continue
                         seen.add(business["name"])
                         ret.append(business)
@@ -232,8 +235,9 @@ def search_list(input):
                 else:
                     for business in response_json["businesses"]:
                         temp_slug = utilities.get_slug(business["name"])
-                        if business["name"] in seen or temp_slug in name_blacklist:
+                        if business["name"] in seen or temp_slug in name_blacklist or 'remax' in temp_slug:
                             continue
+
                         seen.add(business["name"])
                         ret.append(business)
         return get_business(ret)
@@ -259,11 +263,11 @@ if type == "one-off id list":
     ret = search_list(input_list)
 else:
     query_obj = utilities.get_yelp_config()['query_obj']
-    if type == "all" or type.lower() == "companies":
+    if type.lower() == "companies":
         ret = search_businesses([query_obj[type]])
-    elif type == "all" or type.lower() == "properties":
+    elif type.lower() == "properties":
         ret = search_businesses([query_obj[type]])
     else:
         ret = search_businesses(list(query_obj.values()))
-  
-query(ret)
+
+    query(ret)

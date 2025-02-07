@@ -93,7 +93,7 @@
                   },
                   "reviews_button": {
                     "by": "xpath",
-                    "selector": "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]"
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]"
                   },
                   "reviews_scrollable": {
                     "by": "xpath",
@@ -131,7 +131,7 @@
                   },
                   "reviews_button": {
                     "by": "xpath",
-                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]/div[2]"
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]"
                   },
                   "reviews_scrollable": {
                     "by": "xpath",

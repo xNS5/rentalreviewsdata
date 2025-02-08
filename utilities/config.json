@@ -119,7 +119,7 @@
                   },
                   "location": {
                     "by": "xpath",
-                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[3]/button/div/div[2]/div[1]"
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[9]/div[3]/button/div/div[2]/div[1]"
                   },
                   "review_count": {
                     "by": "xpath",
@@ -269,6 +269,11 @@
         "julian-company-muljat-group",
         "kc-coonc-north-sound-commercial"
 
+    ],
+    "phrase_blacklist": [
+      "remax",
+      "muljat",
+      "keller-williams"
     ],
     "disclaimer": {
         "pure-property-management-of-washington":"Pure Property Management of Washington is relatively new to the Bellingham area, having acquired Son-Rise Property management. It is unclear whether Son-Rise simply rebranded, or whether PURE replaced property managers with their own.",

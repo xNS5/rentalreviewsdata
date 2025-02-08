@@ -205,6 +205,7 @@ def search_businesses(query_type_arr):
     seen = set()
     session = Session()
     name_blacklist = utilities.get_company_blacklist()
+    phrase_blacklist = utilities.get_phrase_blacklist()
 
     for query_value in query_type_arr:
         i = 0
@@ -218,8 +219,8 @@ def search_businesses(query_type_arr):
                     break
                 else:
                     for business in response_json["businesses"]:
-                        temp_slug = utilities.get_slug(business["name"])
-                        if business["name"] in seen or temp_slug in name_blacklist or 'remax' in temp_slug or "muljat" in temp_slug:
+                        slug = utilities.get_slug(business["name"])
+                        if business["name"] in seen or slug in name_blacklist or any(phrase in slug for phrase in phrase_blacklist):
                             continue
                         seen.add(business["name"])
                         ret.append(business)

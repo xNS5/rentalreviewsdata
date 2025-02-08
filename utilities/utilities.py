@@ -51,6 +51,9 @@ def get_company_blacklist():
         get_config()["company_blacklist"]
     )
 
+def get_phrase_blacklist():
+    return get_config()["phrase_blacklist"]
+
 def get_google_category_whitelist():
     return set(
         get_config()["google_category_whitelist"]
@@ -191,6 +194,7 @@ def calculate_actual_rating(data):
 def get_file_count(path):
     input = os.listdir(path)
     return len(input)
+
 
 def path_exists(path):
     return os.path.exists(path)

@@ -17,8 +17,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
 
+file_paths = utilities.get_file_paths()
 
-out_base_path = "data/google"
+output_path = f"{file_paths['parent_path']}/{file_paths['google']}"
+
 custom = False
 
 def get_attribute(strategy):
@@ -62,22 +64,22 @@ def scroll(driver, obj):
 
         driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", obj)
         scrollTop = driver.execute_script("return arguments[0].scrollTop", obj)
-        time.sleep(3)
+        time.sleep(2)
 
 
 def check_if_exists(driver, elem_type, selector):
     try:
-        return WebDriverWait(driver, 8).until(
+        return WebDriverWait(driver, 4).until(
             EC.visibility_of_element_located((elem_type, selector))
         )
     except:
         return None
 
 
-def get_reviews(driver, config):
+def get_reviews(driver, _config):
     try:
         # Reviews Button
-        review_button_selector = config["reviews_button"]
+        review_button_selector = _config["reviews_button"]
         review_button = check_if_exists(
             driver,
             get_attribute(review_button_selector["by"]),
@@ -89,8 +91,8 @@ def get_reviews(driver, config):
             print("Review button missing", file=sys.stderr)
 
         # Reviews Scrollable
-        time.sleep(3)
-        review_scrollable_selector = config["reviews_scrollable"]
+        time.sleep(2)
+        review_scrollable_selector = _config["reviews_scrollable"]
         scrollable = check_if_exists(
             driver,
             get_attribute(review_scrollable_selector["by"]),
@@ -218,7 +220,7 @@ def get_company(driver, selectors):
                         {"google_reviews": reviews},
                     )
 
-            with open(f"{out_base_path}/%s.json" % slug, "w") as output_file:
+            with open(f"{output_path}/%s.json" % slug, "w") as output_file:
 
                 json.dump(
                     business.to_dict(),
@@ -233,14 +235,14 @@ def get_company(driver, selectors):
         print("Missing company title")
 
 
-def scrape_google_companies(config, url = None):
+def scrape_google_companies(_config, url = None):
 
-    query, selectors = config['query'], config['selectors']
+    query, selectors = _config['query'], _config['selectors']
     chrome_options = Options()
     driver = webdriver.Chrome(options=chrome_options)
 
     if url is None:
-        url = config['url']
+        url = _config['url']
 
     driver.get(url)
     time.sleep(2)
@@ -274,7 +276,7 @@ def scrape_google_companies(config, url = None):
         for element in company_element:
             try:
                 element.click()
-                time.sleep(4)
+                time.sleep(2)
                 get_company(driver, selectors)
             except Exception:
                 traceback.print_exc()
@@ -309,16 +311,15 @@ def get_params():
 
 
 if __name__ == "__main__":
-    if not utilities.path_exists(out_base_path):
-        utilities.create_directory(out_base_path)
+    if not utilities.path_exists(output_path):
+        utilities.create_directory(output_path)
 
     config = utilities.get_google_config()
     query_type = get_params()
 
     match query_type:
         case "custom":
-            input_list = pyinput.inputStr("Url List (space separated): ").split(" ")
-            input_list = input_list.replace(r'\s+', r'\s')
+            input_list = pyinput.inputStr("Url List (space separated): ").replace(r'\s+', r'\s').split(" ")
             for url in input_list:
                 scrape_google_companies(config['custom'], url)
         case "all":

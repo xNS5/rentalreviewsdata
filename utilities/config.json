@@ -267,12 +267,11 @@
         "cerise-noah-windermere-real-estate",
         "jerry-swann-best-choice-realty",
         "julian-company-muljat-group",
-        "kc-coonc-north-sound-commercial"
-
+        "kc-coonc-north-sound-commercial",
+        "ronda-karn-bellingham-homes-for-sale-favorite-realtor-for-whatcom-skagit-county"
     ],
     "phrase_blacklist": [
       "remax",
-      "muljat",
       "keller-williams"
     ],
     "disclaimer": {

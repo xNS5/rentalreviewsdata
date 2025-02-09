@@ -81,6 +81,3 @@ utilities.create_directory(output_path)
 
 filter_companies(yelp_path, google_path)
 filter_companies(google_path, yelp_path)
-
-utilities.remove_path(google_path)
-utilities.remove_path(yelp_path)

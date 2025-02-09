@@ -170,7 +170,10 @@ def calculate_adjusted_reviews(data):
     }
 
 def calculate_distribution(data):
-    ret = defaultdict(int, {[i+1]: 0 for i in range(5)})
+    ret = defaultdict(int)
+    for i in range(5):
+        ret.setdefault(i+1, 0)
+
     reviews = get_all_reviews(data)
     for review in reviews:
         key = review['rating']

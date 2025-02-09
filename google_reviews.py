@@ -69,10 +69,11 @@ def scroll(driver, obj):
 
 def check_if_exists(driver, elem_type, selector):
     try:
-        return WebDriverWait(driver, 4).until(
+        return WebDriverWait(driver, 5).until(
             EC.visibility_of_element_located((elem_type, selector))
         )
-    except:
+    except Exception as e:
+        print(f"Element not present for {elem_type} {selector}", file=sys.stderr)
         return None
 
 
@@ -203,9 +204,9 @@ def get_company(driver, selectors):
                 return
 
             location = location.text if location is not None else ""
-            company_type = company_type.text
-            avg_rating = avg_rating.text
-            review_count = review_count.text
+            company_type = company_type.text if company_type is not None else ""
+            avg_rating = avg_rating.text if avg_rating is not None else ""
+            review_count = review_count.text if review_count is not None else ""
 
             name_set.add(company_title)
 
@@ -237,11 +238,13 @@ def get_company(driver, selectors):
 
 def scrape_google_companies(_config, url = None):
 
-    query, selectors = _config['query'], _config['selectors']
+    query = ''
+    selectors = _config['selectors']
     chrome_options = Options()
     driver = webdriver.Chrome(options=chrome_options)
 
     if url is None:
+        query = _config['query']
         url = _config['url']
 
     driver.get(url)

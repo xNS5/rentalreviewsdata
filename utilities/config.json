@@ -118,8 +118,8 @@
                     "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/span/span/button"
                   },
                   "location": {
-                    "by": "xpath",
-                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[9]/div[3]/button/div/div[2]/div[1]"
+                    "by": "css_selector",
+                    "selector": ".Io6YTe.fontBodyMedium.kR99db.fdkmkc"
                   },
                   "review_count": {
                     "by": "xpath",

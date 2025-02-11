@@ -1,0 +1,43 @@
+{
+  "name": "Bob Lycan Property Management",
+  "slug": "bob-lycan-property-management",
+  "company_type": "Company",
+  "address": "719 N Garden St, Bellingham, WA 98225",
+  "review_count": 3,
+  "average_rating": 2.33,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Jake Burgess",
+        "rating": 1,
+        "review": "I rented from Bob a few years back on his Southbend Place property in Bellingham. Bob takes OK care of his property (when pressed) but I have two main issues with his practices.\n1. he will try and squeeze every last penny plus more out of your security deposit for natural wear and tear and his own remodeling expenses (he tried to take DOUBLE the damage deposit for very minor cosmetic issues that tend to occur while you live in a spot for 3+ years). The second litigation is threatened he magically cut the expenses substantially. He preys on folks who don't have that as an option as most slumlords in Bellingham do.\n2. he was extremely sexist towards my wife on multiple occasions (ex. turning to her and saying \"when YOU do the dusting and vacuuming). He would never even acknowledge her and refused to speak with her despite her name being equal on the lease. Take that for what you will.\nEither way - rent from him with caution. When the only positive review is from his own family (look at last name) it's a big warning flag.",
+        "owner_response": null
+      },
+      {
+        "author": "Alicia Lycan",
+        "rating": 5,
+        "review": "Had a wonderful experience renting from Bob, its great to see a landlord take great care of his properties and is attentive to his tenants.",
+        "owner_response": null
+      },
+      {
+        "author": "Riley Morgan",
+        "rating": 1,
+        "review": "Will deny you/refuse to schedule a viewing for illegal reasons, really makes you wonder what other illegal practices they have going on here",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 3,
+  "adjusted_average_rating": 2.33,
+  "distribution": {
+    "1": 2,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739095001,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Despite a significant number of negative user reviews, there is a standout positive experience associated with Bob Lycan Property Management. One user praised the attentive nature of the landlord, stating that it was refreshing to see a property owner who takes great care of their properties and is responsive to tenant needs. This indicates that there are instances where tenants have felt supported and valued during their rental experience.</p><p>However, this positive sentiment contrasts sharply with the experiences of other tenants who expressed dissatisfaction. While the positive review highlights the potential for good property management practices, it serves as a stark reminder that experiences can vary greatly depending on individual circumstances and interactions with the landlord.</p></section><section id=\"great\"><h2>Great</h2><p>In the realm of property management, exceptional communication and responsiveness are critical to tenant satisfaction. Although there is one positive review noting attentiveness, others have struggled with communication issues, painting a mixed picture of Bob Lycan's management style. The company has the ability to foster great relationships with tenants but appears inconsistent in doing so, leaving some users frustrated.</p><p>This inconsistency in service quality raises questions about the overall standard of tenant care that can be expected. The experience of one satisfied tenant stands in stark contrast to the stories of others who felt unsupported, suggesting that experiences at Bob Lycan Property Management can be highly variable.</p></section><section id=\"bad\"><h2>Bad</h2><p>Negative user reviews highlight significant concerns related to security deposits and communication practices. One tenant described how the landlord attempted to withhold an excessive amount from their deposit for minor cosmetic issues that are typically considered normal wear and tear. This tactic, perceived as opportunistic, left them feeling exploited and wary of their rights as tenants.</p><p>Additionally, allegations of poor communication emerged, with one reviewer claiming that the landlord displayed unprofessional behavior, including discrimination towards a tenant's spouse. Such experiences illustrate a broader issue of not only financial disputes but also the treatment of tenants, which can erode trust and satisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The ugliest aspects of Bob Lycan Property Management's reputation stem from allegations of illegal practices and unethical behavior. One user reported being denied property viewings for vague reasons, raising serious concerns about the management's adherence to fair rental practices. Such claims contribute to an alarming narrative surrounding the company's integrity.</p><p>Moreover, the threat of litigation to manipulate security deposit deductions signifies a troubling trend that could make potential tenants wary of entering into leases with this company. The combination of some very negative user experiences and evident management issues paints a concerning picture of Bob Lycan Property Management, suggesting deep-rooted problems that require substantial improvement.</p></section>"
+  }
+}

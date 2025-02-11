@@ -1,0 +1,31 @@
+{
+  "name": "Gather Property Management",
+  "slug": "gather-property-management",
+  "company_type": "Company",
+  "address": "",
+  "review_count": 1,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "shawneewinds",
+        "rating": 5,
+        "review": "I have been through 5 property management companies since living here.I am So happy I stuck it out. The Gather property management company we have now it Fantastic! Maintance requests are attended to asap, property kept up, trash centers Always clean, updating several apartment features, just couldn't be happier. The staff is Above and Beyond your usual companies!!!!",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739095047,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights the positive experiences of users regarding Gather Property Management. One user review expressed immense satisfaction with the responsiveness of the company, particularly in handling maintenance requests, which are addressed promptly. This level of attention not only enhances tenant satisfaction but also reflects the management\u2019s commitment to maintaining the property in excellent condition.</p><p>Additionally, the cleanliness of communal areas, such as trash centers, was praised in the user review. The continual updates to apartment features mentioned by the same reviewer further indicate that the company invests in its properties, fostering a positive living environment for tenants. Such dedication is often rare in property management and speaks highly of Gather\u2019s operational standards.</p></section><section id=\"great\"><h2>Great</h2><p>The reviews for Gather Property Management demonstrate a strikingly high level of appreciation from tenants. The user review noted that, after experiencing service from five different property management companies, the current management, Gather, stands out as fantastic. Their proactive approach to property upkeep and maintenance has evidently won over residents, fostering a strong sense of satisfaction and community.</p><p>Moreover, the user highlighted the remarkable performance of the staff, who are described as going above and beyond the usual standards found in property management. This reflects a consistent theme of goodwill and diligence among the team, which is crucial for maintaining tenant relationships. Such a reputation not only enhances tenant retention but also attracts new residents to the properties managed by Gather.</p></section><section id=\"bad\"><h2>Bad</h2><p>Currently, there are no negative user reviews available for Gather Property Management. The sole review present conveys an overwhelmingly positive experience, with no mention of issues typically associated with property management, such as neglecting maintenance requests or poor communication. This lack of negative feedback suggests that Gather is effectively meeting, if not exceeding, tenant expectations.</p></section><section id=\"ugly\"><h2>Ugly</h2><pIn this instance, there are no 'ugly' aspects reported in user reviews for Gather Property Management. With the available information reflecting a highly satisfactory performance and no indications of serious problems, this section is devoid of concerning experiences. It is a rare find for a property management company to maintain such a flawless record, contributing further to the positive perception of Gather as a reliable management choice.</p></section>"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Calypso South Apartments",
+  "slug": "calypso-south-apartments",
+  "company_type": "Property",
+  "address": "3817 Elwood Ave, Bellingham, WA 98229",
+  "review_count": 1,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Journey Newman",
+        "rating": 5,
+        "review": "Despite what you are reading, this is a great place. The apartments are beautiful, pet friendly, and I see deer all the time. My husband and I have lived here for over a year and a half and have gone through multiple management companies but Olympic is the best. Chanelle and Nicole are wonderful and really listen to the things being said. I know my neighbors and they are all nice and who doesn't love the dog washing station! Out of all the apartments I have lived in, this one is the best.",
+        "owner_response": {
+          "text": "Thank you so much for leaving us such a great review! We take pride in making sure our residents needs are taken care of! Please reach out to the office if you need any assistance!"
+        }
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739095007,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Calypso South Apartments have received positive feedback from residents, indicating a well-managed property. One user review highlighted the apartments as beautiful and pet-friendly, mentioning the pleasure of seeing deer regularly in the area. This creates an inviting and serene atmosphere, making it a desirable location for pet owners and nature lovers alike.</p><p>Moreover, the management team, specifically Chanelle and Nicole, has been praised for their attentive and responsive service. The reviewer noted that these managers actively listen to residents\u2019 concerns, which fosters a sense of community and trust among the tenants. This level of care and engagement from the management significantly enhances the overall living experience.</p></section><section id=\"great\"><h2>Great</h2><p>Residents particularly appreciate the amenities available at Calypso South Apartments, with one user specifically mentioning a dog washing station as a notable highlight. This feature caters to pet owners and adds convenience for those who want to keep their pets clean and happy. Additionally, the friendly atmosphere, emphasized by the rapport among neighbors, contributes to the overall enjoyment of living in the community.</p><p>Another strong point is the management's responsiveness to feedback, as evidenced by the owner\u2019s prompt reply to the positive review. Acknowledging residents' contributions not only improves tenant satisfaction but also reinforces the positive reputation of the property. Such engagement suggests a management team that values its residents and seeks to maintain a harmonious living environment.</p></section><section id=\"bad\"><h2>Bad</h2><p>While there are currently no documented negative experiences from tenants at Calypso South Apartments, some might question the limited quantity of user reviews. With only one review available, potential renters may feel uncertain about the consistency of experiences across a broader tenant demographic. It\u2019s essential for prospective tenants to research multiple sources to ensure a well-rounded view of the living conditions.</p><p>The lack of varied reviews can sometimes indicate either a high level of satisfaction or potentially low tenant turnover, but it leaves room for speculation among future renters. Without additional perspectives on maintenance, noise levels, or management delays, a full understanding of what living here entails remains incomplete.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There are currently no reports of significant issues or negative incidents at Calypso South Apartments. The absence of complaints regarding maintenance concerns, communication difficulties, or security deposit disputes suggests that the management is operating effectively and maintaining high tenant satisfaction. This could be viewed as a positive sign for potential renters looking for a stable living situation.</p><p>However, it is important to note that the absence of user reviews reflecting serious issues does not guarantee that they do not exist. Future renters are encouraged to remain vigilant and reach out to current residents to gather more insights, as well as to remain cautious about relying solely on the singular positive review currently available.</p></section>"
+  }
+}

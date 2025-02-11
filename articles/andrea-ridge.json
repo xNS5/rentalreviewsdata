@@ -3,34 +3,35 @@
   "slug": "andrea-ridge",
   "company_type": "Property",
   "address": "939 20th St, Bellingham, WA 98225",
-  "review_count": 3,
-  "average_rating": 3.67,
+  "review_count": 2,
+  "average_rating": 3.5,
   "reviews": {
     "google_reviews": [
       {
         "author": "Danny Ngo",
-        "rating": 2.0,
+        "rating": 2,
         "review": "Awful parking. Units look nice but are very cheaply made. Heat does not contain in the unit during cold winters. Walk ways on stairs usually pools resulting in ice and slippery conditions. Only 2 washers and dryers for tenants that they charge for.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Joshua",
-        "rating": 4.0,
-        "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Rachel Rothberg",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 1,
   "adjusted_average_rating": 2.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The property managed by Andrea Ridge appears to be generally satisfactory, with an overall average rating that sits above the midpoint. This indicates that there are aspects of the property management that residents find appealing. While detailed compliments in the user reviews are limited, the fact that a reviewer has given a high rating suggests there are redeeming qualities that current or past residents appreciate.</p><p>It could be surmised that the aesthetics of the units are a strong suit, as a high rating might reflect satisfaction with the living conditions or possibly the customer service experienced. Without specific examples from user reviews, it\u2019s challenging to highlight particular areas of strength, but the existence of a 5-star review implies that there are tenants who have had positive experiences with Andrea Ridge.</p></section><section><h2>Great</h2><p>Considering the great aspects of Andrea Ridge, there are insufficient user reviews to draw a comprehensive picture that confirms excellence in their property management services. However, a 4-star rating out of 5 in one of the reviews indicates that some tenants have found the standard of the property to be above average.</p><p>The lack of detailed user reviews in this category may simply mean that those with positive experiences did not leave detailed feedback, but it is reasonable to consider that residents have encountered positive interactions or satisfactory resolutions that warranted a good rating, even without granular testimonials to support it.</p></section><section><h2>Bad</h2><p>On the downside, one of the user reviews mentions poor quality in building construction, noting that units appear nice but are \"very cheaply made.\" This indicates that while the initial impression of the apartments might be favorable, the materials and build quality do not meet expectations. Furthermore, the issue with heat not containing properly during winter months can lead to discomfort for tenants and suggests potential energy inefficiency in the property\u2019s design or insulation.</p><p>The same review raises concerns over the practicality of the amenities, indicating that the provided laundry facilities are inadequate with only \"2 washers and dryers for tenants\" and that they come with an additional charge. This could imply that the amenities do not adequately cater to the needs of the residents and could be a source of frustration for those living at Andrea Ridge.</p></section><section><h2>Ugly</h2><p>The most serious grievances noted in the limited reviews are related to safety and maintenance issues. The mention of pooled water on stairways which results in the formation of ice is particularly concerning as it presents a slipping hazard. In areas with cold winters, proactive property management is crucial for preventing such hazards, and this feedback implies a neglect in that regard.</p><pp>Another point of contention is the situation with parking. It has been described as \"awful,\" which can be a significant daily inconvenience for residents. Inadequate parking facilities can lead to heightened tenant dissatisfaction and could reflect broader management issues. The absence of owner responses to reviews, especially negative ones, could further suggest a lackovernment and address concerns raised by their tenants.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739094988,
+    "text": "<section id=\"good\"><h2>Good</h2><p>While there are limited reviews available, one tenant has indicated a positive experience at Andrea Ridge, noting a satisfactory overall impression of the property. This suggests that some residents may have found aspects of their living experience enjoyable, encouraging others to consider it as a potential rental option. Positive experiences related to amenities or community aspects, although not detailed, could contribute to the property's appeal.</p></section><section id=\"great\"><h2>Great</h2><p>Unfortunately, the reviews for Andrea Ridge do not provide significant detail that would reflect a \"great\" category. There is one five-star rating, but it lacks any accompanying text or context that would explain what made the experience so pleasing. Without specific praise in the user reviews, it\u2019s challenging to highlight aspects that could be categorized as extraordinary or exemplary.</p></section><section id=\"bad\"><h2>Bad</h2><p>The sentiment among the user reviews shows a notable concern regarding the infrastructure and maintenance of the property. One user expressed dissatisfaction with the parking situation and highlighted that the units appear appealing but are poorly constructed, leading to issues such as inadequate heating during cold weather. Additionally, concerns regarding the limited availability of washers and dryers for tenants further illustrate management's neglect in addressing the basic needs of residents.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Significant safety concerns were voiced by a tenant who pointed out that walkways tended to pool water, which created hazardous icy conditions. Such neglect of maintenance can not only affect tenant satisfaction but also poses risks to safety. Moreover, with management not responding to any reviews, it raises worries about their engagement and accountability towards tenant issues and concerns at Andrea Ridge.</p></section>"
+  }
 }

@@ -2,10 +2,13 @@
 
 
 import json
+import math
+import sys
+
 import utilities
 from sys import argv
 from asyncio import Semaphore, gather, run, as_completed
-from openai import AsyncOpenAI
+from openai import AsyncOpenAI, RateLimitError
 from dotenv import dotenv_values
 from datetime import datetime
 
@@ -18,8 +21,8 @@ async_client = AsyncOpenAI(
 )
 
 epoch = datetime(1970, 1, 1)
-now = datetime.now()
-now_in_seconds = (now - epoch).total_seconds()
+
+
 
 disclaimer_file = utilities.get_disclaimer_map()
 file_paths = utilities.get_file_paths()
@@ -48,7 +51,7 @@ def get_prompt(file_content):
 async def create_articles_async(file_json):
      prompt = get_prompt(file_json)
      return await async_client.chat.completions.create(
-                model="gpt-4-1106-preview",
+                model="gpt-4o-2024-08-06",
                 messages=[
                     {"role": "system", "content": "You are a helpful assistant whose job is to summarize real company reviews to create well-balanced articles on local property management companies and rental properties."},
                     {"role": "user", "content": prompt}
@@ -56,25 +59,33 @@ async def create_articles_async(file_json):
               )
         
 async def rate_limiter(file_path: str, semaphore: Semaphore):
-     async with semaphore:
-          with open(file_path, "r") as input_file:
-            file_json = json.load(input_file)
-            print(f"{file_json['name']}")
-            input_file.close()
-            result = await create_articles_async(file_json)
+     try:
+         async with semaphore:
+             with open(file_path, "r") as input_file:
+                 file_json = json.load(input_file)
+                 print(f"{file_json['name']}")
+                 input_file.close()
+                 result = await create_articles_async(file_json)
 
-            summary_dict = {
-                "text":  result.choices[0].message.content.replace('\n', ''),
-            }
+                 now = datetime.now()
+                 now_in_seconds = math.ceil((now - epoch).total_seconds())
 
-            if file_json["slug"] in disclaimer_file:
-                summary_dict["disclaimer"] = disclaimer_file[file_json["slug"]]
+                 summary_dict = {
+                     "created_timestamp": now_in_seconds,
+                     "text": result.choices[0].message.content.replace('\n', ''),
+                 }
 
-            return {
-                 **file_json,
-                 "created_timestamp": now_in_seconds,
-                 "summary": summary_dict
-            }
+                 if file_json["slug"] in disclaimer_file:
+                     summary_dict["disclaimer"] = disclaimer_file[file_json["slug"]]
+
+                 return {
+                     **file_json,
+                     "summary": summary_dict
+                 }
+     except RateLimitError as e:
+         print(f"Rate Limit Error: {e.message}")
+         sys.exit(-1)
+
      
 async def async_driver(path, out, file_list = []):
     if len(file_list) == 0:
@@ -88,4 +99,3 @@ async def async_driver(path, out, file_list = []):
             output_file.close()
           
 run(async_driver(input_path, output_path))
-utilities.remove_path(input_path)

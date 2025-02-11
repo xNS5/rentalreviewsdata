@@ -3,352 +3,505 @@
   "slug": "ptla-property-management",
   "company_type": "Company",
   "address": "2020 Pacific St, Bellingham, WA 98229",
-  "review_count": 51,
-  "average_rating": 1.82,
+  "review_count": 72,
+  "average_rating": 1.67,
   "reviews": {
     "google_reviews": [
       {
-        "author": "kim meza",
-        "rating": 5.0,
-        "review": "PTLA has been great so far. Im new to renting from this property management and they have been great with communication! Quick to return calls, emails, viewing properties, etc. The first apartment I looked at wasnt what I needed and my rep (I want to say Jordan?!?!?) was quick to show me alternative locations. I would recommend.",
-        "ownerResponse": {
-          "text": "Thanks for your review! We're so glad you've been pleased with your experience so far. If anything comes up that we can help with, please let us know!"
+        "author": "Brock McDaniel",
+        "rating": 1,
+        "review": "Take the reviews into serious consideration before renting from PTLA.  I can honestly say, only rent from them if you have absolutely have no other choice.  I knew going in it wouldn't be a great experience...but didn't expect it to be as bad as my experience was. Now of course, they manage many different properties all over the county so they differ from location to location... but the blatant neglect of the new building I lived in, not giving me any other option to relocate when they were dealing with drugs/homeless living in and intruding the building, theft/vandalism... I actually questioned the humanity of the employees they had working for them, I truly don't understand how they treat tenants the way they do and go home to their kids and sleep at night.  I got my final move out and just like another recent review, they'll rake you for everything they can... they charged me for lightbulbs and smoke detector (I replaced lightbulbs in the place on my dime during my time there and the smoke detector was fine, actually tested earlier in the year when they did building inspections.) I am so relieved to not be under PTLA anymore, good riddance. Stay far away from them.",
+        "owner_response": null
+      },
+      {
+        "author": "kat",
+        "rating": 1,
+        "review": "Absolutely horrible. Paying full rent for living in a construction zone and kids being booted from their apartments for days. Contacted- fire inspector, local tenant right groups. Reported to the head of student affairs WWU offsite housing office who had the U listed as an apartment option. Had to pay for parking for a year due to all the spots taken due to construction. Do not rent from this group, slum loads at best.",
+        "owner_response": null
+      },
+      {
+        "author": "Susanna Dupont",
+        "rating": 1,
+        "review": "Trying to pay my rent on time. No heat in my apartment for six months. Doors fall off. Bike stolen. Feeling frustrated. Dealt with them in past nothing good to say. Invasion of privacy homelessness. Know the law.",
+        "owner_response": null
+      },
+      {
+        "author": "Mitch B",
+        "rating": 1,
+        "review": "Don't expect to get any damage deposit back. In fact i got a bill for $651 and lost the $750 damage deposit. I know what the place looked like when i left and it did not have that much damage. Be very aware. Take video of EVERYTHING before you move in.",
+        "owner_response": {
+          "text": "Thank you for your review. We document the reasons for our move-out charges with video and photo, and we would be happy to review these with you if you feel you have been charged in error. Please reach out to us at your convenience to discuss. "
         }
       },
       {
+        "author": "Josephine Bloom",
+        "rating": 1,
+        "review": "I have had multiple problems with this management only over the span of 6th months:\n\nMove in:\n- We were supposed to move in September 1st. We got an email the day before that nobody will be working Saturday September 1st through Tuesday September 2nd, due to Labor Day. We called and called explaining that all of our things are already packed and ready for move in tomorrow and they just kept telling us that we couldn't until the 3rd. We finally got in contact with someone who worked with us and we moved in as planned.\n\n- PTLA left a notice on our door that one of my roommates didn't pay rent. She paid 2 days before we received the notice. The money was taken out of her account and the payment bounced on their end. My roommate called and the people she talked to were vague and said that they would take care of it. 5 days go by and a late fee was initiated. She called again to receive the same answer as before. She got an email later saying they resolved it and took no fault.\n\nParking and management attitude:\n- Day of move in we were given our assigned parking. One of the spots does not exist. I was told just to park in the 15-minute spot by the person who worked with us to get our move in date situated. Few days later building receives an email that no one can park there. I called and left voicemails with no response. I had to catch a manager on site (don't count on them being there during the time on the office hours sheet) and they walked me through all lots and pointed at the \"guest spots\" that I could park in.\nI continue to park in the spots she indicated and get back from school to my car being towed. Costed $546 plus the money I lost from having to call out of work. I call and go into the office and explained my situation with parking since move in. She continues to interrupt and tell me I need to be parking in my assigned spot, the one that doesn't exist. She pulled out a list of all the parking spots and which apartment they belong to and tells me that spot is there because she walked the lots and took note of them. I take a video of the lot, showing that spot isn't there, come back and show them and again take no fault. They continue to tell me I was parked in an assigned spot and that I didn't have it in writing that I was told I could park there.\n\nOverall:\nI do not recommend leasing with this management. Managers were condescending, interruptive, and rude. No emails or voicemails responded to, not on site when they tell us they're supposed to. I will not be leasing with them again.",
+        "owner_response": null
+      },
+      {
+        "author": "Eric Oliver",
+        "rating": 1,
+        "review": "Rented from them for 2 years, then cleaned my appartment thoroughly.  I rented a carpet cleaner, dusted all light fixtures, sprayed and wiped down every inch of that appartment and back porch.  It was emaculate.  Never got my deposit back and was hit with a cleaning fee after it was all said and done.  No explanation or anything.  When they're done with you expect to get screwed.  I've lived a lot of places and had only positive experiences to this point.  Please listen to all these reviews and don't give them your business.",
+        "owner_response": {
+          "text": "Thank you for your review. We are always happy to discuss move out charges if any resident believes they were charged incorrectly upon move out. Please reach out to us if you believe there has been an error."
+        }
+      },
+      {
+        "author": "Paige Vinton",
+        "rating": 1,
+        "review": "I rented from PTLA for a little over a year and didnt have a good experience overall. Shortly after moving in, I received a notice on my door that I hadnt paid rent. I had paid before I moved in. I tried contacting the office for two days, left multiple messages, and no one returned my call. I had to go into the office to talk with somewhere where I was treated rudely and had to tell the staff to stop treating me like they were. I did end up sitting down with the head manager at the time and she worked through the situation with me. From my experience, people dont return your call and you have to physically go into the office if you need any type of response you cant get from the on-site manager (if there is one) at your property. Overall, I didnt have a good experience working with the staff and management at this company and would not recommend renting from them.",
+        "owner_response": {
+          "text": "We are sorry to hear that you had difficulty getting in touch with our team. We are constantly making changes to improve our service, and we take our residents' feedback into consideration, so we appreciate you leaving us a review. If there is anything we can do to assist you at this time, please do not hesitate to reach out."
+        }
+      },
+      {
+        "author": "Ashleigh Voss",
+        "rating": 5,
+        "review": "This company's employees were very respectful and helpful to me and I hope they get more business. They helped me get an apartment in a very difficult renting climate in Whatcom county. They handled a difficult situation with dignity that necessitated immediate move out without charging unfair fees. I am happy with their professionalism. From the moment I applied to the moment I moved out, they were there for me every step of the way and actually returned calls in a timely manner. Julian was the BEST! Thank you guys for everything you did for me. I would love to rent from you again if I ever move back to the area.",
+        "owner_response": {
+          "text": "Thanks for your feedback, Ashleigh! We're so glad to hear our team was helpful through your renting journey. We'd love to rent to you again should you find yourself back in town!"
+        }
+      },
+      {
+        "author": "Ally Carter",
+        "rating": 1,
+        "review": "Ive only been renting from PTLA for a few months but theyve been an absolutely horrible last few months. Maintenance requests have been ignored and payments have not been communicated about properly. This is a company taking advantage of the student population in Bellingham and subjecting them to their poor management and communication skills.",
+        "owner_response": {
+          "text": "Ally, we're concerned to read your feedback and would love the opportunity to speak with you so we can improve our services. Please give us a call at your earliest convenience. "
+        }
+      },
+      {
+        "author": "nancy irwin",
+        "rating": 1,
+        "review": "As a parent to one of the residents at The U Apartments, I wish I could rate this as a zero. We did a tour of the U in Feb 2024. The apartment walkways had 4 x4s supporting the walkways. We met with one of the management people there, who forgot that we had an tour appointment. We asked about the supports and she said that PTLA took over the property in late 2023 and the inspectors pointed out that the walkways needed to be fixed and PTLA has plans to fix it during the summer, before fall quarter starts. The boys agreed to sign the lease. Since March till Sept 2024, I've been communicating with PLTA with questions and about if the construction is still on schedule for the summer. I kept getting mixed answers. Some said there were no plans and others said that they didn't know. Fast forward to move in date, Sept 2024. Construction started not too long ago. It was difficult to move since there were rafters everywhere. My son's room, which is the smallest, one of the windows had plastic over it. The closet door was off it's track. It looked like it has been like that for a while. Appliances are old. They had a long list of damaged items for their damage list. The construction noise was unbearable, especially when they start at 8:00 am. And very inconvenient to work around the many notices to enter, which majority of the time, they didn't enter till the last day. The first weekend they spent there, someone pulled the fire alarm at 2:30 am and all the residents evacuated. It was raining really hard and they couldn't get back into the apartment until the fire department got a hold of PTLA, which took about 30 mins after the fire department took 15 minutes to get there. I can't image if it was a real fire, the place would of burned quickly with all the plywood and construction equipment in the front parking lot, the fire trucks would have a difficult time fighting it. There would be no way for the residents on upper floors to escape. PLTA seems to have an \"I don't know\" attitude when it comes to answers or maintenance requests, which there were many in the two months they have been living there. It's very frustrating dealing with them, even as a parent. Maybe their other properties is 1/2 a step above The U Apartments. But they should have not let people move in with all the construction chaos and broken or falling apart things at The U. It's ridiculous. Not even the Corporate offices has contacted me after emailing them. All they care is making over $3,275 per month, not including utilities for a run down 4 bedroom apartment.",
+        "owner_response": null
+      },
+      {
+        "author": "lauren swangler",
+        "rating": 1,
+        "review": "Moved in with my two roomates this month. On arrival we saw the construction with no prior warning, except a $250 gift card with minimal context concerning construction. The only stairs we were able to use the first two weeks and for move in were scaffolding. September 20 at 10:30 am with no warning from management both me and my roomates windows were removed while we were in our rooms. Since our windows were removed they have not been fully reset back into the wall allowing for the construction noises to be noticeably louder than before starting at 8am. The week after we were sent emails and flyers about removing our windows the following day and being legally obligated to inform us when they had not previously. Last Friday two hours after the management office closed we were informed if we needed to leave our apartment Monday through Wednesday between the hours of 8am to 5pm we would not be able to unless we left at 8am and were gone until 5pm. We have not been able to contact the office as they send every call straight to voicemail and when they do pick up they send you on a wild goose chase to the next phone number.",
+        "owner_response": null
+      },
+      {
+        "author": "G",
+        "rating": 1,
+        "review": "Absolutely terrible. A neighbor was doing renovation work and blasting music late at night over a period of months; all PTLA had to do was send an email to the condo manager and they would deal with the issue, but instead PTLA kept saying \"we'll get back to you\" and never did. I was forced to move and I'm so grateful that I have a friendly, responsive landlord now, and not a parasite like PTLA. You've been warned.\n\nUpdate: PTLA's response says to give their office a call. They never returned any of my phone calls when I was renting from them.",
+        "owner_response": {
+          "text": "We're sorry to hear that you did not have a positive experience with our team. We're passing along your feedback to our management team to help us improve our services. If there is anything we can do to assist you at this time, please feel free to give our office a call."
+        }
+      },
+      {
+        "author": "David E",
+        "rating": 3,
+        "review": "Ive had thirty-one years of experience as a renter. Judging by the reviews on this site and the one before it when PTLA took over from APEX, many people have had bad experiences with this company. However, in leaving a review, I have to go by my own experience, and in general my wife and I had a comparatively decent one with PTLA.\n\nOn the downside, I did not appreciate the fifty-eight page lease designed, above all else, to protect the legal interests of PTLA and building owner. I also didnt like the background check and the disclosure of personal information. Move-in did not go as smoothly as I hoped because the elevator was out, and there was no hope of getting it fixed before the movers arrived that day. Finally, we found the apartment had a number of functional problems when we moved in: one faucet in the bathroom tub didnt work; one set of blinds were stuck in the up position; a bathroom fan was broken; a garage door opener didnt work; and a toilet didnt work properly and didnt have a safety shut-off valve.\n\nOn the upside, we found that the PTLA maintenance team responded quickly, and all problems were fixed in a reasonable amount of time. This was true of subsequent problems, as when the garage door became stuck when someone hit it with their vehicle. My recommendation is that tenants submit maintenance requests through the portal and attach photographs. That worked for us.\n\nAlthough the lease was long, it also made it pretty clear that tenants were not allowed to create noise disturbances. In general, the building was adequately managed, though the grounds were littered with trash which no one ever bothered to attend to.\n\nMove-out went smoothly. We were leveled relatively small charges for minor cleaning and painting, and as a result we received most of our deposit back. This seemed fair to us. We also werent charged for carpet cleaning because we left the carpet in good condition. This was also fair.\n\nIn general, there is room for improvement in PTLAs management, and I hope this review is seen as constructive. If youre planning to rent in Bellingham, you should look around and consider your options. PTLA, in our experience, is a reasonable option.",
+        "owner_response": {
+          "text": "Thank you for sharing this feedback, David. We are sorry to hear about the troubles you experienced upon move in. We appreciate your thoughtful response and are always looking for ways to improve. These will certainly be taken into consideration.  "
+        }
+      },
+      {
+        "author": "Trevor M",
+        "rating": 1,
+        "review": "Oh look, they made a new Google account to get rid of all their 1 star reviews! Perfect, I'll just copy and paste from my last 1 star review....\n\nSpend your money elsewhere... We moved into the brand new Crescent building that had and still has more issues than they know what to do with. If you can even get a hold of someone in their office they'll just play dumb and act sorry. Maintenance issues do not get addressed. Take your money elsewhere. They were and are not willing to work with us when we had unexpected life-issues come up forcing us to move, they just care about getting their overpriced rent. Maintenance and snow removal are non existent, this past snow storm the sidewalks and parking spaces weren't touched. Sidewalks were not walkable, and the front door doesn't open so tenants were supposed to walk around the building on ice-covered sidewalks to get inside. One of the two elevators has been broken 6 of the 8 months we've lived here. Heating systems inside units aren't able to keep up, and they won't heat or fix the heat in the buildings hallways and common areas so our electric heat has to run 24/7. The units do not get warmer than 60 degrees. The \"Leasing agent\", Kylie, lied upon move in claiming the units have A/C. They do not. My fault for not checking, I guess I should have known I was being lied to. Winter temps are no warmer than 60 inside while summer temps are 90+ on the 5th floor. I guess I had decent expectations for almost $2000 a month  The grass was never cut in the summer, and poison plants were found around the building that are fatal for dogs. This once again was not taken care of. The walls are very poorly soundproofed so noise and music from neighbors goes right thru falls.\n\nUPDATE 01/06/2023\nPTLA HAS NOT reached out, instead someone got upset that the front door has been faulty for quite some time now, forcing everyone to walk around. The only handicapped door that is. And now someone ripped the door handle off. Id imagine this will take months for them to fix as well. Once again, do not rent here.\n\nUpdate 01/30/23\nThe streetlights and exterior walkway lights have been out for over a week now. You can hardly see anything in the parking lot or behind the building, must walk with a flashlight. Just a matter of time before all the local Bellingham tweekers that live in the woods next to the building come out and start smashing into car windows to steal stuff now that they dont have to worry about streetlights. Have to assume PTLA just hasnt paid the bill, theyre cheap (obviously).",
+        "owner_response": null
+      },
+      {
+        "author": "sel gilber",
+        "rating": 1,
+        "review": "This is the worst property management company Ive rented from in Bellingham. Ive had positive experiences with Landmark, , Local Property Management and a couple smaller companies. PTLA purchased my property recently and Ive had nothing but issues. They wont take off additional charges for renters insurance when I have proof of my own that Ive had since before they took over and a huge lack of follow through. I accidentally locked myself out with my dog and laundry and they made me call a locksmith on a Saturday morning. The only locksmith that answered didnt want to help because I live in an  apartment and the landlord should unlock the door for me. (Agreed) Luckily, after some convincing he was willing to help. If you have options do not rent from them.",
+        "owner_response": null
+      },
+      {
         "author": "Dana Huggett",
-        "rating": 1.0,
+        "rating": 1,
         "review": "I have been trying for days to get in touch with anyone in the office. Our hot water froze during the last cold snap and because of a design flaw the pipes ran in an exterior wall. The only solution was to put a small heater in the garage and it took 3 days for the weather to warm up and the pipes to thaw. By law they have 24hrs to find a solution. Secondly, I live in a 3 story townhome with the lower level consisting of a bedroom/bathroom and entry way. On a normal winter day the temperature cannot get above 62 degrees with full heat going. When it was cold outside it was 48 degrees on that level, I had to move my daughter out of her room and upstairs. On the upper 2 floors the the heat also struggled in the cold with the max heat being 62 on the very cold days. In speaking with others in the same type of unit in my complex they are also having the same difficulties with heat. This is a design flaw and cannot be rectified easily. PTLA has violated the tenancy law but not rectifying the situation in a timely manner. I have put in my notice to terminate my tenancy after 3 days of no hot water/adequate heat and have not heard anything from them. I have emailed, dropped off a letter, messaged through the portal and called and left a message. Not sure what else to do.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Dana, thank you for reaching out, and we apologize for the delayed response. A member of our team will reach out to you today to address these concerns. "
         }
       },
       {
-        "author": "Megan Andersen",
-        "rating": 1.0,
-        "review": "PTLA is very difficult to get a hold of and has gone thru at least three community managers for Meadows at June Rd during the last six months. The parking at this property is atrocious and after moving in, they decided to change our assigned parking spot to one that doesnt even fit our stock F150. After three months of being told they will work to find us a new spot, they now refuse to help. The on site garbage bin areas are filled with trash daily and trash all over the ground. Its very clear there has not been a community manager capable of running this property for some time now.\n\nDo not recommend.",
-        "ownerResponse": null
+        "author": "Charles",
+        "rating": 1,
+        "review": "Terrible, cant contact and wont help anything.\nTheyll finally start looking into your issues once you complain in person. I could update this more but long story short they suck especially if you are a young person.\nIf youre going to college DEFINITELY do not consider this company, thankfully Im not but am a young adult and they are terrible. Wont assist anything and just try to maximize the money and pain they can take and give to you",
+        "owner_response": {
+          "text": "Thank you for your feedback. We're sorry to hear that you haven't been pleased with your experience with us. We would be happy to discuss your concerns with you. Feel free to reach out to us at your earliest convenience."
+        }
       },
       {
-        "author": "Trevor M",
-        "rating": 1.0,
-        "review": "Oh look, they made a new Google account to get rid of all their 1 star reviews! Perfect, I'll just copy and paste from my last 1 star review....\n\nSpend your money elsewhere... We moved into the brand new Crescent building that had and still has more issues than they know what to do with. If you can even get a hold of someone in their office they'll just play dumb and act sorry. Maintenance issues do not get addressed. Take your money elsewhere. They were and are not willing to work with us when we had unexpected life-issues come up forcing us to move, they just care about getting their overpriced rent. Maintenance and snow removal are non existent, this past snow storm the sidewalks and parking spaces weren't touched. Sidewalks were not walkable, and the front door doesn't open so tenants were supposed to walk around the building on ice-covered sidewalks to get inside. One of the two elevators has been broken 6 of the 8 months we've lived here. Heating systems inside units aren't able to keep up, and they won't heat or fix the heat in the buildings hallways and common areas so our electric heat has to run 24/7. The units do not get warmer than 60 degrees. The \"Leasing agent\", Kylie, lied upon move in claiming the units have A/C. They do not. My fault for not checking, I guess I should have known I was being lied to. Winter temps are no warmer than 60 inside while summer temps are 90+ on the 5th floor. I guess I had decent expectations for almost $2000 a month  The grass was never cut in the summer, and poison plants were found around the building that are fatal for dogs. This once again was not taken care of. The walls are very poorly soundproofed so noise and music from neighbors goes right thru falls.\n\nUPDATE 01/06/2023\nPTLA HAS NOT reached out, instead someone got upset that the front door has been faulty for quite some time now, forcing everyone to walk around. The only handicapped door that is. And now someone ripped the door handle off. Id imagine this will take months for them to fix as well. Once again, do not rent here.\n\nUpdate 01/30/23\nThe streetlights and exterior walkway lights have been out for over a week now. You can hardly see anything in the parking lot or behind the building, must walk with a flashlight. Just a matter of time before all the local Bellingham tweekers that live in the woods next to the building come out and start smashing into car windows to steal stuff now that they dont have to worry about streetlights. Have to assume PTLA just hasnt paid the bill, theyre cheap (obviously).",
-        "ownerResponse": null
+        "author": "Gabby Cagley",
+        "rating": 1,
+        "review": "One of the most inept management groups in bellingham for renters. Our pipes froze this winter at no fault of our own and they never followed up. They continue to add on new charges to nickel and dime renters whenever they feel like it and consistently raise rent without any improvements to the apartment or a real reason other than the market. They send a pay up or get out eviction notice after being late one time on payment over the course of multiple years of residence over a simple clerical error with no contact follow up or phone call to perhaps check on why rent was late. Ive lived at one of their rentals for almost three years and this is kind of treatment Ive received. They do not care about residents. I wish I had not resigned my lease and looked elsewhere. Not worth it at all.",
+        "owner_response": null
       },
       {
-        "author": "Lindsey Hanna",
-        "rating": 1.0,
-        "review": "Awful customer service. Terrible response time for maintenance issues. basically cannot get anyone to respond to an email or phone call and if they do they usually mess it up. They have VERY sneaky wording in their lease renewals so watch out! They send out renewal contracts six months in advanced with decent deals so just be aware cause if you ignore those you will lose you place at the end of your lease. In regards to the actual unit at Elwood. Its beautiful. Marble counters, stainless steel appliances and in unit washer/dryer. The construction is near finished so you dont hear it that often anymore. Parking sucks but thats typical for Bellingham.",
-        "ownerResponse": {
-          "text": "Thank you for your review, Lindsey. We are sorry to hear you haven't had a positive experience so far. A member of our team will reach out to you shortly to address your concerns. "
+        "author": "Rylee Andrews",
+        "rating": 1,
+        "review": "I tried taking a lease over and they made the entire process extremely difficult. I was sent on a wild goose chase, applying to various links that were sent and in the end they told me that it was too late to take over the lease even though I have been trying to for over two months in which I had to apply to another link to get an apartment. The entire process was extremely misleading and unhelpful. The lack of structure is extremely disappointing, also when calling only one person knows the leasing information but is never there.",
+        "owner_response": null
+      },
+      {
+        "author": "Kim Meza",
+        "rating": 5,
+        "review": "PTLA has been great so far. Im new to renting from this property management and they have been great with communication! Quick to return calls, emails, viewing properties, etc. The first apartment I looked at wasnt what I needed and my rep (I want to say Jordan?!?!?) was quick to show me alternative locations. I would recommend.",
+        "owner_response": {
+          "text": "Thanks for your review! We're so glad you've been pleased with your experience so far. If anything comes up that we can help with, please let us know!"
         }
       },
       {
         "author": "Salim",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Ive been here for 2 months, and I have nothing good to say about PTLA. For starters, the entire apartment was much smaller than advertised on the floor plan. About 2 square feet per room smaller. The washing machines went out for a week, and they did nothing to respond to our calls and emails, so we just had to wear dirty clothes. They didnt charge us for electricity until this month, when they dropped the 2 months of electricity bills on us at once, AFTER our rent had already been paid, then continued to charge us $5 per day of late fees without notifying us. We didnt notice this until it racked up to over $50. Then, of course, theyve continued to not respond to our emails or calls, and continually go out of office for extended periods of time. They are raising the rent, and making us sign the lease for next year in December. If we dont by the 8th, they are going to raise it again. If we don't by the end of the month, they will assume we arent renewing?? PTLA is an awful, selfish, money hungry business. Never trust them.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for your feedback, and we're sorry to hear that you have not had a good experience so far. Unfortunately, the laundry machines at your property are owned and managed by a third-party laundry company who will not allow us to do maintenance on the machines ourselves. However, if you ever have issues with the machines, you can contact their  customer support. We have signs in the laundry rooms with their contact information should you ever need assistance. \nWe did have an issue with the utilities charges this month, which has now been resolved. We are happy to reverse any late fees that were assessed because of this error if your account is otherwise in good standing. It looks like our team already took care of this for you, so please reach out to us if you do not see that on your account. \n\nThank you for your understanding, and we look forward to improving your experience."
         }
       },
       {
         "author": "Callie L",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Tried to steal our entire security deposit after move out when we spent 2 full days with 6 people cleaning the apartment. I anticipated they might try this so I took a video upon move out to prove the state of the apartment was perfectly clean and in good order. It took the video proof, a lawyer, and calls and emails every single day to get them to return the deposit. If you must rent from them, take pictures/videos on move in and move out and be prepared to contact them every single day when they steal your deposit. Also CC their bosses on the emails so they get annoyed/embarrassed and respond back to you. Good luck and rent elsewhere if possible!!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Callie, thank you for your review. We apologize for the responsiveness issues you experienced. Although we do our best to fairly assess move-out conditions, we welcome former residents to reach out to us if they feel we have made a mistake so we can correct that. We are glad to have resolved your concern and are working to improve future responsiveness. Again, thank you for your review, and we are happy to speak with you if there is anything further we can do for you."
         }
       },
       {
+        "author": "Yost",
+        "rating": 1,
+        "review": "Dont rent from them if you can avoid it. There was hundreds of 1 star reviews, all of a sudden, theyre gone. Absolutely terrible and garbage property management office. I have no qualms with maintenance. They respond quick and do what needs to be done. But the office took 6 months to process an application for your roommate. I started that process in January, my lease was up for renewal in May. May comes around, 3 days before the deadline for my lease renewal, they tell me my roommate isnt qualified. Ive live here 7 years and havent missed a month, and my past roommates had been even less qualified, so it made no sense. But, they waited till 3 days before my lease renewal deadline to say something, and then refused to give me an extension on that lease renewal timeline. I even pointed out to them that it took them 6 months to process the application. Another time I went into the office to pay my rent in person, they failed to tell me then that other one time fees had been added to my rent and that the check I was giving them would not suffice. I have a list of complaints, I dont want to fill up the whole review area lol",
+        "owner_response": null
+      },
+      {
+        "author": "Herobrine",
+        "rating": 1,
+        "review": "They'll take 3/4 of your deposit. Don't bother paying cleaners because they will charge you the maximum allowed cleaning fee anyway. They are dishonest.",
+        "owner_response": null
+      },
+      {
+        "author": "Matthew Schnell",
+        "rating": 1,
+        "review": "1. PTLA is difficult to contact. Plan to go directly to the office if you need to talk with anyone.  I had days where I called up to 6 times with no response or reply to voicemail or email. The property manager where I lived also rarely answered or returned calls.\n2. My unit was brand new when we started the rental.  The unit was covered in construction dust and had clearly not been cleaned.  We even found a doorstop in the freezer.\n3.  PTLA billed me for over 4 hours of cleaning (in addition to the carpet cleaning I had agreed to in the lease).  I sent PTLA multiple pictures of the clean apartment asking what the fee was for and noting that PTLA postmarked my refund over the time allowed by law.  PTLA then refunded the remainder of my deposit.\n\nIf renting with PTLA, I suggest documenting everything very thoroughly.  Take excessive photos, videos and follow up on phone calls via email.\n\nAlso, note that the reviews now only show as going back to Summer of 2023.  The old reviews are now missing.",
+        "owner_response": null
+      },
+      {
+        "author": "Megan Raetz",
+        "rating": 1,
+        "review": "PTLA is very difficult to get a hold of and has gone thru at least three community managers for Meadows at June Rd during the last six months. The parking at this property is atrocious and after moving in, they decided to change our assigned parking spot to one that doesnt even fit our stock F150. After three months of being told they will work to find us a new spot, they now refuse to help. The on site garbage bin areas are filled with trash daily and trash all over the ground. Its very clear there has not been a community manager capable of running this property for some time now.\n\nDo not recommend.",
+        "owner_response": null
+      },
+      {
+        "author": "Maya Williams",
+        "rating": 1,
+        "review": "Do not rent from PTLA!!! They managed to remove all old reviews (pretty suspicious since most were 1-2 stars). I have had to deal with them at two separate properties and they have been difficult the entire time.\nBelvedere - they used the age of the building to excuse poor maintenance. There was mold, fleas, the windows leaked, the basement flooded multiple times, washers backed up with black fluid, and there were three seperate gas leaks when I moved out. Maintenance requests were slow and as soon as you asked for something more than the bare minimum they stopped responding.\nElwood edge - when owership transferred PTLA lost my rent payments and proof of insurance and then tried to EVICT ME. This was after I notified them of the fact that a payment wasn't applied to my account. They stopped responding to my calls and emails after the eviction notice without notifying me that they had stopped proceeding with the eviction.\n\nPlease stay away from them! They do not care about you",
+        "owner_response": null
+      },
+      {
+        "author": "Lindsey Hanna",
+        "rating": 1,
+        "review": "Awful customer service. Terrible response time for maintenance issues. basically cannot get anyone to respond to an email or phone call and if they do they usually mess it up. They have VERY sneaky wording in their lease renewals so watch out! They send out renewal contracts six months in advanced with decent deals so just be aware cause if you ignore those you will lose you place at the end of your lease. In regards to the actual unit at Elwood. Its beautiful. Marble counters, stainless steel appliances and in unit washer/dryer. The construction is near finished so you dont hear it that often anymore. Parking sucks but thats typical for Bellingham.",
+        "owner_response": {
+          "text": "Thank you for your review, Lindsey. We are sorry to hear you haven't had a positive experience so far. A member of our team will reach out to you shortly to address your concerns. "
+        }
+      },
+      {
+        "author": "Corie Odenbreit",
+        "rating": 1,
+        "review": "Pretty telling when all the reviews from before 2023 have been removed. They deleted my review from a year ago but thats ok Ill just keep posting one. Terrible place to rent from, Monterra Apartments are in a disgusting state and probably should be torn down. Terrible rental prices for barley any amenities. Staff is unresponsive and rude. My partner could over hear one of the office managers talking bad about us through the walls and she referred to my partner as a b!tch. Mind you, we went to their office to ask what was going on after not finishing any repairs on our cracked and leaking ceiling. Avoid at all cost, especially young students moving to the area.",
+        "owner_response": null
+      },
+      {
+        "author": "Terry B",
+        "rating": 1,
+        "review": "Nearly impossible to get a hold of when you need to. The unit I was put into first smelled like the person renting it BATHED in w3ed, despite the lease clearly stating that ANY drug--and literally calling out this one!--is a violation of the lease and cause for revocation of your security deposit. It took a new company coming in, 10 weeks after my \"allowed\" unit change date before I finally got into another unit - and I was still paying for the druggie den! Thankfully the new company acknowledged that PTLA is full of lazy @$$h0les and waived the $250 fee that PTLA no doubt would have charged me for the 10 weeks they spent not replying to my request to move. WORST. COMPANY. E V E R. Also, be SUPER suspicious: there used to be reviews dating from back to 2014 here that averaged to 1.2. ~ mysteriously~, they are all gone. Oldest reviews reviews are now a month old or less.",
+        "owner_response": null
+      },
+      {
+        "author": "Jayme Wilson",
+        "rating": 1,
+        "review": "I have been trying to reach PTLA for a long time now regarding the status of a lease transfer application as well as documentation for ESA. Instead of responding to my emails/phone calls, they deny my upload of the documentation for ESA stating Im not uploading it under the right file identification. The email, if they would respond, that I sent is in regards to this issue and how I am unable to upload it any other way since there is only one area where I can upload any documents. I have called 7 times now and left 2 voicemails with no response as well as an email submission with a complaint. If the office is supposed to be open, all calls should be answered in a timely fashion as well as answered when residents call in the first place. Unacceptable.",
+        "owner_response": {
+          "text": "Thanks for your feedback, and we do apologize for the difficulty you had getting in touch with a member of our team. It sounds like we have now addressed your needs, but please let us know if you need any further assistance."
+        }
+      },
+      {
+        "author": "Adrien Couzens",
+        "rating": 1,
+        "review": "NEVER RENT FROM PTLA I have been trying to get an application for a new guarantor through for 2 months and they have stonewalled me every time I have contacted them and given me wrong information multiple times. I just need to add a new guarantor to my lease renewal! I have informed them over and over that my original signer is in the hospital dying and won't be able to renew with me but they can't seem to simply send me a link to an application. I just need them to communicate with me and they refuse to.",
+        "owner_response": null
+      },
+      {
+        "author": "Indaris Nerothan",
+        "rating": 1,
+        "review": "Somehow, all of the reviews are gone. Thats really suspicious because the majority of the reviews were 1-2 stars - real bad reviews.\n\nWord of warning - tour BEFORE giving deposit or signing any paperwork. Please, they take advantage of college students and low-income families.\n\nI've had nothing but bad experiences with PTLA. This is my first time renting an apartment, I made a lot of mistakes and they took advantage of me.\n\nThey had me pay deposit and sign the lease before doing a walk-through or a tour. Biggest mistake of my life. The apartment I'm in looks NOTHING like the photos on their website. It's so neglected and gross... spray insulation foam sticking out of cracks. The floors are painted over and chipping, dirt and dust build up on exposed pipes. It's a janitor closet retrofitted into an apartment.\n\nI tried asking to release me from my lease a day after signing it because my apartment is unfit for human living. They told me they wouldnt and accused me of making things up. I showed them photos, they didnt care.\n\nI cant WAIT for my lease to be over. I'm never renting from PLTA ever again.",
+        "owner_response": null
+      },
+      {
         "author": "Kari Na",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I noticed the relatively recent bad reviews which got me a little nervous, however! My personal experience has been nothing but great so far! Jeremy Dauglash has gone above and beyond to take the time to answer all of my questions patiently and and very kindly, without making me feel stupid and annoying for having so many. He also took the time to walk me through how to get my electricity switched over and just ensure that everything is in line, ready to go for move in. It is a MAJOR stress relief to me and I am truly grateful!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for your feedback! We're so glad to hear that you had a great experience with our team. We hope you enjoy your new home!"
         }
       },
       {
         "author": "Desirae Bradley",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Update.our experience here has absolutely had the worst downfall since they fired the manager, Caitlin, who signed our lease. They went from 3 stars to 1.5 since parting ways with her. How funny. Well, we have many maintenance issues that dont get answered. Call the office all the time now and they never answer. We pay $2,500 a month for this garbage. DONT RENT HERE!!!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "We apologize for your experience and hope to improve it. A member of our team will reach out to you shortly to address your maintenance request and other concerns you may have at the property. We appreciate you letting us know your feedback."
         }
       },
       {
-        "author": "Jayme Wilson",
-        "rating": 1.0,
-        "review": "I have been trying to reach PTLA for a long time now regarding the status of a lease transfer application as well as documentation for ESA. Instead of responding to my emails/phone calls, they deny my upload of the documentation for ESA stating Im not uploading it under the right file identification. The email, if they would respond, that I sent is in regards to this issue and how I am unable to upload it any other way since there is only one area where I can upload any documents. I have called 7 times now and left 2 voicemails with no response as well as an email submission with a complaint. If the office is supposed to be open, all calls should be answered in a timely fashion as well as answered when residents call in the first place. Unacceptable.",
-        "ownerResponse": {
-          "text": "Thanks for your feedback, and we do apologize for the difficulty you had getting in touch with a member of our team. It sounds like we have now addressed your needs, but please let us know if you need any further assistance."
-        }
-      },
-      {
-        "author": "Matthew Schnell",
-        "rating": 1.0,
-        "review": "1. PTLA is difficult to contact. Plan to go directly to the office if you need to talk with anyone.  I had days where I called up to 6 times with no response or reply to voicemail or email. The property manager where I lived also rarely answered or returned calls.\n2. My unit was brand new when we started the rental.  The unit was covered in construction dust and had clearly not been cleaned.  We even found a doorstop in the freezer.\n3.  PTLA billed me for over 4 hours of cleaning (in addition to the carpet cleaning I had agreed to in the lease).  I sent PTLA multiple pictures of the clean apartment asking what the fee was for and noting that PTLA postmarked my refund over the time allowed by law.  PTLA then refunded the remainder of my deposit.\n\nIf renting with PTLA, I suggest documenting everything very thoroughly.  Take excessive photos, videos and follow up on phone calls via email.\n\nAlso, note that the reviews now only show as going back to Summer of 2023.  The old reviews are now missing.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Justin Quyle",
-        "rating": 1.0,
-        "review": "Dont rent from them if you can avoid it. There was hundreds of 1 star reviews, all of a sudden, theyre gone. Absolutely terrible and garbage property management office. I have no qualms with maintenance. They respond quick and do what needs to be done. But the office took 6 months to process an application for your roommate. I started that process in January, my lease was up for renewal in May. May comes around, 3 days before the deadline for my lease renewal, they tell me my roommate isnt qualified. Ive live here 7 years and havent missed a month, and my past roommates had been even less qualified, so it made no sense. But, they waited till 3 days before my lease renewal deadline to say something, and then refused to give me an extension on that lease renewal timeline. I even pointed out to them that it took them 6 months to process the application. Another time I went into the office to pay my rent in person, they failed to tell me then that other one time fees had been added to my rent and that the check I was giving them would not suffice. I have a list of complaints, I dont want to fill up the whole review area lol",
-        "ownerResponse": null
-      },
-      {
-        "author": "Joey Saxer",
-        "rating": 5.0,
-        "review": "PTLA is AMAZING the landlords are great and understanding. I got my first place through them. Other property managements turned me down because of no rental history",
-        "ownerResponse": {
-          "text": "Thanks for your review! We're glad we could help you find a home. If there's anything else we can help with, just let us know!"
-        }
-      },
-      {
-        "author": "Maya Williams",
-        "rating": 1.0,
-        "review": "Do not rent from PTLA!!! They managed to remove all old reviews (pretty suspicious since most were 1-2 stars). I have had to deal with them at two separate properties and they have been difficult the entire time.\nBelvedere - they used the age of the building to excuse poor maintenance. There was mold, fleas, the windows leaked, the basement flooded multiple times, washers backed up with black fluid, and there were three seperate gas leaks when I moved out. Maintenance requests were slow and as soon as you asked for something more than the bare minimum they stopped responding.\nElwood edge - when owership transferred PTLA lost my rent payments and proof of insurance and then tried to EVICT ME. This was after I notified them of the fact that a payment wasn't applied to my account. They stopped responding to my calls and emails after the eviction notice without notifying me that they had stopped proceeding with the eviction.\n\nPlease stay away from them! They do not care about you",
-        "ownerResponse": null
-      },
-      {
-        "author": "Aidan Sweet",
-        "rating": 4.0,
-        "review": "Overall everyone I've spoken with at PTLA Is kind and helpful. Maintenance requests are addressed quickly and they are respectful of your space.",
-        "ownerResponse": {
-          "text": "Thanks for your feedback, Aidan! We're glad you have been pleased with our responsiveness to maintenance requests. If there is anything else we can do for you, please let us know."
-        }
-      },
-      {
-        "author": "Janine Richardson",
-        "rating": 3.0,
-        "review": "Looking for a rental for myself. Unfortunately that company might be very busy. I've not heard back from them as of yet. There are admin fees. Pet fees. Sometimes y'all need to earn more than 3 times the rent. Goodness.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Corie Odenbreit",
-        "rating": 1.0,
-        "review": "Pretty telling when all the reviews from before 2023 have been removed. They deleted my review from a year ago but thats ok Ill just keep posting one. Terrible place to rent from, Monterra Apartments are in a disgusting state and probably should be torn down. Terrible rental prices for barley any amenities. Staff is unresponsive and rude. My partner could over hear one of the office managers talking bad about us through the walls and she referred to my partner as a b!tch. Mind you, we went to their office to ask what was going on after not finishing any repairs on our cracked and leaking ceiling. Avoid at all cost, especially young students moving to the area.",
-        "ownerResponse": null
+        "author": "Eliza Gronke",
+        "rating": 1,
+        "review": "They somehow removed ALL the old reviews. Worst experience/company ever. I contacted them about the mold in my unit at forest hills multiple times and they did nothing, it ruined all of my furniture and they just didnt care. They never once returned a voicemail. The people working the front desk are incompetent and told us false information that took multiple visits for someone to finally realize their mistake. Never rent from these people, they have no integrity.",
+        "owner_response": null
       },
       {
         "author": "Abigail Clark",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Do not rent from PTLA!!!!! They are scammers. After we moved out from our unit (which we had thoroughly cleaned and repaired damages) they kept our deposit AND charged us nearly 600 dollars for damages. Horrible property management.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks for your feedback. We would love the opportunity to discuss your move-out charges with you, and a member of our team will reach out to you shortly. "
         }
       },
       {
-        "author": "Terry B",
-        "rating": 1.0,
-        "review": "Nearly impossible to get a hold of when you need to. The unit I was put into first smelled like the person renting it BATHED in w3ed, despite the lease clearly stating that ANY drug--and literally calling out this one!--is a violation of the lease and cause for revocation of your security deposit. It took a new company coming in, 10 weeks after my \"allowed\" unit change date before I finally got into another unit - and I was still paying for the druggie den! Thankfully the new company acknowledged that PTLA is full of lazy @$$h0les and waived the $250 fee that PTLA no doubt would have charged me for the 10 weeks they spent not replying to my request to move. WORST. COMPANY. E V E R. Also, be SUPER suspicious: there used to be reviews dating from back to 2014 here that averaged to 1.2. ~ mysteriously~, they are all gone. Oldest reviews reviews are now a month old or less.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Adrien Couzens",
-        "rating": 1.0,
-        "review": "NEVER RENT FROM PTLA I have been trying to get an application for a new guarantor through for 2 months and they have stonewalled me every time I have contacted them and given me wrong information multiple times. I just need to add a new guarantor to my lease renewal! I have informed them over and over that my original signer is in the hospital dying and won't be able to renew with me but they can't seem to simply send me a link to an application. I just need them to communicate with me and they refuse to.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Wise Wons",
-        "rating": 1.0,
-        "review": " This place sucks so bad. I cannot even express how confusing and impersonal the whole experience has been. Not only that, the amount of fees they charge is ludicrous. They are seriously nickel and diming the hell out of their tenants. They are never available and never return phone calls. This place is sketch. Cannot wait for my lease to end. I wish I never came here.\n\n#neveragain",
-        "ownerResponse": null
-      },
-      {
-        "author": "Indaris Nerothan",
-        "rating": 1.0,
-        "review": "Somehow, all of the reviews are gone. Thats really suspicious because the majority of the reviews were 1-2 stars - real bad reviews.\n\nWord of warning - tour BEFORE giving deposit or signing any paperwork. Please, they take advantage of college students and low-income families.\n\nI've had nothing but bad experiences with PTLA. This is my first time renting an apartment, I made a lot of mistakes and they took advantage of me.\n\nThey had me pay deposit and sign the lease before doing a walk-through or a tour. Biggest mistake of my life. The apartment I'm in looks NOTHING like the photos on their website. It's so neglected and gross... spray insulation foam sticking out of cracks. The floors are painted over and chipping, dirt and dust build up on exposed pipes. It's a janitor closet retrofitted into an apartment.\n\nI tried asking to release me from my lease a day after signing it because my apartment is unfit for human living. They told me they wouldnt and accused me of making things up. I showed them photos, they didnt care.\n\nI cant WAIT for my lease to be over. I'm never renting from PLTA ever again.",
-        "ownerResponse": null
+        "author": "Dag Urmensch",
+        "rating": 1,
+        "review": "PTLA is a slick operation staffed by young know-nothings.  If they send you a rental increase notice of 50% or more, four or more months before your lease expires, and illegally present this increase as an offer that expires in a month, ignore it.  It is a meaningless, strongarm tactic, and they will decrease their extortionist demand as the months go by.  Really a nauseating experience dealing with them, and the building owners got wise and switched to a different management company.",
+        "owner_response": null
       },
       {
         "author": "Oliver Bibb",
-        "rating": 1.0,
+        "rating": 1,
         "review": "This company bought the property I live in and took over it as of YESTERDAY and I'm already upset. They gave notice yesterday in the EVENING on a FRIDAY about a bunch of things changing, didn't answer 8+ voice calls or messages even though their office claimed to still be open for multiple hours. Now they're out the entire weekend and ALSO THE MONDAY cause it's a holiday, and they have changed due date for rent to TUESDAY! So essentially they have made it impossible to contact them about these issues and any questions at all.\n\nAnd reading other reviews it is highly obvious they never answer phone calls, and they have yet to provide a single email address that will actually reply. HORRIFIC customer service, especially for a new property they've taken on.",
-        "ownerResponse": null
-      },
-      {
-        "author": "marcus cuenca",
-        "rating": 1.0,
-        "review": "Weird leasing, just started my year lease and a month in they ask me to renew or I won't be able to later.\n\nMy BIGGEST issue with them is watch your belongings as well because apartently the maintenance teams they hire will just take your stuff. Missing my Ryobi Vacuum and a torque wrench. That just so happen to go missing after they were in my apartment. But who knows, just a coincidence probably.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Dag Urmensch",
-        "rating": 1.0,
-        "review": "PTLA is a slick operation staffed by young know-nothings.  If they send you a rental increase notice of 50% or more, four or more months before your lease expires, and illegally present this increase as an offer that expires in a month, ignore it.  It is a meaningless, strongarm tactic, and they will decrease their extortionist demand as the months go by.  Really a nauseating experience dealing with them, and the building owners got wise and switched to a different management company.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Eliza Gronke",
-        "rating": 1.0,
-        "review": "They somehow removed ALL the old reviews. Worst experience/company ever. I contacted them about the mold in my unit at forest hills multiple times and they did nothing, it ruined all of my furniture and they just didnt care. They never once returned a voicemail. The people working the front desk are incompetent and told us false information that took multiple visits for someone to finally realize their mistake. Never rent from these people, they have no integrity.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Em Sanders",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Absolutely awful property management company. They kept trying to offer my wife and I cheap apartments in sketchy areas even though they had nicer expensive apartments elsewhere. We make $4k+ a month. Its probably because of the color of our skin, the fact that we dont speak English well, and we are lesbian. Glad we did not rent here.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "marcus cuenca",
+        "rating": 1,
+        "review": "Weird leasing, just started my year lease and a month in they ask me to renew or I won't be able to later.\n\nMy BIGGEST issue with them is watch your belongings as well because apartently the maintenance teams they hire will just take your stuff. Missing my Ryobi Vacuum and a torque wrench. That just so happen to go missing after they were in my apartment. But who knows, just a coincidence probably.",
+        "owner_response": null
       },
       {
         "author": "Will Stevens",
-        "rating": 1.0,
+        "rating": 1,
         "review": "This company might as well be a shell corporation. They won't pickup your call or return your email. The fact they took over barley a month ago and can't even return calls is ridiculous. Be careful and document everything in your apartment. They will try to confuse you and blame you for damage.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Janine Richardson",
+        "rating": 3,
+        "review": "Looking for a rental for myself. Unfortunately that company might be very busy. I've not heard back from them as of yet. There are admin fees. Pet fees. Sometimes y'all need to earn more than 3 times the rent. Goodness.",
+        "owner_response": null
       },
       {
         "author": "Ben Kelly",
-        "rating": 4.0,
+        "rating": 4,
         "review": "I have had someone parked in the parking garage spot I PAY FOR for the past week where I live, I have contacted this company SEVERAL times and havent heard back from anyone. Cant even have the person towed without the property managements approval, Ive had to park on the side of the road. This company is severely incompetent so much for having more staff available to address my needs\nEdit: if you want anything done you have to talk to them IN PERSON. Changing this review to 4 stars because I went in and got it figured out",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Miles Hoffman",
-        "rating": 1.0,
-        "review": "Charged us late fees that were not being posted in our account so we had no idea that they were adding up, but still made us pay them. So many fees, dont trust them.",
-        "ownerResponse": null
+        "author": "Joey Saxer",
+        "rating": 5,
+        "review": "PTLA is AMAZING the landlords are great and understanding. I got my first place through them. Other property managements turned me down because of no rental history",
+        "owner_response": {
+          "text": "Thanks for your review! We're glad we could help you find a home. If there's anything else we can help with, just let us know!"
+        }
       },
       {
-        "author": "Dylan Kloke",
-        "rating": 5.0,
-        "review": "Great job, boys. When I was 12 they didnt molest me.",
-        "ownerResponse": null
+        "author": "Aidan Sweet",
+        "rating": 4,
+        "review": "Overall everyone I've spoken with at PTLA Is kind and helpful. Maintenance requests are addressed quickly and they are respectful of your space.",
+        "owner_response": {
+          "text": "Thanks for your feedback, Aidan! We're glad you have been pleased with our responsiveness to maintenance requests. If there is anything else we can do for you, please let us know."
+        }
       },
       {
-        "author": "Kacey Lind",
-        "rating": 5.0,
-        "review": "Julian Forester was extremely willing to help and quick with his responses! Had a great experience here and wanted to share my appreciation! Also extremely impressed with how clean the unit was kept.",
-        "ownerResponse": null
+        "author": "Wise Wons",
+        "rating": 1,
+        "review": " This place sucks so bad. I cannot even express how confusing and impersonal the whole experience has been. Not only that, the amount of fees they charge is ludicrous. They are seriously nickel and diming the hell out of their tenants. They are never available and never return phone calls. This place is sketch. Cannot wait for my lease to end. I wish I never came here.\n\n#neveragain",
+        "owner_response": null
       },
       {
         "author": "Riley Dehmer",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Do not rent from PTLA. The company is not transparent with you. They are hard to contact. They did not prepare the landlord at all for me moving in, and it made for a horrible experience. Moving out is going to be worse.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Miles Hoffman",
+        "rating": 1,
+        "review": "Charged us late fees that were not being posted in our account so we had no idea that they were adding up, but still made us pay them. So many fees, dont trust them.",
+        "owner_response": null
+      },
+      {
+        "author": "Kacey Lind",
+        "rating": 5,
+        "review": "Julian Forester was extremely willing to help and quick with his responses! Had a great experience here and wanted to share my appreciation! Also extremely impressed with how clean the unit was kept.",
+        "owner_response": null
+      },
+      {
+        "author": "Noah Bond",
+        "rating": 1,
+        "review": "This is an extremely difficult company to work with. Extremely misleading website with a very unhelpful customer support. Goodluck trying to get in touch with them, would not reccomend.",
+        "owner_response": null
+      },
+      {
+        "author": "Christian Whiteside",
+        "rating": 1,
+        "review": "Every time I call with an issue, they are rude and try hard not to help or resolve the issue. I fell worse about my day every time I speak with someone. They will straight up hang up on you if they dont want to hear what you have to say",
+        "owner_response": null
+      },
+      {
+        "author": "Tucker White",
+        "rating": 1,
+        "review": "Shut the water off to the entire building without any warning in the middle of the summer. Called the company and the lady that answered was rude and acted like it was my fault and I was bothering her. I hate this company.",
+        "owner_response": null
+      },
+      {
+        "author": "W Riches",
+        "rating": 1,
+        "review": "One star is too much. \nThis company is the worst!\nWARNiNG\n  DO NOT \nuse PTLA whatsoever\nREAD the REViEWS",
+        "owner_response": null
+      },
+      {
+        "author": "Tim Finneron",
+        "rating": 1,
+        "review": "Never answer the phone.",
+        "owner_response": null
+      },
+      {
+        "author": "Dylan Kloke",
+        "rating": 5,
+        "review": "Great job, boys. When I was 12 they didnt molest me.",
+        "owner_response": null
+      },
+      {
+        "author": "davis kenny",
+        "rating": 1,
+        "review": "Terrible maintenance crews. Slow response times. Just another awful huge corporation who owns everything and doesn't care about you",
+        "owner_response": null
       },
       {
         "author": "Katelynn Pratt",
-        "rating": 1.0,
+        "rating": 1,
         "review": "This place is a mf joke. NO ONE WAS EVER THERE TO HELP!! Also, they charge so much, spend your money elsewhere",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Katelynn, thank you for your review. We're sorry to hear that you didn't have a positive experience. If there is anything we can do to address your concerns, please give our office a call."
         }
       },
       {
-        "author": "W Riches",
-        "rating": 1.0,
-        "review": "One star is too much. \nThis company is the worst!\nWARNiNG\n  DO NOT \nuse PTLA whatsoever\nREAD the REViEWS",
-        "ownerResponse": null
-      },
-      {
-        "author": "Christian Whiteside",
-        "rating": 1.0,
-        "review": "Every time I call with an issue, they are rude and try hard not to help or resolve the issue. I fell worse about my day every time I speak with someone. They will straight up hang up on you if they dont want to hear what you have to say",
-        "ownerResponse": null
-      },
-      {
-        "author": "Tucker White",
-        "rating": 1.0,
-        "review": "Shut the water off to the entire building without any warning in the middle of the summer. Called the company and the lady that answered was rude and acted like it was my fault and I was bothering her. I hate this company.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Rich Kohr",
-        "rating": 4.0,
-        "review": "Knowledgeable staff, ready to help. Pleasurable front desk help",
-        "ownerResponse": {
-          "text": "We appreciate your review!"
-        }
-      },
-      {
-        "author": "davis kenny",
-        "rating": 1.0,
-        "review": "Terrible maintenance crews. Slow response times. Just another awful huge corporation who owns everything and doesn't care about you",
-        "ownerResponse": null
-      },
-      {
         "author": "Tania Chan",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Luci Moise was very helpful with my son's move in.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks for your review! We're so glad our team was able to make the process a smooth one. Let us know if there is anything we can help with in the future!"
         }
       },
       {
         "author": "Kalei Church",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Took months to get urgent maintenance issues fixed.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Jamie M",
+        "rating": 1,
+        "review": "Stay far away from PTLA and every one of their properties.",
+        "owner_response": null
+      },
+      {
+        "author": "Rich Kohr",
+        "rating": 4,
+        "review": "Knowledgeable staff, ready to help. Pleasurable front desk help",
+        "owner_response": {
+          "text": "We appreciate your review!"
+        }
+      },
+      {
+        "author": "Peps Winchester",
+        "rating": 1,
+        "review": "Im so disappointed I dont even know what to say",
+        "owner_response": null
       },
       {
         "author": "Ross Campbell",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Very helpful and friendly staff!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks for your feedback! We're glad our team was able to help you!"
         }
       },
       {
-        "author": "Jamie M",
-        "rating": 1.0,
-        "review": "Stay far away from PTLA and every one of their properties.",
-        "ownerResponse": null
+        "author": "Matt",
+        "rating": 1,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you for your feedback. We'd love the opportunity to speak with you about your experience. Please give us a call at your earliest convenience."
+        }
       },
       {
-        "author": "Peps Winchester",
-        "rating": 1.0,
-        "review": "Im so disappointed I dont even know what to say",
-        "ownerResponse": null
+        "author": "S W",
+        "rating": 1,
+        "review": "",
+        "owner_response": {
+          "text": "We'd love the opportunity to understand your feedback further. Please reach out to us if there is anything we can do to improve your experience."
+        }
       },
       {
         "author": "Thwho Thwhat",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Hannah Westcott",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
-      },
-      {
-        "author": "s w",
-        "rating": 1.0,
-        "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Christopher Street",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Monty Capy",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Veronica Griggs",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Austin Allbee",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 44,
-  "adjusted_average_rating": 1.86,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the landscape of customer feedback, some tenants have expressed satisfaction with PTLA Property Management's communication efforts. For example, a new tenant praised the company for their swift response to calls, emails, and for providing prompt property viewings, which led to a satisfactory rental experience. Furthermore, a few reviewers highlighted specific employees, acknowledging them for their patience and thorough assistance in guiding them through the rental process, which offered significant stress relief and contributed to a positive initial impression.</p></section><section><h2>Great</h2><p>Amidst the various experiences, PTLA Property Management has shown flashes of great service. Some tenants reported that the staff, particularly property managers, were understanding and accommodating when it came to first-time renters, demonstrating a willingness to rent to those without previous rental history. Additionally, certain reviewers appreciated the cleanliness and upkeep of the units upon moving in, signifying a sense of professionalism and care for the properties managed by PTLA.</p></section><section><h2>Bad</h2><p>While some reviews are positive, there has been a notable sentiment of frustration with PTLA Property Management's handling of maintenance requests and general communication. Tenants have reported difficulties in reaching the office, with multiple attempts via phone calls and emails going unanswered. Instances where maintenance issues, such as inadequate heating or unresolved property defects, were not addressed promptly have been cited, raising concerns over the company's attentiveness to tenant needs.</p><p>Several user reviews convey a sense of neglect, describing situations where emergency conditions, like the lack of hot water, were not remedied within legally required timeframes, illustrating potential violations of tenancy law. Some tenants have expressed the additional hardship of residing in poorly insulated homes, where temperature regulation was a persistent challenge due to what they perceived as design flaws in the properties.</p></section><section><h2>Ugly</h2><p>The most severe critiques of PTLA Property Management stem from issues surrounding financial dealings and alleged property mismanagement. Examples include tenants' security deposits being withheld unjustly, with some cases needing legal intervention and relentless daily contact to resolve. Furthermore, unexpected late fees and billing errors have reportedly resulted in significant unwarranted charges, exacerbating the distress among occupants. The reported absence of a solid managerial presence and the accusation of prioritizing profits over the welfare of tenants paint a picture of a company with serious systemic flaws that extend beyond individual properties.</p><p>In addition, some reviews hint at a broader, possibly systemic issue with the company's online reputation management. Specifically, there are claims of older, predominantly negative reviews being removed, which has raised suspicion and distrust towards PTLA's transparency and integrity. This has led to further dissatisfaction among reviewers, who feel that their concerns and experiences are being invalidated or ignored.</p></section>"
+  "adjusted_review_count": 64,
+  "adjusted_average_rating": 1.69,
+  "distribution": {
+    "1": 58,
+    "2": 0,
+    "3": 2,
+    "4": 4,
+    "5": 8
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095140,
+    "text": "<section id=\"good\"><h2>Good</h2><p>While the majority of user reviews for PTLA Property Management are negative, there are a few positive testimonials worth mentioning. One user praised the team's responsiveness and respectfulness, particularly highlighting an individual who exceeded expectations when helping them find an apartment. This user appreciated the professionalism and support provided throughout their renting experience, indicating a strong performance from at least some staff members.</p><p>Another review noted the quick response times for maintenance requests, expressing satisfaction with the efficiency of the service provided. These instances suggest that while challenges exist within the company, there are capable staff members who strive to assist residents in a timely manner.</p></section><section id=\"great\"><h2>Great</h2><p>A handful of user reviews reflect positively on the service at PTLA Property Management, with anecdotes of helpful and understanding staff members. One individual recounted their experience with a staff member who provided excellent guidance through the rental process and was diligent in addressing all questions and concerns. Such accounts suggest that when residents receive attention from capable employees, their experiences can significantly improve.</p><p>Moreover, there are commendable mentions of the responsiveness to maintenance requests, with several users noting that issues were addressed promptly. This indicates that while the overall service may be inconsistent, there are moments where the management team rises to the occasion and meets the needs of their tenants effectively.</p></section><section id=\"bad\"><h2>Bad</h2><p>Numerous user reviews outline frustrating experiences with PTLA Property Management, particularly in terms of communication and responsiveness. Many tenants reported difficulty in reaching staff, with long wait times for answers to maintenance requests or general inquiries. It seems that even when residents were proactive, with multiple phone calls or emails, they often received no response, leading to heightened dissatisfaction.</p><p>User reviews frequently mention issues such as miscommunication regarding payments, unexpected late fees, and challenges with moving in and out. For instance, one user detailed an instance where they encountered confusion over their assigned parking spot, which led to a costly towing bill. These experiences illustrate a concerning trend of neglect in addressing tenants' needs and maintaining clear communication.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most troubling experiences reported by users revolve around the handling of security deposits and ongoing maintenance issues. Numerous tenants have claimed that PTLA Property Management retained deposits unfairly, often citing excessive and unjustified cleaning fees. Many expressed outrage upon discovering that, despite cleaning their apartments meticulously upon moving out, their deposits were largely withheld.</p><pAdditionally, reports of maintenance delays and poor living conditions are prevalent, with users describing situations involving inadequate heating, ongoing construction with little prior notice, and even claims of theft by maintenance staff. These issues have culminated in a severe lack of trust among tenants, with many users explicitly advising others to avoid renting from PTLA altogether, highlighting the urgent need for systematic changes in how the company operates.</p></section>"
+  }
 }

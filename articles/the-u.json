@@ -1,0 +1,31 @@
+{
+  "name": "The U",
+  "slug": "the-u",
+  "company_type": "Property",
+  "address": "2401 Taylor Ave Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 1.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Mitchell C.",
+        "rating": 1,
+        "review": "As we moved in September we were promptly informed as we arrived at the apartment that the building would be under construction. We had received an email about this but it had described light touch-up work here and there. It was not touch-up work. The entire front face of the building was being remodeled and to move in we had to use scaffolding to get to our room. This however got worse as the entire front parking lot would be closed to the residents as construction continued. For those without a parking pass, they were forced to find parking elsewhere. As we got into the first few weeks of our living, we noticed the build quality and living space to be subpar in many areas including the living room, window sills, kitchen, and personal rooms. As we continued we ran into a not functioning dishwasher and a ladybug infestation from inside the walls. Maintenance was very helpful but impossible to get a hold of as the requests would often go unnoticed for a week at minimum. Management is doing everything they can and is usually extremely helpful just a challenge to get a hold of, I'm sure this is due to the widespread poor quality of properties all around and the need for help everywhere. That being said I would think having a team on site for the weekends to help with things in the properties would be beneficial as most of the residents are students and may not have time to get into the office to get anything scheduled or communicated during the week and the offices closed on the weekends. Many of the residents that I talked to expressed the same feelings of poor quality and continued issues. As I am writing this it is October 14th, 2024, and has been just barely over one month of living in the U apartments I feel as if I am being generous with the amount of problems I am leaving out. I do not recommend it and if you can find some other place to live I can confidently say that any other place than this would be better. All of this would be fixed or made easier with accommodations from the management company however nothing came from it until hundreds of requests from angry residents and co-signers of residents expressed their immense dissatisfaction. The accommodations included a gift card and two weeks off rent. These accommodations arrived in the order they were listed and about three weeks apart. The second set of accommodations only arrived because the construction is going longer than scheduled and I fully believe they would not have sent those out if construction had not gone longer. Do not live here.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739095164,
+    "text": "<section id=\"good\"><h2>Good</h2><p>There were limited positive sentiments expressed in the user reviews, reflecting that most tenants have not had favorable experiences. The only indication of positive interaction came in the form of maintenance, which appeared to be generally helpful when contacted. However, getting in touch with them was described as a challenge, suggesting that the effort from maintenance staff was not always sufficient to counter the overall negative experience reported by tenants.</p></section><section id=\"great\"><h2>Great</h2><p>In reviewing the available user feedback, there were no noteworthy occurrences that would qualify as \"great\" experiences with The U. With only one user review present, it concentrated on dissatisfaction, leaving no room to highlight any exceptional services or features. Unfortunately, the absence of more varied user experiences in the reviews means this section remains empty.</p></section><section id=\"bad\"><h2>Bad</h2><p>The user review predominantly highlighted several negative aspects of living at The U. A major complaint involved the misleading communication regarding construction work, which was described as extensive rather than the light touch-ups promised. Furthermore, the user faced maintenance issues that included a non-functioning dishwasher and pest problems, which they noted made their living conditions uncomfortable. Despite some helpful maintenance staff, the communication difficulties and delays in response time contributed to the overall frustration felt by residents.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most concerning issues raised in the user reviews revolve around the management's lack of timely responses to tenant concerns and major inconveniences caused by ongoing construction. After multiple complaints, residents felt that accommodations were only offered when pressure built up from numerous requests, indicating a lack of proactive management. The overall experience was marked by significant dissatisfaction, leading to strong recommendations against living at The U, as many residents felt their issues were neglected until vocalized by a larger group.</p></section>"
+  }
+}

@@ -9,58 +9,65 @@
     "google_reviews": [
       {
         "author": "Diana D",
-        "rating": 2.0,
+        "rating": 2,
         "review": "Take pictures and videos of your unit when you move out, because they will absolutely nickel and dime you. The cost to \"paint\" and \"clean\" (i.e., the things they don't have to itemize because it's labor) will be expensive. I lived there for 7 years and they didn't even replace the carpet after I moved out--it wasn't new when I moved in, either!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Julie Miller",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Been living here for a bit and its been the nicest place I've lived in Bellingham (been here for 5 years). The apartments and appliances are well taken care of, there is little parking, but it hasn't been a problem for me. There is available parking 1 block away. The staff and manager are always friendly and helpful.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Michael Gill",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Lived here for 3 years and love it. John the property manager is fantastic and if any problems with the unit arise he fixes them immediately. He has also been very helpful in a number of other aspects and I highly recommend living here.",
-        "ownerResponse": null
-      },
-      {
-        "author": "J. Fedele",
-        "rating": 2.0,
-        "review": "Not a fan, mostly because of very poor parking. There are NO guests spots. Even if you so evade the tow trucks, get ready to cram into these unbelievably narrow spaces. Neighbor's intimate moments could easily be heard through walls. It is fancy, I'll give them that.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kate Thiele",
-        "rating": 1.0,
+        "rating": 1,
         "review": "If I could give this place 0 stars, I would. Ive lived here for about 6 months and the landlord can be very hard to deal with. Youd think for how much they charge on rent it wouldnt be an issue for maintenance fixes but thats clearly not the case. The landlord has an attitude and is not prompt about updates or handling requests for maintenance. Rent through Son-Rise and dont waste your time or money living here.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "J. Fedele",
+        "rating": 2,
+        "review": "Not a fan, mostly because of very poor parking. There are NO guests spots. Even if you so evade the tow trucks, get ready to cram into these unbelievably narrow spaces. Neighbor's intimate moments could easily be heard through walls. It is fancy, I'll give them that.",
+        "owner_response": null
       },
       {
         "author": "Ele Nichols",
-        "rating": 2.0,
+        "rating": 2,
         "review": "Thin walls, no screens, no bedroom lights, and don't expect to get much of your deposit back!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Taylor Fievez",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Anastasia Pizarro",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 6,
   "adjusted_average_rating": 2.83,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The Edge Apartments have garnered some positive feedback from residents, emphasizing the quality of living spaces and maintenance services. According to user reviews, the apartments and appliances are well-maintained, which implies a standard of care from the property management. One user specifically praised the property manager, John, for his efficiency and helpful nature, mentioning that any issues with the unit were promptly resolved.</p><p>Additionally, the personable and caring attitude of the staff has been highlighted, suggesting that The Edge Apartments places importance on customer service. Residents have felt welcomed and supported, which contributes to a comfortable and enjoyable living experience, making these apartments a pleasant place to live in Bellingham for tenants who value these aspects.</p></section><section><h2>Great</h2><p>The standout feature of The Edge Apartments seems to be the quality of the property management, particularly regarding the direct interactions with the property manager. John has received individual commendations for his responsiveness and commitment to the well-being of the tenants. Another aspect that has been highly appreciated is the aesthetic allure of the apartment complex, which has been described as \"fancy,\" indicating that the property has modern appeal and may offer features in line with contemporary housing expectations.</p><p>The perception of a great community atmosphere is another positive identified from the user reviews. Long-term residents in particular have expressed satisfaction with their living arrangements, suggesting that the apartments are a viable option for those seeking stability and a sense of community in their housing choices. This sense of belonging and contentment with the living environment at The Edge Apartments could be an influential factor in a prospective tenant's decision-making process.</leaving></section><section><h2>Bad</h2><p>However, some tenants have shared less favorable experiences, with complaints mainly centered around financial concerns. Multiple reviews mention dissatisfaction with the property management's handling of security deposits, with accusations of unnecessary and costly charges for standard cleaning and painting. Such experiences have left some former residents feeling exploited, believing that they were charged excessively for routine maintenance that should have been covered by the management.</p><p>Parking at The Edge Apartments is another issue that has negatively impacted some residents' experiences. The lack of guest parking and the challenge of fitting into the exceedingly small spaces provided has caused frustrations. Concerns over the risk of towing combined with limited nearby parking have made it an inconvenience for both residents and their visitors, detracting from the overall appeal of the complex.</p></section><section><h2>Ugly</h2><p>The more troubling complaints regarding The Edge Apartments pertain to issues with poor communication and inadequate maintenance responses. As reported in the user reviews, interactions with the landlord can be difficult, with some tenants feeling disregarded when raising concerns or requesting services. For example, a current tenant highlighted the landlord's uncooperative attitude and delays in addressing maintenance requests, which contradicts expectations given the rental price.</p><p>Noise insulation seems to be another significant drawback, with mentions of thin walls allowing sounds from neighboring units to pass through easily. Furthermore, the absence of bedroom lighting and window screens in some units, as stated in the user reviews, indicates potential oversights that could affect tenants' comfort and security. These combined issues suggest that there are fundamental aspects of living quality that may be overlooked by property management at The Edge Apartments.</p></section>"
+  "distribution": {
+    "1": 1,
+    "2": 3,
+    "3": 0,
+    "4": 0,
+    "5": 4
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095160,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights some positive aspects of The Edge Apartments, with several user reviews praising the overall living experience. One reviewer expressed appreciation for the well-maintained apartments and appliances, noting that they'd lived there for five years without major issues. The friendly and helpful attitude of the staff and management also stood out, creating a welcoming atmosphere for residents.</p><p>Another user highlighted the fantastic property manager who promptly addresses maintenance issues. The quick response to any problems has been a significant factor in their satisfaction, reflecting positively on the management's ability to create a good living environment. Such positive sentiments indicate that while the property has its downsides, there are commendable features that some residents truly value.</p></section><section id=\"great\"><h2>Great</h2><p>In this section, it's important to note that while some users may not have elaborated on all aspects of their experience, the absence of critical feedback allows us to infer positivity. For instance, a couple of users rated their time at The Edge Apartments with five stars, suggesting that their experiences were likely free from significant grievances. Their lack of details, however, may indicate that their living experience was satisfactory without any standout issues.</p><p>Additionally, the overall quality of the apartments appears to meet expectations for many, creating a comfortable space for both new and long-term residents. This aligns with the positive experiences shared by others, emphasizing that, despite certain complaints, there are plenty of tenants who find The Edge Apartments to be a great option in Bellingham.</p></section><section id=\"bad\"><h2>Bad</h2><p>This article cannot overlook the concerns shared by users regarding The Edge Apartments, particularly around maintenance and communication. One resident recounted difficulties in receiving timely responses from the landlord for urgent repairs, which is a significant red flag for potential residents. The lack of promptness in addressing maintenance requests has led to frustration among tenants who expect reliable service given the cost of rent.</p><p>User reviews also noted issues such as thin walls, poor parking availability, and a general neglect of maintenance requests. For instance, residents complained about a cramped parking situation and unclear communication from management, which has detracted from their overall experience. Such recurring themes indicate that while some aspects of the living arrangement are appealing, management may need to improve in addressing these significant issues to enhance tenant satisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most troubling reviews about The Edge Apartments reflect experiences of unexpected costs and dissatisfaction with the handling of security deposits. One resident stressed the importance of documenting the condition of their unit upon moving out, as they faced exorbitant charges for cleaning and painting that seemed unjustified. The apprehension surrounding the return of security deposits amplifies fears about financial transparency and fairness within the management practices.</p><p>Another critique focused on the overall attitude of the landlord, with reports of unresponsiveness to maintenance requests that have left some tenants feeling neglected and undervalued. These alarming patterns paint a picture of a property management that could potentially compromise tenant satisfaction through inadequate service and a lack of accountability, making it crucial for prospective renters to weigh these factors when considering The Edge Apartments as a potential home.</p></section>"
+  }
 }

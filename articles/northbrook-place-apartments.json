@@ -3,64 +3,77 @@
   "slug": "northbrook-place-apartments",
   "company_type": "Property",
   "address": "3615 Bennett Dr, Bellingham, WA 98225",
-  "review_count": 8,
-  "average_rating": 4.38,
+  "review_count": 9,
+  "average_rating": 4.0,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Marcos Gonzales",
+        "rating": 1,
+        "review": "More than half the coin operated laundry machines are broken and machines are consistently gotten into and you'll find towels, blankets etc missing. I waited over a year for a maintenance request on a garage and some kids kicked a hole through the wall because it was fun. The garage cost me $100 a month versus the with apartment as advertised. My rooms were stolen and my vehicle towed by the city parking in the overflow where advised by property management. If you own pets expect blanket notification saying you were seeing not picking up your dog's waste regardless of whether you do or do not. They're trying to do everything they can to polish it up but attitude and community are still reflective of being directly across from a homeless community..",
+        "owner_response": null
+      },
+      {
         "author": "Bonnie Garrison",
-        "rating": 4.0,
+        "rating": 4,
         "review": "I wrote a review about three years ago. Everything in that review still stands.  At the time I didn't have any pets. I now have two cats  which I love very much. The pet policy here is very good. You can only have two, but who needs more in an apartment? If you're looking for a place to live and you have pets, kids, come here. (There may be weight/breed restrictions on certain dogs I'm not sure.)",
-        "ownerResponse": null
-      },
-      {
-        "author": "GregG.",
-        "rating": 4.0,
-        "review": "good neighbors friendly staff the only bad thing is first come first serve for parking. not enough spaces so ppl park anywhere they can.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Bonnie Garrison",
-        "rating": 4.0,
+        "rating": 4,
         "review": "I have lived at Northbrook for 25 years. It's not a bad place. Very quiet despite fact that Bennett Drive is  the road right in front. It's close to the airport but very little nose. The manager Joy is great. Friendly and upbeat. If you have the attitude that you want to work with her things will get done. Maint         guy is good and reliable. He gets repairs done quickly. (He even unclogs my bathroom sink. I have very long hair.) My neighbors are  nice and friendly.  Less than a mile from Fred Meyer and close to Bellis Fair and the freeway on ramp going both north and south.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Greg Gonzo",
+        "rating": 4,
+        "review": "good neighbors friendly staff the only bad thing is first come first serve for parking. not enough spaces so ppl park anywhere they can.",
+        "owner_response": null
       },
       {
         "author": "Phil I-P",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Anyone know how to get ahold of Doreen, the previous landlord, I know she works for the Cooperate now. I am needing to contact asap thank you it is important. I would forever  grateful and comment on here if you do know and I'll keep checking. Thanks again so much!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "ms grundy",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Great place but getting noisy.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joey Morrison",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I like living here",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Al Colon",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joseph Morrison",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 6,
-  "adjusted_average_rating": 4.17,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In this article, tenants have noted that Northbrook Place Apartments stand out for being a peaceful community despite its proximity to the road and the airport, with very little noise disturbance. The pet policy is appreciated by pet owners, allowing for two pets which is reasonable for apartment living, although limitations on weight and breed may apply for dogs. Additionally, the proximity to local amenities like Fred Meyer and Bellis Fair, as well as access to the freeway, is seen as a convenient feature by the occupants.</p><p>Users have expressed a long-term satisfaction with living at the complex, citing one tenant's 25-year residence as a testament to the community's quality of life. The management, particularly the manager Joy, is described as friendly and cooperative, contributing to a harmonious living environment. Tenants have also complimented the maintenance staff, noting their reliability and expedience in handling repairs, a key factor in tenant satisfaction.</p></section><section><h2>Great</h2><p>The staff's friendliness stands out in user reviews, highlighting a welcoming and neighborly atmosphere that has been fostered by both the management and the residents. Residents describe good interactions with neighbors, which contributes greatly to the overall contentment with their living situation. Moreover, the management's openness to work with tenants to resolve issues collaborates with the feeling of a closely-knit community.</p><p>Though detailed narratives are limited, the general sentiment from the feedback is that tenants experience an enjoyable living environment. A review expressed sentiments as succinctly as \"I like living here,\" which, despite its brevity, could reflect a general contentment that does not necessitate further elaboration, pointing to the 'great' aspects of the Northbrook Place Apartments' management and overall living experience.</p></section><section><h2>Bad</h2><p>Some residents have brought up issues regarding the parking policy at Northbrook Place Apartments. With a system based on first-come, first-serve, the lack of sufficient parking spaces causes frustration among residents who are forced to find parking anywhere they can. This situation often leads to disorganized parking and can be an inconvenience for those owning vehicles.</p><section><h2>Ugly</h2><p>While most of the reviews are positive, there is a small mention of the complex becoming noisy, which can be a drawback for residents seeking a tranquil living space. As this is only a singular mention, it doesn't appear to be a widespread issue, but it is worth noting as potential room for improvement in maintaining the peaceful environment that has been a characteristic strength of the property, according to other reviews.</p></section>"
+  "adjusted_review_count": 7,
+  "adjusted_average_rating": 3.71,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 5,
+    "5": 3
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095111,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Northbrook Place Apartments has garnered a positive reputation among several residents for its community-oriented atmosphere and pet-friendly policies. Many user reviews highlight the pleasantness of the neighbors and the friendliness of the management staff. One long-term resident has pointed out that the property is generally quiet, maintaining a peaceful environment despite proximity to a busy road and airport. This sentiment of community and livability is echoed by others, who appreciate the overall vibe and the availability of amenities like nearby shopping centers, which enhance their living experience.</p><p>Maintenance services at Northbrook Place are frequently praised, with users noting that repairs are handled promptly and efficiently. A resident shared their appreciation for the reliability of the maintenance personnel, who address issues quickly, ensuring a comfortable living environment. Additionally, the property manager's positive attitude is noted as a critical factor in fostering a cooperative relationship with tenants, helping to resolve any concerns that may arise during their residency.</p></section><section id=\"great\"><h2>Great</h2><p>Residents have expressed significant satisfaction with the Northbrook Place Apartments, particularly valuing the friendly atmosphere and supportive management. One tenant has lauded the property\u2019s regulations concerning pets as reasonable, stating that the policies are fair and manageable. The presence of friendly neighbors contributes to a pleasant community feeling, making the apartments an attractive option for families with pets. This general sense of community is a strong theme reflected in the reviews, adding to the appeal of living here.</p><p>Furthermore, a long-term resident has shared insights about the area, pointing out the convenience of nearby amenities, such as grocery stores and easy access to transportation routes. This accessibility strikes a chord with many occupants looking for a well-located place to call home. The balance of community and convenience seems to make Northbrook Place a desirable living destination in Bellingham.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the overall positive reviews, there are notable criticisms regarding Northbrook Place Apartments that potential renters should consider. One user expressed frustration over maintenance issues, specifically mentioning delayed responses to requests and problems with the laundry facilities, which were often out of order. Such maintenance neglect not only affects daily convenience but also poses safety concerns for residents, as illustrated by user experiences of broken facilities and unsatisfactory responses from management.</p><p>Parking has also been highlighted as a significant issue; residents have complained about the limited availability and first-come-first-serve policy, often leading to inconveniences while trying to find parking spaces. This concern indicates a potential drawback of the property management's ability to facilitate a smooth living experience amidst some operational flaws that could detract from tenants' overall satisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There have been alarming reports about security and maintenance that may deter prospective residents from choosing Northbrook Place Apartments. One user review described an unsettling incident involving theft and vandalism in the garage area, exacerbated by what they deemed a lack of effective management response in addressing ongoing issues. Such experiences raise concerns about the overall safety and security of the premises, suggesting that management needs to improve their vigilance and responsiveness in these areas.</p><p>Add to this, grievances about poor communication from property management have emerged, with some users noting a lack of responsiveness to inquiries and complaints. This breakdown in communication can lead to frustration among tenants, as seen in experiences shared by those feeling unheard or neglected, which highlights the importance of effective management in maintaining resident satisfaction and trust.</p></section>"
+  }
 }

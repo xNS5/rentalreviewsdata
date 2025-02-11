@@ -9,46 +9,53 @@
     "google_reviews": [
       {
         "author": "Leo Spencer",
-        "rating": 5.0,
+        "rating": 5,
         "review": "The management is wonderful.  When a pipe burst and two buildings were left without water for about a day, they quickly delivered gallons of water to each apartment and set up plenty of outhouses.  They also kept us updated via email throughout the whole day.  Plus, they gave everyone pizza gift cards.  Super thoughtful and professional.\n\nThe apartments themselves are in good condition and the maintenance guy is quick and friendly.  Rent isn't too bad, either.\n\nNew England Apartments is definitely a  good housing option in Bellingham.  10/10 would recommend.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kate Welch",
-        "rating": 3.0,
+        "rating": 3,
         "review": "I lived in the New England Apartments for 2 years while I was a student, and while overall it was a decent experience, there are some definite pros and cons.\nThe apartments themselves are nice enough, clean and spacious. But they're built pretty cheaply so things tend to need lots of repairs or just don't work quite right. I'm talking doors that were shady at best, locks that were installed incorrectly, windows that got stuck and toilets that leaked. They were pretty good about doing repairs quickly and were always very polite about letting you know when they'd be doing complex wide repairs, such as painting or checking on carbon monoxide alarms.\n\nThe staff is very friendly and helpful... but only for a few hours a day. RPM has extremely limited and unhelpfully short office hours, and they aren't the best about answering the phone during those office hours (which were reduced to around 4 hours a day recently), and the emergency off-hours phone number doesn't always work, and sometimes just rings their regular voicemail, which is highly unhelpful.\n\nThe pricing on these apartments is a bit much for what you're getting, but it's not a bad place to live and they're close to campus.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Marie Sullivan",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Ive lived in the New England Apartments for almost a year now. Weve had a lot of things that needed to be fixed, (sink replacement, refrigerator replacement, etc), but it was always done in a timely manner and the maintenance guy is so so friendly and pleasant. Theyre very good at responding to emails and concerns during the hours they are available, but those hours are quite limited. As far as I know its the only apartment complex they manage, so everything is very personal and I feel like they truly care about their tenants. The walls are thin, but not too thin, just hope you dont have noisy neighbors. I always feel safe in these apartments (we even fell asleep with the door unlocked by accident and nothing happened), and during winter break there was a package outside one of the doors that wasnt touched by ANYONE for nearly a month. I can walk to and from school in roughly 20 minutes. All around good apartments, only real complaints is that its pretty pricey for college students but its in a very convenient location, and parking can be pretty annoying (spots are small and people park like idiots sometimes) but there is a lot of street parking available. I plan to live here for the rest of my college career at Western.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Gavin Green",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Shakiya Griffith",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Natasha Nieman",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 3,
   "adjusted_average_rating": 4.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The user reviews for New England Apartments highlight several positive experiences with the property management. Tenants commend the management's responsiveness, particularly in crises, noting that during an incident with a burst pipe, management acted swiftly. They provided residents with water, alternative facilities, and continuous updates throughout the issue, even going the extra mile with pizza gift cards as a gesture of goodwill. This proactive and considerate approach to tenant relations sets a high standard for service excellence.</p><p>Additionally, the maintenance staff is praised for their speed and friendliness. Despite the challenges that come with repairs, the maintenance team is reported to address issues promptly. This responsiveness, paired with the personal touch mentioned in the reviews, suggests that New England Apartments takes tenant concerns seriously and works hard to maintain a positive living environment and good condition of the apartments.</p></section><section><h2>Great</h2><p>As for the 'great' aspects, residents appreciate the sense of community and security that comes with living at New England Apartments. One tenant recounted feeling safe enough to accidentally leave their door unlocked without any negative repercussions. Furthermore, the examples show a commitment to creating a secure environment, such as a package left unattended for a long period without being disturbed. This highlights a trustworthy community within the complex, which is a significant benefit in urban living situations.</p><p>The location of New England Apartments is also frequently praised in user reviews for its convenience, particularly for students who find its proximity to campus beneficial. The location enhances the appeal of the apartments, offering a blend of comfort and practicality for those looking to live close to educational institutions or central amenities, factors that can be crucial for college students seeking to balance academic and personal life.</p></section><section><h2>Bad</h2><p>On the downside, some residents find the construction quality of the apartments to be lacking. Reviews mention issues such as cheaply made fixtures and frequent repairs, indicating that while the staff is quick to address problems, the building itself might benefit from improvements to prevent the regular need for maintenance. Despite quick repair work, this perceived lack of quality can detract from the overall living experience and potentially raise concerns about long-term sustainability and comfort.</p><p>Another point of contention is the limited availability of the property management staff. Office hours are described as limited and unhelpful, creating frustration for residents who need assistance during off-peak hours. This problem is exacerbated by reported difficulties in reaching staff by phone, even during designated office times. An unreliable emergency contact system adds to the inconvenience, suggesting that while staff may be friendly, accessibility and communication could be improved.</p></section><section><h2>Ugly</h2><p>The ugly aspects reflect significant tenant grievances primarily revolving around financial considerations. Pricing is described as comparatively high given the quality and size of the apartments, posing a particular burden on college students who make up a portion of the tenants. This suggests that there might be a mismatch between the cost of living at New England Apartments and the perceived value provided. Furthermore, difficulties with parking, such as small parking spots and inconsiderate parking by others, have been highlighted, indicating that infrastructural elements of the property could be better managed to enhance tenant satisfaction.</p></section>"
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 1,
+    "5": 3
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095099,
+    "text": "<section id=\"good\"><h2>Good</h2><p>New England Apartments has received numerous positive reviews that highlight its effective management and overall decent living experience. For instance, in the event of a pipe burst, the management promptly delivered water to residents and set up sanitary options, demonstrating their commitment to tenant welfare during emergencies. This level of responsiveness has been noted as exemplary, showing they genuinely care about the residents' comfort and convenience.</p><p>The maintenance team has also garnered praise for their quick response times and friendly demeanor, which has contributed to tenant satisfaction. Many residents have stated that maintenance requests were addressed promptly, and the overall condition of the apartments is satisfactory. This responsiveness to both maintenance and tenant needs forms a strong foundation of trust and reliability, which many users value in a property management company.</p></section><section id=\"great\"><h2>Great</h2><p>While New England Apartments is generally well-regarded, some users have pointed out both strengths and weaknesses in their experience. The apartments themselves are deemed clean and spacious, but there are concerns about the quality of construction and some appliances needing frequent repairs. Nevertheless, tenants have appreciated the polite communication from staff regarding scheduled maintenance and repairs, creating a positive but cautious relationship with management.</p><p>The property does face some challenges with office hours and phone accessibility. Critics have noted the limited hours that staff is available in the office, which can lead to delays in communication for urgent issues. While the overall sentiment is positive, the blend of an accessible management team and limited availability appears to be a crucial point that could use some improvement.</p></section><section id=\"bad\"><h2>Bad</h2><pSome user reviews suggest that there are noticeable drawbacks to living in New England Apartments, primarily concerning the rental pricing and some operational inefficiencies. A user expressed concerns about the rental costs being higher than expected for the quality of housing provided, reflecting a common theme of tenants feeling the pricing doesn't align with their living experience. Additionally, the limited availability of the office can be frustrating, especially when dealing with urgent repairs or questions.</p><p>Moreover, despite the friendly nature of the staff, some tenants noted that reaching them during operational hours was often challenging. This lack of proper communication has the potential to exacerbate frustration for tenants seeking immediate assistance. Concerted efforts to enhance availability and response capability could benefit the management company's reputation and alleviate tenant concerns regarding access to support.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Despite an overall positive reception, New England Apartments did spark discontent among some users who encountered deeper issues, which can lead to an ugly experience. Reports of unaddressed maintenance issues and non-responsiveness have emerged, causing dissatisfaction. One user remained voiceless, indicating a potential trend where unresolved grievances could tarnish the experience for residents who feel ignored.</p><p>Additionally, several reviews lacked substantial detail, suggesting that some tenants may have faced issues that went undocumented in the reviews available, raising concerns about maintaining adequate communication with residents. Such discrepancies between expectation and lived experience could reflect systemic issues that need addressing to avoid creating a negative environment for existing and prospective tenants.</p></section>"
+  }
 }

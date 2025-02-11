@@ -9,72 +9,79 @@
     "google_reviews": [
       {
         "author": "Alberta Garcia",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Ta was amazing! Our application process took less then 1 week and she was great at communicating. The units look great and the price was fair when compared to other rentals in the area.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Simon P",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Excellent rental property. Manager is awesome and the apartments are well appointed. Very positive stay here.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Hayden Anderson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Amazing management and very well maintained property. Nice appliances and building materials were used. A little drafty at times but nothing a heater can't fix. Love this place!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Stephanie Rasmussen",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Very friendly manager, beautiful and well-lit apartments, a fenced off-leash area for dogs, and  an indoor heated dog wash station! The two service requests I have had to put in were resolved within 24 hours, even with having to call out an electrician.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Julian McAllister",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Good but it could be better",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hi Julian. Thank you for your review. Please let me know what I can do to make living here at Cedar Grove better for you. As you know, my door is always open for you and Sharon."
         }
       },
       {
         "author": "DIEGO FERNANDO MAZUERA MAYOR",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Beautiful Apartments",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joe Chriest",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "James Anderson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Trinity Banks",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Bernita Madera",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 6,
   "adjusted_average_rating": 4.67,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Cedar Grove Apartments receive favorable recognition for their quick and efficient application process. Prospective tenants have experienced ease and satisfaction with communication, highlighting a particularly swift application timeframe of less than a week. In addition, the property boasts aesthetic appeal, with the apartments deemed good-looking and furnished with commendable appliances that add to the tenants' comfort and convenience.</p><p>Management at Cedar Grove Apartments earns praise for its dedication and friendliness, contributing to a welcoming atmosphere within the community. They have shown proficiency in addressing and resolving service requests expediently, often within a 24-hour timeframe, which includes arranging for specialized services like electricians. This promptness in handling maintenance issues indicates a commitment to providing residents with a hassle-free living experience.</p></section><section><h2>Great</h2><p>The amenities offered at Cedar Grove Apartments set a high standard for tenant satisfaction with features that cater to both human and canine residents. Notably, the property includes a well-equipped, fenced off-leash area perfect for dog owners, alongside an indoor heated dog wash station, details that are not commonly found in comparable rental properties but are highly appreciated by the residents.</p><section><h2>Bad</h2><p>While reviews are generally positive, some residents believe that there is still room for improvement at Cedar Grove Apartments. A review suggested that despite the general satisfaction, certain aspects could be enhanced to elevate the living experience. However, the review lacked specific details on what the areas for enhancement could be, leaving a vague sentiment of discontent.</p></section><section><h2>Ugly</h2><p>Throughout the user reviews, there appears to be a singular minor concern regarding the temperature control within the apartments; they are noted to be somewhat drafty. Although this is a point of discomfort, it is also acknowledged that the issue can be remedied using a heater. Despite this, the general sentiment remains positive, with no severe or recurring complaints making the 'ugly' aspects of Cedar Grove Apartments seem relatively tame compared to more severe cases in property management.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 2,
+    "4": 1,
+    "5": 7
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095015,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Cedar Grove Apartments receive many favorable user reviews highlighting the attractive features and generally positive living experience. Many tenants have praised the quality of the apartments, mentioning beautiful designs, nice appliances, and a fair pricing structure compared to other rentals in the area. The management appears to be competent and responsive, with one user noting that their application process went smoothly in less than a week accompanied by clear communication.</p><p>Another common theme in user reviews is the overall maintenance of the property. Several reviewers indicated that management promptly addressed service requests, with one resident noting that issues were resolved within 24 hours, even when an electrician was needed. This level of attentiveness helps to foster a pleasant living environment, enhancing residents' overall satisfaction with their choice of Cedar Grove Apartments.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews depict Cedar Grove Apartments as a well-managed property with many amenities that elevate the living experience. Residents have expressed appreciation for unique features like a fenced off-leash area for dogs and an indoor heated dog wash station, showcasing the management's thoughtfulness towards pet owners. Overall, the apartments are described as well-appointed and appealing, contributing to a very positive atmosphere.</p><pFurthermore, the management team at Cedar Grove Apartments has received specific commendations for being friendly and approachable. One review emphasized the superb nature of the property manager, suggesting that their hospitality plays a vital role in creating a welcoming environment for residents. Given the high average rating and numerous positive mentions, the overall sentiment among tenants leans toward strong satisfaction with their living arrangements.</p></section><section id=\"bad\"><h2>Bad</h2><pWhile many user reviews reflect a positive sentiment, a couple of tenants expressed that their experiences could have been better. A tenant noted that although the property is generally good, there is room for improvement, suggesting some areas may not live up to expectations. This feedback highlights that, despite an overall pleasant living experience, not every resident feels completely satisfied.</p><pAdditionally, there are some users who did not provide detailed feedback, which may indicate a lack of engagement or communication from the management team with certain renters. One user who rated the property as average hinted at potential communication gaps, which could point to a need for improvement in management's responsiveness to tenant concerns. The average rating shows promise, but there are hints that addressing these specific issues could significantly enhance tenant satisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><pThere are currently no notable negative experiences reported by users that could fall under an 'ugly' category for Cedar Grove Apartments. All feedback, while varied in satisfaction levels, appears constructive without venturing into alarming territory of dissatisfaction or outrage. This could be seen as a positive indicator of the property reputation in the local rental market.</p><pAs Cedar Grove Apartments seems to maintain a good rapport with its tenants, the absence of serious complaints suggests effective management thus far. Future tenants might feel reassured that major concerns such as unresolved maintenance issues or security deposit disputes have not been prominently featured in user reviews, making it a commendable option for prospective renters.</p></section>"
+  }
 }

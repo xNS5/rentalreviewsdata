@@ -2,107 +2,30 @@
   "name": "Samish Commons",
   "slug": "samish-commons",
   "company_type": "Property",
-  "address": "321 N Samish Way, Bellingham, WA 98225",
-  "review_count": 15,
-  "average_rating": 4.0,
+  "address": "1331 E Laurel St, Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 5.0,
   "reviews": {
     "google_reviews": [
       {
-        "author": "John K. Cummings",
-        "rating": 5.0,
-        "review": "Liked it so much that I've decided to take a one bedroom apartment here.",
-        "ownerResponse": null
-      },
-      {
-        "author": "John K Cummings",
-        "rating": 5.0,
-        "review": "Nice apartments, reasonably priced too",
-        "ownerResponse": null
-      },
-      {
-        "author": "Pampered Duchess",
-        "rating": 2.0,
-        "review": "The building itself is fine. It's new and rather well insulated. It's fine as low-income housing. However, it's \"tax credit\" rather than subsidized housing. The management can't keep janitorial staff, doesn't communicate well, and generally does not address community concerns. It's so bad around here that they basically tore down and rebuilt the Aloha.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Vanessa Alexander",
-        "rating": 5.0,
-        "review": "Nice albeit small brand new apartments. Most Are some type of rent assisted/sliding fee scale ECT. Second building will be getting underway very soon they say, it should be open and people moving in sometime next year is what I've heard.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Todd Johnson",
-        "rating": 5.0,
-        "review": "Tango and I really do love living here ..and Once the buildings are finished... sometime between Spring and the Summer of (2023)..Sammish Commons will be a Stable, Secure, Resident Friendly, Caring Management, little Community within it's own self.. Quality living and a Great location too, literally \"everything\" you can ask for is within walking distance!.. I'm genuinely happy but just don't know how to identify it sometimes.. lol... Sammish Commons, Thank you for letting us rest our weary heads..",
-        "ownerResponse": null
-      },
-      {
-        "author": "Fernando Gonzalez",
-        "rating": 5.0,
-        "review": "Beautiful piece of architecture in the Samish Urban village, lots of parking, easily accessible, next to Downtown and I-5.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Terrilynn Land",
-        "rating": 2.0,
-        "review": "Please use the eleavatr",
-        "ownerResponse": null
-      },
-      {
-        "author": "Kim Sandberg",
-        "rating": 5.0,
-        "review": "My friend lives there!  Great place!",
-        "ownerResponse": null
-      },
-      {
-        "author": "Carl Graber",
-        "rating": 5.0,
-        "review": "Excellent place to live",
-        "ownerResponse": null
-      },
-      {
-        "author": "Cyndi Ackerson",
-        "rating": 5.0,
-        "review": "I live here and I love it. ",
-        "ownerResponse": null
-      },
-      {
-        "author": "Carl G",
-        "rating": 5.0,
-        "review": "Love the place",
-        "ownerResponse": null
-      },
-      {
-        "author": "Tessa",
-        "rating": 1.0,
-        "review": "",
-        "ownerResponse": null
-      },
-      {
-        "author": "Cindy S",
-        "rating": 4.0,
-        "review": "",
-        "ownerResponse": null
-      },
-      {
-        "author": "Shovia Muchirawehondo",
-        "rating": 1.0,
-        "review": "",
-        "ownerResponse": null
-      },
-      {
-        "author": "Tina Martin",
-        "rating": 5.0,
-        "review": "",
-        "ownerResponse": null
+        "author": "Tim Hertel",
+        "rating": 5,
+        "review": "Nice clean apartment",
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 11,
-  "adjusted_average_rating": 4.45,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Samish Commons seems to bring satisfaction to residents with its architectural elegance and the practicality of its location. Several users commend the property for its beautiful construction and the convenience it offers, being close to downtown areas and major highways such as I-5. Accessibility to necessities within walking distance is cited as a significant benefit, elevating the living experience for those choosing to reside here.</p><p>References to the brand new apartments being both nice and small imply that while the living quarters may be compact, they are well-received. This indicates a favorable impression of the property's offerings, despite the modest size of the living spaces. The emphasis on the newness of the apartments also suggests that residents appreciate the modern amenities and the fresh condition of the accommodations.</p></section><section><h2>Great</h2><p>From the standpoint of user reviews, Samish Commons stands out as a community that residents are proud to call home with testimonies of love and adoration expressed for the property. Multiple reviews relayed a sense of genuine happiness, with one particular review celebrating the sense of security, attentive management, and the responsive community vibe forecasted to flourish with the completion of the property's construction phase.</p><p>One enthusiastic resident even mentioned that they were so pleased with their living experience that they have decided to take a one-bedroom apartment there, further underscoring the attraction to Samish Commons. Words like \"excellent place to live\" and celebrations of the soon-to-be-completed additional buildings reflect a bright outlook on the community's future and its residential appeal.</p></section><section><h2>Bad</h2><p>Notwithstanding its high points, Samish Commons does not escape critique concerning its property management practices. Issues seem to stem from shoddy communication and a failure to consistently address tenant concerns. One user review particularly highlighted the difficulty in retaining janitorial staff, which may reflect deeper systemic issues within the property management company.</p><p>The delineation between \"tax credit\" and subsidized housing, as mentioned in a user review, suggests that there could be a disparity in expectations on affordability and management obligations, potentially leading to dissatisfaction among residents who have different needs in terms of assistance and property maintenance.</p></section><section><h2>Ugly</h2><p>Though detailed negative experiences are not abundantly clear in the available user reviews, it can be deduced that the management occasionally falls short in maintaining the standards expected by the residents. A review signals that there has been a significantly negative situation that necessitated a major renovation, to the extent of tearing down and rebuilding a structure, which raises questions about the initial quality and oversight provided by the property management.</p></section>"
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095139,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights the positive aspects of Samish Commons based on user reviews. One user noted that the apartments are well-maintained and clean, which reflects well on the property management's commitment to providing a pleasant living environment. The clean and tidy condition of the spaces suggests that management is proactive in maintaining the property, which is an important consideration for potential renters.</p><p>The response quality also appears to be satisfactory, although there is only one review available. Such positive feedback can bolster the credibility of the property management's efforts to create a comfortable and inviting atmosphere for its tenants. Overall, the cleanliness and upkeep of the apartments are certainly commendable aspects of living at Samish Commons.</p></section><section id=\"great\"><h2>Great</h2><p>The overall experience at Samish Commons stands out thanks to the high ratings it has received, such as the perfect 5-star rating from a user. This suggests that tenants are satisfied with their living arrangements, further reinforcing a positive image of the property management. Clean living spaces can greatly enhance the comfort and convenience for residents, making it a desirable place to call home.</p><p Moreover, such an exemplary rating can indicate effective communication and tenant support from the property management team. When tenants feel supported and valued in their living environment, it contributes to a greater sense of community, which is often a key factor in tenant retention and satisfaction.</p></section><section id=\"bad\"><h2>Bad</h2><pDespite the stellar reviews, it\u2019s important to recognize the lack of comprehensive feedback that could highlight potential shortcomings. With only a single user review available, there is a significant gap in understanding tenant experiences related to maintenance, communication, or other issues that could affect renters negatively. The absence of additional reviews may indicate either an unsatisfactory tenant experience or simply that not enough users have shared their views yet.</p><pWithout more user feedback, it\u2019s difficult to identify recurring issues or areas needing improvement in property management practices at Samish Commons. A sole review does not provide a complete picture; thus, potential renters should consider these factors when assessing the property.</p></section><section id=\"ugly\"><h2>Ugly</h2><pThe lack of negative reviews ultimately means there isn\u2019t any documented \"ugly\" aspect relating to Samish Commons at this time. While this may seem like a positive note, it does raise questions about the comprehensiveness of tenant experiences. Potential issues such as failed maintenance requests, security deposit disputes, or poor communication practices are not represented in the existing review data.</p><pTherefore, while the current outlook is favorable, the absence of diverse reviews means the reality of the living situation remains ambiguous. As such, prospective tenants may want to approach their expectations cautiously until a fuller range of user experiences can illuminate the property management's consistency in delivering a quality rental experience.</p></section>"
+  }
 }

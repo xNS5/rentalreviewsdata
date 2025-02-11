@@ -1,0 +1,31 @@
+{
+  "name": "Pacific Continental Realty",
+  "slug": "pacific-continental-realty",
+  "company_type": "Company",
+  "address": "114 W Magnolia St Ste 201 Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 2.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Danielle H.",
+        "rating": 2,
+        "review": "Property manager is flippant and will not directly address issues let alone communicate properly when concern is expressed about issues. Consistently acts as though concerns are a waste of her time and energy and someone else's problem, even though she is the property manager and the issues need to be corrected or communicated by her. Very frustrated and childish behavior. I have never experienced such flippant or careless property management.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 2.0,
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739095113,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Despite the overall sentiment leaning towards dissatisfaction, one positive aspect that can be noted is the typical concern tenants have for the property. There is an implied expectation that the properties managed should be in good condition. This suggests that tenants likely find the properties themselves appealing, leading to good potential for a positive living experience if management can be improved.</p><p>Moreover, the community surrounding the properties managed by Pacific Continental Realty may offer some redeeming qualities, fostered by engaging neighbors and accessible local amenities. However, without effective property management, these potentially pleasant features may be overshadowed by mismanagement.</p></section><section id=\"great\"><h2>Great</h2><p>While detailed feedback on any great experiences with Pacific Continental Realty is sparse, one could hopeful view their properties as having the potential for excellence if properly managed. A focus on the location and features of their rental offerings could yield a positive living environment, provided maintenance and communication are prioritized effectively by the management team.</p><p>User reviews suggest that there is room for improvement in engagement and responsiveness, which when executed successfully, could transform tenant experiences from average to great. Ultimately, the true greatness may hinge on significant management improvements and proper tenant relations.</p></section><section id=\"bad\"><h2>Bad</h2><p>A user review highlighted significant issues regarding the property manager's behavior and communication skills, indicating a lack of professionalism. The reviewer expressed frustration over the property manager's flippant attitude and unwillingness to address critical concerns, which is a fundamental expectation in property management. This suggests that tenants may feel neglected or dismissed when serious issues arise.</p><p>Furthermore, negative experiences surrounding communication and maintenance could deter prospective tenants from using the services of Pacific Continental Realty. Addressing tenant concerns in a timely manner is crucial, and the absence of this responsiveness can diminish the rental experience significantly.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most troubling observation from user reviews is the apparent disregard for tenants' expressed concerns by the property manager. This behavior not only reflects poorly on the company but could also lead to serious issues being neglected, impacting tenant satisfaction and safety. The reviews indicate an alarming level of irresponsibility and unprofessionalism that may result in unresolved maintenance concerns.</p><p>In addition, the absence of any responses from the company to user feedback suggests a lack of accountability or willingness to engage with tenant experiences. Such neglect in communication could breed discontent and distrust among current and prospective renters, leading to a detrimental reputation in the competitive property management market.</p></section>"
+  }
+}

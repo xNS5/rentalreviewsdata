@@ -1,0 +1,33 @@
+{
+  "name": "Meadows by Vintage",
+  "slug": "meadows-by-vintage",
+  "company_type": "Property",
+  "address": "Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 1.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Ligma B.",
+        "rating": 1,
+        "review": "These are one of the worst apartments I've ever been in. The place is old on the inside even tho it looks nice on the outside. The counters are old and chipping off the cupboards are falling apart old appliances old carpet ext. I would not recommend ever living here.",
+        "owner_response": {
+          "text": "Hi, Ligma. Thanks for reaching out regarding your concerns about condition in your apartment. We value your feedback and use your comments to help us provide top-notch service for all our residents. We're sorry for any inconvenience you might have experienced. Please email us at meadows@fpimgt.com so we can discuss this matter further and find a satisfactory solution as soon as possible. We look forward to hearing from you."
+        }
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739095092,
+    "text": "<section id=\"good\"><h2>Good</h2><p>At Meadows by Vintage, there appears to be a strong attempt at maintaining communication with residents, as evidenced by the property management's response to user reviews. In this case, they acknowledged the concerns raised by a resident regarding the condition of their apartment. The management showed a willingness to engage and resolve issues by inviting the resident to email them for a more in-depth discussion, demonstrating a desire to address tenant grievances and improve the living experience.</p><p>Moreover, the management's proactive response suggests that they are open to feedback and willing to use it to enhance their services. This characteristic is essential in a property management company, as it sets a foundation for positive tenant relationships and could lead to improvements in property conditions over time if actions align with communication.</p></section><section id=\"great\"><h2>Great</h2><p>Unfortunately, there are currently no standout features or components listed in user reviews that would classify Meadows by Vintage as \"great.\" Despite management's willingness to address tenant concerns, the overwhelming impression from user feedback indicates a lack of satisfactory living conditions. Therefore, this section remains unsubstantiated with positive experiences or testimonials that would illustrate a \"great\" aspect of the property.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews illustrate significant dissatisfaction with the overall state of the apartments at Meadows by Vintage. Residents have pointed out that, despite an appealing exterior, the interiors of the units are aging poorly, with reports of old carpets, chipped counters, and malfunctioning appliances. This misalignment between expectations and reality paints a grim picture of living conditions, which can be demoralizing for current tenants and a deterrent for potential residents.</p><p>The lack of maintenance and timely updates seems to be a common complaint among users. Such neglect can lead to larger issues down the line and suggests that the management might not be prioritizing resident welfare adequately. The inability to provide modern, well-maintained living spaces may raise significant concerns about the quality of life in this community.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>With an average rating of just 1.0 and a solitary user review highlighting severe dissatisfaction, the situation at Meadows by Vintage could be classified as \"ugly.\" The user was particularly harsh in their critique, stating it was one of the worst apartment experiences they had encountered. This level of discontent regarding the property indicates a systemic issue with management\u2019s ability to uphold basic living standards for tenants.</p><p>Furthermore, the single review encapsulates a broader narrative of potential neglect, where tenants might feel trapped in an inadequately maintained environment. Such scenarios not only tarnish the property's reputation but can also lead to financial implications for the management if tenants decide to vacate in search of better living conditions. The current feedback reflects a pressing need for improvements to avoid long-term damage to their standing in the property market.</p></section>"
+  }
+}

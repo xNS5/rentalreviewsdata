@@ -3,232 +3,251 @@
   "slug": "birnam-wood-apartments",
   "company_type": "Property",
   "address": "2901 Bill McDonald Pkwy, Bellingham, WA 98225",
-  "review_count": 36,
-  "average_rating": 3.83,
+  "review_count": 38,
+  "average_rating": 3.76,
   "reviews": {
     "google_reviews": [
       {
-        "author": "Unknown User",
-        "rating": 1.0,
-        "review": "Hot water is not existant. Put in a maintenance request, they came a month later  ",
-        "ownerResponse": null
-      },
-      {
         "author": "Shilo (Mae)",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Lots of things needed maintainence when we moved in. Balcony is lovely, stains on the carpet not so much... it's very old and some of the walls were dirty in our room. Lights flickers when you turn them on as well. It's not horrible but it's not amazing either.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Andy nguyen",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Had mice come in my dorm in stack 3, however the schools exterminator quickly solved this problem. Other dorms seem to be more run down with old carpet and loose kitchen cabinets. Not to bad for first apartment style housing though.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Crystal Schmalz",
-        "rating": 4.0,
+        "rating": 4,
         "review": "This is campus housing for WWU. It is all 2bdrm apartments, that are set up to housing 4 students (2 per room). It works out to being about $350 a month & you don't need a meal plan!! It has a full dinningroom & kitchen with a gas stove, double sink with gatbage disposal. A large living room, storage closet & food pantry. There is free on-site laundry as well!",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Unknown User",
+        "rating": 1,
+        "review": "Hot water is not existant. Put in a maintenance request, they came a month later  ",
+        "owner_response": null
       },
       {
         "author": "Elizabeth",
-        "rating": 4.0,
+        "rating": 4,
         "review": "These apartments are great when it comes to the price but currently there is limited parking due to construction. If you're looking for an affordable option as a student at Western Washington University I suggest it.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Shara Rhoads",
-        "rating": 3.0,
+        "rating": 3,
         "review": "For campus housing, they're okay. It takes several requests before maintenance addresses a problem. My daughter's heat was stuck on high; turning it down or even off did not help. Once they did attempt to fix it, now that temperatures outside are getting colder, the heat won't turn on.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Quentin Jensen",
-        "rating": 4.0,
+        "rating": 4,
         "review": "best dorm, cheaper and is an actual apartment. facilities aren't mind blowing, but functional and well maintained. lots of community events",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Conrad Norris",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Its cheaply built, but its got a bit a charm and is priced competitively with other places in Bellingham and its close to campus",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Debra Haraldson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "It's for college students.  They do however need to give our younger generation a break in costs for everything while they are students.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Austin Voecks",
-        "rating": 5.0,
+        "rating": 5,
         "review": "A nice, cost effective option if you want to stay close to campus",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Carl Graber",
-        "rating": 5.0,
-        "review": "Great",
-        "ownerResponse": null
+        "author": "Jones Clarke",
+        "rating": 1,
+        "review": "Would leave zero if it was possible",
+        "owner_response": null
       },
       {
         "author": "Jack Montgomery",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Acceptable but dated living space. It's what you make it!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kianna Keck",
-        "rating": 1.0,
+        "rating": 1,
         "review": "I never lived here so I wouldn't know.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "M. W.",
-        "rating": 1.0,
+        "author": "Thomas Weh",
+        "rating": 1,
         "review": "You get what you give: cheap, but that's about it",
-        "ownerResponse": null
-      },
-      {
-        "author": "Eric Isaacs",
-        "rating": 2.0,
-        "review": "Not in great repair.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "American Classic",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Decent condos.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Carl Graber",
+        "rating": 5,
+        "review": "Great",
+        "owner_response": null
+      },
+      {
+        "author": "Eric Isaacs",
+        "rating": 2,
+        "review": "Not in great repair.",
+        "owner_response": null
       },
       {
         "author": "Athalie Millard",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Pretty place",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "William Walker",
-        "rating": 5.0,
+        "rating": 5,
         "review": "WWU Student housing",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Mr. Serrano",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Nice Apartments",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Riko Maruyama",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
       },
       {
         "author": "naseem",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Garrett Claeys",
-        "rating": 2.0,
+        "rating": 2,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Lily Gray",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Darcy Lindenmuth",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joe Chriest",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Oliver Winter",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Julie B",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Brittany Evans",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Pieter De Vryer",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "katie Kirchhofer",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Dwi Priyono",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "David Yang",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Corryn Johnson",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Luia Menchhofer",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Will Mckinley",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Toma Moran",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 19,
-  "adjusted_average_rating": 3.53,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Birnam Wood Apartments receive praise from several residents particularly for its affordability and proximity to Western Washington University, making it an appealing option for students seeking cost-effective living quarters. The living spaces, while not luxurious, are considered functional for the price point. Moreover, the user reviews cite the benefit of having amenities such as on-site laundry facilities, which add to the convenience for residents.</p><p>With certain apartments set up to accommodate multiple students, the cost-effective aspect is further highlighted by mentions of full kitchens with gas stoves and the lack of a need for a meal plan. Comments about the community events also suggest an attempt at fostering a communal atmosphere, which can be beneficial for student residents looking for a sense of unity with their peers.</p></section><section><h2>Great</h2><p>A handful of reviews specifically highlight standout features such as spacious living rooms, ample storage space, and enjoyable balconies. The lovely outdoor spaces appear to be a redeeming quality of these apartments. Additionally, some users express satisfaction with the maintenance of the facilities, hinting at an attentive property management team that periodically addresses issues to ensure functional living conditions.</p><p>Positive reviews also commend the cost-effectiveness of Birnam Wood Apartments when compared to other housing options in Bellingham. This is particularly appreciated by students and young individuals seeking an affordable living space near campus, which comes with the added benefit of circumventing the need for an expensive meal plan, as there are complete dining and kitchen areas available inside the apartments.</p></section><section><h2>Bad</h2><p>Despite some good aspects, user reviews also shed light on numerous maintenance issues that prospective tenants might face. Residents have reported delays in response times to maintenance requests, with one having to wait a month for the hot water issue to be addressed. The condition of the apartments at move-in is frequently criticized, with mentions of things needing immediate maintenance and reports of issues such as flickering lights, indicating a lack of attentiveness to the property over time.</p><p>Another recurring concern involves the general state of repair within the units. User reviews describe aspects of the living space as outdated, from the carpets stained upon arrival to kitchen cabinets that are falling apart. The complaints suggest a need for renovations or at least more thorough maintenance between tenants to improve the overall quality of the living experience at Birnam Wood Apartments.</p></section><section><h2>Ugly</h2><p>The more severe criticisms pertain to living conditions that potentially compromise the well-being and comfort of the tenants. Residents have encountered significant issues such as pest infestations, with one review citing a problem with mice, and heating systems that are either stuck on high or fail to operate as temperatures drop. Such complaints underscore a perceived negligence in addressing fundamental aspects of a comfortable and safe living environment. Furthermore, the lack of timely and efficient resolutions to serious maintenance requests might indicate an underlying issue with the property management's processes or priorities.</p></section>"
+  "adjusted_review_count": 20,
+  "adjusted_average_rating": 3.4,
+  "distribution": {
+    "1": 4,
+    "2": 2,
+    "3": 7,
+    "4": 11,
+    "5": 14
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095002,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Many user reviews highlight the affordability of Birnam Wood Apartments, particularly for students attending Western Washington University. The cost-effective nature of the apartments is often mentioned, with users noting that the space is set up to house multiple occupants, making it a practical choice for students on a budget. Additionally, the availability of free on-site laundry has been positively received, adding convenience for residents.</p><p>Moreover, users appreciate the overall functionality of the apartments, which feature all essential amenities such as a full kitchen and living room. The presence of community events is also a notable benefit, creating a sense of camaraderie among residents. Reviews suggest that while the apartments may not be luxurious, they fulfill the basic needs of student housing effectively.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews frequently commend Birnam Wood Apartments for their reasonable pricing combined with essential amenities. Many appreciate the spacious layout, which includes features such as a full dining room and gas stove, catering well to student life. The balance of affordable living and practical facilities contributes to a favorable perception among users who seek budget-friendly options close to campus.</p><pFurthermore, residents have pointed out the charm of living in a more communal setting, which often leads to lasting friendships. The low-cost nature of the apartments allows students to allocate their funds towards other necessities, reinforcing the positive sentiment regarding both the price and living experience. Overall, the blend of affordability, functionality, and community activities encourages a favorable view of the property.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the positive aspects, several user reviews have highlighted issues with maintenance and overall upkeep of the apartments. Reports indicate that maintenance requests can take an excessive amount of time to be addressed, with one user mentioning a wait of a month for hot water to be repaired. Such delays can significantly impact the living experience, leaving residents frustrated and inconvenienced.</p><pAdditionally, some users express concern over the dated conditions of the apartments, describing the interiors as worn and in need of updates. Complaints about issues like flickering lights and dirty walls reflect a pattern of neglect in maintaining the property. These maintenance and repair issues coupled with inadequate responses from property management can overshadow the positive elements that other users appreciate.</p></section><section id=\"ugly\"><h2>Ugly</h2><pA few user reviews have painted a particularly grim picture of living at Birnam Wood Apartments. One frustrated resident expressed their dissatisfaction with the living conditions, stating that they would leave a rating of zero if possible, indicating severe disappointment. Such strong negative sentiment suggests that the experience for some residents has been far from acceptable, especially regarding maintenance support and communication from management.</p><pMoreover, certain reviews pointed to significant issues such as pest control problems and the disappointing response times for critical maintenance needs. These unresolved issues can lead to a deteriorating quality of life for residents, fostering a sense of neglect from the management. The juxtaposition of both high and low ratings highlights a disparity in the living experience at Birnam Wood, where some residents thrive while others struggle significantly.</p></section>"
+  }
 }

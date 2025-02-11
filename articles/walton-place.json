@@ -2,53 +2,66 @@
   "name": "Walton Place",
   "slug": "walton-place",
   "company_type": "Property",
-  "address": "1511 N State St, Bellingham, WA 98225",
-  "review_count": 6,
-  "average_rating": 2.83,
+  "address": "1511 N State St APT 303, Bellingham, WA 98225",
+  "review_count": 7,
+  "average_rating": 3.14,
   "reviews": {
     "google_reviews": [
       {
         "author": "Jordan Graves",
-        "rating": 1.0,
+        "rating": 1,
         "review": "If I could give 0 stars, I would. They took my application fee and an almost $200 holding fee and I never heard from them. No confirmation email, no phone call. Absolutely no follow up for months. I thought Id been scammed.\n\nRecieved a call several months later saying that they had a property manager quit on the spot. And that theyd get my money back to me. Its been months since then and Ive still heard nothing. Do not apply to this place. They will scam you out of your money. The lack of professionalism is insane.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Brooke Lynn",
-        "rating": 3.0,
-        "review": "For rent controlled apartments the ground level suites are nice, large apartments. Modern appliances, no frills. No air conditioning though. Proportions of living room size to bedrooms isn't ideal, unless you entertain and use the living room a lot. Second bedroom is office sized, not a full bedroom.\nMaster bedroom has great lighting from the wall of windows. High ceiling is the best feature.  Energy from the street. You need to be creative in positioning the furniture.\n\nMaintenance is all right but not consistent. Different person each time, some more helpful than others. Don't expect disability alterations the building isn't equipped for those despite what the ADA state law requires.\n\nThe application process needs improvement. Be prepared for confusing government forms and a month long process. It was traumatic.  Applying for government housing isn't the same as market rate, they don't follow the regular timelines of when you have to give notice to your previous landlord, they just tell you when you can move in at the last moment, so planning is difficult.\nMiscommunications occur frequently.   We had to spend a week in a hotel waiting for the forms to be processed, fearing we'd be homeless because we'd already used up our rent money. Sacrifices had to be made though.",
-        "ownerResponse": null
+        "author": "Brooke Nilsson",
+        "rating": 3,
+        "review": "For subsidized low income apartments the ground level suites are nice, large apartments. Modern appliances, no frills. No air conditioning though. Proportions of living room size to bedrooms isn't ideal, unless you entertain and use the living room a lot. Second bedroom is office sized, not a full bedroom.\nMaster bedroom has great lighting from the wall of windows. High ceiling is the best feature.  Energy from the street. You need to be creative in positioning the furniture.\n\nMaintenance is all right but not consistent. Different person each time, some more helpful than others. Don't expect disability alterations the building isn't equipped for those despite what the ADA state law requires.\n\nThe application process needs improvement. Be prepared for confusing government forms and a month long process. It was traumatic.  Applying for government housing isn't the same as market rate, they don't follow the regular timelines of when you have to give notice to your previous landlord, they just tell you when you can move in at the last moment, so planning is difficult.\nMiscommunications occur frequently.   We had to spend a week in a hotel waiting for the forms to be processed, fearing we'd be homeless because we'd already used up our rent money. Sacrifices had to be made though.",
+        "owner_response": null
       },
       {
         "author": "Leah Steele",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Put a 150 dollar holding deposit that was refundable on an apartment and never got the money back after I decided to cancel on the apartment. Noted that the manager never disclosed there was a 3rd party involved with the money until after I inquired about getting my money back. What a dissapointment.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Evelyn Thompson",
-        "rating": 4.0,
+        "rating": 4,
         "review": "I have lived here for over 5 years. It's great besides the occasional inspections and fire alarm testing.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Tessa",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
       },
       {
         "author": "Leann AZGirl Keith",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Daniel Crutchfield",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 4,
   "adjusted_average_rating": 2.25,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the midst of varying opinions on Walton Place, some pleasant experiences do stand out. For instance, a long-term resident who has lived there for over five years expressed satisfaction with their stay, highlighting that the general experience is \"great.\" This sentiment provides a glimmer of hope about the living conditions at Walton Place, suggesting that for some, it offers a stable and content living environment. The positive aspects can be attributed to factors like the modern appliances found in the units, and unique features like the high ceilings and great lighting from wall-to-wall windows, which can contribute significantly to the comfort and appeal of an apartment.</p></section><section><h2>Great</h2><p>Additionally, the size of the ground-level suites appears to be considered generous by some, which can be quite valuable in rent-controlled apartments. This advantage points towards Walton Place offering above-average spacial accommodations in some of their units, which can be an important aspect for potential renters looking for roomy living quarters. However, details on the frequency of these observations are lacking within the user reviews, so it's challenging to weigh this as a consistent upside across the property.</p></section><section><h2>Bad</h2><p>Nevertheless, not all reviews of Walton Place are as favorable. Several users have reported issues with maintenance services\u2014describing them as hit-or-miss depending on the technician, which indicates inconsistency in the quality of upkeep provided. Poor communication also seems to be a recurring theme, as reflected in a review where the user recounts a distressing application process with a significant lack of clarity and coordination. Such experiences can lead to unnecessary stress and can negatively impact the perception of professional competence within the company's management protocols.</p><section><h2>Ugly</h2><p>The most concerning aspects of Walton Place come from user reviews that shed light on severe mismanagement regarding financial transactions. Users have reported losing substantial application and holding fees without adequate follow-up or communication, and even described an occurrence of complete radio silence for months, which carries a haunting resemblance to a financial scam. This kind of negligence and lack of professionalism in handling client funds can quickly tarnish a company's reputation and is undoubtedly the ugliest part of the user experience at Walton Place, deterring potential residents from considering this property a trustworthy place to call home.</p></section>"
+  "distribution": {
+    "1": 2,
+    "2": 0,
+    "3": 2,
+    "4": 1,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095190,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Walton Place seems to have some redeeming qualities that certain residents appreciate, particularly in terms of the size and style of the apartments. For subsidized low-income housing, the ground level suites are spacious, featuring modern appliances that cater to a variety of needs. While the lack of air conditioning posed challenges for some, the bright natural light provided by large windows in the master bedroom is often noted as a highlight by residents.</p><p>Moreover, long-term tenants have shared positive experiences regarding their overall living situation, with one individual mentioning that they have enjoyed living there for over five years. This indicates that while there are issues, some residents find comfort in their long-term housing at Walton Place, suggesting that the community may be suitable for those who can navigate its complexities.</p></section><section id=\"great\"><h2>Great</h2><p>Some user reviews indicate that Walton Place can offer a decent living experience for its residents, particularly for those who prioritize space and natural light over luxury amenities. One user gave a higher rating due to their comfortable living situation, pointing out that the aesthetics of the apartments, such as the high ceilings and ample lighting, are significant advantages. This sentiment reflects that, for certain individuals, the home-like qualities of the apartments might outweigh any shortcomings.</p><p>Additionally, a couple of reviews with five-star ratings hint that there may be satisfied residents who appreciate the community aspect and living conditions. Although detailed feedback from these reviewers is lacking, the high scores suggest that Walton Place meets the expectations of some tenants, indicating that there are aspects of the properties that are truly commendable.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite some positives, Walton Place receives noteworthy criticism, especially concerning the administration and application process. Many users reported frustrating experiences regarding their applications, including a lack of communication after payment of application and holding fees. One user expressed feeling scammed after being left without any follow-up for months, which showcases significant concerns regarding professionalism and reliability.</p><p>The inconsistency in maintenance services also surfaced as an issue among residents. With different maintenance personnel showing up at different times, the quality of service varied significantly, leading to mixed feelings about the property management's responsiveness and effectiveness in addressing tenant needs.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most alarming feedback comes from individuals who experienced significant issues with deposit refunds and mismanagement of funds. One user noted that they did not receive their refundable deposit back after canceling their application, revealing a troubling lack of transparency in how finances are handled. This dissatisfaction is compounded by reports of payments being processed through third parties without proper disclosure, resulting in a feeling of distrust among former applicants.</p><p>Moreover, the overall sentiment reflects poorly on the management\u2019s communication skills, with many reviews indicating a failure to respond to tenant concerns adequately. For a property that shows promise in its physical space, the management aspect creates an ugly contrast that hampers its potential, leaving many users feeling disenfranchised and neglected.</p></section>"
+  }
 }

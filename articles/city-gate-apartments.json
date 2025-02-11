@@ -9,16 +9,23 @@
     "google_reviews": [
       {
         "author": "Dawn Toney",
-        "rating": 5.0,
+        "rating": 5,
         "review": "They have let me live here for 4 years and that's awesome.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 1,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>User reviews for City Gate Apartments have highlighted positive living experiences. One tenant expressed appreciation for being able to reside at the property for 4 years, indicating a level of stability and satisfaction with the living conditions. The fact that there are no significant complaints suggests that the basic needs and expectations of the residents are generally being met.</p><p>Moreover, the overall high rating of the property suggests that the tenants are pleased with their living environment. The absence of negative commentary in the user reviews implies that the property management is competent in providing a decent living experience, in at least some cases reflected by the longevity of the tenancies.</p></section><section><h2>Great</h2><p>While there are not enough detailed reviews to generate in-depth data on what makes City Gate Apartments stand out, the perfect rating of 5.0 is noteworthy. This score may indicate that the property management excels in areas important to tenants, potentially including timely maintenance, cleanliness of the facility, or the amenities offered.</p></section><section><h2>Bad</h2><p>Given the limited number of reviews, this article cannot provide a comprehensive overview of any negative aspects of City Gate Apartments. The absence of detailed negative reviews implies that if tenants have concerns, they either aren't severe enough to be mentioned in writing or are being addressed satisfactorily by the property management. Without more feedback, it's difficult to discuss specific shortcomings.</p></section><section><h2>Ugly</h2><p>There is no available data or user reviews indicating any particularly troubling issues, so-called \"ugly\" aspects, with City Gate Apartments. The lack of negative feedback suggests that the property management has not had significant failures in their duties that would provoke public outcry or a series of bad reviews. However, this does not rule out the possibility of unreported issues, and prospective tenants are encouraged to inquire directly for a clearer picture.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095012,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights the positive aspects of City Gate Apartments based on user reviews. One user expressed satisfaction with their experience, stating they have enjoyed living at the property for four years. This longevity suggests that the management has cultivated a welcoming environment where tenants feel comfortable and valued, which is a promising indicator for potential renters.</p><p>Furthermore, the high rating of 5.0 reflects a strong sense of community or the overall quality of the apartments. While there is limited feedback available, the single positive review indicates that tenants may appreciate the living conditions and amenities provided by City Gate Apartments.</p></section><section id=\"great\"><h2>Great</h2><p>While there isn't sufficient feedback to create a dedicated \"Great\" section, it's worth noting that the overall tenant satisfaction is indicated by the perfect rating. User reviews tend to reflect aspects such as good management, maintenance responsiveness, and community engagement. Though only one review exists, the duration of the tenant's stay suggests a positive and stable living experience.</p></section><section id=\"bad\"><h2>Bad</h2><p>In the absence of diverse user reviews detailing negative experiences, the \"Bad\" section remains underdeveloped. Typically, this category would address common complaints related to property management, such as poor communication and maintenance issues. However, without additional reviews, there is no evidence of these concerns affecting tenants at City Gate Apartments.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Similar to the \"Bad\" section, the \"Ugly\" category lacks content due to the limited feedback available. Tenants often voice severe grievances such as unresolved maintenance requests or issues with security deposits. As there are no such instances recorded in the existing review data, we cannot provide any specific negative experiences related to City Gate Apartments.</p></section>"
+  }
 }

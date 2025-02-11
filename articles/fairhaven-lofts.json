@@ -1,0 +1,31 @@
+{
+  "name": "Fairhaven Lofts",
+  "slug": "fairhaven-lofts",
+  "company_type": "Property",
+  "address": "1300 Mckenzie Ave Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 2.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Camden V.",
+        "rating": 2,
+        "review": "The location is nice, but the building is poorly constructed - whenever the neighbors turned on the dryer, all our appliances would shake. The walls are so thin that you can hear absolutely everything in the next apartment. Since about half the tenants are college students, this made it difficult to sleep. Many of the tenants have dogs, making the elevators stink. Maybe a good choice for WWU students, but for others it's not worth $2000 per month.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 2.0,
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739095035,
+    "text": "<section id=\"good\"><h2>Good</h2><p>One commendable feature of Fairhaven Lofts highlighted in user reviews is its desirable location. Situated conveniently for access to local amenities and the nearby university, it tends to be a popular choice among students. Many users appreciate the proximity to essential services, making daily life more manageable for those who prioritize location over other factors.</p><p>In addition to its advantageous setting, residents enjoy the accessibility to various community features in Bellingham. The building's location allows quick access to parks, shops, and dining options, enhancing the overall living experience for those who value a vibrant neighborhood ambiance. However, it\u2019s worth noting that these positive attributes may not outweigh the concerns shared by current and past tenants.</p></section><section id=\"great\"><h2>Great</h2><p>Currently, there are no standout features described in user reviews that warrant a classification as \"great.\" The singular review available points more towards significant issues with the building's structure and tenant experience rather than any exceptional service or amenities offered by Fairhaven Lofts. While the location is beneficial, other aspects of the living experience do not support characteristics typically associated with the \"great\" category.</p></section><section id=\"bad\"><h2>Bad</h2><p>A predominant concern from the user review indicates that Fairhaven Lofts has substantial issues with noise insulation. The walls are described as thin, allowing tenants to hear loud noises from neighboring apartments. This not only disrupts sleep but also creates an uncomfortable living environment, especially for those seeking peace and quiet after a long day.</p><p>Furthermore, the building's condition has been criticized, particularly regarding its construction quality. The resident noted that appliances would shake whenever neighbors operated their dryers, indicating potential structural flaws. Such matters suggest a lack of effective oversight and maintenance from property management, which could deter potential tenants looking for a comfortable and quiet home.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>User reviews have pointed out that the Fairhaven Lofts may not be a suitable option for everyone, particularly those who are sensitive to noise or odors. Concerns about the presence of pet odors in hallways, particularly from tenants with dogs, were raised. This can be particularly off-putting for individuals who value cleanliness and a pleasant living atmosphere.</p><p>Additionally, with an average rating of only 2.0 from tenants, it signals a larger dissatisfaction with property management's ability to address tenant concerns effectively. With no positive responses noted from management regarding user feedback, it raises questions about the level of engagement and care taken by the property management company. Overall, these factors present a less-than-favorable image of the property, which could discourage prospective renters from considering Fairhaven Lofts as a viable living option.</p></section>"
+  }
+}

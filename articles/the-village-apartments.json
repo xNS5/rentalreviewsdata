@@ -3,34 +3,53 @@
   "slug": "the-village-apartments",
   "company_type": "Property",
   "address": "3310 Alderwood Ave Bellingham, WA 98225",
-  "review_count": 3,
-  "average_rating": 1.0,
+  "review_count": 5,
+  "average_rating": 1.2,
   "reviews": {
     "yelp_reviews": [
       {
         "author": "C G.",
         "rating": 1,
         "review": "Believe online reviews. Apartments.com rent.com google.com, they are all accurate!!   Walk away!! It's incredibly unfortunate that noone has done anything for current or past tenants. \nDefinition of slumlord\n\n:a landlord who receives unusually large profits from substandard, poorly maintained properties.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Tyler L.",
-        "rating": 1,
-        "review": "Horrible. Horrible. Horrible landlord/ manager. Sharlene should not be the manager. She doesn't care about the tenants or anybody but herself. She refuses to work with you to make your stay here even remotely livable. Mold is everywhere because nothing is insulated right and not up to code. She refuses to fix it and blames you for it. She will not give you your direct depot back because of the mold and other things that are wrong with the place and blame you for it! Her dogs are always barking. I've recently called animal control because they will not stop barking. She is just a horrible human being. I've never met somebody so mean and heartless. Her bubbly attitude is all an act. TRUST me.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joshua D.",
         "rating": 1,
         "review": "Your review helps others learn about great local businesses.\n\nPlease don't review this business if you received a freebie for writing this review, or if you're connected in any way to the owner or employees.\n\nWOW is all I can say. Simply called to get basic information about complex. The women who answered was extremely unprofessional, had no idea of the square footage, or rent rates on any of the units. \nEvery question I asked was met with \"I don't know\" or \"I don't have that available\" We established that there were no units available this month early in the phone call, and that I was looking for information, nothing more. This was met with indifference, and dismissal.\n\nIf it was management that answered......\n\nGood Luck to anyone who Rents here... let alone looking INTO renting Lmao!\n\nyou gonna need it.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Tyler L.",
+        "rating": 1,
+        "review": "Horrible. Horrible. Horrible landlord/ manager. Sharlene should not be the manager. She doesn't care about the tenants or anybody but herself. She refuses to work with you to make your stay here even remotely livable. Mold is everywhere because nothing is insulated right and not up to code. She refuses to fix it and blames you for it. She will not give you your direct depot back because of the mold and other things that are wrong with the place and blame you for it! Her dogs are always barking. I've recently called animal control because they will not stop barking. She is just a horrible human being. I've never met somebody so mean and heartless. Her bubbly attitude is all an act. TRUST me.",
+        "owner_response": null
+      },
+      {
+        "author": "John S.",
+        "rating": 1,
+        "review": "Apartments are not maintained at all. Management lies about everything and is slow to respond to problems. Lied about laundry machines not being coin operated(they are). Mold grows in the attic and they blame you for all of it. Ventilation fans do not work adequately. Bathroom was not sealed properly and led to water damage, which was blamed on me.  Management is very threatening and manipulative. Witnessed them perform unwanted door unlocks on other tenants and billing them for it. You will not get your deposit back no matter how much you clean. In fact they will invent anything they can to scam you for money as you leave. Hire a licensed mold inspector to come in before you leave. You will need it.",
+        "owner_response": null
+      },
+      {
+        "author": "Edward A.",
+        "rating": 2,
+        "review": "when we moved here two years ago, there was an excellent manager and an outstanding maintenance man.  both are gone now. the grounds and the apartments themselves have deteriorated.  the owners do not care about the welfare of the tenants.  these apartments do not have central heat or air. they are hot in the summer and very cold in the winter.  now that the maintenance man has quit (a significant loss) it is difficult to have a work order filled.  I would not recommend this place to anyone.  \n'",
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 3,
-  "adjusted_average_rating": 1.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Unfortunately, based on the user reviews provided, there are no positive experiences or reports to highlight for The Village Apartments. All reviewers consistently gave the lowest possible rating, which does not allow for a substantive \"Good\" section to be developed.</p></section><section><h2>Great</h2><p>Similarly, the \"Great\" category does not have any content to include in this article. The user reviews have failed to mention any outstanding features, services, or interactions that would align with exceeding expectations or providing a satisfying living experience for tenants at The Village Apartments.</p></section><section><h2>Bad</h2><p>User reviews express intense dissatisfaction concerning the state of living at The Village Apartments. Mold issues have been reportedly rampant due to improper insulation and are alleged not to be addressed appropriately by the management. Furthermore, tenants have conveyed frustration over being blamed for these conditions, leading to disputes over security deposit returns without resolution evident in the management's approach.</p><p>The unfavorable sentiment extends beyond living conditions to include the management team, specifically pointing out the lack of empathy and unwillingness to assist residents in making their stay comfortable. Reviews mention that the manager's conduct fails to meet the expected standards of a responsible landlord, as tenants feel neglected, and their needs are apparently disregarded, leading to a deeply unpleasant living experience.</p></section><section><h2>Ugly</h2><p>Reviewers also highlight concerning interactions even before becoming tenants. One potential resident described the initial contact with the complex's staff as extremely unprofessional, with a failure to provide basic information on the apartments. Questions were frequently answered with \"I don't know\" or \"I don't have that available\", leading to a dismissive and indifferent phone call that discouraged prospective renters. Reflecting on this encounter, the reviewer ominously warned future renters about the challenges they might face should they choose to live at The Village Apartments.</p></section>"
+  "adjusted_review_count": 5,
+  "adjusted_average_rating": 1.2,
+  "distribution": {
+    "1": 4,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095166,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Unfortunately, user reviews indicate a scarcity of positive experiences at The Village Apartments. Most reviewers reflect on serious issues pertaining to management and maintenance. The brief mention of how it used to be well-managed in the past highlights that there may have been a time when living conditions were satisfactory, but that appears to be a distant memory.</p></section><section id=\"great\"><h2>Great</h2><p>This article highlights the lack of experiences that would typically be categorized as \"great\" in relation to The Village Apartments. User reviews overwhelmingly showcase dissatisfaction, with no reviewer providing positive remarks or noteworthy experiences that could contribute to a \"great\" rating. It seems that the potential for excellence was overshadowed by prevailing negative sentiments.</p></section><section id=\"bad\"><h2>Bad</h2><p>The bad experiences at The Village Apartments are alarming and plentiful. Users express severe disappointment with the management, specifically mentioning their negligence towards maintenance and their dismissive attitudes. Complaints regarding mold issues, improper insulation, and unresponsive maintenance requests paint a troubling picture of the property. Additionally, tenants have reported that the management is slow to react and often manipulative, contributing to an environment of distrust.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The ugly reality at The Village Apartments is encapsulated by numerous user reviews detailing unethical management practices. Several tenants report the deposition of security deposits being unjustly withheld, with management allegedly fabricating complaints to justify their actions. The pervasive presence of mold, lack of fundamental maintenance, and reports of threatening behavior by management create an environment that can only be described as neglectful. One reviewer even reported witnessing management unlock doors without consent, further solidifying the toxic atmosphere. Overall, the properties are described in such terms that lead to labeling the management as a \"slumlord.\"</p></section>"
+  }
 }

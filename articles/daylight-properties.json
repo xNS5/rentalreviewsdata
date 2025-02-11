@@ -3,115 +3,135 @@
   "slug": "daylight-properties",
   "company_type": "Company",
   "address": "1155 N State St #620, Bellingham, WA 98225",
-  "review_count": 29,
-  "average_rating": 3.9,
+  "review_count": 33,
+  "average_rating": 3.79,
   "reviews": {
     "google_reviews": [
       {
-        "author": "Marcus Yearout",
-        "rating": 5.0,
-        "review": "I was an office tenant in the Bellingham Hardware building on W. Holly St for 30 years, and always found Daylight Properties to be a fair and responsive landlord. Their commitment to preservation and restoration of historic properties like the Hardware Building is a bonus.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Forrest Templin",
-        "rating": 5.0,
-        "review": "The entire team at Daylight and their dedication to serving the  community is truly inspiring. The tenant portal, communication systems, and admin tools are very easy to use but, more importantly the people at Daylight are compassionate and honest.",
-        "ownerResponse": null
+        "author": "Benjamin Sauder",
+        "rating": 5,
+        "review": "I've been leasing from Daylight Properties for over a year now and don't have anything bad to point out. Everything related to payments and maintenance can be done through their online portal, which is very convenient. I also appreciate the transparency of all the building fees, which they send directly to your office in a letter.\n\nSomething else that's nice about the Bellingham Bank Building is that it's always clean, with security cameras everywhere. You need a keycard to enter and use the elevator (at night), but the offices have regular keys.\n\nOverall I've had a very positive experience and will be renewing my lease.",
+        "owner_response": {
+          "text": "Thank you so much for your kind words, Benjamin. We appreciate your business and value your feedback!"
+        }
       },
       {
         "author": "nathaniel bond",
-        "rating": 5.0,
+        "rating": 5,
         "review": "The staff is great, and the building I lived in (the Leopold building) was wonderful. Jena Curry and the rest managing the Leopold apartments were excellent. They were really quick to respond to whatever issues I had, and were happy to help me figure out some of the more (at first irritating, later charming) features of my room. The Leopold is an old building with a lot of original fixtures, and they preserved as much as they could - if you're willing to trade a bit of modern convenience for some antique charm, then you should rent with these guys. A last note, having just finished an early lease break; I had to move quickly due to family, and the Daylight staff were really quick to help me find a new tenant, get the proper forms filed early, and make my move happen with very little difficulty. I cannot recommend them highly enough",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hi Nathaniel. We really appreciate the feedback! Thank you for choosing the Leopold Apartments and we hope you are doing well and staying healthy during this pandemic."
         }
       },
       {
+        "author": "Marcus Yearout",
+        "rating": 5,
+        "review": "I was an office tenant in the Bellingham Hardware building on W. Holly St for 30 years, and always found Daylight Properties to be a fair and responsive landlord. Their commitment to preservation and restoration of historic properties like the Hardware Building is a bonus.",
+        "owner_response": {
+          "text": "Thank you so much for your kind words, Marcus. We're so glad to hear you had a positive experience and really appreciate you taking the time to rate your experience with us!"
+        }
+      },
+      {
         "author": "Rena Priest",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I rented from Daylight for 5 years. It was the best rental experience I've ever had. Whenever I needed anything at all, Daylight responded immediately. The building was safe and secure and clean. The neighbors were cool. The staff were friendly and easy to work with, and the rent was more than fair. When I wanted to upgrade they worked with me to find something in my price range within their other properties and though I didn't end up changing units, I appreciated their effort. I will miss my cute little apartment. It was a very special place. I would have stayed there forever if I didn't buy a house.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you Rena.  Congratulations on becoming a homeowner!  We so appreciated having you as a Tenant."
         }
       },
       {
+        "author": "Emma Magnuson",
+        "rating": 5,
+        "review": "Great property management company! Very responsive and polite; I had no problems with them whatsoever.",
+        "owner_response": {
+          "text": "Thank you for the great review! We're glad to hear you had a positive experience and really appreciate you taking the time to rate your experience with us!"
+        }
+      },
+      {
         "author": "Simon Grant",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I rented from Daylight Properties for 2 years, and they were responsive and accommodating all the way through, from move in to move out. Prices were fair and staff were friendly, I was given prompt communication about inspections/constructions and had all my needs met. Move out procedures were straight forward and after following them to a T I received my whole deposit back. Would definitely rent from again.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks, Simon! It's great to hear of good experiences from our past tenants. We enjoyed renting to you and would love to have you back any time. Cheers!"
         }
       },
       {
         "author": "Rebecca Hall",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Residential listings that range from the tiny unique to the custom lovely Leopold. Commercial spots to start your business throughout Whatcom County. Helpful office staff and maintenance.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Dana Christiansen",
-        "rating": 1.0,
+        "rating": 1,
         "review": "You make an error they charge you $50 but when they make an error and charge you too much it doesnt matter. And in fact say it is because you didnt put a limit on the automatic withdrawal so they can charge whatever they want. Awful!!!!",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Alan Martin",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "We're so glad to hear you had a positive experience and really appreciate you taking the time to rate your experience with us!"
+        }
       },
       {
         "author": "Jovan Johnson Hall",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Hayley",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hi Hayley!  We are sorry to hear that you had a bad experience.  We would love to hear more about what happened and if we can make it right.  Please feel free to call our office or email us! "
         }
       },
       {
         "author": "Claire Nickols",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you Claire for your positive review!  We wish you the best of luck in your future endeavors!"
         }
       },
       {
-        "author": "Autumn Jordan",
-        "rating": 4.0,
+        "author": "AJ",
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Angelia Ayers",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Francisco Madrigal",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Sam Surgeon",
-        "rating": 5.0,
+        "author": "Stan Surgeon",
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Esther Heckman",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Damien",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ],
     "yelp_reviews": [
@@ -119,7 +139,7 @@
         "author": "Tana P.",
         "rating": 1,
         "review": "Daylight Properties manages Leopold Apartments. They refuse to supply a cart for renters to carry heavy items. I am 74 yrs old. I know this not an assisted living apartments, but most all non-assisted living apartments supply a few carts. Daylight Properties. Rudeness deluxe at Daylight Properties",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for your feedback, Tana. Daylight Properties owns and manages numerous buildings in Downtown Bellingham. We do not supply carts at any of our buildings for numerous reasons. We do encourage our Tenants to purchase their own form of cart to haul in groceries and other items into the building. It just so happens the Leopold Building where you reside is also occupied by the Hotel Leo. The Hotel Leo owns and manages their own carts for guests of the hotel. Daylight Properties does not own these carts.  \n\nPlease feel free to contact our office directly with any issues you may have as a resident of our Leopold Apartments. We want your residency to be a positive experience."
         }
       },
@@ -127,84 +147,105 @@
         "author": "Matthew M.",
         "rating": 5,
         "review": "As a student I have had some horrible experiences with rental agencies. From the beginning of the lease to the end Daylight Properties has been professional and caring. I lived in the Daylight building and though the building is old it is well maintained and cleaning is done daily M-F. Maintenance is quick to respond to requests and extremely nice. The Daylight Properties administration staff are a pleasure to deal with. Jena in the front office is professional and caring and has everyone's best interest in mind.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Mango D.",
-        "rating": 1,
-        "review": "If you're retarded, and want your unit entered without the state law of 48 hours written notice, stick with these guys, maybe they'll put a fire sprinkler in your unit too after you complain, as none of their buildings are up to code",
-        "ownerResponse": {
-          "text": "In the event of an emergency when time does not allow for 48 hours written notice, we do have the right to enter a unit as per our lease terms.  In this case, there was determined to be a leak coming from the newly installed fire suppressant system in one of the units and it was necessary to enter more than one unit to determine the source of the leak.\n\nIn cases when there is insufficient time to provide 48 hours written notice, we always attempt to contact the Tenant by phone to let them know what is going on. \n\nOur buildings are inspected annually to be sure they meet code standards.  This in turn led to the installation of a new fire suppressant system in 2015.  This process may have caused a temporary inconvenience to the residents, but the increased safety to our Tenants is more important."
-        }
+        "owner_response": null
       },
       {
         "author": "Lani F.",
         "rating": 5,
         "review": "Wonderful experience as a residential tenant for almost 3 years. Everyone on the Daylight team is amazing from the office coordinators to the maintenance crew. I really enjoyed my time with them! They are clear and concise. Their properties have great unique charm, not cookie cutter at all. Would recommend living with them.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Lisa G.",
+        "author": "Mango D.",
         "rating": 1,
-        "review": "I parked in the Herald building parking lot legally to visit one of the tenants of the Herald building but was given a huge sticker on my window which I cannot remove. better signage is much needed to explain the required sign in procedure in the lobby of the Herald building.",
-        "ownerResponse": {
-          "text": "This is an unfortunate incident that occurs from time to time.  Our lot currently has 15 designated visitor parking spaces.  Our \"Herald Building Parking ONLY signage\" is located at the entrance of the parking lot where the visitor parking row is located: \n \n\"FOR VISITORS AND PERMIT PARKING.  ALL VISITORS (2 HOURS MAX) MUST SIGN IN AT THE HERALD BUILDING LOBBY.  VISITORS TO PARK IN \"VISITOR\" DESIGNATED SPACES ONLY.  UNAUTHORIZED VEHICLES WILL BE TOWED AT OWNERS'S RISK & EXPENSE.\" \n \nThis lot is designated for Herald Building Tenants with a valid parking permit and their visitors.  If a vehicle does not display a permit, or has not properly parked in a stall marked \"visitor\" AND signed in as instructed there is no way for us to determine if the vehicle belongs to a guest, a client of the Herald Building, or a visitor to the neighboring businesses."
+        "review": "If you're retarded, and want your unit entered without the state law of 48 hours written notice, stick with these guys, maybe they'll put a fire sprinkler in your unit too after you complain, as none of their buildings are up to code",
+        "owner_response": {
+          "text": "In the event of an emergency when time does not allow for 48 hours written notice, we do have the right to enter a unit as per our lease terms.  In this case, there was determined to be a leak coming from the newly installed fire suppressant system in one of the units and it was necessary to enter more than one unit to determine the source of the leak.\n\nIn cases when there is insufficient time to provide 48 hours written notice, we always attempt to contact the Tenant by phone to let them know what is going on. \n\nOur buildings are inspected annually to be sure they meet code standards.  This in turn led to the installation of a new fire suppressant system in 2015.  This process may have caused a temporary inconvenience to the residents, but the increased safety to our Tenants is more important."
         }
       },
       {
         "author": "Jeff G.",
         "rating": 4,
         "review": "Jena went above and beyond several times. I think some of the building flaws in Daylight building (quirks) prevent 5 stars.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Rhiannon T.",
         "rating": 5,
         "review": "I have had a great experience thus far as a business tenant in the Herald Building. In particular Jena, Rick, and Rich have been quick, responsive, and very helpful in solving any issues that have come up for me. They are a pleasure to work with and committed to building community.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Lisa G.",
+        "rating": 1,
+        "review": "I parked in the Herald building parking lot legally to visit one of the tenants of the Herald building but was given a huge sticker on my window which I cannot remove. better signage is much needed to explain the required sign in procedure in the lobby of the Herald building.",
+        "owner_response": {
+          "text": "This is an unfortunate incident that occurs from time to time.  Our lot currently has 15 designated visitor parking spaces.  Our \"Herald Building Parking ONLY signage\" is located at the entrance of the parking lot where the visitor parking row is located: \n \n\"FOR VISITORS AND PERMIT PARKING.  ALL VISITORS (2 HOURS MAX) MUST SIGN IN AT THE HERALD BUILDING LOBBY.  VISITORS TO PARK IN \"VISITOR\" DESIGNATED SPACES ONLY.  UNAUTHORIZED VEHICLES WILL BE TOWED AT OWNERS'S RISK & EXPENSE.\" \n \nThis lot is designated for Herald Building Tenants with a valid parking permit and their visitors.  If a vehicle does not display a permit, or has not properly parked in a stall marked \"visitor\" AND signed in as instructed there is no way for us to determine if the vehicle belongs to a guest, a client of the Herald Building, or a visitor to the neighboring businesses."
+        }
       },
       {
         "author": "Chris R.",
         "rating": 5,
         "review": "As a tenant in the Herald Building (owned by Daylight), I have been nothing but pleased with Daylight and their people. They prepared our space beautifully before move in, have worked tirelessly to fix any issues after move in, and their staff is great, from the maintenance crew to the cleaning crew, to Jena in the main office. They are great people and I have been nothing but pleased with my experience working in a Daylight building.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Peter H.",
-        "rating": 5,
-        "review": "After I moved in, I realized there were little things that I'd prefer to modify.  I wanted my bedroom door changed, I wanted some of the paint colors in my living room and kitchen swapped, and I wanted my refrigerator door mounted to open on the opposite side.  Some of these seemed kind of minor and made me feel like I was just being picky.  So, honestly, I really wasn't sure what to expect or if this would be taken seriously.  Boy was I surprised.  Jena, the Leasing Manager, immediately noted my requests and made me feel like they were well received.  Then she had a maintenance technician, Keith, contact me the very next business day!  Keith met with me within 48 hours of that!  He was great.  We walked through my apartment, looked at all of my requests, and came up with a plan to address all of them.  Every single one!!!  He was so easy to work with and was very personable and responsive to everything I had listed.  He didn't, for a single minute, make me feel like I was just being picky, even though I had thought I was.  The whole experience was incredible and now I am living in a place that I've been able to make my own, with their help.  It's really encouraging knowing what a great team there is supporting me.  If I could give them more than 5 Stars, I would.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Marisa P.",
         "rating": 4,
         "review": "I love my space in Uptown. The Herald building had really seen a great transformation. My clients enjoy the easy parking. We are close to a load of restaurants and coffeehouses. I plan on staying for a long time.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Peter H.",
+        "rating": 5,
+        "review": "After I moved in, I realized there were little things that I'd prefer to modify.  I wanted my bedroom door changed, I wanted some of the paint colors in my living room and kitchen swapped, and I wanted my refrigerator door mounted to open on the opposite side.  Some of these seemed kind of minor and made me feel like I was just being picky.  So, honestly, I really wasn't sure what to expect or if this would be taken seriously.  Boy was I surprised.  Jena, the Leasing Manager, immediately noted my requests and made me feel like they were well received.  Then she had a maintenance technician, Keith, contact me the very next business day!  Keith met with me within 48 hours of that!  He was great.  We walked through my apartment, looked at all of my requests, and came up with a plan to address all of them.  Every single one!!!  He was so easy to work with and was very personable and responsive to everything I had listed.  He didn't, for a single minute, make me feel like I was just being picky, even though I had thought I was.  The whole experience was incredible and now I am living in a place that I've been able to make my own, with their help.  It's really encouraging knowing what a great team there is supporting me.  If I could give them more than 5 Stars, I would.",
+        "owner_response": null
+      },
+      {
+        "author": "Cari S.",
+        "rating": 1,
+        "review": "While I am sure that this property management company sticks to the letter of the law, my experience with them has been that they are very hard to deal with, and that they are specifically looking for inexperienced renters so they can extract as much money as possible from their clients.  Look at their \"forms\" page to see what I mean.  All of their agreements are HEAVILY slanted in favor of the company and are very punitive for renters.  (Heads I win tails you loose is the name of this game.)\n\nThe apartments are in adequate condition, and are downtown, so that is a plus for many people, but if you don't happen to have a lawyer on retainer this might turn out to be substantially more expensive housing than you expect.\n\nParents who are co-signing for minors, please use extreme caution.",
+        "owner_response": null
       },
       {
         "author": "Zeck D.",
         "rating": 5,
         "review": "Been renting from Daylight for years now.  Excellent personable service always.  Daylight Properties staff are awesome!!!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Shannon F.",
         "rating": 5,
         "review": "Daylight has been wonderful to work with.  They always take care of any problems quickly and respond to correspondance immediately.  Everyone is so friendly and personable.  I would recommend them to anyone looking for commercial property managers!",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Austin O.",
+        "rating": 1,
+        "review": "Daylight Properties has been extremely unprofessional and unkind in my brief experience with them. We had an appointment one afternoon to see some of their apartments and nobody showed up to meet us at the building. We waited a few extra minutes, called them, and the woman informed us that the person who was to show us the apartment went home earlier that day.When asked why we weren't notified, she replied that it isn't \"their policy\" to inform potential customers that their showings have been canceled. When attempting to figure out a resolution to that obvious problem, the woman hung up on us. I would hate to be stuck in a lease with people like this, let alone try to see more apartments with them.",
+        "owner_response": {
+          "text": "Austin,\n\nI am very disappointed to hear about that encounter.  We have restructured all our showing policies and service methods, so cases that this do not happen.  Again, I apologize for the inconvenience and thank you for bringing this to our attention."
+        }
       },
       {
         "author": "Sue P.",
         "rating": 1,
         "review": "If I could give this company a negative \"10 stars\", I would.  I responded to an ad on Craigslist for office space.  \"Hannah\", who apparently is in charge of showings, indicated that she had a 10:45am slot available for showing it to me.  I then called back and got her voicemail, confirming I would be there at the appointed time.  She then called me back to say \"Sorry, that time slot is taken and I don't have time until next week.\"  What?  Due to the fact that this was a small space, perfect for my needs and she was throwing up roadblocks to showing it to me and wouldn't lease it to me without showing it to me...but had no time to show it (a vicious, circular loop of highly unachievable conditions), I offered to give her a deposit right there and then.  But, that was refused.  She said she would show it to me this morning if it was still available, but that it \"would probably be leased by then.\"  I then called one of the principals, he listened, but then told me to call \"Hannah\" again.  Right! A big \"No Thanks!\" on that one!  So, this morning, she calls me to say she can show it to me, but she has a \"lease pending.\"  Pathetic!  If you want a run around and totally \"un-customer centric\" treatment, Daylight Properties is your place!",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 20,
-  "adjusted_average_rating": 3.9,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In this article's portrayal of Daylight Properties, tenants' satisfaction shines through when discussing staff responsiveness and dedication to maintaining the properties. Several user reviews applaud the company's effort in managing historic properties, with a particular emphasis on preserving the charm of older buildings like the Bellingham Hardware and Leopold buildings. Tenants have expressed gratitude for the company's fair rent prices and immediate responses to maintenance requests, illustrating that Daylight Properties takes the concerns of their tenants seriously and works diligently to resolve issues promptly.</p><p>Moreover, the variety of residential and commercial listings available is a highlight for many clients. Reviews have indicated that Daylight Properties offers a range of spaces from the 'tiny unique to the custom lovely Leopold,' catering to a broad audience. The staff's friendly and easy-going nature, as well as their problem-solving skills, have fostered positive tenant relationships and resulted in some tenants recommending Daylight Properties to others seeking quality management services.</p></section><section><h2>Great</h2><p>Several user reviews have marked the tenant portal, communication systems, and administrative tools provided by Daylight Properties as excellent, citing their ease of use and effectiveness. With a strong focus on community service, the team at Daylight has been described as compassionate and honest. An emergency lease-break situation was handled with such efficiency and consideration that a tenant felt compelled to highly recommend the company, pointing out the outstanding assistance they received during a stressful personal time.</p><p>The company's responsiveness to maintenance and repair requests adds to their great reputation. One reviewer detailed their experience with swift actions taken by Daylight Properties' maintenance staff to address and implement their personalized requests, an approach appreciated for its customer-centric focus. It is this attention to the needs and desires of the current tenants that sets Daylight Properties apart, reflecting a dedication to tenant satisfaction and property upkeep that is noted by many of their patrons.</p></section><section><h2>Bad</h2><p>Despite the positive feedback, Daylight Properties is not without its critiques. Some user reviews have pointed out instances of miscommunication and perceived neglect, such as complaints about the lack of provided utility carts for transporting heavy items, which a senior citizen found particularly troublesome. Although the company has responded to clarify the situation, the initial oversight did contribute to tenant frustration. Another disappointing aspect for a client was the handling of parking issues, with better signage and instructions being suggested to navigate the parking procedures without resorting to punitive measures like difficult-to-remove stickers.</p><p>Furthermore, nuances in the billing process and the management's response to financial errors have resulted in dissatisfaction among a number of tenants. One such review detailed an experience of incurring a fee for a mistake made by the renter, while a company's billing error towards the tenant did not receive a similar level of concern or rectification. This perceived double standard in addressing financial discrepancies contributes negatively to the company's overall image, as stated in user reviews.</p></section><section><h2>Ugly</h2><p>Delving into the 'ugly' aspects of user reviews, one recounts an aggressive tone taken by the company in dealing with the state law regarding entry notifications. The tenant felt their right to privacy was compromised when the company entered the unit, allegedly without the required 48-hour written notice, although Daylight Properties defended this by citing emergency circumstances. Issues related to building safety standards have also been a topic of contention; with a review questioning the compliance of Daylight's buildings with fire codes.</p><p>The most troubling feedback comes from a potential client's interaction with Daylight Properties where they experienced what they described as poor customer service and unprofessionalism during the leasing process. This individual's frustration stemmed from the difficulty in scheduling property showings and a perceived lack of interest from the property management in facilitating the leasing process. Such experiences have the potential to tarnish the company's reputation, especially if they reflect a pattern in the leasing and customer service approach that alienates prospective tenants.</p></section>"
+  "adjusted_review_count": 23,
+  "adjusted_average_rating": 3.7,
+  "distribution": {
+    "1": 9,
+    "2": 0,
+    "3": 0,
+    "4": 4,
+    "5": 20
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095022,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Daylight Properties has received numerous positive reviews highlighting their efficient management and friendly staff. Many users emphasize the convenience of the online tenant portal, which allows for easy handling of payments and maintenance requests. The cleanliness and security of their properties, like the Bellingham Bank Building, were also appreciated, with one tenant specifically noting its well-maintained environment as a significant advantage of renting through this company.</p><p>Tenants frequently mention their positive experiences with specific staff members, including their responsiveness and willingness to assist. For instance, a tenant of the Leopold building praised the quick response times from the management team, describing how they were promptly helped during an urgent lease break situation. Overall, the sentiment towards Daylight Properties is largely favorable, especially regarding the quality of service provided by their staff.</p></section><section id=\"great\"><h2>Great</h2><p>The general consensus among users is that Daylight Properties excels in customer service, with many reviews commending their quick response times and proactive communication. One tenant expressed immense satisfaction with how the management team handled various requests and maintenance issues, indicating that they felt comfortable and well-supported throughout their rental period. Another review pointed out that, despite the age of the buildings, regular maintenance and cleaning significantly contributed to an enjoyable living experience.</p><pAdditionally, tenants appreciate the range of unique properties offered by Daylight, from quaint residential options to commercially viable spaces. The strong community feel fostered by the staff is also highlighted, with an emphasis on how approachable and dedicated they are to resolving tenant concerns. This level of commitment and quality service is reflective of the high ratings they have received from many satisfied renters.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the many positive reviews, Daylight Properties has faced criticism regarding their handling of tenant errors and communication issues. One user noted dissatisfaction with the company's policy on charging fees for mistakes made by tenants while highlighting a seemingly one-sided approach to accountability regarding billing. This sentiment points to a perceived lack of fairness when it comes to resolving disputes or addressing billing inconsistencies from the company's side.</p><pMoreover, some reviews indicate that tenants faced communication challenges, particularly regarding appointment scheduling for property showings. Instances were mentioned where interested parties arrived for viewings only to find no one available to meet them, leading to frustration and lost opportunities. This suggests a need for improved operational procedures in communication and scheduling to enhance prospective tenant experiences.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Certain reviews shed light on a more troubling aspect of Daylight Properties' management practices, particularly surrounding tenant relations. Some users have reported a lack of response to critical issues raised, indicating feelings of being neglected post-rental agreement. Specific instances of unresolved maintenance concerns or inadequate attention to tenant feedback were mentioned, painting a picture of a disconnect in customer service experience, which could deter potential renters.</p><pAdditionally, a few complaints centered around the aggressive nature of contracts and policies, which some tenants expressed as being disproportionately favorable to the company. This includes concerns over punitive practices that could overshadow the rental experience for unsuspecting tenants, leading to frustration and a sense of being taken advantage of financially. Such sentiment unfortunately weighs down the otherwise solid reputation the company has built with many satisfied renters.</p></section>"
+  }
 }

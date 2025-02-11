@@ -21,8 +21,6 @@ file_paths = utilities.get_file_paths()
 
 output_path = f"{file_paths['parent_path']}/{file_paths['google']}"
 
-custom = False
-
 def get_attribute(strategy):
     strategies = {
         "xpath": By.XPATH,
@@ -236,7 +234,7 @@ def get_company(driver, selectors):
         print("Missing company title")
 
 
-def scrape_google_companies(_config, url = None):
+def scrape_google_companies(_config, url = None, custom = False):
 
     query = ''
     selectors = _config['selectors']
@@ -284,7 +282,7 @@ def scrape_google_companies(_config, url = None):
             except Exception:
                 traceback.print_exc()
     else:
-        get_company(driver, config)
+        get_company(driver, selectors)
     driver.quit()
 
 
@@ -324,7 +322,7 @@ if __name__ == "__main__":
         case "custom":
             input_list = pyinput.inputStr("Url List (space separated): ").replace(r'\s+', r'\s').split(" ")
             for url in input_list:
-                scrape_google_companies(config['custom'], url)
+                scrape_google_companies(config['custom'], url, True)
         case "all":
             for conf in list(config['queries'].values()):
                 scrape_google_companies(conf)

@@ -1,0 +1,53 @@
+{
+  "name": "Spark Community Management",
+  "slug": "spark-community-management",
+  "company_type": "Company",
+  "address": "4071 Hannegan Rd R, Bellingham, WA 98226",
+  "review_count": 4,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Kyle Kline",
+        "rating": 5,
+        "review": "Spark Management has been an incredible partner in managing our property for years. Claire is outstandingshes always professional, attentive, and knows exactly how to balance resident satisfaction with protecting our investment. Her tech-savvy approach and deep understanding of current laws and regulations have saved us countless headaches. We wouldnt trust anyone else with our property. Highly recommend!",
+        "owner_response": {
+          "text": "Thank you for the wonderful review, Kyle! We're thrilled to hear that Claire and our team have consistently met your expectations. Your trust and recommendation mean a lot to us. We look forward to continuing our partnership!"
+        }
+      },
+      {
+        "author": "Cool Rentals",
+        "rating": 5,
+        "review": "Spark management is providing a crucial service to our HOA with the attention to detail required to meet all the many legal requirements. Claire and the team are professional and enjoyable to work with!\nThank you!\nRespectfully\nCRCC Treasurer",
+        "owner_response": {
+          "text": "Thank you for such kind words! The membership and board at CRCC has been wonderful to work with! "
+        }
+      },
+      {
+        "author": "Kristin van de Kamp",
+        "rating": 5,
+        "review": "Spark Management recently got involved with my community and theyve been so great to work with! Their team has been so nice and has made the transition so easy! Definitely recommend!",
+        "owner_response": null
+      },
+      {
+        "author": "Noah Mireault",
+        "rating": 5,
+        "review": "Thoughtful, thorough, and an absolute pleasure to work with!",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 4,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 4
+  },
+  "summary": {
+    "created_timestamp": 1739095151,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights the positive experiences reported by users of Spark Community Management. Many users express high satisfaction with the professional and attentive service provided by the management team. For instance, one user praised an outstanding team member for balancing resident satisfaction while protecting property investments, indicating a strong understanding of both tenant needs and legal regulations. Such sentiments reflect a consistent theme of professionalism and dedication to quality service.</p><p>Furthermore, several users comment on the seamless transitions and effective management of community-related matters. One user noted that the management\u2019s involvement made the integration into the community easy, showcasing their commitment to supporting new residents. The responsiveness to user reviews also adds to their reputation, with some reviews prompting a thoughtful acknowledgment from the management team.</p></section><section id=\"great\"><h2>Great</h2><p>This section portrays Spark Community Management as an exemplary choice for property management in the area. User reviews highlight the comprehensive support the company provides, particularly in meeting legal requirements for homeowners associations (HOAs). One user remarked on the attention to detail necessary for navigating complex legal frameworks, indicating that the management team is not only professional but also crucial in ensuring compliance.</p><pMoreover, the company appears to foster positive relationships with residents, as evidenced by a user expressing gratitude for the enjoyable collaboration with the team. The welcoming environment created by Spark Community Management is a notable aspect, positioning them as a management company that genuinely cares about its community and delivers exceptional service.</p></section><section id=\"bad\"><h2>Bad</h2><p>While the user reviews of Spark Community Management are overwhelmingly positive, there are limited accounts of issues that may arise during property management. The absence of negative feedback could suggest either exceptional service or a reluctance from users to share their experiences. In some instances, individuals may have had minor grievances that were not formally documented, leading to an incomplete view of potential concerns.</p><pWithout specific negative user reviews, it is difficult to delineate areas for improvement for Spark Community Management. However, prospective tenants and property owners should remain aware of common concerns within property management, such as communication lapses or unresolved maintenance requests, even if these were not distinctly highlighted by current reviewers.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>This article doesn't reflect any significant ugly experiences with Spark Community Management. The absence of negative user reviews indicates that there have been no complaints regarding severe issues like evictions, disputes over security deposits, or unresolved maintenance problems that typically characterize management failures in the industry. As such, potential clients may feel reassured about the overall quality of care they can expect from the management team.</p><pSince no notable negative experiences are reported, it seems that Spark Community Management has successfully built a positive relationship with its clients. This is an encouraging sign for future tenants or property owners considering their services, as the company maintains a stellar reputation with a perfect average rating across user reviews.</p></section>"
+  }
+}

@@ -3,63 +3,75 @@
   "slug": "spring-creek-apartments",
   "company_type": "Property",
   "address": "196 E Kellogg Rd, Bellingham, WA 98226",
-  "review_count": 11,
-  "average_rating": 3.55,
+  "review_count": 13,
+  "average_rating": 3.38,
   "reviews": {
     "google_reviews": [
       {
-        "author": "Storrie Morrow",
-        "rating": 5.0,
-        "review": "My partner and I have lived here for almost 2 years now, and I couldn't have imagined a better place for us to land. The complex has a lot of amenities. I love the sense of community I've felt here. My neighbors and the staff are so welcoming and quick to fix any issues that have come up. And the location in Bellingham is very convenient.",
-        "ownerResponse": null
+        "author": "silas",
+        "rating": 4,
+        "review": "like the place. manager's are nice. place is nice. only giving it 4 stars because not long ago they Replaced our slightly noisy fridge with a even more noisy fridge. its not that bad, just annoying sometimes.\nEDIT: walls are kinda thin, im always hearing neighbors playing Piano, and i know that they feel the same with us. hopefully someday when we move out they'll add something and make the walls thicker. would give it 3.5 if i could,",
+        "owner_response": null
+      },
+      {
+        "author": "rania ayad",
+        "rating": 1,
+        "review": "The manager latishia  is RUDE &  Racist,Condescending, Arrogant\nI applied for apartment and I was completely open and honest about how many people and my applications was approved and I was in my way to sign the lease and I got lost 2times in busy roads and I asked her to wait for me (because the other coworkers give me impression that she live in premises and maybe  on call )she refused in very arrogant way ,went the second day to sign she refused to go a head and give the apartment after I paid for 3application and my mom asked her in the office twice that she want the apartment , even after i apologised for the miss communication she refused to give me the apartment.and refused to refund me the applications fees.",
+        "owner_response": null
       },
       {
         "author": "Luke Rose",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Latisha and her staff were absolutely wonderful the year I lived here. They have strict rules in place which Makes for a wonderful experience both inside and outside of the apartments. They were very attentive to any fixing needs, usually fixing appliances and such within the hour of me calling them. The recently remodeled apartments are absolutely beautiful inside. I would highly Recommend them to anyone looking for a quiet, nicely kept, and well run apartment complex.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "John Currier",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I lived here for 5 years after I got divorced.  It was a great home.  The staff was always wonderful to deal with, and 7 years later they're all still there.  The recent remodel looks wonderful and they make a genuine effort to make everyone feel that this is their home.  The opportunity for a large garden is rare for an apartment, and the grounds are amazing.  Walking trails, an old growth apple orchard, etc.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Storrie Morrow",
+        "rating": 5,
+        "review": "My partner and I have lived here for almost 2 years now, and I couldn't have imagined a better place for us to land. The complex has a lot of amenities. I love the sense of community I've felt here. My neighbors and the staff are so welcoming and quick to fix any issues that have come up. And the location in Bellingham is very convenient.",
+        "owner_response": null
       },
       {
         "author": "Kate Schultehenrich",
-        "rating": 1.0,
+        "rating": 1,
         "review": "My partner, brother, and I called this complex to gather more information for a 2 bed/1 bath unit as we are planning to move to Washington in the next few months. We were in the process of being put on the wait list when they asked \"Will it be a family moving in?\" When we explained it would be us three she immediately told us that they wouldn't be able to accept us. We were confused because my partner and I have been living in other apartment units in California together for the past three years and have had no issues regarding us not being a hetero-normative married couple. We further asked why that was an issue and she explained that they've had problems with people breaking leases that made it difficult for the property management. We were trying to explain how discriminatory this sounded while explaining our situation and she said, \"Well this isn't the right place for you then\" and hung up. I have never had an experience quite as homophobic as this. If possible to give a 0 star I would.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Ai Leen",
-        "rating": 1.0,
+        "rating": 1,
         "review": "The community is okay, amenities are average BUT the manager is RUDE & OBNOXIOUS! She is very condescending, arrogant & really really rude. Walls are thin so be prepared to hear your neighbor snore & other things that happens at night that should be private between couples.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Dr Brenda Kotewa",
-        "rating": 5.0,
+        "rating": 5,
         "review": "The staff here is responsive, friendly, and compassionate. They consider their renters part of their family and plan events accordingly. No discrimination here based on ability, ethnicity, religious beliefs, or gender diversity. Been here five years and no plans to move from this awesome location.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Ellie R.",
-        "rating": 1.0,
+        "rating": 1,
         "review": "The apartment itself is cheaply made and the walls are so thin so you can hear your neighbors even if they are having a normal conversation. The manager and maintenance team are great, though.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Mia C",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joe Chavira",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ],
     "yelp_reviews": [
@@ -67,20 +79,27 @@
         "author": "Deanna T.",
         "rating": 5,
         "review": "I've only been here a week...I am overwhelmed with the beauty of the interior of my apartment as well as the elegance of the newly remodeled  exterior. The management team is phenomenal! I feel truly fortunate.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kaitlyn S.",
         "rating": 1,
         "review": "My partner, brother, and I called this complex to gather more information for a 2 bed/1 bath unit as we are planning to move to Washington in the next few months. We were in the process of being put on the wait list when they asked \"Will it be a family moving in?\" When we explained it would be us three she immediately told us that they wouldn't be able to accept us. We were confused because my partner and I have been living in other apartment units in California together for the past three years and have had no issues regarding us not being a hetero-normative married couple. We further asked why that was an issue and she explained that they've had problems with people breaking leases that made it difficult for the property management. We were trying to explain how discriminatory this sounded while explaining our situation and she said, \"Well this isn't the right place for you then\" and hung up. I have never had an experience quite as homophobic as this. If possible to give a 0 star I would.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 9,
-  "adjusted_average_rating": 3.22,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Residents of Spring Creek Apartments have expressed appreciation for the community aspect and the amenities provided. Many feel a strong sense of belonging, with one user review highlighting the welcoming nature of both neighbors and staff. Another notable positive is the convenient location in Bellingham, which several residents have found to be ideal for their lifestyles. In terms of living experience, multiple residents praise the complex for being a comfortable landing spot, especially after significant life changes such as a divorce.</p><p>The aesthetic appeal of the apartments, particularly after recent renovations, has also been a common thread in user reviews. The opportunity to have a large garden is a rarity that has been celebrated by residents, along with the beautiful grounds which include walking trails and an old growth apple orchard. Such features offer a unique living experience that many tenants have come to treasure during their time at Spring Creek Apartments.</p></section><section><h2>Great</h2><p>The property management team at Spring Creek Apartments has been lauded for their responsiveness and attentive service. User reviews frequently commend the staff for being friendly and compassionate, often going out of their way to ensure that maintenance issues are addressed promptly, with some reports of appliances being fixed within an hour of being reported. This level of service contributes greatly to the overall positive living experience cited by many tenants.</p><p>Apart from the impressive response to maintenance requests, the staff's dedication to creating a family-like atmosphere is also noteworthy. Regularly planned community events appear to make a significant impact on the tenants, fostering a strong sense of community and inclusivity. One reviewer has been so satisfied with the environment and the staff's professionalism that after five years, they have no plans of moving away from what they consider an \"awesome location.\"</p></section><section><h2>Bad</h2><p>However, not all experiences at Spring Creek Apartments have been positive. There are reviews which speak to issues beyond the property's physical attributes. One such concern is voiced by an individual who encountered what they perceived as homophobic behavior during the leasing process. This incident involved a discouraging interaction with the apartment management, where the potential tenants were unjustly refused accommodation, leading to allegations of discrimination. Such experiences can significantly tarnish the image of the complex and its management.</p><p>In addition, there are criticisms regarding the structural integrity of the properties themselves. A review mentioned that the apartments are \"cheaply made,\" with the problem of thin walls being a particular point of contention. The ability to hear neighbors through these thin walls, even during normal conversations, poses a challenge to privacy and can detract from the comfort and enjoyment of residents.</p></section><section><h2>Ugly</h2><p>The most severe criticism towards Spring Creek Apartments revolves around the behavior of the management, specifically the manager. User reviews describe encounters with the manager as unpleasant due to perceived rudeness and obnoxiousness. This kind of negative interaction can create an unfavorable living environment, overshadowing the positive aspects of the property. When management is described as condescending and arrogant, it raises serious concerns about the tenant-management relationship and the overall well-being of the community.</p></section>"
+  "adjusted_review_count": 11,
+  "adjusted_average_rating": 3.09,
+  "distribution": {
+    "1": 5,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 7
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095152,
+    "text": "<section id=\"good\"><h2>Good</h2><p\tSpring Creek Apartments has received commendations for its community atmosphere and attentive management. Many users commenting positively on the staff have noted their responsiveness and friendly demeanor. One tenant shared that the management was prompt in addressing maintenance issues, often resolving them within an hour of reporting. The community engagement and planned events were highlighted as contributing factors that help tenants feel a sense of belonging and support.</p><p>Additionally, numerous reviews mentioned the aesthetic appeal of the recently remodeled apartments. Users expressed that the interiors are well-designed and visually appealing, making it a comfortable living space. The complex also promotes well-maintained grounds, which include amenities like walking trails and a garden, enhancing the overall living experience at Spring Creek Apartments.</p></section><section id=\"great\"><h2>Great</h2><p\tWhile there were some mixed sentiments, a selection of users highlighted their overall positive experiences at Spring Creek Apartments. The property is appreciated for its serene environment, making it a desirable location for individuals seeking a quieter living experience. The management is frequently praised for maintaining strict rules that lead to a well-organized community.</p><p>Former tenants reflected on their long-term stays and shared how the consistent presence of staff over the years fostered familiarity and comfort. One user even described their five-year residency as a \u201cgreat home,\u201d underscoring the value of stability and the personal touch that the management brings to the apartment community. Such reviews indicate a level of satisfaction that contributes positively to the complex's reputation.</p></section><section id=\"bad\"><h2>Bad</h2><p\tDespite the positives, numerous user reviews pointed out significant issues with the management's approach and some aspects of living at Spring Creek Apartments. Some individuals reported experiences with overly thin walls that allow noise from neighbors to be easily heard, disrupting their peace. These complaints reflect a common concern that while the management is friendly, the building's construction quality has shortcomings.</p><p>The management's communication practices received criticism as well. Some potential tenants felt disheartened by their interactions, particularly those who perceived discriminatory remarks during the inquiry process about rental applications. These instances point to inconsistent messaging and a lack of sensitivity, which could hinder a prospective tenant\u2019s experience even before moving in.</p></section><section id=\"ugly\"><h2>Ugly</h2><p\tThe most troubling reviews center around accusations of poor management practices and potential discriminatory behavior. One review described an outright refusal of an application based on the composition of the prospective tenants, alleging a form of discrimination that left the individuals feeling unwelcome and rejected. Experiences like these can severely damage the property\u2019s reputation and discourage potential residents from considering the apartments.</p><p\tMoreover, a user described the management as rude and condescending, which compounded their frustration regarding the living situation. These allegations reflect a deeper issue regarding tenant treatment and could illustrate a systemic problem in managing relationships with current and past tenants. Such experiences overshadow the positive aspects noted by others, highlighting the need for a reevaluation of management practices at Spring Creek Apartments.</p></section>"
+  }
 }

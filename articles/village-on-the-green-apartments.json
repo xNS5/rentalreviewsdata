@@ -3,42 +3,57 @@
   "slug": "village-on-the-green-apartments",
   "company_type": "Property",
   "address": "2600 Alderwood Ave, Bellingham, WA 98225",
-  "review_count": 4,
-  "average_rating": 2.5,
+  "review_count": 5,
+  "average_rating": 3.0,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Evan Carter",
+        "rating": 5,
+        "review": "Never ended up moving to these apartments purely cause location and my job but needed to move. The listing was transparent, responses were quick, and communication with Sarah was done well and straightforward which I appreciate. Although i never moved here its first time the process wasnt a hassle in my experience, thank you",
+        "owner_response": {
+          "text": "We sincerely thank you for sharing your positive experience with our community! Your review is invaluable to us and means a lot. "
+        }
+      },
+      {
         "author": "Malcolm Barbera",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Most crooked backwards rental company ever. Neglected to give me any paperwork or indication on how to set up utilities and then they slap me with fees upon fees when it wasnt set up in a timely manner. Do not rent here if you can go anywhere else this place is the worst.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hello Malcolm, I would love to help you with this but I do not see anyone that currently lives here with that name. Are you sure you have the right complex? "
         }
       },
       {
         "author": "Kaysha lynn ARADANAS",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Tony is an amazing property manager. I have never had a property manager as attentive as her. Fair warning alot of neighbors here are rude, not all but some.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Maira Toro",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Not a good place to live. All lies the manager tells you.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Gerges Hana",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Small cheap apts, not bad, but not great.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 4,
-  "adjusted_average_rating": 2.5,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The Village on the Green Apartments can boast about some positive aspects as noted in user reviews. One resident highlighted the performance of a property manager named Tony, praising her for being exceptionally attentive. This level of attention from a property manager can often be the linchpin to a satisfactory tenant experience, providing a responsive and caring management style that tenants appreciate.</p><p>Despite the mixed sentiments, the property's average rating indicates that some tenants find the living conditions satisfactory. As one user review mentions, the apartments may not be luxurious but can be considered reasonable for the price point. Such an assessment suggests that for those looking for budget-friendly options, the Village on the Green Apartments might meet their needs for basic accommodations.</p></section><section><h2>Great</h2><p>On the matter of greatness, it's harder to pinpoint from the feedback collected. However, the dedication of at least one property manager resonates with a certain segment of the residents. The positive experience of the tenant who had interactions with Tony exemplifies great customer service and the importance of having invested staff in a property management company.</p><section><h2>Bad</h2><p>While there is some positivity to be gleaned, there are aspects of the Village on the Green Apartments that have left some tenants dissatisfied. In one user review, a tenant expressed frustration over the perceived deception by the apartment's manager. Such experiences can tarnish the reputation of a property and suggest a potential lack of transparency which can lead to distrust between tenants and management.</p><p>Another former tenant lamented their experience with being charged unexpected fees, especially regarding the setup of utilities. A lack of communication or paperwork provided upon move-in that could guide new residents through necessary processes can be quite disconcerting and lead to financial penalties that feel unjust.</p></section><section><h2>Ugly</h2><p>The user reviews reveal underlying issues that are particularly troubling. One tenant described their experience as dealing with the \"most crooked backwards rental company ever\", indicating a severe level of dissatisfaction. The allegation that the company imposed fees upon fees for untimely utility setup due to lack of instructions reflects poorly on the operational transparency and support expected from property management.</p><p>Moreover, some residents have hinted at a troublesome community dynamic, with one user review mentioning the presence of rude neighbors. Since neighborly relations can significantly affect the quality of life, such problems could detract from the overall appeal of the Village on the Green Apartments. The management company's non-response to this particular issue in the review also raises questions about their engagement with community wellbeing.</p></section>"
+  "adjusted_review_count": 5,
+  "adjusted_average_rating": 3.0,
+  "distribution": {
+    "1": 2,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095182,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights the positive experiences shared by users of Village on the Green Apartments. One user appreciated the transparent listing and the quick responses from the property management, specifically mentioning their communication with staff as straightforward and hassle-free. Their experience reflects a level of professionalism that can be encouraging for prospective tenants.</p><p>Another user praised the property manager, describing them as attentive and dedicated. This suggests that there are staff members who take their responsibilities seriously and are receptive to their tenants' needs, contributing positively to the community environment, even if other aspects of the living situation may vary.</p></section><section id=\"great\"><h2>Great</h2><p>This section acknowledges some outstanding individual experiences but also the mixed feelings surrounding them. For instance, one user shared their great experience with management responsiveness, even though they never decided to live in the apartments. Such interactions illustrate that the management team, particularly individuals like Sarah, can deliver excellent customer service, which is crucial for a good first impression.</p><p>Moreover, while there have been praises for the management, some users pointed out certain community dynamics, such as rude neighbors. Despite this, the recognition of thriving communication and prompt actions from management creates a positive image, indicating potential for improvements in tenant relations and community atmosphere.</p></section><section id=\"bad\"><h2>Bad</h2><p>This section covers the negative reviews that express serious concerns about the management practices at Village on the Green Apartments. One user described the company as \"crooked\" and criticized them for a lack of support regarding utility setup, resulting in unexpected fees. Such an experience raises red flags about the property management\u2019s efficacy in providing necessary information and assistance to new tenants.</p><p>Another tenant mentioned disillusionment with the management, claiming that their lived experience was misrepresented. This sentiment suggests a disconnect between what the management communicates and the actual living conditions, leading to dissatisfaction among occupants, which is further compounded by a lack of effective communication from the management when faced with critical feedback.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The reviews for Village on the Green Apartments reveal some troubling patterns, primarily concerning lack of accountability and poor communication. One reviewer expected assistance with paperwork that never arrived, which led to unnecessary expenses and frustration. The management's response to such claims, indicating a possible oversight, doesn't instill confidence in their ability to handle tenant issues adequately.</p><p>Additionally, the absence of responses from management on serious complaints highlights a potential lack of accountability. When unresolved issues linger and communication remains one-sided, it creates an unsettling environment for tenants, calling into question the quality of service provided by the property management team in addressing grievances and fostering a positive living experience.</p></section>"
+  }
 }

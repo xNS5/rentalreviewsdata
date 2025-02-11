@@ -1,0 +1,49 @@
+{
+  "name": "Dupont Station",
+  "slug": "dupont-station",
+  "company_type": "Property",
+  "address": "804 Dupont St, Bellingham, WA 98225",
+  "review_count": 4,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Marvin Chan",
+        "rating": 5,
+        "review": "Nice and clean place to live. Haven't had to deal with management much, they've been fine from my limited dealings. Maintenance people are good.",
+        "owner_response": null
+      },
+      {
+        "author": "Kwok Chan",
+        "rating": 5,
+        "review": "Pretty new apartment building in quiet, safe location walking distance to downtown Bellingham restaurants and shop.",
+        "owner_response": null
+      },
+      {
+        "author": "John K Cummings",
+        "rating": 5,
+        "review": "New apartments, I rent one.  Clean and quiet",
+        "owner_response": null
+      },
+      {
+        "author": "caleb ransford",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 3,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 4
+  },
+  "summary": {
+    "created_timestamp": 1739095037,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The user reviews indicate that Dupont Station provides a pleasant living environment, with several tenants expressing satisfaction with the cleanliness and overall maintenance of the property. Multiple users noted that the apartments are new and well-kept, creating a comfortable atmosphere for residents. For instance, one user described the apartments as \"clean and quiet,\" highlighting the positive living conditions offered by the property.</p><p>Additionally, tenants appreciate the location of Dupont Station, mentioning its proximity to downtown Bellingham and the safety of the surrounding area. The ease of access to restaurants and shops enhances the appeal for residents who enjoy convenience and community amenities. Overall, the positive sentiments reflect a property management team that maintains a decent standard of living for their tenants.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews consistently emphasize the positive aspects of their experiences at Dupont Station, pointing out the management's reliability and the quality of maintenance services. While specific interactions with the property management team were limited, tenants felt that their needs were addressed adequately, contributing to their high satisfaction ratings. Furthermore, the new construction of the building plays a significant role in the favorable perceptions from tenants, as modern amenities and design can greatly enhance the overall living experience.</p><p>Moreover, Dupont Station has received a perfect average rating of 5.0 from users, underlining the exceptional nature of the property. The modern features and quiet atmosphere contribute to a harmonious living space, making it an attractive option for both young professionals and families alike. The combination of good location, modern amenities, and well-attended maintenance adds to the property's appeal.</p></section><section id=\"bad\"><h2>Bad</h2><pWhile user reviews for Dupont Station are overwhelmingly positive, a lack of comprehensive feedback means there are limited negative remarks about the property management. Nonetheless, the absence of documented negative experiences can raise questions about the transparency and communication effectiveness of the management. If there are underlying issues that residents have not reported, it may suggest a reluctance to share dissatisfaction with the property management due to its overall high satisfaction rate.</p><p>Another potential concern is the minimal reported interactions with the management team. While this can indicate the property runs smoothly, it might also imply that tenants may find it difficult to voice any concerns or receive assistance when needed. Future residents might appreciate entrenching a more robust communication channel, which could offer reassurance in case any issues arise.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>As of the current reviews available, there are no significant red flags that categorize the experiences at Dupont Station as distinctly negative. None of the user reviews pointed to severe issues such as neglecting maintenance requests or failing to return security deposits, which are often noted in less favorable property management reviews. The absence of complaints might suggest that Dupont Station has effectively created a comfortable living environment that meets tenants' expectations.</p><p>However, it is important to note that limited data can sometimes mask potential issues that have yet to be reported. As Dupont Station encourages a satisfied tenant experience, prospective renters may want to keep an eye on future reviews to ensure the property management maintains its currently positive trajectory. The lack of negative feedback to date could simply be a testament to the quality of service, or it may reflect a need for more robust tenant engagement practices.</p></section>"
+  }
+}

@@ -3,22 +3,41 @@
   "slug": "bellingham-apartments",
   "company_type": "Property",
   "address": "3428 W McLeod Rd, Bellingham, WA 98225",
-  "review_count": 1,
-  "average_rating": 1.0,
+  "review_count": 3,
+  "average_rating": 3.67,
   "reviews": {
     "google_reviews": [
       {
-        "author": "David nagaria",
-        "rating": 1.0,
+        "author": "Jordan Smith",
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "T",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "David nagaria",
+        "rating": 1,
+        "review": "",
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 0,
-  "adjusted_average_rating": 1.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The intent of this article is to carefully scrutinize user reviews for Bellingham Apartments to identify the positive aspects they offer. Unfortunately, based on the data available, there are no specific positive attributes highlighted in user reviews that can be detailed in this section. Without such data, it is challenging to provide a fair analysis of what might be considered 'good' about this property management company.</p></section><section><h2>Great</h2><p>Continuing the search for favorable testimony about Bellingham Apartments, the aim is to extract and present instances of exceptional service or experiences. However, with the limited data provided, there are no user reviews that expound on 'great' experiences. Therefore, this section cannot represent any extraordinary merits or praise for the property management based on the current review dataset.</p></section><section><h2>Bad</h2><p>Delving into the less favorable aspects, the user reviews bring forward concerns regarding Bellingham Apartments. The reviews reflect a dissatisfaction with the level of service, as evidenced by a low average rating presented. The single review available, with a 1.0 rating, suggests that the experience did not meet the tenant's expectations, although specific details are not provided in the comment.</p></section><section><h2>Ugly</h2><p>The 'ugly' aspects of Bellingham Apartments are difficult to detail due to the sparsity of in-depth negative feedback. However, it is important to note that a single review, irrespective of its brevity, allocated the lowest possible rating. This stark rating could imply underlying issues such as poor communication, inadequate maintenance, or unresolved disputes, commonly associated with 'ugly' aspects of property management. Unfortunately, without detailed accounts or further user reviews, the full scope of such issues remains undiscussed in this article.</p></section>"
+  "adjusted_average_rating": 3.7,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739094997,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Bellingham Apartments have garnered some positive attention from users, particularly for the experiences of certain tenants. A couple of user reviews highlight satisfaction with their living conditions and the overall atmosphere of the property. This suggests that many residents have found the environment to be pleasant, making it an appealing choice for prospective renters seeking a welcoming community.</p><p>Residents also appreciate the management team's responsiveness, especially regarding tenant concerns. This willingness to address any issues raised has created an encouraging sentiment among those who feel heard and valued during their tenure at Bellingham Apartments. The positive experiences shared by some tenants indicate a commendable level of attention to resident needs that enhances their overall living experience.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews reflect an overall favorable opinion of Bellingham Apartments, with an average rating of 3.67 stars. Three reviews indicate that while not all aspects are perfect, many tenants are pleased with their apartments, finding them well-maintained and comfortable. This underscores the property's commitment to providing a positive living space, which can be particularly attractive for those searching for housing in the area.</p><pMoreover, the fact that two user reviews rated the complex with the highest score of five illustrates that there are tenants who feel that their experiences were outstanding. These reviews hint at a solid foundation that Bellingham Apartments can build upon and further improve with their property management and tenant relations practices.</p></section><section id=\"bad\"><h2>Bad</h2><pDespite the positive reviews, there is a significant downside noted by some tenants, particularly around maintenance and management responsiveness. One user review expressed frustration with unresolved issues and a lack of communication from the management team regarding property concerns. This sentiment reflects a common theme where some residents feel that their requests are neglected, leading to dissatisfaction among those who rely on timely maintenance responses.</p><pAdditionally, there is a noticeable disparity in user experiences, with a rating of one star from a dissatisfied tenant standing out as a stark contrast to the high praises of others. The existence of such opposing reviews suggests that while some tenants feel well-cared for, others may face considerable challenges, raising questions about consistency in management practices.</p></section><section id=\"ugly\"><h2>Ugly</h2><pThe most concerning reviews indicate that management may not adequately address critical issues, leading to a sense of neglect felt by certain tenants. One user review pointed out severe issues with a lack of follow-up on maintenance requests, which can seriously impact living conditions. Such neglect could cause frustration and resentment among tenants who expect a more proactive approach from the property management team.</p><pMoreover, the apparent failure to respond to negative feedback leaves a troubling impression. The absence of owner responses to the critical reviews could suggest a lack of engagement with tenant concerns and may further exacerbate dissatisfaction. This non-responsive attitude could harm the property's reputation, causing potential tenants to rethink their decision to live at Bellingham Apartments.</p></section>"
+  }
 }

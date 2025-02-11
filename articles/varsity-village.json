@@ -3,88 +3,101 @@
   "slug": "varsity-village",
   "company_type": "Property",
   "address": "2475 Donovan Ave, Bellingham, WA 98225",
-  "review_count": 12,
-  "average_rating": 3.08,
+  "review_count": 13,
+  "average_rating": 3.23,
   "reviews": {
     "google_reviews": [
       {
         "author": "Auston Olapas YouTube",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I don't remember being here so it must have not been that bad five stars",
-        "ownerResponse": null
-      },
-      {
-        "author": "Desirre J",
-        "rating": 1.0,
-        "review": "It's not really a good place",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Michael Johnson",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Great low income housing!  Long waitlist for singles..",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Desi J",
+        "rating": 1,
+        "review": "It's not really a good place",
+        "owner_response": null
       },
       {
         "author": "Derek Rider",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Nice quiet place to live.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Janine Richardson",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Run down",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Laura Mansanarez",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
       },
       {
         "author": "H K",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Shawna Sessions",
-        "rating": 2.0,
+        "rating": 2,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Christina Hampton",
-        "rating": 2.0,
+        "rating": 2,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jenna Kennedy",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "c",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Art Miller",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "cassie w",
-        "rating": 3.0,
+        "author": "Cassie W",
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 5,
   "adjusted_average_rating": 2.8,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>User reviews for Varsity Village have highlighted some positive aspects of living there. Some residents have found the location to be a quiet place to live, indicative of a peaceful living environment that many tenants may appreciate. Moreover, tenants appreciate the affordability of the property, with specific mentions of it being good low income housing, suggesting that it provides economic accommodation options for its residents.</p><p>The presence of long waitlists for singles as mentioned in a user review can also be interpreted as a sign of high demand, suggesting that the property might offer desirable living conditions in that context. This could point towards a generally positive perception amongst potential residents, which is further evidenced by some high-star ratings on user reviews, without detailed comments to support the ratings.</p></section><section><h2>Great</h2><p>There are sparse details in the user reviews that point towards any exemplary or 'great' experiences at Varsity Village. The mere mention of a tranquil environment could imply that some residents find exceptional value in the serenity of their surroundings at the property. However, without more detailed accounts of residents' experiences, it is challenging to elaborate on the 'great' elements of Varsity Village based on the reviews provided.</p><p>Furthermore, while some user reviews do not provide context to their high ratings, it can be inferred that those residents had a satisfactory stay, leading them to leave a five-star rating. It is worth noting, though, that the user reviews do not mention the property management directly, nor do they provide specific anecdotes that showcase the company going above and beyond typical expectations.</p></section><section><h2>Bad</h2><p>The user reviews have also shed light on some less favorable aspects of Varsity Village. One user has outright stated that \"It's not really a good place,\" although details as to why this sentiment was felt are not given. Similarly, another review briefly describes the property as \"run down,\" pointing towards potential neglect or underinvestment in the facilities or infrastructure of the property.</p><section><h2>Ugly</h2><p>The 'ugly' aspects of the property are not distinctly outlined in the user reviews, as the majority of the comments are brief and lack specificity. However, what can be inferred from the comment about the property being \"run down\" is that there may be significant room for improvement in terms of property maintenance and overall condition, which might severely impact the living experience of the tenants. Without more specific narratives from the residents, it is difficult to provide a fuller picture of any deeply concerning issues at Varsity Village.</p></section>"
+  "distribution": {
+    "1": 2,
+    "2": 2,
+    "3": 4,
+    "4": 1,
+    "5": 4
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095182,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Several user reviews highlight some positive aspects of Varsity Village. One reviewer mentioned that it was a nice, quiet place to live, suggesting a peaceful environment for residents. Another user praised it as a great low-income housing option, indicating that despite the long waitlist, it is considered a viable choice for affordable living arrangements.</p><p>Additionally, there are several positive ratings of five stars from users indicating that their overall experience wasn't negative. Even a reviewer who did not recall specific experiences rated it five stars, hinting at a sense of general satisfaction. While these reviews are limited, they reflect that for some residents, the property can meet their needs and expectations positively.</p></section><section id=\"great\"><h2>Great</h2><p>The property management at Varsity Village appears to have successfully created a community that some residents appreciate for its affordability. A review highlighted the existence of a long waitlist for singles, which suggests a high demand and perceived value for the property among tenants. This points to a positive reputation within the local housing market.</p><p>Moreover, the presence of multiple five-star reviews signifies that a subset of residents feels that the management and facilities may have exceeded their expectations. While the details are scarce, it's important to note that when residents have good experiences, they often lead to word-of-mouth recommendations which can enhance the community\u2019s overall standing.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews have also uncovered some significant criticisms regarding Varsity Village. Some residents described the property as run down, suggesting neglect or a lack of adequate maintenance from management. Additionally, a couple of users offered two-star ratings, which may point to dissatisfaction with specific aspects of their living experience or management practices.</p><p>It is worth noting that while there are a few commendations, the average rating of 3.23 indicates that there are indeed mixed feelings among the residents. Some users may have faced issues that managed to dampen their experience, leading them to share concerns that may not be fully addressed by the management.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The ugliest part of the user experience can be gleaned from the one-star reviews, where residents expressed their disappointment with the property. Comments like \u201cIt\u2019s not really a good place\u201d and \u201cRun down\u201d reflect a negative sentiment about the general condition of the facilities. This suggests that some tenants may be feeling the toll of poor property maintenance and management neglect.</p><p>Additionally, no responses were recorded from the property management in relation to the negative user reviews, which raises concerns about their engagement with tenant feedback. A lack of communication from management on these pressing issues can lead to further dissatisfaction and a degradation of community trust, indicating possible management shortcomings that could turn away potential future residents.</p></section>"
+  }
 }

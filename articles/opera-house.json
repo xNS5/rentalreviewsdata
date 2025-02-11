@@ -1,0 +1,31 @@
+{
+  "name": "Opera House",
+  "slug": "opera-house",
+  "company_type": "Property",
+  "address": "1305 Harris Ave Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 3.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Jessica S.",
+        "rating": 3,
+        "review": "Initially the apartment advertised as having ac as well as a pet grooming station.  It is advertised as a luxury facility but it does not even have a garbage disposal.  The building work is shotty with many things overlooked including windows that do not properly close nor does the lobby door. The heating is hit and miss with the guest bath requiring a space heater. There is no pantry and the commercial space for lease on the main floor floods.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 3.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739095111,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Opera House property management has instances of providing a satisfactory experience for its tenants. Some individuals appreciate the location and the overall aesthetic designed to present a luxury appeal. While there are elements of the facility that may meet expectations, such as the stylish look of the building, the management could benefit from enhancing its operational aspects to align with tenant needs.</p><p>Tenants who value artistic and elegant environments may find the Opera House appealing, as the premises have been marketed with these qualities. However, further tenant feedback is necessary to maintain and boost satisfaction, indicating a potential for improvement if management listens more closely to residents' concerns.</p></section><section id=\"great\"><h2>Great</h2><p>The reviews for Opera House have not showcased any particularly stellar feedback that would elevate this section. The overall narrative has highlighted certain expectations, like luxurious living amenities, which have not all been met. This reflects the need for management to strive for greatness by addressing the specific concerns expressed by tenants, such as enhancing the maintenance of listed amenities.</p></section><section id=\"bad\"><h2>Bad</h2><p>The single user review highlights several areas of concern related to the amenities provided at Opera House. The complex, while marketed as luxurious, has shortcomings, such as lacking essential features like a garbage disposal and poorly functioning windows. Furthermore, the heating system has been described as unreliable, suggesting that management has not adequately addressed necessary maintenance issues.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There are currently no reports that describe situations at Opera House as being truly \u201cugly.\u201d However, the concerns raised in user reviews suggest ongoing neglect of responsibilities, such as maintenance and communication. As feedback accumulates, it will be essential for management to engage proactively to avoid any further negative experiences that could tarnish tenant satisfaction even more.</p></section>"
+  }
+}

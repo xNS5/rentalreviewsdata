@@ -1,0 +1,49 @@
+{
+  "name": "GardenHome Apartments",
+  "slug": "gardenhome-apartments",
+  "company_type": "Property",
+  "address": "3716 Home Rd, Bellingham, WA 98225",
+  "review_count": 4,
+  "average_rating": 4.75,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Sharon Henley",
+        "rating": 4,
+        "review": "I lived at Garden Home Apartments for two years. They are very well maintained units. The grounds are well maintained and the staff is friendly and attentive. Best of all they are pet friendly. At the time I lived there they were one of only a couple complexes that allowed two dogs and larger dogs. The only real downfall is the location. They are situated right next to I-5. Even though they are well insulated you can hear the interstate traffic when the windows and doors are closed. Since there is no air conditioning it can be very uncomfortable in the summer. You have to open the windows and the sliding glass door. You can't hear the TV with the door open. Eventually it led to my finally moving.",
+        "owner_response": null
+      },
+      {
+        "author": "The Shiba Way",
+        "rating": 5,
+        "review": "Great price and pet friendly! A rare site compared to so many other options I've found. Nice area and the staff is super friendly and helpful. I would personally recommend to anyone who has pets and also needs affordable rent.",
+        "owner_response": null
+      },
+      {
+        "author": "Carlos Valdez",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Chris Taylor",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_average_rating": 4.5,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 3
+  },
+  "summary": {
+    "created_timestamp": 1739095046,
+    "text": "<section id=\"good\"><h2>Good</h2><p>GardenHome Apartments has received positive feedback for its overall maintenance and pet-friendly policies. Many users appreciate the well-maintained units and tidy grounds, highlighting the friendly and attentive staff. One tenant mentioned enjoying their two-year stay and found it commendable that the complex allowed larger dogs, appealing to pet owners looking for suitable accommodations.</p><p>Additionally, affordability seems to be a recurring theme in user reviews, with one reviewer expressing satisfaction with the competitive pricing along with the pet-friendly environment. The supportive staff is noted for being helpful and approachable, ensuring a pleasant living experience for tenants who prioritize a community atmosphere.</p></section><section id=\"great\"><h2>Great</h2><p>The property is often lauded for its affordability and location, with positive sentiments surrounding its vicinity and accessibility. Users have particularly enjoyed the combination of friendly service and reasonable rent, which sets GardenHome Apartments apart from other pet-friendly options in the area. One review emphasized that for those needing affordable rent while being able to keep pets, this complex stands out as a solid choice.</p><p>The community feeling and camaraderie fostered by the management seem to be appreciated by tenants, adding to an overall comfortable living environment. Positive interactions with the staff and the management's approachability contribute to a sense of belonging, especially for pet owners, which is a significant factor for many renters today.</p></section><section id=\"bad\"><h2>Bad</h2><pDespite many positive aspects, there are some criticisms regarding the location of GardenHome Apartments. Users have mentioned that the proximity to I-5 can be a nuisance, particularly citing noise issues that can disrupt daily life. One resident pointed out that while the units are well insulated, the sound of freeway traffic is still noticeable, especially when windows are open during the warmer months.</p><pAnother factor that could deter potential tenants involves the lack of air conditioning. Several tenants expressed concern that during the hot summer months, without air conditioning, the apartments can become uncomfortable, leading to issues with ventilation and overall living conditions. This limitation could impact user satisfaction during peak summer temperatures.</p></section><section id=\"ugly\"><h2>Ugly</h2><pWhile the user reviews for GardenHome Apartments appear largely positive, there are gaps in the feedback that highlight a potential lack of response from management regarding unresolved concerns. Notably, the absence of owner responses to tenant reviews might imply insufficient communication from the management side, which could be detrimental in addressing tenant issues or feedback.</p><pAdditionally, there is a scarcity of detailed reviews, particularly negative ones. This lack of transparency in user experiences might leave potential renters wondering about potential hidden issues. Overall, while the sentiment is largely positive, some critical communication points and tenant concerns remain to be addressed to boost community trust and satisfaction.</p></section>"
+  }
+}

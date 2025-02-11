@@ -9,28 +9,35 @@
     "google_reviews": [
       {
         "author": "Murasaki",
-        "rating": 1.0,
-        "review": "PTLA management appears to have an \"absent management\" business model. Locations do not appear to have full time staff, and I attempted at this property and others in the Bellingham area to get a walk through of various listed studio and ",
-        "ownerResponse": null
+        "rating": 1,
+        "review": "PTLA management appears to have an \"absent management\" business model. Locations do not appear to have full time staff, and I attempted at this property and others in the Bellingham area to get a walk through of various listed studio and one bedroom offerings. On the rare occasion when I got a human to answer the phone, it was always someone who didn't \"handle that particular property\" and \"I'll connect you with her voicemail.\" Left several voicemails, and in two weeks I never received a single callback.",
+        "owner_response": null
       },
       {
         "author": "Marcus Baloutine",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Current resident here; the building is pretty nice, though it has some spotty construction in places  one of the elevators makes some pretty concerning noises despite it being new. Management is pretty difficult to get a hold of, even in urgent situations.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Frank Wofford",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 2,
   "adjusted_average_rating": 2.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Despite the mixed reviews, it seems that the premises of Fairhaven Plaza Apartments, as one user review indicates, are generally appreciated for being nice. This suggests that the property itself may offer an appealing living space for tenants, which can be a testament to the property management's maintenance of the property itself. It's also worth pointing out that, amidst the limited feedback, a rating of 5.0 was given without additional commentary; this hints at least on one end of the spectrum, there's a complete satisfaction with the living experience at Fairhaven Plaza Apartments.</p></section><section><h2>Great</h2><p>While not explicitly detailed in the user reviews, a great rating possibly points to aspects of the property that might be significantly satisfying for some tenants, possibly related to the location, environment, or other qualitative aspects that are not captured within the written feedback. As of the data cut-off, there were no specific user reviews identifying instances where the company exceeded expectations, so this may imply that the strengths of the property are not necessarily in the elements that typically garner high praise, such as exceptional service or outstanding amenities.</p></section><section><h2>Bad</h2><p>One tenant has brought up issues with what they describe as the \"absent management\" business model of PTLA management. This user review suggests frustration with a lack of full-time staff presence and challenges in scheduling walk-throughs of the property. Such feedback underlines concerns with the accessibility of the management. Moreover, the same tenant's inability to view various listed studios highlights a communication barrier that could dissuade potential renters.</p><p>Adding to the concerns about management is another user's experience regarding the difficulty of reaching the management, even in situations they deemed urgent. This indicates a pattern of poor communication that may impact the overall living experience. When crucial issues arise, prompt and direct management response is expected, and failing to meet this can contribute to a less satisfactory environment for the tenants. The review also touches on the fact that some construction within the building appears substandard, which raises questions regarding the quality control and oversight provided by the property management.</picture></section><section><h2>Ugly</h2><p>The distressing sounds reported from one of the building's new elevators, as mentioned in a user review, represents a significant safety concern and stresses the potential negligence of the property management. This alone could be classified within the 'ugly' category. No evidence in the feedback suggests that these issues have been addressed, and the absence of a reply from the property management on these concerns in the user reviews adds to the impression of unresponsiveness or indifference to residents' safety and wellbeing.</p></section>"
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095040,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Some residents appreciate the overall quality of the Fairhaven Plaza Apartments. One user highlighted that the building itself is quite nice, suggesting that when it comes to the physical attributes of the property, there is a satisfactory level of comfort and aesthetic appeal. This indicates that the apartments have a solid foundation that could appeal to potential renters looking for a pleasant living environment.</p><p>Another positive aspect is the potential for a welcoming atmosphere. While some users have experienced challenges with management, the appreciation for the apartment's construction implies that other features such as community spaces or amenities may still resonate well with the residents, promoting a positive sense of community for those who live there.</p></section><section id=\"great\"><h2>Great</h2><p>While the overall reviews reflect mixed feelings about the property, there\u2019s a notable highlight from a user who gave a perfect score. This suggests that there are aspects of Fairhaven Plaza Apartments that exceed expectations for some tenants. It's possible that new or existing amenities or services, not specifically mentioned in the reviews, have improved resident satisfaction significantly.</p><p>Additionally, responsive management could enhance tenant experience; however, the absence of such experiences in user reviews indicates a potential opportunity for the management to improve communication. If the management can cultivate a more proactive engagement with residents, it could foster a more positive living experience for everyone.</p></section><section id=\"bad\"><h2>Bad</h2><p>The main issue highlighted by several users is the poor management communication at Fairhaven Plaza Apartments. One resident reported significant difficulty in reaching management, particularly when urgent matters arose, which is concerning when dealing with maintenance or safety issues. Such reported struggles can leave residents feeling unsupported and frustrated, particularly in an environment that should prioritize tenant needs.</p><p>Additionally, an experience was noted involving an apparent lack of available staff, which detracted from the overall service quality. Potential renters attempting to schedule visits faced issues due to either unresponsiveness or being directed to voicemail repeatedly, raising questions about the management's commitment to accessibility and service.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>A particularly stark concern is the perception of 'absent management,' which residents fear might lead to neglect of both tenant and property needs. One user felt so disconnected from management efforts that they expressed doubt about the reliability of the leasing team, given the level of difficulty encountered just to receive a basic response. Such sentiments can severely tarnish the reputation of a property management business if proactive measures aren\u2019t taken.</p><p>Moreover, the overall average rating of 3.0, coupled with an adjusted review count indicating lower resident satisfaction, reflects deeper issues at play. Poorly perceived service can lead to potential residents exercising caution when considering Fairhaven Plaza Apartments as their future home, which ultimately impacts occupancy rates and property management credibility.</p></section>"
+  }
 }

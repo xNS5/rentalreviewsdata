@@ -1,0 +1,881 @@
+{
+  "name": "Woodrose Apartments",
+  "slug": "woodrose-apartments",
+  "company_type": "Property",
+  "address": "3353 Racine St, Bellingham, WA 98226",
+  "review_count": 118,
+  "average_rating": 4.41,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "April Johnson",
+        "rating": 5,
+        "review": "Overall,  Woodrose Apartments are in a great location!  The beautiful complex is on the Bus Line!  There is easily access to restaurants,  grocery stores,  coffee shops,  Goodwill,  Home Goods and Lowe's.   Barley Village has a wonderful movie theater and there is great music and family entertainment on the Green during the summertime!",
+        "owner_response": {
+          "text": "Hi April, thank you for taking the time to leave a review for us and highlighting the benefits to living in this neighborhood!"
+        }
+      },
+      {
+        "author": "Jessie Bass",
+        "rating": 5,
+        "review": "I have had occasion to visit Woodrose Apartments. I was impressed with the facilities, both inside and out. The outer grounds were well maintained and the plants and shrubs were groomed and manicured. The inside was bright, welcoming, clean, well taken care of, and was laid out in understandable and well reasoned manner. The rooms were spacious and well designed. The staff I encountered were kind, courteous, helpful, and knowledgeable. Having been in several other apartment buildings in the area, I have no problem recommending Woodrose Apartments to anyone.",
+        "owner_response": {
+          "text": "Thank you Jessie for leaving us such a positive review! We are glad to hear that both our property and our staff have left such a great impression. We appreciate your recommendation!"
+        }
+      },
+      {
+        "author": "Angie Jones",
+        "rating": 5,
+        "review": "Ive visited Woodrose Apartments on several occasions over the last two years. The outside grounds are well kept. Upon entering the building, I always notice the floors, tables and mirrors are always clean and dust free (I can say the same about the upper floors also). The public restroom on the first floor is ALWAYS clean and well stocked. Ive been very impressed!",
+        "owner_response": {
+          "text": "Hi Angie Jones, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Jim Gossage",
+        "rating": 5,
+        "review": "Kelsi and Hunter reacted very quickly to my request.  Rewiring and adding LED bulbs to my kitchen light fixture was performed competently and efficiently.",
+        "owner_response": {
+          "text": "Hi, we love receiving a high rating, and appreciate your positive review! We hope you'll consider us again in the future!"
+        }
+      },
+      {
+        "author": "Karriem Dixon",
+        "rating": 5,
+        "review": "Im so thankful Kelsi Peterson, is doing such a great job with the Woodrose Apartments. She is very helpful, attentive and friendly. I visited with my sister there recently and it is comforting to know that my sister lives in a safe, clean, organized and friendly apartment complex.",
+        "owner_response": {
+          "text": "Our team strives to deliver an excellent experience, and are glad you found this to be the case during your visit. If you have further needs or questions, please reach out!"
+        }
+      },
+      {
+        "author": "Hal McFarland",
+        "rating": 5,
+        "review": "Kelsi and Adam (Management) are very friendly and accommodating. They strive to make Woodrose the standard by which senior housing is judged. This same approach is also true for the maintenance crew, who are very friendly, knowledgeable and always in time. Just a really nice community of residents, along with fun activities (card games, arts and crafts, bbq smoker and grills, etc.), monthly and weekly events (e.g., potlucks and a Friday Lunch provided by a classically trained chef who, along with his wife, operates a food pantry for the residents.) Really, living here has worked out so well for me. Thanks Woodrose!",
+        "owner_response": {
+          "text": "Hal, thank you for your kind review! Our team strives to deliver an excellent experience, and are glad you have found this to be the case. We will be sure to pass along your comments to the team here at Woodrose Senior Affordable Apartments!"
+        }
+      },
+      {
+        "author": "Karmen Haywood",
+        "rating": 5,
+        "review": "I would like to say Kelsi is doing a great job with keeping the building nice and clean and quiet. Its a beautiful apartment building. The people are very friendly. Its nice to know that my family member is living in a great environment!",
+        "owner_response": {
+          "text": "Hi Karmen Haywood, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Jordan Batterman",
+        "rating": 5,
+        "review": "I drive paratransit for WTA and I am at the Woodrose apartment complex often. I must commend Woodrose ownership and management for hiring professional and polite employees. They are always so helpful and congenial. The grounds are also impeccably maintained on a consistant basis.",
+        "owner_response": {
+          "text": "Our team strives to deliver an excellent experience, and are glad you found this to be the case during your visit. Thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Tanya Johnson",
+        "rating": 4,
+        "review": "As a person who drives to your very nice entry. It's nice to be able to drop off or pickup with ease. The outside of Woodrose Apartments are very clean and friendly.",
+        "owner_response": {
+          "text": "Hi Tanya Johnson, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Susan Cooper",
+        "rating": 5,
+        "review": "Management and maintenance here at Woodrose is exceptional! It's now the best that I have experienced in the 13 years I've lived here.",
+        "owner_response": {
+          "text": "Susan, thank you for your kind review! We're glad to hear we are delivering such a great experience. If there's anything further we can do for you, we are happy to help!"
+        }
+      },
+      {
+        "author": "Sharon Moore",
+        "rating": 5,
+        "review": "Woodrose was friendly and helpful in my move in process.\nThe people were nice and glad to answer any questions I had.",
+        "owner_response": {
+          "text": "Our team strives to deliver an excellent experience, and are glad you found this to be the case throughout your move in process. If you have further needs or questions, please reach out!"
+        }
+      },
+      {
+        "author": "Gman W",
+        "rating": 5,
+        "review": "Very well kept grounds well-lit looks like a safe place to live. Staff member Joyce was very helpful",
+        "owner_response": {
+          "text": "Hi Gman W, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "LaMonte Bell",
+        "rating": 5,
+        "review": "Im so happy to know my aunt Joyce is in a safe environment and happy!!",
+        "owner_response": {
+          "text": "Hi Lamonte, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy your aunt feels safe and happy here!"
+        }
+      },
+      {
+        "author": "Sherli Wheeler",
+        "rating": 5,
+        "review": "I am a caregiver who comes in and out of Woodrose regularly. I am impressed of the cleanliness of the entry, halls, bathrooms, and laundry. The staff are very friendly.",
+        "owner_response": {
+          "text": "Hi Sherli Wheeler, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Samuel Brickey",
+        "rating": 5,
+        "review": "Layout is good and easy to navigate. Clean common areas and very inviting. A pleasure to visit loved ones.",
+        "owner_response": {
+          "text": "Hi Samuel Brickey, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Erica",
+        "rating": 5,
+        "review": "This is one of the nicer cleaner buildings in town. The staff is clearly doing an excellent job!",
+        "owner_response": {
+          "text": "Hi Erica, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Michele Ringham",
+        "rating": 4,
+        "review": "I have only been a resident one week but already found the maintenance man, ole, very accommodating and responsive and knowledgeable. I look forward to this being a standard going forward.",
+        "owner_response": {
+          "text": "Hello, thank you for rating us; we appreciate you taking the time to do this! Please do not hesitate to reach out if there's more we can do for you!"
+        }
+      },
+      {
+        "author": "Lucy C",
+        "rating": 4,
+        "review": "Well maintained, clean, safe, pet friendly, plenty of parking, and beautiful courtyard. A nice community for independent seniors.\n\nThe staff is wonderful, courteous, caring, and promptly attend to maintenance issues. We have monthly scheduled events, such as potlucks, birthday celebrations, and variety of fun activities.\n\nPersonally, I would love to see newer appliances, instead of the outdated ones. Doing away with the existing carpet, which some of the units still have (including mine). Adding a washer and dryer in the apartments. Otherwise, I like living here.",
+        "owner_response": {
+          "text": "Hello Lucy, thank you for your kind review; we are happy to pass along your comments to the team here at Woodrose Senior Affordable Apartments and we're happy we could meet your expectations! \nRegards,\nThe Woodrose Team"
+        }
+      },
+      {
+        "author": "Lucy T",
+        "rating": 4,
+        "review": "Overall, its a good place to live. Its well maintained, nice library, clean, friendly and caring staff, safe, pet friendly community. Monthly potlucks, birthday celebrations, games, all held in the community rooms. Woodrose provides ample parking, nice courtyard, different size apartments, elevators, and friendly neighbors. I just wish, we had our own laundry units, within the apartments and a small balcony.",
+        "owner_response": {
+          "text": "Hello Lucy,\nthank you for taking the time to leave a nice review for us at Woodrose Senior Affordable Apartments. If there's anything we can do for you, we are happy to help!\nRegards,\nThe Woodrose Team"
+        }
+      },
+      {
+        "author": "Joyce Odom",
+        "rating": 5,
+        "review": "Visiting a friend and notice how pleasant, attractive outside and in side.,",
+        "owner_response": {
+          "text": "Hi Joyce Odom, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Jann E",
+        "rating": 5,
+        "review": "When i first toured this place i felt at home ,i knew right from the start this was where i wanted to live ,and i have been so right the ladies in the office  ,Kelsi And Karen  was always ready to answer any questions i may have  asked.   I called many other places and toured a few never had that welcome home feeling i get here ..   if your thinking of moving here  ,you wont be unhappy with your choice.  Janne",
+        "owner_response": {
+          "text": "Hello Janne,\nThank you for such a wonderful review! We're glad to hear we delivered such a great experience! If there's anything further we can do for you, we are happy to help!\nRegards,\n\nThe \nWoodrose Team :)"
+        }
+      },
+      {
+        "author": "Brian Hendrix",
+        "rating": 5,
+        "review": "Everyone I have met that lives here, is amazing, fun and enjoying life  ",
+        "owner_response": {
+          "text": "Hi Brian, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments!"
+        }
+      },
+      {
+        "author": "Marie Bass",
+        "rating": 5,
+        "review": "Great staff and clean facilities. Keep up the great job.",
+        "owner_response": {
+          "text": "Hi Marie Bass, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Joan Rayborn",
+        "rating": 1,
+        "review": "Came within 2 hours for  a non-emergency problem. My kitchen  sink was not draining. Ole fixed it immediately, and cleaned up the mess. He was so polite and friendly. It is great to have him as our caretaker. So glad he is back!",
+        "owner_response": null
+      },
+      {
+        "author": "solodin everett",
+        "rating": 5,
+        "review": "If you want to get it right, by all means please come spend the night!!!",
+        "owner_response": {
+          "text": "Thank you for the high star rating and the rhyme, we really appreciate you taking the time."
+        }
+      },
+      {
+        "author": "Patricia Patzer",
+        "rating": 5,
+        "review": "The maintenence crew is friendly, efficient  and fast.",
+        "owner_response": {
+          "text": "Thank you! We hope to be of service to you again!"
+        }
+      },
+      {
+        "author": "Amy Fitzwater",
+        "rating": 5,
+        "review": "Woodrose is always clean and staff are helpful and friendly.",
+        "owner_response": {
+          "text": "Hi Amy Fitzwater, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Teresa Gomez",
+        "rating": 5,
+        "review": "Woodrose is a wonderful place to live. Kelsey the office manager is Awesome, she is patient and kind with all her residents .",
+        "owner_response": {
+          "text": "Hi Teresa, thank you for your review! Our team strives to deliver an excellent experience, and are glad you found this to be the case during your visit. If you have further needs or questions, please reach out!"
+        }
+      },
+      {
+        "author": "Adrian Walsh",
+        "rating": 5,
+        "review": "I just love this place, great staff, location, highly recommended",
+        "owner_response": {
+          "text": "Hi Adrian, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Karen Price",
+        "rating": 5,
+        "review": "Great maintenance & property managers.\nFriendly & Professional.\nNo matter how busy they are or what day or time it is, even in emergency situations...",
+        "owner_response": {
+          "text": "Hi, thank so much for rating us! Our team takes pride in providing an excellent experience!"
+        }
+      },
+      {
+        "author": "Laurie Lusk",
+        "rating": 5,
+        "review": "I'm a caregiver for a client here. The apartments are nicely laid out. Easy access. But not enough handicapped parking available for residents or visitors.",
+        "owner_response": {
+          "text": "Hi Laurie, \nthank you for taking the time to leave a nice review for us at Woodrose Senior Affordable Apartments. \nRegards,\nThe Woodrose Team"
+        }
+      },
+      {
+        "author": "Jack Long",
+        "rating": 5,
+        "review": "Excellent, professionally completed in under one hour.",
+        "owner_response": {
+          "text": "We're glad to hear we delivered such a great experience. If there's anything further we can do for you, we are happy to help!"
+        }
+      },
+      {
+        "author": "Lee Gayle",
+        "rating": 5,
+        "review": "I have been in Woodrose now for 3 years plus and it has been a very comfortable experience. The staff whether it be office or maintenance are wonderful and do a very good job and are professional in their work ethic. ",
+        "owner_response": {
+          "text": "We would like to have a better understanding about your experience. Please reach out to us at your earliest convenience and we will do our best to resolve this with you.\nRegards,\nWoodrose Management"
+        }
+      },
+      {
+        "author": "Steven Perry",
+        "rating": 5,
+        "review": "UPDATE: Contacted the main office and they were able to work with my grandma to get her down from the top floor. Very kind and worked with us to quickly remedy the situation. Thank you very much Woodrose Apartments.\n\nGrandma lives here on the top floor it is so hot up there its unbearable! They said it will cost her to move to lower levels crazy!",
+        "owner_response": {
+          "text": "Hi Steven,\rThank you for the review! We absolutely agree that the top floors can get very warm during the Summer months in our communities without A/C. I can assure you it wasn't much better on the lower levels during this recent heat wave. There are some things we can do to assist. Please contact the office so that we can help remedy the situation. Thank you again!"
+        }
+      },
+      {
+        "author": "Betty richbaw",
+        "rating": 5,
+        "review": "Love it here staff is the best an so friendly an helpfull,",
+        "owner_response": {
+          "text": "We're glad to hear we deliver such a great experience. If there's anything further we can do for you, we are happy to help!"
+        }
+      },
+      {
+        "author": "Kateena Foster",
+        "rating": 5,
+        "review": "Very clean complex and kind staff.",
+        "owner_response": {
+          "text": "Hi Kateena, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "American Classic",
+        "rating": 3,
+        "review": "Great staff and maintenance and people so they get one big giant star each.  We have to think hard about what else to say about actually living here, the cost and the conditions..",
+        "owner_response": {
+          "text": "Hello, we are happy to see that your experience has been a positive one! The team here at Woodrose Senior Affordable Apartments is always available for any assistance that you may need. Thank you for taking the time to leave us your rating!"
+        }
+      },
+      {
+        "author": "Melissa Loomis",
+        "rating": 1,
+        "review": "New (owners?) made my grandma's last days very stressful and miserable; not what she needed with a heart condition for sure. She loved her friends in the building, some of the sweetest neighbors. She wasn't allowed to enjoy the small things in life after being there for years. \"No flower beds, no figurines, just beauty bark\" = remove everything you find joy in. Not the right thing to do to anyone, besides those who only have fewer moments to live them.",
+        "owner_response": null
+      },
+      {
+        "author": "Susan Haase",
+        "rating": 2,
+        "review": "The buildings are dingy inside.  No amenities of any kind.  The website is inaccurate--there is no fitness room.  We feel threatened by the homeless that come onto the property to steal and can smell the exhaust from Sunset during the evening commute.  Not a pleasant place to live.",
+        "owner_response": {
+          "text": "Thank you for reaching out regarding your concerns. Please direct any concerns regarding mask mandates to the office. We appreciate you taking the time to review!"
+        }
+      },
+      {
+        "author": "Hal McFarland",
+        "rating": 5,
+        "review": "2 years in and Im still happy with my choice. Fair Field management is very responsive to all maintenance issues, residents are like a very caring family, and its nice to live in a quiet community   ",
+        "owner_response": null
+      },
+      {
+        "author": "Cheryl Giles",
+        "rating": 4,
+        "review": "The apartments are nice, clean and generally well maintained. The staff are pleasant and professional.  I feel safe.  Enjoy the central location to local community and excellent bus access.",
+        "owner_response": {
+          "text": "Thank you for the wonderful review, Cheryl!"
+        }
+      },
+      {
+        "author": "Natalia Dunaevscaia",
+        "rating": 5,
+        "review": "Thank you so much to the staff at Woodrose! They always do a good job! I am so happy here.",
+        "owner_response": {
+          "text": "Hi Natalia,\n thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!  If you have further needs or questions, please reach out!\n\nRegards,\nThe Woodrose Team"
+        }
+      },
+      {
+        "author": "Toni Johnson",
+        "rating": 4,
+        "review": "Senior living with rent controlled private individual units and plenty of parking. Secured entry that is easy to use. Most people there are friendly and the place is well kept.",
+        "owner_response": null
+      },
+      {
+        "author": "Jennifer McDougall",
+        "rating": 5,
+        "review": "My maintenance problem was corrected in a couple of hours!",
+        "owner_response": {
+          "text": "Hello, thank you so much for the positive review! We will continue to do our best to earn it! Please don't hesitate to reach out to us if there's anything additional we can do for you!"
+        }
+      },
+      {
+        "author": "Adam Moore",
+        "rating": 5,
+        "review": "Place is very clean.",
+        "owner_response": {
+          "text": "Hi Adam Moore, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Suzanne Magnuson",
+        "rating": 4,
+        "review": "Not happy with losing Internet & TV. The cost will be so much higher for the same service. And do we get anything in return for removing this service? And the mention of the 'Senior' option, that's only for people on MEDICAID.",
+        "owner_response": {
+          "text": "Thank you for reviewing our community! Our residents are able to be set up services in their own name so that they can better manage their packages and pricing. Please contact the office if you have any questions or we can better serve your needs!"
+        }
+      },
+      {
+        "author": "Mary Houdyshell",
+        "rating": 5,
+        "review": "After 65 years I know what it's like to have people care about you.\nI absolutely love this place and the people that run it.",
+        "owner_response": {
+          "text": "Hello Mary, thank you for your kind review; we are happy to pass along your comments to the team here at Woodrose Senior Affordable Apartments!\nRegards,\nThe Woodrose Team"
+        }
+      },
+      {
+        "author": "Alice King",
+        "rating": 5,
+        "review": "Prompt, fast, friendly service.  Repairs always done to satisfaction.  Thank you for such a good maintenance man.",
+        "owner_response": null
+      },
+      {
+        "author": "Abraham Kang",
+        "rating": 5,
+        "review": "Haven't  been there but liked the photo descriptions of the apartment  complex;\nopen spaces and nearby shopping look good.",
+        "owner_response": null
+      },
+      {
+        "author": "Leon Charbonneau",
+        "rating": 5,
+        "review": "The workers were quick, clean,. thorough and courteous.",
+        "owner_response": {
+          "text": "Hello Leon,\nWe're glad to hear we delivered such a great experience. If there's anything further we can do for you, we are happy to help!\nRegards,\nThe Woodrose Team"
+        }
+      },
+      {
+        "author": "Ev Morin",
+        "rating": 3,
+        "review": "Update:  The bathroom sink in 206 has been replaced.  It was worth the wait.",
+        "owner_response": null
+      },
+      {
+        "author": "Lee Clyde",
+        "rating": 5,
+        "review": "Everything went very smoothly and was done very quickly. Maintenance person seemed very competent.",
+        "owner_response": null
+      },
+      {
+        "author": "Richard Morgan",
+        "rating": 5,
+        "review": "Excellent response to refrigerator failure.  Could not ask for better service.",
+        "owner_response": {
+          "text": "Hi Richard, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!\nThe Woodrose Team."
+        }
+      },
+      {
+        "author": "Betty Altieri",
+        "rating": 5,
+        "review": "This was my first choice due to location and I have been here for 10 years this November.",
+        "owner_response": {
+          "text": "Betty Altieri, \nthank you for your kind review; we are happy to pass along your comments to the team here at Woodrose Senior Affordable Apartments!"
+        }
+      },
+      {
+        "author": "Jeremiah Engels Ramsey",
+        "rating": 5,
+        "review": "very kind staff and residence, great location, plenty of parking",
+        "owner_response": null
+      },
+      {
+        "author": "Dani Capili",
+        "rating": 5,
+        "review": "Nice place",
+        "owner_response": {
+          "text": "Dani Capili, thank you for the high star rating!"
+        }
+      },
+      {
+        "author": "Alan Krum",
+        "rating": 3,
+        "review": "It is a SHAG property (Seattle centric corp mindset) I have lived here 3 years and want to move. Enough said.",
+        "owner_response": null
+      },
+      {
+        "author": "Jackson Bold",
+        "rating": 4,
+        "review": "Ok place\nJust not for me\nThank you\nJackson Bold  ",
+        "owner_response": {
+          "text": "Our team strives to deliver an excellent experience, and are glad you found this to be the case during your visit. If you have further needs or questions, please reach out! We're glad to hear we delivered such a great experience. If there's anything further we can do for you, we are happy to help! Thank you for letting our team know how we did! We look forward to helping again in the future."
+        }
+      },
+      {
+        "author": "Barbara LaMonica",
+        "rating": 3,
+        "review": "I cannot get anyone to answer their telephone I live in Bellingham several years ago and wanted more information",
+        "owner_response": {
+          "text": "Hello Barbara,\r\rMy apologies for not reaching out to you sooner! Our wonderful Leasing Consultant no longer works at Woodrose as of 2 weeks ago. We have 2 buildings here and she worked out of building 2. We have a new Leasing Consultant starting next week so we will have someone in the office full time shortly. I have forwarded the office phones from building 2 to my office in building 1. You can reach out to me at 360-738-8051. Please call and I can go over the questions you have.\r\rThank you!\r\rRegards,\rKaren :)"
+        }
+      },
+      {
+        "author": "Patrick Endsley",
+        "rating": 5,
+        "review": "I just investigated about possibly retiring here in the near future. Looks great at a reasonable rent.",
+        "owner_response": null
+      },
+      {
+        "author": "Claire Louise Simard",
+        "rating": 1,
+        "review": "Full of smokers they sent with, \" I don't smell anything.\"",
+        "owner_response": null
+      },
+      {
+        "author": "gloria mason",
+        "rating": 5,
+        "review": "Great place to live",
+        "owner_response": {
+          "text": "Hi Gloria Mason, thank you for taking the time to leave a review for us at Woodrose Senior Affordable Apartments. We're happy we could meet your expectations!"
+        }
+      },
+      {
+        "author": "Jack Boysen",
+        "rating": 5,
+        "review": "Takes very good care of my grandmother",
+        "owner_response": null
+      },
+      {
+        "author": "Cher Martin",
+        "rating": 4,
+        "review": "Nice place and staff are friendly and helpful",
+        "owner_response": null
+      },
+      {
+        "author": "Mandi Wheeler",
+        "rating": 4,
+        "review": "Very clean and friendly tenants",
+        "owner_response": null
+      },
+      {
+        "author": "Lofrenda Pallister",
+        "rating": 4,
+        "review": "Affordable housing apartments and nice.",
+        "owner_response": null
+      },
+      {
+        "author": "Jonn Walll",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Mary Thompson",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Bwalya Nyirenda",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Fabulous! We are so excited for all of those stars. Thank you!"
+        }
+      },
+      {
+        "author": "Patricia McGruder",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hello, we appreciate your positive rating! Please don't hesitate to give us a call if there's anything else we can do for you!"
+        }
+      },
+      {
+        "author": "Verlene Skinner",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi, we are delighted to see this rating! Have a great day!"
+        }
+      },
+      {
+        "author": "Maria Zerby",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "We strive to provide the best experience at Woodrose Senior Affordable Apartments. Please know that we greatly appreciate the time you took out of your day to post a positive review! Many thanks!"
+        }
+      },
+      {
+        "author": "Brian Rockwell",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": ":-) Wow! Thank you for rating us so many stars!"
+        }
+      },
+      {
+        "author": "Trevon Townsend",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi, we are delighted to see this rating! Have a great day!"
+        }
+      },
+      {
+        "author": "Casey Willard",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Big thanks for the fabulous review! Don't hesitate to reach out and let us know if there's anything we can do for you! Best regards."
+        }
+      },
+      {
+        "author": "SARA FINN",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi, please do not hesitate to reach out if you have any questions for us! Thanks for rating us so highly!"
+        }
+      },
+      {
+        "author": "NANCY BASS",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hello, thank you so much for the positive review! We will continue to do our best to earn it! Please don't hesitate to reach out to us if there's anything additional we can do for you!"
+        }
+      },
+      {
+        "author": "Mustafa Wadalhaj",
+        "rating": 4,
+        "review": "",
+        "owner_response": {
+          "text": "Hi, thank you so much for the lovely rating! Hope your day is fantastic!"
+        }
+      },
+      {
+        "author": "Morris Bass",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi, thanks for your great review of Woodrose Senior Affordable Apartments. If there is anything else we can do for you, please don't hesitate to let us know (833) 281-0491. Have a great one!"
+        }
+      },
+      {
+        "author": "Joyce Townsend",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hello, thank you for your awesome review! We love our residents, and we love seeing so many stars!"
+        }
+      },
+      {
+        "author": "David Scattum",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you so much for your 5-star review, David!"
+        }
+      },
+      {
+        "author": "Judi Johnson",
+        "rating": 3,
+        "review": "",
+        "owner_response": {
+          "text": "Hello Judi,\nThank you for your review. We would like to have a better understanding about your experience here at Woodrose.\nIf you have anything you would like to discuss, we would love to hear from you!\nRegards,\n\nThe \nWoodrose Team"
+        }
+      },
+      {
+        "author": "ms operator",
+        "rating": 1,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you for taking the time to leave us this review. Our staff takes pride in maintaining excellent business relations. If you'd like, please reach out to us at (833) 281-0491 so that we may restore your good faith in Woodrose Senior Affordable Apartments. We hope to hear from you."
+        }
+      },
+      {
+        "author": "Cher Martin",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi, thank you for your review! Please don't hesitate to let us know if there's anything additional that we can do for you!"
+        }
+      },
+      {
+        "author": "Brittany Evans",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hello, thank you for rating us so highly! It is fantastic to see a rating like this!"
+        }
+      },
+      {
+        "author": "Mary Hall",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hello, thank you for your awesome review! We love our residents, and we love seeing so many stars!"
+        }
+      },
+      {
+        "author": "Ady Bono",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hello, thanks for leaving us a great review! And, thanks again for choosing Woodrose Senior Affordable Apartments! Best regards!"
+        }
+      },
+      {
+        "author": "Ginger Walters",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "At Woodrose Senior Affordable Apartments, we sincerely value our residents and your review! Thanks for such a positive rating!"
+        }
+      },
+      {
+        "author": "Judith Owens-Lancaster",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi, thanks for the all of the stars! Please don't hesitate to reach out to us if you need any further assistance."
+        }
+      },
+      {
+        "author": "Denise Dunlap",
+        "rating": 3,
+        "review": "",
+        "owner_response": {
+          "text": "Denise,\n\nThank you for taking the time to give us a review. Unfortunately I am unable to see what the review is regarding so I will reach out to you.\nRegards,\nKaren"
+        }
+      },
+      {
+        "author": "Judy Miller",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "E D Olson",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Judy Miller",
+        "rating": 4,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you for the amazing 4-star review! If there is anything we can improve on, please let us know."
+        }
+      },
+      {
+        "author": "Dana Schauer",
+        "rating": 4,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you for the 4-star review! If there is anything we can do better in the future, please let us know."
+        }
+      },
+      {
+        "author": "Joel Hernandez",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Danny Lewis",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Lance E Vanderyacht",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Andrea Osborne",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "ShadowGammaDraco YinYang",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Daniel Lewis",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Sunshine and Meatloaf",
+        "rating": 2,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Nathan Mattly",
+        "rating": 2,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Chakras United",
+        "rating": 2,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Gerent G",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Ernest Hinds",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Shaun Dickison",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Dolores Kozera",
+        "rating": 3,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Julia Parcels",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Carolyn M. Gnyp",
+        "rating": 3,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Tonya Jackson",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Kevin Lang",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Brooke Lootens",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Stephen Adenau",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Sherry Zeilstra",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "bunna nuth",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Kylek",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Rhiannon Townley",
+        "rating": 3,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "paulthkoo",
+        "rating": 3,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 66,
+  "adjusted_average_rating": 4.48,
+  "distribution": {
+    "1": 4,
+    "2": 4,
+    "3": 10,
+    "4": 22,
+    "5": 78
+  },
+  "summary": {
+    "created_timestamp": 1739095209,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Woodrose Apartments has received numerous positive reviews from users who highlight the property's cleanliness, friendly staff, and excellent maintenance services. Residents appreciate the well-maintained grounds and the cleanliness of common areas, with many noting that the facility is always tidy and inviting. For instance, several reviews mention that the staff is courteous, helpful, and knowledgeable, contributing to an overall positive living experience.</p><p>Furthermore, the property management is praised for their responsiveness to maintenance requests. Users detail quick turnaround times for service issues, with maintenance staff being described as efficient and polite. This level of care and attention fosters a sense of community, making residents feel secure and comfortable in their living environment.</p></section><section id=\"great\"><h2>Great</h2><p>The apartment complex's location is another highlight, with many users expressing satisfaction with the accessibility to local amenities such as grocery stores, restaurants, and services. This convenient access enhances the overall quality of life for residents, making it a sought-after place to live. Moreover, positive comments about regular community events and activities indicate that Woodrose Apartments actively promotes social interaction among residents, further solidifying a welcoming atmosphere.</p><p>Overall, the management team is frequently credited for creating a supportive environment that prioritizes resident comfort and satisfaction. Their ongoing commitment to maintaining high standards is reflected in multiple reviews where users commend them for their kindness and attentiveness, fostering a community feel that many residents truly appreciate.</p></section><section id=\"bad\"><h2>Bad</h2><pWhile the overall sentiment is positive, some users have voiced concerns regarding the consistency of communication with the management team. A few residents reported difficulties in getting timely responses to inquiries or resolving issues. One user mentioned that getting someone on the telephone can be challenging, highlighting a gap in communication that affects prospective tenants and current residents alike.</p><p>Some reviews also mention issues with outdated appliances and common areas that could benefit from modernization. While the property is generally well-maintained, the lack of certain amenities and the presence of outdated features have been points of contention among residents looking for a more contemporary living experience. However, management has acknowledged some of these concerns and appears open to feedback.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Unfortunately, a few reviews reflect truly negative experiences, particularly regarding significant changes that have been made under new management. One former resident expressed distress about restrictions that negatively impacted the mental well-being of older tenants who cherished their personal touches in their living spaces, such as flowers or decorations. This feedback points to a possible disconnect between management decisions and the residents' emotional needs.</p><p>Additionally, concerns about safety and cleanliness outside the complex have been raised. Some residents have noted that the presence of homeless individuals near the property poses a threat and detracts from the overall living experience. This has left some residents feeling uneasy and has highlighted areas where improvements are necessary for ensuring a safe and pleasant community for everyone involved.</p></section>"
+  }
+}

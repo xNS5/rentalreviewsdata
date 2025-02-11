@@ -3,106 +3,119 @@
   "slug": "evergreen-ridge-apartments",
   "company_type": "Property",
   "address": "3451 Woburn St, Bellingham, WA 98226",
-  "review_count": 13,
-  "average_rating": 3.15,
+  "review_count": 14,
+  "average_rating": 3.29,
   "reviews": {
     "google_reviews": [
       {
         "author": "Andres Moreno",
-        "rating": 5.0,
+        "rating": 5,
         "review": "The place is excellent, very clean and organized, the attention is ideal, they are very considerate.\nThe manager John is very attentive he cares about making you feel welcome and solving any concerns that arise.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you Andres, we're very happy to have you here!"
         }
       },
       {
+        "author": "Wondering AshTree",
+        "rating": 5,
+        "review": "I have lived at Evergreen Ridge apartment for 5+ years and my experience here has been exceptionally pleasant! The management and maintenance are very accommodating and friendly. The apartments are well cared for, clean and inviting. Pet friendly and safe environment for family living. Thank you to all the staff for so many memorable years at Evergreen Ridge apartments! ",
+        "owner_response": null
+      },
+      {
         "author": "Autumn Archuletta",
-        "rating": 1.0,
-        "review": "If I could give a 0 I would. The new owners are supposedly a non profit and these are income restricted. So why, in a single increase, was my rent raised by $890!? There is mold everywhere from previous water damage that I wasnt told ",
-        "ownerResponse": null
-      },
-      {
-        "author": "johnathan Hawkins (Guy)",
-        "rating": 1.0,
-        "review": "As of right now They like to tow cars and they have no signs up on who tows the car. After there remodel they have no signs up. So just call the cops to find out where your car goes.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Karaoke Kitten",
-        "rating": 5.0,
-        "review": "I have lived at Evergreen Ridge apartment for 5+ years and my experience here has been exceptionally pleasant! The management and maintenance are very accommodating and friendly. The apartments are well cared for, clean and inviting. Pet ",
-        "ownerResponse": null
+        "rating": 1,
+        "review": "If I could give a 0 I would. The new owners are supposedly a non profit and these are income restricted. So why, in a single increase, was my rent raised by $890!? There is mold everywhere from previous water damage that I wasnt told about. They have garages you can rent. But the terms change based on if management likes you or not. They took mine back for complaints made about things management had told me were fine. When talking to other staff about the complaints I was told those werent the reasons and they wouldnt say more. I wasnt allowed to defend against bogus complaints. I had witnesses and proof but was told by management I dont want to hear it. Visitor parking is almost nonexistent. The few spots there are are only at the front of the complex and residents park their own cars there. Rules and policies are  enforced unfairly depending on whether management likes you or not. Save yourself the headache and find somewhere better. For the rent they charge it isnt worth it.",
+        "owner_response": null
       },
       {
         "author": "Helen Steele",
-        "rating": 5.0,
-        "review": "Great staff and a great location and within walking distance from two shopping centers, post office, restaurants and movie theatres.  The place has been relatively quiet, safe with a good sense of community. At this complex  a tenant may ",
-        "ownerResponse": {
+        "rating": 5,
+        "review": "Great staff and a great location and within walking distance from two shopping centers, post office, restaurants and movie theatres.  The place has been relatively quiet, safe with a good sense of community. At this complex  a tenant may enjoy a, quiet friendly environment, a clubhouse with a gym, laundry, tv room, sauna and heated swimming pool;.   The staff has been keeping the place clean and has been doing an excellent job balancing things during the recent lockdowns.  The apartments are spacious and well maintained.  I have never waited more than one day to have something fixed.  Could use some more blue recycling bins and more guest parking that the existing tenants do not monopolize.",
+        "owner_response": {
           "text": "Thank you Helen, we appreciate you!"
         }
       },
       {
         "author": "Pretty Betty",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I have lived here 5 plus years. The apartments are nice. It's clean and quiet. Our management/maintenance team are the best!! They are very helpful and always fix things right away. Both are very personable and kind.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for the kind words, we're happy to have you here!"
         }
       },
       {
         "author": "Debbie Perez",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I have lived here for 2 years, going on 3. I am happy with my apartment. Management is kind and friendly. Maintenance is taken care of in a timely manner. Grounds are kept up nicely. Any concerns are always dealt with. I would recommend Evergreen Ridge Apts..",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you Debbie! We appreciate you and hope to have you as a tenant for many more years!"
         }
       },
       {
         "author": "B",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Evergreen Ridge apartments is a wonderfully maintained property with a very professional and caring manager. The maintenance manager is available 24 hours a day and does great work in a timely manner. Location is perfect near Barkley and a few minutes to the freeway.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for your review!"
         }
       },
       {
-        "author": "Rose Flush Lawrence",
-        "rating": 1.0,
-        "review": "The managers at these apts. are very rude and was in a very bad mood when i inquired about them the lady and the gentleman think they have so much control with peoples lives I witnessed this one day when the manager was going to kick out a ",
-        "ownerResponse": null
+        "author": "johnathan Hawkins (Guy)",
+        "rating": 1,
+        "review": "As of right now They like to tow cars and they have no signs up on who tows the car. After there remodel they have no signs up. So just call the cops to find out where your car goes.",
+        "owner_response": null
       },
       {
-        "author": "Damascus Ventica",
-        "rating": 1.0,
-        "review": "LIES!\nJust so everyone knows, if you're looking for an honest genuine review, \"Google\" is not the place for that (nor is anywhere else on the internet). ",
-        "ownerResponse": null
+        "author": "Rose Flush Lawrence",
+        "rating": 1,
+        "review": "The managers at these apts. are very rude and was in a very bad mood when i inquired about them the lady and the gentleman think they have so much control with peoples lives I witnessed this one day when the manager was going to kick out a tenant over a tiny bill they owed and it was all a misunderstanding but was so fast to quickly put them on the streets with there children was a very sad picture I would recommend not to rent from them its not worth it & I am gonna report to the BBB",
+        "owner_response": null
+      },
+      {
+        "author": "Gabby Jacobsen",
+        "rating": 1,
+        "review": "Awful management! I signed a lease to live  here with a roommate I found on Craigslist. Within a month I was being physically  threatened  and it wasn't a safe environment  for me or my puppy. The management knew the situation, but still wouldn't let me cut my lease for another month to get away from my roomate. I had to leave for my safety and the move out fee  (After my roomate got evicted) came out to 1,500 that I have to pay for the month that I didn't even live  there, all they care about is taking your money! And Not to mention the extra charges due  to damage she did to the apartment after I left, and that she stole all my furniture. 2000 all together  for the one month living there in a sketchy  area. Definitely  not worth it highly recommend finding another place",
+        "owner_response": null
       }
     ],
     "yelp_reviews": [
       {
-        "author": "James P.",
-        "rating": 5,
-        "review": "This apartment complex is among the best, well managed small community  you can find today. I have lived in many apartment complex's in my time and this is by far the best. The management team was completely professional throughout the application process, yet still welcoming. We ran into a few snags with section 8 housing, but the team there took it in stride. At one point it was uncertain when and even if we were going to move in. Management continued to hold the apartment for us. The complex is also very strict on the rules and regulations of the lease agreement. This was a breath of fresh air for me because being lax leads to no one fallowing the rules. Lastly, the complex is in an ideal location and most areas, as well as the freeway are easily accessible. Renting here has been a pleasant experience thus far!",
-        "ownerResponse": null
-      },
-      {
         "author": "Michelle G.",
         "rating": 1,
         "review": "I rented here for six years , the worst place ever ! Don't let the new paint they put on the outside and new windows and cheap blinds make you think they are nice . This new management is the worst. My unit flooded due to an explosion's of the expansion tank. They have 3 days to fix it . By law they have to offer you either another unit or a hotel. They said it would take one week to repair . When I asked the manager what they were doing to fix it they said oh dry the carpets out and your good to go. This happened on the 4th of November 2023. It was still not repaired when I moved out. I gave my notice as I asked them to replace the very old already stretcher out carpet and they had just sent on the 28th of November someone to asses the drywall damage as it had over two inches of water through the entire apartment, it was all declaired damaged so still no repairs. The water was left off and they put up no safety warnings for the water in the unit to stay out or anything. they didn't ask if i had a place to go or if i needed a place they never followed up to let me know what was going on with the unit but had me pay rent for the entire month . I was in it for 4 days . they had heaters running and fans for 24/7 days a week. My power bill never past 100 a month was over 200.00 and they also sent me a notice to inform me my rent was short and that they had added late fees for a unit i couldn't even stay in. i found out from several other tenants that they expansion tanks had also flooded their unit which meant they had never serviced them or done any checks on any of the hot water heaters following several floods continued to let them happen instead of replacing the 1995 expansion tank they had in the units. these by law are to be inspected once a yr. This place is awful the manager wouldn't answer our calls she was screening them. if any others want to come forward about there unit flooding at evergreen ridge i am taking them to small claims court in the process of filing now and have a good strong case for rent deposit as we cleaned without water. also for the cost of the 1000 deposit on new unit and extra expenses for the month i coach surfed. my things were al in my unit ruined and i expect payment for this . I have been stressed out and treated terrible by the management. No notices given when many people entered my apartment and a 48 hour notice must be issued leaving my things exposed and vulnerable to anyone who walked in my unit. Find another place do not move here they are money hungry unkind and  cheap.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "James P.",
+        "rating": 5,
+        "review": "This apartment complex is among the best, well managed small community  you can find today. I have lived in many apartment complex's in my time and this is by far the best. The management team was completely professional throughout the application process, yet still welcoming. We ran into a few snags with section 8 housing, but the team there took it in stride. At one point it was uncertain when and even if we were going to move in. Management continued to hold the apartment for us. The complex is also very strict on the rules and regulations of the lease agreement. This was a breath of fresh air for me because being lax leads to no one fallowing the rules. Lastly, the complex is in an ideal location and most areas, as well as the freeway are easily accessible. Renting here has been a pleasant experience thus far!",
+        "owner_response": null
+      },
+      {
+        "author": "Lin H.",
+        "rating": 5,
+        "review": "Reliable, respectful, and they provide a safe environment. Maintenance done almost immediately. Great staff. Clean and crime free.",
+        "owner_response": null
       },
       {
         "author": "Melina Z.",
         "rating": 1,
         "review": "This apartment complex appears clean and maintained. DO NOT RENT FROM EVERGREEN RIDGE. My husband and I were model tenants--we kept our dog on his lead, cleaned up after him, and always paid rent on time, or within the 5-day window they state in the lease as being acceptable. When we moved out after two years, everything was cleaner than when we found it. We spent hours in there making sure. They not only revoked a free carpet cleaning they granted us after one year (citing that the staff that promised it didn't work there anymore, and that even if we used it, they'd still charge us $150 for a cleaning), but they said it took them four hours to clean it (there was absolutely nothing left to clean). When we applied at our new place, the woman Kelly at the front (so, so rude our whole two years) reported that we let our dog off leash, had smoke damage in the kitchen, and that we were late with the rent three times. Luckily our new property managers are wonderful, and saw it was unsubstantiated. \nThey also sued a neighboring resident whose dryer vent was clogged (outside maintenance's responsibility)--it caught fire, they lost everything, and ended up getting slapped with a $10,000 debt to this place. All of this, and yet they never did a thing about the drug dealers that lived everywhere throughout the complex. \nSave yourself a huge headache, don't rent from them, your rent skyrockets (went from $735 to $810/month for a 2-bed in 1-1/2 years), and they will do absolutely everything to withhold every cent of your deposit.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 13,
-  "adjusted_average_rating": 3.15,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Evergreen Ridge Apartments has won praise from residents for its cleanliness, organizational aspects, and the congeniality of its management staff. Numerous tenants have commended the property manager named John for his attentiveness and commitment to addressing residents' concerns, ensuring that tenants feel welcome throughout their stay. The managing team has replied to user reviews with gratitude, reflecting their proactive approach to tenant satisfaction.</p><p>In particular, long-term residents have expressed their contentment, citing experiences of living over five years in an environment they describe as exceptionally pleasant. Compliments have been extended toward the maintenance team, who are noted for their swift response to issues and their polite demeanor. Some testimonials have specifically stated immediate resolutions to maintenance problems, along with the staff's approachable and kind nature, marking high levels of satisfaction with the services provided.</p></section><section><h2>Great</h2><p>The apartments are not only appreciated for the responsive management but also for the location and the community vibe. Residents enjoy the proximity to local amenities such as shopping centers, post offices, restaurants, and movie theaters, underlining the convenience of living at Evergreen Ridge. Furthermore, the sense of community and safety reported by some tenants adds to the charm of the complex, offering a feeling of belonging and security.</p><p>The property has been described as well-maintained, with evidence of continuous care in both the aesthetics and functionality of the living spaces. Individuals have recommended Evergreen Ridge Apartments for their commendable upkeep of the grounds and a management style that creates a welcome atmosphere for tenants and visitors alike. These positive experiences suggest that many tenants find their residency at Evergreen Ridge to be of great value.</p></section><section><h2>Bad</h2><p>Despite the accolades, Evergreen Ridge Apartments has not been immune to criticism. A few user reviews have mentioned sudden and substantial rent increases that have caught tenants off-guard, challenging the notion of affordability and income restrictions purported by the apartment's management. Additionally, some tenants have reported the presence of mold stemming from earlier water damage, which appears to have been inadequarily addressed or disclosed by the management.</p><p>Furthermore, a particular concern raised by tenants involves vehicle towing from the property without proper signage or communication, leading to confusion and added inconvenience for residents. This illustrates a lack of coherency between the property's practices and tenant expectations, suggesting room for improvement in the area of clear and transparent policy enforcement.</p></section><section><h2>Ugly</h2><p>The most severe grievances go beyond regular management shortcomings, revealing deeply negative experiences that have significantly impacted residents' lives. Personal observations have depicted encounters with management as rude, potentially contributing to an unfriendly environment. Some users have recounted distressing experiences regarding the aftermath of water damage incidents, where the expected support and timely rectification by the property managers fell short, contributing to feelings of neglect and distress among the affected tenants.</p><p>In the ugliest scenarios, accusations of dishonest behavior towards tenants during their move-out process have emerged. Alleged unmerited charges, unfounded damage reports, and withholding of security deposits without satisfactory explanation represent severe trust breaches between the property management and tenants. Moreover, failure to maintain essential equipment such as expansion tanks, as suggested by one particular review, raises questions about preventive maintenance practices and legal compliance, highlighting a potential disregard for tenant safety and wellbeing.</p></section>"
+  "adjusted_review_count": 14,
+  "adjusted_average_rating": 3.29,
+  "distribution": {
+    "1": 6,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 8
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095038,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights several positive user reviews regarding Evergreen Ridge Apartments, showcasing their commitment to maintaining a clean and orderly environment. Many tenants appreciate the courteousness and attentiveness of the management and maintenance teams. One user praised the property for being well-maintained and clean, emphasizing the helpful demeanor of the staff who quickly address maintenance requests, often within a day.</p><p>Another recurring theme in the positive reviews is the excellent location of the apartments, which provide access to essential amenities like shopping centers and restaurants. A resident who has lived there for over five years noted the friendly atmosphere and sense of community in the complex. Overall, these reviews reflect a property that prioritizes tenant satisfaction through cleanliness and a responsive management team.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews commend Evergreen Ridge Apartments for its professional and friendly management team, underscoring a welcoming atmosphere for both potential and current residents. Many tenants expressed their satisfaction with the peaceful and safe living environment, as well as the quality of the facilities available, such as the clubhouse, gym, and pool. This sentiment is echoed in reviews emphasizing the management's responsiveness to concerns, indicating a well-coordinated effort in ensuring a pleasant living experience.</p><pAdditionally, several residents have noted the property's pet-friendly policy and overall accommodating nature. One tenant fondly recalled how the management handled application processes, working through potential issues seamlessly. The continuous praise for the staff's dedication to creating a safe and clean community reflects a well-managed property that resonates positively with its residents.</p></section><section id=\"bad\"><h2>Bad</h2><pDespite the positive reviews, there are several concerning reports regarding maintenance and management practices at Evergreen Ridge Apartments. Some residents reported experiences involving prolonged maintenance issues and poor communication from the management team. One user detailed a troubling incident in which their unit experienced flooding, and instead of immediate assistance or alternatives, they received inadequate responses that left them feeling neglected and frustrated.</p><pFurthermore, complaints have surfaced about unfair enforcement of rules and inconsistency in management's treatment of tenants. Some former residents felt that their concerns were dismissed or handled with a lack of professionalism, leading to frustration and dissatisfaction. These mixed reviews highlight a notable disparity in tenant experience, suggesting that while some enjoy their time, others face significant challenges during their residency.</p></section><section id=\"ugly\"><h2>Ugly</h2><pThe stark contrast in experiences at Evergreen Ridge Apartments is evident through several negative user reviews that cite serious issues regarding management and overall tenant satisfaction. One former tenant shared a harrowing account of being threatened and unsafe due to their roommate, and expressed frustration over management's unwillingness to help. This tenant ultimately had to bear financial burdens and unfavorable conditions, despite being a model tenant prior to leaving.</p><pEven more alarmingly, several reviews indicate systemic problems, including unfair practices regarding security deposits, reported mishandling of maintenance issues, and a general lack of empathy from management. Others have described experiences where they felt blackmailed for payments or faced unjust penalties for issues beyond their control. The accumulation of these grievances paints a troubling picture of management practices at Evergreen Ridge Apartments, urging potential tenants to carefully consider their options.</p></section>"
+  }
 }

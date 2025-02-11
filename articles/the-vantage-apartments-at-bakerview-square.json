@@ -1,0 +1,37 @@
+{
+  "name": "The Vantage Apartments at Bakerview Square",
+  "slug": "the-vantage-apartments-at-bakerview-square",
+  "company_type": "Property",
+  "address": "418 W Bakerview Rd, Bellingham, WA 98226",
+  "review_count": 2,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Cassidy Katharine",
+        "rating": 5,
+        "review": "I moved to this location in October of 2023, and loved it! The owner and Tonya, the property manager, are amazing people. Tonya is very responsive, and very efficient at what she does! You will not find a place that is more conveniently located to everything.",
+        "owner_response": null
+      },
+      {
+        "author": "McKenzie Que",
+        "rating": 5,
+        "review": "We have lived here for over 6 months and we love it! Tonya the manager has done an amazing job keeping everything running smoothly and is very responsive and helpful. So glad we picked this place.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
+  },
+  "summary": {
+    "created_timestamp": 1739095166,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Vantage Apartments at Bakerview Square has received glowing reviews from its residents, highlighting the positive aspects of living in this community. Several users noted the exceptional management, particularly praising the property manager, Tonya, for her responsiveness and efficiency. One tenant remarked on the owner's involvement and commitment, creating a welcoming environment that enhances the overall living experience.</p><p>Residents appreciate the strategic location of the apartments, which offer convenient access to shopping, dining, and other amenities. This aspect has been a recurring theme in user reviews, indicating that the location adds significant value to the property. Overall, the feedback reflects satisfaction with both the community atmosphere and the management's dedication to maintaining a positive living environment.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews emphasize the high level of satisfaction with the management at The Vantage Apartments. Tonya, the property manager, has been repeatedly commended for her proactive approach in addressing any concerns residents may have. This level of attention and care has resulted in a strong sense of community among the tenants.</p><pBeyond management, residents find that the property itself is well-maintained and conducive to comfortable living. With a focus on maintaining a smooth operation, the positive experiences shared by tenants indicate that the management team effectively fosters a pleasant living environment that meets their needs.</p></section><section id=\"bad\"><h2>Bad</h2><pDespite the overwhelmingly positive feedback, it's important to note that the limited number of reviews means there's a lack of critical perspectives regarding The Vantage Apartments. With only two reviews contributing to their perfect rating, any potential drawbacks or issues have not been adequately addressed in user feedback, leaving an incomplete picture of tenants' experiences.</p></section><section id=\"ugly\"><h2>Ugly</h2><pFortunately, there are no negative reviews or significant complaints recorded about The Vantage Apartments at Bakerview Square. The absence of unfortunate incidents or severe management issues reflects the overall satisfaction expressed by tenants, further solidifying the property's positive reputation in the rental market.</p></section>"
+  }
+}

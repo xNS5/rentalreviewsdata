@@ -1,0 +1,31 @@
+{
+  "name": "Premium Rentals LLC",
+  "slug": "premium-rentals-llc",
+  "company_type": "Company",
+  "address": "3212 Mt Baker Hwy, Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 1.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Macaroni Cheese",
+        "rating": 1,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 0,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739095121,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Unfortunately, the available user reviews for Premium Rentals LLC do not reflect any positive experiences. With only a single review submitted, there appears to be little to highlight in the \"Good\" section. The absence of positive feedback may indicate a lack of satisfied tenants or a lack of reviews that focus on favorable aspects of the company's service.</p></section><section id=\"great\"><h2>Great</h2><p>Similar to the \"Good\" section, the \"Great\" section lacks substantial content due to the limited nature of user reviews for Premium Rentals LLC. Given that the average rating is a stark 1.0, it suggests that tenants may have significant grievances without any notable praise. Therefore, any exemplary service examples or commendable actions by the management are absent in this context.</p></section><section id=\"bad\"><h2>Bad</h2><pThe single user review for Premium Rentals LLC carries a harsh rating of 1 star, indicating a highly negative experience. The reviewer did not provide detailed feedback, but the low rating raises concerns about potential issues like poor communication or negligence regarding maintenance requests. Such a rating typically signals broader systemic problems, and it\u2019s alarming that the company has had no responses to user feedback, which may further gladden the sentiments of tenants feeling unheard.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The \"Ugly\" section captures the bleak sentiment surrounding Premium Rentals LLC, especially considering the solitary review with a 1-star rating. This might suggest deeper issues within the company, possibly including the mishandling of security deposits or unresolved maintenance concerns. Without any owner responses to address the tenant's dissatisfaction, it seems there is a lack of accountability or willingness to improve the tenant experience, which can be detrimental to the company's reputation and future business.</p></section>"
+  }
+}

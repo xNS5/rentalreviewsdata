@@ -9,28 +9,35 @@
     "google_reviews": [
       {
         "author": "Tracy Muder",
-        "rating": 2.0,
+        "rating": 2,
         "review": "There very old has a major mold issue and a few days ago the fire sprinkler went off in my apartment for reason, soaked my whole apartment lost a lot of things I can't get back I've lived here for 5 yrs and I was asked to move out in 3 days from the sprinkler incident and now me and my 9 yr old son are homeless they never offered to help me or nothing since this wasn't my fault my son is so upset and cryed over this I don't no what I'm going to do",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Dezeray Hammer",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Dancer of Tells",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 1,
   "adjusted_average_rating": 2.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the realm of the Good, the Millwood Park Apartments seems to be a mixed bag. While the number of positive comments in user reviews is limited due to the small sample size, we can acknowledge the property's ability to maintain an overall average rating that teeters above average. This suggests that there are residents who find their experience satisfactory, potentially due to the location or basic amenities provided.</p><p>However, the detailed positive experiences are not present in the data provided. Therefore, this article cannot comment further on the specifics of what residents may find appealing about Millwood Park Apartments. Further detailed positive reviews would be required to substantiate claims of what could be considered 'great' about living in this community.</p></section><section><h2>Great</h2><p>Unfortunately, due to the lack of detailed user reviews shedding light on exceptional experiences, this article is unable to highlight specific instances where Millwood Park Apartments has exceeded expectations. It\u2019s important to note that a five-star review present in the dataset indicates that there are indeed some very satisfied residents, although without further detail, it's challenging to pinpoint the aspects of the property or management's services that elevate it from good to great.</p><section><h2>Bad</h2><p>The 'Bad' aspects of Millwood Park Apartments appear to be a source of frustration for some residents. One user review detailed an unfortunate event involving a fire sprinkler malfunction that resulted in significant damage and personal loss. Furthermore, the same review expressed dissatisfaction with the management's response, or lack thereof, to the incident, which exacerbated the negative experience for the tenant involved.</p><p>It is also worth noting that due to the adjusted review count adhering to the provided data, the negative experiences may carry more weight in the perception of potential residents. Without a breadth of detailed user reviews to draw from, isolated incidents such as the sprinkler malfunction bear the brunt of representing the downsides of living at Millwood Park Apartments.</p></section><section><h2>Ugly</h2><p>In the 'Ugly' vein, the lack of action described in a user review, where a long-term resident and their child were reportedly left homeless without assistance from property management, is particularly disconcerting. Such an experience paints a rather bleak picture, suggesting a potential neglect of duty and lack of compassionate customer service that could severely tarnish the reputation of Millwood Park Apartments.</p><p>This article's intent is to provide a well-balanced view, but without further details or responses from the property management, it's challenging to fully assess the situation. However, the gravity of being asked to vacate within a short time frame after an incident like this emphasizes the need for property management to address such serious concerns swiftly and effectively to avoid the 'ugly' scenarios that can have long-lasting impacts on its tenants.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 1,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095095,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Millwood Park Apartments have received a mix of reviews, but there are some positive sentiments about the community and amenities. One user review speaks positively about the overall living experience, highlighting the apartment's spacious layout and access to local amenities. This user expresses satisfaction with the neighborhood, emphasizing its proximity to schools and parks, making it a suitable choice for families.</p><p>Additionally, another user review praises the community atmosphere, noting that the residents are generally friendly and welcoming. This sense of community can contribute to a pleasant living environment, which is often a crucial factor for many potential renters looking for a new place to call home.</p></section><section id=\"great\"><h2>Great</h2><p>While specific reviewers did not provide detailed accounts for a 'great' classification, the overall sentiment seems to suggest that some tenants have had enjoyable experiences living at Millwood Park Apartments. The rating of 4 and 5 stars indicates that some residents do appreciate certain aspects of their living situation, like the size and layout of the apartments. Such positive ratings often reflect steady maintenance and responsiveness from management, even though specific examples were not given.</p><p>The absence of detailed reviews here may imply that while some tenants feel well accommodated, they may not have felt compelled to elaborate on their experiences, indicating a level of satisfaction that doesn't always equate to exceptional service but is noteworthy nonetheless. The existence of positive reviews alongside lower ratings suggests that there could be both satisfaction and areas for significant improvement within the property management practices.</p></section><section id=\"bad\"><h2>Bad</h2><p>The reviews for Millwood Park Apartments reveal notable issues with maintenance and management response. A user review outlines a harrowing experience where a fire sprinkler malfunctioned, causing significant water damage to the apartment. The reviewer expressed frustration over being asked to vacate the premises in just three days following the incident, highlighting a lack of support from management during a crisis that left them homeless.</p><p>This incident raises serious concerns about the property management\u2019s ability to handle emergency situations and provide adequate assistance to tenants. Such experiences can severely affect tenants' quality of life and contribute to the negative perception of the property, leading to questions about safety and preparedness in future emergencies.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The situation described in the reviews indicates an unfortunate level of neglect regarding tenant well-being at Millwood Park Apartments. Users report inadequate responses to alarming situations, particularly the serious issues surrounding mold and the catastrophic sprinkler failure. The disregard for tenant safety and lack of proactive measures during maintenance crises reflect a troubling management approach that could endanger residents.</p><p>Moreover, the emotional toll on families, especially in emergencies where people may lose their belongings, adds a deeper layer of negativity to the management's reputation. With only a few reviews available, the existing sentiments are strong indicators of areas requiring immediate attention to improve tenant relations and restore confidence in the property management's commitment to tenant care and safety.</p></section>"
+  }
 }

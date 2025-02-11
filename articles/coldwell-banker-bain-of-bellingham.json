@@ -1,48 +1,147 @@
 {
   "name": "Coldwell Banker Bain of Bellingham",
   "slug": "coldwell-banker-bain-of-bellingham",
-  "company_type": "Company",
-  "address": "3610 Meridian St Bellingham, WA 98225",
-  "review_count": 5,
-  "average_rating": 4.2,
+  "company_type": null,
+  "address": "3610 Meridian St, Bellingham, WA 98225",
+  "review_count": 20,
+  "average_rating": 4.85,
   "reviews": {
-    "yelp_reviews": [
+    "google_reviews": [
       {
-        "author": "Lori Jo S.",
+        "author": "Gina Fagan Kley",
         "rating": 5,
-        "review": "Professional and educated these brokers are top notch. Their managing broker strives for high integrity, knowledgeable brokers who take their clients needs and concerns seriously.",
-        "ownerResponse": null
+        "review": "Erika Smith is the most professional and kind realtor Ive ever met. She helped me to sell my beloved home of 26 years and purchase my new home while grieving the recent loss of my spouse. I was confused about many steps of the process, but she gently and kindly assisted me throughout with genuine care, spot on professional advice and understanding. She went above and beyond checking in with me and offering assistance with the complicated decisions of downsizing my home and preparing my home for sale. My family and I are very grateful to her for working so diligently to get the best prices for both my old and new homes. Erika is an excellent realtor who gracefully knows how to navigate the complex realty business while demonstrating care and respect for clients complicated needs. My family and I highly recommend Ms Erika Smith of Coldwell Banker Bain.",
+        "owner_response": null
       },
       {
-        "author": "Kayla D.",
+        "author": "A",
         "rating": 5,
-        "review": "Trish is a pleasure to work with! Her prompt answers to all our questions were very helpful as this was our first time selling. She is very knowledgeable, reliable, and responsive. Trish kept us informed through the whole process & made the it smooth, stress-free and easy for us. Our whole experience was wonderful! Thanks, Trish!",
-        "ownerResponse": null
+        "review": "Working with Max Kwiatkowski and Matia Schwartz was an absolute dream come true. As a first-time homebuyer, I was completely lost - but they held my hand through every step of the process with patience, kindness, and a level of expertise that put my mind at ease. No matter how many questions my family threw their way, Max and Matia were always there with clear, comforting answers.\n\nBut their support went far beyond just explaining the process. They were our fierce advocates, using their magic touch to secure us an unbeatable deal on our move-in ready home - a staggering $16,000 off the asking price, practically unheard of in Whatcom! At every turn, they had our backs, working tirelessly to ensure we got the absolute best possible outcome.\n\nThe impact of Max and Matia's help cannot be overstated. With their guidance and our lender's support, they literally changed our lives for the better. We wouldn't be in our new home without them. I can't recommend Max and Matia enough - if we ever move or sell in the future, I wouldn't dream of working with anyone else. From the bottom of my heart, thank you both for everything you do.",
+        "owner_response": null
       },
       {
-        "author": "Cindy W.",
+        "author": "Pete Gegenhuber",
         "rating": 5,
-        "review": "The only reason I was able to navigate - and survive - the process of buying a house in Bellingham and selling a house in Seattle (in that order) was having Anne Cantrell at my side. Her experience, coaching and advice helped me find the perfect house, on the market only three days, with 11 offers, all over asking price; the seller commented that I had the best agent. She also helped me, in a softening Seattle market, to price and show my house such that I received an offer within one week. Superlatives are insufficient to describe my gratitude and appreciation for Anne's expertise.",
-        "ownerResponse": null
+        "review": "Our realtor went way, way above and beyond his responsibilities to provide us with excellent first class service! He took care of all our needs and made it a real pleasure, even when things went sideways, and we were worried about the sale. He stepped up and took care of everything! I would recommend Chuck Occhigrosso to everyone to sell their home, in a heartbeat. He is truly a man of honor and great integrity!",
+        "owner_response": null
       },
       {
-        "author": "Sunny L.",
-        "rating": 5,
-        "review": "The agents at CB Bain are true professionals with the support of the entire CB Bain/Seal team from the Canadian border down to Portland.  They have cutting edge tools and education - their depth of knowledge is second to none.",
-        "ownerResponse": null
+        "author": "corey smith",
+        "rating": 2,
+        "review": "We worked with Ann Cantrell and Derek Buse to sell our home in Bellingham.  While they are both kind and friendly people, we were very disappointed with the sale overall.  In the initial listing, they made some errors, including the amount of rent charged for our lower unit and the type of heating in the home.\n\nWe were impressed by their marketing reach, but found that we had many questions along the way that went unanswered.  After receiving an offer, we found that Derek advised us to continue lowering the price again and again even in the final stages of negotiation.  He was less and less responsive the closer it got to closing; it almost seemed like the brokers were doing all the negotiating without our being included in the conversation.\n\nWhen they were courting our business, Derek and Ann gave the impression we might get close to our initial listing price, but ultimately we ended up receiving a significantly lower amount.  We wish we had gone with Monte Young, who helped us buy our home originally, because he always took the time to answer questions and he gave us a realistic idea of what to expect every step of the way.",
+        "owner_response": {
+          "text": "Hello Corey,\nIt sounds like you had an unfortunate experience; however, your experience wasnt with any of our agents and specifically not with Ann and Derek. We believe you may have the wrong company and wed like to respectfully request that you remove your review. We have reported your review to Google since it violates the following policies:\n\nSpam and fake content: Your content should reflect your genuine experience at the location and should not be posted just to manipulate a places ratings.\n\nOff-topic: Only post content based on your experience or questions about experiences at the specific location.\n\nGoogle states We dont allow individuals to use Google Maps to mislead others. This applies to deceptive content as well as false representations.\n\nIf you have any further questions, please feel free to call us at (360) 734-3420. We look forward to this review being removed and wish you all the best.\n\nDean Ulrich, Principal Managing Broker of Coldwell Banker Bain of Bellingham"
+        }
       },
       {
-        "author": "Carlton P.",
-        "rating": 1,
-        "review": "Do not venture into this place if you are from outside the area. They are conspiritors with Whatcom Land & Title in charging excessive fees, and misrepresenting properties they list.",
-        "ownerResponse": null
+        "author": "Tim B.",
+        "rating": 5,
+        "review": "I can't imagine a better realtor than Coldwell Banker's Jeff Braimes. He has that great combination of professionalism and sincere friendliness. His ethics through a myriad of selling and buying situations were impeccable. He dealt collaboratively with other realtors, banks, builders, inspectors, etc. He clearly has experience and exceptional skill in all of the challenging turns that occur in real estate transactions. He helped us find the right buyer at the right price for our home, and then spent endless hours exploring a very wide and constantly changing variety of buy options for us. We learned a lot and by the time the right home came up, we were prepared to move. We are moving in this week, and still Jeff stays in direct contact to help keep things moving smoothly. Couldn't be more pleased and grateful for having met Jeff.",
+        "owner_response": null
+      },
+      {
+        "author": "Herman Hamm",
+        "rating": 5,
+        "review": "My agent, Ms. Stephanie McSorley, is the best advocate I have ever had as my representative,  She has found property for me more than once, and - for a friend of mine- at least twice.  I have owned 12 parcels of land over the years, and I know what agents are like.  She is light-years above the average and/or median.   Proactive, aggressive in getting the fest deal financially, immediate follow-up on any unresolved issues, and committed to client satisfaction.  She is a thorough professional and a credit to BainCB.",
+        "owner_response": null
+      },
+      {
+        "author": "Pamela Banin",
+        "rating": 5,
+        "review": "Bryan Smith is the best possible real estate agent ever!! I would never have a home in Bellingham without Bryan's expertise and endless patience,during a confusing and challenging sequence of events.We still keep in touch if a question arises, and other family members are working with Bryan presently and are equally pleased. Thank you so much!!!\nPamela B.",
+        "owner_response": null
+      },
+      {
+        "author": "Eric McRory",
+        "rating": 5,
+        "review": "Charly Meyers did a fantastic job handling a real estate transaction between me and a personal friend.  My primary concern was that my personal relationship with the seller would be preserved and the utmost of respect would be provided for maintaining the integrity of this relationship.  Charly did a fantastic job earning the trust of the seller and at the same time protecting me as the buyer.  Great diplomacy!  I would recommend Charly to anyone.",
+        "owner_response": null
+      },
+      {
+        "author": "Eighteen Echo",
+        "rating": 5,
+        "review": "Have worked with Ed Hanley of and on for the last 15 years. Mr. Hanley is a very competent, friendly, and hard working realtor. So when we decide to downsize our home in retirement we will definitely hire him again.",
+        "owner_response": null
+      },
+      {
+        "author": "Denis McGuire",
+        "rating": 5,
+        "review": "Carrie Vike Hilleary's professionalism, care and attention, when we recently purchased a home in Bellingham, was outstanding. My family and I would certainly recommend Carrie to anyone looking for an agent to sell or purchase property.\nThank you Carrie\nDenis McGuire",
+        "owner_response": null
+      },
+      {
+        "author": "Mark Lawrence Dobbie",
+        "rating": 5,
+        "review": "It was an education and a joy to learn about the process of selling a house and to be helped through it. I can't imagine a happier experience (and the circumstances were by no means easy). Mr. Hanley's readiness to help and, at the same time, his discretion, were exemplary. Nothing can beat the human touch we experienced. Thank you.",
+        "owner_response": null
+      },
+      {
+        "author": "Sebrina Holmstrom",
+        "rating": 5,
+        "review": "Ken Harrison is the Best!He is considerate, kind ,Funny and would be my first choice!\nIn January my Sister lost her husband to heart disease. Two years prior she was a flight attendant for Alaska and at 50 yrs old had a severe stroke!\nWe needed the perfect home for her where she could be some what independent. Dawn also wanted to live on the water!\nConsidering we had to move her here from Boise we had some time.\nKen was patient with her,lots of issues ,probate , attorneys and Idaho laws!\nKen reached out to his fellow realtors and found Dawn the perfect condo!\nFirst floor ,1 step inside .\nAmazing view !\nAffordable!\nKen is and always will be very special to me and now is a shining star in my sisters eyes!\nThank you Ken Harrison!\n\nSebrina Holmstrom &Dawn Vermeulen",
+        "owner_response": null
+      },
+      {
+        "author": "Rick Wilson",
+        "rating": 5,
+        "review": "Greg Grant is a no-nonsense, get things done guy. His honesty and integrity are beyond reproach. I have had the opportunity to participate in several real estate transactions with him. I marvel at his expertise.",
+        "owner_response": null
+      },
+      {
+        "author": "Allan Chaloupka",
+        "rating": 5,
+        "review": "We liked that Ken Harrison kept with us for nearly four years until we found the house that was right for us. No matter how many times he took us to see properties, he was cheerful and always trying to help us find \"the one.\"",
+        "owner_response": null
+      },
+      {
+        "author": "Kayla Dalle",
+        "rating": 5,
+        "review": "Trish at CBB is amazing! In a crazy market like this you need an agent like Trish to get your dream house! We will always work with her in the future.",
+        "owner_response": null
+      },
+      {
+        "author": "Peter Venable",
+        "rating": 5,
+        "review": "Lori Jo Smith is such a great person to work with and she gets things done quickly when it matters.",
+        "owner_response": null
+      },
+      {
+        "author": "Linda Leum",
+        "rating": 5,
+        "review": "ken harrison was excellent in every way!",
+        "owner_response": null
+      },
+      {
+        "author": "Kenny Bahar",
+        "rating": 5,
+        "review": "Best brokerage in town!!!",
+        "owner_response": null
+      },
+      {
+        "author": "Julie Morris",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Margaret McMinn",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 5,
-  "adjusted_average_rating": 4.2,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Among the positive aspects of Coldwell Banker Bain of Bellingham, users have highlighted the high level of professionalism and education of their brokers. Users frequently cite the brokers' integrity and their keen attention to the needs and concerns of their clients, suggesting a personalized and considerate approach to property management. Additionally, the shared experiences paint a picture of agents who are seriously committed to their clients, ensuring that they have the necessary support and wisdom to navigate the real estate market.</p><p>Coldwell Banker Bain of Bellingham has also garnered acclaim for its responsive and reliable service, particularly during first-time sales processes. Specific examples from user reviews detail how agents, like Trish, have provided prompt and clear communication, efficiently answering all questions and simplifying what could otherwise be a complex transaction. Such testimonials of a stress-free and smooth experience with Coldwell Banker Bain indicate the company\u2019s capacity to exceed the expectations of their clientele.</p></section><section><h2>Great</h2><p>The excellence of Coldwell Banker Bain is further illustrated by user reviews detailing exceptional experiences, particularly during simultaneously navigating the buying and selling of properties. One user expressed tremendous gratitude for an agent's expertise, which significantly contributed to securing a highly sought-after property amongst numerous competing offers and achieving a swift successful sale in a less favorable market. The support offered by the agent throughout this process was praised as instrumental, underscoring the company's great ability to deliver results in challenging circumstances.</p><p>Moreover, Coldwell Banker Bain\u2019s agents are described as having a profound depth of knowledge, supported by advanced industry tools and education. From the Canadian border down to Portland, their expansive knowledge base and the comprehensive support of the CB Bain/Seal team is commended. This suggests that the firm's resources and education systems play a pivotal role in empowering their agents to provide outstanding service that is highly regarded by clients.</p></section><section><h2>Bad</h2><p>Despite the numerous positive user reviews, a singular account casts a shadow over Coldwell Banker Bain\u2019s reputation. A review by a client who reported dissatisfaction raises concerns about the potential drawbacks of working with the firm. The client's difficulty in dealing with the property management company, combined with allegations of excessive fees and misrepresentation of properties, reflects issues that prospective clients might find worrisome.</p></section><section><h2>Ugly</h2><p>The most distressing concerns arise from the suggestion within a user review that Coldwell Banker Bain might be part of a local operation engaging in less-than-favorable practices, particularly towards those from outside the Bellingham area. Such an accusation of conspiracy with other local entities to impose undue charges creates a stark contrast to the accolades seen in other reviews. This type of allegation, if true, could severely tarnish the company's image and suggests a potential area for improvement or clarification by the firm to offer peace of mind to future clients.</p></section>"
+  "adjusted_review_count": 18,
+  "adjusted_average_rating": 4.83,
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 19
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095023,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Coldwell Banker Bain of Bellingham has garnered positive feedback from a number of users who highlight the professionalism and dedication of their realtors. For example, one tenant praised an agent for her ability to guide them through the complexities of selling their home after a significant personal loss, demonstrating exceptional care and kindness throughout the process. This sentiment of proactive support can be seen across multiple reviews, where agents are recognized for being knowledgeable and going the extra mile to ensure clients feel comfortable and informed.</p><p>Another theme evident in the user reviews is the willingness of agents to provide continuous support even after the sale. Several reviewers noted that their agents maintained contact and provided assistance after transactions were completed, reassuring clients that they were there for them during the entire journey. Overall, this consistent professionalism and the courteous approach of the staff contribute greatly to the positive perception of Coldwell Banker Bain in the local community.</p></section><section id=\"great\"><h2>Great</h2><p>The experiences shared by users regarding their real estate transactions with Coldwell Banker Bain are overwhelmingly positive, particularly regarding the capabilities of individual agents. For instance, multiple users expressed immense gratitude toward their realtors for securing great deals, such as significantly below asking prices. One user specifically noted receiving $16,000 off their first home, which showcases the agents' dedication to not just facilitating sales but also advocating strongly for their clients' financial interests.</p><pMoreover, agents have been commended for their excellent communication. First-time homebuyers spoke highly of the patience exhibited by their agents, who guided them through each step of the often daunting process. This level of engagement and support plays a crucial role in fostering trust and satisfaction among clients, which has made Coldwell Banker Bain a reputable choice for real estate services in the area.</p></section><section id=\"bad\"><h2>Bad</h2><pWhile there are numerous commendations for Coldwell Banker Bain, some users have expressed dissatisfaction with aspects of their experiences. One user recounted a challenging encounter when they felt that important questions about the sale of their home went unanswered, indicating a perceived lack of responsiveness from the agents involved. Despite the friendly demeanor of the agents, this review raised concerns about errors in the initial listing and communication issues during negotiations.</p><pAdditionally, another reviewer reflected on their overall disappointment in the transaction process, feeling that they were excluded from negotiations and misled about pricing expectations. These moments of disconnect can certainly impact the overall perception of the company, highlighting the need for improvement in communication and engagement with clients throughout the sales process.</p></section><section id=\"ugly\"><h2>Ugly</h2><pA particularly troubling instance arose when a user reported their experience with an agent, leading the company to respond defensively. The company asserted that the dissatisfaction expressed in the review did not correlate with any of their agents' actions and requested that the review be retracted. This situation underscores a potential issue with customer service in handling grievances, as the reviewer felt invalidated and unsupported in their feedback.</p><pSuch defensiveness may cast a shadow over Coldwell Banker Bain\u2019s otherwise strong reputation, as it implies a reluctance to acknowledge and rectify problematic situations that clients may encounter. This reaction could deter potential clients who seek a property management company that is willing to address complaints transparently and constructively, highlighting the importance of consistent and empathetic communication even in challenging reviews.</p></section>"
+  }
 }

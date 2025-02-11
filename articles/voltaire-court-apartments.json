@@ -9,16 +9,23 @@
     "google_reviews": [
       {
         "author": "Bim S",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Really great apartments located in a central area! Very close to fairhaven, downtown bellingham, and i5. There's a trail right behind the apartment, so the views are great when everything is in bloom. PCR is currently the property management company and they are very kind, responsive, and do a great job.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 1,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the realm of satisfying residence experiences, Voltaire Court Apartments boasts a central location that has been positively highlighted in user reviews. The proximity to Fairhaven, downtown Bellingham, and the I-5 makes it a convenient choice for residents looking for ease of accessibility to local amenities. Additionally, the natural beauty of the trail behind the apartment, particularly when in bloom, enhances the living experience by offering picturesque views that residents can enjoy year-round.</p></section><section><h2>Great</h2><p>Exemplary property management is a standout feature for Voltaire Court Apartments, as reflected by user reviews. PCR, the managing company, receives praise for their kindness, responsiveness, and overall great job in managing the property. It's clear from the feedback that the management's approach to service significantly contributes to the positive living experience at Voltaire Court Apartments, setting a standard for others in the industry.</p></section><section><h2>Bad</h2><p>Given that there is only a single user review available, there are no recurring complaints or negative themes that emerge to reflect a \"bad\" aspect of Voltaire Court Apartments. With only positive comments regarding both the property and the management company, this section does not have any specific detail of a negative resident experience to report as of this article's creation.</p></section><section><h2>Ugly</h2><p>Similar to the \"Bad\" section, the lack of multiple reviews makes it difficult to form a comprehensive opinion on any \"ugly\" aspects of Voltaire Court Apartments. The user reviews do not contain references to neglected duties, unreturned security deposits, poor communication, or any severe issues that would warrant inclusion in this section. Therefore, at this time, the article does not feature any \"ugly\" elements related to the property management company or the apartment itself.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095191,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article will highlight the positive aspects of Voltaire Court Apartments as gathered from user reviews. One user praised the property for its excellent location, noting that it is centrally situated near Fairhaven, downtown Bellingham, and major access routes like I-5. Additionally, the delightful natural surroundings, including a scenic trail behind the apartment, were also mentioned as enhancing the living experience, particularly when nature is in bloom.</p><p>Moreover, the property management company, PCR, received commendations for their responsive and kind service. This suggests that tenants have a reliable point of contact for any needs or concerns. Overall, the high rating reflects a strong tenant satisfaction level, establishing a solid reputation for both the apartments themselves and their management.</p></section><section id=\"great\"><h2>Great</h2><p>The user review indicates that Voltaire Court Apartments enjoys a high level of tenant approval, particularly due to its desirable location and scenic views. Being close to vibrant neighborhoods and essential amenities adds tangible value to the rental experience. Such attributes are likely to make the apartments appealing for potential tenants seeking convenience and leisure activities.</p><p>Furthermore, the responsive and kind nature of the property management company contributes significantly to tenant happiness. High-quality management practices can lead to improved living standards in the community, and this sentiment seems to resonate well with current tenants, as evidenced by their positive feedback.</p></section><section id=\"bad\"><h2>Bad</h2><p>At this time, there are no significant negative experiences reported by users regarding Voltaire Court Apartments. The singular review available emphasizes the property's positive attributes, which could indicate a lack of serious issues. However, as more reviews accumulate over time, a broader perspective of tenant experiences may reveal areas that need improvement.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Currently, there are no \"ugly\" issues reported for Voltaire Court Apartments. The absence of negative reviews suggests that tenants have had a largely positive experience to date. Nonetheless, it is essential to remain informed as more residents share their experiences in the future, which could either reinforce the existing positive reviews or highlight potential challenges.</p></section>"
+  }
 }

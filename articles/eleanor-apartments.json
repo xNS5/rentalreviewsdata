@@ -9,28 +9,35 @@
     "google_reviews": [
       {
         "author": "Rita Johnson",
-        "rating": 4.0,
+        "rating": 4,
         "review": "I live in California but I'm looking to move closer to my son in Bellingham, WA. I need an low income senior apartment. This cite was very helpful but how do I get an application?",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Patty Dawn",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Apartments for seniors. Mercy Management difficult to deal with.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "JD Kjell Hjelle",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 2,
   "adjusted_average_rating": 3.5,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The appeal of Eleanor Apartments for individuals looking for senior housing can be noted from user reviews. Prospective tenants have indicated that the online resources provided by Eleanor Apartments are helpful and informative, especially for those not currently in the area who are considering moving closer to family members in Bellingham, WA. The accessibility of information online can be a crucial factor in the decision-making process for seniors looking for low-income options.</p></section><section><h2>Great</h16><p>It should be mentioned, perhaps as a testament to the quality of the living experience at Eleanor Apartments, that one of the user reviews gave a perfect rating without leaving any specific comments. This might suggest that the reviewer had an overwhelmingly positive experience that led to high satisfaction, which they felt did not require further elaboration or could simply represent general contentment with their living situation at Eleanor Apartments.</p></section><section><h2>Bad</h2><p>However, some reviews point to difficulties in dealing with the property management. A user review specifically mentions challenges when interacting with Mercy Management, the entity responsible for Eleanor Apartments. This suggests a possible area where the management company could improve, especially in terms of customer service and tenant relations. Further details on the type of difficulties encountered are not specified, but such feedback indicates that not all interactions with the management were smooth.</p></section><section><h2>Ugly</h2><p>Because the article's data are limited, with only a few reviews available for Eleanor Apartments, it is challenging to assess a trend or provide a comprehensive overview of the \"ugly\" aspects of the property management company. Without more detailed negative reviews or repeated complaints about specific issues such as neglecting maintenance concerns, not returning security deposits, poor communication, etc., it is not feasible to provide a thorough critique in this area based on the available user reviews.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 1,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095029,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Eleanor Apartments seem to have a solid reputation among their tenants, particularly in terms of their basic offerings. One user noted the apartments cater specifically to seniors, reflecting a focus on community needs, especially for those looking for low-income housing options. While the user did not provide extensive details, the acknowledgment of the property's relevance to senior citizens is a commendable aspect of its appeal.</p><p>Moreover, another positive note is the overall experience logged by a user who rated them five stars. Though the review lacked specifics, it indicates a level of satisfaction that can be important for prospective tenants considering the Eleanor Apartments. These points collectively suggest a certain level of consistency in providing appropriate accommodation for seniors.</p></section><section id=\"great\"><h2>Great</h2><p>Despite receiving a mixture of ratings, there are notable strengths associated with the Eleanor Apartments. For example, the property is specifically designed for senior living, catering to a demographic that values accessibility and convenience. This focused approach may result in a more considerate living environment tailored to the needs of elderly residents.</p><p>Additionally, while one user expressed difficulty in dealing with the management, another highlighted the usefulness of the site's resources for applying to low-income apartments. This mix suggests a property that is recognized for its community purpose, but perhaps lacks in certain management traits that could further enhance the experience for residents.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews indicate that interactions with management can sometimes be less than satisfactory. One reviewer specifically pointed out that dealing with the management company, described as Mercy Management, was a challenging experience. This suggests that tenants may face hurdles that could impact their overall living experience at Eleanor Apartments.</p><p>The presence of only three reviews overall, with one indicating a lot of difficulty, reflects a potential inconsistency in service quality and suggests room for improvement in management responsiveness and communication. It is crucial for management to address these concerns to foster a better relationship with tenants and elevate the overall standard of living.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Unfortunately, the property management's lack of responsiveness is a key issue that has surfaced through these user reviews. There appears to be no recorded responses from management to user feedback, which can signal a disregard for tenant concerns. When management fails to address issues like maintenance or tenant inquiries effectively, it can lead to tenant dissatisfaction and negative perceptions of the property.</p><p>Additionally, the experience of difficulty in dealing with the management could escalate as it may not only affect current tenant satisfaction but can also deter future applicants. A lack of open communication and ineffective management practices may create a sense of unease among residents, making it crucial for the management to reconsider their approach to tenant interaction.</p></section>"
+  }
 }

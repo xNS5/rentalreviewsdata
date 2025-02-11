@@ -3,22 +3,35 @@
   "slug": "stoneway-apartments",
   "company_type": "Property",
   "address": "245 32nd St, Bellingham, WA 98225",
-  "review_count": 1,
-  "average_rating": 1.0,
+  "review_count": 2,
+  "average_rating": 2.0,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Kenya Kay",
+        "rating": 3,
+        "review": "Great location except for the mail delivery issue however there's luckily a ups store right next to it so we just have a po box. Some of the apartments lack natural lighting and ventilation on the first floor but the 3rd floor is very enjoyable and let's lot of natural light in. Responsive management.",
+        "owner_response": null
+      },
+      {
         "author": "Jimmer Shine",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Great location and somewhat safe building. However, no package companies deliver here. It's a secured building with no mail room. Be aware.\nManagement and owners seem to be somewhat concerned about keeping the place comfortable, but turned out to be untrustworthy on multiple occasions. Would steer clear if possible.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 1,
-  "adjusted_average_rating": 1.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The Stoneway Apartments boast a favorable location that residents find convenient, contributing to a positive urban living experience. They are situated in an area that provides a sense of safety due to the building's secure nature. The impression of security and accessibility to various city amenities is a consistent theme in user reviews, highlighting the desirability of the location.</p><p>Although only one user review is present, it indicates that at first glance, the management and owners display a concern for the residents' comfort. This suggests some level of dedication to maintaining a pleasant living environment within the Stoneway Apartments community.</p></section><section><h2>Great</h2><p>It is important to note that due to limited data, with only one user review, the article does not have enough detailed user experiences to ascertain aspects of the Stoneway Apartments that could be considered 'great'. Therefore, this section will remain brief until more substantial feedback is gathered from the residents, which could provide a deeper insight into the strengths of the property management.</p></section><section><h2>Bad</h2><p>Despite the secure nature of the building, it appears to present challenges for residents as no package companies deliver to Stoneway Apartments. This lack of a dedicated mail room can be a significant inconvenience for residents who rely on postal and package services for personal or professional needs. The concern points to an oversight in building amenities that could impact the daily convenience of the tenants.</p></section><section><h2>Ugly</h2><p>According to the singular review available, the trustworthiness of the management and owners of Stoneway Apartments has been called into question. The reviewer expressed a sentiment of disappointment upon multiple occasions, suggesting there may be issues with transparency or reliability when it comes to engagement with the property management team. This is a crucial aspect for potential tenants to consider, as trust is fundamental to a healthy landlord-tenant relationship.</p></section>"
+  "adjusted_review_count": 2,
+  "adjusted_average_rating": 2.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095148,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Stoneway Apartments boast a great location that many users appreciate, particularly for its proximity to local amenities and safety features. Some reviews highlight the third-floor units as particularly enjoyable, benefiting from ample natural light and good ventilation, which improves the living experience in this complex. Additionally, users indicated that the management team is responsive, which can be a positive aspect when needing assistance or support.</p></section><section id=\"great\"><h2>Great</h2><p>Despite mixed reviews overall, the apartments do offer a balance between potential living space and location. Users have pointed out that having a nearby UPS store provides a solution to mail delivery issues, which some tenants deemed problematic due to the lack of a mailroom. This convenience can be a significant factor for individuals seeking a reliable package delivery option while residing at Stoneway Apartments.</p></section><section id=\"bad\"><h2>Bad</h2><pSeveral concerns have been voiced regarding the mail delivery situation, as multiple residents mentioned that package companies do not deliver directly to the complex. This has been frustrating for tenants, especially those reliant on regular deliveries. Furthermore, while management is noted to be responsive, there are question marks around their trustworthiness, as some residents felt their concerns were not fully addressed on multiple occasions.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Some reviews depict a less-than-ideal experience at Stoneway Apartments, particularly highlighting issues with management's reliability. One user expressed serious concerns about management being untrustworthy, indicating a possible pattern of neglect in dealing with tenant issues. Furthermore, the ambiance of the lower floors, which lack natural lighting, could detract from overall tenant satisfaction and comfort, leading to a more negative perception of the property.</p></section>"
+  }
 }

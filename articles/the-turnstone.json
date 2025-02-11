@@ -9,28 +9,35 @@
     "google_reviews": [
       {
         "author": "Isabella kaufman geballe",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Alyssa is super nice, and has been so patient through my move out and the only reason for this three stars, other than that I dont know.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "J W",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Dont park in the parking garage.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Elizabeth Tobison",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 2,
   "adjusted_average_rating": 2.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the realm of satisfactory experiences, The Turnstone property management has demonstrated some level of competence and customer service. One user review highlighted an encounter with a staff member named Alyssa, who was commended for her patience and kindness during the user's move-out process. This indiviual's experience serves as a testament to the fact that personal attention from staff can significantly impact a tenant's perspective, leaving them with a sense of being well-supported during transitional phases.</p><p>While specific praise was limited, the overall decent average rating suggests that there are tenants who find their experiences at The Turnstone acceptable. The willingness of staff like Alyssa to provide patient and courteous service might indicate that the management is capable of ensuring at least a baseline level of tenant satisfaction, although this does not yet reflect a broader consensus among all tenants.</p></section><section><h2>Great</h2><p>The reviews do not provide sufficient detail to ascertain whether The Turnstone's property management company has aspects that could be qualified as 'great.' However, the presence of a 5-star review, albeit lacking commentary, hints at the possibility that some tenants may have had particularly positive experiences. It suggests opportunities where the property management might have excelled, leading a tenant to rate them highly.</p><p>Without further details, this article can only surmise that hidden within the limited feedback might be instances where the company has indeed exceeded the expectations of some former tenants, thus earning itself a top rating. These instances, unfortunately, were not elaborated upon in the user reviews provided.</p></section><section><h2>Bad</h2><p>The less favorable aspects of The Turnstone's property management come to light through a review that starkly advises against parking in the garage, though it does not elaborate on the reasons why. This lack of context leaves room for speculation but indicates problems with the parking facilities or management policies related to parking which has diminished at least one tenant's view of the management company.</p><p>A critical issue noted is the lack of sufficient data to derive a comprehensive view of the common grievances among the tenants. With only a limited number of reviews, each carrying a mere snapshot of information, it becomes challenging to gauge the depth of any systemic issues. This dearth of detail hampers the ability to fully understand the shortcomings that may exist within The Turnstone's property management practices.</p></section><section><h2>Ugly</h2><p>There is currently no information available that would warrant the classification of any element associated with The Turnstone property management as 'ugly.' The data provided in the user reviews does not contain any egregious complaints, horror stories, or significant conflicts that would reveal a deeply troubling pattern. Consequently, this article cannot faithfully report on any extreme negative experiences without further concrete anecdotes or evidence.</p><section><p>Overall, the mixed reviews for The Turnstone with an adjusted average rating of 2.0 from 2 detailed reviews present a murky picture. While some tenants have had positive interactions with staff, others have found elements of the property management to be unsatisfactory, with notable reservations about available facilities like the parking garage. The absence of any detailed negative narratives or ongoing dialogues responding to reviews limits the ability to draw conclusive assessments about the company's overall performance or potential issues.</p></section>"
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095169,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights some positive sentiments expressed in user reviews about The Turnstone. One user mentioned the property manager, Alyssa, as being exceptionally nice and patient throughout their move-out process. Despite the overall experience not being rated very highly by this reviewer, this acknowledgment showcases instances of competent and empathetic management amidst challenges faced by tenants.</p><p>Another user provided a favorable rating without giving detailed feedback, suggesting that there may be some positive aspects of the property that others found commendable. The varied experiences, though limited, indicate that there is potential for a better overall living experience at The Turnstone under improved circumstances.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews regarding The Turnstone do not highlight many exceptional experiences that could be classified as \"great.\" However, the mention of Alyssa\u2019s patience implies that the management might have the capacity for understanding and engaging with tenants on a personal level, which can lead to enhanced tenant satisfaction if consistently applied. Building strong relationships between management and tenants can often result in improved living conditions.</p><p>While there was only one detailed review expressing positive sentiments, it does suggest that there is still room for growth in creating a more supportive and responsive environment. If the management can focus on the strengths evidenced in these limited interactions and build on them, they could very well enhance the overall reputation of The Turnstone.</p></section><section id=\"bad\"><h2>Bad</h2><p>The Turnstone also faces significant criticisms based on user reviews, particularly regarding the parking situation, as highlighted by a one-star review. This review warns other potential tenants to avoid the parking garage, raising concerns about the safety or accessibility of parking facilities. Such negative experiences can deter prospective renters who prioritize convenience and safety in their housing choices.</p><p>Additionally, the overall ratings suggest a tendency to overlook critical tenant issues or perform inadequately in tenant management responsibilities. With an average rating of 3.0, it seems that while some tenants had an adequate experience, others faced enough dissatisfaction to lower the overall perception of the property, indicating a need for the management team to take proactive steps in addressing concerns and improving the quality of living conditions.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>While the user reviews did not present explicit examples of severe grievances, the overall tone suggests an underlying issue with management responsiveness and tenant communication. The absence of detailed feedback from two of the three reviews leaves a concerning impression that there may be unaddressed issues or lack of engagement with tenant concerns. A failure to respond to negative feedback can often exacerbate dissatisfaction among current and potential tenants.</p><p>The mixed sentiments expressed in the reviews indicate there could be broader problems related to maintenance and tenant support. Without a consistent effort to improve the tenant experience or rectify existing concerns, these issues could considerably deteriorate the property\u2019s reputation, making it crucial for The Turnstone to address these aspects moving forward.</p></section>"
+  }
 }

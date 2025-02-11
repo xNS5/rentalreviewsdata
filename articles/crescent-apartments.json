@@ -3,86 +3,145 @@
   "slug": "crescent-apartments",
   "company_type": "Property",
   "address": "420 West Stuart Road, Bellingham, WA 98226",
-  "review_count": 10,
-  "average_rating": 2.0,
+  "review_count": 17,
+  "average_rating": 2.59,
   "reviews": {
     "google_reviews": [
       {
-        "author": "Davey Fromthenavy",
-        "rating": 1.0,
-        "review": "Update: Fleas on the 3rd floor as of April - one of the units has a warning on their door. Management did not give any notice to tenants that there were fleas in the building. ",
-        "ownerResponse": null
+        "author": "Terese Capogna Brown",
+        "rating": 4,
+        "review": "I have been living here for almost three years, since Crescent opened. I have an apartment facing east which looks out onto trees and protected green space for wildlife. This serene view has been the highpoint of living here. My neighbors on my floor are very nice and friendly and people in general are whom live in the building. What I like are the different age groups of people living here. The managers, Tim and Sarah, have been very helpful, kind and responsive. I got my dryer looked at the next day by a technician. The complex is clean and someone vacuums the rugs in the corridors every week and washes the lobby floor. The reason I give it four stars instead of five is that the soundproofing is not great here especially for people above one. If you have a noisy neighbor above you then it can be very difficult, but it's probably the same for any apartment building. I would recommend living on the fifth floor! We are close to the coop and the mall, Fred Meyers, Mud Bay, CVS, Walgreens, etc. Walking around the area is lovely, with trails, trees, mountains in view. I feel safe living here and in this area.",
+        "owner_response": null
       },
       {
-        "author": "Jamie M",
-        "rating": 1.0,
-        "review": "Zero Stars.\n\nManagement is non existent, heat is inadequate, door locks on building do not ",
-        "ownerResponse": null
+        "author": "Paige Vinton",
+        "rating": 3,
+        "review": "I lived in this apartment complex for a little over a year. The location was great, my apartment was very clean when I moved in, and the amenities in the building are nice. Up until recently, the on-site manager was hard to get ahold of. Now there are new on-site managers who have been responsive and helpful. When I lived there, there was a person who didnt leash their dog and I would voice my concerns, but the dog would continue to be off leash as I had a reactive dog and the complex requires dogs to be leashed. All of my animals ended up with fleas which most likely came from living in the complex as they dont have contact with other animals.",
+        "owner_response": {
+          "text": "We're always looking for ways to improve, and we appreciate your feedback. We're glad to hear that you enjoyed the community and apartment, and happy to hear that our current onsite team has been responsive to your needs. If there is anything else we can assist you with, please let us know! "
+        }
+      },
+      {
+        "author": "John Smith",
+        "rating": 1,
+        "review": "I would give this place no stars but unfortunately Google doesnt provide that option. This is by far the worst and I mean WORST place to live if youre living in Bellingham, WA. Management never answers their emails, voicemails, or phone calls. Maintenance requests take forever to be processed and fulfilled. The gym equipment is always faulty or broken. The hallways stink. The icing on the cake is you incur ridiculous hidden charges throughout the month and if those charges arent you incur a $5 a day late fee. I dont even know what these charges are for when I already have renters insurance. I would almost rather choose couch surfing or living in my vehicle than living at Crescent Apartments in Bellingham. Please, PLEASE do yourself a favor and save yourself the headache but more importantly the money thatd youd waste living here, find somewhere else to live because this place from top to bottom is absolutely horrible.",
+        "owner_response": {
+          "text": "Thank you for your review. We weren't able to find you in our system, but if you are a past resident with us, we would love the opportunity to assist you. We have a new management team onsite at the community, and they have made responsiveness to residents a top priority, responding to all emails and voicemails within one business day and processing maintenance requests as quickly as possible. We're also happy to report that the gym equipment is now fully operational. \n\nWe would be more than happy to explain any charges on your ledger or guide you through the process of unenrolling in our insurance program. Please give us a call or stop by our office, so that we can assist you further."
+        }
+      },
+      {
+        "author": "Ryan Walker",
+        "rating": 5,
+        "review": "Great experience!! Just moved into town from the central states to Bellingham for work. Kendall and Tim were great, made it really easy on the transition as I made the choice and filled out the application online. There portal to pay rent and work is very simple and easy to use. Apartment is great, very clean and simple. Very good and brand new appliances. Every question I had moving in was answered in a timely manner. Very good overall. 5 stars.i highly recommend.",
+        "owner_response": null
+      },
+      {
+        "author": "Andrea Coudray",
+        "rating": 5,
+        "review": "I have been here at Crescent for a year and a half.  Have been very happy here. Beautiful apartments and location. Love the walking trail.  Whitney was very helpful when moving in and now Tim is a great manager.",
+        "owner_response": {
+          "text": "Thanks for your feedback, Andrea! We're so happy to hear that you're enjoying the community and service so far. "
+        }
+      },
+      {
+        "author": "Davey Fromthenavy",
+        "rating": 1,
+        "review": "Update: Fleas on the 3rd floor as of April - one of the units has a warning on their door. Management did not give any notice to tenants that there were fleas in the building.\n\nWish I could give this place 0 stars. Building was nice when new last year but has quickly gone downhill. The grass outside was a foot deep for the entire summer which was just the start. Had poison hemlock growing around the property, fatal if your dog ingests this. Then one of the elevators broke and was down for months. The front handle of front building door was ripped clean off. When it snowed nothing was maintained around the building - sidewalks were like an ice rink. Power was out for the parking lot lighting for a solid two weeks. The entire building is usually a mess, someone keeps dragging leaves and dirt into the hallways, with cleaning people only showing up once a month if at all. Noisy and bothersome construction of the second phase apartment buildings next door which make working from home impossible without headphones - and the building shakes. Got notification that my lease is actually increasing when there are a ton of units available for 300$ less per month. Consistent with the theme of ignorant management. Will be looking elsewhere, not worth the price whatsoever - half the tenants have already moved out!",
+        "owner_response": null
+      },
+      {
+        "author": "Julie Keeffer",
+        "rating": 5,
+        "review": "We have been here over a year, always felt secure. Love the apartment and area. The manager, Tim, has been great .",
+        "owner_response": {
+          "text": "Thanks so much for your review! We love when our residents are happy!"
+        }
       },
       {
         "author": "Jordan Grant",
-        "rating": 3.0,
-        "review": "Lived here for a little over 2 months so far and no issues! Quiet and good location with trails. Will update if anything changes. ",
-        "ownerResponse": null
+        "rating": 3,
+        "review": "Lived here for a little over 2 months so far and no issues! Quiet and good location with trails. Will update if anything changes.\n\n*update 1/27: I have also experienced the same problems other reviewers have mentioned. The elevator are now fixed but it took far too long. The door is now \"lockable\" but remains open unless you force it closed.\n\nThe amenities in the apartment are nice and the location is good...so 2 stars? Customer service is important.\n\nNow the streetlights are out outside making it difficult when you come home in the evenings. The little inconveniences add up. Again, I'll update if anything changes.\n\n*update 6/19: Some concerns have been addressed but only when residents band together. I've noticed more effort recently but that may be due to people signing new leases. No major elevator or door issues for awhile. The theft in the bike storage was addressed. Upping my review to 3 stars for now. Hoping things continue to get better, especially since Crescent 2 is coming along.",
+        "owner_response": null
+      },
+      {
+        "author": "Jamie M",
+        "rating": 1,
+        "review": "Zero Stars.\n\nManagement is non existent, heat is inadequate, door locks on building do not work, loud and dusty construction outside, crime and homelessness surrounding the building all night, street lights in parking lot go out often leaving the parking lot dark, units are poorly constructed with no sound deadening between units, snow removal over winter never happened leaving multiple people from being able to leave, Kylie the leasing agent told us there was air conditioning while there is not, summer time temps on the 5th floor were over 90 degrees (inside) daily, elevators rarely both work, lawn was never cut, and more. The list goes on.\n\nDo not rent here, youll regret it. Most residents are breaking their lease and leaving early, leaving the building in shambles.",
+        "owner_response": null
       },
       {
         "author": "Helen kh",
-        "rating": 1.0,
-        "review": "management is a ghost. submitted a maintenance request got cancelled and was told to do it myself with no direction or special tools that require to fix outlets and kitchen lights. The front door hasnt been working for days and one of the ",
-        "ownerResponse": null
+        "rating": 1,
+        "review": "management is a ghost. submitted a maintenance request got cancelled and was told to do it myself with no direction or special tools that require to fix outlets and kitchen lights. The front door hasnt been working for days and one of the elevators has stopped working for months. The one that does work sounds like itll snap at any second and theres no ventilation on it so it always stinks like trash or wet dogs. Everything is built very tall and high and is impossible to reach and very inconvenient even as a tall person. None of my emails to Leasing ever get a reply. Also there doesnt appear to be any insulation in the apartment for heating so youre forced to rank up on your utilities bill. On top of overpriced rent. Also if you miss rent for whatever reason they display it by posting the past due on ur door, not even in a discreet envelop like most places with a little empathy. Found this out by walking past a neighbor. look elsewhere",
+        "owner_response": null
       },
       {
         "author": "Tracey Stich",
-        "rating": 1.0,
-        "review": "Tried to apply for an apartment and management was nonexistent, it took 3 weeks to get a reply. Tried calling the office several times and the phone just rings. After reading all the other bad reviews, I don't think it will be worth it to ",
-        "ownerResponse": {
+        "rating": 1,
+        "review": "Tried to apply for an apartment and management was nonexistent, it took 3 weeks to get a reply. Tried calling the office several times and the phone just rings. After reading all the other bad reviews, I don't think it will be worth it to rent from this property. It's a shame because the building is beautiful. It has so much potential to be a great place to live. New management is a must!",
+        "owner_response": {
           "text": "Thank you for your feedback, Tracey. From our records, we show that a member of our team has been in contact with you, but we will be happy to reach out again to make sure we address your concerns!"
         }
       },
       {
         "author": "Trevor M",
-        "rating": 1.0,
-        "review": "Spend your money elsewhere... We moved into this brand new building that had and still has more issues than they know what to do with. If you can even get a hold of someone in their office they'll just play dumb and act sorry. Maintenance ",
-        "ownerResponse": {
-          "text": "Thank you for your feedback, as it helps us make improvements for the community. We are sorry you have not been satisfied with your experience so far at Crescent, and we take your concerns seriously. Our maintenance team should have been in  More"
+        "rating": 1,
+        "review": "Spend your money elsewhere... We moved into this brand new building that had and still has more issues than they know what to do with. If you can even get a hold of someone in their office they'll just play dumb and act sorry. Maintenance issues do not get addressed. Take your money elsewhere. They were and are not willing to work with us when we had unexpected life-issues come up forcing us to move, they just care about getting their overpriced rent. Maintenance and snow removal are non existent, this past snow storm the sidewalks and parking spaces weren't touched. Sidewalks were not walkable, and the front door doesn't open so tenants were supposed to walk around the building on ice-covered sidewalks to get inside. One of the two elevators has been broken 6 of the 8 months we've lived here. Heating systems inside units aren't able to keep up, and they won't heat or fix the heat in the buildings hallways and common areas so our electric heat has to run 24/7. The units do not get warmer than 60 degrees. Leasing agent also lied upon move in claiming the units have A/C. They do not. My fault for not checking, I guess I should have known I was being lied to. Winter temps are no warmer than 60 inside while summer temps are 90+ on the 5th floor. I guess I had decent expectations for almost $2000 a month \n\nUPDATE 01/06/2023\nPTLA HAS NOT reached out like they insisted, instead someone got upset that the front door has been faulty for quite some time now, forcing everyone to walk around. The only handicapped door that is. And now someone ripped the door handle off. Id imagine this will take months for them to fix as well. Once again, do not rent here.\n\nUpdate 01/30/23\nThe streetlights and exterior walkway lights have been out for over a week now. You can hardly see anything in the parking lot or behind the building, must walk with a flashlight. Just a matter of time before all the local Bellingham tweekers that live in the woods next to the building come out and start smashing into car windows to steal stuff now that they dont have to worry about streetlights. Have to assume PTLA just hasnt paid the bill, theyre cheap (obviously).",
+        "owner_response": {
+          "text": "Thank you for your feedback, as it helps us make improvements for the community. We are sorry you have not been satisfied with your experience so far at Crescent, and we take your concerns seriously. Our maintenance team should have been in touch with you regarding the items you have requested service for, but we will make sure to follow up if there is anything else we can take care of for you. We hope we can improve your experience going forward. "
         }
       },
       {
         "author": "Kyle E",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Have had a great experience here.  Apartments are new and in good condition.  Good walking trails and dog areas.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks for your feedback! We're so glad to hear you enjoy the community. Let us know if there is ever anything we can do to improve your experience. "
         }
       },
       {
         "author": "Kevin M",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Same as everyone else...",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "allayna williams",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Allayna, thank you for your review. We are sorry to see that you have not been pleased with your experience, and a member of our team has reached out to you directly to see what we can do to help. "
         }
       },
       {
         "author": "Katy McAdams",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks for your review! "
+        }
+      },
+      {
+        "author": "Tseke Tsog",
+        "rating": 1,
+        "review": "",
+        "owner_response": {
+          "text": "Thanks for your feedback. A member of our team will be in touch with you soon to see how we can help improve your experience."
         }
       }
     ]
   },
-  "adjusted_review_count": 8,
-  "adjusted_average_rating": 1.75,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Despite the mixed reviews, Crescent Apartments offer some redeeming features that some tenants appreciate. For instance, there are tenants who have had a great experience, citing the new and well-maintained condition of the apartments. Additionally, the location is highlighted for its tranquility and proximity to good walking trails and dog areas, catering to outdoor enthusiasts and pet owners.</p><p>A few tenants have not encountered significant issues during their stay, suggesting that individual experiences can vary greatly. These residents seem satisfied with their living situation, which may indicate that the Crescent Apartments have the potential to provide a comfortable living environment when conditions are favorable.</p></section><section><h2>Great</h2><p>The property has responded to some user reviews, offering to reach out and address concerns raised by the tenants. This indicates an intention to engage with residents and potentially improve the services provided. Some reviews have also mentioned that the apartments themselves are new, which can be a draw for those seeking contemporary housing options.</p><p>The positive interactions with the property management, as indicated in their responses to reviews, show a level of customer service that is attentive to feedback. This responsiveness is crucial in creating a conducive living environment and fostering a good relationship between the tenants and management.</input></section><section><h2>Bad</h2><p>Unfortunately, the number of critical observations in user reviews cannot be overlooked when evaluating Crescent Apartments. Several tenants have expressed frustration over what they describe as the lack of presence and ineffectiveness of the management team. There have been instances where maintenance requests were canceled without resolution, leaving residents to fend for themselves without proper guidance or the necessary tools.</p><p>Security concerns have been raised due to malfunctioning door locks, which have reportedly gone unaddressed for extended periods. This strikes at the heart of tenant comfort and safety, two fundamental elements of property management that seem to be lacking attention according to the user reviews.</p></section><section><h2>Ugly</h2><p>The more alarming issues at Crescent Apartments appear to be chronic and systemic according to some tenants. There are reports of familiar problems being ignored, such as inadequate heating systems and a visible warning about flea infestation within the building that was not communicated to the tenants in a timely manner. It's also worth noting that issues within brand new buildings are especially disappointing to residents who had higher expectations for their living conditions.</p><postData></postData><p>Communication has also been cited as a significant problem, with some prospective tenants experiencing substantial delays in response times when trying to apply for an apartment. Such challenges in communication exacerbate the frustration felt by current and potential residents, casting a doubt on the efficiency and reliability of the property management team at Crescent Apartments.</p></section>"
+  "adjusted_review_count": 14,
+  "adjusted_average_rating": 2.64,
+  "distribution": {
+    "1": 9,
+    "2": 0,
+    "3": 2,
+    "4": 1,
+    "5": 5
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095022,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Crescent Apartments does have its share of positive experiences among residents. Many tenants appreciate the location, which is close to amenities such as stores and walking trails, providing a pleasant environment for outdoor activities. A user review highlighted the beautiful views from certain apartments, noting an enjoyable atmosphere fostered by friendly neighbors. This sense of community is echoed by multiple residents who mention the pleasant interactions they had with on-site managers, describing them as responsive and kind.</p><p>Other positive sentiments include the cleanliness of the apartments and the facility during move-in. One user praised new appliances and overall cleanliness, stating that minor issues were handled quickly by the maintenance staff. It's also noteworthy that several users have expressed their appreciation for the ongoing improvements under new management, suggesting a potential upward trend in resident satisfaction. This reflects a contrast in experience depending on when tenants lived there, hinting at some promise for future tenants.</p></section><section id=\"great\"><h2>Great</h2><pWhile reviews are generally mixed, there are instances where residents have had an exceptionally favorable experiences at Crescent Apartments. Some users described a seamless move-in process, aided by supportive management, including mentions of staff being particularly helpful. The overall design and condition of the apartments received high praise, with some residents enjoying the functionality of amenities like the online portal for rent payments, which was described as user-friendly.</p><pMoreover, one user highlighted timely responses to inquiries and issues, creating an impression of effective management when you get in touch. This suggests that while there are systemic issues present, there are dedicated staff focused on improving the tenant experience. These user reviews indicate that some tenants feel their voices were heard, and their issues were genuinely addressed when communicated, reinforcing a positive aspect of community engagement.</p></section><section id=\"bad\"><h2>Bad</h2><pDespite some positive notes, many user reviews reflect significant dissatisfaction with management responsiveness and maintenance issues. Numerous tenants reported severe delays in receiving help with maintenance requests, which left some feeling frustrated and neglected. This sentiment was echoed repeatedly, with one user describing a cancellation of their maintenance request without any follow-up or assistance. Similarly, tenants cited poor communication from management, with unanswered emails and phone calls that created an overall feeling of being ignored.</p><pThere are also concerns regarding living conditions, including cleanliness of common areas and functionality of amenities. Complaints noted that certain facilities, like the gym equipment, were often broken, and the cleanliness of the hallways seemed to be insufficient. These experiences paint a discouraging picture of the management's ability to maintain standards, with various residents feeling that their concerns were not effectively addressed.</p></section><section id=\"ugly\"><h2>Ugly</h2><pThe most troubling reviews revealed significant distress among residents at Crescent Apartments. A common theme was rampant management neglect, with reports of broken elevators, inadequate heating, and unaddressed maintenance that persisted for months. In dire instances, residents reported infestations, lack of snow removal, and dangerous conditions due to poor lighting around the property. One user expressed their frustration with the overall state of the building, asserting it had deteriorated since opening due to profound management failures.</p><pMoreover, the ongoing challenges with maintenance responses led many to consider breaking their leases or moving to other properties, citing that their living conditions were becoming untenable. Such overwhelming negativity suggests a systemic issue that has left a lasting impact on tenant experiences. Many users now warn potential renters to seek accommodations elsewhere, resulting in a significant reduction in tenant retention and overall dissatisfaction with the property management efforts.</p></section>"
+  }
 }

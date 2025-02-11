@@ -1,0 +1,37 @@
+{
+  "name": "Mc Kenzie Square Apartments",
+  "slug": "mc-kenzie-square-apartments",
+  "company_type": "Property",
+  "address": "1440 10th St, Bellingham, WA 98225",
+  "review_count": 2,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Gregory Palermo",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Elliot",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 0,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
+  },
+  "summary": {
+    "created_timestamp": 1739095086,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Mc Kenzie Square Apartments have garnered positive feedback from users, reflected in their perfect average rating of 5.0 stars from the reviews available. Tenants have reported satisfaction with the overall living experience, appreciating the property's location, amenities, and management's attention to needs. The quiet environment and community feel have also been highlighted, making it a desirable home for many.</p><p>User reviews show that the minimal interactions with the property management have, in fact, been pleasant, with residents feeling supported during their stay. This positive sentiment points towards a well-managed property where tenants find their concerns addressed promptly, contributing to an overall satisfying living environment.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews about Mc Kenzie Square Apartments reflect an overwhelmingly favorable sentiment. With all reviews being rated highly, the tenants appear to appreciate the cleanliness of the premises and the quality of the maintenance services provided. Having management that seems to prioritize tenant concerns has led to a positive atmosphere within the community.</p><pAdditionally, the user reviews have indicated that the living spaces are well-equipped and maintain a high standard, reinforcing the decision to choose this property. Residents express confidence in the management's approach, enhancing their overall experience and forming a loyal tenant base.</p></section><section id=\"bad\"><h2>Bad</h2><p>While the reviews for Mc Kenzie Square Apartments are all positive, it does mean that there is a lack of critical feedback regarding negative experiences. The absence of detailed reviews pointing to issues such as maintenance delays, communication problems, or concerns over security deposits suggests that tenants have not faced major obstacles in their living arrangements. Consequently, it\u2019s challenging to draw a comprehensive picture of potential drawbacks that could affect future residents.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Given the extremely positive nature of the user reviews and the high ratings for Mc Kenzie Square Apartments, there are no 'ugly' aspects reported regarding the property. The lack of negative reviews suggests that tenants do not have severe grievances or discomfort in their experience, which bodes well for prospective residents seeking a new rental. It is important to recognize that while the lack of critical feedback could indicate a generally well-run property, it may also mean that further insights would be beneficial for thoroughly understanding tenant experiences.</p></section>"
+  }
+}

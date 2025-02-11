@@ -9,106 +9,113 @@
     "google_reviews": [
       {
         "author": "Chris J",
-        "rating": 4.0,
+        "rating": 4,
         "review": "So far this place has been great. Close to town but only next to a church and fields. Tucked away a little so you dont have the city life feeling while being close to all the amenities.  Soundproofing needs work next to the stairs in the rooms and floors.  Wish there was a elevator for the people on the higher floors.  Stairwell is I closed which is nice.\nThere are security cameras, lock doors to enter building to access stairs and your apartment so thats nice.  Dog park and a playground for the kids.  I do wish people would use the playground but they seem to enjoy letting their dogs poop in the playground where kids play and leave it.\n\nAll in all I enjoy it.  Nice updated apartment.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Kaitlyn Monaghan",
-        "rating": 1.0,
-        "review": "Apex Property Management announced AFTER raising rent for the all tenants, that construction of a brand new apartment complex is happening on site. Tremezzo is supposed to be dog friendly, but the outside 'dog area' is not meant for any dogs that need actual exercise. And no areas to walk unless you want to get hit by passing cars. No storage in any of the apartments besides the kitchen pantry, and they claim that the apartments are sound proof, but I've gotten complaints for not doing anything excessive (just living a normal dog mom life). Wouldn't recommend...",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kiley Williams",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Very in your business property. Tenants spy on you, take photos of you inside your apartment to send to the management and fail to clean up after their dogs. The management constantly checks up on you and the entire time Ive lived here there has been some kind of construction happening underneath my building, pretty hard to sleep when you have a tight work schedule. They only warned us for one day of the construction, too. If youre looking for a place thats isolated and quiet and lets you be to yourself, this is NOT a place for you and your family/ friends.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Kaitlyn Monaghan",
+        "rating": 1,
+        "review": "Apex Property Management announced AFTER raising rent for the all tenants, that construction of a brand new apartment complex is happening on site. Tremezzo is supposed to be dog friendly, but the outside 'dog area' is not meant for any dogs that need actual exercise. And no areas to walk unless you want to get hit by passing cars. No storage in any of the apartments besides the kitchen pantry, and they claim that the apartments are sound proof, but I've gotten complaints for not doing anything excessive (just living a normal dog mom life). Wouldn't recommend...",
+        "owner_response": null
       },
       {
         "author": "Ma-Eyongerie Frambo",
-        "rating": 2.0,
+        "rating": 2,
         "review": "The property is beautiful, great floor plans, and very nice in unit, however definitely some features not clearly communicated by any property management company that runs this property (Apex previously, Landmark currently). Two things you should consider before moving here is the lack of an elevator. While it is common for older buildings to have no elevator, it would seem that a newer building (built in 2017) of this size (40 units a building) would at least have an elevator for ADA reasons as each flight consists of 15 stairs. Second, while the property does not offer any guest parking (which is fairly common), they also fail to communicate that there is also no street / neighborhood parking within a reasonable distance for a guest to visit any tenant. Mind you, this property has 3 buildings, around 120 units, and there are no options for guest to park, utterly making it extremely difficult to have visitors. While this may be intentional, I doubt that any tenant intends to live somewhere and have no visitors.\n\nSince signing my lease in February, the property has changed management companies, and after an extremely bumpy transition and lack of transparency its unfortunately left a somewhat bad taste in my mouth. However, I encourage you to please take these  things into consideration before you choose to make this your home.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Betty BJ Melons Finkbonner",
-        "rating": 3.0,
-        "review": "Seems like a good place.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kev",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Quiet nice location great floor plans",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Betty BJ Melons Finkbonner",
+        "rating": 3,
+        "review": "Seems like a good place.",
+        "owner_response": null
       },
       {
         "author": "Kennedy Chauvin",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Beautiful place to work on!!!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Milangela Diaz",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Sam Tolliver",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Karma Swislow",
-        "rating": 2.0,
+        "rating": 2,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jyllea Mulligan",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "travazf",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kendra McConnell",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jaxson Hall",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Trent Pulsipher",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Michael Neria",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 7,
   "adjusted_average_rating": 3.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The Tremezzo North Apartment Complex has received praise for its peaceful location, set close to town but away from the hustle, providing residents with a sense of privacy. Occupants appreciate the close proximity to amenities without the feeling of city life encroaching on them. The security features such as cameras and lock doors contribute to a sense of safety among the residents. Additionally, the availability of a dog park and a playground is seen as a positive aspect, although its maintenance and usage have been points of contention.</p><p>The apartments themselves are noted for their modern updates, which add to the overall appeal of the complex. The enclosed stairwell is also a nice touch, ensuring some level of privacy and protection from the elements. However, there have been suggestions that improvements could be made, particularly in regard to the soundproofing in areas adjacent to the staircases and between the floors.</p></section><section><h2>Great</h2><p>Some users have expressed high satisfaction with The Tremezzo North Apartment Complex, awarding it top ratings. These residents have highlighted the tranquility of the area, along with great floor plans that suit their lifestyles. The location is described as \"quiet\" and \"nice\", indicating that for many, the community environment is conducive to a pleasant residential experience. Additionally, the complex has been commended for its aesthetic appeal, with one user describing it as a \"beautiful place to work on.\"</p><p>For a specific group of tenants, the sense of community and the overall living conditions have been seamless, leading to a highly positive experience. Such comments reflect a segment of the resident population that is thoroughly satisfied with the complex, its amenities, and the lifestyle it affords them.</p></section><section><h2>Bad</h2><p>However, not all user reviews radiate positivity, with several issues causing concern. The lack of elevators has been a significant inconvenience, especially in a newer building like The Tremezzo North Apartment Complex, where one might expect modern amenities. This particularly affects those on higher floors and could pose accessibility challenges. Moreover, some residents feel misinformed about apartment features and the property management's communication has been deemed insufficient when it comes to changes that impact daily life, such as ongoing construction and its disruptions.</p><p>Complaints have also been raised about the dearth of apartment storage space, aside from the kitchen pantry. Furthermore, users feel deceived about the soundproofing claims, with some receiving complaints for normal-level noises. These issues contribute to a less-than-ideal living experience for certain tenants, who have voiced their dissatisfaction through the user reviews.</p></section><section><h2>Ugly</h2><p>On a more concerning note, some tenants have encountered distressing social dynamics within The Tremezzo North Apartment Complex. There have been reports of intrusive behavior from neighbors, such as spying and taking pictures to report to the management. The enforcement of community rules regarding pet cleanliness appears to be lacking, with instances of dogs defecating in areas designated for children. The lack of guest parking has also been a point of strong criticism, with the property not offering any viable solutions for visitors, effectively isolating residents from welcoming friends and family with ease. The combination of these factors has led to a rather unsettling living environment for some occupants of the complex.</p><p>While the property transitions between management companies, the aforementioned problems suggest a rocky road for both current and potential residents. The dissatisfaction expressed is not only about the amenities but also the overall living conditions and the management\u2019s oversight, which, according to user reviews, seem to fall short of expectations. This makes for a stark contrast to what the complex promises in terms of quality of life and community spirit.</p></section>"
+  "distribution": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 4,
+    "5": 7
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095166,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Tremezzo North Apartment Complex has garnered a fair amount of positive feedback from users, with many appreciating its quiet location and updated units. Situated away from the hustle and bustle of urban life but still close to essential amenities, residents find the complex conveniently positioned. Users have noted the presence of security features such as security cameras and locked entryways, contributing to a sense of safety and comfort.</p><p>The community encompasses pleasant outdoor areas, including a dog park and a children's playground, which are welcome additions for families and pet owners alike. Reviews also highlight the apartment's attractive floor plans and overall beauty, with several tenants expressing contentment with their living spaces. In this context, the property management company appears to effectively maintain the appearance and security of the premises, enhancing the overall tenant experience.</p></section><section id=\"great\"><h2>Great</h2><pAlthough there are some concerns regarding soundproofing and the lack of an elevator, many tenants still consider their experiences at Tremezzo more than satisfactory. Some users have echoed sentiments of appreciation for the ambiance and layout of their individual apartments, pointing to the well-thought-out designs and aesthetically pleasing finishes. Additionally, great feedback has been provided about the community feel, where residents generally seem friendly and engaged.</p><p>Notably, several reviews indicated that while the management occasionally checks up on tenants, this can enhance safety rather than feel invasive. Many users feel that the property is overall well-managed, and despite a couple of maintenance hiccups noted in relation to the soundproofing of floors and walls, the aesthetics and features of the apartments themselves tend to outweigh these concerns.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the positives, there are significant complaints regarding the management and communication practices at The Tremezzo. Some users have expressed frustration over construction work that was not adequately communicated, impacting their living comfort, particularly for those with demanding schedules. The management\u2019s response to issues raised, especially concerning soundproofing, has been criticized, with tenants feeling that their concerns remain unaddressed.</p><p>Moreover, the absence of adequate guest parking options has also become a point of contention amongst residents. This has led to difficulties in hosting visitors, adding to the overall dissatisfaction felt by some tenants who expected more from a complex of this size. There seems to be a lingering feeling that property management could enhance communication and address tenant needs more proactively to improve overall resident satisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The experiences shared by certain tenants have sketched a concerning picture of neighborly interactions within the complex, with reports of tenants spying on each other and interfering with private lives. This level of oversight from fellow residents has created an uncomfortable living environment for some, who desire more privacy and lack of interference in their day-to-day lives. Such experiences have led to calls for management to take more decisive action in fostering a respectful community culture.</p><p>Additionally, there have been accusations that management has failed to adequately address complaints related to common areas, such as the playground, where pet owners reportedly neglect to clean up after their dogs. This has raised safety and cleanliness concerns, further exacerbating the perception of mismanagement in maintaining the neighborhood. The combination of these issues has left some residents feeling disillusioned with their choice of living in The Tremezzo North Apartment Complex, casting shadows over an otherwise promising community.</p></section>"
+  }
 }

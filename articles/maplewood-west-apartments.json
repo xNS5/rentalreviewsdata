@@ -3,64 +3,83 @@
   "slug": "maplewood-west-apartments",
   "company_type": "Property",
   "address": "2836 W Maplewood Ave, Bellingham, WA 98225",
-  "review_count": 8,
-  "average_rating": 3.88,
+  "review_count": 10,
+  "average_rating": 3.3,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Megan",
+        "rating": 1,
+        "review": "Please do yourself a favor and choose any other building to live in because I dont care who you are, you deserve better. Here are just some of my highlights:\n\n- The apartment was filthy upon move-in. They didnt let us do a virtual walk through before signing the lease so I didnt know what we were getting into.\n- The dishwasher and freezer were both non-functioning for months and they refused to do anything about it.\n- They only issued one parking pass for between 2 people in the same unit. Parking was never available on the street because of all the people living out of their cars.\n- Neighbors leave trash outside their apartments and around the dumpsters so rats were a problem.\n- So many people have dogs and they dont pick up after them. I cannot emphasize enough how much dog poop is around each building. The whole place smells like dog poop.",
+        "owner_response": null
+      },
+      {
         "author": "Charlotte Jane",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Cute apartments with well tended yards, very nice inside, and fabulous neighborhood.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Steve",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Very well- managed and well maintained",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Tiger Woo",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Quiet neighborhood",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Nick Zender",
+        "rating": 2,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "SHANNON VAN DUISEN",
+        "rating": 3,
+        "review": "",
+        "owner_response": null
       },
       {
         "author": "Kelsey Florer",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Mandi Meyers",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Mike Linebrink",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Lenin Mendoza",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
-      },
-      {
-        "author": "Tina Stensland",
-        "rating": 4.0,
-        "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 3,
-  "adjusted_average_rating": 4.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Maplewood West Apartments seems to offer a pleasant living space according to user reviews. Descriptions of \"cute apartments with well-tended yards\" and a \"fabulous neighborhood\" suggest that residents appreciate the aesthetics and community feel of the property. Furthermore, the individual reviews reflect satisfaction with the interior conditions of the apartments. It seems that considerable effort has been made to maintain the apartments to a good standard, which has positively impacted the experience of the residents.</p><p>Additionally, the property\u2019s quiet surroundings have been specifically highlighted by a reviewer, indicating that Maplewood West Apartments could be an ideal home for those seeking a peaceful living environment. The quietness of the neighborhood appears to be a consistent theme in the reviews, suggesting that the property management is successful in ensuring a serene ambiance, which is a significant draw for potential tenants looking for a respite from the hustle and bustle of urban living.</p></section><section><h2>Great</h2><p>The aspect of property management at Maplewood West Apartments has been specifically lauded in user reviews. One review exclaims the property is \"very well-managed and well-maintained,\" suggesting that the management team is proactive and attentive to the needs of the property. Such feedback might infer a meticulous approach to maintenance and a commitment to addressing issues promptly, both of which are critical to the longevity of the property and the happiness of the tenants.</p><p>Unfortunately, based on the available user reviews, detailed insight into the exemplary practices of property management remains limited. There are no specific examples of exceptional service or management practices that elevate the experience of living at Maplewood West Apartments to greatness. However, the general sense of satisfaction and the positive remarks on property upkeep indicate that the property management is meeting its basic responsibilities competently, hence creating an environment where residents feel comfortable and well-cared for.</p></section><section><h2>Bad</h2><p>While Maplewood West Apartments has garnered positive feedback in certain areas, the user reviews do not provide much detail on any negative experiences. A few reviews with average ratings suggest that there may be aspects of the property management or living conditions that do not fully meet tenants' expectations, though specifics are not given. This lack of detail means that potential tenants may not have a complete picture of any issues they may encounter while living at Maplewebsocket West Apartments.</p><p>The absence of detailed reviews makes it challenging to identify common themes or frequent complaints, which are often helpful for prospective residents and the property management's continuous improvement. If there are any shortcomings in the management's services, these are not clearly highlighted by those who provided the reviews, potentially leaving room for unaddressed issues that may affect future tenants.</p></section><section><h2>Ugly</h2><p>Concerning the 'ugly' aspects of life at Maplewood West Apartments, the article cannot provide specifics as the user reviews do not include significant negative experiences or horror stories. There are no descriptions of major neglect, failure to return security deposits, or poor communication that typically characterize an 'ugly' scenario in property management. This could indicate that such issues either do not exist or are not widespread enough to have been mentioned by the reviewers.</p><p>However, the lack of detailed negative reviews may also mean that residents who did have truly unpleasant experiences simply chose not to share them publicly. The article's intent is not to imply that the property management company is flawless, but rather to note the absence of any alarming concerns raised by the current dataset of reviews. Should these emerge in the future, they would warrant their own analysis and discussion.</p></section>"
+  "adjusted_review_count": 4,
+  "adjusted_average_rating": 3.25,
+  "distribution": {
+    "1": 1,
+    "2": 1,
+    "3": 4,
+    "4": 2,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739095085,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights the positive aspects of Maplewood West Apartments based on user reviews. Several tenants have expressed satisfaction with the aesthetic qualities of the apartments, noting that they are well-designed and situated in a pleasant neighborhood. One reviewer described the apartments as cute, with well-tended yards and a very nice interior, which suggests that the property management takes care of the landscaping and overall cleanliness.</p><p>Additionally, some reviews mention that the apartments are well-managed and maintained, contributing to a positive living experience. The comments hint at a quiet neighborhood, which could be an attractive feature for those seeking a peaceful environment. Such comments indicate that there are redeeming qualities at Maplewood West Apartments that some current residents appreciate.</p></section><section id=\"great\"><h2>Great</h2><p>User reviews reflect a sense of community at Maplewood West Apartments, where some residents have found a comfortable living arrangement. The positive reviews regarding management suggest that tenants overall appreciate the upkeep of the property. The presence of amenities, although not detailed in the reviews, may also play a role in the enjoyment of living in this community.</p><p>Several users rated the apartments highly, particularly praising the neighborhood's vibe. This sentiment hints at a good social atmosphere among residents and a supportive environment. Such positive reflections imply that for some, the apartments are a great choice, blending comfort and community spirit effectively.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite positive sentiments, there are significant criticisms concerning Maplewood West Apartments as voiced by several tenants. One particularly dissatisfied resident described a serious lack of cleanliness upon moving in, highlighting filth in the apartment and non-functional appliances like the dishwasher and freezer that remained unfixed for months. Such issues indicate potential negligence in maintenance and a lack of responsiveness from management.</p><p>Another complaint centered on inadequate parking arrangements, which are said to be insufficient for the number of occupants, leading to frustrations for those sharing units. Additionally, complaints were raised about neighbors neglecting to clean up after their pets, resulting in unsanitary conditions outside the buildings. These ongoing issues reflect areas for improvement that property management must address to enhance tenant satisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>User reviews also bring to light serious concerns regarding the living conditions at Maplewood West Apartments. The report of rats due to trash left by neighbors and the overwhelming presence of dog waste reveals a troubling disregard for cleanliness and hygiene in the community. This may create health concerns for residents and diminishes the overall quality of living.</p><p>Moreover, some reviews depict a lack of communication from property management regarding urgent maintenance issues, which could contribute to tenant frustration and dissatisfaction. The absence of responses from management to user reviews suggests a concerning disconnect between tenant needs and property management's engagement, leading to an impression of neglect that can significantly impact residents' overall experiences.</p></section>"
+  }
 }

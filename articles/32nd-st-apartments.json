@@ -9,22 +9,29 @@
     "google_reviews": [
       {
         "author": "Daniel Sherer",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Beautiful new apartments near shopping, the University and the freeway.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "levi montes",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 1,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The 32nd St Apartments in Bellingham has garnered appreciation for its prime location. Residents find it conveniently situated, offering easy access to local shopping, the nearby University, and the freeway. This aspect of convenience is especially praised, highlighting the apartments' attractiveness to those who value proximity to essential amenities and educational institutions. The positive sentiment in user reviews reflects the appeal of the location and potentially enhances the living experience for the residents of 32nd St Apartments.</p></section><section><h2>Great</h2><p>It is notable that one of the user reviews rates the 32nd St Apartments with a perfect score, indicating a very high level of satisfaction. Although detailed content in the review is limited, the high rating suggests that certain aspects of the property or the management company's performance likely exceed expectations. This suggests that some tenants have had experiences that leave them incredibly satisfied with their residence, which may include aspects such duties fulfilled by the property management company.</p></section><section><h2>Bad</h2><p>While there are positive comments, there is a stark contrast in the overall satisfaction as evidenced by one of the user reviews, which provided the lowest possible rating. However, the lack of detail in this review prevents a full understanding of the issues or concerns the dissatisfied tenant may have experienced. This makes it difficult to identify specific examples of where the property management's duties may be falling short. The article's intent is to present a balanced view, but the insufficient data in this case limits our ability to assess and communicate the complete picture of potential problems.</p></section><section><h2>Ugly</h2><p>Given the limited number of reviews available and the absence of detailed negative feedback, this article cannot conclusively report on any persistently problematic areas, such as neglected maintenance concerns, poor communication, or issues with the return of security deposits. However, it is notable in a negative sense that the company has not responded to the user reviews. The lack of engagement from the property management in the public domain may raise concerns about the attentiveness and communicativeness of the management company.</p></section>"
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739094983,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights some positive aspects of the 32nd St Apartments based on user reviews. One user praised the property for being beautifully designed and conveniently located near shopping centers, the university, and easy access to the freeway. This suggests that the location can cater to various lifestyles, making it a favorable choice for students and professionals alike.</p><p>Moreover, the positive user review regarding the aesthetics of the apartments indicates that the property management has likely succeeded in creating an appealing living environment. Such factors contribute to overall tenant satisfaction and can play a significant role in the desirability of the apartments.</p></section><section id=\"great\"><h2>Great</h2><p>This article also identifies the potential for the 32nd St Apartments to excel further in rental management. The positive feedback regarding the brand-new infrastructure of the apartments reveals that a good investment was made into modern amenities which can significantly enhance the living experience for tenants. Such features often increase tenant retention and attract new residents.</p><p>The location, being near vital areas, is another strong point that is well-regarded, suggesting that the property management has a valuable offering for residents looking for both convenience and comfort. If the management team can maintain or improve their service levels, the attractiveness of the apartments will likely continue to grow.</p></section><section id=\"bad\"><h2>Bad</h2><p>This article must address some concerning perspectives shared regarding the 32nd St Apartments. While there is one notable negative review with a one-star rating, specifics of the feedback were not provided, leaving a gap in understanding the tenant's full experience. This lack of detailed criticism makes it challenging to fully assess the issues at hand.</p><p>Moreover, the absence of an owner response to both reviews, particularly the negative one, could suggest a lack of proactive communication from property management. Poor responsiveness can foster negative tenant relations and may contribute to dissatisfaction among residents.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>This article reflects the concerns that arise from the singular negative review of 32nd St Apartments. The lack of content in this review suggests potential issues that may have remained unaddressed by the property management. Notably, issues such as unreturned security deposits or inadequate maintenance responses could be potentially inferred, leading to frustration for tenants.</p><p>Furthermore, with the management not replying to any reviews, there may be a concerning trend regarding their engagement with the tenant community. This could lead to a perception of neglect or indifference, especially when issues arise that require management\u2019s attention.</p></section>"
+  }
 }

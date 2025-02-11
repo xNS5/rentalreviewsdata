@@ -79,5 +79,5 @@ def filter_companies(input_path, alt_path):
 
 utilities.create_directory(output_path)
 
-filter_companies(yelp_path, google_path)
 filter_companies(google_path, yelp_path)
+filter_companies(yelp_path, google_path)

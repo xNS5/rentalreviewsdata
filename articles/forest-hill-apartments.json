@@ -3,28 +3,34 @@
   "slug": "forest-hill-apartments",
   "company_type": "Property",
   "address": "701 N Forest St, Bellingham, WA 98225",
-  "review_count": 2,
+  "review_count": 3,
   "average_rating": 1.0,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Eva Urena",
+        "rating": 1,
+        "review": "If you want to cohabitate with critters with in 4 walls of mold , come rent one of these apartments . Every wall , every door has mold. Water problems that have gone god knows how long. Classical definition of slum lords.  Management company, PTLA are Christian , clearly only using thoughts and prayers to maintain their apartments.",
+        "owner_response": null
+      },
+      {
         "author": "Indaris Nerothan",
-        "rating": 1.0,
+        "rating": 1,
         "review": "This place is owned by PLTA Property Management. Please read the reviews for their company before renting here. Theyre awful people and will try to scam you.\n\nThis apartment complex is over 100 years old. Maintanence staff told me that there's so much wrong with the building, that it needs to be completely rennovated. All drainage is slow, hot water doesn't last long. Units are in awful condition and are falling apart.\n\nI've met a couple of my neighbors, they all got a unit that was completely different from the listing photos. All of them said they'll never rent from PLTA again.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Em Sanders",
-        "rating": 1.0,
+        "rating": 1,
         "review": "I just moved out so I feel safe writing a review without PTLA retaliating against me. They're a filthy bunch of rats in human skin.\nThe rent is cheaper here for a reason... This place is AWFUL! Do not rent here. This building is so neglected, it should be condemned, salted, and burned to the ground.\n\nMy 1 bed 1 bath looked nothing like the photos on PLTA's website. It was run-down, dirty, had a giant, ugly water pipe running through my entire unit. They had me pay deposit and sign the lease before seeing the place...what a mistake.\nI tried to get a refund - they refused and ignored me.\nI tried to put in maintenance requests and asked for the place to be cleaned before I moved in - they ignored me.\nThey don't respond to any of my emails or phone calls - they know who I am and they try to hide from me. Cowards.\n\nThey're nothing but dirty dog scammers. How can anyone work for this company!? Am I expecting to get my deposit back? Nope. I expect them to take every cent because they're greedy sons of Lucifer.\n\nI will never rent from then AGAIN. And you, person who is reading this review, take my advice. Hide yo kids, hide yo money from PLTA. Find a better place to live. Don't rent from them no matter how desperate you are. I'd rather be HOMELESS then rent with PLTA. Best of luck with your apartment searching ~ ",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 2,
+  "adjusted_review_count": 3,
   "adjusted_average_rating": 1.0,
   "summary": {
+      "created_timestamp": 1725642000,
     "text": "<section><h2>Good</h2><p>Despite the overall negative sentiment found in user reviews for Forest Hill Apartments, it is noted that the rent here seems to be more affordable compared to other options in the area. This suggests that the Forest Hill Apartments could be considered by those who prioritize budget constraints over other aspects of property management and apartment amenities. However, there are no positive details provided by the tenants in their reviews related to the management's operations, tenant support, or living conditions that can be highlighted as benefits of living at Forest Hill Apartments.</p><p>Being part of a budget-friendly housing market does not outweigh the numerous issues brought up in reviews, and thus, further positive aspects of the property or the management company could not be established from the user reviews available. The search for commendable features or reliable positive experiences with the property management remains inconclusive.</p></section><section><h2>Great</h2><p>The lack of positive reviews and the overall poor ratings provide no evidence of any 'great' aspects of Forest Hill Apartments or the service provided by PLTA Property Management. There aren't any exemplary experiences or satisfactory points that shine through among the feedback provided by former tenants according to the reviews gathered for this article. Consequently, there is no available information that would make Forest Hill Apartments stand out in a positive spotlight within the community.</p><p>Given this context, the user reviews do not describe any exceptional service, outstanding responsiveness, or anything particularly positive that could be categorized within the 'great' parameters for Forest Hill Apartments or their managing body, PLTA Property Management.</p></section><section><h2>Bad</h2><p>User reviews indicate that the actual conditions of the apartments at Forest Hill may greatly deviate from the expectations set by the listing photos. This disparity suggests that the property management fails to provide a clear and honest portrayal of the units, leading to tenant dissatisfaction. Several tenants have shared their frustration with this misrepresentation, stating that the apartment they rented looked completely different from what they were shown online, leading to feelings of deception and regret.</p><p>Additionally, there are reports from tenants regarding a variety of maintenance issues within their units, ranging from slow drainage to lack of hot water. These deficiencies indicate a lack of proper upkeep and suggest that the building's condition is potentially in a state that requires significant renovation. Such feedback illuminates a broader pattern of negligence from the property management side in maintaining the premises to an adequate standard.</p></section><section><h2>Ugly</h2><p>Some tenants have described their experience with PLTA Property Management in extremely negative terms, mentioning that attempts to communicate with the management, be it for handling maintenance requests or financial concerns, often go ignored. Tenants have recounted instances where emails and calls do not receive responses, and property management actively avoids addressing their complaints. Such issues breed an environment of mistrust and dissatisfaction among residents.</p><p>Descriptions of the property include strong language such as \"neglected,\" and one former tenant even suggests that the building should be \"condemned, salted, and burned to the ground.\" Another stark remark involves the intense dissatisfaction with how their security deposit was handled, with the tenant having little to no expectation of receiving it back due to presumed greed on the part of PLTA Property Management. These severe criticisms point towards a deeply flawed relationship between the tenants and the managing company, potentially verging on unethical practices.</p></section>"
-  },
-  "created_timestamp": 1725642000
+  }
 }

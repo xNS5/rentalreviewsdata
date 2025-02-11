@@ -3,8 +3,8 @@
   "slug": "pomeroy-court-appartments",
   "company_type": "Property",
   "address": "3100 Ferry Ave Bellingham, WA 98225",
-  "review_count": 2,
-  "average_rating": 1.0,
+  "review_count": 14,
+  "average_rating": 3.57,
   "reviews": {
     "yelp_reviews": [
       {
@@ -19,19 +19,109 @@
         "review": "To reiterate what the other reviewer said, these people are crooks!  My daughter rented and apartment for two years and we have been fighting to get the security deposit returned.  We left the place in excellent condition and they made up damages to justify retaining 88% of the $800 deposit.  We took them to small claims court and won.  Now they're trying to stiff us on the amount of the original deposit refund.  Unscrupulous, lying, cheating, low down dirty SOB of an owner!  Don't reward this piece of work by renting one of his apartments!",
         "owner_response": null
       }
+    ],
+    "google_reviews": [
+      {
+        "author": "Scruffy",
+        "rating": 4,
+        "review": "I lived at Pomeroy court for 2 years while studying at WWU, and I wanted to share a few thoughts about the place:\n\nManagement: Pretty good, maintenance requests at least get addressed within a week. Im writing this review as my roommates and I have gotten back our deposit (minus a 220$ cleaning fee).\n\nParking: Acceptable, 100ish$ one-time fee, no guest parking, no street parking nearby, tandem parking for units with 2 cars. Its on a slant so its not super safe to get out in the snow.\n\nLocation: Theres a bus-stop about a block away, but since WWU campus is at most a scenic 20 minute walk through the arboretum, I never took the bus. Theres also a lot of shops a few blocks away, so it is feasible to not have a car here. (Haggen is affordable if you buy the right stuff).\n\nThe unit itself: Good, lots of old appliances that work better than new ones, lots of space. We did run into minor issues with mold (windowsill, bathroom ceiling, sink). They made us leave the heat on all winter so pipes didnt freeze. I recommend a unit with a built in washer/dryer.\n\nOverall, this is a good place to live. If the rent is reasonable compared to nearby properties, it is a great choice. Hope this was helpful to someone out there.",
+        "owner_response": {
+          "text": "Hello! Thanks for leaving a thorough review of your time at Pomeroy Court! It helps us identify areas where we can improve for future tenants."
+        }
+      },
+      {
+        "author": "maddy white",
+        "rating": 5,
+        "review": "I really love the new management. It seems as though they really care about making sure issues are taken care of in a timely manner. The new property managers are the main reason why my roommates and I resigned our lease for next year.\n\nIt also seems like they are starting to renovate parts of the buildings. We just got new railings for the stairs and balconies and they look great and feel so much safer.",
+        "owner_response": {
+          "text": "Hello Maddy - thank you for the review! We're glad to see that you are choosing to stay another year."
+        }
+      },
+      {
+        "author": "Noa Haskell",
+        "rating": 5,
+        "review": "Great repair services, dusty helped install an emergency toilet in my apartment. It was incredibly quick and he was very friendly",
+        "owner_response": null
+      },
+      {
+        "author": "Willow Roark",
+        "rating": 3,
+        "review": "I lived there for a 2 years. It wasn't horrible but there were a lot of issues.\nPros: There's a gorgeous trail right next to it that leads right to the interurban system, the high school, and Joe's Garden. There's always bunnies and birds around. Sometimes there was noise from music, but not a lot at all. They gave decent notice for entrances. They allow pets with a fee: it was around 200-300 dollars. Hot water in our unit lasts a surprisingly long time. It's a ~16 minute walk from campus through the beautiful arboretum. There's bus stops around a 4 minute walk away.\nCons: I was never offered a tour of the apartment. The washing machines are often out of service, and only some units have in-unit laundry (highly recommend finding one of those). The dishwasher is inefficient and often leaves food on our plates left to wash. Our hot water heater exploded and flooded our apartment one night. The whole complex is aging and the rent is far higher than it's worth. I believe this used to be primarily a family complex so one room in our two bedroom is much larger than the other. Hagen, the nearby grocery outlet, is not an affordable. The parking is very limited and you need to have guests park a block away. The baseboard heating is inefficient and costs a lot on the energy bill. The bathroom's amenities were aged and our shower ceramic had chips in it. Not secure: we were robbed while we were there. Mildew is almost impossible to prevent and becomes a health hazard. The parking lot has a lot of vertical inclines and is very hard to navigate: folks with mobility related disabilities be advised. No in-unit AC, which becomes a problem as the PNW gets hotter.",
+        "owner_response": null
+      },
+      {
+        "author": "Raina Hoy",
+        "rating": 1,
+        "review": "It took weeks/months for maintenance to fix requests which still were done wrong. There has been on and off construction for a year, the water was shut off randomly because they hit a line, then they boarded off the back doors in each unit so you weren't allowed to use your own porch for a month. They raise rent for their units every year. I got no less than a hundred mass texts about parking while I lived here from management.\n\nUPDATE: the manager took 90% of the entire deposit siting cleaning fees and maintenance for 8 hours worth of work yet the unit was deep cleaned before even leaving which was noted by the manager. The manager then didn't respond to emails asking why they took 1000 dollars and gave back 50. The on-site manager was rude and unhelpful. There are newer and nicer places, I recommend those.",
+        "owner_response": null
+      },
+      {
+        "author": "Gage Hall",
+        "rating": 5,
+        "review": "My Maintenance was scheduled on my time and the handyman, Steve, was extremely kind and outgoing, he made a quick an easy job fixing my bathroom shower head and sink stopper.",
+        "owner_response": {
+          "text": "Thank you Gage for the review"
+        }
+      },
+      {
+        "author": "haley newell",
+        "rating": 5,
+        "review": "Everything went smoothly, Dustin was very helpful and nice!",
+        "owner_response": {
+          "text": "Hi Haley! We're glad you had such a positive experience with us! We wish you luck in all your future endeavors!"
+        }
+      },
+      {
+        "author": "Jordyn Michelle",
+        "rating": 2,
+        "review": "Not fancy by any means. You can tell management and handymen care, but youre still paying an arm and a leg for four walls and a toilet. Also, dont be surprised if you find bugs if you live in the bottom floor",
+        "owner_response": {
+          "text": "Hello Jordyn - thank you for the kind words for management and maintenance. If you have any issues that you think management can resolve, please do not hesitate to reach out to the on-site office."
+        }
+      },
+      {
+        "author": "Bim S",
+        "rating": 5,
+        "review": "In a really nice area!",
+        "owner_response": null
+      },
+      {
+        "author": "Emma Kozel",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi Emma - thank you for the five star review!  We're glad we could provide you with an excellent experience!"
+        }
+      },
+      {
+        "author": "anthony arce",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Hi Anthony - thank you for your positive review! We hope that you enjoy your time with us!"
+        }
+      },
+      {
+        "author": "Cole Miller",
+        "rating": 3,
+        "review": "",
+        "owner_response": {
+          "text": "Hello Cole - it sounds like there's something we could have done to better accommodate you. Please reach out to the on-site office and let the manager know how we could have done better. Thank you!"
+        }
+      }
     ]
   },
-  "adjusted_review_count": 2,
-  "adjusted_average_rating": 1.0,
+  "adjusted_review_count": 11,
+  "adjusted_average_rating": 3.36,
   "distribution": {
-    "1": 2,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0
+    "1": 3,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 7
   },
   "summary": {
-    "created_timestamp": 1739095121,
-    "text": "<section id=\"good\"><h2>Good</h2><p>Given the overwhelmingly negative user reviews for Pomeroy Court Apartments, there are few notable positive experiences to mention. However, some residents did appreciate the initial friendliness of the staff, indicating that at first glance, the property management seems approachable and welcoming. This initial impression can give new tenants a false sense of security that the management will be helpful during their stay.</p></section><section id=\"great\"><h2>Great</h2><p>Unfortunately, the reviews do not highlight any significantly great experiences at Pomeroy Court Apartments. The lack of positive user feedback points to a consistent theme of dissatisfaction among former tenants. Many reviewers indicated a level of frustration that overshadowed any positive aspects of their time living at the property.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews repeatedly mention severe issues with getting security deposits returned, suggesting a systemic problem within the property management's practices. One tenant recounted a lengthy battle to reclaim a substantial portion of their $800 deposit, claiming that management falsely attributed damages to justify withholding almost 88% of it. Moreover, the management\u2019s lack of communication and accountability often leaves tenants feeling neglected and frustrated.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The reviews describe Pomeroy Court Apartments as a potential scam, where tenants feel cheated and dissatisfied with their living conditions. One reviewer noted that other tenants are resorting to legal action to recover their deposits, underscoring a prevalent sentiment of distrust towards the management. With an average rating of just 1.0 and all reviews reflecting similar themes of dishonesty and negligence, it is clear that many former residents found their experiences troubling, particularly regarding maintenance issues and dishonest practices surrounding deposit refunds.</p></section>"
+    "created_timestamp": 1739205568,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Pomeroy Court Apartments receives commendations for its convenient location near a bus stop, as mentioned in user reviews. Tenants appreciate the scenic 20-minute walk to the WWU campus through the arboretum, as well as the nearby shops that make life without a car feasible. The units themselves, while having some older appliances, are described as spacious and functional. Management has been acknowledged for providing decent notice for property entries and maintaining a seemingly serene environment. Another positive aspect noted by tenants is that maintenance requests are typically addressed, and some residents have successfully received portions of their security deposits upon moving out.</p><p>The property management has earned praise for their attentiveness and willingness to improve amenities, such as introducing new railings for increased safety. Some reviews also highlight the good behavior and efficiency of the maintenance staff, pointing out individuals who were friendly and managed repairs, like installing an emergency toilet promptly. New management appears to have introduced positive changes, which include timely maintenance responses and property upgrades. The office has responded to many reviews, showing that they value tenant feedback and are committed to enhancing the living experience.</p></section><section id=\"great\"><h2>Great</h2><p>Some residents rave about the welcoming and efficient new property management at Pomeroy Court Apartments. They emphasize the proactive nature of the management team, who appear to genuinely care about tenant satisfaction and have spurred several residents to renew their leases. Renovations like stair and balcony railing upgrades contribute to a safer environment, a testament to the management's dedication to enhancing living conditions.</p><p>The surrounding area receives high marks for its beauty, natural surroundings, and accessibility. With trails leading to local landmarks, tenants enjoy a lively community with plenty of opportunities for outdoor activities. Great repair services are highlighted, with specific mentions of a friendly and quick response to maintenance issues. The positive interactions with the maintenance team leave a lasting impression and are a big part of why tenants choose to stay.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite some positive reviews, there are frequent complaints regarding the maintenance services at Pomeroy Court Apartments. Several tenants report slow or incomplete resolutions to maintenance requests, with some claiming that repairs took weeks or even months and were often executed improperly. The uncertainty around ongoing construction, which leads to inconveniences such as unexpected water shutdowns, is another concern raised by residents.</p><p>One persistent issue highlighted by tenants is the difficulty in retrieving security deposits. Specific cases involve exaggerated charges for repairs or cleaning fees despite attempts to leave the apartments in good condition. These financial disputes have led to frustrations and necessitated legal action, as indicated by multiple user reviews. Additionally, while the location is convenient, the property's aging infrastructure, such as outdated appliances and inefficient heating systems, detracts from the overall quality of the living experience. </p></section><section id=\"ugly\"><h2>Ugly</h2><p>In the grim perspective of living at Pomeroy Court Apartments, some user reviews paint a picture of deceptive and unscrupulous management practices. One review distinctly labeled the property as a scam, advising potential renters to avoid the headache associated with dealing with their security deposit returns. Court battles and unresolved issues with deposits have marred the experience for some tenants, contributing significantly to the negative perception.</p><p>Other reviews indicate that the management's approach can border on confrontational and dismissive, particularly in handling disputes over deposits. A history of unaddressed and continual issues such as prolonged construction, inaccessible amenities, and unwarranted charges aggravates tenants' dissatisfaction. This feeling of being misled and taken advantage of underscores the critical warnings some former residents stress in their reviews, further highlighting a pattern of neglected commitments and poor tenant relations.</p></section>"
   }
 }

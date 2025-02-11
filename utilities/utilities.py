@@ -44,7 +44,7 @@ def get_disclaimer_map():
 
 def company_map(key):
     map = get_config()
-    return map["company_map"][key] if key in map else {}
+    return map["company_map"][key] if key in map['company_map'] else {}
 
 def get_company_blacklist():
     return set(

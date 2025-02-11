@@ -231,7 +231,7 @@
             "pomeroy-court-appartments": "pomeroy-court-apartments",
             "stateside-bellingham": "stateside",
             "sunset-pond-apts": "sunset-pond-apartments",
-            "windermere-property-management": "windermere-property-management-bellingham",
+            "windermere-management-by-ebright-wight": "windermere-property-management-bellingham",
             "woodrose-senior-affordable-apartments": "woodrose-apartments",
             "olympic-management": "olympic-management-company"
         },
@@ -246,7 +246,7 @@
             "pomeroy-court-apartments": "pomeroy-court-appartments",
             "stateside": "stateside-bellingham",
             "sunset-pond-apartments": "sunset-pond-apts",
-            "windermere-property-management-bellingham": "windermere-property-management",
+            "windermere-property-management-bellingham": "windermere-management-by-ebright-wight",
             "woodrose-apartments": "woodrose-senior-affordable-apartments",
             "olympic-management-company": "olympic-management"
         }
@@ -270,14 +270,17 @@
         "jerry-swann-best-choice-realty",
         "julian-company-muljat-group",
         "kc-coonc-north-sound-commercial",
-        "ronda-karn-bellingham-homes-for-sale-favorite-realtor-for-whatcom-skagit-county"
+        "ronda-karn-bellingham-homes-for-sale-favorite-realtor-for-whatcom-skagit-county",
+        "joell-byrnes-kuoppala-whatcom-county-real-estate-broker"
     ],
     "phrase_blacklist": [
       "remax",
       "keller-williams",
       "ed-finlan",
       "don-enos",
-      "muljat"
+      "muljat",
+      "broker",
+      "brokers"
     ],
     "disclaimer": {
         "pure-property-management-of-washington":"Pure Property Management of Washington is relatively new to the Bellingham area, having acquired Son-Rise Property management. It is unclear whether Son-Rise simply rebranded, or whether PURE replaced property managers with their own.",
@@ -286,6 +289,7 @@
         "elwood-edge-apartments": "Elwood Edge Apartments was rebranded to \"The Calypso\". Please see the relevant page for up to date reviews and information.",
         "follis-realty": "Follis Realty is permanently closed as of February 2025.",
         "rent-lady": "[The] Rent Lady is officially retired as of October 2024.",
+        "gray-property-management": "Gray Property Management is permanently closed.",
         "triple-rock-apartments": "Triple Rock Apartments was rebranded to \"The Calypso South Apartments\". Please see the relevant page for up to date reviews and information"
     },
     "file_paths": {

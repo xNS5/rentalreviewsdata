@@ -169,6 +169,50 @@
         }
       ]
     }
+  },
+  "sort_props": {
+    "valid_keys": [
+      "column",
+      "direction"
+    ],
+    "sort_labels": {
+      "column": {
+        "label": "Sort Column",
+        "aria_label": "column name dropdown"
+      },
+      "direction": {
+        "label": "Sort Direction",
+        "aria_label": "sort direction dropdown"
+      }
+    },
+    "column": [
+      {
+        "key": "company_type",
+        "title": "Company Type"
+      },
+      {
+        "key":  "average_rating",
+        "title": "Average Rating"
+      },
+      {
+        "key": "adjusted_average_rating",
+        "title": "Adjusted Average Rating"
+      },
+      {
+        "key":  "review_count",
+        "title": "Review Count"
+      }
+    ],
+    "direction": [
+      {
+        "key":  "ascending",
+        "title": "Descending"
+      },
+      {
+        "key":"descending",
+        "title": "Descending"
+      }
+    ]
   }
 }
 

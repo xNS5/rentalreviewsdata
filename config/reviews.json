@@ -187,6 +187,10 @@
     },
     "column": [
       {
+        "key": "name",
+        "title": "Name"
+      },
+      {
         "key": "company_type",
         "title": "Company Type"
       },
@@ -206,7 +210,7 @@
     "direction": [
       {
         "key":  "ascending",
-        "title": "Descending"
+        "title": "Ascending"
       },
       {
         "key":"descending",

@@ -211,13 +211,15 @@
         "Commercial real estate agency": "Company",
         "Real estate rental agency": "Company",
         "Real estate agency": "Company",
+        "Real estate Agent": "Company",
         "Short term apartment rental agency": "Company",
         "Apartment building": "Property",
         "Apartment complex": "Property",
         "Apartment rental agency": "Property",
         "Furnished apartment building": "Property",
         "Housing complex": "Property",
-        "Student housing center": "Property"
+        "Student housing center": "Property",
+        "Townhouse complex": "Property"
     },
     "company_map": {
         "yelp": {
@@ -271,7 +273,8 @@
         "julian-company-muljat-group",
         "kc-coonc-north-sound-commercial",
         "ronda-karn-bellingham-homes-for-sale-favorite-realtor-for-whatcom-skagit-county",
-        "joell-byrnes-kuoppala-whatcom-county-real-estate-broker"
+        "joell-byrnes-kuoppala-whatcom-county-real-estate-broker",
+        "nw-living-group-exp-realty"
     ],
     "phrase_blacklist": [
       "remax",
@@ -280,7 +283,8 @@
       "don-enos",
       "muljat",
       "broker",
-      "brokers"
+      "brokers",
+      "ronda-karn"
     ],
     "disclaimer": {
         "pure-property-management-of-washington":"Pure Property Management of Washington is relatively new to the Bellingham area, having acquired Son-Rise Property management. It is unclear whether Son-Rise simply rebranded, or whether PURE replaced property managers with their own.",

@@ -1,7 +1,7 @@
 {
   "name": "Hansen Group Real Estate",
   "slug": "hansen-group-real-estate",
-  "company_type": null,
+  "company_type": "Company",
   "address": "1001 E Maple St, Bellingham, WA 98225",
   "review_count": 16,
   "average_rating": 4.56,

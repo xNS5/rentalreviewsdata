@@ -1,7 +1,7 @@
 {
   "name": "Bellingham Real Estate Co.",
   "slug": "bellingham-real-estate-co",
-  "company_type": null,
+  "company_type": "Company",
   "address": "2900 Meridian St Suite 101, Bellingham, WA 98225",
   "review_count": 111,
   "average_rating": 4.96,

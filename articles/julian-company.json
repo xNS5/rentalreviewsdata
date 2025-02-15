@@ -1,7 +1,7 @@
 {
   "name": "Julian & Company",
   "slug": "julian-company",
-  "company_type": null,
+  "company_type": "Company",
   "address": "952 N State St, Bellingham, WA 98225",
   "review_count": 117,
   "average_rating": 5.0,

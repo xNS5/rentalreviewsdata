@@ -188,32 +188,39 @@
     "column": [
       {
         "key": "name",
+        "value": "name",
         "title": "Name"
       },
       {
         "key": "company_type",
+        "value": "company_type",
         "title": "Company Type"
       },
       {
         "key":  "average_rating",
+        "value": "average_rating",
         "title": "Average Rating"
       },
       {
         "key": "adjusted_average_rating",
+        "value": "adjusted_average_rating",
         "title": "Adjusted Average Rating"
       },
       {
         "key":  "review_count",
+        "value": "review_count",
         "title": "Review Count"
       }
     ],
     "direction": [
       {
         "key":  "ascending",
+        "value": "ascending",
         "title": "Ascending"
       },
       {
         "key":"descending",
+        "value": "descending",
         "title": "Descending"
       }
     ]

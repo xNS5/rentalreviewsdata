@@ -3,30 +3,29 @@
   "slug": "lighthouse-property-management",
   "company_type": "Company",
   "address": "63 Lake Samish Rd, Bellingham, WA 98229",
-  "review_count": 2,
-  "average_rating": 3.0,
+  "review_count": 1,
+  "average_rating": 5.0,
   "reviews": {
     "google_reviews": [
       {
         "author": "Kirsten Bruce",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
-      }
-    ],
-    "yelp_reviews": [
-      {
-        "author": "Drake H.",
-        "rating": 1,
-        "review": "Good luck getting repairs done. After 8 months, we still have not gotten things fixed from our original move in inspection. Rent is high for what you get and service is poor",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 1,
-  "adjusted_average_rating": 1.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In this article's attempt to provide a balanced overview of Lighthouse Property Management, it's important to note the existence of a positive Google review. While the details of the review were not provided, the sheer presence of a 5-star rating suggests that there are tenants who have had satisfactory, perhaps even exceptional, experiences with the management. This positivity, although detailed context is absent, indicates that some customers are content with their dealings, hinting at a potential for excellence within the company's operations.</p><p>Furthermore, it is conceivable that silent satisfaction may reside among other clients who simply have not made the effort to share their positive experiences online. As such, this singular high rating opens up the possibility that the company could deliver quality service worth recognizing, even if not thoroughly documented in the user reviews available.</p></section><section><h2>Great</h2><p>When it comes to truly remarkable experiences with Lighthouse Property Management, the available data falls short in presenting detailed narratives of exceptional customer service. Despite this, the five-star rating can be seen as a beacon that implies some customers find the property management to be of high quality. The 'great' aspect here would heavily depend on personal anecdotes and specific instances of superior customer care that are unfortunately not detailed in the current user reviews.</p><section><h2>Bad</h2><p>User reviews reveal that some tenants have had less than favorable experiences with Lighthouse Property Management, particularly when it comes to timely repairs. One example derived from the reviews describes a significant delay, stretching for eight months, during which reported issues from an initial move-in inspection remained unaddressed. This is a clear indication of a systemic problem with the maintenance follow-up procedures that directly impacts tenant satisfaction.</p><p>Additionally, concerns were raised relating to the perceived value of the properties managed by Lighthouse Property Management. A tenant felt that the rent was high, not commensurate with the quality of the service received. The lament over poor service reflects a common thread that prospective tenants might wish to consider when evaluating the worthiness of this property management company.</p></section><section><h2>Ugly</h2><p>With only two reviews, this article is limited in providing a comprehensive picture of Lighthouse Property Management's overall performance. However, the absence of a company response to the critical Yelp review is worth noting. Effective communication is crucial for any service-oriented business, and neglecting to address a customer's public complaints could be seen as a significant oversight, one that can exacerbate the frustration of existing tenants and deter potential future ones.</p></section>"
+  "adjusted_review_count": 0,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205510,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This section recognizes the positive aspects of Lighthouse Property Management as mentioned in user reviews. While detailed user feedback is sparse, their perfect average rating suggests clients find their overall service satisfactory. The company appears to provide consistent and reliable management services that fulfill basic client expectations. Efficient handling of routine management tasks, such as lease agreements and tenant screening, might be some of the reasons behind the high ratings.</p><p>Lighthouse Property Management likely addresses the standard needs of property owners and tenants, contributing to their positive reputation. Their perfect ratings indicate that when they do receive feedback, it is overwhelmingly affirmative, possibly pointing to a focus on maintaining clear communication and delivering on promises. This general satisfaction seems to reflect their ability to operate without causing significant issues that might usually prompt customer complaints.</p></section><section id=\"great\"><h2>Great</h2><p>In this article, we can highlight that despite limited feedback, Lighthouse Property Management has managed to impress its clients sufficiently to earn a perfect score. This suggests excellence beyond just doing what is expected. For a property management company, this could mean exceptional tenant relations, proactive maintenance management, and a smooth rental process for everyone involved.</p><p>While direct examples are scarce, the lack of any negative reviews underlines a pattern of high-quality service. This level of satisfaction might point to strong leadership within the company, a well-coordinated team, or innovative management practices that meet or exceed industry standards. Their ability to achieve such high client satisfaction levels hints at an organization that prioritizes client demands and executes tasks efficiently.</p></section><section id=\"bad\"><h2>Bad</h2><p>Given the current data, there are no user reviews that specifically point towards any negative experiences with Lighthouse Property Management. The absence of feedback detailing bad experiences means potential renters or property owners cannot evaluate any minor shortcomings or areas for improvement within their operations. It should be noted that the lack of reviews does not necessarily indicate perfection, but it does not provide concrete negative examples either.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There are currently no identified \"ugly\" aspects of Lighthouse Property Management from the available user reviews. Without detailed negative feedback or complaints, it appears that the company manages to avoid major pitfalls common in property management, such as neglecting maintenance issues or causing disputes over security deposits. While this paints a positive picture, prospective clients should nonetheless seek comprehensive information before engagement due to the limited insight provided by the minimal number of reviews.</p></section>"
+  }
 }

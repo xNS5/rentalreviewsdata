@@ -1,0 +1,37 @@
+{
+  "name": "The Jake by Calypso",
+  "slug": "the-jake-by-calypso",
+  "company_type": "Property",
+  "address": "3805 Elwood Ave, Bellingham, WA 98229",
+  "review_count": 2,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Wes Diskin",
+        "rating": 5,
+        "review": "my son lives here and loves it, no real complaints. One elevator can be rough, but its not too bad. Place is quiet, people with dogs all seem to be good dog parents. Good mix of single people, couples, families, etc. Summer inner courtyard will be nice. Parking garage is a must. Trash room is NASTY, this place should have dumpsters, who thought of the room of a hundred bins was smoking crack.",
+        "owner_response": null
+      },
+      {
+        "author": "Fernando Gonzalez",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
+  },
+  "summary": {
+    "created_timestamp": 1739205618,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, we start with the positive aspects of The Jake by Calypso, where residents have expressed satisfaction with the property's environment. User reviews highlight a sense of community and peacefulness, underscoring a diverse mix of tenants that includes single individuals, couples, and families. This blend contributes to a friendly atmosphere where pet owners are responsible, enhancing the living experience for everyone. Availability of necessary amenities like a parking garage is noted favorably, suggesting that the property management has prioritized convenience for the residents.</p></section><section id=\"great\"><h2>Great</h2><p>The Jake by Calypso seems to excel at maintaining a quiet environment, according to user reviews, which is a significant draw for potential residents seeking tranquility. With its well-designed summer inner courtyard, the property offers an attractive space for leisure and relaxation. Moreover, the property's strategic approach to managing parking space is seen as a crucial benefit, minimizing common urban issues such as street parking congestion. The overall satisfaction reflected in the reviews indicates that the management's efforts in creating a comfortable living space have been met with appreciation.</p></section><section id=\"bad\"><h2>Bad</h2><p>Nevertheless, some practical issues have been noted, which slightly tarnish the otherwise favorable view of The Jake by Calypso. A recurring point of concern in user reviews is the property's trash management system. The presence of a room with numerous bins has been critiqued for being unhygienic and inconvenient, suggesting a need for better waste disposal solutions such as the use of traditional dumpsters. Another minor inconvenience is the limited number of elevators, which occasionally causes discomfort for residents, especially during peak times when elevator availability becomes a necessity for convenience.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>As of now, there seem to be no overwhelmingly negative reports or severe criticisms targeting the fundamental aspects of living at The Jake by Calypso in the user reviews. Issues raised are relatively minor and do not suggest any major systemic problems with property management. There have been no recorded responses from the management on user reviews, leaving a gap in communication that could be filled to address minor grievances. This lack of direct engagement might be seen as a missed opportunity to proactively manage resident concerns and improve tenant relations further.</p></section>"
+  }
+}

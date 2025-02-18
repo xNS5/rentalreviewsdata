@@ -1,0 +1,49 @@
+{
+  "name": "Hollander Hospitality",
+  "slug": "hollander-hospitality",
+  "company_type": "Company",
+  "address": "119 N Commercial St STE 165, Bellingham, WA 98225",
+  "review_count": 4,
+  "average_rating": 4.5,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "James Stone",
+        "rating": 3,
+        "review": "Friendly staff not the cleanest rooms",
+        "owner_response": null
+      },
+      {
+        "author": "Chris N",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "RJan O",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Factor 4",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 3.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 3
+  },
+  "summary": {
+    "created_timestamp": 1739205467,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, we explore the balanced perspectives around Hollander Hospitality based on user reviews. A recurring positive theme is the friendliness of their staff, which is acknowledged even in less favorable reviews. One user noted that while the rooms were not the cleanest, the staff's amiability stood out, suggesting that customer service is a strong suit for the company.</p></section><section id=\"great\"><h2>Great</h2><p>Hollander Hospitality receives high praise from numerous reviewers, particularly reflected in the several five-star ratings. Many user reviews emphasize satisfaction, highlighting an overall positivity without delving into specifics in their feedback. The consistency in these top ratings suggests a strong pattern of meeting or exceeding guest expectations, contributing to the company's good reputation.</p></section><section id=\"bad\"><h2>Bad</h2><p>However, not all feedback is stellar, as evidenced by a review that rated them three stars. This particular review pointed out issues with room cleanliness, which could be a concern for potential guests seeking immaculate accommodations. The lack of owner responses to reviews might imply a missed opportunity for the company to engage with constructive criticism.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Despite the largely positive reviews, the review mentioning cleanliness issues suggests areas needing improvement. There appears to be no outreach or responses recorded from the company on this feedback. The absence of such engagement may leave unresolved customer grievances, which could eventually affect future guests' decisions.</p></section>"
+  }
+}

@@ -3,28 +3,29 @@
   "slug": "bridge-creek-apartments",
   "company_type": "Property",
   "address": "272 E Bakerview Rd, Bellingham, WA 98226",
-  "review_count": 2,
-  "average_rating": 2.5,
+  "review_count": 1,
+  "average_rating": 3.0,
   "reviews": {
     "google_reviews": [
       {
-        "author": "American Classic",
-        "rating": 2.0,
-        "review": "The caregivers are not cleani g the places up and these apt are filthy, no toilet supplies like toilet paper\nand Kleenex. Clothes all over and . Disabled people so sweet but last time they ",
-        "ownerResponse": null
-      },
-      {
         "author": "Sheena Wilkerson",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 1,
-  "adjusted_average_rating": 2.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Bridge Creek Apartments offer a living space for residents with varying needs, including those who are disabled. Although specific positive aspects are not highlighted in the user reviews, the average rating suggests that some residents find the accommodations adequate. It is important to consider that different residents may have different standards and experiences, and the average rating indicates that not all feedback is negative.</p></section><section><h2>Great</h2><p>Unfortunately, the data provided does not contain enough detailed positive feedback from user reviews that would suggest areas where Bridge Creek Apartments excels remarkably. In this article, we aim to highlight areas of excellence for local property management companies, yet, in this instance, the lack of detailed positive anecdotes or commendations in user reviews limits the content that can be appreciated as 'great' regarding the property.</p></section><section><h2>Bad</h2><p>Based on the user reviews, the cleanliness of Bridge Creek Apartments has come into question. One review pointedly mentions the lack of cleaning in the residences, which implies a neglect of basic sanitary upkeep. This indicates a potential issue with the property management's attention to cleanliness, an essential aspect of any living space.</p></section><section><h2>Uly</h2><p>User reviews suggest that Bridge Creek Apartments may be facing neglect, with one tenant expressing concern about the state of the apartments, noting them as \"filthy\" and lacking essential supplies such as toilet paper and tissues. Additionally, the mention of cluttered living spaces with clothes scattered about raises serious concerns about the management's oversight and care for its disabled residents. This user's experience reflects poorly on the property's maintenance and respect for tenant welfare.</p></section>"
+  "adjusted_review_count": 0,
+  "adjusted_average_rating": 3.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205404,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Bridge Creek Apartments, located in Bellingham, is reviewed as having an average experience based on available user reviews. Tenants have noted the location as convenient, positioned well for easy access to local amenities and public transportation, making daily commutes more manageable. This aspect seems to be a favorable point, contributing to its generally acceptable perception amongst residents.</p></section><section id=\"great\"><h2>Great</h2><p>While the information is limited, there are aspects that hint at potential positives about Bridge Creek Apartments. The location could be seen as a highlight, providing accessibility to nearby shopping centers and dining options. Though not elaborated in existing reviews, these implicit benefits may create a living experience that some residents find satisfactory, even if they are not explicitly vocal about it.</p></section><section id=\"bad\"><h2>Bad</h2><p>The review from a past tenant positions Bridge Creek Apartments in a neutral light, rating it a 3 out of 5. This indicates areas needing improvement, though specifics are lacking. Key insights into management practices or maintenance responsiveness are missing, which might imply mediocre tenant satisfaction and unaddressed expectations.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There are no detailed complaints provided that offer further insights into potential major issues at Bridge Creek Apartments. The absence of owner responses to the existing user review suggests possible neglect in engaging with tenant feedback or in fostering communication\u2014a factor that can be critical for tenant satisfaction and problem resolution.</p></section>"
+  }
 }

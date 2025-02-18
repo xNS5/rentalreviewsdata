@@ -3,34 +3,47 @@
   "slug": "harvard-suites",
   "company_type": "Property",
   "address": "705-709 32nd St, Bellingham, WA 98225",
-  "review_count": 3,
-  "average_rating": 2.33,
+  "review_count": 4,
+  "average_rating": 2.0,
   "reviews": {
     "google_reviews": [
       {
         "author": "Tristin Day",
-        "rating": 1.0,
+        "rating": 1,
         "review": "some of the loudest neighbors i have ever lived with one of them plays the drums  and another dude plays basketball in the morning both usually in the am",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "David Sisson",
-        "rating": 1.0,
+        "rating": 1,
         "review": "8 months later and still havent got my security deposit back :/ reached out several times via phone, email, and renter portal.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Bim S",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Nice looking! Would love to see the inside and curious about the price.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Kody Scott",
+        "rating": 1,
+        "review": "",
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 3,
   "adjusted_average_rating": 2.33,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The property of Harvard Suites has, among its limited reviews, commendations for its aesthetic appeal. One user review highlights the property's visual charm, expressing an eager curiosity to see the interior and learn more about the pricing. This singular positive sentiment suggests that at first glance, Harvard Suites holds potential as an appealing residence for prospective tenants seeking a pleasant-looking living space.</p></section><section><h2>Great</h2><p>Despite the limited number of reviews, Harvard Suites does not have enough positive feedback to create a 'Great' section in this article. Without additional and more detailed positive experiences from users to report, it isn\u2019t possible to expand upon what makes Harvard Suites extraordinary beyond its initial visual impression.</p></section><section><h2>Bad</h2><p>The downside to Harvard Suites, as expressed in user reviews, includes considerable noise disturbances from neighbors. One tenant has reported experiencing some of the loudest neighbors they've ever lived with, detailing issues such as one playing the drums and another playing basketball, predominately in the morning hours. Such noise can significantly disrupt daily life and rest, indicating a potential oversight in the management's enforcement of community quiet hours or soundproofing measures.</p></section><section><h2>Ugly</h2><p>Amongst the grievances noted, the handling of security deposits by Harvard Suites appears to be at the forefront. A user review recounts an ongoing struggle to have their security deposit returned even 8 months post tenancy, with the former tenant having taken multiple attempts to contact the property management via phone, email, and the renter's portal, all to no avail. This issue points to severe deficiencies in financial administration and responsiveness from Harvard Suites' property management, leaving former tenants frustrated and financially inconvenienced.</p></section>"
+  "distribution": {
+    "1": 3,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205467,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, Harvard Suites receives some commendation for its aesthetic appeal. A few potential renters expressed admiration for the property's outward appearance, noting its attractive design. This indicates that the property management has taken some care in maintaining a visually pleasing exterior, which can be a significant factor for individuals searching for a new home. While specifics about interior conditions were not detailed, the curiosity expressed about the pricing suggests competitive or appealing rates might exist on offer.</p><p>In reviewing Harvard Suites, it's evident that these positive aspects are overshadowed by other issues discussed later, but the general interest in the property's look adds some brightness to its overall view. This interest hints that first impressions matter, and Harvard Suites manages to capture that positively with its external presentation.</p></section><section id=\"great\"><h2>Great</h2><p>Unfortunately, the reviews for Harvard Suites do not provide enough data to construct a section focused on great experiences beyond the initial satisfactory impressions noted in the earlier section. Despite the limited positive feedback, potential renters can take solace in the fact that the property's exterior and potential pricing are points of intrigue, suggesting it may have untapped potential if managed well.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews of Harvard Suites reveal significant concerns, particularly highlighting issues with noise and delays in security deposit returns. One review recounts living with exceptionally noisy neighbors, including one playing drums and another playing basketball during early morning hours. This scenario illustrates a management shortcoming in enforcing community living standards or addressing noise complaints, which can profoundly affect tenant satisfaction.</p><p>Moreover, another user's experience of waiting over eight months for the return of a security deposit, despite multiple attempts to contact the management, points to mismanagement in financial responsibilities. This lapse in financial management can erode tenant trust and satisfaction. Notably, there were no responses from the property management to address these concerns in the user reviews, suggesting a lack of engagement with tenant feedback.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most striking issue detailed in user reviews of Harvard Suites is the glaring lack of responsiveness from the property management. Given the absence of any responses from management to the severe complaints shared by users, it paints an alarming picture of neglect and dismissal of tenant experiences. Particularly, the absence of communication regarding financial duties, such as the return of security deposits, points to an ugly side of disorganized and neglectful management practices.</p><p>This complete lack of tenant engagement and resolution for reported issues not only sparks frustration but also fosters a hostile living environment for current and prospective tenants. When the fundamental components of property management, such as basic communication and responsiveness, are missing, it becomes evident that significant restructuring and strategy changes are necessary to meet tenant needs and improve the overall living experience at Harvard Suites.</p></section>"
+  }
 }

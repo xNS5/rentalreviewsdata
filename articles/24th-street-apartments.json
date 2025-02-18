@@ -1,0 +1,37 @@
+{
+  "name": "24th Street Apartments",
+  "slug": "24th-street-apartments",
+  "company_type": "Property",
+  "address": "1034 24th St, Bellingham, WA 98225",
+  "review_count": 2,
+  "average_rating": 4.5,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Lily Shilanski",
+        "rating": 4,
+        "review": "This is honestly a really good place to live for students. It's not listed as \"student housing\" but is probably better than the options that are actually for students.\n\nI noticed that only some units have dishwashers; mine does not, even though the pictures I was provided showed that there was one, so if you're particular about wanting a dishwasher I would make sure you ask which units have them.\n\nThe worst thing about this place is the laundry situation- we share it with Laurel Court. It's a small room with 3 washers and 3 dryers and they're all old, coin operated, and kind of suck.\n\nOverall, I would recommend this place! I've heard people in the past have had issues with PTLA but I never have. It's not perfect, but it's definitely a good fit for students.",
+        "owner_response": null
+      },
+      {
+        "author": "Brycen Tuck",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 4.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739205381,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights that 24th Street Apartments is a solid choice for students seeking a practical place to live. One user review appreciates that it offers better accommodations compared to designated student housing, which is often the primary consideration for many. Additionally, the location seems to be advantageous for its intended demographic. Despite a few inconveniences, residents recommend it as a reasonable option for students. Moreover, the general satisfaction reflected in the reviews suggests that the property management maintains a relatively satisfactory residential experience overall.</p></section><section id=\"great\"><h2>Great</h2><p>A standout feature of the property highlighted in the article is its suitability for student living. While it is not explicitly marked as student housing, user reviews suggest it surpasses officially designated student facilities, providing a preferable living environment. The overall high ratings depict contentment with the property management\u2019s efforts, indicating that residents experience a comfortable and satisfying lifestyle at 24th Street Apartments.</p></section><section id=\"bad\"><h2>Bad</h2><p>In this article, some drawbacks were noted, particularly concerning the amenities provided. One user review pointed out the inconsistency in the availability of dishwashers across the units, which could be misleading based on initial impressions. Furthermore, the outdated laundry facilities, shared with a neighboring property, were described as inconvenient due to their limited capacity and coin-operated nature. These aspects, although not deal-breakers, can cause inconvenience and merit consideration for potential renters.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>While generally positive, the user reviews do bring to light some significant issues that future tenants might face. The lack of clarity regarding unit amenities, like dishwashers, leads to dissatisfaction and the shared, poorly maintained laundry facilities are seen as a major downside. Despite these concerns, there are no detailed negative interactions with the property management team highlighted in the reviews, suggesting that most grievances stem from inadequate facilities rather than neglectful management.</p></section>"
+  }
+}

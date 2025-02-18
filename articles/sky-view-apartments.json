@@ -3,46 +3,59 @@
   "slug": "sky-view-apartments",
   "company_type": "Property",
   "address": "1800 Texas St, Bellingham, WA 98229",
-  "review_count": 5,
-  "average_rating": 3.6,
+  "review_count": 6,
+  "average_rating": 3.83,
   "reviews": {
     "google_reviews": [
       {
         "author": "Teasa B",
-        "rating": 2.0,
+        "rating": 2,
         "review": "Wasn't the best or safest place to live. My husband and I lived in a front apartment and had very few problems with our neighbors, none after the one got evicted. I had very kind and chatty neighbors and I actually miss them now that we've moved. My suggestion is to take pictures of everything and stay in top of complaints. Our apartment started growing mold despite our efforts and money put into trying to clean and kill it. We complained and asked for help to get rid of the mold. When nothing happened and it continued to grow we found out I was pregnant and we decided to move out to somewhere safer.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joseph",
-        "rating": 3.0,
+        "rating": 3,
         "review": "No problems with management or maintenance, as all employees are very charming and genuine people. Complaints and maintenance are dealt with in good time.\n\nOur issue is the residents. Over the time my boyfriend and I have been here, we've been called homophobic slurs late at night by drunk tenants, walked in on multiple times in our own livingroom by somebody wanting to buy drugs, witnessed domestic violence bi-monthly, stalked, harassed, almost robbed, and noises and screaming don't even phase us anymore it's so common.\n\nThe appliances are old and dirty, but it's a cheap place so we can't ask for the world. They allow pets which is nice, but the old tenant's fleas stuck around, which our cat didn't appreciate much... being a cat. Always strange people lurking about. Most likely someone selling something in a unit.\n\nI wouldn't recommend moving here unless you're desperate for a roof over your head as we were. It's cheap, warm, and flexible. No laundry, but good places nearby. Bus stops close-by every 15 minutes as well. If you do move here, just stick to yourself. The residents aren't worth getting involved with.\n----------------------\nUPDATE 2/7/19:\nMoved out a bit ago to Bellevue for school. Since this review was written, the neighborhood cleaned up, and I believe they installed a laundry room to be shared by tenants. Rent also increased as per the usual gentrification of Washington continues.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Maria Dalzot",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
       },
       {
         "author": "Shattersphere",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jenna Kennedy",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jerry Franklin",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 2,
   "adjusted_average_rating": 2.5,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Residents of Sky View Apartments have found some aspects of their stay to be pleasant. User reviews mention amiable and communicative neighbors, emphasizing a sense of community among some tenants. Positive interactions with the property staff are highlighted as well, with management and maintenance teams described as charming and genuine, and generally responsive to the needs of the residents. This indicates that, on a personal level, the staff is capable of providing a welcoming environment.</p><p>In addition to the amiable staff, some upgrades to the property have been made over time, such as the installation of a shared laundry room, contributing to an improved living experience. Also, the locality has benefits like good bus connectivity with stops close by, operating every 15 minutes, offering convenience to the residents in terms of transport. Such amenities are essential for a comfortable urban living experience and seem to be appreciated by the tenants.</p></section><section><h2>Great</h2><p>Fortunately, there have been periods when the community has experienced improvements, possibly due to management interventions. Updates from a user review mentioned that the neighborhood around Sky View Apartments had cleaned up, which could signify increased attention to the residents' quality of life and proactive measures taken by the property management to address earlier issues. Also, despite the past complaints, some tenants had very few problems with their immediate neighbors, which might reflect an overall amicable resident population or successful conflict resolution processes.</p><p>Rent flexibility and the allowance of pets stand out as advantageous policies at Sky View Apartments. These features demonstrate an approach to accommodate the diverse needs of tenants, making the property accessible to those with stringent budget constraints or beloved animal companions. Additional amenities that support essential living needs, although basic, are mentioned and seem to be a part of what Sky View Apartments deems as an important offering to its residents.</p></section><section><h2>Bad</h2><p>However, not all resident experiences at Sky View Apartments have been positive. One considerable concern raised in user reviews is related to the condition of the apartments, with problems such as mold growth despite efforts from tenants to resolve the issue. When the management was alerted about such problems, the response was lacking, leading to the decision of some residents to vacate for safer living conditions. Maintenance issues appear to be a recurring theme, with complaints not always addressed promptly or effectively.</p><p>Appliances provided by the property have also been described as old and dirty, which suggests a potential neglect in updating and maintaining the units to a higher standard. Such issues could directly impact the daily living experiences of tenants and possibly deter prospective residents. It appears that while the property does offer the basics needed for habitation, it may fall short in ensuring all aspects of the apartments meet desirable standards of cleanliness and functionality.</p></section><section><h2>Ugly</h2><p>The darker side of life at Sky View Apartments comes from some alarming experiences shared by tenants in user reviews. Incidents of homophobia, harassment, stalking, and frequent disturbances from other residents have been mentioned, painting a picture of a sometimes hostile and unsafe living environment. Reports of problematic behaviors, such as residents being approached for drug purchases, further contribute to this negative image. Despite some attempts at resolving these issues, it is clear that significant challenges remain in establishing a consistently peaceful and secure community atmosphere.</p><p>There is also an impression that the broader tenant population might contain individuals engaging in unsavory activities that can cause discomfort or pose risks to others. Former tenants have advised against becoming involved with certain residents, suggesting an underlying tension or mistrust within the community. Such experiences are severely detrimental to the reputation of Sky View Apartments and hint at a systemic problem that requires more robust interventions from the property management to ensure tenant safety and well-being.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205592,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Sky View Apartments offer a few favorable attributes as highlighted by some user reviews. A notable positive aspect is the charming and genuine demeanor of the management and maintenance staff, who were commended for addressing issues and requests promptly. This reliability ensures that tenants feel their concerns are heard, contributing to a more comfortable living experience. Additionally, the location's affordability and pet-friendly policy make it an attractive option for tenants who need such accommodations.<br>Moreover, the convenience of transportation is another plus for Sky View Apartments. With bus stops nearby and additional local amenities such as nearby laundry facilities, residents find the location practical and accessible for daily commuting or errands. These conveniences reflect well on the property management's awareness of tenant needs, making the apartments a viable option for budget-conscious renters despite some of the building's dated amenities.</p></section><section id=\"great\"><h2>Great</h2><p>While not every review delves into detail, the Sky View Apartments receive high marks, with multiple reviewers awarding them four to five stars. These high ratings suggest a level of satisfaction that may encompass various elements of the living experience, including the positive aspects of management and community improvements.<br>The management\u2019s efforts to upgrade the neighborhood, as noted in an update by a former tenant, reflect a commitment to providing a safer and more enjoyable living environment. Installation of a communal laundry room is an example of responding to tenant needs, adding convenience directly to the complex. These steps have likely played a role in buoying some user ratings and should be recognized as positive developments for potential tenants considering this property.</p></section><section id=\"bad\"><h2>Bad</h2><p>However, not all feedback about Sky View Apartments is glowing. Some reviewers have raised valid concerns about the safety and overall condition of the property. A former resident recounted experiencing mold problems in their unit, which were reported to management but not addressed adequately. This lack of action from management led them to move out in search of a healthier living environment.<br>Additionally, another user review characterizes the resident community as problematic, with incidents of harassment and misbehavior cited as common occurrences. While management and maintenance seem diligent and friendly, the challenges posed by the environment and some residents can detract significantly from the living experience. Such issues may deter potential tenants concerned about safety and community standards.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>While there is no extreme criticism of Sky View Apartments, the combined impact of reported issues presents a concerning picture. The failure to adequately deal with significant problems like mold fosters an environment that some tenants found untenable, especially for those with vulnerable health situations such as pregnancy. Safety concerns stemming from tenant behavior add another layer of difficulty that can compromise the sense of security that residents expect.<br>These compounding issues highlight a disparity between management\u2019s intended operations and the lived reality for some tenants. The absence of management responses to user reviews is troubling, showing a potential disregard for feedback that could be used to improve tenant experiences. This disconnect undermines efforts to enhance the facility, potentially overshadowing improvements made in other areas.</p></section>"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "base_url":"https://bhamrentalreviews.com",
+    "base_url":"https://bhamrentalreviews.com",
     "db_config": {
       "test": "firebase_staging_certificate.json",
       "production": "firebase_certificate.json"
@@ -20,8 +20,7 @@
                 "company_type",
                 "review_count",
                 "average_rating",
-                "adjusted_average_rating",
-                "timestamp"
+                "adjusted_average_rating"
               ]
             },
             "collection_keys": {
@@ -62,8 +61,8 @@
         }
     ],
     "google_config": {
-        "queries": [
-            {
+        "queries": {
+          "companies":  {
                 "query": "property management companies in whatcom county",
                 "url": "https://www.google.com/maps/@48.545241,-122.2509158,10.41z?entry=ttu",
                 "selectors": {
@@ -93,7 +92,7 @@
                   },
                   "reviews_button": {
                     "by": "xpath",
-                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]/div[2]"
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]"
                   },
                   "reviews_scrollable": {
                     "by": "xpath",
@@ -101,7 +100,7 @@
                   }
                 }
               },
-              {
+          "properties":  {
                 "query": "apartment complexes in whatcom county",
                 "url": "https://www.google.com/maps/@48.545241,-122.2509158,10.41z?entry=ttu",
                 "selectors": {
@@ -118,8 +117,8 @@
                     "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/span/span/button"
                   },
                   "location": {
-                    "by": "xpath",
-                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[7]/div[3]/button/div/div[2]/div[1]"
+                    "by": "css_selector",
+                    "selector": ".Io6YTe.fontBodyMedium.kR99db.fdkmkc"
                   },
                   "review_count": {
                     "by": "xpath",
@@ -131,7 +130,7 @@
                   },
                   "reviews_button": {
                     "by": "xpath",
-                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]/div[2]"
+                    "selector": "//*[@id='QA0Szd']/div/div/div[1]/div[3]/div/div[1]/div/div/div[2]/div[3]/div/div/button[2]"
                   },
                   "reviews_scrollable": {
                     "by": "xpath",
@@ -139,7 +138,7 @@
                   }
                 }
               }
-        ],
+        },
         "custom": {
             "selectors": {
               "company_title": {
@@ -211,13 +210,15 @@
         "Commercial real estate agency": "Company",
         "Real estate rental agency": "Company",
         "Real estate agency": "Company",
+        "Real estate Agent": "Company",
         "Short term apartment rental agency": "Company",
         "Apartment building": "Property",
         "Apartment complex": "Property",
         "Apartment rental agency": "Property",
         "Furnished apartment building": "Property",
         "Housing complex": "Property",
-        "Student housing center": "Property"
+        "Student housing center": "Property",
+        "Townhouse complex": "Property"
     },
     "company_map": {
         "yelp": {
@@ -231,8 +232,9 @@
             "pomeroy-court-appartments": "pomeroy-court-apartments",
             "stateside-bellingham": "stateside",
             "sunset-pond-apts": "sunset-pond-apartments",
-            "windermere-property-management": "windermere-property-management-bellingham",
-            "woodrose-senior-affordable-apartments": "woodrose-apartments"
+            "windermere-management-by-ebright-wight": "windermere-property-management-bellingham",
+            "woodrose-senior-affordable-apartments": "woodrose-apartments",
+            "olympic-management": "olympic-management-company"
         },
         "google": {
             "access-real-estate-services-llc": "access-real-estate-services",
@@ -245,8 +247,9 @@
             "pomeroy-court-apartments": "pomeroy-court-appartments",
             "stateside": "stateside-bellingham",
             "sunset-pond-apartments": "sunset-pond-apts",
-            "windermere-property-management-bellingham": "windermere-property-management",
-            "woodrose-apartments": "woodrose-senior-affordable-apartments"
+            "windermere-property-management-bellingham": "windermere-management-by-ebright-wight",
+            "woodrose-apartments": "woodrose-senior-affordable-apartments",
+            "olympic-management-company": "olympic-management"
         }
     },
     "company_blacklist": [
@@ -262,12 +265,35 @@
         "liz-standow-bellingham-real-estate",
         "matt-mcbeathexp-realty",
         "sean-ryan-nexthome-northwest-living",
-        "vanessa-parry-bellwether-real-estate"
+        "vanessa-parry-bellwether-real-estate",
+        "aimee-slesk",
+        "cerise-noah-windermere-real-estate",
+        "jerry-swann-best-choice-realty",
+        "julian-company-muljat-group",
+        "kc-coonc-north-sound-commercial",
+        "ronda-karn-bellingham-homes-for-sale-favorite-realtor-for-whatcom-skagit-county",
+        "joell-byrnes-kuoppala-whatcom-county-real-estate-broker",
+        "nw-living-group-exp-realty"
+    ],
+    "phrase_blacklist": [
+      "remax",
+      "keller-williams",
+      "ed-finlan",
+      "don-enos",
+      "muljat",
+      "broker",
+      "brokers",
+      "ronda-karn"
     ],
     "disclaimer": {
         "pure-property-management-of-washington":"Pure Property Management of Washington is relatively new to the Bellingham area, having acquired Son-Rise Property management. It is unclear whether Son-Rise simply rebranded, or whether PURE replaced property managers with their own.",
         "apex-property-management":"Apex Property Management was acquired by the San Francisco-based PTLA in early 2020. Apex's Yelp page indicates that they are officially closed, and their website redirects to PTLA's website. It is unclear whether Apex simply rebranded under PTLA or if they cleaned house after the acquisition.",
-        "sonrise-property-management": "Son-Rise Property Management was acquired by the California-based PURE Property management sometime between 2020 and 2023. It is unclear whether Son-Rise simply rebranded under PURE or if PURE replaced existing management with their own."
+        "sonrise-property-management": "Son-Rise Property Management was acquired by the California-based PURE Property management sometime between 2020 and 2023. It is unclear whether Son-Rise simply rebranded under PURE or if PURE replaced existing management with their own.",
+        "elwood-edge-apartments": "Elwood Edge Apartments was rebranded to \"The Calypso\". Please see the relevant page for up to date reviews and information.",
+        "follis-realty": "Follis Realty is permanently closed as of February 2025.",
+        "rent-lady": "[The] Rent Lady is officially retired as of October 2024.",
+        "gray-property-management": "Gray Property Management is permanently closed.",
+        "triple-rock-apartments": "Triple Rock Apartments was rebranded to \"The Calypso South Apartments\". Please see the relevant page for up to date reviews and information"
     },
     "file_paths": {
       "parent_path": "data",

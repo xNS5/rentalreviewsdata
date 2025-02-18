@@ -9,22 +9,30 @@
     "google_reviews": [
       {
         "author": "John Hamilton",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Follis Reality is my property manager and they couldn't be any better!! 5+ stars.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joel Ryan",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 1,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The positive perception of Follis Realty LLC is quite clear, as evidenced by the company's average rating of 5.0, based on user reviews. Clients have experienced consistent satisfaction with the service provided, which hints at a strong commitment to quality and customer care.</p><p>Although the number of reviews is limited, it is worth noting that each review holds significant weight when it's a full five stars. Such a rating suggests that Follis Realty LLC has managed to exceed the expectations of their clients in several key areas of property management.</p></section><section><h2>Great</h2><p>One user review explicitly commends Follis Realty LLC as an exceptional property manager, stating that they \"couldn't be any better\" and assigning them a rating well above the typical five stars. This enthusiastic endorsement highlights the company's dedication and effectiveness in managing properties, leaving a lasting positive impression on their clientele.</p><p>Given the company's perfect score, which remains consistent even after adjustments, it's clear that client satisfaction is at the forefront of their business model. Such exemplary service could include dynamic communication, meticulous attention to property conditions, and overall smooth management operations.</p></section><section><h2>Bad</h2><p>Despite the glowing reviews, the article's intent is to present a well-balanced viewpoint. As such, it is essential to acknowledge that with only a couple of reviews available for Follis Realty LLC, the dataset is too limited to draw a comprehensive picture of any potential issues or shortcomings within the company's practices.</p><p>Without further user reviews detailing specific grievances, the article cannot adequately reflect on any negative aspects of the client experience with Follis Realty LLC. This absence of critical feedback does not imply non-existence but suggests that if there are any areas of improvement, they have not been significantly highlighted by clients thus far.</p></section><section><h2>Ugly</h2><p>The lack of detailed negative user reviews provides Follis Realty LLC with an aesthetically favorable position. However, this lack of data does leave potential clients with less insight into how the company handles criticisms or challenging situations. Without visibility into how they manage disputes or service hiccups, the reliability of their customer service during less-than-ideal situations cannot be assessed from the reviews.</p><p>This article must note the absence of accounts describing experiences that could be categorized as \"ugly,\" apart from the limited number of reviews. It's possible that more extensive feedback could reveal areas of concern, but as of the knowledge cutoff, Follis Realty LLC benefits from a spotless public image in the digital domain.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1725642000,
+    "disclaimer": "Follis Realty is permanently closed as of February 2025.",
+    "text": "<section><h2>Good</h2><p>The positive perception of Follis Realty LLC is quite clear, as evidenced by the company's average rating of 5.0, based on user reviews. Clients have experienced consistent satisfaction with the service provided, which hints at a strong commitment to quality and customer care.</p><p>Although the number of reviews is limited, it is worth noting that each review holds significant weight when it's a full five stars. Such a rating suggests that Follis Realty LLC has managed to exceed the expectations of their clients in several key areas of property management.</p></section><section><h2>Great</h2><p>One user review explicitly commends Follis Realty LLC as an exceptional property manager, stating that they \"couldn't be any better\" and assigning them a rating well above the typical five stars. This enthusiastic endorsement highlights the company's dedication and effectiveness in managing properties, leaving a lasting positive impression on their clientele.</p><p>Given the company's perfect score, which remains consistent even after adjustments, it's clear that client satisfaction is at the forefront of their business model. Such exemplary service could include dynamic communication, meticulous attention to property conditions, and overall smooth management operations.</p></section><section><h2>Bad</h2><p>Despite the glowing reviews, the article's intent is to present a well-balanced viewpoint. As such, it is essential to acknowledge that with only a couple of reviews available for Follis Realty LLC, the dataset is too limited to draw a comprehensive picture of any potential issues or shortcomings within the company's practices.</p><p>Without further user reviews detailing specific grievances, the article cannot adequately reflect on any negative aspects of the client experience with Follis Realty LLC. This absence of critical feedback does not imply non-existence but suggests that if there are any areas of improvement, they have not been significantly highlighted by clients thus far.</p></section><section><h2>Ugly</h2><p>The lack of detailed negative user reviews provides Follis Realty LLC with an aesthetically favorable position. However, this lack of data does leave potential clients with less insight into how the company handles criticisms or challenging situations. Without visibility into how they manage disputes or service hiccups, the reliability of their customer service during less-than-ideal situations cannot be assessed from the reviews.</p><p>This article must note the absence of accounts describing experiences that could be categorized as \"ugly,\" apart from the limited number of reviews. It's possible that more extensive feedback could reveal areas of concern, but as of the knowledge cutoff, Follis Realty LLC benefits from a spotless public image in the digital domain.</p></section>"
+  }
 }

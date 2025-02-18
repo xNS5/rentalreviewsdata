@@ -3,11 +3,12 @@
   "title": "Reviews",
   "type": "page",
   "description": "Rental Reviews Data",
-  "filter_props": [
-    {
+  "filter_props": {
+    "company_type": {
       "title": "Company Type",
       "key": "company_type",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "string",
       "comparison": "===",
       "style": {
         "alt": {
@@ -18,7 +19,7 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+      "options": [
         {
           "title": "Company",
           "value": "Company",
@@ -31,17 +32,19 @@
         }
       ]
     },
-    {
+    "name": {
       "title": "name",
       "key": "name",
-      "type": "",
+      "component_type": "",
+      "data_type": "string",
       "comparison": "includes",
       "shouldRender": false
     },
-    {
+    "average_rating":   {
       "title": "Average Rating",
       "key": "average_rating",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "int",
       "comparison": ">=",
       "style": {
         "alt": {
@@ -52,33 +55,39 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+      "options": [
         {
           "title": 1,
+          "value": 1,
           "key": 1
         },
         {
           "title": 2,
+          "value": 2,
           "key": 2
         },
         {
           "title": 3,
+          "value": 3,
           "key": 3
         },
         {
           "title": 4,
+          "value": 4,
           "key": 4
         },
         {
           "title": 5,
+          "value": 5,
           "key": 5
         }
       ]
     },
-    {
+    "adjusted_average_rating":  {
       "title": "Adjusted Average Rating",
       "key": "adjusted_average_rating",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "int",
       "comparison": ">=",
       "style": {
         "alt": {
@@ -89,33 +98,39 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+       "options": [
         {
           "title": 1,
+          "value": 1,
           "key": 1
         },
         {
           "title": 2,
+          "value": 2,
           "key": 2
         },
         {
           "title": 3,
+          "value": 3,
           "key": 3
         },
         {
           "title": 4,
+          "value": 4,
           "key": 4
         },
         {
           "title": 5,
+          "value": 5,
           "key": 5
         }
       ]
     },
-    {
+    "review_count":  {
       "title": "Review Count",
       "key": "review_count",
-      "type": "select",
+      "component_type": "select",
+      "data_type": "int",
       "comparison": ">=",
       "style": {
         "alt": {
@@ -126,28 +141,91 @@
         "postfix": ""
       },
       "shouldRender": true,
-      "value": [
+      "options": [
         {
           "title": 10,
+          "value": 10,
           "key": 10
         },
         {
           "title": 20,
+          "value": 20,
           "key": 20
         },
         {
           "title": 30,
+          "value": 30,
           "key": 30
         },
         {
           "title": 40,
+          "value": 40,
           "key": 40
         },
         {
           "title": 50,
+          "value": 50,
           "key": 50
         }
       ]
     }
-  ]
+  },
+  "sort_props": {
+    "valid_keys": [
+      "column",
+      "direction"
+    ],
+    "sort_labels": {
+      "column": {
+        "label": "Sort Column",
+        "aria_label": "column name dropdown"
+      },
+      "direction": {
+        "label": "Sort Direction",
+        "aria_label": "sort direction dropdown"
+      }
+    },
+    "column": [
+      {
+        "key": "name",
+        "value": "name",
+        "title": "Name"
+      },
+      {
+        "key": "company_type",
+        "value": "company_type",
+        "title": "Company Type"
+      },
+      {
+        "key":  "average_rating",
+        "value": "average_rating",
+        "title": "Average Rating"
+      },
+      {
+        "key": "adjusted_average_rating",
+        "value": "adjusted_average_rating",
+        "title": "Adjusted Average Rating"
+      },
+      {
+        "key":  "review_count",
+        "value": "review_count",
+        "title": "Review Count"
+      }
+    ],
+    "direction": [
+      {
+        "key":  "ascending",
+        "value": "ascending",
+        "title": "Ascending"
+      },
+      {
+        "key":"descending",
+        "value": "descending",
+        "title": "Descending"
+      }
+    ]
+  }
 }
+
+
+

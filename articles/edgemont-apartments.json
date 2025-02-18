@@ -3,144 +3,159 @@
   "slug": "edgemont-apartments",
   "company_type": "Property",
   "address": "3420 W McLeod Rd, Bellingham, WA 98225",
-  "review_count": 21,
-  "average_rating": 3.0,
+  "review_count": 22,
+  "average_rating": 3.05,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Drasset",
+        "rating": 5,
+        "review": "I've lived here 8 months under the new management and have had only happy things to say. I rarely review but felt this needed to be said. The new managers are amazing and there are even little events they host to try to get to know everyone. The management know me by name. They are really fixing up the place!",
+        "owner_response": {
+          "text": "We're so happy you're happy, Drasset! We definitely hoped putting a concierge desk in the lobby would allow us to provide our residents with next level service, and it sounds like it's working! As always, let us know if you ever need anything at all."
+        }
+      },
+      {
         "author": "Heather",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Apex is now PTLA and ever since they bought this property it has been grossly mismanaged. The beautiful trees that made living here bareable were butchered last year or cut down altogether. There is constantly barking dogs despite complaints and trash everywhere. This used to be a well maintained property with an on site manager, but now I'm lucky if I get a response through email or maintenance tickets. I never wanted to live where Apex owned, now my family has to move again. There is so much more to write....",
-        "ownerResponse": {
+        "owner_response": {
           "text": "As of last week, the property is now managed by Gather Property Management, and we are really looking forward to addressing the things you mentioned, so that Edgemont is a place you are happy to call home. We have opened the on-site leasing office, so we will be regularly available to you. The property has such a lovely setting, and the floor plans of the apartments are so spacious. We are immediately focusing on things like keeping up the garbage areas daily, tending to the pet waste stations, and making sure that your maintenance requests are handled timely. The new fitness center will be opening soon, and there will be more amenities to come for our residents at no additional cost. If you have any other suggestions or concerns, please bring them to us in the office. We look forward to getting to know you!"
         }
       },
       {
-        "author": "Teasa B",
-        "rating": 3.0,
-        "review": "There's a lot of upgrading happening here at the moment. Sometimes it's noisy. The \"Club House\" has been unusable for about a year. They're working on it but no ETA. Pet friendly apartment. You will hear dogs! (I don't mind but someone might.)\n\nI've noticed the people tend to stay to themselves, but will usually throw out some small talk. There are a considerable amount of kids and new families. Mostly it's a quiet and peaceful place surrounded by trees. I hear birds outside my door everyday. We can sometimes hear the planes go by overhead since we are close to the airport. If you're in the back theres a... factory (?) that makes noise, I don't really notice but my husband has made comments about it. I like how close we are to the freeway and stores while also still feeling out of the way. Parking is crazy compact, it's also all assigned and guests are supposed to park on the street, but usually don't.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Z K C",
-        "rating": 1.0,
-        "review": "Dogs Barking at Night has gotten better. Trash is Everywhere. If you smoke here please try to pick up ur cigarette filters and garbage plz. Dogs do bark constantly during the day. If you have a dog please find a way to keep them entertained especially for puppies. Parking space is tight sometimes vehicles get bumped.",
-        "ownerResponse": null
-      },
-      {
         "author": "Rose Carmen",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Don't rent here unless you want to live in a place that goes neglected.  PTLA took over mgmt of this property in Feb and they are running the place down. It is the middle of June and they have not sent anyone out to maintain the lawn. The grass is taller than my dog and in some places it is taller than my son who is 5'10\".\n\nTrash is a problem here too. I have seen trash that has been laying around since November. PTLA is aware of the problem because myself and others call weekly but they refuse to do anything about it. We are also supposed to have an on-site property manager and yet we have not had one in 5 mos. The office should send someone once a week to deal with issues here. Lawn maintenance, trash pickup, and on-site manager are things that are supposed to be included in our rent. These things have been neglected and yet we are still paying the same amount of money.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Erin Mccauley",
-        "rating": 1.0,
+        "rating": 1,
         "review": "DO NOT RENT!!!!! First off, this company refuses to do any communication by email so they have no paper trail of any of their promises or issues. Red flag. Secondly, they will not tell you that half of the buildings back up to a large industrial site that starts it machinery at 6 am every day, even weekends. Lastly, when we tried to break our lease during the pandemic due to needing to financially help family, we spoke to Rea, the property manager (we emailed her first to get this in writing, but the only way she would actually talk to us was on the phone) and she told us we would need to forfeit our deposit, which we expected and were ok with, but also pay a $375 cleaning fee, which we decided was ok as well.   A few days later, the new maintenance man cornered me alone in the mail room (I am a 24 year old woman) and told me he knew what apartment I was in and interrogated me about the state of the carpets as he would be moving into that unit when we vacated. This was a scary and unsettling experience.\nOnce we finally moved out, we got a call stating that we needed to pay the next month's rent as they could not get the carpets cleaned in time to rent it. We had given ample notice and agreed to the initial fees.\nThese were not new carpets and it was their employee moving into this unit, not a tenant. They knew we would not be able to take them to court or fight this so we did just have to eat the charge as they were threatening us with collections. They took advantage of a young couple during a global pandemic and grossly extorted us for money they had verbally promised us was not expected. Not worth the hassle for overpriced, shoddily built apartments.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jessica",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Ive really enjoyed living here so far. This is the best apartment complex Ive ever lived in. The property is well maintained. Ra (the property manager) and Jordan (in charge of maintenance) are always very communicative and helpful. If I ever have an issue with something they are very responsive and attentive. I feel cared for and taken care of!",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Z K C",
+        "rating": 1,
+        "review": "Dogs Barking at Night has gotten better. Trash is Everywhere. If you smoke here please try to pick up ur cigarette filters and garbage plz. Dogs do bark constantly during the day. If you have a dog please find a way to keep them entertained especially for puppies. Parking space is tight sometimes vehicles get bumped.",
+        "owner_response": null
       },
       {
         "author": "Carter Fuehr-Bush",
-        "rating": 5.0,
+        "rating": 5,
         "review": "The place changed ownership just before we signed our lease in September, and there haven't been any issues so far. Our unit was in great condition, the place is clean, laundry machines work, great location, friendly manager, etc.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jake Widener",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Some friends just moved here from Utah the place looks really nice but no guest parking and there is always someone else in his reserved parking space",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "ed rod",
-        "rating": 5.0,
+        "author": "Edgar Rodriguez Balderas",
+        "rating": 5,
         "review": "Little hidden community with great neighbors. Management really trying to improve things up.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Alfred Fleming",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Older, quiet apartments.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joe Busch",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Edgy complex",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "B. Nichole",
-        "rating": 1.0,
+        "rating": 1,
         "review": "Hattee Hatie Hate ",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Teasa B",
+        "rating": 2,
+        "review": "",
+        "owner_response": null
       },
       {
         "author": "Stefan Carlsen",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "cassie w",
-        "rating": 4.0,
+        "author": "Cassie W",
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Melinda",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Rozi Sandhu",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kev",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Tabitha Collmann",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Joy Richmond",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Blanca Ortega",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "johnny gaona",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 12,
-  "adjusted_average_rating": 2.58,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The Edgemont Apartments have some positives that have made life enjoyable for its residents. Some user reviews speak favorably of the property\u2019s location, describing it as peacefully surrounded by trees and noting the pleasure of hearing birds outside their doors. The location also provides the convenience of being close to both nature and necessary amenities. Additionally, residents appreciate the pet-friendliness of the community, highlighting that it is a place where their furry friends are welcome.</p><p>There are residents who commend the responsiveness and helpfulness of certain management personnel. One user review mentioned how the property manager and maintenance staff had been very communicative and attentive, swiftly addressing any issues that arose. This indicates that there can be a sense of care and commitment shown by some of the management team toward their residents, which is a vital aspect of property management.</p></section><section><h2>Great</h2><p>Some residents have noticed efforts to upgrade and maintain the property, which they view positively. Newly assigned property management has outlined intentions to attend to issues such as pet waste stations, trash maintenance, and timely handling of maintenance requests. Their communication also indicates future amenities for residents at no extra cost, such as a new fitness center. Such factors signify a dedication to improve and enhance the quality of living at the Edgemont Apartments.</p><p>At Edgemont Apartments, good experiences are sometimes characterized by the living conditions and practices implemented by previous management. For example, users have reported that some apartments are well-maintained, clean, and that laundry machines function effectively. Positive accounts from residents about the current state of their units and the property demonstrate the potential for a satisfying living experience when addressed by an engaged and effective management team.</p></section><section><h2>Bad</h2><p>However, not all experiences with the management at Edgemont Apartments have been positive. There have been repeated mentions of property neglect, such as the grass being taller than some residents' children or dogs due to inadequate maintenance. Furthermore, trash buildup has been a recurring complaint, with residents indicating that management has been aware but unresponsive to the problem. A user review expressed frustration over these issues, stating that despite paying full rent, the included services such as lawn care and trash collection were not being provided.</p><p>Some residents have also reported dissatisfaction with the onsite amenities and the mismanagement of them. For example, one mentioned that the \"Club House\" had been unusable for a significant amount of time, with no set date for its reopening. Along with this, noise issues have been a common thread in user reviews, as residents face disruption due to ongoing upgrades and the proximity to an industrial site that operates early in the morning, even on weekends.</p></section><section><h2>Ugly</h2><p>The ugly aspects of Edgemont Apartment reviews reveal some alarming management behaviors and property conditions. One specific event detailed by a former tenant included an unsettling encounter with a new maintenance staff member, who allegedly pressured them about the conditions of their unit in a confrontational manner. Additionally, there are claims of coercion during the pandemic, with a couple reporting they were forced to pay unexpected fees and rent after moving out, even after a verbal agreement with the property manager.</p><p>Communication with the management team has also been a sore point for many, with residents feeling ignored or encountering delays in responses to their concerns. Lack of transparency appears to be a prevailing issue, as highlighted by the criticism of one tenant who was dismayed by the company's reluctance to communicate via email, presumably to avoid leaving a paper trail. Such experiences suggest a pattern of inadequate management and questionable practices that significantly impact the well-being and trust of the residents.</p></section>"
+  "adjusted_average_rating": 2.75,
+  "distribution": {
+    "1": 8,
+    "2": 1,
+    "3": 2,
+    "4": 4,
+    "5": 7
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205437,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Edgemont Apartments has garnered positive feedback from some residents who appreciate the efforts made by the management to maintain a friendly community atmosphere. One resident highlighted their enjoyable stay, noting that both the property manager and maintenance staff were attentive and made them feel cared for, which enhanced their living experience. Furthermore, another user praised the newly improved management team for their communicative nature and dedication to organizing social events that help bring residents together, fostering a sense of community.</p><p>The property\u2019s hidden and serene location is also a frequently mentioned benefit. A resident appreciated Edgemont Apartments as a well-maintained property with quiet surroundings, which some find ideal for a peaceful living environment. New management appears to be committed to property improvements, with reports of clean units and functioning amenities, such as laundry facilities, adding to the overall satisfaction of residents.</p></section><section id=\"great\"><h2>Great</h2><p>Several residents have notably commended the management changes that have recently occurred, which have vastly enhanced their experience. A particular review noted that the new managers not only knew residents by name but also regularly interact through community events, creating a welcoming and personable environment. Another user was pleased with the state of their apartment and amenities upon moving in, expressing relief at not having encountered any issues during their initial stay, reflecting positively on the management's efficacy.</p><p>A recurring theme among favorable reviews is the responsiveness and friendliness of the management team. Residents have singled out specific staff members who have left lasting positive impressions with their professionalism and willingness to address concerns promptly. This affirmation of a supportive management team adds substantial value to the property, making Edgemont a recommended choice for those seeking attentive service in an apartment complex.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite some positive sentiments, there are numerous reviews pointing out recurring issues at Edgemont Apartments. A common grievance revolves around inadequate maintenance and the property's general state of disrepair under previous management. One resident recalled the frustration with the management's failure to address basic upkeep, such as lawn maintenance and trash collection, which tarnished their living experience.</p><p>Another troubling aspect brought to light is the lack of effective communication from the management team. Residents have reported difficulties with getting timely responses to maintenance requests and emails, adding a layer of frustration to their daily life. What's more, some mentioned the inconvenience caused by noise from nearby industrial sites, which was unknown to them prior to moving in, indicating a transparency issue during the leasing process.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most concerning reviews of Edgemont Apartments describe severe mismanagement and unprofessional behavior. One tenant reported an unsettling encounter with a maintenance person, which raised serious safety concerns. This incident, coupled with the lack of official written communication agreements, highlighted the troubling dynamics between tenants and management, according to one user's account.</p><p>Some reviews also detailed unfortunate financial strains experienced by tenants, particularly during challenging times like the pandemic. One particular case involved tenants being unfairly charged fees despite prior verbal agreements to the contrary, leading to a sense of exploitation and distress. Such experiences reflect poorly on the management practices in place and underscore why certain residents have been strongly disillusioned with living at Edgemont Apartments.</p></section>"
+  }
 }

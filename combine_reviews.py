@@ -2,14 +2,31 @@ import json
 import os
 import utilities
 
-def getPrefix(input, delimiter):
+def get_prefix(input, delimiter):
      return input.split(delimiter)[0]
 
 file_paths = utilities.get_file_paths()
 
-output_path = f"{file_paths['parent_path']}/{file_paths['merged']}"
-google_path = f"{file_paths['parent_path']}/{file_paths['google']}"
-yelp_path = f"{file_paths['parent_path']}/{file_paths['yelp']}"
+output_path = f"{file_paths['parent_path']}/{file_paths['merged']}/"
+google_path = f"{file_paths['parent_path']}/{file_paths['google']}/"
+yelp_path = f"{file_paths['parent_path']}/{file_paths['yelp']}/"
+
+def combine_props(obj1, obj2):
+    ret = {}
+    for key in {*obj1.keys(), *obj2.keys()}:
+        val1, val2 = obj1[key], obj2[key]
+
+        if val1 is None:
+            ret[key] = val2
+        elif val2 is None:
+            ret[key] = val1
+        elif val1 == val2:
+            ret[key] = val1
+        else:
+            if isinstance(val1, (str, list, tuple)) and isinstance(val2, (str, list, tuple)):
+                ret[key] = val1 if len(val1) > len(val2) else val2
+            else:
+                ret[key] = val2
 
 
 def merge(file1, file2):
@@ -27,14 +44,15 @@ def write(obj, inputPath, outputPath):
             obj = json.load(inputFile)
             inputFile.close()
 
-    with open(outputPath, "w") as outputFile:
+    with open(outputPath, "w") as output_file:
         adjusted_review_obj = utilities.calculate_adjusted_reviews(obj)
         rating_obj = utilities.calculate_actual_rating(obj)
-        obj = {**obj, **adjusted_review_obj, **rating_obj}
-        json.dump(obj, outputFile, indent=2, ensure_ascii=True)
-        outputFile.close()
+        distribution = utilities.calculate_distribution(obj)
+        obj = {**obj, **adjusted_review_obj, **rating_obj, **distribution}
+        json.dump(obj, output_file, indent=2, ensure_ascii=True)
+        output_file.close()
 
-def filter(input_path, alt_path):
+def filter_companies(input_path, alt_path):
     input_list = utilities.list_files(input_path)
     input_prefix = "google" if "google" in input_path else "yelp"
     
@@ -61,7 +79,5 @@ def filter(input_path, alt_path):
 
 utilities.create_directory(output_path)
 
-filter(yelp_path, google_path)
-filter(google_path, yelp_path)
-
-utilities.remove_path("data")
+filter_companies(google_path, yelp_path)
+filter_companies(yelp_path, google_path)

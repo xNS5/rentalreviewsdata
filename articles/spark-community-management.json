@@ -1,0 +1,53 @@
+{
+  "name": "Spark Community Management",
+  "slug": "spark-community-management",
+  "company_type": "Company",
+  "address": "4071 Hannegan Rd R, Bellingham, WA 98226",
+  "review_count": 4,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Kyle Kline",
+        "rating": 5,
+        "review": "Spark Management has been an incredible partner in managing our property for years. Claire is outstandingshes always professional, attentive, and knows exactly how to balance resident satisfaction with protecting our investment. Her tech-savvy approach and deep understanding of current laws and regulations have saved us countless headaches. We wouldnt trust anyone else with our property. Highly recommend!",
+        "owner_response": {
+          "text": "Thank you for the wonderful review, Kyle! We're thrilled to hear that Claire and our team have consistently met your expectations. Your trust and recommendation mean a lot to us. We look forward to continuing our partnership!"
+        }
+      },
+      {
+        "author": "Cool Rentals",
+        "rating": 5,
+        "review": "Spark management is providing a crucial service to our HOA with the attention to detail required to meet all the many legal requirements. Claire and the team are professional and enjoyable to work with!\nThank you!\nRespectfully\nCRCC Treasurer",
+        "owner_response": {
+          "text": "Thank you for such kind words! The membership and board at CRCC has been wonderful to work with! "
+        }
+      },
+      {
+        "author": "Kristin van de Kamp",
+        "rating": 5,
+        "review": "Spark Management recently got involved with my community and theyve been so great to work with! Their team has been so nice and has made the transition so easy! Definitely recommend!",
+        "owner_response": null
+      },
+      {
+        "author": "Noah Mireault",
+        "rating": 5,
+        "review": "Thoughtful, thorough, and an absolute pleasure to work with!",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 4,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 4
+  },
+  "summary": {
+    "created_timestamp": 1739205599,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, the good aspects of Spark Community Management focus on their professionalism and adaptability. User reviews highlight Claire as a standout team member, whose tech-savvy approach and deep understanding of legal regulations are a great benefit to their clients. The professional demeanor of the Spark team makes them a reliable company for property management needs, as noted in several user reviews that praise their attention to detail and commitment to service.</p></section><section id=\"great\"><h2>Great</h2><p>In terms of great qualities, Spark Community Management shines brightly. User reviews consistently rate them highly, with praises for making transitions smooth and hassle-free. Claire, in particular, receives specific mention for balancing resident satisfaction with investment protection, a skill that reassures property owners. The company's effective communication and friendly staff make the experience enjoyable for clients, a theme echoed across multiple user reviews.</p></section><section id=\"bad\"><h2>Bad</h2><p>In the context of bad aspects, this article contains limited data due to a lack of corresponding reviews. Spark Community Management appears to have avoided common pitfalls in property management, such as poor communication or inadequate maintenance responses, at least as reflected in their uniformly positive reviews.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>This article finds no evidence of ugly situations with Spark Community Management, as all available user reviews are extremely positive. With no reviews citing neglect or serious mishandling, Spark Community Management appears to maintain a good standing with its clients, depicted by the absence of ugly incidents in their service history.</p></section>"
+  }
+}

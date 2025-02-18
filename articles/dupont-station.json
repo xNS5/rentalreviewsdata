@@ -1,0 +1,49 @@
+{
+  "name": "Dupont Station",
+  "slug": "dupont-station",
+  "company_type": "Property",
+  "address": "804 Dupont St, Bellingham, WA 98225",
+  "review_count": 4,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Marvin Chan",
+        "rating": 5,
+        "review": "Nice and clean place to live. Haven't had to deal with management much, they've been fine from my limited dealings. Maintenance people are good.",
+        "owner_response": null
+      },
+      {
+        "author": "Kwok Chan",
+        "rating": 5,
+        "review": "Pretty new apartment building in quiet, safe location walking distance to downtown Bellingham restaurants and shop.",
+        "owner_response": null
+      },
+      {
+        "author": "John K Cummings",
+        "rating": 5,
+        "review": "New apartments, I rent one.  Clean and quiet",
+        "owner_response": null
+      },
+      {
+        "author": "caleb ransford",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 3,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 4
+  },
+  "summary": {
+    "created_timestamp": 1739205432,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Dupont Station property has received several positive comments from its residents, citing clean and well-maintained living spaces as a highlight. Tenants appreciate the efforts of the maintenance staff, who are noted for their professionalism and efficiency when attending to the needs of the units. It seems that the property management\u2019s less frequent interactions with tenants is a positive aspect, suggesting efficient administration and minimal issues requiring management intervention. Another aspect appreciated by residents is the building\u2019s quiet and peaceful environment, which is a crucial factor for those seeking a serene living experience. Additionally, the property\u2019s location is ideal for those who value proximity to conveniences without compromising safety, contributing to a favorable sense of community and neighborly interactions.</p></section><section id=\"great\"><h2>Great</h2><p>One of the standout features of Dupont Station is its modern infrastructure, highlighted by the positive feedback regarding the newness of the apartment buildings. The aesthetics of the apartments themselves seem to play a key role in tenant satisfaction, with a solid emphasis on the cleanliness and quiet surroundings that enhance the quality of life for residents. Furthermore, the strategic location of the property is celebrated, as it allows residents easy access to local amenities while maintaining a peaceful residential atmosphere. Walking distance to downtown Bellingham's restaurants and shops brings a blend of urban convenience with suburban tranquility, which resonates well with tenants' expectations, as described in user reviews. The overall atmosphere thus attracts those looking for convenience without sacrificing quality of life.</p></section><section id=\"bad\"><h2>Bad</h2><p>While the reviews for Dupont Station are overwhelmingly positive, the lack of extensive feedback on management practices implies limited interaction between management and tenants. This could suggest either efficient management or a lack of presence that might be a concern for tenants requiring more engaged communication in case of issues. Moreover, the absence of management responses to any of the reviews could signal a potential gap in acknowledging tenant feedback publicly, which might be something prospective tenants look for. Engagement from management in response to reviews often reassures potential tenants that their concerns will likely be addressed, though in this case, such engagement is not evident.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Currently, there is no negative feedback or ongoing tenant issues reported in the reviews for Dupont Station, which is quite rare. However, the absence of user reviews mentioning significant problems should still be approached with a degree of caution. The pristine rating could potentially lack depth due to a limited number of reviews, and the silence from management in publicly responding or engaging with even positive reviews might suggest a need for greater transparency or communication. The lack of detailed insights beyond cleanliness and location in reviews can sometimes hide underlying issues not immediately apparent to prospective tenants.</p></section>"
+  }
+}

@@ -2,23 +2,184 @@
   "name": "Patos Property Management",
   "slug": "patos-property-management",
   "company_type": "Company",
-  "address": "",
-  "review_count": 1,
+  "address": "119 N Commercial St STE 195D, Bellingham, WA 98225",
+  "review_count": 20,
   "average_rating": 5.0,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Devdarrr",
+        "rating": 5,
+        "review": "Dane is a super star property manager. We had to deal with a change of ownership during our lease term of the unit we were renting and were lucky the new owners chose Patos for managing the place. Dane is super communicative and helpful as we navigated that somewhat turbulent experience. For renters who are used to vulture-like management companies like Lakeway Realty, Patos Management feels like renting from a private landlord. Very personal and helpful and not trying to squeeze you for every penny they can. We had a great experience.",
+        "owner_response": {
+          "text": "Thank you for such a kind and thoughtful review. It has been a pleasure to work with you. We're always appreciative of how prompt you both were throughout the hurdles we faced. It makes for a much smoother and steady experience. Excited for you and the future! :)"
+        }
+      },
+      {
+        "author": "Emma",
+        "rating": 5,
+        "review": "I rented from Dane starting March 2022 for about a year and a half, and had a great experience! Dane was always super responsive, friendly, and professional. The property I stayed at was wonderfully maintained and Dane was very involved in making improvements. It's clear how much he cares about his property and tenants. 5/5 experience! :)",
+        "owner_response": {
+          "text": "Thank you for your thoughtful review, Emma! We enjoyed having you as a resident. Appreciate you taking the time to write us a note."
+        }
+      },
+      {
+        "author": "Konnor Quiaoit",
+        "rating": 5,
+        "review": "Stayed for about 3 months for an internship at a local resort.  The home is absolutely beautiful with an even greater view from the room I stayed in. Dane was very accommodating and understanding of my situation as well given I didn't intend to stay for a year but allowed me to sigh a lease for 3 months.  Nice and clean property would recommend to others.",
+        "owner_response": {
+          "text": "Thank you for your thoughtful review, Konnor. Glad to hear you had such a positive experience with us."
+        }
+      },
+      {
+        "author": "Josh Garza",
+        "rating": 5,
+        "review": "As a first-time renter in Whatcom County, my one-year experience was exceptionally positive. Dane demonstrated genuine care for his tenants, always addressing maintenance issues promptly and efficiently. He was consistently willing to listen to and address tenants' concerns, creating a comfortable living environment. The responsiveness and dedication towards tenant satisfaction makes renting from Patos Property Management, a high recommendation.",
+        "owner_response": {
+          "text": "Josh - we appreciate your kind review. It was a pleasure to have you as a resident of Patos. This message means a lot, can't thank you enough for taking the time to write us."
+        }
+      },
+      {
+        "author": "Katie Sveinsson",
+        "rating": 5,
+        "review": "I rented from Dane for just over a year and it was breeze. He was very responsive with any maintenance requests and stellar regarding communication. Additionally, the rental property was spotless and well maintained. I have rented in Whatcom county for the last 5 years and my best experience by far has been renting with Patos. Would highly recommend.",
+        "owner_response": {
+          "text": "Katie! Thank you for your thoughtful review - this means so much to us. We're happy to hear your experience was exceptional."
+        }
+      },
+      {
+        "author": "Monica Greaves",
+        "rating": 5,
+        "review": "I've been cleaning Dane's house for about three years as his bi-weekly house cleaner. Every interaction I've had with Dane, (pretty much every time I'm there), has been professional and positive energy! Dane and his tenants keep a clean, respectful, and well maintained property inside and out. I enjoy my time there, definitely makes my day go alot better! Highly recommend!",
+        "owner_response": {
+          "text": "Monica, you're amazing! Can't thank you enough for all your hard work. It has been easy to collaborate with you. We're grateful to have the opportunity to work with you. Thanks again for your review."
+        }
+      },
+      {
+        "author": "Dan O'Donnell",
+        "rating": 5,
+        "review": "Anthony has been managing my properties for many years now, and does a better job than when I was doing it myself.  I now live out of the area, and feel very fortunate to have Anthony and Dane looking after everything for me.",
+        "owner_response": {
+          "text": "Thank you for taking the time to leave us a review, Dan. Greatly appreciate your support. Looking forward to many more years ahead. "
+        }
+      },
+      {
+        "author": "Tehya Wiersma",
+        "rating": 5,
+        "review": "Dane is extremely reliable and responsive, always on top of things and quick to resolve any issues. Rented from him for a year and it was the best experience, great person.",
+        "owner_response": {
+          "text": "Thank you for your review, Tehya! :)"
+        }
+      },
+      {
+        "author": "Brian Robertson",
+        "rating": 5,
+        "review": "Patos Property Management has been so great to work with. Dane has been exceptional along this entire process and made things super easy on my end.\n\nI wish this were the case for other management companies in the area. In my experience, you're are in good hands if you choose to rent from Patos.",
+        "owner_response": {
+          "text": "Thank you for the kind words, Brian. It has been a pleasure to work alongside you. Excited for what the future will bring. Greatly appreciate you!"
+        }
+      },
+      {
+        "author": "Ashley Knight",
+        "rating": 5,
+        "review": "I would highly recommend Dane as your property manager. His professionalism, hard work, and responsiveness make him an outstanding choice for anyone looking to ensure their property is well-managed and cared for.",
+        "owner_response": {
+          "text": "Thank you for your kind words, Ashley. Appreciate you taking the time to leave a review. It has been a pleasure to work with you."
+        }
+      },
+      {
+        "author": "Kona93 JL",
+        "rating": 5,
+        "review": "Thank you Dane and team for a welcoming experience. It's been an easy, seamless process thus far. Looking forward to continuing with you for the foreseeable future. I'd recommend Patos to anyone who's looking to step away from managing their rental home.",
+        "owner_response": {
+          "text": "JL, seems review means a lot to us. Glad to hear that your experience has been positive to this point. Thank you again for taking the time to share your experience."
+        }
+      },
+      {
+        "author": "Nick Carr",
+        "rating": 5,
+        "review": "Excellent place/ ( Dane ). It was my first time renting from any place He is very respectful.  And helped make everything easy for doing the application,  explaining how everything works,  and answering any questions.  I definitely recommend Patos Properly Management.  5 stars  ",
+        "owner_response": {
+          "text": "Thank you for taking the time to write us a review, Nick."
+        }
+      },
+      {
         "author": "Dustin Hoffman",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Great property management company. I spoke with Dane about handling my portfolio and right away I knew he was going to take care of my properties and the tenants in them in the  way I expected. Very impressed!",
-        "ownerResponse": null
+        "owner_response": {
+          "text": "Thank you for your review, Dustin. We're glad you've had a positive experience so far. Looking forward to continuing for the years to come!"
+        }
+      },
+      {
+        "author": "Brandon Johnson",
+        "rating": 5,
+        "review": "I've had an outstanding experience with Patos Property Management. Their team is incredibly responsive, handling all maintenance requests promptly and efficiently. They communicate transparently and keep everything running smoothly, ensuring tenant satisfaction. I highly recommend their services for anyone seeking reliable and professional property management.",
+        "owner_response": {
+          "text": "Brandon, thank you for your review. We glad you've had such a positive experience with us. Looking forward to continuing to serve your properties."
+        }
+      },
+      {
+        "author": "Chloe Smith",
+        "rating": 5,
+        "review": "Super fast to respond to an issue we raised and it was dealt with within a few days. Dane was so helpful and communicative.",
+        "owner_response": {
+          "text": "Thank you for the kind review, Chloe! Glad we were able to get it addressed in a prompt and timely manner. :)"
+        }
+      },
+      {
+        "author": "Nathan T",
+        "rating": 5,
+        "review": "This team is trustworthy and reliable, I would not hesitate to recommend them. They have character, work hard, and are dedicated to their work.",
+        "owner_response": {
+          "text": "We appreciate your kind words, Nathan. Thank you for taking the time to post a review."
+        }
+      },
+      {
+        "author": "Keenan Souve",
+        "rating": 5,
+        "review": "Patos is extremely professional and quick to respond. I would recommend them to any of my friends.",
+        "owner_response": {
+          "text": "Thank you for the review and recommendation, Keenan!"
+        }
+      },
+      {
+        "author": "Haps 4me",
+        "rating": 5,
+        "review": "Great communication, quick to market and fill with tenants.",
+        "owner_response": {
+          "text": "Thank you for the review! We're glad to be able to help."
+        }
+      },
+      {
+        "author": "Israel Rangel",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thanks for the review, Israel. Hope all is well!"
+        }
+      },
+      {
+        "author": "Sarah Fontana",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you for leaving us a review, Sarah! :)"
+        }
       }
     ]
   },
-  "adjusted_review_count": 1,
+  "adjusted_review_count": 18,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the realm of competence, Patos Property Management seemingly shines according to the user reviews. Tenants and property owners have highlighted their satisfactory interactions with the company's representatives, which signals a company that prioritizes professionalism and quality service. One such interaction included a user who engaged with a staff member named Dane, who left a strong impression with his dedication to managing their property portfolio effectively.</p><p>This favorable perception is bolstered by not only personal anecdotes but also by Patos Property Management's overall 5-star rating, suggesting that their endeavors to meet expectations have not gone unnoticed. They seem to be particularly adept at instilling confidence in their clients that both properties and tenants will be handled with the utmost care and attention.</p></section><section><h2>Great</h2><p>The excellence of Patos Property Management is not hard to spot, with users praising the company's performance in managing multiple properties. One user review particularly commended Dane for his ability to communicate the value he would add to handling their property investments, indicative of great customer service and deep understanding of property management needs. It appears the company doesn't just aim to meet basic expectations; they aspire to lead in their service delivery.</p><p>The user reviews suggest a scenario where the company not only maintains properties but also builds strong relationships with clients. With an attentive approach to each unique portfolio, Patos Property Management likely positions itself as a key partner in property management, where the satisfaction of both property owners and tenants is a testament to their commitment.</p></section><section><h2>Bad</h2><p>Given the limited volume of reviews and lacking any detailed negative experiences, it remains challenging to provide a balanced critique in the 'bad' section. Without sufficient user reviews reporting on any neglected duties, unaddressed maintenance concerns, or other potential deficiencies, this article cannot ascertain the scope or existence of any negative aspects attributed to Patos Property Management. In an ideal world, more reviews would present a clearer picture.</p></section><section><h2>Ugly</h2><p>Concerning the 'ugly' aspects of service that customers might encounter, there is again a lack of concrete evidence or testimonials that could paint Patos Property Management in a poor light. With the data at hand, it can be assumed that either customers have faced no serious issues or that such grievances have not been voiced through reviews. This article's intent is to present all facets of service, but presently, no ugly truths emerge from the available user reviews.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 20
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205565,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Patos Property Management has been frequently recognized for its prompt responses in user reviews. Tenants often highlight the company's responsiveness as a strong point, indicating that maintenance issues are addressed swiftly and effectively. For instance, one user noted how promptly Dane, a manager at Patos, handled maintenance requests throughout their lease term, creating a stress-free living environment. Communication is also a praised attribute, with multiple reviewers mentioning how professional and friendly interactions were, helping tenants feel supported and well-informed about their rental arrangements.</p><p>Another aspect that consistently receives positive mentions in user reviews is the quaint, well-maintained properties managed by Patos. Renters have shared experiences of living in beautifully kept homes where management not only tends to immediate issues but actively pursues property improvements. This hands-on approach ensures that both the aesthetics and functionality of the rental spaces are to tenants' satisfaction, contributing to an overall positive rental experience. Moreover, tenants who rented from Patos highlighted that they were treated with understanding and flexibility, even in unique circumstances such as short-term lease needs.</p></section><section id=\"great\"><h2>Great</h2><p>Patos Property Management shines in its approach to tenant relationships, receiving commendation time and again for their personal and caring involvement. Reviews praise Dane and his team for embodying professionalism yet providing a personable touch, which many compare favorably against larger, more impersonal property management companies. The level of care shown by the team is palpable, as they go beyond basic management duties to actually foster a sense of community and trust with their renters. A user review even described feeling like they were renting from a private landlord rather than a management company, highlighting the individual attention and genuine concern Patos brings to their dealings.</p><p>Moreover, the smooth transition during changes, such as ownership transfers, has earned Patos accolades from tenants who appreciated the seamless handling of what could have been tumultuous situations. This reliability instills confidence in renters who value stability and fair treatment. For instance, even amidst a change of property ownership, Patos ensured open communication and maintained the quality of service, helping tenants navigate such changes with ease. This commitment to professionalism, coupled with understanding, enhances tenant experience significantly, making Patos Property Management a highly recommended choice among user reviews.</p></section><section id=\"bad\"><h2>Bad</h2><p>Unfortunately, the dataset provided does not contain any user reviews with negative feedback. Patos Property Management garnered consistently high ratings across all reviews, highlighting the strengths of their management approach from timeliness in maintenance to tenant relationships. Although the review sample is overwhelmingly positive, reflecting no mentions of unresolved issues or lack of communication, it's essential to recognize that reviews reflect personal experiences, which could vary widely.</p><p>Despite the absence of negative feedback, potential renters or property owners might consider comprehensive personal research, possibly contacting tenants personally when feasible, as experiences may differ depending on individual expectations and circumstances. Therefore, even without documented complaints, it remains crucial for individuals engaging with Patos Property Management to conduct thorough inquiries regarding standard rental policies, specific property conditions, and clear expectations to ensure seamless rental experiences consistent with the positive examples cited here.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In this article, the section dedicated to negative and distressing concerns does not present any direct accounts from user reviews regarding adverse experiences with Patos Property Management. The available reviews showcase only positive encounters, portraying Patos as a commendable organization with no record of neglected duties or unethical behavior based on the existing testimonials.</p><p>The lack of documented severe issues suggests an effective management style, though it is essential to approach this absence with careful consideration. While no negatives are indicated here, potential renters would benefit from maintaining vigilance regarding their leasing arrangements and terms, ensuring transparency and understanding with all involved parties. Future tenants should remain cautiously optimistic, relying on broader community feedback, to complement their personal decision-making processes before committing to any contracts. It is prudent to balance these sterling reviews with direct communication and clarification of terms to assure themselves of consistent service quality.</p></section>"
+  }
 }

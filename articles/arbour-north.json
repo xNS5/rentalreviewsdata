@@ -9,16 +9,23 @@
     "google_reviews": [
       {
         "author": "Fernando Gonzalez",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 0,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In assessing Arbour North, user reviews indicate a level of satisfaction that has culminated in a perfect rating. The single Google review available lacks any written detail but awards the property a full five stars. Although it's hard to deduce the factors contributing to this score without any context, it's clear that the reviewer had a positive enough experience to rate Arbur North highly. The property has managed to avoid negative feedback, which is noteworthy, and the high rating suggests that at least some aspects of their property management are meeting or exceeding expectations.</p></section><section><h2>Great</h2><p>However, without further details on the positive aspects, this article cannot provide a reliable picture of what specifically makes Arbour North great. A high score on its own is a good sign but does not paint a complete picture. This article's intent is to convey a balanced view, yet with only a solitary 5-star review and no additional insights, it's challenging to discuss the elements that customers find exceptional about Arbour North's property management or the actual experiences of tenants living there.</p></section><section><h2>Bad</h2><p>Despite the perfect score, a comprehensive analysis of Arbour North is hampered by a lack of critical reviews or substantial written feedback. This could be seen as an absence of negative experiences, but also a lack of credible, detailed information that would allow potential tenants to make an informed decision. It leaves the reader to wonder what issues might have gone unreported or unremarked upon. Without negative reviews, this article is unable to provide specific examples of where Arbour North's property management might be lacking.</p></section><section><h2>Ugly</h2><p>The ugly truth in the property management sector often lies in repetitive patterns of neglect or mistreatment that tenants can experience. However, in the case of Arbour North, there is no evidence available in user reviews that would suggest an underlying problem. With such a limited amount of feedback, this article cannot confirm whether Arbour North has recurring issues that would be of concern to potential tenants or if there are any severe management flaws that need to be addressed. The absence of negative feedback doesn't necessarily equate to the absence of problems, but rather a gap in the information necessary to identify them.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205392,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article acknowledges that one of the positive aspects of Arbour North is its impressive average rating of 5.0 based on the limited data available. A single user review reflects a high satisfaction rate, suggesting a well-maintained property with the potential for a positive living experience. The lack of detailed user reviews makes it challenging to elaborate further on specific good points, but the perfect rating does indicate competence in property management and tenant satisfaction.</p></section><section id=\"great\"><h2>Great</h2><p>According to the available data, Arbour North's management seems to have met or exceeded expectations, as implied by the sole review that rated the property at five stars. This suggests that tenants likely experience excellent service and well-kept property conditions. Although the exact details of their commendable attributes are not provided, one might infer satisfaction with maintenance and possibly quick responses to tenant needs. It would be beneficial to have more user reviews to paint a comprehensive picture, but the perfect score speaks volumes about tenant approval.</p></section><section id=\"bad\"><h2>Bad</h2><p>Regarding negative feedback, there are no specific details as the singular user review didn't include any comments or lower ratings. This lack of complaints or suggestions for improvement might speak favorably of Arbour North. However, it also leaves room for uncertainty about potential areas in need of enhancement that might not yet be identified by renters. More user reviews could provide a clearer understanding of any shortcomings, but current data does not present any.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>This article cannot identify any particularly 'ugly' aspects of Arbour North due to the minimal data and absence of negative reviews. There are no reports of significant issues such as neglected maintenance requests or unprofessional management practices. While no evidence of ugly experiences exists in the current data, a broader range of reviews could reveal hidden challenges. For now, the outlook remains positive based on the perfect rating.</p></section>"
+  }
 }

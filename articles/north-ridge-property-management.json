@@ -1,0 +1,37 @@
+{
+  "name": "North Ridge Property Management",
+  "slug": "north-ridge-property-management",
+  "company_type": "Company",
+  "address": "310 E Magnolia St, Bellingham, WA 98225",
+  "review_count": 2,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "McKenzie Que",
+        "rating": 5,
+        "review": "We currently live at The Vantage apartments and love it! Tonya with North Ridge property management is an awesome property manager and she has made our move in and  living experience here smooth and enjoyable. She is very responsive to maintenance needs and any other questions we have. It is refreshing to get this level of customer service even after we signed the lease and renewed our lease! I definitely recommend living here and working with Tonya.",
+        "owner_response": null
+      },
+      {
+        "author": "Gina Giefer",
+        "rating": 5,
+        "review": "I absolutely LOVED my townhome! Its beautiful and quiet. The property manager Tonya was an absolute delight to work with. She made the transition so smooth! I was coming from another state and she went above and beyond to make sure everything was ready for me. If anyone is looking for an awesome place to live in Ferndale WA. I recommend The Sorrell Townhomes!!!!",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 2,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
+  },
+  "summary": {
+    "created_timestamp": 1739205526,
+    "text": "<section id=\"good\"><h2>Good</h2><p>North Ridge Property Management has only received positive feedback in the user reviews analyzed for this article. The reviews reflect a high level of satisfaction with the properties managed, as tenants mention liking their living arrangements. Many seem to appreciate not just the properties themselves, but also the quality of service received, particularly highlighting the responsiveness to maintenance and other concerns as praiseworthy.</p></section><section id=\"great\"><h2>Great</h2><p>The reviews speak highly of Tonya, the property manager at North Ridge Property Management, who is consistently mentioned for her exceptional service. According to the users, she has shown remarkable diligence in ensuring a smooth move-in process and ongoing support. One tenant described moving from another state, stressing that Tonya went above and beyond expectations to ensure everything was prepared for their arrival. This level of personal service appears to stand out prominently in user experiences.</p></section><section id=\"bad\"><h2>Bad</h2><p>This article lacks detailed descriptions of negative experiences with North Ridge Property Management, as user reviews do not elaborate on any dissatisfaction or complaints. The absence of low ratings in the distribution suggests a scarcity of reported negative interactions. Consequently, there are no user reviews pointing out bad experiences with this company, which is reflective of the data available.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The user reviews available for North Ridge Property Management do not contain any reports of egregious issues or problematic practices. With no complaints or low ratings, there is no indication from users of issues requiring urgent attention or serious shortcomings. This section remains empty in terms of strong negative sentiment, emphasizing the uniformly high ratings and positive experiences reported.</p></section>"
+  }
+}

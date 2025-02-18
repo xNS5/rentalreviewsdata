@@ -2,71 +2,72 @@
   "name": "Sun-Mark Properties",
   "slug": "sunmark-properties",
   "company_type": "Company",
-  "address": "1850 Lake Whatcom Blvd Bellingham, WA 98229",
-  "review_count": 9,
-  "average_rating": 1.44,
+  "address": "1200 Lakeway Dr # 1, Bellingham, WA 98229",
+  "review_count": 8,
+  "average_rating": 1.88,
   "reviews": {
-    "yelp_reviews": [
+    "google_reviews": [
       {
-        "author": "Katie B.",
+        "author": "Sophia Bentz",
+        "rating": 1,
+        "review": "Do Not Rent!!! She is Rude & Awful to rent from! I had the displeasure of renting from Azam for years! I really wish I could spread this to everyone & warn more people about how terrible, stressful harassing she is. She raised our rent by $800 with NO warning, suddenly. She harassed us for rent every single month even before the 5th day! She let people come to the house many times with NO notice even after I asked her to not do that. She would harass and name call me. Our end she just complained about how messy the house was even after we emptied and cleaned it for days! I know she will try to charge more than necessary. Her business needs to get SHUT Down! Worst landlord I ever had. So beyond Glad to be OUT of her house!",
+        "owner_response": null
+      },
+      {
+        "author": "huggins scott",
+        "rating": 1,
+        "review": "I rented a property owned by Christopher Hammond, with Sun-Mark Properties as the manager. Azam Nader handled the property. Note that she herself has given the only five-star review here. Renting through Sun-Mark Properties has been a horrible experience. This was an expensive four bedroom house. First of all, she advertised the property as air-conditioned, but the air conditioning did not work, and after I moved in I was told that the landlord had no intention of fixing it. I paid a huge amount in rent, but the master bedroom shower was unusable, repairs were only done slowly and in a shoddy way, the landlord only used the cheapest materials and appliances. The ancient boiler blew, flooding my belongings. And the roof leaked, but the landlord only threw a tarp over it, leaving the leak, with a giant bubble filled with water in the ceiling. The skylight was covered over by the ugly tarp, leaving it dark and gloomy inside. Despite the terrible living conditions and the damage to my belongings, as a final insult the landlord tried to make me pay to power wash his driveway and decks and wash the windows, even though I had not caused any damage, and I had already paid over $1200 to clean, fill picture holes, and paint the interior, and clean the carpets. Azam said I also had to pay for power washing to \"put things in the condition they were in when I moved in,\" but the darkening of the exterior surfaces over the years, and the build-up of dirt on the windows falls under normal wear. I had to resort to filing with the Better Business Bureau and the courts to get my security deposit back. Overall, dealing with Sun-Mark and the landlord Christopher Hammond was like dealing with slumlords and scammers. I am sorry I ever got involved with them and am glad to finally be free of them. Avoid at all costs.",
+        "owner_response": null
+      },
+      {
+        "author": "Whitney Eichler",
+        "rating": 1,
+        "review": "My husband and I called on a house to rent. The first thing she asked was if we had good credit. I have great credit but my husband doesn't due a divorce and custody battle.  As soon as I mentioned that she immediately snubbed us. AlthoughI'm unemployed due to covid, my husband is working.  But she had already lost interest in allowing us to even look at the house.  She was rude and quickly jumped to conclusions.  I wouldn't recommend anyone renting through this office.",
+        "owner_response": null
+      },
+      {
+        "author": "Katie Blackwell",
         "rating": 1,
         "review": "Wow. I have to say I'm taken aback. I missed a viewing when I regretfully entered it into my calander wrong. I called back to apologize and reschedule and was shamed by the woman who answered. Completely unnecessary. I'll be taking my business elsewhere. I'm glad she outed herself as a bad potential landlord. Mistakes happen. But she \"Pretty Womaned\" herself out of a big commission. No thank you.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Michael K.",
+        "author": "tjseren",
         "rating": 1,
-        "review": "Moved away but after experiencing 3 other property management companies, I can update this review. NONE are even close to as bad as Azam and SunMark Properties. \n\nSubMark was horrible, but in contrast to others, they are EVEN WORSE. Amazing.",
-        "ownerResponse": null
+        "review": "My experience was at the lake what com blvd office, NOT the lake way office.....\n\nMy wife and I went into sun-mark properties today to look for a rental house in the sudden valley area. I was absolutely blown away at how rude and judgmental the woman who we talked with was. I am a 28 year old man with dreadlocks. I am hard working, have a REAL job, and have perfect rental history for the past 9 years that i have been renting houses and apartments. The first thing she asked us was wether we were going to \"grow marijuana\". We were both completely taken aback by this and told her that we definitely were not planning on growing any marijuana. She then asked about our jobs and how we would pay for the rental. We told her we had both been traveling for the past year, but had a large amount of money saved, and both have steady jobs in bellingham that we were going back to as soon as we finished the stressful process of finding a new rental to move into. I also informed her that we had a co-signer lined up, at which point she literally scoffed at us and asked \"who would co-sign for YOU???\" I had had enough at that point and told her i felt she was being very judgmental and making assumptions based on our appearance. She claimed they ask everyone these questions. And mind you, this is before we had even been by to look at a property. My wife and I had both had enough and knew there was NO WAY we would EVER rent a property from someone so rude. We walked out and as we were getting in our car, she followed us out the front door to personally insult me by yelling something about my \"ratty hair\". It was absolutely unbelievable. Like i said, i have been renting for nine years, and NEVER been asked any of those questions in such an accusatory way, and have NEVER been treated so poorly by anyone. DO NOT RENT FROM THESE PEOPLE. THEY ARE RUDE, JUDGMENTAL, AND EXTREMELY PREJUDICE. . . . PS: this review wouldn't allow me to give ZERO STARS. They certainly do not deserve even one.",
+        "owner_response": null
       },
       {
-        "author": "Courtney F.",
+        "author": "Tc",
+        "rating": 1,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Azam Nader",
         "rating": 5,
-        "review": "My father has lived in a property managed by Sun Mark since 2016 and has been nothing but happy with their attention and service. Every service request has been followed up in a timely fashion and with good communication. \n\nTo boot, when I was concerned we couldn't reach him, Azam made it a priority to leave the office and check on his welfare for us, then call us within the hour.  \n\nMy dad has said nothing but good things and her follow through and concern makes me think good things.",
-        "ownerResponse": null
+        "review": "",
+        "owner_response": null
       },
       {
-        "author": "A R.",
-        "rating": 1,
-        "review": "I agree with the others to avoid Sunmark if you need a property manager.\n\nIf you must use them, make sure only one person communicates with them and takes good notes about what was discussed. Otherwise, their current PM will change her story about what happened depending on who she talks so. She will claim she told owner A one thing while talking to B, having never mentioned it to owner A. She is very bad about bringing up problems and even worse about following up after. She barely replies to emails and is very defensive on the phone. \n\nI have no idea how often (if ever) she walks through the properties.\n\nCases in point: \nShe called, panicked, to tell us our water heater had \"exploded\" and the tenant's belongings were ruined. We followed up with the plumber and learned that the tank had leaked slightly but by the time they came out to fix it (the next day), the water had completely dried. There was no damage to the house.\nOn another call (instigated by us) she said the dishwasher had been broken for some time and needed to be replaced. I arranged purchase of a new one that night and emailed her to arrange for delivery. Days later she called saying that the tenant had fixed it and acted like we should have known that already.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Kathy E.",
-        "rating": 1,
-        "review": "We were not happy with the property manager, Azam. She is not honest. She was caught lying to us that she met with renters to perform a walk through. She then told us the house was left in \" great condition\" but after inspection found repairs nearing $500 were needed. She asked us to hire her to list the house for sale. There is NO way we would ever consider this! She's lazy and dishonest. We have to call her to send us accounting statements for tax purposes of which she replies, \" my clients don't normally ask me for that and I don't work for you anymore\". Save yourself a lot of frustration and time and DO NOT HIRE this company to manage your house. It will be a mismanaged mess!",
-        "ownerResponse": null
-      },
-      {
-        "author": "Karen B.",
-        "rating": 1,
-        "review": "Stay away from these folks as Property Managers. First off, my error: I trusted them.  This was  really bad idea.  I was with them for 6 years.  For the first 4 everything was fine. 2 years ago something changed the managers clearly did not do the walk thoughs or truly check the tenants - a fungus stain they said \"wasn't there at the walk though\" had to have been in place for nearly a year.  The cause? A lot of a certain plant being grown in my house and the tenants had redirected the air vents into the crawl space.  The result? $35,000 worth of damage to the house (now repaired with not even an admission of culpability, and certainly no funds, from the owners of SunMark.  They did tell me this year they could smell a certain substance in the past, but never told me at the time nor did they follow though on checking out the situation.   No due diligence on their part.  They are strictly \"take the money and run\".  \n\nAgain stay away from these folks.  If you are currently with them and intend to stay, please do all the walk-throughs yourself and meet your tenants- protect yourself from them and the folks to whom they rent.\n\nOh, a comment on previous comment - the folks who did this to my house \"looked like nice people\" according to SunMark's staff.  They judge by looks, which really does not work.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Redhed B.",
-        "rating": 1,
-        "review": "This has got to be one of the worst property management places in the Bellingham / Sudden Valley area.  They do not return your phone calls about properties listed.  I managed to get a property manager on the phone long enough to ask one question before being put on hold for minutes on end.  The receptionist then came on the line and asked if the property manager could call me back which hasn't happened!  I've called, emailed and left messages and no one has gotten back to me.  I suppose they would if you are selling a half-million dollar house but if you're just an average joe looking for a place to rent, look elsewhere than this property management place.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Anne B.",
-        "rating": 1,
-        "review": "I, too, am an African-American and Native American individual who as the previous reviewer mentioned was completely blown away by the rudeness of the real estate agent/owner.  And this was on the phone just now.  I shall be filing a complaint via the appropriate channels.  As a writer who is completing a book, which is due to be published,  about how people are sometimes discriminated against in this country for a plethora of reasons, I was so taken aback at the way the owner/manager/agent spoke to me on the phone, and I shall be including this business in my book, although under a different name, as a prime example of how businesses definitely should NOT be.  I was interested in exploring a property in Sudden Valley, and the secretary/receptionist had been wonderful in providing info, but the agent she'd passed me to (who later also stated she was the manager/owner - she sounded Russian, but that's beside the point, just stating so that people may be aware of which individual it was I was corresponding with - who knows, she could have been lying about whether or not she was the manager in an attempt to throw me off from reporting her when I subsequently called to do that very thing).  Initially when I spoke to her regarding the property, she interrupted and barked \"What's your credit score?\" She wanted to know if it was 700+.  As soon as I half opened my mouth to deny it, she barked that she didn't want to talk to me further and had other lines waiting for her.  I was flabbergasted for I'd considered Bellingham to be an area I'd enjoy moving to to complete my manuscript.  I, too, am a hardworking individual and not behind on my rent, and I was going to ask her about other properties but she didn't even let me get to that point.. Basically barked me off the phone, and I told her that she sounded very rude.  When I called back, in hopes of speaking to a manager, she barked that she was the manager.  Notice how I've used the word \"barked\" ? It's an apt description.  May this serve to be as a head's up and a warning to people of her ilk who feel they can treat the public as if they were akin to trash.  And may people such as her realize one thing - that one day, they may be in a position to desire people to treat them with respect, as well.\n\nWishing all the most pleasant of days.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Tj S.",
-        "rating": 1,
-        "review": "My wife and I went into sun-mark properties today to look for a rental house in the sudden valley area. I was absolutely blown away at how rude and judgmental the woman who we talked with was. I am a 28 year old man with dreadlocks. I am hard working, have a REAL job, and have perfect rental history for the past 9 years that i have been renting houses and apartments. The first thing she asked us was wether we were going to \"grow marijuana\". We were both completely taken aback by this and told her that we definitely were not planning on growing any marijuana. She then asked about our jobs and how we would pay for the rental. We told her we had both been traveling for the past year, but had a large amount of money saved, and both have steady jobs in bellingham that we were going back to as soon as we finished the stressful process of finding a new rental to move into. I also informed her that we had a co-signer lined up, at which point she literally scoffed at us and asked \"who would co-sign for YOU???\" I had had enough at that point and told her i felt she was being very judgmental and making assumptions based on our appearance. She claimed they ask everyone these questions. And mind you, this is before we had even been by to look at a property. My wife and I had both had enough and knew there was NO WAY we would EVER rent a property from someone so rude. We walked out and as we were getting in our car, she followed us out the front door to personally insult me by yelling something about my \"ratty hair\". It was absolutely unbelievable. Like i said, i have been renting for nine years, and NEVER been asked any of those questions in such an accusatory way, and have NEVER been treated so poorly by anyone. DO NOT RENT FROM THESE PEOPLE. THEY ARE RUDE, JUDGMENTAL, AND EXTREMELY PREJUDICE. . . . PS: this review wouldn't allow me to give ZERO STARS. They certainly do not deserve even one.",
-        "ownerResponse": null
+        "author": "Barry Zwiers",
+        "rating": 4,
+        "review": "",
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 9,
-  "adjusted_average_rating": 1.44,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the vast sea of predominantly negative user reviews for Sun-Mark Properties, there are occasional islets of praise. One user review detailed a tenant's positive experience, highlighting the company's responsiveness and good communication regarding service requests. This tenant, who has been with the company since 2016, has expressed satisfaction, notably mentioning an instance where Sun-Mark Properties showed genuine care by checking on a resident's welfare on behalf of concerned family members.</p><p>It seems that in specific cases, Sun-Mark Properties can demonstrate attentiveness to their tenants' needs. This suggests that while experiences vary, there are occasions where the property management company fulfills its obligations with competence and a personal touch that resonates well with those under their management.</p></section><section><h2>Great</h2><p>Despite the scarcity of glowing endorsements, the aforementioned review describing the property management's concern for a tenant's well-being stands out as a singular great experience. The expedience with which the property management addressed the concerns of the tenant's family, including leaving the office to ensure the tenant's safety, and providing timely updates, indicates that Sun-Mark Properties is capable of going above and beyond in urgent situations. This incident paints a picture of a property management company that, at least on occasion, offers a level of service that might be considered commendable.</p></section><section><h2>Bad</h2><p>On the other side of the spectrum, a host of user reviews paint a less favorable picture of Sun-Mark Properties. Many reviewers express frustrations with poor management practices and inadequate responses to important issues. For example, one user review describes a scenario where vital communication faltered, and stories changed depending on who the property manager spoke to, ultimately leading to confusion and mistrust. Another instance cites inattention to critical property inspections, with a property manager significantly downplaying a situation, leading to misconceptions about the urgency and severity of a water heater leak.</p><p>Several user reviews also indicate a pattern of unreliability in following through with maintenance requests and a lack of regular property walkthroughs. This gives rise to concerns over property upkeep and condition under the management of Sun-Mark Properties. It is these kinds of recurrent themes in the bad experiences of tenants and property owners alike that can tarnish the reputation of a management company.</p></section><section><h2>Ugly</h2><p>Delving into the more troubling aspects of the user reviews, Sun-Mark Properties has been descried with serious allegations of dishonesty and prejudice. Allegations of outright lies about property conditions leading to costly repairs are mentioned, along with anecdotes of potential racial profiling and rudeness by staff members. One review, particularly disheartening, tells of an individual's encounter with a company representative who displayed blatant judgment based on appearance and made unfounded and injurious assumptions. It's worth noting that the company has not responded to any of these reviews, which potentially indicates a lack of concern for public perception or customer feedback.</p><p>Stories of mismanagement, such as not conducting proper tenant screenings, attributing to significant damages to a property, paint Sun-Mark Properties in a very ugly light. These tales suggest a lack of due diligence on the part of the property management company, alongside a disregard for the well-being of the properties and individuals they are supposed to serve. These grievous experiences highlight the worst of what tenants and property owners have encountered with Sun-Mark Properties, potentially serving as cautionary tales to prospective clients.</p></all-sections>"
+  "adjusted_review_count": 5,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 6,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205609,
+    "text": "<section id=\"good\"><h2>Good</h2><p>User reviews of Sun-Mark Properties are overwhelmingly critical, leaving little to highlight in a positive light. However, two reviews stand out, though specifics are scant due to the absence of detailed feedback. One positive review, rated four stars, does exist, but without additional information, its benefits remain unclear. To its credit, the mere presence of this review hints that not every client walks away dissatisfied.</p></section><section id=\"great\"><h2>Great</h2><p>In this article, identifying greatness in Sun-Mark Properties' operations proves challenging due to the lack of detailed positive user reviews. A five-star rating was provided by Azam Nader, who is affiliated with the company, but without accompanying details, it's difficult to assess any outstanding qualities the company may possess. As such, truly great experiences with the property management firm are not captured within the reviews available.</p></section><section id=\"bad\"><h2>Bad</h2><p>Many user reviews reflect dissatisfaction with Sun-Mark Properties, often mentioning poor communication and unprofessionalism. For example, one individual felt dismissed by the agent due to presumed stereotypes, despite having a steady financial standing. Instances where maintenance issues were reported but not addressed timely or effectively further marred renters' experiences. Dissatisfaction also stemmed from property conditions not matching advertisements, leading to a sense of deceit.</p><p>Slow and shoddy repairs were a common grievance among tenants, with some citing prolonged exposure to structural issues, such as defective air conditioning and leaking roofs. Several users reported challenges in retrieving their security deposits, claiming the company appeared unjustifiably demanding on move-out cleanliness. Such practices have left many renters feeling exploited.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>User reviews frequently categorize the dealings with Sun-Mark Properties as beyond merely unpleasant. One tenant recounted being harassed over payment, including frequent, unwarranted visits and name-calling. Another noted harrowing experiences with dilapidated living conditions and being forced into unnecessary cleaning fees, culminating in legal action to reclaim their security deposit. The indignities some renters faced included prejudiced assumptions based on appearance and scolding over missed appointments due to honest mistakes.</p><p>Anger and frustration highlight these reviews, with tenants narrating scenarios where they felt personally attacked over personal and financial misfortunes. Such frantic narratives paint the company not just as negligent but at times aggressive and dismissive toward tenant concerns. It's clear from these accounts that for many, renting with Sun-Mark Properties has been an experience fraught with stress and indignity.</p></section>"
+  }
 }

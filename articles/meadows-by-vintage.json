@@ -1,0 +1,33 @@
+{
+  "name": "Meadows by Vintage",
+  "slug": "meadows-by-vintage",
+  "company_type": "Property",
+  "address": "Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 1.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Ligma B.",
+        "rating": 1,
+        "review": "These are one of the worst apartments I've ever been in. The place is old on the inside even tho it looks nice on the outside. The counters are old and chipping off the cupboards are falling apart old appliances old carpet ext. I would not recommend ever living here.",
+        "owner_response": {
+          "text": "Hi, Ligma. Thanks for reaching out regarding your concerns about condition in your apartment. We value your feedback and use your comments to help us provide top-notch service for all our residents. We're sorry for any inconvenience you might have experienced. Please email us at meadows@fpimgt.com so we can discuss this matter further and find a satisfactory solution as soon as possible. We look forward to hearing from you."
+        }
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205513,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Despite receiving a notably low average rating, the management at Meadows by Vintage has shown a proactive approach to customer feedback. In response to a user review highlighting several issues with apartment conditions, management promptly addressed the concerns and invited the reviewer to discuss the matter further through email. This responsiveness illustrates the property management's willingness to engage with tenants and possibly improve their living conditions. Their commitment to rectifying problems can be seen as a positive aspect in an otherwise challenging situation for residents.</p></section><section id=\"great\"><h2>Great</h2><p>The engagement from Meadows by Vintage management in addressing tenant concerns could be considered great in terms of their communication efforts. The ownership\u2019s response to the negative user review suggests that they are dedicated to maintaining open lines of dialogue with their residents. By proactively inviting the resident to contact them directly, they present a readiness to hear out grievances and potentially work towards providing a satisfactory resolution. This showcases their intent to make strides in service improvement, which could provide some reassurance to prospective tenants.</p></section><section id=\"bad\"><h2>Bad</h2><p>The user review paints a distressing image of the apartment conditions at Meadows by Vintage. Descriptions of outdated interiors, such as old counters, malfunctioning cupboards, and worn-out carpets, highlight significant maintenance concerns. These details suggest a potential neglect of property upkeep that might detract from the residents' living experience. The dissonance between the appealing exterior and deteriorating interiors could be a crucial point of disappointment for those expecting quality housing.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The user review firmly categorizes Meadows by Vintage as an unacceptable living environment, underscoring it as one of the worst experiences they've had. Such a strong negative sentiment brings attention to the gap between the external appeal and the reality within. The mention of deteriorating conditions like chipping counters and falling-apart cupboards paints an ugly, if vivid, picture of neglect. Despite an attempted remedy through management response, the extent of the alleged disrepair might pose significant challenges for both residents and the property managers tasked with remedying these issues.</p></section>"
+  }
+}

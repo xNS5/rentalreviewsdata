@@ -1,0 +1,33 @@
+{
+  "name": "Calypso South Apartments",
+  "slug": "calypso-south-apartments",
+  "company_type": "Property",
+  "address": "3817 Elwood Ave, Bellingham, WA 98229",
+  "review_count": 1,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Journey Newman",
+        "rating": 5,
+        "review": "Despite what you are reading, this is a great place. The apartments are beautiful, pet friendly, and I see deer all the time. My husband and I have lived here for over a year and a half and have gone through multiple management companies but Olympic is the best. Chanelle and Nicole are wonderful and really listen to the things being said. I know my neighbors and they are all nice and who doesn't love the dog washing station! Out of all the apartments I have lived in, this one is the best.",
+        "owner_response": {
+          "text": "Thank you so much for leaving us such a great review! We take pride in making sure our residents needs are taken care of! Please reach out to the office if you need any assistance!"
+        }
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739205409,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, the \"Good\" aspect of Calypso South Apartments highlights the beautiful and pet-friendly environment that residents enjoy. The apartments are not only aesthetically pleasing but also offer unique perks such as a dog washing station, which adds to the convenience for pet owners. The location of the apartments in a natural setting, frequently visited by deer, provides a serene atmosphere that residents appreciate.</p></section><section id=\"great\"><h2>Great</h2><p>Moving on to the \"Great\" section, user reviews emphasize the exceptional management at Calypso South Apartments, specifically praising the current team. Residents have noted that the management is attentive, with staff members like Chanelle and Nicole actively listening and addressing any concerns raised by the residents. The personal touch in the management approach contributes to a tight-knit community feel, where even the neighbors are described as friendly and welcoming. The property management's proactive engagement, as reflected in their quick and appreciative response to positive feedback, further demonstrates their commitment to creating a satisfactory living experience.</p></section><section id=\"bad\"><h2>Bad</h2><p>The article currently does not have any specific information to fill the \"Bad\" section due to the overwhelmingly positive feedback from the limited reviews available. However, it is important for potential residents to consider that user reviews represent personal experiences and may not fully encompass the experiences of all tenants. As such, exploring a range of opinions, if available, could provide a more comprehensive understanding of the property's downsides.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>At this time, the article does not feature an \"Ugly\" section because there are no negative ratings or dire complaints documented in the available user reviews for Calypso South Apartments. The pristine rating and positive feedback suggest a generally satisfying experience among tenants. However, as with any property, it's advisable to remain attentive to multiple reviews, should they arise, to identify any potential long-term issues that are not yet apparent.</p></section>"
+  }
+}

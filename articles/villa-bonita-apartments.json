@@ -3,28 +3,41 @@
   "slug": "villa-bonita-apartments",
   "company_type": "Property",
   "address": "3131 Ferry Ave, Bellingham, WA 98225",
-  "review_count": 2,
-  "average_rating": 3.5,
+  "review_count": 3,
+  "average_rating": 4.0,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Kimberly Schafer",
+        "rating": 5,
+        "review": "We lived here for two years. Rent was cheap, utilities included in rent, our pets were allowed! All work orders were done very fast! Manager was the best we've had! I highly recommend these apartments!",
+        "owner_response": null
+      },
+      {
         "author": "Samantha H",
-        "rating": 2.0,
+        "rating": 2,
         "review": "Just toured unit C108 in Villa Bonita. There was only a single window pane and mold and mildew growing around the windows. Not a dealbreaker though. But after being in the unit for 10-15 minutes, my partner and I came out covered in fleas. If you are considering this property, PLEASE CHECK FOR FLEAS. It might have just been this unit, but it might be a problem in the entire complex. Other than that the management was nice, but I really question their integrity and transparency by allowing us to tour a flea infested apartment. I have pictures of the fleas as well.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Yvonne Johnson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 1,
-  "adjusted_average_rating": 2.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the Villa Bonita Apartments, some users have had neutral to positive interactions with the management team. User reviews indicate that staff members can present as courteous and professional, which potentially adds to the appeal of the living experience. The mere presence of approachable personnel could signal a readiness to attend to the needs and concerns of tenants, which is a crucial aspect of property management. However, due to the limited number of reviews, it's challenging to fully gauge resident satisfaction or to identify consistent positive patterns in the company's service delivery.</p></section><section><h2>Great</h2><p>Unfortunately, with an insufficient amount of user reviews, it's difficult to pinpoint specific outstanding experiences at Villa Bonita Apartments. Without detailed narratives or shared experiences by a substantial number of residents, this article cannot adequately provide examples of exceptional service or facilities that would classify under the 'great' category. Future positive reviews and testimonials from tenants could shed more light on the positives that may not have been captured thus far.</p></section><section><h2>Bad</h2><p>One resident has reported a rather concerning issue related to unit maintenance, sighting the presence of mold and mildew growing around the windows. Such conditions could indicate neglect in the upkeep of the property and pose health risks for current and potential tenants. Although mold and mildew can occur in various climates, proactive maintenance and swift responses to such issues are expected from a competent property management firm.</p></section><section><h2>Ugly</h2><p>Perhaps the most alarming feedback from a user review describes an experience of touring an apartment that was, according to the prospective tenant, infested with fleas. Such an issue is not just an inconvenience but a serious sanitary concern that raises questions about the property's habitability. The incident casts doubt on the management's integrity and transparency, as reported by the reviewer, especially considering that potential tenants were subjected to these conditions during a unit tour. This is a grave oversight that could severely impact the property's reputation and trust among potential residents.</canvas></section>"
+  "adjusted_review_count": 2,
+  "adjusted_average_rating": 3.5,
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205641,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Villa Bonita Apartments receives praise from some residents for its inclusive rent pricing and pet-friendly policy. One user mentioned that their stay, which spanned two years, was marked by inexpensive rent where all utilities were included. Additionally, the convenience was enhanced by the property management's prompt attention to work orders, making maintenance issues a non-concern for this particular tenant. This type of efficient service can be reassuring to potential residents who value quick resolutions to potential issues.</p><p>A key highlight from user reviews is the commendation of the property manager. Being described as the best they've experienced indicates that, at least for some, the management\u2019s approachability and professionalism significantly enhances the living experience at Villa Bonita. Having a supportive management team is a critical factor that can often bridge the gap between adequate and outstanding rental experiences.</p></section><section id=\"great\"><h2>Great</h2><p>Among the standout features of Villa Bonita Apartments is its welcoming policy towards pets, which is not always common in rental properties. This aspect can make the property highly attractive to pet owners who often struggle to find accommodating rentals. The ability to have pets without any hassle often enhances the desirability of the property and contributes positively to overall satisfaction.</p><p>Another admirable quality is the fast completion of work orders, as highlighted by a user's experience. The quick response to maintenance requests speaks volumes about the property management's dedication to tenant satisfaction. This proactive approach not only solves issues promptly but also prevents potential inconveniences from escalating, which could otherwise detract from the residents' quality of life.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the positive aspects, some areas have room for improvement in Villa Bonita Apartments, particularly concerning unit conditions during tours. One user pointed out significant cleanliness issues, including the presence of fleas, which could indicate a lack of thorough maintenance and preparation of the units. Such oversight can be a deterrent for interested tenants and reflects poorly on the management's diligence.</p><p>The discovery of mold and mildew around windows in a unit raised concerns about the overall upkeep of the property. While these issues might be isolated incidents, they require immediate attention to prevent them from affecting other units or future residents. The management's lack of response to these particular concerns suggests a gap in effective communication with potential tenants, which could influence overall perceptions negatively.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In the user reviews, an unsettling experience was shared by prospective tenants who toured a unit and encountered a significant flea infestation. This situation not only highlights a major lapse in unit maintenance but also questions the integrity of showing such an apartment to potential renters. There is a clear expectation that a tour-ready unit should meet certain standards, which was evidently not the case here.</p><p>The apparent neglect in handling such a critical hygiene issue can severely undermine the trust and confidence of tenants and prospects in Villa Bonita Apartments' management. It underscores the essential role that transparency and professionalism play in property management, which are imperative to ensure tenant well-being and trust. This incident, coupled with a lack of any owner response, amplifies the need for systemic changes in addressing major upkeep and communication issues promptly.</p></section>"
+  }
 }

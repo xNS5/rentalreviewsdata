@@ -9,45 +9,45 @@
     "google_reviews": [
       {
         "author": "Katya",
-        "rating": 4.0,
+        "rating": 4,
         "review": "They cleaned out apartment so well before moving in. Everything was spotless and new carpet. The office workers are really nice. We can hardly ever hear neighbors or upstairs, there's a nice big grassy area to walk a dog and the price is really good for the quality and size. Main downside, in my opinion, is the dated interior, which included a bathroom with consistent mold issues, but it was manageable with regular cleaning of the ceiling.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kate Ortiz",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Affordable, close to town, bus route, and other services. Month to month so good for students. I moved here because it was one of the few affordable places i could have my cats and have easy bus access to school. I've been here for two and a half years and have been very content. Quiet and warm too - hardly ever any big parties because there's not many students. Office responds to concerns quickly. Spacious. I have no complaints. Some people complain that you have to pay for laundry but it's about half the price of the Bellingham Cleaning Center nearby and it saves a ton on the electric bill. Plus you can do three loads at once! anyway, really great place to live.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Tiona",
-        "rating": 1.0,
-        "review": "DO NOT MOVE HERE! I lived here for years and there is black mold in every wall(they clean the exterior when you do inspection of unit so it doesn't show up until a few weeks after move in). The often \"misplace\" packages. There are drug addicts EVERYWHERE. Constant garbage on ground of premises. They will take your entire deposit(we even paid for cleaners on move out and they still took entire deposit) AND charge you over your rental amount.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Aj ang",
-        "rating": 1.0,
+        "author": "Angela Johnson",
+        "rating": 1,
         "review": "I had to move when I saw someone in the parking lot using with the car door open, they didn't even live there. No response to problems, condoms and even needles found around the property. They have a security camera which one of the workers told me, it doesn't work, it's just for looks. A lot of neighbors complained of theft of of their cars. Theft from the laundry rooms. A bunch of bums and users stay in the little wooded area right by some of the parking spaces. Not worth it!!",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "T",
+        "rating": 1,
+        "review": "DO NOT MOVE HERE! I lived here for years and there is black mold in every wall(they clean the exterior when you do inspection of unit so it doesn't show up until a few weeks after move in). The often \"misplace\" packages. There are drug addicts EVERYWHERE. Constant garbage on ground of premises. They will take your entire deposit(we even paid for cleaners on move out and they still took entire deposit) AND charge you over your rental amount.",
+        "owner_response": null
       },
       {
         "author": "Kat Man",
-        "rating": 2.0,
+        "rating": 2,
         "review": "It was a nice apartment when I first moved in it was clean and nice but got silver fish and in summer we got black ants and I talked to neighbors and they get them too and I hate the laundry room they never sanitize the washing machines and dryers one of the neighbors throws away mattresses like no other and I noticed one of the mattresses tossed and bed bug stains and it scares me and honestly the only positive thing is it's close to my work",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Cori Robinson",
-        "rating": 1.0,
+        "rating": 1,
         "review": "100% not worth the rent they charge.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Benjamin Allen",
-        "rating": 4.0,
+        "rating": 4,
         "review": "Reminds me of the 90s.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ],
     "yelp_reviews": [
@@ -55,14 +55,21 @@
         "author": "Becky C.",
         "rating": 2,
         "review": "Honestly, they were okay-ish. \n\nWen I first moved in around spring 2012, it was a shitshow and the cops had to be called all the time things broke and they raised rent way too often.\n\nOnly reason they got two stars is because management was nice to me. But ask my neighbors to remove their sign because you are racist? Nope. They did nothing wrong and were delightful people.",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 8,
   "adjusted_average_rating": 2.38,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The Hideaway Apartments present some commendable aspects according to user reviews. A consistent highlight is the property's cleanliness upon move-in, with apartments described as spotless and even featuring new carpeting, which new tenants appreciate. Additionally, the office staff at Hideaway Apartments are praised for their niceness and responsiveness to concerns, which contributes positively to the living experience. When it comes to amenities, the spaciousness of the apartments and the quiet, warm atmosphere are mentioned, with very few disturbances or big parties, making it suitable for tenants who prefer a tranquil environment.</p><p>Some tenants have also noted the affordability and convenience of Hideaway Apartments, emphasizing its proximity to town, public transportation, and other services. For those with pets, the apartments are one of the few affordable options where cats are welcome, further enhancing their appeal to pet owners. Additionally, the large grassy areas provide a nice space for dog walking, and overall, the setting proves to be a comfortable place for long-term living, as some tenants have stated they were very content even after a few years of residence.</p></section><section><h2>Great</h2><p>Aside from the generally good aspects, certain facets of living at Hideaway Apartments have stood out as particularly great. The community enjoys month-to-month leasing, which is notably favorable for students and individuals seeking flexible living arrangements. This flexibility is complemented by the quietness of the community, with minimal student presence, thereby reducing the likelihood of frequent parties and noise disruptions. Furthermore, the price quality ratio has been commended, with tenants feeling they receive good value considering the size and quality of the space relative to the cost.</p><p>The apartments' location also holds a significant benefit for students and commuters, with easy bus access facilitating travel to school or work. This convenience, along with the ability to manage laundry affordably on-site, albeit with a fee, provides residents with a practical living situation. As one tenant expressed, the ability to do multiple laundry loads simultaneously is a small but appreciated advantage when it comes to managing household chores efficiently.</p></section><section><h2>Bad</h2><p>However, not all experiences at Hideaway Apartments have been positive, with several user reviews pointing out issues that detract from the overall quality of living. One of the recurrent problems mentioned is the dated interiors of the apartments, with specific grievances about consistent mold issues, particularly in the bathrooms despite regular cleaning efforts. Maintenance concerns also extend to infestations, with reports of silverfish and black ants during summer, which is bothersome for many tenants.</p><p>Another common critique is related to the quality of communal facilities, such as the laundry rooms. Users have expressed dissatisfaction with the lack of regular sanitization of the washers and dryers. Furthermore, one resident's concern about a neighbor frequently discarding mattresses, some with visible bed bug stains, raises questions about the management's control over sanitation and cleanliness in shared spaces, creating unease among tenants about potential pest issues within the property.</p></section><section><h2>Ugly</h2><p>The uglier aspects of Hideaway Apartments reveal more serious concerns based on user reviews. There are alarming accounts of black mold being hidden within walls, only to become apparent weeks after moving in. Such allegations paint a grim picture of living conditions that could pose health risks to residents. In addition, there are reports of package misplacement and a significant presence of drug activity in the vicinity, further undermining the safety and security of the community.</p><p>More unsettling are the claims of finding drug paraphernalia, such as needles, around the property and incidents of theft from cars and laundry rooms. A non-functional security camera that only serves as a deterrent in appearance casts doubt on the effectiveness of security measures implemented by the property management. These dire shortcomings, combined with complaints about the entirety of security deposits being withheld without apparent justification, contribute to a worrisome living experience for some residents of Hideaway Apartments.</p></section>"
+  "distribution": {
+    "1": 3,
+    "2": 2,
+    "3": 0,
+    "4": 3,
+    "5": 0
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205470,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Hideaway Apartments have received some praise for their affordability and location convenience. A reviewer highlighted the property's proximity to bus routes, making it a suitable option for students, along with its spacious units. Additionally, the management team is recognized for their prompt responses to concerns, which contributes to a general sense of satisfaction among some tenants. Furthermore, residents have noted the clean and quiet environment, which creates a peaceful atmosphere that is rare to find in many apartment complexes. Another tenant appreciated the well-kept grounds, especially the large grassy area, which is ideal for pet owners seeking a comfortable space for their dogs to roam. These elements make the Hideaway Apartments an appealing choice for individuals prioritizing affordability and a pet-friendly environment.</p></section><section id=\"great\"><h2>Great</h2><p>Some aspects of Hideaway Apartments have earned high praise from tenants. The premises are maintained in a way that ensures a quiet and cozy living experience, with several residents mentioning minimal noise disturbances from neighbors. The affordability of the apartments is a significant highlight in the reviews, with one tenant particularly appreciating the ability to rent month-to-month, making it a flexible choice for those with changing needs. Additionally, the apartments are noted for their roomy interiors, which offer more space compared to similar properties in the area, satisfying tenants who require ample living quarters.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite some positive feedback, numerous reviews underlines areas where Hideaway Apartments fall short. Maintenance issues appear to be a recurring theme, with several tenants reporting persistent problems, such as mold in bathrooms and pests like silverfish and ants during warmer months. One user explained that the issues were not immediately apparent, surfacing after a short time residing in the unit. The cleanliness of communal areas like the laundry room has been criticized as well, with inadequate sanitation practices raising concerns among residents. Additionally, some tenants have expressed dissatisfaction with the dated interiors, which, despite initial cleanliness, do not meet modern aesthetic expectations.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The Hideaway Apartments have faced criticism regarding severe safety and security issues. Several user reviews recount alarming experiences, such as encountering drug use in parking lots and theft from vehicles and laundry rooms. One tenant was disturbed by the presence of unauthorized individuals around the property, contributing to a feeling of insecurity. The existence of non-functional security cameras is a grave concern for residents, as customers were led to believe these devices provided some level of protection against crime. Moreover, multiple reports have surfaced about unjust retention of security deposits, creating financial strain for departing tenants who received little explanation for these charges. These significant issues highlight the need for the property's management to urgently address safety and transparency concerns.</p></section>"
+  }
 }

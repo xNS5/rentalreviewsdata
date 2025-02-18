@@ -1,0 +1,67 @@
+{
+  "name": "Blue Lake Property Management",
+  "slug": "blue-lake-property-management",
+  "company_type": "Company",
+  "address": "317 S 2nd St #145, Mount Vernon, WA 98273",
+  "review_count": 6,
+  "average_rating": 3.83,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Shelby Burkhart",
+        "rating": 5,
+        "review": "The best landlords in the greater Skagit area! Treat you like a member of the family & are always there to help you at the drop of hat!",
+        "owner_response": null
+      },
+      {
+        "author": "Ivan Fallaci",
+        "rating": 1,
+        "review": "Would never rent from them",
+        "owner_response": {
+          "text": "Hi Ivan. So sorry for your experience. Your name is not a name we have ever rented to before. It appears you might have wrote a review on the wrong Blue Lake google profile. We are located in Skagit County, Washington State. If you did truly have an experience with us please call our office at 360-336-8899 we would love to talk with you. If you did not please consider removing this review. We take great pride in serving our tenants well. Thank you. "
+        }
+      },
+      {
+        "author": "Megan Anderson",
+        "rating": 5,
+        "review": "Great customer service",
+        "owner_response": {
+          "text": "Thank you Megan!"
+        }
+      },
+      {
+        "author": "Theron Springer",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "James",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you James "
+        }
+      },
+      {
+        "author": "Robin Malcolm",
+        "rating": 2,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 3,
+  "adjusted_average_rating": 3.67,
+  "distribution": {
+    "1": 1,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 4
+  },
+  "summary": {
+    "created_timestamp": 1739205419,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, under the 'Good' section, Blue Lake Property Management has received positive feedback for their attentive service. One user review highlighted that the team treats residents like family and is always ready to assist tenants. This reflects a strong commitment to tenant satisfaction, making them stand out in the Skagit area. Another review commended their great customer service, which is essential for creating a trustworthy tenant-landlord relationship. Furthermore, the company's responsive nature, as seen in the prompt replies to feedback, underscores their focus on maintaining quality communication with tenants.</p></section><section id=\"great\"><h2>Great</h2><p>In the 'Great' section of this article, Blue Lake Property Management shines with multiple five-star ratings from contented tenants. One review enthusiastically stated that they are the best landlords in their region, emphasizing their exceptional support and friendly approach. Such sentiments indicate that the company goes above and beyond in ensuring a positive rental experience. Additionally, the management team has shown appreciation for tenant satisfaction by responding personally to reviews, thereby reinforcing their dedication to excellent service and community engagement. These glowing testimonials about their personable and effective management illustrate Blue Lake\u2019s reputation as a first-class property management company.</p></section><section id=\"bad\"><h2>Bad</h2><p>The 'Bad' section captures the less favorable aspects that have come up in user reviews for Blue Lake Property Management. One review rated the company two stars, although it lacked specific details about any particular issues, this lower rating suggests a level of dissatisfaction that was not expressed in words. Such feedback indicates potential areas for improvement even when specific points are not articulated. The presence of lower ratings signifies room for the company to ensure that all tenants feel valued and heard, addressing the silent concerns that might exist under the surface.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The 'Ugly' section of this article highlights a significant negative user review for Blue Lake Property Management. A particular reviewer gave a one-star rating, bluntly stating they would never rent from the company again. Interestingly, the company's response indicated a potential misunderstanding, as they claimed to have no record of renting to the individual. They invited the reviewer to reach out to resolve any discrepancies. This interaction underscores the importance of accurate communication and the issues that can arise from mistaken identity in reviews, showing that perception and clarity are critical in property management dealings.</p></section>"
+  }
+}

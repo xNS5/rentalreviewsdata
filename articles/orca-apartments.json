@@ -1,0 +1,31 @@
+{
+  "name": "Orca Apartments",
+  "slug": "orca-apartments",
+  "company_type": "Property",
+  "address": "1130 13th St, Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 3.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "JM",
+        "rating": 3,
+        "review": "Great location. Construction is not the best you will hear your neighbor literally cough or flush their toilet. Property mgmt is ok not the best.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 3.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205542,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, one of the highlights of Orca Apartments that stands out from user reviews is its prime location. Situated in a desirable area, the apartments offer convenient access to local amenities, making it an attractive choice for potential renters. Residents appreciate the ease of reaching nearby shops and services, which alleviates some of the logistical challenges of daily life. Moreover, the management performs adequately in maintaining the basic functions of the property, ensuring that essential services and utilities run smoothly.</p></section><section id=\"great\"><h2>Great</h2><p>While the reviews are limited, the sentiment for greatness at Orca Apartments largely centers around its location. Proximity to essential services and entertainment offers significant lifestyle benefits, elevating the overall satisfaction for residents. The location is an asset that potentially offsets some of the drawbacks mentioned in other areas. Although not extensively praised in the reviews, this aspect suggests a strong foundation for a rewarding living experience when combined with potentially improved property management practices.</p></section><section id=\"bad\"><h2>Bad</h2><p>Some concerns are raised in user reviews regarding the quality of construction at Orca Apartments. A user reported that the thin walls allow for sounds like coughing or toilet flushing from neighbors to be easily heard, indicating inadequate soundproofing. Another point of contention is the performance of the property management team, which is described as just average. They fulfill basic responsibilities but apparently lack a sense of excellence or attentive service that residents might expect. The absence of feedback from management on user reviews could suggest a lack of proactive communication.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The user reviews do not explicitly mention any extremely negative experiences that fall under this category, such as significant omissions in property management or egregious living conditions. However, underlying issues such as soundproofing problems and a perceived lack of superior management quality may lead to ongoing frustration for tenants. Without corrective measures or attention to detail, these seemingly minor issues could escalate into more serious dissatisfaction, hinting at a potential for ugliness in the absence of improvements.</p></section>"
+  }
+}

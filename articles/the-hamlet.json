@@ -1,0 +1,97 @@
+{
+  "name": "The Hamlet",
+  "slug": "the-hamlet",
+  "company_type": "Property",
+  "address": "1202 Railroad Ave, Bellingham, WA 98225",
+  "review_count": 9,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Kwame Mensah",
+        "rating": 5,
+        "review": "This boutique hotel is a gem!  The rooms have been updated recently and the kitchen, bath, and living spaces are well provisioned.  While noise from a dancehall a block away can be an issue on Fri/Sat, things were quiet by 11 pm on my Thurs-Sun stay, with no street noise or bumps in the night from neighboring rooms.",
+        "owner_response": {
+          "text": "Fantastic - thank you for reviewing our place, Kwame! -Fred"
+        }
+      },
+      {
+        "author": "Pam Orebaugh",
+        "rating": 5,
+        "review": "The Hamlet Hotel is a must.  Would love to keep it \"Our Little Secret\" but will share.  It is comfortable, cozy and stylish.  The comforts of Home.  Spent 2 days and didn't want to leave.  The NightLife on Friday and Saturday nights can be a little LIVELY but the Hamlet provides earplugs.  This doesn't take away from the wonderful charm and comfort that the Hamlet provides.  We stayed in Suite 201 and look forward to staying in the other 3 suites available.  Looking forward to our next stay.",
+        "owner_response": {
+          "text": "Pam - you are so sweet to take the time to provide your feedback, thank you! Of course, we are delighted that you enjoyed our unique Hamlet and that you and Bill experienced its charms along with the dynamics of our downtown neighborhood.  In the event we are fortunate to host you again, you may appreciate knowing that each of our four suites now also Include LectroFan white noise machines. We expect this can benefit our guests who choose to turn-in before some of the other kiddos \nSafe travels and please come back again, soon!\n\n-Fred"
+        }
+      },
+      {
+        "author": "Nicole Gurtler",
+        "rating": 5,
+        "review": "I had never spent any time in Bellingham before, and found that this was the perfect place from which to explore. On top of the ideal location (right in the heart of downtown!) in a historic building, the suites are beautifully appointed and full of thoughtful touches.",
+        "owner_response": {
+          "text": "Thank you for your thoughtful review, Nicole - we certainly enjoyed hosting you! -Fred and Colleen Schacht"
+        }
+      },
+      {
+        "author": "Heather Dauphiny",
+        "rating": 5,
+        "review": "This is a wonderful spot in downtown Bellingham. Our hosts were amazing and easy to get a hold of with questions. The unit was clean and cozy and Fred and Colleen left a few little treats that just went above and beyond!",
+        "owner_response": {
+          "text": "Thank you for sharing your review, Heather and thanks for being 5-Star guests! -Fred"
+        }
+      },
+      {
+        "author": "Constantin Papadimitriou",
+        "rating": 5,
+        "review": "Wonderful, better than stsying at a regular hotel",
+        "owner_response": {
+          "text": "Thank you, Constantin - we are delighted that you found Hamlet Hotel to your liking! -Fred"
+        }
+      },
+      {
+        "author": "Michael Ford",
+        "rating": 5,
+        "review": "Very nice  clean, in the heart of city....",
+        "owner_response": {
+          "text": "Thank you for taking the time to review our place, Michael - we really appreciate your support! -Fred"
+        }
+      },
+      {
+        "author": "Ryan Marita-Davis",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you, Ryan!"
+        }
+      },
+      {
+        "author": "Jenna Richardson",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you for reviewing our place, Jenna!"
+        }
+      },
+      {
+        "author": "Joe Sabol",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thank you, Joe!"
+        }
+      }
+    ]
+  },
+  "adjusted_review_count": 6,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 9
+  },
+  "summary": {
+    "created_timestamp": 1739205614,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Hamlet in Bellingham, WA, has been receiving positive feedback from guests who appreciate the recently updated rooms and well-provisioned amenities. User reviews praise the kitchen, bath, and living spaces for their comfort and functionality. Guests appreciate the hotel's prime downtown location and the fact that rooms are beautifully appointed with thoughtful touches. The management's friendly engagement is another positive aspect mentioned by visitors, enhancing the overall guest experience.</p><p>In user reviews, there is a recognition of some noise from the nearby dancehall during weekends, but it is noted that it tends to quiet down by 11 pm, and the hotel management provides earplugs for guest convenience. Many guests have found the noise to not diminish the charm and comfort of their stay. Additionally, the management's proactive communication, such as providing white noise machines, demonstrates their commitment to guest satisfaction.</p></section><section id=\"great\"><h2>Great</h2><p>Reviewers highlight The Hamlet's cozy and stylish environment as a significant part of its appeal. Many guests have expressed their desire to return after enjoying the combination of the comforts of home and the hotel's unique charm. The accessibility to the vibrant downtown area adds value to the stay, making it an ideal base for exploring Bellingham.</p><p>Further contributing to the great experience at The Hamlet is the exceptional hospitality provided by the hosts. They are frequently commended for being welcoming and readily available to assist with any inquiries. The personal touches left by the hosts, such as treats in the rooms, make guests feel special and underscore the management's dedication to going above and beyond to ensure a memorable stay.</p></section><section id=\"bad\"><h2>Bad</h2><p>The reviews for The Hamlet do not reflect any significant negative experiences. While there is some mention of noise from a nearby dancehall, it seems to be a minor inconvenience for guests, and management's efforts to mitigate this, such as providing earplugs and white noise machines, have been well received. There is no indication of issues like poor communication or lack of responsiveness from the property management as per the user reviews. With a flawless 5-star rating across all reviews, The Hamlet appears to have consistently met, if not exceeded, guest expectations.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The user reviews for The Hamlet do not reveal any severe issues or horror stories that typically characterize the \"ugly\" section of reviews. The management has been proactive in addressing potential guest concerns, and there are no reports of neglected duties or unresolved issues. All reviews have been met with thoughtful responses from the management, indicating a culture of attentiveness and appreciation towards their guests. This level of customer service contributes to the lack of negative experiences shared online.</p></section>"
+  }
+}

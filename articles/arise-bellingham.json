@@ -1,0 +1,31 @@
+{
+  "name": "Arise Bellingham",
+  "slug": "arise-bellingham",
+  "company_type": "Property",
+  "address": "621 32nd St, Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Mitch Mills",
+        "rating": 5,
+        "review": "My GF and I had to move to Bellingham from Wisconsin on short notice right before thanksgiving and Megan @ Sparq Living was super accommodating and acted with urgency to help us get set up with our new home. Highly recommend!",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739205391,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article's \"Good\" section, we explore particular strengths of Arise Bellingham highlighted in user reviews. One user praised the service they received when they had to relocate on short notice from Wisconsin to Bellingham. They specifically mentioned how accommodating and urgent the property management was in helping them settle into their new home. This is indicative of a strong team that understands tenant needs and is willing to go the extra mile.</p><p>The praise for Arise Bellingham also aligns with the company's overall high average rating, suggesting that this is not an isolated case of good service. With an impressive score reflecting complete satisfaction, the company demonstrates a reliable consistency in maintaining a commendable level of service for its clients.</p></section><section id=\"great\"><h2>Great</h2><p>The positive experience depicted in user reviews for Arise Bellingham highlights great service attributes, particularly the efficiency and initiative shown by the team. The swift and professional handling of logistical challenges like moving during peak times shows a commendable dedication to tenant satisfaction. The mention of specific staff being notably helpful reinforces the personal touch that makes tenants feel valued and supported.</p><p>Moreover, the glowing recommendations from tenants set Arise Bellingham apart as a company where great customer service is a priority. The sentiment suggests that tenants enjoy a seamless and stress-free process, adding to the overall quality of living in their managed properties. This level of service is essential in building trust and developing long-term relationships with tenants.</p></section><section id=\"bad\"><h2>Bad</h2><p>As of now, there are no user reviews reflecting negative experiences or dissatisfaction with Arise Bellingham. The absence of complaints or critiques points to their capability in addressing tenant needs and maintaining property standards effectively. However, this limited feedback poses challenges in providing a comprehensive view, which typically benefits from a broader range of experiences.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In this article, the \"Ugly\" section remains unpopulated due to the lack of negative experiences shared by tenants. Arise Bellingham has so far avoided major pitfalls that can occur in property management, such as neglecting maintenance requests or communication breakdowns. This absence of serious complaints suggests they are successful in managing and addressing potential issues before they escalate. However, it is also important to acknowledge that the limited reviews do not fully illustrate the company's handling of less favorable situations.</p></section>"
+  }
+}

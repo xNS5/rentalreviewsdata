@@ -1,0 +1,31 @@
+{
+  "name": "Sahiry Ireland - HomeSmart One Realty",
+  "slug": "sahiry-ireland-homesmart-one-realty",
+  "company_type": "Company",
+  "address": "4164 Meridian St Ste 104 Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 5.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Thomas L.",
+        "rating": 5,
+        "review": "I've worked with Sahiry personally on home acquisitions, and the experience has been exceptional all around. She is throrough, pleasant and helpful with the process. I highly recommend her!",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739205581,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Sahiry Ireland - HomeSmart One Realty has received positive feedback from its clients, highlighting its dedication to providing a thorough and pleasant experience. User reviews indicate that Sahiry is capable and knowledgeable in handling home acquisitions. Clients often describe interactions with her as seamless, which instills confidence in her professional abilities.</p><p>Clients appreciate her attentiveness to detail and find her helpful throughout the buying process. This supportive approach helps clients feel at ease with their decisions. Overall, the reviews reflect a pattern of satisfaction that underscores the value she brings to her clients.</p></section><section id=\"great\"><h2>Great</h2><p>In this article, the standout aspect of Sahiry's service is truly exceptional client relations. One user review remarked on Sahiry's highly recommended service regarding her professionalism and knowledge, making the entire home buying experience exceptional. Such commendations speak volumes about her capabilities and customer focus, which elevate her service to another level.</p><p>Sahiry's ability to guide clients smoothly through complex processes demonstrates her expertise and dedication. Her pleasant demeanor further enriches clients' experiences, growing her reputation as an outstanding real estate professional. The combination of these qualities contributes significantly to Sahiry's success in exceeding client expectations.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the overwhelmingly positive reviews, the current data set is limited, which presents a challenge in identifying any negative experiences. With only one glowing user review available, it's difficult to assess any consistent issues or lapses in service that might provide constructive criticism for potential improvement areas.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Given the limited number of reviews, there are no reported cases of egregious service failures or troubling patterns of mismanagement within Sahiry Ireland - HomeSmart One Realty. The absence of any negative feedback in the available reviews means this article cannot explore or highlight any severe pitfalls or complaints typically associated with this section.</p></section>"
+  }
+}

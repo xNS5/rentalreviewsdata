@@ -3,6 +3,8 @@ import json
 import shutil
 import re
 from pathlib import Path
+from collections import defaultdict
+from send2trash import send2trash
 
 def get_config():
     with open("utilities/config.json", "r") as inputFile:
@@ -42,12 +44,15 @@ def get_disclaimer_map():
 
 def company_map(key):
     map = get_config()
-    return map["company_map"][key] if key in map else {}
+    return map["company_map"][key] if key in map['company_map'] else {}
 
 def get_company_blacklist():
     return set(
         get_config()["company_blacklist"]
     )
+
+def get_phrase_blacklist():
+    return get_config()["phrase_blacklist"]
 
 def get_google_category_whitelist():
     return set(
@@ -113,10 +118,7 @@ def get_file_paths():
 
 def remove_path(path):
     if os.path.exists(path):
-        if os.path.isfile(path):
-            os.remove(path)
-        elif os.path.isdir(path):
-            shutil.rmtree(path)
+        send2trash(path)
     else:
         raise ValueError(f'File {path} does not exist')
             
@@ -167,6 +169,18 @@ def calculate_adjusted_reviews(data):
         ),
     }
 
+def calculate_distribution(data):
+    ret = defaultdict(int)
+    for i in range(5):
+        ret.setdefault(i+1, 0)
+
+    reviews = get_all_reviews(data)
+    for review in reviews:
+        key = review['rating']
+        ret[key] += 1
+
+    return {"distribution": ret}
+
 
 def calculate_actual_rating(data):
     reviews = get_all_reviews(data)
@@ -183,3 +197,7 @@ def calculate_actual_rating(data):
 def get_file_count(path):
     input = os.listdir(path)
     return len(input)
+
+
+def path_exists(path):
+    return os.path.exists(path)

@@ -3,72 +3,85 @@
   "slug": "northwest-property-collective-llc",
   "company_type": "Company",
   "address": "",
-  "review_count": 7,
+  "review_count": 8,
   "average_rating": 5.0,
   "reviews": {
     "google_reviews": [
       {
+        "author": "Michael King",
+        "rating": 5,
+        "review": "Jessica and team are easy to work with, have exceptional attention to detail and care about the people they partner with. Highly recommend!",
+        "owner_response": null
+      },
+      {
         "author": "Elizabeth Cox",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I would highly recommend Jessica for any of your rental needs. She is quick to respond, very professional and very realistic when it comes to income and expenses. I was interested in turning my home into an AirBnB and she came out promptly to give me a  comprehensive review of the my home. She instructed me exactly what I needed to do and assisted with everything. She always ensures 5 star reviews and I'm just so impressed with her service from start to finish. Thank you, Jessica!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you very much! Grateful for you :)"
         }
       },
       {
         "author": "Emelie Goodman",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Very impressed with Jessica at NW Property Collective response time and management skills. Im a local realtor and Jessica continues to serve my clients stage, design and rent out their homes short term netting them the highest dollar amount with no added stress for our clients. She focuses on the small details renters look for, from comfortable sheets, stocking the fridge & confirming the cleaners cleaned to her standard. She always ensures a 5 star Airbnb score and wants whats best for everyone involved! Shes trustworthy, knowledgeable, and reliable - highly recommend her services!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "As a small business, we really appreciate that you took the time to leave us a positive review. We look forward to working together again soon! "
         }
       },
       {
         "author": "Erin Luna",
-        "rating": 5.0,
+        "rating": 5,
         "review": "With Northwest Property Collective, I received prompt and professional communication regarding my inquiry. Jessica is extremely knowledgeable, very approachable, and pays thoughtful attention to every detail. I am confident Northwest Property Collective truly has the clients best interests in mind when managing a property.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you very much Erin! I appreciate you :)"
         }
       },
       {
-        "author": "Jenn Fluke",
-        "rating": 5.0,
-        "review": "The home is very comfortable. Checking in was easy and the property management team was fast to help with anything.",
-        "ownerResponse": {
-          "text": "Thank you so much for trusting our expertise, Jenn! It was a delight to meet you."
-        }
-      },
-      {
-        "author": "Jeffrey Brooks",
-        "rating": 5.0,
-        "review": "The place was beautiful and Jessica was fabulous - so great we rented again for next year.",
-        "ownerResponse": {
-          "text": "Thanks Jeff, you are an ideal guest! Looking forward to next year already :)"
-        }
-      },
-      {
         "author": "Phil Zeutenhorst",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Jessica was great. House had everything for a wonderful stay. location was great too.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks Phil! You were a great guest, come stay again!"
         }
       },
       {
+        "author": "Jeffrey Brooks",
+        "rating": 5,
+        "review": "The place was beautiful and Jessica was fabulous - so great we rented again for next year.",
+        "owner_response": {
+          "text": "Thanks Jeff, you are an ideal guest! Looking forward to next year already :)"
+        }
+      },
+      {
+        "author": "Jenn Fluke",
+        "rating": 5,
+        "review": "The home is very comfortable. Checking in was easy and the property management team was fast to help with anything.",
+        "owner_response": {
+          "text": "Thank you so much for trusting our expertise, Jenn! It was a delight to meet you."
+        }
+      },
+      {
         "author": "Mary hmb1968 B",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Jessica is professional, prompt and responsive. Always willing to help and goes the extra mile!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for being such a valued client, I adore you and your home!"
         }
       }
     ]
   },
-  "adjusted_review_count": 7,
+  "adjusted_review_count": 8,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the realm of the good, user reviews consistently praise Northwest Property Collective for its professional and prompt service. Tenants appreciate the responsiveness and thoroughness the company demonstrates, particularly noting Jessica's adeptness in handling rental needs. From swiftly answering inquiries to meticulous attention to detail, the company clearly prioritizes customer satisfaction and efficiency, a trait that resonates well with their clientele. Moreover, her willingness to go the extra mile has been commended, often leading to customers feeling valued and well taken care of under her management.</p></section><section><h2>Great</h2><p>The great aspects of Northwest Property Collective are highlighted by its customers' high regard for Jessica's ability to exceed expectations regarding property management. Clients are impressed by her focus on achieving the highest return for property owners, attention to small details that enhance the renting experience, and insistence on quality standards. The company's approach to create a comfortable and stress-free stay for tenants, ranging from top-notch sheets to ensuring cleanliness, not only garners 5-star Airbnb scores but also strong loyalty and repeat business, as indicated in the reviews.</p></section><section><h2>Bad</h2><p>This article's intent is to present a balanced view, but the task proves challenging as user reviews for Northwest Property Collective are overwhelmingly positive, with no explicit mention of unaddressed maintenance concerns or security deposit issues. Each user review shows a full 5-star rating, painting a picture of a company which is currently viewed as doing an excellent job in meeting and exceeding client and tenant expectations. Therefore, no substantive data from user reviews are available to detail a 'bad' section.</p></section><section><h2>Ugly</h2><p>Correspondingly, the 'ugly' aspects of Northwest Property Collective are conspicuously absent in the provided data. Clients who have worked with Jessica from the company describe experiences that are remarkably favorable, ranging from the quality of the home stays to the professionalism and reliability of the management. The company has repeatedly been described as prompt, responsive, and going above and beyond, with no notable negative incidents or patterns reported in user reviews as of the knowledge cutoff point.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 8
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205528,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, the good aspects of Northwest Property Collective LLC primarily highlight the company's consistent communication and attention to detail. Users frequently mention their satisfaction with the prompt and professional responses they receive. One user notes how the team is quick to answer inquiries and maintains a clear line of communication throughout the rental process. This level of service ensures that clients feel supported and informed, a crucial aspect for anyone managing rental properties.</p><p>Another aspect that users appreciate is the comprehensive support offered by the company. For instance, Jessica's attention to small but significant details like ensuring comfort and cleanliness in rental properties stands out. Her thorough approach to property management, including staging and stocking, underscores the good reputation this company holds as it consistently delivers on client expectations.</p></section><section id=\"great\"><h2>Great</h2><p>The great qualities of Northwest Property Collective LLC are exemplified by their ability to consistently exceed client expectations. A recurring theme in user reviews is the high level of client satisfaction resulting from personalized service. Jessica's expertise in transforming homes into successful short-term rentals, resulting in consistently high ratings, provides an excellent example. Users commend her strategic guidance and hands-on assistance, leading clients to achieve maximum rental potential with minimum stress.</p><p>Additionally, the team\u2019s dedication to creating a seamless experience for renters adds to their stellar reputation. Users report that their stays in properties managed by the company are always enjoyable and well-supported. From easy check-in procedures to reliable assistance during their stay, clients have expressed that their experiences with Northwest Property Collective LLC have been nothing short of fantastic. This dedication and commitment to service exemplify the company\u2019s great attributes.</p></section><section id=\"bad\"><h2>Bad</h2><p>Currently, there appear to be no bad reviews for Northwest Property Collective LLC, as reflected in their perfect score. The absence of negative feedback in the user reviews may indicate a consistently high level of service and client satisfaction. However, this means the article is unable to provide any specific examples of negative experiences or shortcomings that might be evident in services provided by the property management team.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There are no user reviews reflecting any ugly experiences with Northwest Property Collective LLC. With no complaints or issues raised, both the bad and ugly sections remain devoid of content. This could suggest that the company maintains a high standard of operations and customer relations, ensuring that most, if not all, clients have overwhelmingly positive experiences.</p></section>"
+  }
 }

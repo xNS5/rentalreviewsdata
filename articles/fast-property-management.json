@@ -8,96 +8,96 @@
   "reviews": {
     "google_reviews": [
       {
-        "author": "E.N. Byron",
-        "rating": 5.0,
-        "review": "I've rented from Fast Property for 5 years now, and the experience has been nothing short of delightful. They're quick to respond to maintenance requests, everyone is so kind, and they really go above and beyond to keep the property looking nice.",
-        "ownerResponse": {
-          "text": "Thank you so much for taking the time to leave us a review. We really appreciate your kind words! -Anna"
-        }
-      },
-      {
         "author": "Tracey Lee",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I'm 60 yrs old, and I have rented the same apartment in Woodland Townhomes since Aug 2012 (almost 11 yrs.) Speaking only from my own personal experiences.. Kris & Kim Fast have always been polite to me.. if your honest with them, if you respect them, they will respect you. I personally have never had a problem with management.. they've always given a 24-hr notice if they need to enter my apartment for any legit reason.\nThe maintenance man, Piers.. has always been nice & respectful towards me.. he's a thoughtful and understanding person.  Anna Fast who helps with management is polite and professional, it's always pleasant communicating with her.. she's a good person. Integrity & respect for others is everything, I recommend the Fast Property Management Team.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Tracey, thank you so much for the recommendation! We are grateful to have had you as a tenant for over a decade. -Anna"
         }
       },
       {
+        "author": "Erin Jackson",
+        "rating": 5,
+        "review": "I've rented from Fast Property for 5 years now, and the experience has been nothing short of delightful. They're quick to respond to maintenance requests, everyone is so kind, and they really go above and beyond to keep the property looking nice.",
+        "owner_response": {
+          "text": "Thank you so much for taking the time to leave us a review. We really appreciate your kind words! -Anna"
+        }
+      },
+      {
         "author": "Nate Fearer",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I've been a tenant at a Fast PM property for a year now, and the folks at Fast have always been friendly, professional, and super quick to send maintenance people when things break. My wife and I have had a great experience with them ...and that's not usually something tenants say of PMs.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Nate, thanks for the kind words! We are happy to have the two of you as tenants. I appreciate you taking the time to write a review. -Anna"
         }
       },
       {
         "author": "Kyle B",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Really helpful management company. The 1 issue I've had in the multiple years renting with them they had someone out that day to check out the issue and get it fixed.\nDoubly impressive being when that I split with my partner they helped him find a similarly priced place in their management portfolio.\nNever been more impressed with a management company than with these guys. 100% would recommend",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for the kind words, Kyle. We appreciate you taking the time to write a review! -Anna"
         }
       },
       {
         "author": "Michie C",
-        "rating": 5.0,
+        "rating": 5,
         "review": "The property manager Anna is extremely kind & considerate. Whenever something isnt working, maintenance fixes it promptly. I also like that there is ample parking and the grounds are very well kept. You cant ask for a better place to live",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Michele, thank you so much for the kind words and for taking the time to leave us a review! We appreciate you very much! -Anna"
         }
       },
       {
         "author": "Madisyn Speidel",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Management is great! They always keep in touch and are fast responders when it comes to concerns. Also maintenance is great as well! Weve had multiple things need fixing and they come in the next day while were at work and fix it for us! Over all, a great place to be housed under!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hey Madisyn, thank you so much for your kind words! -Anna"
         }
       },
       {
         "author": "Raynee Kalkus",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Really quiet even on the weekends, neighbors are friendly but private. Landlord/ property owner is really nice every time I contact them! If there is ever an inconvenience its really tiny and is quick to be handled.  ",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hi Raynee, I'm happy to hear you feel that way! Thank you so much for the review. -Anna"
         }
       },
       {
         "author": "Roman Johnson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Ive lived in a number of apartments over the years and no property management team cares about their tenants as much as these people. Wonderful people to work with and couldnt recommend them more",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Roman, thank you so much. We appreciate you taking the time to write such a nice review! -Anna"
         }
       },
       {
         "author": "ellen dodson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Excellent landlords.  Very responsive to repair needs. Pleasant and professional staff.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Ellen, I'm happy to hear that. Thank you so much for the review! -Anna"
         }
       },
       {
         "author": "Lpzmont",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Randy Lapo",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks Randy, we appreciate the stars! -Anna"
         }
       },
       {
         "author": "Erica",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Erica, thank you! We appreciate the 5-star review! -Anna"
         }
       }
@@ -105,8 +105,15 @@
   },
   "adjusted_review_count": 9,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In this article, the 'Good' aspect of Fast Property Management shines through user reviews that share experiences of consistent, timely responses to maintenance requests. One tenant highlights their five-year rental period as 'delightful,' with special commendation for the staff's kindness and dedication to the property's upkeep. Another user review echoes this sentiment, emphasizing the swift and professional resolution of a single issue encountered over several years of their tenancy.</p><p>Furthermore, the communication style and integrity of the Fast Property Management team are often praised throughout user reviews. Tenants appreciate the 24-hour notices before the management enters their apartments, exemplifying the company's respect for personal space and privacy. The property manager, Anna, is singled out for her polite and professional demeanor, fostering pleasant interactions and enhancing the rental experience.</p></section><section><h2>Great</h2><p>The 'Great' in Fast Property Management, as per user reviews, is reflected in long-term tenant satisfaction and the personalized attention provided to residents. For instance, one tenant of nearly 11 years highlights the politeness of the management team and their commendable trait of giving respect when it's reciprocated. Similarly, another review details how the company went out of its way to help a tenant find a new place after splitting with his partner, demonstrating their commitment to the tenants' well-being beyond standard obligations.</p><p>Aside from exemplary management, the maintenance team's efficiency and courtesy receive high marks. Tenants share stories of prompt services and kind treatment from maintenance staff, indicating that the company values all aspects of the tenant experience. With several user reviews stating that maintenance issues are dealt with the next day, it's evident that Fast Property Management prioritizes swift problem resolution and maintains excellent operational standards.</p></section><section><h2>Bad</h2><p>Despite an exhaustive search for diverse feedback, this article finds no specific negative or 'Bad' experiences detailed in user reviews for Fast Property Management. Each user review contributes to a unanimously positive portrayal of the company, its staff, and its approach to property management. The absence of reports on unaddressed maintenance concerns, lost security deposits, or poor communication suggest a remarkable level of tenant satisfaction.</p></section><section><h2>Ugly</h2><p>With a consistent five-star performance across all user reviews, this article is unable to uncover any 'Ugly' aspects of Fast Property Management. No grievances about neglectful behaviors or any severe issues have been reported. The unanimous praise from tenants leans heavily towards a conclusion that the company maintains a high standard of operations and cultivates a respectful and responsive relationship with its tenants.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 12
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205451,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Fast Property Management has received numerous positive comments from tenants, reflecting a consistently high level of satisfaction across different aspects of their service. Tenants frequently praise the company for their prompt maintenance response and handling of issues, as highlighted in one instance where a tenant noted that a maintenance request was addressed on the same day. The management team, particularly Anna, is often described as polite, professional, and respectful, fostering a pleasant living environment.</p><p>Many users appreciate the respectful and considerate communication style of the team, notably Anna Fast, who handles tenant interactions with warmth and professionalism. This level of service and the integrity with which tenants are treated contribute to the company's positive reputation. Such positive interactions and prompt service make tenants feel valued and well-cared for, creating a sense of trust and loyalty among the residents.</p></section><section id=\"great\"><h2>Great</h2><p>The exemplary service delivered by Fast Property Management extends beyond the basics of maintenance and communication. A notable feature that sets them apart is their consideration for tenants' unique circumstances, demonstrated when they assisted a tenant in finding a comparable unit after a separation. The management team is described as going above and beyond standard expectations, ensuring that the properties are well-maintained and that tenants feel comfortable and secure in their homes.</p><p>Tenants appreciate the peaceful living conditions offered by properties managed by Fast Property Management, with comments noting the quiet atmosphere and friendly, yet private, neighbors. Beyond the physical aspects, the responsive and caring nature of the staff enhances tenants' overall living experience, as evidenced by testimonials describing their living arrangements as delightful and the management team as the kindest and most considerate encountered in their rental experiences.</p></section><section id=\"bad\"><h2>Bad</h2><p>In this particular set of user reviews, there is a notable absence of negative feedback or lower ratings, which is unusual for a property management company and may indicate consistently high standards of service. Due to this lack of negative reviews, potential issues or dissatisfaction elements that are common in the property management industry, such as unresolved maintenance problems or poor communication, are not presented here.</p><p>While this paints a very positive picture, it is also important for prospective tenants to consider other potential unmentioned factors that might be obscured by the overwhelmingly positive feedback. In evaluating a company solely on positive reviews, one might miss out on lesser-known aspects or isolated incidents that could provide a more comprehensive assessment. Therefore, while the reviews are excellently favorable, approaching with a critical eye could provide a balanced view.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There are no reviews detailing any 'ugly' experiences, such as severe neglect from Fast Property Management. The complete lack of negative feedback could suggest exceptional service, but it is also important not to overlook that adverse situations might still occur, as is possible with any property management service. Instances of 'ugly' in other contexts could include deposit disputes or significant security concerns, but such issues appear to be entirely absent for this company according to available testimonies.</p><p>In the absence of damning evidence, it would be easy to conclude that tenants do not experience significant problems with Fast Property Management. However, prospective tenants should also be aware of the possibility of exceptional circumstances not captured by existing reviews. The challenge remains to maintain such high standards without room for complacency, ensuring all aspects of management continue to meet, if not exceed, tenant expectations.</p></section>"
+  }
 }

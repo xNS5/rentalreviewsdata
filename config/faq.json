@@ -3,7 +3,6 @@
     "title": "Frequently Asked Questions",
     "type": "page",
     "description": "Quick Answers to Your Top Questions",
-    "aria_announcement": "Main content contains a list of headings and paragraph text",
     "questions": [
         {
             "id": "data",

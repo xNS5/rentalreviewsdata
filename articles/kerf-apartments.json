@@ -3,238 +3,395 @@
   "slug": "kerf-apartments",
   "company_type": "Property",
   "address": "208 N Samish Way, Bellingham, WA 98225",
-  "review_count": 37,
-  "average_rating": 5.0,
+  "review_count": 62,
+  "average_rating": 4.85,
   "reviews": {
     "google_reviews": [
       {
-        "author": "Happy Tails Happy Homes",
-        "rating": 5.0,
-        "review": "Kerf apartments is an amazing place for any pet and pet parent to live! They have absolutely no breed or size restriction. Kerf has a pet spa with self washing station and is very conveniently located to many dog friendly trails and parks.  As a non profit dog rescue we 100% support  Kerf and love what they do to support the pets in our community!",
-        "ownerResponse": null
-      },
-      {
-        "author": "T. Christon-Stewart",
-        "rating": 5.0,
-        "review": "Beautiful property, with lush spaces and the most friendly hosts!! Looking forward to seeing all this place had to offer over the coming days. Perfect location to downtown fun. Can't miss and stop in!!",
-        "ownerResponse": null
-      },
-      {
-        "author": "Sharlaine LaClair",
-        "rating": 5.0,
-        "review": "This place is so beautiful! It has all the amenities, and amazing place for remote work or studying,  plus it's pet friendly. The units are spacious and have high end finishes. Love it!",
-        "ownerResponse": null
-      },
-      {
-        "author": "Gary Vittoz",
-        "rating": 5.0,
-        "review": "Everything is great. The only problem I had was getting my WiFi functioning. Xfinity repairman came and quickly identified and fixed the issue with the modem/router in my apartment. I took him down to explain it to Josh as it may be an issue with numerous apartments. Security seems quite robust and the new facility is very nice.",
-        "ownerResponse": null
-      },
-      {
-        "author": "Felia Moresca",
-        "rating": 5.0,
-        "review": "I applied site unseen, and I love living here. The amenities are beautiful, within walking distance from restaurants, grocery stores, WWU, and I love that it's a very dog friendly environment for my little chihuahua to run around  ",
-        "ownerResponse": null
-      },
-      {
-        "author": "Ashlyn",
-        "rating": 5.0,
-        "review": "Kiara has been exceptional to work with! I have been looking at places to rent that have all the amenities I desire and am moving out of state so dont have the luxury to view in person. She did a FaceTime with me and went above and beyond showing me every unit I had questions on (which were a few, sorry and thank you!!).\n\nI also was able to see all the common areas/amenities. While theres still some kinks to work out, shes made me feel confident they will deliver on what they promote. Everything is brand new and Im so excited to call this place home in a month with my two pups!  Im big on reviews, **especially** when looking at apartments/property mgmt companies and even more so when out of stateso I hope this helps someone else take the plunge bc trust that I will update this review to keep potential neighbors informed if anything becomes a major issue! Thank you ",
-        "ownerResponse": null
-      },
-      {
-        "author": "d2pGoon",
-        "rating": 5.0,
-        "review": "So far so good living here! Awesome staff, everyone is really nice. Also love being so close to everything, great location!",
-        "ownerResponse": null
-      },
-      {
-        "author": "Baekhyun's Bacon",
-        "rating": 5.0,
-        "review": "Best comfortable living space ever! I love how inviting they are and Im never bored this is a nice space for creativity or just to chill and drink some coffee!",
-        "ownerResponse": null
-      },
-      {
         "author": "Brant Satala",
-        "rating": 5.0,
-        "review": "Amazing place, very quiet so far.  Awesome commons area to sit and read it work on computer, or have coffee or tea.  I plan on taking advantage of that space.  Feels very PNW.",
-        "ownerResponse": null
+        "rating": 3,
+        "review": "Nice building in a slightly sketchy part of town.  Kiara and John are great property management/maint. people, super friendly and helpful.  Anywhere you rent is going to have some sort of issue(s) at some point, and Kerf is no exception.  But those issues have been more in the common area on the first floor, and with the gate to the parking lot. I have to be honest, the gate has been broken for most of the months I've lived here (on and off), and there has been NO discount on the $75/month parking fee despite requesting some kind of break because of the sloth-paced repairs.  However, when you sign the lease, Blanton-Turner states they are not responsible for security.  So when the gate breaks, and a car gets broken into, your $75 is not paying for peace of mind of a security gate that works. Mgmt has told us we are responsible for security, and not to let people follow us through the parking gate. Huh?  In a sketchy neighborhood, that's messed up.\nIt's too bad because it could be so much better here with some easy system improvements and security repairs.\nSeems to be a good diversity of people, and also seems like a lot of students.  Personally, I think Kerf is a decent intermediate place to live for 6 months to a year.  I'd really love to give this place 5 stars because there are a couple super people who work here, and some super cool neighbors.  But I can't.\nBut with the current issues, I wouldn't want to stay for more than that though.",
+        "owner_response": null
       },
       {
-        "author": "Kenny Reed",
-        "rating": 5.0,
-        "review": "Great vibes, quality building, super receptive staff Property manager Joshua is awesome. Great beanies too.",
-        "ownerResponse": null
+        "author": "Megan Beal",
+        "rating": 5,
+        "review": "Everyone here at Kerf have been amazing and wonderful. John who handles maintenance was super nice and very helpful! He answered all my questions and addressed my concerns. I appreciate him and his time! I have had nothing but positive things from being here so far!",
+        "owner_response": null
       },
       {
-        "author": "Keith Soltman",
-        "rating": 5.0,
-        "review": "The apartments are gorgeous! The willingness to throw a super awesome opening party also shows a company who cares.",
-        "ownerResponse": null
+        "author": "James Booth",
+        "rating": 4,
+        "review": "I'm a current tenant here and in several months I've had zero issues with my apartment. Appliances are great and all work without issue, staff are friendly, very professional, and easy to get ahold of when necessary. Perhaps it is my unit but there hasn't been much noise and this is a community of around 200 people. Considering the very poor quality of many other apartments, and the generally good upkeep of Kerf, I think you're going to have a hard time finding somewhere better. Also the area isn't too bad, is close to many bus lines, and I've generally felt safe in and outside the apartment. The rent is high but high is the going rate in Bellingham and considering that things are largely intact, function as they should, and are clean it's far from the worst bargain you're going to find.\n\nThe only real problem that has occurred is a broken parking gate which I think is currently being repaired. That is an issue that has more to do with levels of management far above the on site staff and it is unfair to fault them for it.",
+        "owner_response": null
+      },
+      {
+        "author": "Macala Rose",
+        "rating": 5,
+        "review": "Absolutely amazing building. Professionally managed, great location and over the top amenities. Highly recommended.",
+        "owner_response": null
+      },
+      {
+        "author": "Regina Reid",
+        "rating": 5,
+        "review": "Kerf Apartments brings an outdoor feel indoors, but you can also leave the outside rush and feel at home inside. The staff is extremely efficient, helpful, and friendly. The amenities are designed for me-time as well as community. And the modern features are a sustainable business model.",
+        "owner_response": null
+      },
+      {
+        "author": "Adam House",
+        "rating": 5,
+        "review": "I've lived in nine states, apartments in most of them, and this is the best building I've come across. The location is great and walkable. Just over a mile to downtown might be a little long for some people, but it's doable, and everything else you need (Walgreens, a few chain restaurants, a few local restaurants, a grocery store, a hardware store, a UPS store, and more) is within a half mile walking distance on Samish Way, which is a bit loud to walk on but not too bad, and it has nice wide sidewalks, bus stops going both directions, and good pedestrian crossings.\n\nAs for the building itself, the staff at Kerf is fantastic. Joshua, Caitlin and Kiara are all very friendly, courteous, and helpful. Management seems good and the online community & payments portal is good. Digital access works well. The only thing to note is that there is no guest parking, but Bellingham is small and when I have a guest, I've been fine with reimbursing a quick Uber or picking them up myself or whatever. Apartments are well built and the units are well soundproofed. Shared amenities are great too. The gym is stocked really well compared to many apartment gyms as well, and feels spacious because it has a second level. You can tell Blanton Turner (the management company) credibly cares about the wellbeing of their residents and about getting the details right.\n\nOverall this building is a gemmy favorite I've lived at in my adult life!and I am excited for it to be my home for years to come.",
+        "owner_response": null
+      },
+      {
+        "author": "Jay James",
+        "rating": 5,
+        "review": "I highly recommend The Kerf Apartments! I had a fantastic tour and was impressed by the excellent amenities at this apartment building. The manager, Joshua, was incredibly kind and always had a smile on his face. The proximity to downtown is definitely a major plus.",
+        "owner_response": null
+      },
+      {
+        "author": "Grace Leddige",
+        "rating": 5,
+        "review": "Im obsessed with this place! Everyones been so nice and welcoming. Management is the best and theyre always on top of everything/whatever is needed. The amenities are soooo fun! Ive saved money every month by not going out and just using the amenities here. The gym has everything you need, the golf simulation has more than just golf (the zombie dodge ball is personally my favorite with friends), the roof top bbq is gorgeous. Ive lived in a lot of apartment complexes, but this is by far the best one . I highly highly recommend this place to any/everyone.",
+        "owner_response": null
       },
       {
         "author": "Le Derppz",
-        "rating": 5.0,
-        "review": "Amazing support and help moving ! A really great team that got me moved in and into apartment within 3 days .",
-        "ownerResponse": null
+        "rating": 1,
+        "review": "The Parking  garage gate has been broken for almost a month leaving it open to vandalism,  walls are thin, weed smell.  Bikes stolen from Bike rooms, car break ins. Management will not repair things.  Stay away at all costs.  There is a bribing process for the reviews, they will give you a beanie if you review it well.",
+        "owner_response": null
       },
       {
-        "author": "Mario Zanatta",
-        "rating": 5.0,
-        "review": "Great apartment  to live at, definitely enjoy the space. Would recommend.  ",
-        "ownerResponse": null
+        "author": "Sharlaine LaClair",
+        "rating": 4,
+        "review": "This place is so beautiful! It has all the amenities, and amazing place for remote work or studying,  plus it's pet friendly. The units are spacious and have high end finishes. Love it!\nThe only downside is parking. There is no visitor parking and if you want a parking space its one per tenant which you have to pay $75/month for. Managements hands are tied though with limited parking spaces. There are 5-6 free curbside public parking spots that fill up quickly, and other public parking and/or monthly parking areas are not within walking distance.",
+        "owner_response": null
       },
       {
-        "author": "Janet Bauer",
-        "rating": 5.0,
-        "review": "Such a beautiful space and love all the wood details. Wish I lived in the area!",
-        "ownerResponse": null
+        "author": "John Mitchell (Juda)",
+        "rating": 5,
+        "review": "Incredibly unique space with beautiful PNW inspired touches throughout. Tons of space to stretch out with amenity spaces and large floor plans. The aesthetic speaks for itself. Caitlin has been amazing and hospitable. If youre exploring Bellingham as home, Id definitely check out this community.",
+        "owner_response": null
       },
       {
-        "author": "HelloHappyDaze",
-        "rating": 5.0,
-        "review": "Beautiful property with friendly staff! Close to the college campus and shopping and food options",
-        "ownerResponse": null
+        "author": "Bobbi Smith",
+        "rating": 5,
+        "review": "We love our new apartment. Friendly responsive management and maintenance team that are on site. The recreational areas and apartment grounds are stunning. This is also a very secure property that is close to amenities and walkable to downtown.",
+        "owner_response": null
       },
       {
-        "author": "Thain Struhsaker",
-        "rating": 5.0,
-        "review": "Everyone has been very helpful while moving in thank you.",
-        "ownerResponse": null
+        "author": "Valerie McMillan",
+        "rating": 5,
+        "review": "I love my apartment! The amenities are great, and my view is wonderful.  Joshua is always so helpful whenever I need help with something.",
+        "owner_response": null
+      },
+      {
+        "author": "Happy Tails Happy Homes",
+        "rating": 5,
+        "review": "Kerf apartments is an amazing place for any pet and pet parent to live! They have absolutely no breed or size restriction. Kerf has a pet spa with self washing station and is very conveniently located to many dog friendly trails and parks.  As a non profit dog rescue we 100% support  Kerf and love what they do to support the pets in our community!",
+        "owner_response": null
+      },
+      {
+        "author": "Gary Vittoz",
+        "rating": 5,
+        "review": "Everything is great. The only problem I had was getting my WiFi functioning. Xfinity repairman came and quickly identified and fixed the issue with the modem/router in my apartment. I took him down to explain it to Josh as it may be an issue with numerous apartments. Security seems quite robust and the new facility is very nice.",
+        "owner_response": null
+      },
+      {
+        "author": "T. Christon-Stewart",
+        "rating": 5,
+        "review": "Beautiful property, with lush spaces and the most friendly hosts!! Looking forward to seeing all this place had to offer over the coming days. Perfect location to downtown fun. Can't miss and stop in!!",
+        "owner_response": null
+      },
+      {
+        "author": "Ashlyn",
+        "rating": 5,
+        "review": "Kiara has been exceptional to work with! I have been looking at places to rent that have all the amenities I desire and am moving out of state so dont have the luxury to view in person. She did a FaceTime with me and went above and beyond showing me every unit I had questions on (which were a few, sorry and thank you!!).\n\nI also was able to see all the common areas/amenities. While theres still some kinks to work out, shes made me feel confident they will deliver on what they promote. Everything is brand new and Im so excited to call this place home in a month with my two pups!  Im big on reviews, **especially** when looking at apartments/property mgmt companies and even more so when out of stateso I hope this helps someone else take the plunge bc trust that I will update this review to keep potential neighbors informed if anything becomes a major issue! Thank you ",
+        "owner_response": null
+      },
+      {
+        "author": "Anthony Vicari",
+        "rating": 5,
+        "review": "Love it so far...I'll let you know as time goes by.",
+        "owner_response": null
+      },
+      {
+        "author": "BasinAsian",
+        "rating": 4,
+        "review": "Very good place to live, rent is crazy everywhere so it's pretty fair for the price and very friendly neighbors!",
+        "owner_response": null
+      },
+      {
+        "author": "Baekhyun's Bacon",
+        "rating": 5,
+        "review": "Best comfortable living space ever! I love how inviting they are and Im never bored this is a nice space for creativity or just to chill and drink some coffee!",
+        "owner_response": null
+      },
+      {
+        "author": "d2pGoon",
+        "rating": 5,
+        "review": "So far so good living here! Awesome staff, everyone is really nice. Also love being so close to everything, great location!",
+        "owner_response": null
+      },
+      {
+        "author": "Kenny Reed",
+        "rating": 5,
+        "review": "Great vibes, quality building, super receptive staff Property manager Joshua is awesome. Great beanies too.",
+        "owner_response": null
+      },
+      {
+        "author": "Tyler Purvines",
+        "rating": 5,
+        "review": "Kerfs staff is full of amazing people that are incredibly responsive, helpful, and friendly. They made my relocation to Washington a delight.",
+        "owner_response": null
+      },
+      {
+        "author": "Keith Soltman",
+        "rating": 5,
+        "review": "The apartments are gorgeous! The willingness to throw a super awesome opening party also shows a company who cares.",
+        "owner_response": null
+      },
+      {
+        "author": "Ijad Njad",
+        "rating": 5,
+        "review": "Caitlin is great, and the Kerf units are beautiful.",
+        "owner_response": null
+      },
+      {
+        "author": "Denise Baclawski",
+        "rating": 5,
+        "review": "John responded quickly and did a nice job.",
+        "owner_response": null
+      },
+      {
+        "author": "Justin Lopez",
+        "rating": 5,
+        "review": "Pet friendly and super chill place to chill. No buzzkill :P",
+        "owner_response": null
       },
       {
         "author": "pete mack",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Caitlin is awesome!! Beautiful designs.\nConvenient ovation.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Janet Bauer",
+        "rating": 5,
+        "review": "Such a beautiful space and love all the wood details. Wish I lived in the area!",
+        "owner_response": null
+      },
+      {
+        "author": "HelloHappyDaze",
+        "rating": 5,
+        "review": "Beautiful property with friendly staff! Close to the college campus and shopping and food options",
+        "owner_response": null
+      },
+      {
+        "author": "Sarah Mendosa",
+        "rating": 5,
+        "review": "We love our apartment and the neighbors!",
+        "owner_response": null
       },
       {
         "author": "Amy Doll",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Fun energy knowledgeable staff enjoyed the afternoon would recommend to friends.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Monica Bell",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Very cool place, Caitlin was a fabulous tour guide",
-        "ownerResponse": null
-      },
-      {
-        "author": "Soph Bell",
-        "rating": 5.0,
-        "review": "Very gorgeous building with very nice people :)",
-        "ownerResponse": null
-      },
-      {
-        "author": "Audrey Campbell",
-        "rating": 5.0,
-        "review": "everyone is so kind which is a rarity in the bellingham area. highly recommend!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "* flippythewondercat *",
-        "rating": 5.0,
+        "rating": 5,
         "review": "The lounge is amazing, so classy and comfy!",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Audrey Campbell",
+        "rating": 5,
+        "review": "everyone is so kind which is a rarity in the bellingham area. highly recommend!",
+        "owner_response": null
+      },
+      {
+        "author": "Tana Rode",
+        "rating": 5,
+        "review": "Great experience and a beautiful place to live!",
+        "owner_response": null
+      },
+      {
+        "author": "Soph Bell",
+        "rating": 5,
+        "review": "Very gorgeous building with very nice people :)",
+        "owner_response": null
+      },
+      {
+        "author": "Thain Struhsaker",
+        "rating": 5,
+        "review": "Everyone has been very helpful while moving in thank you.",
+        "owner_response": null
       },
       {
         "author": "Benjamin Jofre",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Kim is so awesome. Ill be back for sure.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Colton Chism",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Beautiful apartments and amazing staff!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "SPJFA Treasurer",
-        "rating": 5.0,
+        "rating": 5,
         "review": "What an amazing building! Amenities are phenomenal!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Alex Shorty",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Friendly staff and amazing apartments",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Glen Erickson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Beautiful building great staff",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "latasha fletcher",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Friendly staff amazing apartments",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Kennedy Wisbey",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Dog friendly and fun",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Hailey Bell",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Awesome!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Ike B",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Incredible pizza",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Erin Sanchez",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Love the amenities",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Jesse Chasson",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "robert",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Abbas Ahh",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Eva Frolov",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Carmen D",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Tehya Richmond",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Ignacio Ibarra",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Kira Bailey",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      },
+      {
+        "author": "Miriam Hernandez",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
       },
       {
         "author": "Veronica Mergen",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Henry White",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Robert Fisher",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "patricia hagar",
-        "rating": 5.0,
+        "author": "Patty Hagar",
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Jake Coto",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 32,
-  "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Residents of Kerf Apartments seem to appreciate the pet-friendly policy that imposes no breed or size restrictions, making it an excellent choice for pet owners. Furthermore, a dedicated pet spa with a self-washing station is highly valued among tenants, proving that Kerf Apartments caters to the needs of their four-legged residents as well. The proximity to multiple dog-friendly trails and parks has also been mentioned, demonstrating the apartment\u2019s appeal to the pet community as noted in user reviews.</p><p>Attention to security is a commendable aspect of Kerf Apartments, with reviews noting robust measures in place to ensure resident safety. The newness of the facility was mentioned alongside a positive experience with prompt technical support, as one tenant recounted the swift resolution of a WiFi issue, which suggests that the complex is responsive to maintenance concerns related to its infrastructure.</p></section><section><h2>Great</h2><p>The Kerf Apartments have earned praise for their superb location that offers easy access to downtown activities and establishments, as well as their proximity to college campuses and shopping areas. Users have highlighted the luxury of being close to everything, thus making the location highly desirable. Additionally, the modern amenities available have been called out for enhancing the remote work and study experience for residents, indicating that Kerf Apartments serve the needs of a modern, connected community.</p><p>The design quality and aesthetics of Kerf Apartments have garnered positive comments in user reviews. Tenants describe the apartments as gorgeous, with high-end finishes and spacious layouts that contribute to a comfortable living experience. The presence of aesthetically pleasing common areas where they can read, work, or relax while enjoying a coffee has been singled out as a distinct benefit that adds value to their daily lives.</p></section><section><h2>Bad</h2><p>At the time of compiling this article, user reviews did not reflect significant recurring negative experiences with Kerf Apartments. However, a single tenant did experience an issue with the modem/router in their apartment, which was swiftly rectified. This isolated occurrence might suggest that, despite the overall high quality of the property, there can still be occasional technical pitfalls for new tenants to navigate. The absence of further negative feedback in user reviews suggests that tenants are generally satisfied with their living experience at Kerf Apartments.</p></section><section><h2>Ugly</h2><p>No ugly aspects of Kerf Apartments have been identified in the user reviews at the time this article was created. All reviews provided were overwhelmingly positive, with no harrowing stories or experiences that would merit an entry under this section. The consistent high ratings and absence of notable complaints highlight the property\u2019s commitment to maintaining a positive reputation among its residents.</p></section>"
+  "adjusted_review_count": 48,
+  "adjusted_average_rating": 4.81,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 3,
+    "5": 57
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205481,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Kerf Apartments offers a convenient location with easy access to public transportation and essential services. Tenants often highlight friendly and professional staff, who maintain high standards in the upkeep of the building, including modern appliances. Many user reviews commend the pleasant atmosphere and generally quiet environment despite the relatively high number of residents. This is often complemented by the responsive management team who have been praised for handling issues effectively. Numerous residents have expressed their satisfaction with the proximity to downtown and other services, such as grocery stores and parks, enhancing the overall living experience.</p></section><section id=\"great\"><h2>Great</h2><p>The amenities at Kerf Apartments stand out as a remarkable feature, making it an ideal place for those who appreciate modern living with robust offerings. Users highlight the availability of a well-equipped gym, a unique rooftop barbecue area, and even recreational facilities like a golf simulator and spaces for relaxation. Pet owners appreciate the pet-friendly atmosphere and facilities like a pet spa. Moreover, management, particularly team members like Joshua and Caitlin, have made a lasting impact, as many users recall their personable and attentive nature. Stories of helpful maintenance staff like John further reinforce the positive experience residents enjoy at Kerf Apartments, making it a highly recommended living space in Bellingham.</p></section><section id=\"bad\"><h2>Bad</h2><p>While there are numerous positive attributes of Kerf Apartments, not everything is perfect. Some tenants have experienced issues with the parking facilities, particularly pointing out that the garage gate has repeatedly been broken. This problem, reportedly lasting over several months without effective resolution, has become a cause for concern due to incidents of theft and vandalism. Additionally, user reviews mention the high rent costs, though recognized as a broader issue in Bellingham, still impacting tenant satisfaction. Moreover, tenants have raised concerns about the lack of guest parking, which adds an inconvenience for those who frequently host visitors at the property.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In some circumstances, the shortcomings at Kerf Apartments extend beyond mild inconveniences. A user review mentioned a troubling incident where management allegedly offered incentives for positive reviews, which questions the authenticity of certain testimonials. Security concerns are amplified by reports of stolen bikes and car break-ins, eggshell-thin walls that allow unwelcome odors such as cannabis to permeate the living space, and insufficient action from management to effectively rectify these issues. This perceived negligence over critical matters such as security exacerbates tenant dissatisfaction and casts a shadow over Kerf Apartments' otherwise commendable reputation.</p></section>"
+  }
 }

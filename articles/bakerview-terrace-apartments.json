@@ -9,64 +9,71 @@
     "google_reviews": [
       {
         "author": "Jeff Bingman",
-        "rating": 4.0,
+        "rating": 4,
         "review": "A diamond in the ruff.\nTwo Bedroom, one Bath. No frills, but for the price it's hard to beat.\nOn site washer and dryer, no animal restrictions as long as you know how to control them. The Manager works hard to get to your issues as soon as possible.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Angela Mejia",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Nice place so far,  we receive a nice and clean apartment and Eric community  Manager is very helpful.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "patrick tiffany",
-        "rating": 5.0,
+        "rating": 5,
         "review": "This place is incredible! No one is prejudice, and everyone is so eager to be neighborly!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Arika",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Zac Hubert",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Ryan Loewen",
-        "rating": 2.0,
+        "rating": 2,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Dakota Wilson",
-        "rating": 3.0,
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Mike Skoor",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "john marcos",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 3,
   "adjusted_average_rating": 4.67,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Bakerview Terrace Apartments seem to offer basic yet satisfactory living conditions, according to user reviews. Tenants have described the apartments as a \"diamond in the ruff,\" highlighting their affordability and essential amenities such as on-site laundry facilities. Furthermore, the lack of animal restrictions, provided pets are well-behaved, is a boon for pet owners. The management's responsiveness is noted with tenants expressing that the manager strives to address issues swiftly.</p><p>Feedback on the cleanliness of the apartments upon move-in is positive, with residents appreciating the state of the units. A clean environment can significantly influence the tenant's initial perception of their new home, and it seems Bakerview Terrace Apartments understand this aspect well. The dedication to providing a tidy space sets a good precedent for potential residents considering the property.</p></section><section><h2>Great</h2><p>Community spirit appears to be a standout feature at Bakerview Terrace Apartments, as echoed in user reviews. Current and past residents celebrate the inclusiveness and neighborliness present within the community. It is not every day that a tenant finds a place where the atmosphere is marked by non-prejudice and welcoming attitudes among neighbors.</p><p>The community manager, Eric, has received individual praise for his assistance. Residents feel supported by management, which is a critical factor in apartment living. Helpful and attentive property management plays a significant role in ensuring residents' contentment and Bakerview Terrace seems to deliver on this front.</p></section><section><h2>Bad</h2><p>However, not all reviews are glowing, indicating some areas of concern. Some ratings fall into the lower spectrum, suggesting that there may be matters not entirely up to the mark. Unfortunately, user reviews in this category are sparse on details, thus leaving specific grievances to be ambiguously inferred.</p><p>Lacking information in certain reviews might point towards an inconsistency in experiences or a possible reluctance in sharing negative feedback publicly. In either case, potential residents might be left wondering about the nature of the less-than-satisfactory aspects not explicitly outlined in the user reviews.</p></section><section><h2>Ugly</h2><p>The article's intent is to provide a balanced overview, but it's important to note the absence of more critical and detailed reviews, which leaves significant gaps in understanding the full resident experience at Bakerview Terrace Apartments. There is no apparent mention of issues such as maintenance concerns, security deposit disputes, or poor communication, which are common themes in property management reviews. It is equally essential to recognize that the lack of such details does not inherently imply a lack of issues.</p><p>In the absence of a robust response from the company to negative reviews, prospective tenants are left without a comprehensive view of how management deals with dissatisfaction or conflict. This absence of engagement could be seen as a missed opportunity for the property management to display their commitment to resident satisfaction and transparency.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 5
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205389,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Bakerview Terrace Apartments receive praise for their affordability and basic yet substantial amenities. One review highlights the property's two-bedroom units as offering good value with features like on-site laundry facilities. Residents appreciate the flexibility in pet policies, attributing it to a manager who strives to resolve issues promptly. Another tenant describes receiving a clean and welcoming apartment as a positive start to their tenancy. Overall, the property is acknowledged for meeting basic living standards without unnecessary complications.</p></section><section id=\"great\"><h2>Great</h2><p>Bakerview Terrace Apartments shine with their sense of community and inclusivity, reported by many tenants. A standout review commends the environment for being non-prejudicial and fostering neighborly behavior among residents. The community manager, Eric, receives accolades for his helpfulness and dedication to resident satisfaction, which contributes to the overall great experience at the complex. Residents also value the proactive communication and the smooth move-in process, highlighting these as standout aspects of living here.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the generally positive feedback, some areas for improvement have been noted in the user reviews. A lower rating review suggests the property's offerings might fall short for those seeking more than basic accommodations, indicating there is little in terms of luxury or extra amenities. Another comment from a tenant who rated the experience as satisfactory but not exceptional suggests there might be occasional delays in addressing maintenance, though specifics on these delays were not elaborated upon.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In contrast to the favorable aspects, there are minimal negative narratives from the reviews, with no reports explicitly stating egregious issues. However, the lack of owner responses to any reviews might signal a gap in engagement from management, although this has not been directly criticized by tenants. While the absence of direct complaints is noticeable, no reviews provided insights into severe errors or failures by management that could adversely affect tenant satisfaction at Bakerview Terrace Apartments.</p></section>"
+  }
 }

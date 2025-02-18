@@ -9,32 +9,39 @@
     "google_reviews": [
       {
         "author": "Anna Morrow",
-        "rating": 5.0,
+        "rating": 5,
         "review": "My boyfriend and I moved in April of this year. We are quite happy where we live the people are friendly and place is always clean. We love the security here. Recommend",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thanks Anna We love having you guys"
         }
       },
       {
         "author": "Laura Willkie (Tabs)",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I met w a client here i was very impressed w the front door security, the building was nice and my clients apt was cozy, i got lost anda nice man knew exactly where i was to go.  Very impressed",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you for your kind words. By the end of the year all common areas will have state of the art audio and video surveillance. We are excited about the new security up grade."
         }
       },
       {
         "author": "Bekki Armstrong",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 2,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The residents of Washington Square Apartments have expressed satisfaction with the overall environment where they reside. One user review highlights the friendliness of the community and the cleanliness of the premises, indicating a well-maintained property that prioritizes a welcoming atmosphere. Additionally, the owner's responsiveness to feedback, as seen in their cordial response to a resident's review, demonstrates a commitment to resident satisfaction and communication\u2014traits that are highly regarded in property management.</p><p>It's clear from the user reviews that the security at Washington Square Apartments makes a positive impact on the residents and their guests. The presence of security features gives people a sense of safety and comfort, which is an important aspect when considering a place to call home. Anticipation of security upgrades further emphasizes the management's dedication to maintaining a secure environment, contributing to the well-being of the community.</p></section><section><h2>Great</h2><p>Feedback from users regarding the apartment features is commendable. Residents enjoy cozy living spaces, which is a testament to the property's attention to providing comfortable homes. One visitor was very impressed with the front door security, again reinforcing the idea that this aspect of the property is noteworthy and praiseworthy. Additionally, helpfulness from other residents, as noted by a user who received assistance when lost, showcases a cooperative and amiable community spirit that extends beyond the management.</p><p>The response from the property management to the positive review of their security measures, announcing further enhancements, indicates they're not complacent with the status quo. This forward-thinking approach to utilizing state-of-the-art surveillance sends a strong message about their investment in the tenant experience and proactive steps to ensure ongoing safety and modernization.</p></section><section><h2>Bad</h2><p>While the user reviews are overall positive, with an adjusted average rating of 5.0, the limited number of reviews makes it challenging to provide a comprehensive assessment of any negative aspects of the Washington Square Apartments. Furthermore, no specific incidents or areas of concern are raised in the available user reviews that have been shared, suggesting an absence of recurrent issues or notable complaints amongst the reviewers.</p><p>The absence of detailed negative feedback in this article may indicate effective management practices at Washington Square Apartments. However, this lack of detailed critical feedback can also mean there's a lack of comprehensive evaluations available, potentially masking less satisfactory experiences or issues that have not been publicly reported by other residents or visitors of the property.</p></section><section><h2>Ugly</h2><p>There are no explicit \"ugly\" aspects present in this article due to the absence of critical or negative user reviews. Without tangible evidence from the user reviews to cite specific examples of neglect or mismanagement, it is inappropriate to insinuate any \"ugly\" attributes about the Washington Square Apartments. All data provided points towards a well-managed property that meets the needs and expectations of its residents based on the current feedback.</p><p>As for the scope of this article, it is important to consider the possibility that the lack of negative feedback may not wholly represent the entire spectrum of tenant experiences. Therefore, this article acknowledges that while the available information is predominantly positive, it cannot definitively claim the absence of any issues without a larger set of diverse reviews.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 3
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205647,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The reviews for Washington Square Apartments highly appreciate the cleanliness and friendliness of the environment. Tenants have expressed satisfaction with the cleanliness of the property and the welcoming atmosphere among the residents. This reflects positively on the management's effort to maintain a pleasant living space. Moreover, the positive feedback about cleanliness indicates that the property management performs regular maintenance efficiently. Additionally, the involvement of tenants and their comfort suggests that management is attentive to creating a community-oriented environment.</p></section><section id=\"great\"><h2>Great</h2><p>The security at Washington Square Apartments stands out as a major highlight according to user reviews. One user mentioned being impressed by the robust front door security, which suggests a focus on safety. The property management has promised state-of-the-art upgrades to the building's audio and video surveillance systems, which reflects their commitment to enhancing security measures. The mention of an upcoming security upgrade demonstrates proactive management responding to tenant concerns and potential improvements. It is clear that safety is a top priority for the management, thereby creating a secure environment for residents.</p></section><section id=\"bad\"><h2>Bad</h2><p>While there are no negative comments in the available reviews, the lack of detailed criticism could imply areas overlooked by tenants or simply a lack of negative experiences worth noting. The absence of complaints could suggest efficient property management, but it might also mean that existing concerns are not being voiced in the reviews. Despite this, the property's high average rating indicates overall tenant satisfaction, which might overshadow minor inconveniences that are either resolved or deemed insignificant by tenants.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The user reviews do not provide any particularly negative insights that fit into an 'ugly' category. There are no reports of significant issues such as unaddressed maintenance concerns or disputes over security deposits. The lack of owner responses to one review without text and an overall positive rating further implies there are no critical issues requiring urgent management intervention. However, it's important to consider that the limited number of reviews might not fully capture all potential tenant experiences. The overwhelmingly positive sentiment does not include any detailed negative feedback, which could either mean excellent management or a lack of transparency in negative reporting.</p></section>"
+  }
 }

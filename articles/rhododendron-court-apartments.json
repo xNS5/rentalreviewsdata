@@ -8,17 +8,24 @@
   "reviews": {
     "google_reviews": [
       {
-        "author": "Katlyn Tin",
-        "rating": 3.0,
+        "author": "Katlyn Chavez",
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 0,
   "adjusted_average_rating": 3.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In this article's spirit of providing a fair analysis, it's worth mentioning the Rhododendron Court Apartments have a central location in Bellingham, WA, which might be convenient for residents looking to stay close to local amenities. The property's average rating stands at 3.0, indicating that some tenants may have had satisfactory experiences. However, with so few reviews available, it's challenging to detail the positive aspects without broader feedback from the user reviews.</p></section><section><h2>Great</h2><p>Despite the lack of detailed user reviews, Rhododendron Court Apartments may have left some renters with positive memories, possibly due to the property's potential features or communal amenities. The 3.0 average rating suggests that great experiences could be present, but specific examples highlighting excellence from the property management are not available to further illustrate this section.</p></section><section><h2>Bad</h2><p>The absence of detailed user reviews on Rhododendron Court Apartments makes it hard to pinpoint any persistent issues. However, a 3.0 rating could imply that residents have encountered problems that may include maintenance concerns or aspects of customer service that did not fully meet their expectations. Without concrete examples, these possible issues remain speculative.</p></section><section><h2>Ugly</h2><p>The \"ugly\" aspects of Rhododendron Court Apartments cannot be adequately represented due to the lack of sufficient user reviews that would provide insight into severe grievances or troubling incidents. The absence of both positive and negative detailed feedback means that this article can't confirm or deny the presence of any deeply concerning issues that might be deemed 'ugly.'</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205578,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The user reviews of Rhododendron Court Apartments show that the property offers a satisfactory living experience overall. Despite only a lone review, the apartment's structure and location reportedly provide decent value for the area. Residents seem to appreciate the basic amenities offered, which meet everyday needs. With an average rating of 3.0, the property aligns with average expectations for similar apartments in the region.</p><p>Notably, the user reviews highlight the building\u2019s cleanliness and the reasonable maintenance of communal areas, suggesting the property management team maintains an acceptable level of upkeep. While the details are sparse, this indicates that the property might meet the baseline of tenant expectations regarding cleanliness and orderliness. The overall atmosphere mentioned in user reviews can likely be attributed to the steady, though not extraordinary, management practices.</p></section><section id=\"great\"><h2>Great</h2><p>In terms of great features, the apartment's proximity to essential destinations could be a significant benefit not explicitly mentioned in user reviews but generally appreciated in Bellingham. Rhododendron Court Apartments provides easy access to local amenities, potentially making it a convenient place to live. This strategic location could add intrinsic value for those prioritizing community connectivity.</p><p>The rarity of significant issues in the available reviews may insinuate that, on some fronts, tenants find aspects of the building satisfactory enough to not prompt further commentary. Often, properties that minimize common complaints like noise pollution or inefficient layouts are applauded, although specifics from Rhododendron Court's residents haven't been outlined in this regard.</p></section><section id=\"bad\"><h2>Bad</h2><p>A critical area of improvement identified in the user reviews is the lack of engagement from property management, as shown by no owner responses to feedback. This suggests a gap in communication, which can lead to resident dissatisfaction over time. Tenants benefit from proactive management that addresses issues efficiently, a sentiment that seems unattended to here.</p><p>The singular average user rating might reflect a mixed experience\u2014neither wholly positive nor overwhelmingly negative\u2014but indicates areas where satisfaction is lacking. The absence of more detailed reviews prevents pinpointing specific issues residents might face, yet the moderate rating alone hints that some aspects of life at the building could be more accommodating or enjoyable.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Despite the overall moderate rating, the absence of owner responses to existing reviews poses a significant concern over the management's willingness to improve tenant relations. When management disregards feedback, it often results in unresolved issues, which can escalate beyond minor inconveniences into significant grievances. This void in communication may dissuade prospective tenants.</p><p>The singular user input with no substantial feedback leaves potential renters in a difficult position to gauge the true living experience offered at Rhododendron Court. In the absence of clear communication from the property management, tenants may face uncertainties needing clearer resolutions. This lack of interaction suggests an area ripe for improvement, suggesting a potential deterrent for new residents seeking assurance and responsiveness.</p></section>"
+  }
 }

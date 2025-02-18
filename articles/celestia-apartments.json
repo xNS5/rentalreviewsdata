@@ -1,0 +1,95 @@
+{
+  "name": "Celestia Apartments",
+  "slug": "celestia-apartments",
+  "company_type": "Property",
+  "address": "430 West Stuart Road, Bellingham, WA 98226",
+  "review_count": 10,
+  "average_rating": 4.8,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Erika Redzinak",
+        "rating": 4,
+        "review": "We moved in at the end of July and Kendall and Tim have been great. Of course with any new apartment, things are already chipping off like the cheap paint on the back door and interior doors. But regardless, we love our place and being near the park and everything else! We have enjoyed the community space upstairs, too!",
+        "owner_response": null
+      },
+      {
+        "author": "Harjit",
+        "rating": 5,
+        "review": "We moved in early September 2024. Tim and Payton provided prompt and courteous service. We scheduled a tour and Tim followed up with us in the morning for our scheduled tour. During application process and lease signing, Tim was quick to respond and also followed up for any questions. It was quick and smooth process with user friendly system. Management does a great job, and building is new and in good shape. It is a quiet place and is close to all amenities. It is located next to Cordata park - with walking trails, pickleball and basketball court and nice play area for kids. An ideal place.",
+        "owner_response": {
+          "text": "Thanks for your feedback! We are so glad you enjoy what Celestia has to offer, and we're glad our team has been helpful! If there is ever anything we can do to make your experience better, please let us know."
+        }
+      },
+      {
+        "author": "Tokeya Berry",
+        "rating": 5,
+        "review": "Tim and Jaime made the move in process efficient, personal, and treated me like a true resident upon my first interaction at Celestia. It is a beautiful and well managed location.",
+        "owner_response": null
+      },
+      {
+        "author": "Jonah Schultz",
+        "rating": 5,
+        "review": "Im loving this new building! Its in a great spot just off the main roads and getting groceries and shopping at the mall has always been a quick ride away. The staff is very friendly, Tim and Jaime have been greatly helpful in answering any questions and addressing concerns.",
+        "owner_response": null
+      },
+      {
+        "author": "Kody Giltner",
+        "rating": 4,
+        "review": "Great place to live for dog owners right next to a beautiful new park with 1 mile trail loop. Building is clean and quiet. Wish there were trash bins in common areas.",
+        "owner_response": null
+      },
+      {
+        "author": "Makayla dorning",
+        "rating": 5,
+        "review": "i moved in early June 2024, payton and tim were awesome throughout the entire process, i ended up switching units during that time and they made it very smooth. tim has been excellent in making sure any issues Ive have had are resolved. its a great place, definitely recommend!!",
+        "owner_response": {
+          "text": "Our goal is to provide top notch customer service, and we're so glad to hear our team has been helpful! Thanks for your review!"
+        }
+      },
+      {
+        "author": "Lorie Noble",
+        "rating": 5,
+        "review": "A beautiful building in a peaceful environment! We experienced such amazing service with Kendal Kelly in helping us secure an apartment there last month . She helped us select the right apartment for us and assisted us in completing the application as we were in a time crunch to find something right away . Both Tim and Kendal were there to assist and help us with our move in day . We are so grateful to have found this place in Bellingham!",
+        "owner_response": {
+          "text": "We're so glad to hear you've had a great experience so far! If there's anything else we can assist you with, please let us know. "
+        }
+      },
+      {
+        "author": "Addison Brown",
+        "rating": 5,
+        "review": "I love it here, the best apt Ive lived in and the property managers are awesome and so helpful!",
+        "owner_response": null
+      },
+      {
+        "author": "Emily Rodriguez",
+        "rating": 5,
+        "review": "such a beautiful place to live! management is awesome and the views are beautiful.",
+        "owner_response": {
+          "text": "Thanks for leaving a review! We're so glad to hear you're happy with the community and service!"
+        }
+      },
+      {
+        "author": "Evelyn Lopez",
+        "rating": 5,
+        "review": "",
+        "owner_response": {
+          "text": "Thanks for your feedback!"
+        }
+      }
+    ]
+  },
+  "adjusted_review_count": 9,
+  "adjusted_average_rating": 4.78,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 2,
+    "5": 8
+  },
+  "summary": {
+    "created_timestamp": 1739205415,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Celestia Apartments have a fair share of positive feedback, particularly in terms of location and general upkeep. Some residents appreciate its proximity to various amenities such as parks and trails, making it a favorable place for those who value outdoor activities. The community space upstairs has been mentioned positively, adding to the pleasant living experience. However, minor issues such as cheap paint chipping off were noted, but these did not significantly affect the overall satisfaction of the residents. The peaceful and quiet environment seems to be a common theme in the user reviews, making it an appealing choice for residents seeking tranquility.</p></section><section id=\"great\"><h2>Great</h2><p>The management team at Celestia Apartments receives high praise from residents for their professionalism and helpfulness. Many reviews highlight the seamless and efficient move-in process facilitated by the staff, with names like Tim and Jaime frequently mentioned for providing exceptional service. The management\u2019s attention to queries and their quick response times have been noted as exemplary, adding to the property's allure. Additionally, the property is appreciated for its aesthetic appeal and well-maintained condition, earning it the title of the best apartment experience for several tenants.</p><p>Located near vibrant hubs and attractions, Celestia Apartments offers convenience and accessibility to its residents. Being just off main roads allows for quick commutes to shopping centers and grocery stores, making daily routines hassle-free. The building itself is noted for its cleanliness and orders despite being pet-friendly, particularly for dog owners who enjoy the nearby park with its trail loops. Residents not only appreciate the comfort and aesthetics of their apartments but also the strong sense of community fostered by a responsive management team.</p></section><section id=\"bad\"><h2>Bad</h2><p>While the overall sentiment about Celestia Apartments is positive, there are minor grievances mentioned that could affect the living experience for some. One recurring comment is about the absence of trash bins in certain common areas, which residents find inconvenient. Such concerns, though not major, highlight a need for improvements in amenities provided within the complex. Despite loving the surroundings and the general upkeep, tenants feel that addressing these small issues could enhance their satisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There is a lack of significant negative feedback in the user reviews concerning Celestia Apartments. No major complaints or instances of mismanagement have surfaced, which suggests that the living environment is predominantly favorable. The absence of detailed criticisms or recurring serious issues might reflect the management\u2019s effective handling of the property and resident needs. As a result, there were limited negative aspects to highlight in this section, indicating a well-run apartment community.</p></section>"
+  }
+}

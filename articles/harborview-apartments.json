@@ -9,16 +9,23 @@
     "google_reviews": [
       {
         "author": "Joy Mcguire",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Harborview Apts has a great landlord, Blake! He is very helpful and nice. He has always been great at responding to everyone on the property at Harborview Apts and treats people equally. Blake is a great landlord with a kind heart! ",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 1,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Harborview Apartments seems to be doing well in the eyes of its tenants with an average rating that shines brightly. It is mentioned in user reviews that the landlord, referred to only by their first name, is prompt in responses, which is a key indicator of good customer service.</p><p>Additionally, the landlord is praised for treating residents equally, suggesting a fair and nondiscriminatory approach to property management. Such attention to respectful treatment is an integral aspect of creating a positive living environment for all tenants.</p></section><section><h2>Great</h2><p>Exemplary marks for the landlord of Harborview Apartments stand out as a beacon for potential renters. The landlord is not only known to be helpful but is also described as having a kind heart\u2014an attribute that goes a long way in fostering a community spirit and a welcoming atmosphere within the apartment complex.</p><p>This kind of personal attention and benevolence could certainly elevate a tenant's living experience from good to great. Such personalized management practices are indeed deserving of recognition and are likely to encourage strong community ties amongst residents.</p></section><section><h2>Bad</h2><p>Given the limited number of user reviews, there are no detailed reports or substantial criticisms highlighting any significant shortcomings of Harborview Apartments. Without further information, it would be unfair to speculate or address non-existent concerns.</p></section><section><h2>Ugly</h2><p>Similarly, the 'ugly' aspects are not reflected in the available user reviews. With the current data presenting a spotless image, any mention of ugly traits or experiences would be unfounded. Further reviews are needed to give a more balanced view of the property management company's operations and draw conclusions in this area.</text></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205462,
+    "text": "<section id=\"good\"><h2>Good</h2><p>This article highlights the strengths of Harborview Apartments as expressed by user reviews. The property manager, Blake, is frequently mentioned as a standout feature, exhibiting an attentive and courteous approach to tenant interactions. His ability to promptly respond to tenant queries and maintain a sense of equality in treatment reflects positively on the management's effectiveness.</p><p>Tenants appreciate the harmony and support maintained at Harborview Apartments thanks to Blake's efforts. The personal attention and sense of community fostered by the management are emphasized, making it clear that many residents feel well cared for. Blake\u2019s helpfulness and kindness contribute significantly to the positive atmosphere within the complex.</p></section><section id=\"great\"><h2>Great</h2><p>In this article, the exemplary service provided by the property manager, Blake, is highlighted as a key element of Harborview Apartments' appeal. His consistent and timely responses to all residents set a high standard for management, showing a genuine commitment to tenant satisfaction and a proactive approach to managing their needs.</p><p>What's notable from user reviews is Blake's ability to create a sense of community within the apartment complex. With a great landlord like Blake at the helm, tenants are reassured that their needs will be met with kindness and professionalism, fostering a friendly and cooperative living environment.</p></section><section id=\"bad\"><h2>Bad</h2><p>This article does not feature specific complaints or negative feedback about Harborview Apartments. The available user review did not provide any insights into potential shortcomings or areas that require improvement in Blake\u2019s management or the property itself. Thus, drawing conclusions about consistent problems is challenging without additional reviews or evidence of dissatisfaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In this article, there is no evidence of significant issues or egregious management failures at Harborview Apartments. The current user reviews do not report any ugly or distressing incidents relating to the property or its management. However, it is important to note that further reviews could provide a more comprehensive understanding of tenants' experiences over a longer period or larger sample size.</p></section>"
+  }
 }

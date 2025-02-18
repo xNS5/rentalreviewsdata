@@ -1,0 +1,31 @@
+{
+  "name": "Meadow Woods II Affordable Housing Apartments",
+  "slug": "meadow-woods-ii-affordable-housing-apartments",
+  "company_type": "Property",
+  "address": "931 Mahogany Ave, Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 3.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Nicole Alexander",
+        "rating": 3,
+        "review": "This place is horrible. There's a new manager every 6 months to a year.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 3.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205516,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Meadow Woods II Affordable Housing Apartments is located in a convenient area in Bellingham, WA, which may appeal to residents seeking accessible amenities nearby. The property offers affordable housing options, which can be beneficial for families and individuals looking to maintain a budget while residing in a functional living space. This affordability factor is generally praised for providing opportunities to residents who need economical rental options.</p></section><section id=\"great\"><h2>Great</h2><p>Unfortunately, the user reviews do not contain specific details that highlight exceptional aspects of Meadow Woods II Apartments. While the property's location and affordability are notable, there\u2019s limited feedback indicating outstanding services or facilities provided by the management. The potential for improvement and the aspect of affordability might intrigue prospective tenants looking for basic housing options without extraordinary expectations.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews indicate issues with the management at Meadow Woods II, specifically the frequent change of management personnel, which occurs every 6 months to a year. This instability can lead to challenges for residents, including inconsistent communication and unresolved maintenance requests. A stable management team is crucial for addressing tenants' needs promptly, thus the frequent changes might affect the tenants' living experience negatively. There has been no response from the property owner to address this concern, indicating a potential lack of engagement.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The most concerning aspect highlighted in user reviews is the description of the property's overall management and operation as \"horrible.\" While there might be redeeming qualities, such intense dissatisfaction suggests deeper systemic issues, potentially stemming from managerial turnover or lack of oversight. Such alarming feedback, coupled with the absence of any owner response, leaves an unfortunate impression of negligence towards tenant welfare, significantly deterring current and potential residents from considering the property as a suitable home.</p></section>"
+  }
+}

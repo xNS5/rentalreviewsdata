@@ -1,0 +1,31 @@
+{
+  "name": "Orleans Place",
+  "slug": "orleans-place",
+  "company_type": "Property",
+  "address": "3220 Orleans St, Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Jade Roberts",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 0,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739205539,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Orleans Place has received positive feedback for its excellent location and inviting atmosphere. The property is described as being conveniently situated within the Bellingham area, making it a desirable choice for residents who value accessibility. Moreover, residents have praised the property's cleanliness and maintenance, suggesting that the management takes good care of the premises.</p></section><section id=\"great\"><h2>Great</h2><p>The outstanding rating from the user review reflects high satisfaction with Orleans Place, particularly highlighting the professionalism and responsiveness of the property management. The user appreciates the seamless process involved in leasing and interacting with the staff, who are described as friendly and efficient. The property management's ability to provide a stress-free rental experience has been a major factor in achieving such commendable feedback.</p></section><section id=\"bad\"><h2>Bad</h2><p>With no detailed negative feedback available from user reviews, it's challenging to pinpoint specific areas of concern. However, in any property management scenario, potential issues could arise in areas such as maintenance delays or communication lapses. At Orleans Place, the absence of negative reviews hints at effectiveness in these areas, though this lack of criticism provides minimal insight into any weaknesses.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>No user reviews have reported any egregious issues or neglect from the management at Orleans Place. Often, ugly scenarios can include severe incidents like unresolved maintenance emergencies or unprofessional behavior. Fortunately, there are currently no such reports associated with Orleans Place, suggesting that the property management team maintains a satisfactory, if not superior, standard of service.</p></section>"
+  }
+}

@@ -8,67 +8,74 @@
   "reviews": {
     "google_reviews": [
       {
-        "author": "Makayla Haverluk",
-        "rating": 1.0,
-        "review": "There's no parking and the surrounding businesses don't let you park there. Management doesn't care about it. The building also has several problems, like the construction wasn't thought all the way through and rushed to get it done. Security is a sham. Front doors don't always lock so people can just walk right in.",
-        "ownerResponse": null
-      },
-      {
-        "author": "AJ Guest",
-        "rating": 1.0,
-        "review": "This isn't a review more so a question posed to the management. I see that y'all only have 7 reviews for this property and I wanna know why you down play the few reviews that were negative as well as disregard someones personal experiences by telling them that no one else has had any issues that they described in their review? please explain to me that how can a property that has only 7 reviews have a good track record?",
-        "ownerResponse": null
-      },
-      {
         "author": "Randy Siverson",
-        "rating": 2.0,
+        "rating": 2,
         "review": "I rented a 1 bedroom. Very small unit (420 sq/ft) and very expensive ($1300). PLUS you have to pay $60 per month for each parking space on top of rent. And very cheap furniture and gym equipment. Couldn't see the unit before renting because it was under construction. But if i could have, i would not have rented it. The kitchen, living room, dining room, and laundry room are all one room lol You pay for convenience of location I suppose but not worth it imo. Could be okay for young students if they can afford it. Also, I had 2 very expensive bicycles stolen from the community bicycle storage room even with heavy duty locks (they cut the bicycle stand thats bolted to the wall). Not the owners fault necessarily but they should've had better security and the tenant who did it should have been evicted if they were \"reasonably certain\" they knew who it was. Security system wasn't set up until the second theft, so the culprit got away scott free. Lease states you cannot store bicycles in your unit, so be careful. But they don't have breed restrictions, so thats a plus!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hi Randy,\n\nThis is James - the property manager at Samish. We've met a few times. I'm very sorry you were not satisfied with your unit. There's always a risk, when you make the decision to rent a unit site-unseen, that that unit won't meet your own personal expectations and your own personal preferences. I'm happy to report, though, that the subsequent resident and other residents in our one-bedroom units, have expressed nothing but satisfaction. Our one-bedrooms are easily our most popular floorplan, so, while it may not have been the right unit for you, it certainly is for a lot of others, and we're proud of that.\n\nI'm disappointed that you were not satisfied with our furniture and our equipment. Most places in town that provide furniture use only very chintzy, dorm-room-style furniture, whereas all of our furniture was purchased from the Ashley Home Store, and our gym equipment purchased from Dick's Sporting Goods. We spared almost no expense to make sure our residents could thoroughly enjoy the building, both inside their units and in the common areas. Our gym is by far our most popular and frequently used amenity, and I've not heard one complaint from anyone else, so I'm admittedly perplexed at your disappointment.\n\nAs for your bicycles, I'm first of all glad that you were able to make successful insurance claims for both incidents, and I'm further glad that my personal testimony to the insurance agents helped see those claims to successful ends. I am and was happy to help you reach a satisfying conclusion to this most unfortunate situation in any way I could, and if that meant responding to countless phone calls with insurance agents, then that's what needed to be done. Furthermore, I hope you will direct your negative reviews on this topic to the Bellingham Police Department. We provided to them what we consider a mountain of evidence that pointed to the suspected culprit in these bike thefts, including video footage and other security records, and they did nothing with it. Between pouring through dozens of hours of security footage, to writing witness statements, to the insurance calls, to cutting together relevant video clips, to talking and setting up meetings with the officers working your case, I spent an enormous amount of time trying to bring the culprit to justice, so it's incredibly disappointing that the Bellingham Police Department didn't hold up their end. If you still have your case number, I suggest you call and ask them why they chose not to pursue it further. I'm curious, myself. I may still have the case number somewhere in my email, so please reach out to me if you don't have it. Nevertheless, we did increase our security since these incidents and don't anticipate any further issues.\n\nNothing is more important to us than resident satisfaction. Most rentals in Bellingham are operated by large management companies or huge hedge funds based out of state, none of which care about or even talk to their residents. We're not them. We're a small business, entirely locally owned and operated, and we take great care to maintain a reputation of kindness and satisfaction. We own every property we manage and usually build them, too. All of this to say, that, while our unit may not have met your own personal criteria for a satisfying unit, I do hope you'll give us another chance if you find yourself looking for housing again. We have several modern, high-end apartment buildings, with more on the way, and I'm certain we can find something satisfying to your expectations.\n\nPlease let me know if you have any other concerns or questions. You know how to reach me.\n\n-James"
         }
       },
       {
         "author": "Jim Erickson",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Our son rents a unit at Samish Station.  The unit is new and it's nice, granite countertops and stainless appliances.  It is also convenient to Western.  The construction was late and the management offered to put my son up in a hotel, which we did not accept, but we very much appreciated.   Being in real estate, I understand issues with development and construction these days!  We would definitely recommend!!",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Mr. Erickson,\n\nThank you so much for this wonderful review. We're happy we could be of excellent service to you and your son, whom we hope rents with us for a long time!\n\nLet us know if there's anything we can do to make your experience even better!\n\n-Samish Station Management"
         }
       },
       {
+        "author": "Makayla Haverluk",
+        "rating": 1,
+        "review": "There's no parking and the surrounding businesses don't let you park there. Management doesn't care about it. The building also has several problems, like the construction wasn't thought all the way through and rushed to get it done. Security is a sham. Front doors don't always lock so people can just walk right in.",
+        "owner_response": null
+      },
+      {
+        "author": "AJ Guest",
+        "rating": 1,
+        "review": "This isn't a review more so a question posed to the management. I see that y'all only have 7 reviews for this property and I wanna know why you down play the few reviews that were negative as well as disregard someones personal experiences by telling them that no one else has had any issues that they described in their review? please explain to me that how can a property that has only 7 reviews have a good track record?",
+        "owner_response": null
+      },
+      {
         "author": "Dave Hayes",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Hi Gabe,\n\nI'm not sure you have the right place. We don't have any record of ever interacting with you, and we've never rented to you in any capacity.\n\nBecause of this, I have no choice but to flag your review as fake. If you did, in fact, have some negative interaction with us, we are happy to make it right. Either reach out to us, or actually describe your experience in your review.\n\nAs you can tell from our other, legitimate reviews, we have a great track record of tenant satisfaction, and we work very hard to maintain that.\n\nAll the best!\n\n-James, Property Manager"
         }
       },
       {
         "author": "John and Gretchen",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Mr. Corbin,\n\nThank you so much for writing this wonderful review! We're so happy to have satisfied, understanding residents. We can't wait for you to experience all Samish Station has to offer.\n\nLet us know if there is anything we can do to improve your experience even further.\n\n- Samish Station Management"
         }
       },
       {
         "author": "John M",
-        "rating": 1.0,
+        "rating": 1,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Fernando Gonzalez",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 4,
   "adjusted_average_rating": 2.25,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the realm of positive experiences, Samish Station has garnered commendation for the quality of its units from some users. There are mentions of granite countertops and stainless appliances that add a touch of luxury to living spaces, and the construction quality, when completed, seems to impress certain residents. Moreover, in instances where construction delays occurred, management displayed a readiness to offer solutions, such as providing hotel accommodations, demonstrating a level of care and responsiveness to the inconveniences faced by tenants.</p><p>Additionally, the proximity to educational institutions has been flagged as a convenient feature by residents. This particular benefit is frequently highlighted by tenants with connections to nearby Western, suggesting that the location holds significant appeal for those with academic pursuits in mind. The management's act of responding directly to reviews also indicates an engagement with tenant feedback, aiming to maintain a dialogue with residents and address any concerns raised.</p></section><section><h2>Great</h2><p>The efforts of Samish Station's management to interact with and respond to the concerns of their tenants stand out as a defining positive. Personal responses from the property manager to user reviews exhibit a level of detail and dedication that can speak volumes about the company's commitment to customer service. They have engaged with criticism in a constructive manner, attempting to bring to light the context of situation-specific complaints and disputes that may arise.</p><armor_code><section><h2>Bad</h2><p>On the less favorable side, user reviews point to certain shortcomings in terms of physical amenities and safety. Tenants have reported significant issues with parking availability and security, describing the parking situation as a persistent problem, and security measures as insufficient. Inadequate bike security, leading to theft even within designated storage areas, contributes a sense of unease among tenants, suggesting that not all property features meet expectations for safety and convenience.</p><p>In terms of room sizes and costs, some tenants find the units to be on the smaller side and not quite reflective of the high rent prices. The value for money has been questioned, especially when considering the additional cost of parking facilities and the necessity of a monthly payment for this service. Furthermore, the experiences of a previous tenant who found the combined space of the kitchen, living room, dining room, and laundry room to be cramped and the furnishings not up to par casts a negative light on potential quality-of-life concerns, affecting overall tenant satisfaction.</p></section><section><h2>Ugly</h2><p>The complexities of tenant-management interactions are most evident when the dialogue turns contentious. A review that questions the management's handling of negative feedback implies a potential reluctance to acknowledge and address certain critical reviews. The back-and-forth between Samish Station's management and displeased reviewers sometimes reveals a challenging dynamic, where the management's defense of its track record might be perceived as downplaying the validity of tenant grievances or experiences.</p><p>Moreover, one reviewer's claim of an unprofessional dismissal of their negative feedback as a 'fake review' represents a particularly controversial exchange. Such a situation, if not handled with care, risks undermining trust and leaving an impression of management disputing rather than constructively engaging with criticism. The complexities of these interactions underscore the importance of transparent and empathetic communication between property management and residents when addressing the negatives that inevitably arise in the business of property management.</p></section>"
+  "distribution": {
+    "1": 4,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 3
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205588,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Samish Station boasts a prime location that is particularly convenient for students attending Western. The units themselves, especially the new ones, are noted for their modern aesthetics featuring granite countertops and stainless-steel appliances, a factor that appeals to many renters. Additionally, the property management has shown a willingness to accommodate residents by offering temporary lodging at a hotel during delays in construction, an act that was appreciated even if not utilized by some tenants.</p><p>The property management also emphasizes a local and personalized approach, striving to maintain strong communication with their residents. The property's management team, led by James, frequently responds to user reviews, addressing concerns directly and expressing a genuine intent to rectify issues where possible. This individualized attention and the local operation of the management team is a distinct advantage compared to larger, more impersonal companies. Their commitment to supporting tenants is shown in efforts to aid residents with issues like theft, even if outcomes were ultimately frustrating due to external factors like police inaction.</p></section><section id=\"great\"><h2>Great</h2><p>Some residents have particularly praised the build quality and finishings of their units. Examples include mentions of high-end features in units such as granite countertops and modern appliances, which significantly enhance resident satisfaction. This attention to detail in apartment construction helps amplify the appeal of the property.</p><p>Moreover, the understanding and proactive approach of the property management during issues with construction delays has been well-received. Instead of passing the responsibility solely onto tenants, management offered proactive solutions like temporary accommodations, exhibiting a customer-first approach that has earned them positive recommendations from users who experienced these situations firsthand.</p></section><section id=\"bad\"><h2>Bad</h2><p>Issues with security and parking have been recurring themes in user reviews. Some residents expressed dissatisfaction with the allocation of parking spaces and the management's perceived indifference towards solving parking constraints. This limitation in parking often leads residents to especially struggle in finding nearby parking solutions, adding significant inconvenience.</p><p>Furthermore, complaints have been raised about building security, with reports of easily accessible front doors and ineffective security systems. Residents have shared their experiences of unauthorized access to the building, raising concerns about the safety measures in place. Such issues highlight a missed opportunity for management to fortify security and building design, which could reassure current and prospective tenants.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>A particularly negative aspect highlighted in reviews is the perception that property management dismisses tenants' complaints. There are allegations that management downplays negative reviews and focuses disproportionately on positive feedback, leading to concerns about transparency and responsiveness. This was notably pointed out in a review questioning the authenticity of the company's positive track record claims given the limited number of reviews.</p><p>Additionally, the severe issue of thefts occurring despite supposedly locked areas has been specifically criticized. The loss of valuable items and management's perceived inability to adequately resolve the security failures have fostered distrust among affected tenants. These incidents illustrate a gap in effectively addressing and securing tenant communities, undermining the overall resident experience despite management's verbal assurances to the contrary.</p></section>"
+  }
 }

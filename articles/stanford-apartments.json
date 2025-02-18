@@ -9,22 +9,29 @@
     "google_reviews": [
       {
         "author": "Shannon Laws",
-        "rating": 5.0,
+        "rating": 5,
         "review": "A quiet apartment complex with a garden like setting.  You'll love the pink plum tree blooms in the spring and the Dogwood blosoms in late summer.  Carpet and tile flooring.  Clean & secured coin W/D room. Private owner who is easy to work with.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Anna Pliakina",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Great",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 2,
   "adjusted_average_rating": 5.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>Stanford Apartments appears to please its residents with a well-maintained, serene environment. Users highlighted the development's quietness and garden-like setting, which offers a tranquil escape from the hustle and bustle of city life. One review noted the charming seasonal changes, such as the pink plum tree blooms in the spring and the Dogwood blossoms in late summer, which provides a picturesque living experience throughout the year. The combination of natural beauty and well-kept grounds contributes to a positive living environment, which has been acknowledged in the user reviews.</p><p>The internal amenities of the apartments, including carpet and tile flooring, add to the overall appeal of the property. The attention to detail with the clean and secured coin-operated laundry room showcases the management's commitment to providing a comfortable living space. Residents have reflected favorably upon these attributes, suggesting that the property offers a level of upkeep that resonates positively with those who call it home. Furthermore, the private ownership structure seems to yield a personal touch in management style, making dealings easier for residents, according to a user review.</p></section><section><h2>Great</h2><p>While detailed accounts of exceptional practices are limited within the reviews available, the high average rating suggests that tenants have had great experiences overall. The absence of negative reviews implies that significant issues either do not exist or are rare, indicating that the property management at Stanford Apartments is meeting and possibly exceeding expectations. This high level of satisfaction is a testament to the management\u2019s effectiveness in maintaining a favorable rapport with residents.</p><p>No additional paragraph needed as per requirement 3.</p></section><section><h2>Bad</h2><p>As of the data in this article, no specific details or instances have been cited by users that reflect any negative aspects of the Stanford Apartments. With only a couple of reviews, it is difficult to draw a conclusion of any persistent problems or shortcomings in the property management's responsibilities. The limited data does not allow for a determination of any common themes such as maintenance concerns, security deposit disputes, or communication issues. Hence, this section does not provide concrete critiques due to the absence of negative feedback in the user reviews.</p></section><section><h2>Ugly</h2><p>The reviews for Stanford Apartments have not presented any 'ugly' experiences or alarming concerns that would warrant inclusion in this section. With no tenant feedback indicating severe negligence or misconduct from the property management company, this article also cannot report on such matters. As such, it is notable that the available reviews are devoid of the kind of stark criticism that this section would typically address. The absence of such feedback could indicate strong performance by the property management, but without additional user reviews, the article cannot render a full spectrum analysis of the company.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 2
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205597,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, the \"Good\" section highlights the tranquil and appealing environment of the Stanford Apartments, based on user reviews. Many appreciate the garden-like setting that offers a peaceful hideaway amid the bustling cityscape. Residents particularly enjoy the seasonal blooms, prominently the pink plum trees in the spring and the Dogwood blossoms in the summer, which add to the charm and allure of this property.</p><p>The apartment features carpet and tile flooring, providing both comfort and easy maintenance for tenants. Additionally, the presence of a clean and secure coin-operated laundry room adds convenience. The private owner\u2019s approachability and willingness to work with tenants has also been noted as a positive aspect, suggesting effective communication and reliable service. Such highlights form the basis of favorable reviews, showcasing what Stanford Apartments offers to its residents.</p></section><section id=\"great\"><h2>Great</h2><p>The \"Great\" section underscores the exceptional 5-star reviews that Stanford Apartments has consistently received. A tenant succinctly summed up their experience as \"Great,\" indicating a broad satisfaction with their living situation without needing to delve into specifics. This could reflect a seamless living experience where expectations are met or exceeded, making life comfortable and uncomplicated for residents.</p><p>Lesser detailed but overwhelmingly positive reviews suggest that the property management maintains the apartments in top condition, ensuring residents have little to complain about. Such high satisfaction could be a result of efficient property management, great amenities, or both, indicating a community where residents find peace of mind and contentment in their choice of residence.</p></section><section id=\"bad\"><h2>Bad</h2><p>Due to the lack of negative user reviews, there is little to note in the \"Bad\" section of this article. The absence of reviews pointing out issues suggests that tenants have not experienced significant problems, or at least none serious enough to document online. This might reaffirm the strong management presence and commitment to providing a consistently positive experience for residents.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In the \"Ugly\" section, this article notes that the complete lack of user reviews or feedback highlighting severe issues indicates that residents have not faced any profoundly negative experiences at the Stanford Apartments. This absence suggests that there are no systemic problems or deeply rooted management failures affecting the quality of life at the property. Thus, it could imply that any severe issues are either rare or effectively managed to prevent disruption to residents, maintaining the property\u2019s reputation.</p></section>"
+  }
 }

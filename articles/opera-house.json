@@ -1,0 +1,31 @@
+{
+  "name": "Opera House",
+  "slug": "opera-house",
+  "company_type": "Property",
+  "address": "1305 Harris Ave Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 3.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Jessica S.",
+        "rating": 3,
+        "review": "Initially the apartment advertised as having ac as well as a pet grooming station.  It is advertised as a luxury facility but it does not even have a garbage disposal.  The building work is shotty with many things overlooked including windows that do not properly close nor does the lobby door. The heating is hit and miss with the guest bath requiring a space heater. There is no pantry and the commercial space for lease on the main floor floods.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 3.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205534,
+    "text": "<section id=\"good\"><h2>Good</h2><p>Even though user reviews of the Opera House are limited, hints of potential positives might be drawn from the mixed experience described. The location in Bellingham, WA, is central and convenient for residents, offering easy access to amenities in the area. The building is advertised with appealing features such as air conditioning and a pet grooming station, aiming to cater to modern living desires. While actual implementation seems to have fallen short, the advertisement suggests that the company's vision aligns with offering a luxurious lifestyle to residents, indicating a foundational effort to provide enhanced living experiences.</p></section><section id=\"great\"><h2>Great</h2><p>At this point, there are not enough detailed user reviews praising the Opera House to fill this section. No reviews have highlighted outstanding experiences or exemplary aspects of the property management services. Future feedback might offer insights into potentially stellar features or interactions that residents have with the management team, should those occur.</p></section><section id=\"bad\"><h2>Bad</h2><p>User feedback specifically points out several shortcomings related to the Opera House, suggesting a mismatch between expectations set by the advertisements and the reality of living there. Residents note that essentials like a working garbage disposal are missing, and structural defects such as windows and a lobby door that do not close properly indicate neglect in building maintenance. The heating system appears unreliable, necessitating additional equipment like space heaters to ensure comfort in certain areas of the property. The absence of storage facilities such as pantries adds another inconvenience to daily living, pointing towards areas requiring improvements by the management.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In this article, issues at the Opera House take an unfortunate turn as safety and practicality appear compromised. One critical problem highlighted in user reviews is the flooding of commercial space on the main floor, which could pose a risk to property and disrupt both commercial tenants and residents. Moreover, the lack of response or interaction from the management to address these reported issues suggests a communication gap and indifference toward tenant complaints. This could severely impact the reputation of the Opera House, especially if such significant problems remain unchecked, leading to potential dissatisfaction and trust issues among current and potential future residents.</p></section>"
+  }
+}

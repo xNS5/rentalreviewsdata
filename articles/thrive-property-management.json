@@ -1,0 +1,31 @@
+{
+  "name": "Thrive Property Management",
+  "slug": "thrive-property-management",
+  "company_type": "Company",
+  "address": "2950 Newmarket St #101, Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 1.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "MrBigShot12",
+        "rating": 1,
+        "review": "When we first moved in, we have been hassled and harassed about parking by the management and tenant by leaving notes and next day and so on there no car parked in that spot. they did not mention nothing about parking was extra $50 some dollars a month and literally all are taken even chiropractor who works in front of buildings has spots taken. live here but leaving after contract because never mentioned anything about street parking extra fees while paying online through an app never mentioned. Gym is way out dated and only has 2 machines. Always popping up with new rules.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205629,
+    "text": "<section id=\"good\"><h2>Good</h2><p>There currently aren't any positive reviews available for Thrive Property Management, which makes it challenging to highlight specific good aspects based on existing user feedback. As reviews are essential for assessing a company's performance, it's crucial to monitor any future feedback that might provide insights into their strengths and positives. Future client experiences could potentially reflect improvements in services or management practices.</p></section><section id=\"great\"><h2>Great</h2><p>Similarly, this article lacks content in the 'Great' category due to an absence of detailed positive user reviews for Thrive Property Management. A service-oriented company might develop a positive reputation over time through efficient management and outstanding customer service, so it's important to look out for future reviews that might indicate significant improvements or exceptional service experiences.</p></section><section id=\"bad\"><h2>Bad</h2><p>The current user reviews indicate notable dissatisfaction with Thrive Property Management. One significant concern raised by a tenant revolves around the miscommunication regarding parking arrangements. The tenant reported that upon moving in, they were subjected to ongoing harassment concerning parking issues. This was exacerbated by a lack of transparency about additional fees for parking, which were not initially disclosed, causing frustration.</p><p>The inconvenience was further amplified by the cramped parking situation, where even designated spots for nearby businesses were reportedly occupied. Moreover, users highlighted issues with outdated facilities, such as the limited and old gym equipment. It's also worth noting that the company hasn't responded to these concerns publicly, which might suggest poor communication with tenants.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The 'ugly' aspect of Thrive Property Management's operations is significantly highlighted by the user's experience of unexpected and uncommunicated fees, alongside a litany of new and sudden rule changes. This paints a picture of a management that perhaps lacks transparency and the foresight to ensure tenants are well-informed. It could indicate deeper systemic issues within management practices.</p><p>Being blindsided by extra costs and new compliance requirements can be both financially and emotionally taxing for tenants, resulting in a departure from the property at the earliest opportunity. This kind of feedback signals potential tenants to be wary of hidden costs and the unpredictable enforcement of new rules, demonstrating a pressing need for improved communication and reliability from the management team.</p></section>"
+  }
+}

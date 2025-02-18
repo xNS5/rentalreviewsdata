@@ -1,0 +1,31 @@
+{
+  "name": "Premium Rentals LLC",
+  "slug": "premium-rentals-llc",
+  "company_type": "Company",
+  "address": "3212 Mt Baker Hwy, Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 1.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Macaroni Cheese",
+        "rating": 1,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 0,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205552,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, we aimed to explore the positive aspects of Premium Rentals LLC. However, due to limited user feedback and overwhelmingly negative ratings, there are insufficient details to highlight particular strengths or commendable practices that the company may offer.</p></section><section id=\"great\"><h2>Great</h2><p>Premium Rentals LLC has not received any feedback that highlights exceptional service or notable achievements. Consequently, this section remains sparse, lacking examples where the company has exceeded tenant expectations or received acclaim from its clientele.</p></section><section id=\"bad\"><h2>Bad</h2><p>The user reviews for Premium Rentals LLC indicate dissatisfaction with their service. One prominent issue is the company\u2019s lack of communication, as evidenced by the absence of any responses to negative reviews from tenants. This suggests a possible disregard for addressing customer concerns or improving tenant relations.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The single user review, rated one star, signifies substantial tenant frustration, although specific grievances remain unshared. The unaddressed review, coupled with the lowest possible rating, paints an unsatisfactory picture of the company's operations, further exacerbated by the complete lack of engagement from the management in resolving or acknowledging complaints.</p></section>"
+  }
+}

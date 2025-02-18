@@ -3,45 +3,45 @@
   "slug": "adams-property-management",
   "company_type": "Company",
   "address": "1344 King St #201, Bellingham, WA 98229",
-  "review_count": 10,
-  "average_rating": 3.3,
+  "review_count": 12,
+  "average_rating": 2.92,
   "reviews": {
     "google_reviews": [
       {
-        "author": "Ethan Kendall",
-        "rating": 1.0,
-        "review": "Pipes froze went without running water for 10 days no restitution for equipment I bought to unthaw pipes slow to respond. Owners selling property gave me till end of lease to figure out new place to live found place a month early moving out still holding me to lease to pay April rent which is a scummy move been a good renter no problems or drama I crawled under unit checking for leaks they are going to take me to court just plain greedy people",
-        "ownerResponse": null
+        "author": "Graham Armstrong",
+        "rating": 5,
+        "review": "We rented from Howard and Caroline for 5 years, and while their management style might not work for everyone, it was perfect for us. We were comfortable handling the majority of maintenance and repairs on our own,  and they were comfortable being \"hands-off\" landlords. We paid a very reasonable price the entire time that we rented from them.\n\nThey are also good people. I will miss having small chats with Caroline once a month while turning in rent.",
+        "owner_response": null
       },
       {
-        "author": "Graham Armstrong",
-        "rating": 5.0,
-        "review": "We rented from Howard and Caroline for 5 years, and while their management style might not work for everyone, it was perfect for us. We were comfortable handling the majority of maintenance and repairs on our own,  and they were comfortable being \"hands-off\" landlords. We paid a very reasonable price the entire time that we rented from them.\n\nThey are also good people. I will miss having small chats with Caroline once a month while turning in rent.",
-        "ownerResponse": null
+        "author": "Ethan Kendall",
+        "rating": 1,
+        "review": "Pipes froze went without running water for 10 days no restitution for equipment I bought to unthaw pipes slow to respond. Owners selling property gave me till end of lease to figure out new place to live found place a month early moving out still holding me to lease to pay April rent which is a scummy move been a good renter no problems or drama I crawled under unit checking for leaks they are going to take me to court just plain greedy people",
+        "owner_response": null
       },
       {
         "author": "Nick Hatch",
-        "rating": 4.0,
+        "rating": 4,
         "review": "I've been a tenant with Adams for over three years, and have been pleased with the no-nonsense approach they take with property management. Problems generally get fixed quickly, and they'll be a respectful and attentive landlord as long as you're an attentive tenant.\n\nThey have a reputation for being strict, but I've always been a respectful tenant, and am treated with the same respect.\n\nThey've never played games with nickel-and-diming security deposits, something many other landlords in Bellingham seem to love to do.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Sarah Ross-Morgan",
-        "rating": 1.0,
+        "rating": 1,
         "review": "I've lived in Whatcom county most of my life and I've rented from many property management groups, most are pretty fair. Truthfully Adams is the second worst (Lakeway wins first by a landslide- oi vey). This guy...I've never been so abused by a property management company. Know your renters rights, people! DO NOT let Howard Adams bully you!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Steven Shimko",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Awesome landlords, always punctual when there are issues",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Nick Farrell",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ],
     "yelp_reviews": [
@@ -49,32 +49,51 @@
         "author": "Pamela C.",
         "rating": 5,
         "review": "Howard and Caroline are great! They have been taking care of our properties for about 5 years and we can count on them for everything.  Honesty, and integrity.  He screens our tenant's well and we have never had any problems because of their thoroughness.  \nHoward and Caroline are wonderful communicators and they follow through with all request.  \nWe are so glad to have found them!",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Graham A.",
         "rating": 5,
         "review": "We rented from Howard and Caroline for 5 years, and while their management style might not work for everyone, it was perfect for us. We were comfortable handling the majority of maintenance and repairs on our own,  and they were comfortable being \"hands-off\" landlords. We paid a very reasonable price the entire time that we rented from them.\n\nThey are also good people. I will miss having small chats with Caroline once a month while turning in rent.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Nick F.",
         "rating": 1,
         "review": "Absolutely disgusting and disgraceful excuse for a Property Management company.\n\nMy roommates and I were in love with our duplex we were renting from Adams, until we noticed a few of the appliances (along with the already-damaged carpets and floors that needed maintenance in terms of cleaning) needed attention. Since Adams is... SHOCKER... supposed to facilitate maintenance on up-keeping the house, we have made arrangements for some of these things to be fixed on numerous occasions (and arrangements were NOT made easily by any measure - we always had to be the ones calling the repair people [which i'm pretty sure is not standard procedure]). Finally, one day when my roommate decided to take the rent check in, she inquired about the possibility of having the carpets taken care of, since we had been ignore several times on this request. Without hesitation, the owner (Howard) flipped out on my roommate and spewed the most distasteful sexist garbage onto her, claiming she was a \"bitch\" and threatened eviction on us for no good reason whatsoever, other than the fact that we were \"annoying\" and he \"hated our unit\". (All VERBATIM from what was said) Long story short, APM will not be going down without a fight. Absolutely the worst rental company experience ever.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Monica J.",
         "rating": 1,
         "review": "Renting with Adam's for six years was one of the worst decisions of my life. The homes are not clean -- we moved into a house filled with garbage, food that was YEARS old, and damage -- and ended up having to pay for the previous tenants damage. Howard and the other woman in charge do not have any idea of how to run a business. They are aggressive, disorganized, unprofessional and downright ridiculous. Howard will come to your house unannounced and be rude. Yes, he will just walk in. I wish I was kidding. Don't expect to ever get a call back unless  they didn't get their money. Howard is incredibly aggressive towards women and will cuss at you over the phone or in person. The office is dirty and covered with papers. I have no idea how they get anything done because when they arent being incredibly rude they are so out of it it's comical. Without a doubt the worst experience i've ever had.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Barbie K.",
+        "rating": 1,
+        "review": "worst rental company in bellingham, do not rent from them. Had them as rental company for years never came to the house to see if thing were going ok, when i called them to fix something, they were very rude, then would not get them fixed for months. When i told them i was moving they put a fake eviction notice on front door, and scared my children. they should not be in business",
+        "owner_response": null
+      },
+      {
+        "author": "wendy F.",
+        "rating": 1,
+        "review": "BEWARE if renting from this property management company in Bellingham they are dishonest!!! They will make you pay thousands of dollars up front in deposits but dont expect your deposit back , or for them to fix anything while you are living in one of their rentals - they are True SLUM LORDS!!!",
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 9,
-  "adjusted_average_rating": 3.11,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In the \"Good\" section of this article's analysis of Adams Property Management, some tenants have appreciated their no-nonsense approach to property management. Tenants who prefer a hands-off landlord found Adams to be satisfactory, citing a comfort with handling their own maintenance and repairs, and appreciation for the autonomy that Adams allowed in doing so. Additionally, there\u2019s recognition of their reasonable pricing, hinting that tenants feel they're receiving fair value for their rentals.</p><p>Furthermore, positive user reviews reflect a sentiment that problems, when they do occur, tend to be addressed in a timely manner. Tenants expressed contentment with quick fixes to issues and a respectful engagement from the property management as long as the tenants themselves maintained their responsibilities. Such experiences indicate that some tenants have had amicable and professional relationships with Adams Property Management over the years.</p></section><section><h2>Great</h2><p>The company also seems to excel in certain areas according to user reviews. There are mentions of Adams Property Management's representatives being punctual in dealing with issues, which is a crucial attribute for any tenant dealing with property-related problems. Additionally, for landlords, Adams has been praised for their thoroughness in screening tenants and their overall reliability in property management tasks.</p><p>High marks come, too, from those noting that the management company exhibits integrity and honesty, and maintains excellent communication. This is particularly valued by property owners who rely on Adams to manage interactions with tenants and to follow through on both routine and special requests, ensuring that governing tasks do not fall by the wayside.</p></section><section><h2>Bad</h2><p>However, not all user reviews are favorable. One of the issues mentioned repeatedly is a perceived neglect regarding maintenance concerns. Tenants have reported incidents where they had to take on the responsibility for arranging repairs, which can be a significant inconvenience and not a standard expectation in a tenant-management relationship. Some reviews highlighted difficulties in having carpets and appliances fixed, citing a need to constantly follow up and advocate for these basic maintenance needs.</p><p>Moreover, there have been complaints regarding financial dealings with the company. From the perspective of a departing tenant, Adams Property Management is depicted as rigid, potentially retaining last month\u2019s rent despite early vacancy of the premises and threatening legal action without considering the quality or duration of the tenant's residency, which can be viewed as an inflexible and harsh approach to lease agreements.</p></section><section><h3>Ugly</h3><p>Among the most severe criticisms found in user reviews are allegations of unprofessional conduct by Adams Property Management. Instances of aggressive and disrespectful behavior towards tenants, particularly women, have been cited, undercutting the essential reliance on civility and trust in a landlord-tenant relationship. Tenants have reported extreme encounters involving verbal harassment and unannounced, intrusive visits, which could lead to an uncomfortable and hostile living environment.</p><p>The office conditions and organizational skills of the company have been called into question as well, with one long-term tenant describing their rental experience as extremely negative due to the disarray and lack of professionalism encountered. Claims of an untidy office, misplaced paperwork, and delayed responses compound the negative narrative, painting a picture of a property management company that struggles with the fundamentals of business operations and customer service.</p></section>"
+  "adjusted_review_count": 11,
+  "adjusted_average_rating": 2.73,
+  "distribution": {
+    "1": 6,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 5
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205381,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In user reviews, some tenants have found Adams Property Management to be dependable and honest. A common sentiment shared by a few tenants is the company's no-nonsense approach, which seemed to appeal to those who prefer handling minor repairs and maintenance independently. One tenant praised the reasonable rent and highlighted the positive personal interactions with the staff, noting a particular affinity for the monthly chats with one of the managers while submitting rent. A few reviewers mentioned a sense of mutual respect, where responsible tenants received fair treatment and prompt responses to their concerns.</p></section><section id=\"great\"><h2>Great</h2><p>Among the positive experiences shared in user reviews, Adams Property Management received high marks for integrity and communication. Some long-term tenants appreciated the thorough screening process that resulted in trouble-free tenancies. One user fondly reminisced about their five-year leasing experience, describing the landlords as great communicators who followed through on every request. Others were impressed with how problems were addressed swiftly and effectively, leading to satisfied tenants who would recommend the company to others seeking a fair deal.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews also depict a less pleasant side of Adams Property Management, with several tenants expressing dissatisfaction with the management's communication and responsiveness. Multiple tenants reported instances of maintenance neglect, wherein requests for repairs went unanswered or took a prolonged time to address. Some mentioned dissatisfaction with the cleanliness of properties upon move-in and facing the burden of additional costs that should have been the company's responsibility. A concern that resonated across reviews was the lack of professionalism exhibited by management when handling tenant grievances.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>In stark contrast, some user reviews painted a rather alarming picture of interactions with Adams Property Management. Several tenants reported feeling mistreated and disrespected, with one tenant sharing a harrowing experience of verbal aggression from management. Another reviewer expressed frustration over aggressive and sexist behavior towards women, recounting instances of unprofessionalism and unwarranted threats of eviction. Accusations of fraudulent practices, such as false eviction notices and withholding deposits under false pretenses, further emphasized the disdain some tenants felt towards the company, urging others to be cautious when engaging with them.</p></section>"
+  }
 }

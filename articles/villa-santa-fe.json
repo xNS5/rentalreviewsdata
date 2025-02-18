@@ -1,0 +1,31 @@
+{
+  "name": "Villa Santa Fe",
+  "slug": "villa-santa-fe",
+  "company_type": "Property",
+  "address": "804 W Bakerview Rd, Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 5.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Patricia Ramirez",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 0,
+  "adjusted_average_rating": 5.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739205636,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The positive feedback about Villa Santa Fe primarily centers around the overall satisfaction from residents, which is reflected in the high ratings. The property management seems to have provided an experience that aligns well with the expectations of its tenants. While user reviews are limited, the available feedback indicates a commendable level of service, suggesting that residents have largely been pleased with their accommodations and management interactions.</p></section><section id=\"great\"><h2>Great</h2><p>Villa Santa Fe stands out with an impressive five-star rating, indicating that residents have had exceptional experiences. One key trait that appears to distinguish this property is the consistency in offering quality living conditions and responsive management. The lack of negative commentary suggests that the property management has excelled in maintaining the property and addressing tenant needs promptly, contributing to a highly rated living environment.</p></section><section id=\"bad\"><h2>Bad</h2><p>While the overall perception of Villa Santa Fe is highly positive, the minimal number of reviews means there is little room for presenting any negative feedback. Without reviews highlighting specific shortcomings or issues, it is difficult to ascertain any areas where the property management might be falling short. However, with no visible owner responses, potential improvements in engagement and communication could be considered for a more comprehensive tenant experience.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>No evident themes or detailed complaints emerged from the user reviews, as there is only one available review without further insight. Consequently, this article lacks any accounts of significant negligence or severe dissatisfaction. The absence of additional critical or negative feedback suggests that major issues, if any, are not prevalent enough among the residents to reflect poorly on the property. Nonetheless, a broader array of resident experiences could provide a more complete picture of Villa Santa Fe's management practices.</p></section>"
+  }
+}

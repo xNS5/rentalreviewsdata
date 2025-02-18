@@ -1,0 +1,31 @@
+{
+  "name": "Isabella Apartments",
+  "slug": "isabella-apartments",
+  "company_type": "Property",
+  "address": "4380 Tull Rd Bellingham, WA 98226",
+  "review_count": 1,
+  "average_rating": 4.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Newt D.",
+        "rating": 4,
+        "review": "NICE PLACE!  They also take PETS!!!!!!\nReally nice folks in the office are always helpful and seem to really care about their tenants, even if you have an issue or repair request.\n\nCould use more parking...not enough for guests.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 4.0,
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205474,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Isabella Apartments have been positively noted for their welcoming pet policy, which is a significant plus for animal lovers. This inclusivity allows residents to feel at home by bringing their furry friends with them. Additionally, the office staff is praised for their helpfulness and genuine care, which contributes to a warm community atmosphere. In user reviews, tenants have consistently mentioned the positive interactions with the management team, highlighting their responsiveness to repair requests and any tenant issues.</p></section><section id=\"great\"><h2>Great</h2><p>Beyond the pet-friendly policy and attentive management, the Isabella Apartments shine in creating a supportive tenant experience. The management team is not just seen as a typical office staff; they are viewed as individuals who sincerely care about the well-being of their tenants. Their proactivity in addressing concerns, coupled with a friendly demeanor, has left a lasting impression on residents. This level of service stands out as a great strength of the property, fostering a strong sense of community among residents.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the numerous positive aspects, there are areas where Isabella Apartments could improve. A recurring concern mentioned in user reviews is the insufficient parking space, which poses a challenge for guests. This limitation can be inconvenient for residents who frequently host visitors, as finding parking becomes a struggle. Addressing this issue could significantly enhance the overall living experience for those residing at Isabella Apartments.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Currently, there do not seem to be any major complaints or serious issues that fall into the 'ugly' category for Isabella Apartments. With no reports of neglect or severe misconduct from the property management, the company has maintained an overall positive reputation. This clean record in user reviews reflects positively on the management's capabilities and their commitment to tenant satisfaction.</p></section>"
+  }
+}

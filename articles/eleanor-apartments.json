@@ -9,28 +9,35 @@
     "google_reviews": [
       {
         "author": "Rita Johnson",
-        "rating": 4.0,
+        "rating": 4,
         "review": "I live in California but I'm looking to move closer to my son in Bellingham, WA. I need an low income senior apartment. This cite was very helpful but how do I get an application?",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Patty Dawn",
-        "rating": 3.0,
+        "rating": 3,
         "review": "Apartments for seniors. Mercy Management difficult to deal with.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "JD Kjell Hjelle",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
   "adjusted_review_count": 2,
   "adjusted_average_rating": 3.5,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The appeal of Eleanor Apartments for individuals looking for senior housing can be noted from user reviews. Prospective tenants have indicated that the online resources provided by Eleanor Apartments are helpful and informative, especially for those not currently in the area who are considering moving closer to family members in Bellingham, WA. The accessibility of information online can be a crucial factor in the decision-making process for seniors looking for low-income options.</p></section><section><h2>Great</h16><p>It should be mentioned, perhaps as a testament to the quality of the living experience at Eleanor Apartments, that one of the user reviews gave a perfect rating without leaving any specific comments. This might suggest that the reviewer had an overwhelmingly positive experience that led to high satisfaction, which they felt did not require further elaboration or could simply represent general contentment with their living situation at Eleanor Apartments.</p></section><section><h2>Bad</h2><p>However, some reviews point to difficulties in dealing with the property management. A user review specifically mentions challenges when interacting with Mercy Management, the entity responsible for Eleanor Apartments. This suggests a possible area where the management company could improve, especially in terms of customer service and tenant relations. Further details on the type of difficulties encountered are not specified, but such feedback indicates that not all interactions with the management were smooth.</p></section><section><h2>Ugly</h2><p>Because the article's data are limited, with only a few reviews available for Eleanor Apartments, it is challenging to assess a trend or provide a comprehensive overview of the \"ugly\" aspects of the property management company. Without more detailed negative reviews or repeated complaints about specific issues such as neglecting maintenance concerns, not returning security deposits, poor communication, etc., it is not feasible to provide a thorough critique in this area based on the available user reviews.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 1,
+    "5": 1
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205431,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, several positive aspects of Eleanor Apartments are highlighted by users. The location is often praised by those looking for a residence in Bellingham, WA, which may be the case for users seeking to be closer to family, as indicated by one potential tenant. Despite not having experienced the property firsthand, the user seemed encouraged by the accessibility and helpfulness of the listing details. Another user expressed a high degree of satisfaction by awarding a five-star rating, though no additional comments were provided, suggesting a positive yet unarticulated experience.</p></section><section id=\"great\"><h2>Great</h2><p>While specific user comments highlighting excellent experiences are limited in number, the high ratings themselves serve as an indirect endorsement of Eleanor Apartments. The overall rating reflects some level of satisfaction from residents or interested parties, indicating that the apartments potentially offer a desirable living environment for seniors. This impression is further supported by the intent to make the move by out-of-state potential tenants, signaling a solid reputation among those searching for senior accommodations from afar.</p></section><section id=\"bad\"><h2>Bad</h2><p>However, there are notable areas where Eleanor Apartments might not meet expectations. Some users have expressed frustrations with the property management's communication or service processes. One review specifically notes difficulties in dealing with Mercy Management, the company responsible for managing the apartments, which could suggest potential inefficiencies or service issues needing attention. Although it's not clear what specific problems were encountered, this feedback reflects a need for improved management interaction.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>Although none of the reviews are extremely negative, the challenges with management hinted at by one user could indicate deeper operational issues at Eleanor Apartments. It\u2019s important for potential residents to consider these comments, as difficulties in manager communication or administration may impact overall satisfaction. Given that these concerns are not elaborately documented, they might represent isolated incidents but are still essential points for prospective tenants to weigh in their decision-making process.</p></section>"
+  }
 }

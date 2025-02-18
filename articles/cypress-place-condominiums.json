@@ -3,7 +3,7 @@
   "slug": "cypress-place-condominiums",
   "company_type": "Property",
   "address": "690 32nd St Bellingham, WA 98225",
-  "review_count": 1,
+  "review_count": 2,
   "average_rating": 4.0,
   "reviews": {
     "yelp_reviews": [
@@ -11,14 +11,27 @@
         "author": "Suzanne P.",
         "rating": 4,
         "review": "Chris went on the attack with me in the first place  calling my original review fake, then telling me I have my head in the sand. I asked about 10 people what they thought about these issues and some have been here for four to five years. Yes management can be prickly at times but the grounds are well taken care of, some owners don't pick up after their dogs as much as they should which is not cool, but overall considering there are 200 units my place is quiet I have respectful neighbors. Chris's rents are just over the top... Any complex will have it's issues and there are many areas in our town getting hit with crime, even in the best neighborhoods. The property management does need to step up more to protect the complex and keep in better touch with residents. My friend and I created Facebook page so we all can inform each other about anything going on which is at least proactive instead of just ranting.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Phyllis L.",
+        "rating": 4,
+        "review": "Our son lived in Bldg A for several years and have never had issues with noise.  We spent many nights there.  Again, no issues with noise.  Our unit still looks brand new, though I believe the builder cut as many corners as possible, which resulted in a lawsuit and expenditures on remediations.  The grounds and common areas are always nicely kept up.  The homeowners association nitpicks, but I'd rather have rules enforced than the opposite.  The rules were jointly established by the owners of the condos for valid reasons.",
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 1,
+  "adjusted_review_count": 2,
   "adjusted_average_rating": 4.0,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>The management at Cypress Place Condominiums seems to demonstrate a commitment to the upkeep of the grounds, which is a positive aspect highlighted in user reviews. The environment is generally quiet, which is appreciated by residents who value tranquility in their living space. Residents have also noted the respectfulness of neighbors, which contributes to a pleasant communal atmosphere. This suggests that Cypress Place Condominiums is capable of fostering a welcoming and serene residential environment.</p></section><section><h2>Great</h2><p>In proactive measures, the residents have taken the initiative to create a Facebook page to keep each other informed about happenings around the property. This community-driven effort exemplifies a sense of unity and active engagement among the tenants. As there are around 200 units, the fact that a single user review mentions quietness and respectfulness among such a substantial number of residents can be considered a testament to the overall community satisfaction.</p></section><section><h2>Bad</h2><p>However, there are indications that the property management could improve its performance. According to user reviews, some residents believe that the management has been prickly at times, which may suggest occasional lapses in customer service or interpersonal exchanges. Additionally, there is room for improvement in communication, as the management is encouraged to keep in better touch with the residents to address the community's concerns more effectively.</p></section><section><h2>Ugly</h2><p>One downside associated with Cypress Place Condominiums is the critique that the property management may not be proactive enough in terms of security measures, which is an area residents feel needs more attention. There's also a remark about the rental price being \"over the top,\" hinting at dissatisfaction with the value proposition. Furthermore, another concern raised involves pet owners not picking up after their dogs, which, while not directly a management issue, could reflect on the enforcement of community rules.</p></section>"
+  "distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 2,
+    "5": 0
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205424,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, the Cypress Place Condominiums receive praise for several aspects of the property, particularly their maintenance of common areas and the general peacefulness of the neighborhood. Many users acknowledge the well-kept grounds and common areas, indicating a level of care and attention that enhances the overall living experience. Residents find the quietness of the community a significant advantage, which is often credited to the respectfulness of the neighbors and effective management of noise-related issues. The homeowners association is noted for enforcing rules that have been jointly established, contributing further to the sense of order and tranquility. Despite potential challenges, such as pet-related issues, the community ambiance is overall appreciated by those who call Cypress Place home.</p></section><section id=\"great\"><h2>Great</h2><p>The management of Cypress Place Condominiums excels in maintaining a tidy and visually pleasing environment, which consistently receives high commendations from users. This article notes the landscaping and shared spaces are clean and well-managed, providing a pleasant aesthetic that residents greatly appreciate. Those living in Cypress Place, including long-term tenants, emphasize the immaculate condition of their units, remarking how they maintain a 'like-new' appearance even after several years. While the noise control is particularly applauded, the presence of proactive measures, such as resident-led initiatives to foster community communication, reflects a dynamic and engaged community.</p></section><section id=\"bad\"><h2>Bad</h2><p>However, not all is perfect at Cypress Place Condominiums. Management has been described as somewhat unresponsive or overly confrontational at times, especially when addressing resident feedback or criticism. One user review suggests that communication from management could be improved to better support resident concerns, particularly regarding security and proactive measures against rising crime in the area. Additionally, while only a few issues with pet waste have been noted, they do affect the perception of overall cleanliness and could benefit from more attention.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>There are minimal reports of severe problems, but certain interactions with the management team have the potential to escalate tensions. One reviewer reported feeling attacked personally by derogatory comments from a management representative, which led to a defensive atmosphere and marred the otherwise positive aspects of their living experience. Similarly, there are hints of dissatisfaction with the perceived high rental rates, which seems to lack adequate justification in some tenants' opinions. Such experiences highlight the room for significant improvement in management-resident relations.</p></section>"
+  }
 }

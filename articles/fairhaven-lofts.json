@@ -1,0 +1,31 @@
+{
+  "name": "Fairhaven Lofts",
+  "slug": "fairhaven-lofts",
+  "company_type": "Property",
+  "address": "1300 Mckenzie Ave Bellingham, WA 98225",
+  "review_count": 1,
+  "average_rating": 2.0,
+  "reviews": {
+    "yelp_reviews": [
+      {
+        "author": "Camden V.",
+        "rating": 2,
+        "review": "The location is nice, but the building is poorly constructed - whenever the neighbors turned on the dryer, all our appliances would shake. The walls are so thin that you can hear absolutely everything in the next apartment. Since about half the tenants are college students, this made it difficult to sleep. Many of the tenants have dogs, making the elevators stink. Maybe a good choice for WWU students, but for others it's not worth $2000 per month.",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 2.0,
+  "distribution": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "summary": {
+    "created_timestamp": 1739205443,
+    "text": "<section id=\"good\"><h2>Good</h2><p>The Fairhaven Lofts does offer an appealing location, which is a highlight in user reviews. Being situated in a vibrant area of Bellingham, it is convenient for students attending Western Washington University. The proximity to amenities is a draw for many, offering easy access to shops and services. However, beyond location, there is limited praise regarding the building or management itself. This indicates that while the setting is favorable, other aspects might be overshadowed by issues discussed in other sections of this article.</p></section><section id=\"great\"><h2>Great</h2><p>In this section, the article aims to highlight aspects of Fairhaven Lofts that might exceed renter expectations. Unfortunately, there is not enough detailed positive feedback from user reviews to construct a narrative of excellence. The sole review mentions the location as a potential benefit but does not elaborate on any particular strength in property management or amenities that would elevate the experience to 'great' status. Thus, this suggests an opportunity area for the property to improve their exceptional offerings and services.</p></section><section id=\"bad\"><h2>Bad</h2><p>User reviews indicate several issues with Fairhaven Lofts, particularly concerning the quality of construction. Tenants report that the building's thin walls result in significant noise disruptions, as sounds from neighboring apartments are easily heard. This can be particularly challenging for non-students who seek a quiet living environment. The building's pet policy, while accommodating, has reportedly led to unpleasant odors, especially in common areas like elevators. These recurring issues highlight concerns regarding both the physical infrastructure and management's responsiveness to tenant experiences.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>From the user review, it is clear that the building suffers from some more severe issues that critically impact tenant satisfaction. Most notably, users describe how the activation of a neighbor's dryer causes disturbances in their own apartment, with noticeable shaking of appliances. Such a fundamental flaw points to serious construction quality issues. The lack of response from property management representatives to these reviews suggests a possibly troubling neglect of tenant concerns. This absence of engagement or resolution efforts from the management can exacerbate the existing dissatisfaction among residents.</p></section>"
+  }
+}

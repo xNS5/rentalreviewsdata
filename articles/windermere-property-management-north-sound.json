@@ -3,151 +3,171 @@
   "slug": "windermere-property-management-north-sound",
   "company_type": "Company",
   "address": "3018 Commercial Ave, Anacortes, WA 98221",
-  "review_count": 21,
-  "avg_rating": 4.4,
+  "review_count": 23,
+  "average_rating": 4.48,
   "reviews": {
     "google_reviews": [
       {
-        "author": "Ron Rolston",
-        "rating": 5.0,
-        "review": "Dreabon and her team has managed our investment property for several years now and we could not be more pleased with the property management services provided. We have used property management companies for many years now in several cities. We know that the caliber of companies can vary greatly. The  proactive and professional service provided by this team far exceeds any of our previous experiences. Would recommend them highly.",
-        "ownerResponse": null
+        "author": "Monique Delmar",
+        "rating": 5,
+        "review": "Wonderful people at Windermere! Everyone we have worked with has been very helpful. Clear communication, easy to follow steps for getting setup, and great attention to detail.",
+        "owner_response": null
+      },
+      {
+        "author": "O Navarro",
+        "rating": 5,
+        "review": "We rented through them and had an overall positive experience. Always great communication and quick with maintenance requests. Got our full deposit back after move out too! Thank you!",
+        "owner_response": {
+          "text": "You were a valued resident and we enjoyed working with you. Thank you for the positive feedback and more importantly, we are happy to hear you had a positive experience. "
+        }
       },
       {
         "author": "P A",
-        "rating": 5.0,
-        "review": "Dreabon Robillard and her staff have managed our rentals for over a decade. Their communication is excellent, they are friendly and respectful to work with, and they perform regular inspections and handle maintenance needs as we have instructed. We work as a team and we really appreciate that.",
-        "ownerResponse": {
+        "rating": 5,
+        "review": "Dreabon Robillard and her staff have managed our rentals for over a decade. Their communication is excellent, they are friendly and respectful to work with, they perform regular inspections and handle maintenance needs as we have instructed. They handle the tough client issues professionally and without complaint. They work well with us as a team. We count on and appreciate Dreabon and her PM team.",
+        "owner_response": {
           "text": "Thank you for entrusting us with your properties. We enjoy working with you. Hearing about your positive experience brings us great joy, thank you for taking the time to share. "
         }
       },
       {
-        "author": "Blake Seese",
-        "rating": 5.0,
-        "review": "Windermere Property Management  has been fantastic to work with. Always professional and impressively quick responses.  I highly recommend their services!",
-        "ownerResponse": null
+        "author": "Ron Rolston",
+        "rating": 5,
+        "review": "Dreabon and her team has managed our investment property for several years now and we could not be more pleased with the property management services provided. We have used property management companies for many years now in several cities. We know that the caliber of companies can vary greatly. The  proactive and professional service provided by this team far exceeds any of our previous experiences. Would recommend them highly.",
+        "owner_response": null
       },
       {
         "author": "Christopher Panek",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Windermere Property Management has been keeping an eye on our rental. The entire process from first contact to receiving our monthly statement/payment has been professional, very easy, and without worry. Two thumbs up.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Crista Engom",
-        "rating": 5.0,
-        "review": "Easy to work with. The property is kept in excellent condition. We love our home.",
-        "ownerResponse": null
+        "author": "Blake Seese",
+        "rating": 5,
+        "review": "Windermere Property Management  has been fantastic to work with. Always professional and impressively quick responses.  I highly recommend their services!",
+        "owner_response": null
       },
       {
         "author": "Terri Garrett",
-        "rating": 1.0,
+        "rating": 1,
         "review": "We used Windemere as our property management for three years. They were difficult to get ahold of and used different 'associate' managers, so there was very little consistency. That would have earned them a three star rating. But when we returned to our property, we were very disappointed with the condition of our home. Even more shocking was that they were willing to return the entire damage deposit to the renter despite obvious damage to our home (holes in drywall, smashed remote, etc). It became an exhausting process of emails back and forth. My 'favorite' part was having to digging through year of receipts to prove to 'my' property manager that I wan't lying when I said I'd purchased new stove knobs for the renter. I enthusiastically do not recommend.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "I was able to pull up the account and see it was eight years ago. I did address this with you at the time and unfortunately we had to 'agree to disagree'. I still stand by the deposit refund that was issued but understand you still feel the tenant was not charged enough. I am sincerely sorry, but I am governed by Washington State Landlord Tenant Laws and I charged for all items legally allowed (items that were above normal wear and tear). I do wish you didn't have a negative opinion of Windermere Property Management but it is your right to harbor your feelings. This is simply a situation I am not able to rectify."
         }
       },
       {
         "author": "Elisha Volanos",
-        "rating": 2.0,
+        "rating": 2,
         "review": "Rented an apartment from them for a year and decided to move into a house after my lease was up. Never in my life have I ever had a rental company keep all of my deposit. Long story short, they fired the manager, ignored my calls and 4 months down the road I talked to a construction crew member that repaired an area with water damage, in the apartment I had rented , keep in mind that I complained 6 months after moving in that I could hear dripping Every time the apartment above me ran their dishwasher. I've asked around and come to find out: not many renters like them or have received a deposit back --minus of course the usual charges for move out cleaning--. I truly hope the new staff has fixed this issue.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Elisha, are you sure youve left a review on the correct Windermere office? Our records do not show you as a tenant in 2018 and our staff consists of only 2 people; both of us with the company multiple years. I take client satisfaction very seriously and am always here to discuss any concerns but again I do find you in our system. What town is the rental in?"
         }
       },
       {
         "author": "Bev Martin",
-        "rating": 5.0,
+        "rating": 5,
         "review": "I sold my house June 2015 using Windermere Anacortes service's. Colleen Craig was my Realtor. I received amazing service from my Realtor and her associates in the office. I appreciated the excellent marketing of my home and the great follow through to closing. Colleen was exceptional at keeping me informed on the market and her marketing plan. I would highly recommend Colleen Craig and the Anacortes Windermere staff.",
-        "ownerResponse": null
+        "owner_response": null
+      },
+      {
+        "author": "Crista Engom",
+        "rating": 5,
+        "review": "Easy to work with. The property is kept in excellent condition. We love our home.",
+        "owner_response": null
+      },
+      {
+        "author": "David",
+        "rating": 5,
+        "review": "Paul Weisz is a great broker that knows what he's doing and is a very responsible person to work with!",
+        "owner_response": null
       },
       {
         "author": "Mohammed Shorab",
-        "rating": 5.0,
+        "rating": 5,
         "review": "They do an excellent job.",
-        "ownerResponse": {
+        "owner_response": {
           "text": "Thank you Mohammed. \n"
         }
       },
       {
-        "author": "David",
-        "rating": 5.0,
-        "review": "Paul Weisz is a great broker that knows what he's doing and is a very responsible person to work with!",
-        "ownerResponse": null
-      },
-      {
         "author": "Joe Huston",
-        "rating": 5.0,
+        "rating": 5,
         "review": "Highly recommend.",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "alaina m. schafer",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Brianna Tracy",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Sina Bahmani",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "shelby langston",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Ren Tarvin",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Mike Linebrink",
-        "rating": 4.0,
+        "rating": 4,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Ashley Eileen (Sigrit)",
-        "rating": 3.0,
+        "author": "Alisa Mikhailovna Kujou (Alya)",
+        "rating": 3,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
-        "author": "Ryan Reichlin (Red)",
-        "rating": 5.0,
+        "author": "Ryan -Red- Reichlin (Red)",
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       },
       {
         "author": "Danny Lewis",
-        "rating": 5.0,
+        "rating": 5,
         "review": "",
-        "ownerResponse": null
+        "owner_response": null
       }
     ]
   },
-  "adjusted_review_count": 11,
-  "adjusted_average_rating": 4.36,
-  "average_rating": 4.43,
-  "summary": {
-    "text": "<section><h2>Good</h2><p>In this article, we look into the positive experiences with Windermere Property Management / North Sound. A number of user reviews express satisfaction with the company's communication strategies and describe the team as friendly and respectful. Clients have felt pleased with the regular inspections and maintenance management carried out by Windermere. Particularly, the company's handling of rental properties over long periods, such as a decade for one reviewer, seems to be commendable, indicating consistency in service quality over time.</p><p>Furthermore, the company is praised for its professionalism and efficient process management. Clients have found the transition from initial contact to the monthly statements very smooth and worry-free. User reviews also commend Windermere for holding their investments in high regard, which has led to some property owners heavily endorsing their services based on several years of exceptional property management experience.</p></section><section><h2>Great</h2><p>Exemplary service delivery at Windermere Property Management / North Sound is highlighted in this section. User reviews applaud the proactiveness of the team, which apparently exceeds previous experiences with other property management companies. The attention to clients\u2019 investment properties and ensuring they are kept in excellent condition are among the aspects highly rated by clients. Users have pointed to specific employees by name, acknowledging their effective and highly recommendable service.</p><p>The management's responsiveness to queries and swift problem resolution is another area where Windermere seems to excel. Clients appreciate the quick responses to their requests and the professional manner with which their concerns are handled. Such responsiveness is crucial in property management, and Windermere's ability to act promptly has been a defining trait that has led to multiple five-star reviews and strong recommendations from satisfied clients.</p></section><section><h2>Bad</h2><p>Despite many positive reviews, Windermere Property Management / North Sound has faced criticism from some clients. These negative experiences mainly revolve around communication hurdles and inconsistent management practices. One user review pointed out difficulties in reaching out to the company and a lack of consistently managed property due to the frequent changing of 'associate' managers. This led to dissatisfaction and a lower star rating by the user.</p><b></b></section><section><h2>Ugly</h2><p>The 'ugly' aspects mentioned in user reviews of Windermere Property Management / North Sound involve issues regarding the return of deposits and property conditions post-rental. A deeply negative experience shared by a client involved coming back to a poorly maintained property and facing reluctance from Windermere to withhold the renter\u2019s deposit despite evident damage. This culminated in an exhausting back-and-forth communication process. Another account highlighted a situation where the entire deposit was kept, despite claims of reported maintenance issues during the tenancy that were not addressed, leading to questions about the fairness of deposit deductions and property maintenance follow-ups.</p></section>"
+  "adjusted_review_count": 13,
+  "adjusted_average_rating": 4.46,
+  "distribution": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 3,
+    "5": 17
   },
-  "created_timestamp": 1725642000
+  "summary": {
+    "created_timestamp": 1739205660,
+    "text": "<section id=\"good\"><h2>Good</h2><p>In this article, Windermere Property Management / North Sound is highlighted for maintaining clear communication with their clients. Many user reviews mention their professional and friendly service, especially emphasizing the ease of setting up rental agreements and addressing tenant inquiries. Dreabon Robillard and her team have been particularly noted for handling maintenance requests efficiently and providing detailed instructions, which has left many clients feeling satisfied with the overall management experience.</p><p>Additionally, some reviewers expressed appreciation for the seamless transition from initial contact to receiving property management services, suggesting a well-organized and reliable process. One specific review even praised the good spirit in which maintenance issues were resolved, highlighting that tenants' deposits were returned in a timely manner, fostering a sense of trust and satisfaction with the company.</p></section><section id=\"great\"><h2>Great</h2><p>Several user reviews describe Windermere Property Management / North Sound as exceeding expectations, particularly when it comes to communication and proactive service. A long-term client remarked on the consistency and professionalism of Dreabon Robillard and her team, stating that their service surpasses any other property management company they have worked with across different cities. This reflects a level of quality that resonates highly with those seeking dependable property management services.</p><p>Another user noted how the team keeps properties in excellent condition and handles any client issues with tact and efficiency, leading to peace of mind for both tenants and property owners. Often lauded for being responsive, the staff at Windermere has received commendation for their ability to maintain client relationships while ensuring that property needs are met promptly and effectively.</p></section><section id=\"bad\"><h2>Bad</h2><p>Despite the overall positive feedback, there are user reviews that indicate areas where Windermere Property Management / North Sound could improve. One particular review mentioned difficulties with consistency due to changing associate managers, leading to frustration in communication. Such inconsistencies appear to dilute the overall reliability that users expect from a property management company of this caliber.</p><p>The company's handling of deposits has also been a point of contention for some. A former tenant reported never receiving their deposit back, despite minimal move-out charges, which led to dissatisfaction with the experience. Issues around repair requests and communication gaps between tenants and management were highlighted, suggesting that not all renters feel their concerns are adequately addressed in a timely manner.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>The less favorable reviews point to significant challenges with the management's accountability and transparency. One review paints a concerning picture where a property was returned in poor condition, yet the damage deposit was fully refunded to tenants, causing frustration to the property owner. The email exchanges to resolve this issue became cumbersome, reflecting poorly on the dispute resolution process implemented by Windermere Property Management / North Sound.</p><p>In another case, a tenant described a lack of responsiveness and follow-through from the property managers, culminating in a missed opportunity to address a water damage issue during tenancy. The increased resentment was fueled by feelings of negligence, as the situation remained unresolved for months, which ultimately tarnished their view of the company. Such experiences highlight particular areas where significant improvements are necessary to prevent potential tenants and property owners from harboring negative sentiments.</p></section>"
+  }
 }

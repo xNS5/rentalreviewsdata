@@ -1,0 +1,37 @@
+{
+  "name": "Deer Run Terrace Apartments",
+  "slug": "deer-run-terrace-apartments",
+  "company_type": "Property",
+  "address": "3210 Orleans St, Bellingham, WA 98226",
+  "review_count": 2,
+  "average_rating": 3.0,
+  "reviews": {
+    "google_reviews": [
+      {
+        "author": "Michael Ford",
+        "rating": 1,
+        "review": "This apartment bldg. Was a lot more cleaner and and respectful when I moved  in here 2011. People normally moved in and moved out. Post covid there are people moving in more like trailer trash doing illegal things.....drugs, smoking in their apartment. POT!! Please stop spraying air freshener in the staircase as I don't use the elevator. TOO SMELLY! Filthy. hallway carpet. Even when they cleaned them still looks dirty. People sneak dogs and cats in.  Homeless people trashing up the property doing drugs in the dumpster recycling area. camping out on the property also in the lobby. with all there belongings. Shopping carts. Doors being proped open with stones so anyone can come in.",
+        "owner_response": null
+      },
+      {
+        "author": "Ruth Smith",
+        "rating": 5,
+        "review": "",
+        "owner_response": null
+      }
+    ]
+  },
+  "adjusted_review_count": 1,
+  "adjusted_average_rating": 1.0,
+  "distribution": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  },
+  "summary": {
+    "created_timestamp": 1739205431,
+    "text": "<section id=\"good\"><h2>Good</h2><p>User reviews for Deer Run Terrace Apartments highlight some positive aspects of living at this property. A five-star rating suggests that there are tenants who are satisfied with their experiences, hinting at moments where management meets expectations. However, the review does not provide specific details or comments to elaborate further on this experience. Although the data is limited, it indicates a potential for positive tenant experiences when concerns are consistently addressed.</p></section><section id=\"great\"><h2>Great</h2><p>While detailed positive reviews are scarce, one five-star rating suggests standout points for Deer Run Terrace Apartments. This high rating might indicate the availability of notable amenities, a peaceful living environment, or responsive management. Unfortunately, without specific examples, it is challenging to identify what aspects of the property or management contribute to such exceptional satisfaction. This absence of explicit positive feedback suggests room for improvement in communicating successful management practices.</p></section><section id=\"bad\"><h2>Bad</h2><p>In user reviews, several issues were highlighted, indicating lapses in the property's upkeep and management. One resident pointed out the deteriorating cleanliness and rising issues post-COVID, like unauthorized pets and rule infractions within the premises. The complaints mentioned include persistent smells in the staircase due to overuse of air fresheners and dirty hallway carpets that appear unclean even after maintenance efforts. These accounts depict areas requiring attention to improve tenant satisfaction and property conditions.</p></section><section id=\"ugly\"><h2>Ugly</h2><p>One particularly stark review paints an alarming picture of Deer Run Terrace Apartments, marked by several severe issues. The criticism includes illegal activities such as drug use and the presence of homeless individuals around the property, causing safety concerns among residents. The account also mentions unsanitary conditions with trash accumulation around dumpster areas and security risks due to propped-open doors. This feedback highlights severe management challenges, primarily due to a lack of response or visible action to address these critical concerns, as evidenced by the absence of owner responses in user reviews.</p></section>"
+  }
+}

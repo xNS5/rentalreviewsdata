@@ -1,6 +1,7 @@
 {
     "name": "faq",
     "title": "Frequently Asked Questions",
+    "url": "faq",
     "type": "page",
     "description": "Quick Answers to Your Top Questions",
     "questions": [

@@ -1,6 +1,7 @@
 {
   "name": "reviews",
   "title": "Reviews",
+  "url": "reviews",
   "type": "page",
   "description": "Rental Reviews Data",
   "filter_props": {

@@ -142,12 +142,12 @@ def create_sitemap():
                 "changeFrequency": "monthly",
                 "priority": 0.9
             })
-            pages.append({
-                "url": f"reviews/{input_json['slug']}/data",
-                "lastModified": created_timestamp,
-                "changeFrequency": "monthly",
-                "priority": 0.2
-            })
+            # pages.append({
+            #     "url": f"reviews/{input_json['slug']}/data",
+            #     "lastModified": created_timestamp,
+            #     "changeFrequency": "monthly",
+            #     "priority": 0.2
+            # })
             input_file.close()
     create_json_file(output_path, pages)
     return

@@ -18,46 +18,6 @@ verbose = False
 
 testConnection = False
 
-def create_sitemap():
-    pages = []
-    output_path = "./sitemap/sitemap.json"
-    config_files = list_files("config")
-    for file in config_files:
-        config_file_path = f"config/{file}"
-        metadata = get_file_metadata(config_file_path)
-        metadata_modified_timestamp = datetime.fromtimestamp(metadata['modified']).strftime("%Y-%m-%d")
-        with open(config_file_path, 'r', encoding='utf-8') as input_file:
-            input_json = json.load(input_file)
-            if 'type' in input_json and input_json['type'] == 'page':
-                pages.append({
-                    "url": f"{input_json['name']}",
-                    "lastModified": metadata_modified_timestamp,
-                    "changeFrequency": "monthly",
-                    "priority": 1
-                })
-            input_file.close()
-    article_files = list_files("articles")
-    for file in article_files:
-        with open(f"articles/{file}", 'r', encoding='utf-8') as input_file:
-            input_json = json.load(input_file)
-            created_timestamp = datetime.fromtimestamp(input_json['created_timestamp']).strftime("%Y-%m-%d")
-            pages.append({
-                "url": f"reviews/{input_json['slug']}",
-                "lastModified": created_timestamp,
-                "changeFrequency": "monthly",
-                "priority": 0.9
-            })
-            pages.append({
-                "url": f"reviews/{input_json['slug']}/data",
-                "lastModified": created_timestamp,
-                "changeFrequency": "monthly",
-                "priority": 0.2
-            })
-            input_file.close()
-    create_json_file(output_path, pages)
-    return
-
-
 def get_params():
     database_selection = None
     database_action = None
@@ -153,6 +113,44 @@ def get_params():
             exit(1)
     return database_selection, database_action, database_environment
 
+def create_sitemap():
+    pages = []
+    output_path = "./sitemap/sitemap.json"
+    config_files = list_files("config")
+    for file in config_files:
+        config_file_path = f"config/{file}"
+        metadata = get_file_metadata(config_file_path)
+        metadata_modified_timestamp = datetime.fromtimestamp(metadata['modified']).strftime("%Y-%m-%d")
+        with open(config_file_path, 'r', encoding='utf-8') as input_file:
+            input_json = json.load(input_file)
+            if 'type' in input_json and input_json['type'] == 'page':
+                pages.append({
+                    "url": f"{input_json['url']}",
+                    "lastModified": metadata_modified_timestamp,
+                    "changeFrequency": "monthly",
+                    "priority": 1
+                })
+            input_file.close()
+    article_files = list_files("articles")
+    for file in article_files:
+        with open(f"articles/{file}", 'r', encoding='utf-8') as input_file:
+            input_json = json.load(input_file)
+            created_timestamp = datetime.fromtimestamp(input_json['summary']['created_timestamp']).strftime("%Y-%m-%d")
+            pages.append({
+                "url": f"reviews/{input_json['slug']}",
+                "lastModified": created_timestamp,
+                "changeFrequency": "monthly",
+                "priority": 0.9
+            })
+            # pages.append({
+            #     "url": f"reviews/{input_json['slug']}/data",
+            #     "lastModified": created_timestamp,
+            #     "changeFrequency": "monthly",
+            #     "priority": 0.2
+            # })
+            input_file.close()
+    create_json_file(output_path, pages)
+    return
 
 def list_collections(db, client):
     match client:

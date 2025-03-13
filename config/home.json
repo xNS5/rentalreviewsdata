@@ -2,6 +2,7 @@
     "name": "home",
     "title": "Home",
     "type": "page",
+    "url": "",
     "description": "The Bellingham Rental Reviews Project",
     "content": [
         {
